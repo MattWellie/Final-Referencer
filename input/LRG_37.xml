@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="application/xml" href="lrg2html.xsl"?>
+
+<lrg schema_version="1.9">
+  <fixed_annotation>
+    <id>LRG_37</id>
+    <hgnc_id>1673</hgnc_id>
+    <sequence_source>NG_009891.1</sequence_source>
+    <organism taxon="9606">Homo sapiens</organism>
+    <source>
+      <name>CD3Dbase: Mutation registry for Autosomal recessive CD3delta deficiency</name>
+      <url>http://structure.bmc.lu.se/idbase/CD3Dbase/</url>
+      <contact>
+        <name>Jouni Valiaho</name>
+        <address>University of Tampere, Finland</address>
+        <email>Jouni.Valiaho@uta.fi</email>
+      </contact>
+      <contact>
+        <name>Mauno Vihinen</name>
+        <address>University of Tampere, Finland</address>
+        <email>Mauno.Vihinen@med.lu.se</email>
+      </contact>
+    </source>
+    <mol_type>dna</mol_type>
+    <creation_date>2010-07-15</creation_date>
+    <sequence>CAGGAGGTGGGAGGAATGGTTGAGCCTGGGAGGTGGAGGTTGCAGTGAGCCAAGATTGCACCACTGCACTCCAGCCTAGGTGTTAAAGCTGTCTCAAAAAAATAAAAACAAACAAACAGACAAACAAAACCTTAGGGTAGTAGAGTTGCATGGTAGACATATTACAGAGATCTGGCACTTGAATTCAATTCAATTAGATTTAATCCAAACATTTAACGAGGACTATTATGACCTAAAATAATTAGATATTATGAAAGAAAAGAGTGCTGATATGAAGAATCAACTGCTGCTTCCAAAGTTTATGAATGAAGTGAAAAAATTAAAACATATATGCAATTAATTTAATAGAATGTATACATTATCTTTTAGTGCTTATATGACTGCATATGAAAAAAGGGTAGAAGCTATTAATTTTGTCCAAGGGTGAGGATCAGGGAAAGCTTAATAGAGGAAACGACATTTGTCTGGGCCTTGAAGAGTAAGCAAGAATATACCAGATAGAGAAAGTCATTCTGAGTAGAAAGAATAGCTGAATAAGATGCAGCTTTGGAAAAGGACAAGAGAGGTAGTGTGGCTAGAGGTGGAGTGTGTGTGATAGGGAGAGGCGGTCATGAGTCAAAGTATAATGGAAATACAAGAAGTGAACTGTCTTAGAACCTCATGCAGGGCGGGATTATTTTTGAACAGTATCCAGTGCAGTGTCTGGAACATGGTAGGAACTTTATTTGTTGAATGAATGTGCAAATGAATAAATGAGCAAATGGGAGAAAAGGCAAGACAAACAGTTAAAGAGGTTTCTAACTAGTTTTTCTCCTGACCACCTGGTCAGAAGACCGAGAGAAGACAGAGACCCCTCATTCTAAATTGGATTCAGGGAAGGAGATTGCACTGATCATTGACATAGTTTTTTTTTTTTTTTTTGAGACATCTTTTTTTTTTTTTCTTGCTCTGTCACTCAGGCTGAAGTGCAGTGGTGTGATCATGGCTCACTGCAGCCTCAAGCTCCTGGGCTCAAGCAATCCTCCCACTTCAGCCTCCCAAGTAGCTGGCATAAGTGCATGCCAACATGCCTGGCTAATTTTCGTAGTTTTTGTAGACACAGGGTATCCCTATTTTGCCCAGGTTGGTCTTGAACTCCTGGGCTCAAATGATCCTCCCTCCCTAGCCTCCCAAAGTGTTGGGATTATAGCCATGAGCCACTGTGCCTGGCTGATTGACATCTTTTAATGTTGCATATCTGAGTGAGGTTTCCTTTTAGGACTTAAGAGTTCATATAGCCACATTTCTTTTTTTTTTGTTTTGTTTTTTGAGACGGAGTCTCACTCTGTCGCCCAGGCTGGAGTGCAGTGGCACCGTGTTGGCTCACTGCAACCTCCATCTCCTGGGTTCAAGCAATTCTCCTGCCTCAGCCTCCTGAGTAGCTGGGATTACAGGCACCCACCACCACACCCCACTAATTTTTAAAATATTTTTAGTAGAGATAGAGTTTCACCATGTTGACCAGGATGGTCTCGAACTCCTGACCTCAGGTGATCCACCTGCCTCGACCTCCCAAAGTGCTGGGATTACAGGCATGAGCCACCATGCCCGTCCCTGCCACATTTCTGGATTGGCTGGCATGAGAACTCCCAGACAGTGGAGGAGTTGTTCAAGTACACATAGCTCATTGGTGTCCAAGCTGGATCCAGAGCTCAGGTTTTCTACTGCTGAACTCAAATGCTCTTTCCATGATATGCAGCCACCTCACCCAGGCTTGAGAGTTGCTCCTCAACCTGTGTTGTCTTTACCTGACTTTTCCTTGCATTTCTCTCAGAAATAATTCTATTCTAAACTCTCACTGTCCTCTTCAAGTCTCCCAACCGGTCATCACCCAGCTCAGTTTCAGCAGGTGGCATTGCCTCCCACCTGGATTTTTTAGAACACGGAAGTTGTTATTGTCCTTTCTCCTTTAGCTTCCTTTCCCTTTATAAACCTATTTGTGGCCAGTGCCGTTTGCACTTCCTTTCTCCTGGTCTTAGAGGGTAACGTTGCCTTCCTCTCTGTGCTCTTGACCCCACTCTTGACTCTGTCCTTCCACCATCAACTCCAGGACCTTGCTCTACTCATCATCTTCTCCTTTAGCCTAGAAATGTGCTCAAGTTTCTCTCACCCTCAAAAACATTTATTCTTAGACTCTACTTCCTCCTCTACCTACCACCCAGTCTTTTCTCCCTCCTCATCCAAATGTCTTTAAAGAATAGTCTACACTTGCTGACCTCATCACCTGACCTTCACCTTCTACCAATTTTCACTTGGCTTCCACTCACAATACCCTGCTGAAACTGTGCTAAATCACCCATGATGCATATTCTGCCACATCCCGCAGACTTAAACTTTTAAATATATTCTTATATTAGTGGGCTCTCTTTAACATTTTATACTCTTGGTAATTCTCTTCTTCTAGAAGCTCTCTACTCTCTTGGTTTCCAAGGTAGTGCATACATTTGATTATTTCAGCTCTTTGATTCTCCTTTTATCTCTTTCCTGGAATGTTTTTTTTTCTCTAACTGCCCCTTAAAATTGGTGCCCTCACTGTTCCATCTTCAGCTCCCTCTTCCTCACATAGTACTTGTGTGACTTCAGCAAATTCCATGGTTTTAACTTTCCCAGGATGTCCAGACTCCAGGCATCAACCCAGTTCATCCACTTCCTATTGGATAGTCCAATGGAGTATTCATGCAGGCACCCATACTATACTGTACACTCAGTCTGGCACCATGAAAACTAATCTCTCCAATGAGACTATGAGTTCTGTAGAGCATAAGTGTTTTATTCATTTTTATTTCCTCATGGCATATCACATATTAGGGTCTCACCCATCTTTGTTGACCAATTGGCCAACTGCCCAACTGAGTGAATGGACATTTCCTAGGTCGACTGCTAGCCCCCAGCTCTGAAGTAGGGAACATATACTTTTTCCTTTTAGTTTCTTGGCCTATGCCCTTTTGGGCTGCATTCAAATCTAAGATGGCGGTAACAGGGTCCTCTCTTCAGCCATTTAAGTACTCTGTTTGCATTTTTCAGAGACAAGGATTCCTTCTCCTCCATGGGACACTGTTTCTCTCTAGCAGAGAACAGTTAAGAGCCTCCATTTTGCCCTTCTTTGAACTCTAAGGTGACAGCAGAGGTAGGCTGAAGGTTAGGGATACCAATATTCCTGTCTCACTAGTGATGGGCTCTTCCCTTGAGCCCTTCCCCAGGCTTCCAGACCCCTAGTAGGCCCTTACCTTGAAGAAGAATGATAGCCAGGATGAGGACAGCCAGGCCCTTCCCCTGTTCCATGTCAGTCTCTGTCCTCCGGCAAAAGCGTGGAGCAGCCCTTAGCAGCCAGCCAGCCAGCCAGCCTGTGCAGCAGCTAGACTGGCTCCACCCATCACTGTTGGGGCTGGGGCCTTTGAGAGAAGGCAAGAACCCAGAGCCTCCACCCTCTGCTGCAAGTGTGAGCAGCAGGGGCCTCAGCAGGGCTGCAGGTGCAGATGCCTTTTGTTTTTCCGTTAAGGAGGGTGAAGGTGGTGGGGAAGAAGAGGGAGAGAGTGCTGGATTCCCACTCAGAGACTCATCTTGCACAGGGAACCGCAATGGATGCTGGGTGGGAGATGGTCCTGGGACCGTTTCTTCATGAGGGAGATAAATGTCCCTGTCATTAGTTGTTAGGATCGTAGCCAGTTGTTACTTGTTGCTAGTTGTTGTTGCTGTAGGTAATGAATTTAGGAGGGACTCTCAGATGCTTGGGGCTGGACCTCCAAATGGAAAGCCACCTCAGTCCAGGCCTTCATTCAGGAATTTTTTTCACTTTTTTTTTCTTTTTCTTTTTTGAGACAGAGTCTCACTTTGTTGCCCAGGCTGGAGTGCAGTGGCGCTATCTCAGCTCACTGCAACCTCCACCTCCGGGGTTCAAGCGATTCTCCTGCCTCAGCCTCCTGAGTAGCTGAGATTACAGGTGCGTGCCAGCAAGCCCGGCTAATTTTTGTATTTTTAGTAGAGACGGGGTTTCACCTTGTTGGTCAGGCTGGTCTCGAACTCCTGACCTTGTGATCCACCTGCCTCAGCCTCCCAAAGTGTTGGGATTACAGGCGTGAGACACGGCACCTGGTTTCACTATTCTTTTGAGATCATGAAAGAGGCGCCTGGAAGGCAATAGGTGGAACAATTCCGAGGACAGGCCAGCACATTTTCAGGGGCCAGAGCCCGGACTGAATGTCCAGGATCTCAGGCCCCTATCTCCCTCAGCCAGTCAGTCAGTGAGCCAACAAAAATGTGCAGAGCTCCCGTTATGTGCCAGGCACAAGATACAGCAGTGAGCAAGACAGGCATGACTCTGTCCCCAGGTAAGTGACAGTCTAACTGCAGCAGCGTGAAGAGTTTCAGATCCTCGTAGGCCACAGGGGAAAAAGGTCCATTTGTCTCACCGGGAGGCTCAATATTGCCTGTCAGTCAATTATATTATTATTAATAACTACCCCTTAATGAGCACATATGATGCGTGAGGCACCATGCAAATATCTTGTTTGAATCCTAATAATGGTACTAATGGAATAAGACTCTGAAAAATTTTATGGCTGGCCCAGGCCCCACAGGTAGGCAGTATTGGACCCAGGATTCAAATCTCTGGCTGGGGTCTCTAAAGCCCAACCTCCCACTGACAAGAAGCTGCTAGATCTGGTGTCCCTGGCTGCCTAGTGAAGGGTCCTGAGAAAGATCAGCCTCCATGAGAAATCTAGCTGCTACGGCTTGCGCTATGGGGCCGACGGCTTCTCTCAAGGGGCTTCGAGATGTGGCAGTGTTTAGGTTGTGTGTAAATGTGGTTGCATTGTCAATAGGGACGCTAAAGTTCAGGCCACCTTTTCCATATTCTCTGCCAGCTCCCTGCTCAGAGATAGAGCAATTTACACCGCTTCCTTCCTACCCTACCCCTAGCCCACCCCCACTCTGAAAATTTCCCACCATCAACGGCAGAAAGCAGAGAAGCAGACATCTTCTAGTTCCTCCCCCACTCTCCTCTTTCCGGTACCTGTGAGTCAGCTAGGGGAGGGCAGCTCTCACCCAGGCTGATAGTTCGGTGACCTGGCTTTATCTACTGGATGAGTTCCGCTGGGAGATGGAACATAGCACGTTTCTCTCTGGCCTGGTACTGGCTACCCTTCTCTCGCAAGGTAAGGCTACTCCAGGTGGGTGGGGGAAGGGACCTGAGAGGGACATTACTGATGGGAGTGAGGCCCACTTGAAAGTGTTTCTTGCCAGGCACGGTGGCTCACACCAGTAATCCCAGAGCTTTGGGAGGCCGAAGTGGGAGGATCCTTTGAGGCCAGGAGTTTGAGACCAGTCTGAGCAACATGATGAGACTCTATCTTTACAAAAAACAAAAGAATTAGCCAGGCATGGTGGTGCACAACTGTAGTCCCAGCTATTTGAGAGGCTGAGGCAGGAGGGTCACTTGAGCCCGGGATTTCAAGGCTTCAGTGAGCTGTGATCATGCCACTGCCCTCCAACCTAGGCAACCTGTGAGACCTTATCTCAAAAAAAAAAAAAAGTGCTTCTCGGTGCTAGCTTCAGTTCACCAGGCACCCCAGGGGTGTCAGGAGGGCAGGGGCAGGATGTAGCATAGAGTCTGGGAAACAGGCTCTTGGCTTTGACTGACTCCAGCCATGGGTGCATGTGGGCCTAGAATGTCTCTCAGAAGGCCTTAGGCCAGAGATCTGCAGAAAATAGCTCAGTACGTATGTACCTGAATCTGGGACTGGCCATGGGAGCACAGCTTCCTGCACTACTCCTTTTAGGCCTGATGGCCTCTGGAATCAGGACTCTTGTTTGTTTGGCCATGATTATGTCATCCCTGGAGGCATGTCCTAGCACTTATGTGAATGCTTTAAGAGAAGTTAACTTTAGGTTGAGCAGGACGGAGGGAAGATTTGAGGGGTTGTTACATGGTAGGATTTTAACTCATCTCAGTTTGCCAATTTCAGTTTTAAAATGGAAAGTCCCATGTCCGAGGAACCCCTTCAACACTAAGCAAACTGGGTCCAATGGTCACCTAATAGTTGGCTGCACTAGGGCACTCAGGATTTCCACTGGAGACAGATCCCTGAAGAGGACGCGACTGTAGGACGTGAAGCATTTGATGTGCATGTGTCTCCCTGAGGATACATGCATATACTTCCAACCTGCTTCAGAAGTGTGAGCAACAGCTGTTTCAGGGTTTTCTAGAAGATGCTCTTGTATCCAAATTTGGGACTTAGTGTGAAGCCCAGGATGAATGAATGTAGCCTCCACTTTTCCCTGTGTTTGGAGGCATAGACTGTAGTGCCTCTGTGGCCTGTGGAGATGTGCTCAGGCTGTCAGAGGAACTCACTGCATCTGGAATGTTGCTGCACTCACCTCCAGCCCTAAAAGTCTCCCACAAGACTTGACTTGTGAGGAGCTCTAGGGATGGATTCAATAAAATTTTTTTCCTGTTCTCCTCCTTCTAACCAAGGGTGGAAAACTGTACATGGGATTTGCCCTGGTCCCGTTCTGGACCACTTGGCTGATAATTCAGGGGCTGGTAAACCAGCTGGTCTCCACCCACAGCCATCCCTGGCCCTGGGAAAGGCTTCAGTGTTGAGAGCCCCGCTTTCTTGGTTGTCAATGGAGCAGGGGCAATGAGGAAGGATGAGGATAAGAAGCTGAAGTGGGAGTGTTGTAGATGGCTGGGAAGTGGAATTAGATGTTTCCTTGAAGAAAAAATGCAGACATTTCCAATCGAGGAATGTTCTTCTGTCTTTCCACATCTTCCAGGTGCTTCAGTGGTCCGTGCTCCCCCTACTCCTCATCAGTGGTCTGGATTCATTTCCAGGAAGGTGCTTGGGTCAATCCTGCTCTGAGGGGTCCTCTTTTGCACCAAGGCCCCAAGACCTGTCCTCTGCTTGAATGGCATCCTCATGTCCCCCTTGACCCCTGCAGTTGGTGGGGAACTTTCTGAAGGCTTTTTCTTGTGACTTCTGTCTCTCTTGATGGAAGCCATAAACTGTCCTGGACCAGGAAAATGGTCTCTGTTAAGTATGAGCTTCCGCAGAACAAAGGGCTTGGTGCAGATCAAAGAGCTGTCTCCAACTGTGATATTTTTTCCCCTTTAGTGAGCCCCTTCAAGATACCTATAGAGGAACTTGAGGACAGAGTGTTTGTGAATTGCAATACCAGCATCACATGGGTAGAGGGAACGGTGGGAACACTGCTCTCAGACATTACAAGACTGGACCTGGGAAAACGCATCCTGGACCCACGAGGAATATATAGGTGTAATGGGACAGATATATACAAGGACAAAGAATCTACCGTGCAAGTTCATTATCGAAGTACGTGCTTCCTGAACCCTTTGGGTTGGAATGGATAGGGCTTCTGGATGTGAGAACTTTCTGGCTAGAGAGGGATATGGTGAACCCATCTGTTCTCTAAACAAAGTGAGGTCACTATTGTAATGGTACAAGCCAGATTTGGGGACCTTCAAAGTGGAAGAGAGAGCTTAACTCAGCAAGACAGAGCAGTAGGGGTCATGTTACTGCAGCCTTGGTTGGGTGAGAGGTTTGGCCCACCACCTTGTTCAAGGTCCCAAAAGCTGAGATTACTTCTTGGCTCTTCCCAGGGATTCCTTAGGATGCAGGGTGGAGGAAGGTGTGGCAAGCCCATCACCAGGCCTTTCTCCCAGGGTCTTATTGAAGTTTGGGTTTTGGCATAAGAGATCTAAGGGTTGCCCTAGGAGGCAGAGGATGGTTCCCTGATCTTAAAGGCTCTCAACCTCTCCTCTCTCCTCCCTTCCCCCACAGTGTGCCAGAGCTGTGTGGAGCTGGATCCAGCCACCGTGGCTGGCATCATTGTCACTGATGTCATTGCCACTCTGCTCCTTGCTTTGGGAGTCTTCTGCTTTGCTGGACATGAGACTGGAAGGCTGTCTGGGGGTTAGTGGAAGAGCAGAGCATGAGAGTGTGTTTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTACCAGTGAGCTTATGCACCAGCTAAGGAATGGGGCTGGTGGTAGGTTTAGTCTCAGCTGGGAGTTACTCTTGCAATCTCCTAAAGACTCCTAGAACTTTGACTGTTGAAAGAACTTGTGTGTTCATATCACTCATGCAGACTTCTGAGGGTGTGGGAGGGTGGATCTCACAGTCCCATCTGCTAGGCCATTGATGTCTCTCTCTGGTTCTTCTAGCTGCCGACACACAAGCTCTGTTGAGGAATGACCAGGTCTATCAGGTGAGCGTTGAGGGGAAGGAGGCAGGAATGAAGGGAGGGTAAGTGGGGATAGAGAGGCTCACACTGAATGCTGTTTGCACGTGGGAAGGGTCCTACTGGGGAGTTCATTGCTGGGTGTGACTGGAGAGGTCAGGCAGGAGCTCTCATCGTCAGGGCCTGCTGGGGCCCTTCCTTGAAGAGTTCTAACCCTGCCTCCTGACCGTTTTCTCTTCTCCTCTCTTAGCCCCTCCGAGATCGAGATGATGCTCAGTACAGCCACCTTGGAGGAAACTGGGCTCGGAACAAGTGAACCTGAGACTGGTGGCTTCTAGAAGCAGCCATTACCAACTGTACCTTCCCTTCTTGCTCAGCCAATAAATATATCCTCTTTCACTCAGCAGGTGCCTGGGCTTCTTAAGGCTCCTGGGCAAGGCGTGGGAGTTGTCCTGACTTGCTTGGGATCTCGCCCTCCTACCTACCTGTTTCTTCCTTCATCTCCTTCCTTCCTCTGCCTCACACAGACAGTGTGTTGGGCAGTCTCTCGCCACATCCTGGCTGTCTGGTGTTTCTAGCCCACAGGGCTCCCTGGGTGAAGGGTCTGCGCCACCACGTTCCCACAGCTACTTGTTGACTCCAGTCCCTATCACAACCCTTTTAGGGTTTTGGCTGCCTCATCCAGCCGAGGGCAGGCTGCTGTGTTCAGGAGCCCAGCCGCACAGAAGTTTCCATGATGTCATGAATGGGAGTGGCAGAGACAACAAGGGGCCCTGGGACTAGTTTCTCACCAAGACTCAGAGGGTGTGTGTAACAAAGTCCCACTGCTGCTAAGGGGATGGCCTCAACTCTACGGCCCTGCTGACCAGGTGCCACTAGCTGTAAGGAGGTCTCACCTAAGCCCCTTTCGTATCCCTTTCCCCTGTATCAAAGGCACCATTTTAGCTTCCTTTCGCCAGGACCTGTCTCTGGCTTGCTCCTGCCTTCTGCATGATAAATGGGGATCAGAAACCCTTCACCAATTAAAGCACATTATCCCGCTCCATCTACCTGGAAAGCAGGAGTTTGAGACAGGGATTTTTTTTTTTTTTGAGATGGAGTCTTGCTCTGTTGCTCAGGCTGGAGTGCTGTGGCATGATCTTGGCTTACTGCAACCTCTGTCTCCTGGAGTCAAGTGATTCTCCTGCCTCAGCCTCCTGAGTAGCTGGGATTGCAAGCATGTGTCACCAAGTTCAGCTAATTTTTGTATTTTTAGTAGAGACAGGGTTTCATCATGTTGGCCAGGCTGGTCTCGAACTCTTGACCTCAAATGATCCACTCACTCAGCCTCCAAAAGTGCTGGGATTAGAGGCATGAGCCACTGCACCTGGCTGAGACAGGGATATTTTCAATAGATGTCATCTTCTATTACTTCTAATGGTAGTGGTTCTAGGCTGGGCACAATGGCTCATGCATGTAATCCCAGCACTTTAGGAGGCAGAGGCAAGAGGATCACTTGAGCCTAGGAGTTCAAAACCAGCCTGGGCAACATAGCAACATCCCGTCTCGACCAAAAAAAAAAACAAAATCAGCTCAGTGCAGTGGTGGGCACCTGTAGTCCTAGCTATTTGGGAGGCTGAGGTGGGAGGATTGCATGAGGCTGGGAATTGGAGGCTGCAGTGAGTTATGATTGTGCCACTGCACTCCAGCCTGGGCTACAGAGTGAGACCCTATCTTAAAAAAAAAATAGCTATGGTTCTGAAACTTTGGAGGCCTGAGGGATTTATTAAAAATATAAATGCAGCCAGGCATGGTGGCTCACACCTGTAATCCCAGCACTTTGGGAGGTTTAGGCGGGCAGATCACAAGATCAGGAGATTGAGATCATCCTGGCCAACATGGTGAAACCCCGTTTCTACTAAAAATACAAAAATTAGCTGGGCATGGTGGTGCACGCCTGTAATCCCAGCTACTCGGGAGGCTGAGGCAGGAGAATTGCTTGAACCCGGGAGGCGGAGGTTGCAGTGAGTCAAGATTGCGCCACCGCACTCCAGCCTGGTGACAGAGCGAGACTTGGTCTCAAAATAAAATAAAATAAAATAAAATAAAATAAAATAAAAGTGCTAGAGACGCACTCTAGGCAGGGTGTTTCCAGTTGATTCTGAAACAGCCCAAATTCAGAGTCTCTTGTTTAGAGGGAGAATAGAGGCCACTTTCTCTCTTATGTCTTTTATGCCTGTTCCTGGATCCCAGAGCAGGGGATTCCTTCTTTTGTTCTCTGATTACACAAATAATTTAAAGAGCCTCTGGAAAGTTTAATGACTGAGAATTTCATAGACCTGGGTTCCCAAAGGAGAAAAGAATTAGTAACCACATAGCCAGAAAATTGGATGATTCTGCCCACCATCTTCTCAAGATACATTCA</sequence>
+    <transcript name="t1">
+      <comment>This transcript is identical to the RefSeq transcript NM_000732.4 but with the polyA tail removed.</comment>
+      <coordinates coord_system="LRG_37" start="5001" end="8671" strand="1" />
+      <cdna>
+        <sequence>AGAGAAGCAGACATCTTCTAGTTCCTCCCCCACTCTCCTCTTTCCGGTACCTGTGAGTCAGCTAGGGGAGGGCAGCTCTCACCCAGGCTGATAGTTCGGTGACCTGGCTTTATCTACTGGATGAGTTCCGCTGGGAGATGGAACATAGCACGTTTCTCTCTGGCCTGGTACTGGCTACCCTTCTCTCGCAAGTGAGCCCCTTCAAGATACCTATAGAGGAACTTGAGGACAGAGTGTTTGTGAATTGCAATACCAGCATCACATGGGTAGAGGGAACGGTGGGAACACTGCTCTCAGACATTACAAGACTGGACCTGGGAAAACGCATCCTGGACCCACGAGGAATATATAGGTGTAATGGGACAGATATATACAAGGACAAAGAATCTACCGTGCAAGTTCATTATCGAATGTGCCAGAGCTGTGTGGAGCTGGATCCAGCCACCGTGGCTGGCATCATTGTCACTGATGTCATTGCCACTCTGCTCCTTGCTTTGGGAGTCTTCTGCTTTGCTGGACATGAGACTGGAAGGCTGTCTGGGGCTGCCGACACACAAGCTCTGTTGAGGAATGACCAGGTCTATCAGCCCCTCCGAGATCGAGATGATGCTCAGTACAGCCACCTTGGAGGAAACTGGGCTCGGAACAAGTGAACCTGAGACTGGTGGCTTCTAGAAGCAGCCATTACCAACTGTACCTTCCCTTCTTGCTCAGCCAATAAATATATCCTCTTTCACTCAG</sequence>
+      </cdna>
+      <coding_region>
+        <coordinates coord_system="LRG_37" start="5138" end="8583" strand="1" />
+        <translation name="p1">
+          <sequence>MEHSTFLSGLVLATLLSQVSPFKIPIEELEDRVFVNCNTSITWVEGTVGTLLSDITRLDLGKRILDPRGIYRCNGTDIYKDKESTVQVHYRMCQSCVELDPATVAGIIVTDVIATLLLALGVFCFAGHETGRLSGAADTQALLRNDQVYQPLRDRDDAQYSHLGGNWARNK</sequence>
+        </translation>
+      </coding_region>
+      <exon label="1">
+        <coordinates coord_system="LRG_37" start="5001" end="5192" strand="1" />
+        <coordinates coord_system="LRG_37t1" start="1" end="192" />
+        <coordinates coord_system="LRG_37p1" start="1" end="19" />
+      </exon>
+      <intron phase="1" />
+      <exon label="2">
+        <coordinates coord_system="LRG_37" start="7152" end="7370" strand="1" />
+        <coordinates coord_system="LRG_37t1" start="193" end="411" />
+        <coordinates coord_system="LRG_37p1" start="19" end="92" />
+      </exon>
+      <intron phase="1" />
+      <exon label="3">
+        <coordinates coord_system="LRG_37" start="7839" end="7970" strand="1" />
+        <coordinates coord_system="LRG_37t1" start="412" end="543" />
+        <coordinates coord_system="LRG_37p1" start="92" end="136" />
+      </exon>
+      <intron phase="1" />
+      <exon label="4">
+        <coordinates coord_system="LRG_37" start="8251" end="8294" strand="1" />
+        <coordinates coord_system="LRG_37t1" start="544" end="587" />
+        <coordinates coord_system="LRG_37p1" start="136" end="150" />
+      </exon>
+      <intron phase="0" />
+      <exon label="5">
+        <coordinates coord_system="LRG_37" start="8518" end="8671" strand="1" />
+        <coordinates coord_system="LRG_37t1" start="588" end="741" />
+        <coordinates coord_system="LRG_37p1" start="151" end="171" />
+      </exon>
+    </transcript>
+  </fixed_annotation>
+  <updatable_annotation>
+    <annotation_set type="requester">
+      <source>
+        <name>CD3Dbase: Mutation registry for Autosomal recessive CD3delta deficiency</name>
+        <url>http://structure.bmc.lu.se/idbase/CD3Dbase/</url>
+        <contact>
+          <name>Jouni Valiaho</name>
+          <address>University of Tampere, Finland</address>
+          <email>Jouni.Valiaho@uta.fi</email>
+        </contact>
+        <contact>
+          <name>Mauno Vihinen</name>
+          <address>University of Tampere, Finland</address>
+          <email>Mauno.Vihinen@med.lu.se</email>
+        </contact>
+      </source>
+      <modification_date>2015-06-22</modification_date>
+    </annotation_set>
+    <annotation_set type="lrg">
+      <source>
+        <name>LRG</name>
+        <url>http://www.lrg-sequence.org/</url>
+        <contact>
+          <name>Locus Reference Genomic</name>
+          <url>http://www.lrg-sequence.org/contact</url>
+          <email>feedback@lrg-sequence.org</email>
+        </contact>
+      </source>
+      <modification_date>2015-06-22</modification_date>
+      <mapping coord_system="GRCh37.p13" other_name="11" other_id="NC_000011.9" other_id_syn="CM000673.1" other_start="118207789" other_end="118218459" type="other_assembly">
+        <mapping_span lrg_start="1" lrg_end="10671" other_start="118207789" other_end="118218459" strand="-1" />
+      </mapping>
+      <mapping coord_system="GRCh38.p2" other_name="11" other_id="NC_000011.10" other_id_syn="CM000673.2" other_start="118337074" other_end="118347744" type="main_assembly">
+        <mapping_span lrg_start="1" lrg_end="10671" other_start="118337074" other_end="118347744" strand="-1" />
+      </mapping>
+      <lrg_locus source="HGNC">CD3D</lrg_locus>
+    </annotation_set>
+    <annotation_set type="ncbi">
+      <source>
+        <name>NCBI RefSeqGene</name>
+        <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
+        <contact>
+          <name>RefSeqGene Group</name>
+          <address>NCBI/NLM/NIH</address>
+          <email>rsgene@ncbi.nlm.nih.gov</email>
+        </contact>
+      </source>
+      <comment>Annotation from NG_009891.1</comment>
+      <modification_date>2015-06-19</modification_date>
+      <mapping coord_system="NM_000732.4" other_name="NM_000732.4" other_id="NM_000732.4" other_start="1" other_end="741" type="transcript">
+        <mapping_span lrg_start="5001" lrg_end="5192" other_start="1" other_end="192" strand="1" />
+        <mapping_span lrg_start="7152" lrg_end="7370" other_start="193" other_end="411" strand="1" />
+        <mapping_span lrg_start="7839" lrg_end="7970" other_start="412" other_end="543" strand="1" />
+        <mapping_span lrg_start="8251" lrg_end="8294" other_start="544" other_end="587" strand="1" />
+        <mapping_span lrg_start="8518" lrg_end="8671" other_start="588" other_end="741" strand="1" />
+      </mapping>
+      <mapping coord_system="NM_001040651.1" other_name="NM_001040651.1" other_id="NM_001040651.1" other_start="1" other_end="609" type="transcript">
+        <mapping_span lrg_start="5001" lrg_end="5192" other_start="1" other_end="192" strand="1" />
+        <mapping_span lrg_start="7152" lrg_end="7370" other_start="193" other_end="411" strand="1" />
+        <mapping_span lrg_start="8251" lrg_end="8294" other_start="412" other_end="455" strand="1" />
+        <mapping_span lrg_start="8518" lrg_end="8671" other_start="456" other_end="609" strand="1" />
+      </mapping>
+      <features>
+        <gene source="NCBI-Gene" accession="917">
+          <symbol source="HGNC" name="CD3G">
+            <synonym>CD3-GAMMA</synonym>
+            <synonym>IMD17</synonym>
+            <synonym>T3G</synonym>
+          </symbol>
+          <coordinates coord_system="LRG_37" start="1" end="3401" strand="-1" />
+          <partial>3-prime</partial>
+          <long_name>CD3g molecule, gamma (CD3-TCR complex)</long_name>
+          <db_xref source="GeneID" accession="917" />
+          <db_xref source="HGNC" accession="HGNC:1675" />
+          <db_xref source="MIM" accession="186740" />
+          <db_xref source="CCDS" accession="CCDS8395.1" />
+          <transcript source="RefSeq" accession="NM_000073.2">
+            <coordinates coord_system="LRG_37" start="3267" end="3401" strand="-1" />
+            <partial>3-prime</partial>
+            <long_name>CD3g molecule, gamma (CD3-TCR complex)</long_name>
+            <db_xref source="GeneID" accession="917" />
+            <db_xref source="GI" accession="166362738" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_37" start="3267" end="3401" strand="-1" />
+              <partial>3-prime</partial>
+            </exon>
+            <protein_product source="RefSeq" accession="NP_000064.1" codon_start="1">
+              <coordinates coord_system="LRG_37" start="3267" end="3321" strand="-1" />
+              <partial>3-prime</partial>
+              <long_name>T-cell surface glycoprotein CD3 gamma chain precursor</long_name>
+              <long_name>CD3g antigen, gamma polypeptide (TiT3 complex)</long_name>
+              <long_name>T-cell receptor T3 gamma chain</long_name>
+              <long_name>T-cell antigen receptor complex, gamma subunit of T3</long_name>
+              <long_name>T-cell surface glycoprotein CD3 gamma chain</long_name>
+              <long_name>CD3g molecule, epsilon (CD3-TCR complex)</long_name>
+              <db_xref source="CCDS" accession="CCDS8395.1" />
+              <db_xref source="GeneID" accession="917" />
+              <db_xref source="GI" accession="4557429" />
+            </protein_product>
+          </transcript>
+        </gene>
+        <gene source="NCBI-Gene" accession="915">
+          <symbol source="HGNC" name="CD3D">
+            <synonym>CD3-DELTA</synonym>
+            <synonym>IMD19</synonym>
+            <synonym>T3D</synonym>
+          </symbol>
+          <coordinates coord_system="LRG_37" start="5001" end="8671" strand="1" />
+          <long_name>CD3d molecule, delta (CD3-TCR complex)</long_name>
+          <db_xref source="GeneID" accession="915" />
+          <db_xref source="HGNC" accession="HGNC:1673" />
+          <db_xref source="MIM" accession="186790" />
+          <db_xref source="CCDS" accession="CCDS41724.1" />
+          <db_xref source="CCDS" accession="CCDS8394.1" />
+          <db_xref source="GI" accession="224451041" />
+          <transcript source="RefSeq" accession="NM_000732.4" fixed_id="t1">
+            <coordinates coord_system="LRG_37" start="5001" end="8671" strand="1" />
+            <long_name>CD3d molecule, delta (CD3-TCR complex), transcript variant 1</long_name>
+            <db_xref source="GeneID" accession="915" />
+            <db_xref source="GI" accession="98985799" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_37" start="5001" end="5192" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_37" start="7152" end="7370" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_37" start="7839" end="7970" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_37" start="8251" end="8294" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_37" start="8518" end="8671" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_000723.1" fixed_id="p1">
+              <coordinates coord_system="LRG_37" start="5138" end="8583" strand="1" />
+              <long_name>T-cell surface glycoprotein CD3 delta chain isoform A precursor</long_name>
+              <long_name>CD3d antigen, delta polypeptide (TiT3 complex)</long_name>
+              <long_name>OKT3, delta chain</long_name>
+              <long_name>CD3 antigen, delta subunit</long_name>
+              <long_name>T-cell receptor T3 delta chain</long_name>
+              <long_name>CD3 delta</long_name>
+              <db_xref source="CCDS" accession="CCDS8394.1" />
+              <db_xref source="GeneID" accession="915" />
+              <db_xref source="GI" accession="4502669" />
+            </protein_product>
+          </transcript>
+          <transcript source="RefSeq" accession="NM_001040651.1">
+            <coordinates coord_system="LRG_37" start="5001" end="8671" strand="1" />
+            <long_name>CD3d molecule, delta (CD3-TCR complex), transcript variant 2</long_name>
+            <db_xref source="GeneID" accession="915" />
+            <db_xref source="GI" accession="98985800" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_37" start="5001" end="5192" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_37" start="7152" end="7370" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_37" start="8251" end="8294" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_37" start="8518" end="8671" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_001035741.1">
+              <coordinates coord_system="LRG_37" start="5138" end="8583" strand="1" />
+              <long_name>T-cell surface glycoprotein CD3 delta chain isoform B precursor</long_name>
+              <db_xref source="CCDS" accession="CCDS41724.1" />
+              <db_xref source="GeneID" accession="915" />
+              <db_xref source="GI" accession="98985801" />
+            </protein_product>
+          </transcript>
+        </gene>
+      </features>
+    </annotation_set>
+    <annotation_set type="ensembl">
+      <source>
+        <name>Ensembl</name>
+        <url>http://www.ensembl.org/</url>
+        <contact>
+          <name>Ensembl</name>
+          <address>European Bioinformatics Institute</address>
+          <email>helpdesk@ensembl.org</email>
+        </contact>
+      </source>
+      <comment>Annotation is based on Ensembl release 80 (GRCh38  primary assembly)</comment>
+      <modification_date>2015-06-22</modification_date>
+      <mapping coord_system="ENST00000300692.7" other_name="ENST00000300692.7" other_id="ENST00000300692.7" other_start="1" other_end="861" type="transcript">
+        <mapping_span lrg_start="5001" lrg_end="5192" other_start="1" other_end="192" strand="1" />
+        <mapping_span lrg_start="7152" lrg_end="7370" other_start="193" other_end="411" strand="1" />
+        <mapping_span lrg_start="7839" lrg_end="7970" other_start="412" other_end="543" strand="1" />
+        <mapping_span lrg_start="8251" lrg_end="8294" other_start="544" other_end="587" strand="1" />
+        <mapping_span lrg_start="8518" lrg_end="8791" other_start="588" other_end="861" strand="1" />
+      </mapping>
+      <mapping coord_system="ENST00000392884.2" other_name="ENST00000392884.2" other_id="ENST00000392884.2" other_start="1" other_end="476" type="transcript">
+        <mapping_span lrg_start="5114" lrg_end="5192" other_start="1" other_end="79" strand="1" />
+        <mapping_span lrg_start="7152" lrg_end="7370" other_start="80" other_end="298" strand="1" />
+        <mapping_span lrg_start="8251" lrg_end="8294" other_start="299" other_end="342" strand="1" />
+        <mapping_span lrg_start="8518" lrg_end="8651" other_start="343" other_end="476" strand="1" />
+      </mapping>
+      <mapping coord_system="ENST00000526561.1" other_name="ENST00000526561.1" other_id="ENST00000526561.1" other_start="1" other_end="257" type="transcript">
+        <mapping_span lrg_start="5114" lrg_end="5192" other_start="1" other_end="79" strand="1" />
+        <mapping_span lrg_start="8251" lrg_end="8294" other_start="80" other_end="123" strand="1" />
+        <mapping_span lrg_start="8518" lrg_end="8651" other_start="124" other_end="257" strand="1" />
+      </mapping>
+      <mapping coord_system="ENST00000529594.4" other_name="ENST00000529594.4" other_id="ENST00000529594.4" other_start="1" other_end="422" type="transcript">
+        <mapping_span lrg_start="5098" lrg_end="5192" other_start="1" other_end="95" strand="1" />
+        <mapping_span lrg_start="7839" lrg_end="7970" other_start="96" other_end="227" strand="1" />
+        <mapping_span lrg_start="8251" lrg_end="8294" other_start="228" other_end="271" strand="1" />
+        <mapping_span lrg_start="8518" lrg_end="8668" other_start="272" other_end="422" strand="1" />
+      </mapping>
+      <mapping coord_system="ENST00000534687.4" other_name="ENST00000534687.4" other_id="ENST00000534687.4" other_start="1" other_end="483" type="transcript">
+        <mapping_span lrg_start="6808" lrg_end="6875" other_start="1" other_end="68" strand="1" />
+        <mapping_span lrg_start="7152" lrg_end="7370" other_start="69" other_end="287" strand="1" />
+        <mapping_span lrg_start="8251" lrg_end="8294" other_start="288" other_end="331" strand="1" />
+        <mapping_span lrg_start="8518" lrg_end="8669" other_start="332" other_end="483" strand="1" />
+      </mapping>
+      <features>
+        <gene source="Ensembl" accession="ENSG00000160654.8">
+          <symbol source="HGNC" name="CD3G" />
+          <coordinates coord_system="LRG_37" start="1" end="3401" strand="-1" mapped_from="GRCh38" />
+          <partial>3-prime</partial>
+          <long_name>CD3g molecule, gamma (CD3-TCR complex) (protein_coding)</long_name>
+          <db_xref source="GeneID" accession="917">
+            <synonym>CD3-GAMMA</synonym>
+            <synonym>IMD17</synonym>
+            <synonym>T3G</synonym>
+          </db_xref>
+          <db_xref source="MIM" accession="186740" />
+          <db_xref source="HGNC" accession="1675" />
+          <db_xref source="Ensembl" accession="ENSG00000160654" />
+          <transcript source="Ensembl" accession="ENST00000533462.4">
+            <coordinates coord_system="LRG_37" start="1" end="3401" strand="-1" mapped_from="GRCh38" />
+            <partial>3-prime</partial>
+            <long_name>CD3G-003 (retained_intron)</long_name>
+            <exon source="Ensembl" accession="ENSE00002168401">
+              <coordinates coord_system="LRG_37" start="3267" end="3401" strand="-1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000527777.4">
+            <coordinates coord_system="LRG_37" start="1" end="3401" strand="-1" mapped_from="GRCh38" />
+            <partial>3-prime</partial>
+            <long_name>CD3G-004 (retained_intron)</long_name>
+            <exon source="Ensembl" accession="ENSE00002168401">
+              <coordinates coord_system="LRG_37" start="3267" end="3401" strand="-1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000532917.1">
+            <coordinates coord_system="LRG_37" start="1" end="3389" strand="-1" mapped_from="GRCh38" />
+            <partial>3-prime</partial>
+            <long_name>CD3G-001 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS8395.1" />
+            <db_xref source="RefSeq" accession="NM_000073.2" />
+            <exon source="Ensembl" accession="ENSE00002196897">
+              <coordinates coord_system="LRG_37" start="3267" end="3389" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000431445.1">
+              <coordinates coord_system="LRG_37" start="1" end="3321" strand="-1" mapped_from="GRCh38" />
+              <partial>3-prime</partial>
+              <long_name>T-cell surface glycoprotein CD3 gamma chain precursor</long_name>
+              <db_xref source="RefSeq" accession="NP_000064.1" />
+              <db_xref source="UniProtKB" accession="P09693">
+                <synonym>Q2HIZ6</synonym>
+              </db_xref>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000292144.7">
+            <coordinates coord_system="LRG_37" start="1" end="3380" strand="-1" mapped_from="GRCh38" />
+            <partial>3-prime</partial>
+            <long_name>CD3G-002 (nonsense_mediated_decay)</long_name>
+            <exon source="Ensembl" accession="ENSE00002165478">
+              <coordinates coord_system="LRG_37" start="3267" end="3380" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000292144.4">
+              <coordinates coord_system="LRG_37" start="1" end="3321" strand="-1" mapped_from="GRCh38" />
+              <partial>3-prime</partial>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000528540.4">
+            <coordinates coord_system="LRG_37" start="1" end="3359" strand="-1" mapped_from="GRCh38" />
+            <partial>3-prime</partial>
+            <long_name>CD3G-005 (processed_transcript)</long_name>
+            <exon source="Ensembl" accession="ENSE00002177017">
+              <coordinates coord_system="LRG_37" start="3267" end="3359" strand="-1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000532903.1">
+            <coordinates coord_system="LRG_37" start="1" end="3338" strand="-1" mapped_from="GRCh38" />
+            <partial>3-prime</partial>
+            <long_name>CD3G-006 (processed_transcript)</long_name>
+            <exon source="Ensembl" accession="ENSE00002153477">
+              <coordinates coord_system="LRG_37" start="3267" end="3338" strand="-1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000392883.5">
+            <coordinates coord_system="LRG_37" start="1" end="3401" strand="-1" mapped_from="GRCh38" />
+            <partial>3-prime</partial>
+            <long_name>CD3G-201 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00002168401">
+              <coordinates coord_system="LRG_37" start="3267" end="3401" strand="-1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+        </gene>
+        <gene source="Ensembl" accession="ENSG00000167286.8">
+          <symbol source="HGNC" name="CD3D" />
+          <coordinates coord_system="LRG_37" start="5001" end="8791" strand="1" mapped_from="GRCh38" />
+          <long_name>CD3d molecule, delta (CD3-TCR complex) (protein_coding)</long_name>
+          <db_xref source="GeneID" accession="915">
+            <synonym>CD3-DELTA</synonym>
+            <synonym>IMD19</synonym>
+            <synonym>T3D</synonym>
+          </db_xref>
+          <db_xref source="MIM" accession="186790" />
+          <db_xref source="HGNC" accession="1673">
+            <synonym>T3D</synonym>
+          </db_xref>
+          <db_xref source="Ensembl" accession="ENSG00000167286" />
+          <transcript source="Ensembl" accession="ENST00000300692.7">
+            <coordinates coord_system="LRG_37" start="5001" end="8791" strand="1" mapped_from="GRCh38" />
+            <long_name>CD3D-001 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS8394.1" />
+            <db_xref source="RefSeq" accession="NM_000732.4" />
+            <exon source="Ensembl" accession="ENSE00001275643">
+              <coordinates coord_system="LRG_37" start="5001" end="5192" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001111784">
+              <coordinates coord_system="LRG_37" start="7152" end="7370" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001111779">
+              <coordinates coord_system="LRG_37" start="7839" end="7970" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003619361">
+              <coordinates coord_system="LRG_37" start="8251" end="8294" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002189483">
+              <coordinates coord_system="LRG_37" start="8518" end="8791" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000300692.4">
+              <coordinates coord_system="LRG_37" start="5138" end="8583" strand="1" mapped_from="GRCh38" />
+              <long_name>T-cell surface glycoprotein CD3 delta chain isoform A precursor</long_name>
+              <db_xref source="RefSeq" accession="NP_000723.1" />
+              <db_xref source="UniProtKB" accession="P04234">
+                <synonym>A8MVP6</synonym>
+              </db_xref>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000529594.4">
+            <coordinates coord_system="LRG_37" start="5098" end="8668" strand="1" mapped_from="GRCh38" />
+            <long_name>CD3D-002 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00002197106">
+              <coordinates coord_system="LRG_37" start="5098" end="5192" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001111779">
+              <coordinates coord_system="LRG_37" start="7839" end="7970" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003619361">
+              <coordinates coord_system="LRG_37" start="8251" end="8294" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002174407">
+              <coordinates coord_system="LRG_37" start="8518" end="8668" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000437335.1">
+              <coordinates coord_system="LRG_37" start="5138" end="8583" strand="1" mapped_from="GRCh38" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000392884.2">
+            <coordinates coord_system="LRG_37" start="5114" end="8651" strand="1" mapped_from="GRCh38" />
+            <long_name>CD3D-003 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS41724.1" />
+            <db_xref source="RefSeq" accession="NM_001040651.1" />
+            <exon source="Ensembl" accession="ENSE00003684746">
+              <coordinates coord_system="LRG_37" start="5114" end="5192" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001111784">
+              <coordinates coord_system="LRG_37" start="7152" end="7370" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003619361">
+              <coordinates coord_system="LRG_37" start="8251" end="8294" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003483279">
+              <coordinates coord_system="LRG_37" start="8518" end="8651" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000376622.2">
+              <coordinates coord_system="LRG_37" start="5138" end="8583" strand="1" mapped_from="GRCh38" />
+              <long_name>T-cell surface glycoprotein CD3 delta chain isoform B precursor</long_name>
+              <db_xref source="RefSeq" accession="NP_001035741.1" />
+              <db_xref source="UniProtKB" accession="P04234">
+                <synonym>A8MVP6</synonym>
+              </db_xref>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000526561.1">
+            <coordinates coord_system="LRG_37" start="5114" end="8651" strand="1" mapped_from="GRCh38" />
+            <long_name>CD3D-004 (retained_intron)</long_name>
+            <exon source="Ensembl" accession="ENSE00003686109">
+              <coordinates coord_system="LRG_37" start="5114" end="5192" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003688259">
+              <coordinates coord_system="LRG_37" start="8251" end="8294" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003559946">
+              <coordinates coord_system="LRG_37" start="8518" end="8651" strand="1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000534687.4">
+            <coordinates coord_system="LRG_37" start="6808" end="8669" strand="1" mapped_from="GRCh38" />
+            <long_name>CD3D-005 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00002189034">
+              <coordinates coord_system="LRG_37" start="6808" end="6875" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001111784">
+              <coordinates coord_system="LRG_37" start="7152" end="7370" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003619361">
+              <coordinates coord_system="LRG_37" start="8251" end="8294" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001111782">
+              <coordinates coord_system="LRG_37" start="8518" end="8669" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000434794.1" codon_start="3">
+              <coordinates coord_system="LRG_37" start="6808" end="8583" strand="1" mapped_from="GRCh38" />
+            </protein_product>
+          </transcript>
+        </gene>
+      </features>
+    </annotation_set>
+    <annotation_set type="lsdb">
+      <source>
+        <name>List of locus specific databases for CD3D</name>
+        <url>http://grenada.lumc.nl/LSDB_list/lsdbs/CD3D</url>
+      </source>
+      <modification_date>2015-06-22</modification_date>
+    </annotation_set>
+  </updatable_annotation>
+</lrg>

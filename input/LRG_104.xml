@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="application/xml" href="lrg2html.xsl"?>
+
+<lrg schema_version="1.9">
+  <fixed_annotation>
+    <id>LRG_104</id>
+    <hgnc_id>19440</hgnc_id>
+    <sequence_source>NG_007277.1</sequence_source>
+    <organism taxon="9606">Homo sapiens</organism>
+    <source>
+      <name></name>
+      <contact>
+        <name>Nazneen Rahman</name>
+        <address>Institute of Cancer Research, Sutton, Surrey, UK</address>
+        <email>Nazneen.Rahman@icr.ac.uk</email>
+      </contact>
+    </source>
+    <source>
+      <name>RAPID: Resource of Asian Primary Immunodeficiency Diseases</name>
+      <url>http://web16.kazusa.or.jp/rapid/browseByPIDGenes</url>
+      <contact>
+        <name>Sujatha Mohan</name>
+        <address>The Institute of Physical and Chemical Research (RIKEN), Japan</address>
+        <email>sujatha@rcai.riken.jp</email>
+      </contact>
+    </source>
+    <source>
+      <name>SBDSbase: Mutation registry for Shwachman-Diamond syndrome</name>
+      <url>http://structure.bmc.lu.se/idbase/SBDSbase/</url>
+      <contact>
+        <name>Jouni Valiaho</name>
+        <address>University of Tampere, Finland</address>
+        <email>Jouni.Valiaho@uta.fi</email>
+      </contact>
+      <contact>
+        <name>László Maródi</name>
+        <address>University of Tampere, Tampere, Finland</address>
+      </contact>
+      <contact>
+        <name>Mauno Vihinen</name>
+        <address>University of Tampere, Finland</address>
+        <email>Mauno.Vihinen@med.lu.se</email>
+      </contact>
+    </source>
+    <mol_type>dna</mol_type>
+    <creation_date>2013-10-11</creation_date>
+    <sequence>TTTGGCTGGGAGCGGTGCCTCACGCCTGTAATCCCAGCACTTTAGGAGGCTGAGGCGGGTGGCTCATCTGAGGTCAGGAGTTTGAGAGCAGTGTGACCAATATGGTGAAACCTCGTCTCTACTAAAAATACAAAAATTAACTAGATGTGATGGCAGGCACCTGTAATCCCAGCTACTAGGGAGGCTGAGGCAGGAGAATTGCTCGAACCCAGGAGGCAGAGGTTGTGGTGAGCCGAGATCACACCACTGCACTCCAGGCTGGGGGACAGAGTGAGATACCATCTCAAAAATAAAATAAATTTTTTTAAAATAGCTGTGACCTTGTAACACAGAAACAGGTAGCATCTAGATATAATTAGAGAATGGGACTGGGCACGGTGGCTCACGACTGTAATCCCAACACTTTAGGAGGCCGAGGCGGGCAGATTGCTTGAGCCCAAGAGTTTAAGACCAGCCTGGGCAACATGGCAAAACCCCATCTCTACAAAAAGTACAAAAATTAGCTGGGTATGGTGGCATGCACCTATAGTCCCAGATACTCAGGAGGCTGAGGTGGGAGGATGCCTTGAGCCCGAGAGGCAGAGGTTGCAGTGAGCGAAGATGGCACAACTGCACTCCAGCCTGGGCAACAGAGAGAGACCCTGTCTTTAAAAAAAGAAAAAAAAAAGCAAAAAGGAGAAATCAAAGTACATGCCAGATAATATCACTAAATCCTCACAGTGACCCTGAGATAACCATACTATTACCATCTGCAATTTACCATTTCACAGATAAGCAACTGAAGCTTAGATGGCACTACAGCCAGACACTGTTCCCCCGCAAAAAAGAGAGAGAATGGGAAGCATCTTTCAACTAGATATCAGCTGTATTTACTTTAGTGTCTACCTTTAACACTTTTAGCACTATTAGAAATCAAAACAAGTTTCATTACATAGATGTGTGACGTGAGGCCAGGTGCAGTGGCTCACGCCTGTAATCCCAGCACTTTGGGAGGCCGAGGCAAGCGGATCACCTGAGCCCAGGAGTTTGAGAGCAGCCTAGCCAACATGGCAAAACACCCATCTCTACTAAAAATACAAAAATTAGCCAGGCATGGTAGCAGGCACCTATAATCCCAGCTACTCGGGAGGCTGAGGCAGGAGAATCGCTTGAGGTGGAGGTGGAGGTTGCAGTGAGCCGAGATCGTGCCACTGCACTCCAGCCTGGGTGACAGAGTGAGACTCTGTCTCAAAAAACAAAATAAAAAATAAACATAGATGTGTGATGTGAAAGTCAGGCCCATATTGGAACTATTAGTGCCATCCTTTTTTCCCTATTCCCTACTTCCATACCCATGGGCATCGATAATGGACTCACAACTTTCTCTAGCCTGCTGAGGCAGAAGCAAACTTCAGAACAAAGGCCCCCTCAAGACACTGACCATCAGACACCACCAATCAGCTCTAACTGGGCACAGGAGATGAAACCTGCCTACCGTCACAGAATGGAAAAATATTTGAGGGGAAAAGGCTGGGAGAAAGAATAAAGAAGGTTAGATGACCAATTCAGTTCACTGCTAAAGGACAGTTCACTGCTAAAGTTCACTGCTAAAGGGATTTTCTTAAAATGTCAGGAAACCAAAGGAAAAGCATCATATAAATTTCTTACCTTCGCTGTTCCAGTCTGAGAACCATAAAAAATCTTCACTCCAGACACAAAGATGTCTTTCTCTTGAAGGGAGACATAACCATTTGTCATCAAATCCTGAGCTGCTTTTGGAACAGATTTTTCCTGTAAGTTCTTGCCCTTGAAGACAAATAATTACACAAAATCCATCAAGTCTAAATCGTTTCCCAACTTCAGCAGGGATGAAAATTAGCACAGATACTGACACATTTTATTTTTCTCTTAATCTGACACACTGTATTTTTCTCTTAATCTTTCTGGTTGTATTCCTCAAATATTAGCCCCTTGGTATAATAAGGTCCTTTAATAGGCAGGACCCACATTTTTAAGGCTCATGATTTCCTTTCCCTCCAAGAAAAAACTTTACATACTTTTATCCTATAAGGTATTTTAGTAGAATAATAGTAGGAACTTATTTTCTGATCCTTAATTAATGGAAAGAGAGGACTACTGACCCTTAAAGGTATAAAACAAATTTGTTTTTCATATAAAAGGTTCACTTTTCATTACAAAAATCTTCCTGTATCTTAAAAATGAGACACACCTATCAAAGAAAAAGTAAAGAACTTAATCCAAGATAACTTAGTCTCCAAAAACTTAGAGAAGAAATTTATTTTAGGCATTTCATTAAAATGTCTAAAGACCAAACACAAAAGTAATTAAAGGTTCCTTTTAGTATTTAAATCCTCTATAAAATCTGATGCCTAAATACTCCATTAAAAAAAAAATAACTCCACTTACCTGCGTCTTGATGACAATCTGGACACAAATCCAAAGGCTAATGCTAACAGCAAAGCCCAAATAAATGTAAAACCTGTTTATCCATAATGATATTAAAGGTGAGAAGAGGTCCCATGTATCCGCAGAAGGATCTAAATTTAAAATGACACACACAATTTCATTTAAAGCTACATATACAAAGATATCCATCCCAATTTTAAGAAGAAAATAAAACCAACCTTACATTCAACAACCCAGCTAAGAAATCTAATTTAAAAATCAACTGTTGGCCGGGCACGATGGCTCATGCCTGTAATTCCAGCACTTTGGGTGGCTGAGGCGGGCAGATCACCTGAGGTCAGGAGTTCGAGACCAGCCTGGCCAACATGGTGAAACCCCGCCTCTACTAAAAATACAAAAATTAGCCGGGCGTGGTGGCGCGCACCTGTAATCCCAGCTACTCGGGGGGCTGAGGCAGGAGAACTGTTTGAACCTGGGAGGGAGAAGTTGCAGTGAGCCAAGATTGCGCCACCGCACTCCAGCCTGGGCGACAGAGCAAGGCTCCATCTCGGGGGCGGGGGGGTGGGGAACAACTGTAATAAAAATAACACACTATGTAGTAACGTAATAAAATTATCACACTGTTAACACTAACTCAAAGAAAAAACAGAATATAAAATTGTATCTTCACTTCGAAATGAGCATTTAGAAGCAAGAGAAGGAACACAAAGTAAAAATACTTCATGTGAAATTAATTTTGTTTTGTTGTGCTTGCTCCATAAAAAAAGCTTAAGTAGTAAAAGCACTCTTTTTACTAACTGTACTTTCAAAGGCTCACGGTTAAACTTGTAAAAGATTCTCAAGTAACTGACCTTACACCTCATTTTTTTTTTTTTAAGAGAGATATGCAGGGACCTGGCTTCAAACGTTCAACCTGGGAGCAATTTCAAAAGTCGAGGCCTGAAATTTAGGCTTTACAGGTGCAAAAGTCCTAATACACGTAGGTAAAGTGGGAGGGGTAGTTTTCTGTCTAACCCCCTAGCCTCAAAAGGCAAAAGCCAGGTCAAAAGTAGGGATCAGTCCTCCTTGCTCTCAGCGGCGACTAGCCGGTGCTGTCAAGTGCAACAGTCTCCGAAGGAAAGGGACCGAGGACGCCACTCCGCCCGGAGAGGGTCTCAGTAAAACGTTTACCTCCCCTGCCGCCCCAGGGTCCTTGCCCGCCGAGTGCCCTTACCCATCCTCCTCAGAGCCGACAGGAGACTAGGATCTCGGACCTGGATAGCCCGATGATTCGCACTGGTACCGCGAGACGCACCGAGCTACCTCGCCGCGTTAGCGGCGTACCGAGTGCCTGCAGACCTGTGGGCAGCCATGACACTGCCAGGCCGGTCCTGATTGGTTCAGAGGACGAAGAGGTGGGCCCAGAGGAAAGCCCAGAGCTCCGGGAAAGGAAGCCAGTGCCCGGTGCGCTCTCGGCCCTGCTCCGATTGGCTCAGAGGGGAAAGGGGGCGTGCCCAGAAATAAGCACCTCCCAGAGTTCCAGGCGATGAAGGCGGAGCGCTTCCGCCTCCATTTGGATTGGCTCAGACTGGGAAAAGGCGGGCCCAGAGAGAAATGATTGGCATGGGAAAATTAAAAGAGGAAAGGAGCGGGGAGCGGGGGAAATGCTATGTGGGCCTGTTTGGATCTTAACTGAAATAAACCGACTGTAGAAAGGCATTATTTTTGGGAAACCCGAGGATGGACTCGCTATTAGATGATATTAAGGAATTGTAGTTAATCTCGTCGCGTGTATCTGTTAAGGGCTATAGGCTGAAGTATTTAATGCTGAAACCATATGATGGTTTCTTTAAAATACCCCCAACCGGCCGGGCGCTGTGACTCAAACCTGTAATCCCAGCACTTGGGAAGCCGAAGCGGGAGGATCGCTTGAGCCCAGGAGTTCGAGACCAGCCTGAGCAACATAGTGAGACCTCGTCTGTACAAAAAATTTTTTTTAATTATTTATTTAATTAAATTAGCTTGGCGTGGCCGCTCACACCTGTAGTCCCAGCTACTTGGGAAGCTAACGCTGGAAGATCGCTCGAACCCAGGAGGTCGAAGCTGCAGTGGGGCCATGACCCTGCCACTGCACTCCAGCCTGGGTGACAGAGTGAGACTGACTTAAAAAAAAAACTGTAAATAAAAAAGCAACAAAAAAATGAAAAAAGAATAAAACAAGGATGGCAAAATGTTGATAGCGGGGTGATGGGTACATAGAAGGTTCATTACACTTTTTTGTCTACATTTTATGTTAAAATATTTCTATTATAAAAGGGTGAGTAAATAAAAATATTTATTATAAAATAATTCTATTATAAAAAATATTTATATTATAAAGTGGGTCTGGCCCTTGAATTCCGCGGAACGAGGTGGTGCCAACGCTGTGTTTTAACCCGGTCACTAAACATCCGCGAGCATCCTGTCAGAGCTCTCAGCTCATTGGCGAAAGTAAATACGCCAAGGAAAAGCACCTCCCTTTTTGGGCGTGGAAAGATGGCGTAAAAAGCCACAATACGCAGGCGTCATCGCTCACTTTTCCCCTCCCGGCTTCTGCTCCACCTGACGCCTGCGCAGTAAGTAAGCCTGCCAGACACACTGTGACGGCTGCCTGAAGCTAGTGAGTCGCGGCGCCGCGCACTGGTGGTTGGGTCAGTGCCGCGCGCCGATCGGTCGTTACCGCGAGGCGCTGGTGGCCTTCAGGCTGGACGGCGCGGGTCAGCCCTGGTTCGCCGGCTTCTGGGTCTTTGAACAGCCGCGATGTCGATCTTCACCCCCACCAACCAGATCCGCCTAACCAATGTGGCCGTGGTACGGATGAAGCGTGCCGGGAAGCGCTTCGAAATCGCCTGCTACAAAAACAAGGTCGTCGGCTGGCGGAGCGGCGTGTGAGTAGCCCCCTCCCTCGGGCCTGGGCCTGGGCCTGAGCCGTCACCTCCGAGGCGGCCTGTCTCTGCCCAAGTCGAGTGAATGGGCCAGGCTGGGGTGTTGGCCGGGGAGGAAATGGAACATTCCTGCTGTGAGCATGAGACGTCGCTGTCCGAGCTTGGCGCCTAAGCCAAGGGTTTCTTCTTTATTTGGTTGGTTCGGATTGGGTTGTTGGTTTGGGGTTTTGTTTTGTTGGTGTCATAAAAGCTGCAGCCAAGAAATCTCGTAATTGTGGTCCTTTTCCTAGAATAATGATGGCTGAGAACCTAGTCTTACGAATACTGTCATAGTTGTGGGTACATCTGGTGTCATAGATCTCAGTAGCCCTAGCAGTTTAAAGTGCGTAGTGTCTTCACTGCTGCCATCTAGGGACTGGCATTCCGTGGCAGCAGCTGTCTGCACCCCACCCCACCCTTGTGTTTCTTACGTCCTCCCATGACATTTTTCTCCAGTGAGCAAATGGTAAGGCAAATACGGTTCTGAGTTTTGAAAATGTTCCCTCAGGCCGATGCGGGCAGTTCACTTGAGGCCAGGAGTTCGAGGCCAGCCTGGCCAACATGAAACCCCATCTCTACTAAAAATACAAAGTTAGCCGGGTGTGGTGGCGCATGCCTGTAATCCCAGTTACTCAGGAGGCTGAGGCGGGAGAATCACTTGAACCCGGGAGGCTGAGGTTACAGTGACCCGAGATCGCGCCATTGCACTCCAGCCTGGGCAAAAACAGTGAAATTCCATCTAGGGGCGGGGGTTGGGGGGTAAGAAAAAGAAAACTGCCCTCTACACTAAAGGTCATCAGGGGGATTTGTTGTGTCTTGCCGTTCATGTTGTTGCCATCTCGTATTTAAATGTAAATGCATGTCCAAGTTTCAAGTATATTCACATAGGACTTTCTCTCCTGCCCTCACAAGGGAAAAAGACCTCGATGAAGTTCTGCAGACCCACTCAGTGTTTGTAAATGTTTCTAAAGGTCAGGTTGCCAAAAAGGAAGATCTCATCAGTGCGTTTGGAACAGATGACCAAACTGAAATCTGTAAGCAGGTGGGTAACAGCTGCAGCATAGCTAACCCTAATAACCATTTATAACGTATTTGTAGATATATTAAACATTAAAGGCTGTTTTTCTGGAGGAAAGACTAACCAAGCAATAATGTGAACTGCACAGTGTCACTTCTAATAATAAAGAACTTGGTGGTTTTGTTTGTTTTTTGTGGTTTTTTTTTTTTTTTTTTTGCCAAAACCTCCTGAAATCAGATTTTCTACTAAATTACCTCATTTTTCTATAAATTGCCCCATTTATAGAATGTGGTATACCTGAAAACTGAATTTGTTTTCAAGTATTTCATCTTTCAGATCCTTTTTTTTTTGGGTGGGGGGACAGAGTCTTGCTCTGTTGCCCAGGCTGGAGTGCAGTGCACTTCACTGCACTCAGCTCACTGCAACCTCTGCCTCCTGGATTCAAGCGATTCTCTTGCCTCAGCTTCCAGGGTAGCTGGGATTACAGGTGCCCACCACCCTGCCTGGCTAATTTTTGGATTTTTAGTAGAGATGGGGTTTCACCATGTTGGCCAGGTTGGTCTCAAACTCCTGACCTTGGGTGATATGCCCGCCTTAGCCACCCAAAGTGCTGGGATTACAGATGTGAGCCACTGAGCCCAGCCAAAAGATTCTTGCATCTTTTGGGCAAAGCTCAAACCATTACTTACATATTGATAGCTGGAGAGGATGAAATTTAATTTTCTCTCCATCCAGTTACTCATTTTTTATGGTTAGTTAATAAATAGTGTGTGATAGAGAAAGATAGTGATTTCTTAAATGTGTTGGCATTTTTTTAGATTTTGACTAAAGGAGAAGTTCAAGTATCAGATAAAGAAAGACACACACAACTGGAGCAGATGTTTAGGGACATTGCAACTATTGTGGCAGACAAATGTGTGAATCCTGAAACAAAGAGACCATACACCGTGATCCTTATTGAGAGAGCCATGAAGGACATCCACTATTCGGTGAAAACCAACAAGAGTACAAAACAGCAGGTGAGTGGTTTCTCATGTCATCAAAATATAGCCATGGAAATCAGTTTTCTCTGAAGAAATCATTAAAATAATGGGTCTGGGGCCAGGCACAATGGTTCATGCCTGTAATCCTAGCACTTTGGGAGCCAAGATGGGAGGATTGCTTGAGGCCTGGAAACAGCCTGGGAAACATAGGGACGCCCCATCTCTAAATTTTTTTTTTTTTTTTTTGAGACAGAGTCTTACTCTATTGCCCAGGCTGGAGTGCAGTAGTATGATCTCGGCTCACTACAATCTCCACCTCCCGCGTTCAAGCAAGTCTCCTGCCTCAGCCTCCTGAGTAGCTGGGATTATAGGCACGTGCCACCACACTCAGCTAATTTTGTATTTTTAGTAGAGTTGAGGTTTCACCATGTTGGCCAGGCTGGTCTTGAACTCCTGACCCTAGGTGATCCGTCCGCCTTGGCCTCCCAAAGTGCTGGGATTACAGGCATCAGCTACCGTACCCTACCTCTAAATTTTTTAATATAAAAAATTAAATTTAAAAAAATGGGTCTGCATGGAAGCAAGTGGGTAGAGGTTTGGGGAAGAGATGGAGGAAAAGGACGGGGTTGTAAAGATAGGTAATTTTTTTTTTTCAAGTAAACACAAATATGTATATAGGACTTTCTTCTTCCTATCCAAATCAAACTTTTAAAGACAAAACTTGAGTTTTTAAAGGGTCATTTTAACACTTCTTTTTGAATTTTTTAATTTATATATAATTCACATACCATAAATTTCACACTCATAAAGTATGTACACTTTAAGTGGTATATTAACAAAGTTTTGGAACCTTCCCTGCTACCTGGTTCGAGAACATTTTCATCACCACAAAAAGAAAGTCAGTATCCATTAGTAGCCATCCCCCATTTTCCCCCCACAGGCCCCTCCCAACCACTAATCTCCTCTCGTTATGGACTTCTCAATTCTGGACATTTCATATAAATGGAATCATACAATATGTGGCCTTTTCATGGTTCATACATGTTGTAACCTGCATCAGCATGTCATTTCTTTTTTATGCCGGAATAATAGCCCACTGTACGGAAAGAAACACATTTTGTTCATTCATCTATCAGTTGATAGACATTGGGTTGCTTTCACTTTTGAGCTATGATGAGCAATGCTGCTATAAAATTTCTTGTATGTTTCTGTGTAGACATATGTTTTCATTTCTGTATACCTGGTGACTACCAAACCTATTTCTAAAACAGCTGCACCATTTTACTTTACCACCATCAGTGTTTAAGAGTTCAGTTTCTCCACATCCTCAGTAATACTTGTCATTGTCTGCCTTTTTGATGATGGCCATCCTGGTGGTATCTTGTCGTGGTTTTGATTTGCATTTCCTTAATGATGATTTGAGCATATTTCCATGTGCTTATTGGTGCCTCGTCTGTCTTCTTTTGAGAAATCTCTGTTCAGGTTCTTTGCCCACCCCCCCCGCCCTCTTTTTGCAAACTCTGCCTCCCGGATTCAAGCAATTCTCCTGCCTCAGCCTCTTGAGTAGCTGGGATTACAGGCGTGCACTACCACACCCGGCTAATTTTTCTTTTTTTGTATTTTTAGTGGAGACGGGGTTTCACCATGTTGGCCAGGCTGGTCTCGAATTCCTGACCTTGTGATGCACCCGCCTCGGCCTCCCAAAGTGCTGGAATTACAGGCGTGAGCCACCACACCTGGCCTTCACTTTCTTCATAGTTTTTTGAAACACAAAAGCTTTTCTTCTTGATAAGTCCAATTTTTCTATTTTTTTTTTAACGGTCACTTATGTTCTTAATGTTATACCTAAGAAACCATTACCTAATCCAACTACATGGAAACTACTTTGTTTTTGAAAACCTTATGAAATAATATAGTAGAAGAAATTGCATTCTCGATTTTGTCTTGGTAGGCTTTGGAAGTGATAAAGCAGTTAAAAGAGAAAATGAAGATAGAACGTGCTCACATGAGGCTTCGGTTCATCCTTCCAGTCAATGAAGGCAAGAAGCTGAAAGAAAAGCTCAAGCCACTGATCAAGGTCATAGAAAGTGAAGATTATGGCCAACAGTTAGAAATCGTAAGAGTCAAATATTTTCTTTGCTTCATGTTACCTAAATATTGTATTCTCTAGTAATAAATTTGTAGCAAACATTTAGATGTTGTAAACGTCAGATATTTTCTTTTCTTTTTTTTTTTTGAGATGGAGTCTCGCTCTGTTGCCCAGGCTGGAGTGCAGTGGTGCTATCTCAGCTCACTGCAAGCTCCGCCTCCCGGGTACACGCCATTCTCCTGCCTCAGCCTCCTGTGTAGCTGGGACTACAGGCACCCGCCACCAAGCCTGGCTAATTTTTCGTATTTTTTAGTAGAGACGGAGTTTCACCGTGTTAGCCAGGACGGTCTTGATCTCCTGACCTCATGATCCACCTGCCTCAGCCTCCCAAAGTGCAGGGATTACAGGCGTGAGCCACCGCGCCCAGCCAGATATTTTCTTAAGACTAAAGGTTGGTCAGCCTTGTTTACCACAAATCCTTTTATTTTTTTCCCAGCATTTATTTTTGTCATATATTATGCGTAGTGTTTTAGATACATGATTTTAGCAAATTTAGCAACTATTTAAAATAAGCCACTTAAAAATTGCTATTTTAGTGGAAGATTGATAATTCCAATTACCTTAAAAATTTTGCAAAAATTAGTACAAAGCACACTATGGAAATTTACATTGAGTTTTCAGAGATAGCTCAATTGCATGCTTTACTCCAGTGCTGATCATAATCCTAAAAGACAATCCCAAATGCCACAATCCCAATGTTGAAATCATAAAAAAATCAAAATCTCTAAAGTCCAAAGCCTGAACTTCTAATATCTTGAAAATCACAGTTCCAAAAGATTGAATCCTGGCTGGGCGCGGTGGCTCATGCCTGTAATCCCAGCACTTTGGGAGGCCAAGGCAGGTGGATCACCTGAGGTCGGGAGTTCGAGACCAGTCTGACCAACATGGAGAAACCCTGTCTCTACTAAAAATACAAAATAGTCTGGCGTGGTGGCACATGCCTGTAATCCCAGCTACTCGGGAGGCTGAGGCAGGAGAATCACTTGAACCTGGAAGGCAGAGGTTGCGGTGAGCCAAGATTGCACCATTGCACTCCAGCCTGGGCAACAAGAGCGAAACTCCATCTCAAAAAAAAAAAAAAAAGATTGAATTCTGAATGATGAAATTCTGAAAGCTGAATTCTGGCAAAAGGATTAGCACTCTTTGAGTTGTATGCAGGATAGTCGCGTCTGGTTAATTGCATCATGTGAGGAAAAGCTAGGACCTTGTTATTGTCTTCATTTGAAAATTAAAAATGGTTTAAAGAGATGAGTCTGGGTGCCAAGTTGATAAGGGGTGGAATTGTGGATGTAATTTTAGGTGTCAACTTGACTGGAAAGGAATCCCTAGAAGCCTGATAAAGCATTGTTTGGGGTATGTCTGTGAGGGTGTTTCCAGAGGATATTAGTGTGTGAACCTGGTGACACTAAACACAGAACATTTTAAAGAAGCAGCGAAACCATTATGTCCTTATGACCTCACCCCACAGCTTCAAACACAGTGTAAATTGAGCTGTCTACAAATTCATGTTTTCAAGGCTTTGCAGCTTATTTATTTATTTATTTATTTATTTATTTTTGAGACAGGGTTTCACTCTTATTGCCCAAGCTAGAGTGCAATGGCGTGATCTCAGCTCACTGCAACCTCTGCCTCCCGGGTTCAAGCGATTCTCCTGCCTCAGCCTCCCGAGTAGCTGGGATTACAGGCATGTGCCACCTCGCCCAGCTAATTTTGTATTTTTAGTAGAGACGGGGTCTCTCCATGTTGGTCAGGCTGGTCTCGAACTCCCGACCTCAGGTGATCCACCCGCCTCGGCCTCCCAAAGTGCTGGGATTACAGGCTTGAGCCACCGCGCCCTGTCTGCAGCTTCTTTTTAAAAGTAAATGAGCTGTAGAGAAGTGTTGAGTATGTGAGTATCCACTGTAGATGTGAACTAACTCATCTGACACTACTTGAAGTTCTAAAATCTTTGCAAAACTGTACACATGGGCCAGGCACAGTGGCTCGTGCCTGTAATCCCAGCACTTTGGGAGGCCAAGGTGAGCAGATAACATGGTGAAACCCTATCTCTACTAAAAATACAAAAAATAAGCCAGGTGTGGTGGTGGGTTCCTGTAATCCCAGTTTCTTGGGAGGCTGAGGCAGGAGAATCACTTGAACCTGGGAGGCGGAGGCTGCAGTGAGCCAAGATCACACCACTGCACTCTATCTCAAAAAAAAATAAATTAACATACACATGGTGTCTACATAAGTCTTCACATTGCTTTTTCTCCTTCATACGTGGAGGTGACTTTACTGAGCTATAAAATGTAATGCTAAATTTTAGTATGAGAAGAATCAGAGTTTTCTAGTTTGTCCCTTCCATTTACAGCTGAAGAATCAGAATAAGTGTTTAAACATAGGGATTAATGCCTTGTCACAGGGGGCTACATGGACACTTGAGGGCAGAGGCTAAACTGGAACCCAGTGTGCCGCCCTACCCATTGTCTTATCTATTGCACCATAGAACTGTGGTATTATTAGAGATCTGGACAGCATTGTGCTTGCCTCAAAGGAAGTTAAAGCTGAGTTTATTCTGTGTCTTGCTCATCCTCATGTGGTAATCTGCTACGTTAAATGTTTCAGGTATGTCTGATTGACCCGGGCTGCTTCCGAGAAATTGATGAGCTAATAAAAAAGGAAACTAAAGGCAAAGGTTCTTTGGAAGTACTCAATCTGAAAGATGTAGAAGAAGGAGATGAGAAATTTGAATGACACCCATCAATCTCTTCACCTCTAAAACACTAAAGTGTTTCCGTTTCCGACGGCACTGTTTCATGTCTGTGGTCTGCCAAATACTTGCTTAAACTATTTGACATTTTCTATCTTTGTGTTAACAGTGGACACAGCAAGGCTTTCCTACATAAGTATAATAATGTGGGAATGATTTGGTTTTAATTATAAACTGGGGTCTAAATCCTAAAGCAAAATTGAAACTCCAAGATGCAAAGTCCAGAGTGGCATTTTGCTACTCTGTCTCATGCCTTGATAGCTTTCCAAAATGAAAGTTACTTGAGGCAGCTCTTGTGGGTGAAAAGTTATTTGTACAGTAGAGTAAGATTATTAGGGGTATGTCTATACAACAAAAGGGGGGGTCTTTCCTAAAAAAGAAAACATATGATGCTTCATTTCTACTTAATGGAACTTGTGTTCTGAGGGTCATTATGGTATCGTAATGTAAAGCTTGGATGATGTTCCTGATTATCTGAGAAACAGATATAGAAAAATTGTGCCGGACTTACCTTTCATTGAACATGCTGCCATAACTTAGATTATTCTTGGTTAAAAAATAAAAGTCACTTATTTCTAATTCTTAAAGTTTATAATATATATTAATATAGCTAAAATTGTATGTAATCAATAAAACCACTCTTATGTTTATTAAACTATGGCTTGTGTTTCTAGACAACTTCCTAACTCCCTTTCTTTTCTCTGCCTGTGTCTGTGGTAGGGTTAGGGAGTTGTCAGGAGAACTGAATAAGTCCATATGAAGAGTGCTTAGAACAGGGCCTGTACTTGTAAACACCTGAAAAATTTTTGCTAACACTTGGGATGTAATTGGGAAGAATTATTTTAGTATTTAAACACTTAAATGGACAAGATGCAAGCTTTTAAAAATCTACTTCAAGGCCAGGGGAGGTGACTCACACCTGCAATCCCAACACTTTGGGAGGCCGAGGCAGGCGGATCACCTGAGGTCAGGAGTTTGAGACCAGCCTGACCCACATGGTGAAACCCTGTCTCTACTAAAAATACAAAAATTAGCCAGGCATGGTGGTGCACGCCTGTAGTCCCAGCTACTCGGGAGGCTGAAGCAGGAGAATCACTTGAACCCAGGAGGCAGAGGTTGCAATGAGCTGAGAATGTGCCACTGCACTCCAGTCTAGGTGACAGAGTGAAACTCGGTCTCCAAAAAAAAGAAAAAAAATCTATTTCAAAAGATACATTCTAGAATATAAATTAAATTCACTCAAAATAAACATACAGATGTATTTCTGGACAGCAGTTTTTAACTGAAGACAGGCTTCTTGACTTGAAAAGGTACTGATTGGTTTATAAGCACACACAACTCCCTGCTAATACAAGCTCTCAGAAATGTCCCTTTAGTTTAAAATAACTAACATTGAGGTTATAAAGTCAAAATTTTTTCTTATATTGTTAACAAAATACATTGATAACATGGGAATGAACACTTTTTCTGTTAATGCTAAAGCTAGGCTGCTGTTTTGATACAGCTATTTGTTCAATATATCAATAGTTCTATCTTAGTAAAAAAATATAAACATTTAATAGAACATTTCCTTAAGATTTTCTGGGGCCAGGCGCAGTGGCTCCCACCGGTAATCCCAGCACTTTGGGAGGCCAAGGCGGGTGAATCACTTGAGCTTGGGAGTTTGAGACCAGCCTGGGCAACACAGTGAAACCCCGTCTCTACAAAAATACAAAAAATTAGGCATGGTGGTGTGCACCTGTTTTCCCAACTACTTGGGAGGCTGAGGCAGGAGGATCACTTGAGCCCGGGAGGCGGAGGTTGCAGTGAGCTAAAATCACCCCACTGCACTCCAGCCTGGACAACAGAGCCAGACCCCATCTCAAAACAAAGATTTTCTGATTCTGAATATTCATTTTTTCTAAAAAGCTGGAACTTCAAGAAATGTCAAATGTGGATCACATCTGAGTCATCATCTAAACTTATTTTTTTAATTTTATACTAATTTCATTATCAAAGAACTTAACATTTTTTGGTTCATGATCATCTTCCCAGTACCACAGCCATAATGGATTATTTTAAGGATTGGTTTGACTTTTTCAATGCAAGCTGATGGTGTGTGCATTTGGTCACAATGACATTTCAGACTTAGGCCTCTTCTTTTACCACAGTTCTTTTCTCTGAAGCTTCCCTTGTACCCCATACACAAGTATTTGCTCCAGTTGCTGGAAGCCAGTACTCTACTTAAATTCCTTCATGGGTCTGGATTTATTCAAACTTGTATTAGAGCTGCTTAATTATCTGCCTTCAGGCTAGACTGTGAGCTCCTTAAGGGCAAGGGACTTAGCAATGTGTGTGTATATCCCACCATGCTTTGGACCTAGCAGATGTGGAGTAAATGTCTGAAATAATAAACACGTGGACCAGGCACAGTGGCTCATGCCTGTAATCCCAGCACTTTGGGAGGCCCAGGTGGGCAGATCACCTGAGGTCAGGAGTTCAAGACCAGCCTGGCCAAAATGACGAAACCCAGTCTCTATTAAAAATACAAAAATTAGCTGGCTGTGGTTGCTCACGCCTGTAATACCAAGACTTTGGGAGGCCAAGGCAGGCAGATCACGAGGTCAAGAGATCGAGACCATCCTGGCCAACATGCTGAAACCCTGTCTCTAC</sequence>
+    <transcript name="t1">
+      <coordinates coord_system="LRG_104" start="5001" end="12899" strand="1" />
+      <cdna>
+        <sequence>GTAAGTAAGCCTGCCAGACACACTGTGACGGCTGCCTGAAGCTAGTGAGTCGCGGCGCCGCGCACTGGTGGTTGGGTCAGTGCCGCGCGCCGATCGGTCGTTACCGCGAGGCGCTGGTGGCCTTCAGGCTGGACGGCGCGGGTCAGCCCTGGTTCGCCGGCTTCTGGGTCTTTGAACAGCCGCGATGTCGATCTTCACCCCCACCAACCAGATCCGCCTAACCAATGTGGCCGTGGTACGGATGAAGCGTGCCGGGAAGCGCTTCGAAATCGCCTGCTACAAAAACAAGGTCGTCGGCTGGCGGAGCGGCGTGGAAAAAGACCTCGATGAAGTTCTGCAGACCCACTCAGTGTTTGTAAATGTTTCTAAAGGTCAGGTTGCCAAAAAGGAAGATCTCATCAGTGCGTTTGGAACAGATGACCAAACTGAAATCTGTAAGCAGATTTTGACTAAAGGAGAAGTTCAAGTATCAGATAAAGAAAGACACACACAACTGGAGCAGATGTTTAGGGACATTGCAACTATTGTGGCAGACAAATGTGTGAATCCTGAAACAAAGAGACCATACACCGTGATCCTTATTGAGAGAGCCATGAAGGACATCCACTATTCGGTGAAAACCAACAAGAGTACAAAACAGCAGGCTTTGGAAGTGATAAAGCAGTTAAAAGAGAAAATGAAGATAGAACGTGCTCACATGAGGCTTCGGTTCATCCTTCCAGTCAATGAAGGCAAGAAGCTGAAAGAAAAGCTCAAGCCACTGATCAAGGTCATAGAAAGTGAAGATTATGGCCAACAGTTAGAAATCGTATGTCTGATTGACCCGGGCTGCTTCCGAGAAATTGATGAGCTAATAAAAAAGGAAACTAAAGGCAAAGGTTCTTTGGAAGTACTCAATCTGAAAGATGTAGAAGAAGGAGATGAGAAATTTGAATGACACCCATCAATCTCTTCACCTCTAAAACACTAAAGTGTTTCCGTTTCCGACGGCACTGTTTCATGTCTGTGGTCTGCCAAATACTTGCTTAAACTATTTGACATTTTCTATCTTTGTGTTAACAGTGGACACAGCAAGGCTTTCCTACATAAGTATAATAATGTGGGAATGATTTGGTTTTAATTATAAACTGGGGTCTAAATCCTAAAGCAAAATTGAAACTCCAAGATGCAAAGTCCAGAGTGGCATTTTGCTACTCTGTCTCATGCCTTGATAGCTTTCCAAAATGAAAGTTACTTGAGGCAGCTCTTGTGGGTGAAAAGTTATTTGTACAGTAGAGTAAGATTATTAGGGGTATGTCTATACAACAAAAGGGGGGGTCTTTCCTAAAAAAGAAAACATATGATGCTTCATTTCTACTTAATGGAACTTGTGTTCTGAGGGTCATTATGGTATCGTAATGTAAAGCTTGGATGATGTTCCTGATTATCTGAGAAACAGATATAGAAAAATTGTGCCGGACTTACCTTTCATTGAACATGCTGCCATAACTTAGATTATTCTTGGTTAAAAAATAAAAGTCACTTATTTCTAATTCTTAAAGTTTATAATATATATTAATATAGCTAAAATTGTATGTAATCAATAAAACCACTCTTATGTTTATT</sequence>
+      </cdna>
+      <coding_region>
+        <coordinates coord_system="LRG_104" start="5185" end="12231" strand="1" />
+        <translation name="p1">
+          <sequence>MSIFTPTNQIRLTNVAVVRMKRAGKRFEIACYKNKVVGWRSGVEKDLDEVLQTHSVFVNVSKGQVAKKEDLISAFGTDDQTEICKQILTKGEVQVSDKERHTQLEQMFRDIATIVADKCVNPETKRPYTVILIERAMKDIHYSVKTNKSTKQQALEVIKQLKEKMKIERAHMRLRFILPVNEGKKLKEKLKPLIKVIESEDYGQQLEIVCLIDPGCFREIDELIKKETKGKGSLEVLNLKDVEEGDEKFE</sequence>
+        </translation>
+      </coding_region>
+      <exon label="1">
+        <coordinates coord_system="LRG_104" start="5001" end="5312" strand="1" />
+        <coordinates coord_system="LRG_104t1" start="1" end="312" />
+        <coordinates coord_system="LRG_104p1" start="1" end="43" />
+      </exon>
+      <intron phase="2" />
+      <exon label="2">
+        <coordinates coord_system="LRG_104" start="6261" end="6390" strand="1" />
+        <coordinates coord_system="LRG_104t1" start="313" end="442" />
+        <coordinates coord_system="LRG_104p1" start="43" end="86" />
+      </exon>
+      <intron phase="0" />
+      <exon label="3">
+        <coordinates coord_system="LRG_104" start="7185" end="7385" strand="1" />
+        <coordinates coord_system="LRG_104t1" start="443" end="643" />
+        <coordinates coord_system="LRG_104p1" start="87" end="153" />
+      </exon>
+      <intron phase="0" />
+      <exon label="4">
+        <coordinates coord_system="LRG_104" start="9301" end="9465" strand="1" />
+        <coordinates coord_system="LRG_104t1" start="644" end="808" />
+        <coordinates coord_system="LRG_104p1" start="154" end="208" />
+      </exon>
+      <intron phase="0" />
+      <exon label="5">
+        <coordinates coord_system="LRG_104" start="12103" end="12899" strand="1" />
+        <coordinates coord_system="LRG_104t1" start="809" end="1605" />
+        <coordinates coord_system="LRG_104p1" start="209" end="250" />
+      </exon>
+    </transcript>
+  </fixed_annotation>
+  <updatable_annotation>
+    <annotation_set type="requester">
+      <source>
+        <name></name>
+        <contact>
+          <name>Nazneen Rahman</name>
+          <address>Institute of Cancer Research, Sutton, Surrey, UK</address>
+          <email>Nazneen.Rahman@icr.ac.uk</email>
+        </contact>
+      </source>
+      <source>
+        <name>RAPID: Resource of Asian Primary Immunodeficiency Diseases</name>
+        <url>http://web16.kazusa.or.jp/rapid/browseByPIDGenes</url>
+        <contact>
+          <name>Sujatha Mohan</name>
+          <address>The Institute of Physical and Chemical Research (RIKEN), Japan</address>
+          <email>sujatha@rcai.riken.jp</email>
+        </contact>
+      </source>
+      <source>
+        <name>SBDSbase: Mutation registry for Shwachman-Diamond syndrome</name>
+        <url>http://structure.bmc.lu.se/idbase/SBDSbase/</url>
+        <contact>
+          <name>Jouni Valiaho</name>
+          <address>University of Tampere, Finland</address>
+          <email>Jouni.Valiaho@uta.fi</email>
+        </contact>
+        <contact>
+          <name>László Maródi</name>
+          <address>University of Tampere, Tampere, Finland</address>
+        </contact>
+        <contact>
+          <name>Mauno Vihinen</name>
+          <address>University of Tampere, Finland</address>
+          <email>Mauno.Vihinen@med.lu.se</email>
+        </contact>
+      </source>
+      <modification_date>2015-06-22</modification_date>
+    </annotation_set>
+    <annotation_set type="lrg">
+      <source>
+        <name>LRG</name>
+        <url>http://www.lrg-sequence.org/</url>
+        <contact>
+          <name>Locus Reference Genomic</name>
+          <url>http://www.lrg-sequence.org/contact</url>
+          <email>feedback@lrg-sequence.org</email>
+        </contact>
+      </source>
+      <modification_date>2015-06-22</modification_date>
+      <mapping coord_system="GRCh37.p13" other_name="7" other_id="NC_000007.13" other_id_syn="CM000669.1" other_start="66450690" other_end="66465588" type="other_assembly">
+        <mapping_span lrg_start="1" lrg_end="14899" other_start="66450690" other_end="66465588" strand="-1" />
+      </mapping>
+      <mapping coord_system="GRCh38.p2" other_name="7" other_id="NC_000007.14" other_id_syn="CM000669.2" other_start="66985703" other_end="67000601" type="main_assembly">
+        <mapping_span lrg_start="1" lrg_end="14899" other_start="66985703" other_end="67000601" strand="-1" />
+      </mapping>
+      <lrg_locus source="HGNC">SBDS</lrg_locus>
+    </annotation_set>
+    <annotation_set type="ncbi">
+      <source>
+        <name>NCBI RefSeqGene</name>
+        <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
+        <contact>
+          <name>RefSeqGene Group</name>
+          <address>NCBI/NLM/NIH</address>
+          <email>rsgene@ncbi.nlm.nih.gov</email>
+        </contact>
+      </source>
+      <comment>Annotation from NG_007277.1</comment>
+      <modification_date>2015-06-19</modification_date>
+      <mapping coord_system="NM_016038.2" other_name="NM_016038.2" other_id="NM_016038.2" other_start="1" other_end="1605" type="transcript">
+        <mapping_span lrg_start="5001" lrg_end="5312" other_start="1" other_end="312" strand="1" />
+        <mapping_span lrg_start="6261" lrg_end="6390" other_start="313" other_end="442" strand="1" />
+        <mapping_span lrg_start="7185" lrg_end="7385" other_start="443" other_end="643" strand="1" />
+        <mapping_span lrg_start="9301" lrg_end="9465" other_start="644" other_end="808" strand="1" />
+        <mapping_span lrg_start="12103" lrg_end="12899" other_start="809" other_end="1605" strand="1" />
+      </mapping>
+      <features>
+        <gene source="NCBI-Gene" accession="55253">
+          <symbol source="HGNC" name="TYW1">
+            <synonym>RSAFD1</synonym>
+            <synonym>TYW1A</synonym>
+            <synonym>YPL207W</synonym>
+          </symbol>
+          <coordinates coord_system="LRG_104" start="1" end="3797" strand="-1" />
+          <partial>3-prime</partial>
+          <long_name>tRNA-yW synthesizing protein 1 homolog (S. cerevisiae)</long_name>
+          <db_xref source="GeneID" accession="55253" />
+          <db_xref source="HGNC" accession="HGNC:25598" />
+          <db_xref source="MIM" accession="611243" />
+          <db_xref source="CCDS" accession="CCDS5538.1" />
+          <transcript source="RefSeq" accession="NM_018264.3">
+            <coordinates coord_system="LRG_104" start="1648" end="3797" strand="-1" />
+            <partial>3-prime</partial>
+            <long_name>tRNA-yW synthesizing protein 1 homolog (S. cerevisiae)</long_name>
+            <db_xref source="GeneID" accession="55253" />
+            <db_xref source="GI" accession="433282977" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_104" start="3620" end="3797" strand="-1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_104" start="2407" end="2537" strand="-1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_104" start="1648" end="1785" strand="-1" />
+              <partial>3-prime</partial>
+            </exon>
+            <protein_product source="RefSeq" accession="NP_060734.2" codon_start="1">
+              <coordinates coord_system="LRG_104" start="1648" end="3623" strand="-1" />
+              <partial>3-prime</partial>
+              <long_name>S-adenosyl-L-methionine-dependent tRNA 4-demethylwyosine synthase</long_name>
+              <long_name>radical S-adenosyl methionine and flavodoxin domains 1</long_name>
+              <long_name>tRNA-yW synthesizing protein 1 homolog A</long_name>
+              <long_name>tRNA wybutosine-synthesizing protein 1 homolog</long_name>
+              <long_name>radical S-adenosyl methionine and flavodoxin domain-containing protein 1</long_name>
+              <db_xref source="CCDS" accession="CCDS5538.1" />
+              <db_xref source="GeneID" accession="55253" />
+              <db_xref source="GI" accession="50726981" />
+            </protein_product>
+          </transcript>
+        </gene>
+        <gene source="NCBI-Gene" accession="51119">
+          <symbol source="HGNC" name="SBDS">
+            <synonym>CGI-97</synonym>
+            <synonym>SDS</synonym>
+            <synonym>SWDS</synonym>
+          </symbol>
+          <coordinates coord_system="LRG_104" start="5001" end="12899" strand="1" />
+          <long_name>Shwachman-Bodian-Diamond syndrome</long_name>
+          <db_xref source="GeneID" accession="51119" />
+          <db_xref source="HGNC" accession="HGNC:19440" />
+          <db_xref source="MIM" accession="607444" />
+          <db_xref source="CCDS" accession="CCDS5537.1" />
+          <db_xref source="GI" accession="163965402" />
+          <transcript source="RefSeq" accession="NM_016038.2" fixed_id="t1">
+            <coordinates coord_system="LRG_104" start="5001" end="12899" strand="1" />
+            <long_name>Shwachman-Bodian-Diamond syndrome</long_name>
+            <db_xref source="GeneID" accession="51119" />
+            <db_xref source="GI" accession="28416939" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_104" start="5001" end="5312" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_104" start="6261" end="6390" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_104" start="7185" end="7385" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_104" start="9301" end="9465" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_104" start="12103" end="12899" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_057122.2" codon_start="1" fixed_id="p1">
+              <coordinates coord_system="LRG_104" start="5185" end="12231" strand="1" />
+              <long_name>ribosome maturation protein SBDS</long_name>
+              <db_xref source="CCDS" accession="CCDS5537.1" />
+              <db_xref source="GeneID" accession="51119" />
+              <db_xref source="GI" accession="28416940" />
+            </protein_product>
+          </transcript>
+        </gene>
+      </features>
+    </annotation_set>
+    <annotation_set type="ensembl">
+      <source>
+        <name>Ensembl</name>
+        <url>http://www.ensembl.org/</url>
+        <contact>
+          <name>Ensembl</name>
+          <address>European Bioinformatics Institute</address>
+          <email>helpdesk@ensembl.org</email>
+        </contact>
+      </source>
+      <comment>Annotation is based on Ensembl release 80 (GRCh38  primary assembly)</comment>
+      <modification_date>2015-06-22</modification_date>
+      <mapping coord_system="ENST00000246868.5" other_name="ENST00000246868.5" other_id="ENST00000246868.5" other_start="1" other_end="1631" type="transcript">
+        <mapping_span lrg_start="5001" lrg_end="5312" other_start="1" other_end="312" strand="1" />
+        <mapping_span lrg_start="6261" lrg_end="6390" other_start="313" other_end="442" strand="1" />
+        <mapping_span lrg_start="7185" lrg_end="7385" other_start="443" other_end="643" strand="1" />
+        <mapping_span lrg_start="9301" lrg_end="9465" other_start="644" other_end="808" strand="1" />
+        <mapping_span lrg_start="12103" lrg_end="12925" other_start="809" other_end="1631" strand="1" />
+      </mapping>
+      <mapping coord_system="ENST00000414306.4" other_name="ENST00000414306.4" other_id="ENST00000414306.4" other_start="1" other_end="1531" type="transcript">
+        <mapping_span lrg_start="5026" lrg_end="5312" other_start="1" other_end="287" strand="1" />
+        <mapping_span lrg_start="6261" lrg_end="6382" other_start="288" other_end="409" strand="1" />
+        <mapping_span lrg_start="7185" lrg_end="7385" other_start="410" other_end="610" strand="1" />
+        <mapping_span lrg_start="9301" lrg_end="9465" other_start="611" other_end="775" strand="1" />
+        <mapping_span lrg_start="12103" lrg_end="12858" other_start="776" other_end="1531" strand="1" />
+      </mapping>
+      <mapping coord_system="ENST00000463579.1" other_name="ENST00000463579.1" other_id="ENST00000463579.1" other_start="1" other_end="513" type="transcript">
+        <mapping_span lrg_start="6236" lrg_end="6382" other_start="1" other_end="147" strand="1" />
+        <mapping_span lrg_start="7185" lrg_end="7385" other_start="148" other_end="348" strand="1" />
+        <mapping_span lrg_start="9301" lrg_end="9465" other_start="349" other_end="513" strand="1" />
+      </mapping>
+      <mapping coord_system="ENST00000490953.4" other_name="ENST00000490953.4" other_id="ENST00000490953.4" other_start="1" other_end="841" type="transcript">
+        <mapping_span lrg_start="5036" lrg_end="5312" other_start="1" other_end="277" strand="1" />
+        <mapping_span lrg_start="6261" lrg_end="6382" other_start="278" other_end="399" strand="1" />
+        <mapping_span lrg_start="7185" lrg_end="7385" other_start="400" other_end="600" strand="1" />
+        <mapping_span lrg_start="9301" lrg_end="9541" other_start="601" other_end="841" strand="1" />
+      </mapping>
+      <mapping coord_system="ENST00000617799.1" other_name="ENST00000617799.1" other_id="ENST00000617799.1" other_start="1" other_end="953" type="transcript">
+        <mapping_span lrg_start="5015" lrg_end="5307" other_start="1" other_end="293" strand="1" />
+        <mapping_span lrg_start="5309" lrg_end="5312" other_start="294" other_end="297" strand="1" />
+        <mapping_span lrg_start="6260" lrg_end="6390" other_start="298" other_end="428" strand="1" />
+        <mapping_span lrg_start="7185" lrg_end="7385" other_start="429" other_end="629" strand="1" />
+        <mapping_span lrg_start="9301" lrg_end="9465" other_start="630" other_end="794" strand="1" />
+        <mapping_span lrg_start="12103" lrg_end="12261" other_start="795" other_end="953" strand="1" />
+      </mapping>
+      <features>
+        <gene source="Ensembl" accession="ENSG00000198874.11">
+          <symbol source="HGNC" name="TYW1" />
+          <coordinates coord_system="LRG_104" start="1" end="5429" strand="-1" mapped_from="GRCh38" />
+          <partial>3-prime</partial>
+          <long_name>tRNA-yW synthesizing protein 1 homolog (S. cerevisiae) (protein_coding)</long_name>
+          <db_xref source="GeneID" accession="55253">
+            <synonym>RSAFD1</synonym>
+            <synonym>TYW1A</synonym>
+            <synonym>YPL207W</synonym>
+          </db_xref>
+          <db_xref source="MIM" accession="611243" />
+          <db_xref source="HGNC" accession="25598">
+            <synonym>FLJ10900</synonym>
+            <synonym>MGC23001</synonym>
+            <synonym>MGC60291</synonym>
+            <synonym>RSAFD1</synonym>
+            <synonym>TYW1A</synonym>
+            <synonym>YPL207W</synonym>
+          </db_xref>
+          <db_xref source="Ensembl" accession="ENSG00000198874" />
+          <transcript source="Ensembl" accession="ENST00000359626.8">
+            <coordinates coord_system="LRG_104" start="1" end="3787" strand="-1" mapped_from="GRCh38" />
+            <partial>3-prime</partial>
+            <long_name>TYW1-001 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS5538.1" />
+            <db_xref source="RefSeq" accession="NM_018264.3" />
+            <exon source="Ensembl" accession="ENSE00001947681">
+              <coordinates coord_system="LRG_104" start="3620" end="3787" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003519485">
+              <coordinates coord_system="LRG_104" start="2407" end="2537" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003585657">
+              <coordinates coord_system="LRG_104" start="1648" end="1785" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000352645.5">
+              <coordinates coord_system="LRG_104" start="1" end="3623" strand="-1" mapped_from="GRCh38" />
+              <partial>3-prime</partial>
+              <long_name>S-adenosyl-L-methionine-dependent tRNA 4-demethylwyosine synthase</long_name>
+              <db_xref source="RefSeq" accession="NP_060734.2" />
+              <db_xref source="UniProtKB" accession="Q9NV66">
+                <synonym>Q6PJG8</synonym>
+                <synonym>Q75MG8</synonym>
+                <synonym>Q75MN3</synonym>
+                <synonym>Q86V12</synonym>
+                <synonym>Q8IVS7</synonym>
+                <synonym>Q9H9C4</synonym>
+              </db_xref>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000442959.4">
+            <coordinates coord_system="LRG_104" start="1" end="3782" strand="-1" mapped_from="GRCh38" />
+            <partial>3-prime</partial>
+            <long_name>TYW1-010 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00001803958">
+              <coordinates coord_system="LRG_104" start="3620" end="3782" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003519485">
+              <coordinates coord_system="LRG_104" start="2407" end="2537" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003585657">
+              <coordinates coord_system="LRG_104" start="1648" end="1785" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000398897.1">
+              <coordinates coord_system="LRG_104" start="1" end="3623" strand="-1" mapped_from="GRCh38" />
+              <partial>3-prime</partial>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000475392.1">
+            <coordinates coord_system="LRG_104" start="1" end="3757" strand="-1" mapped_from="GRCh38" />
+            <partial>3-prime</partial>
+            <long_name>TYW1-011 (retained_intron)</long_name>
+            <exon source="Ensembl" accession="ENSE00001828778">
+              <coordinates coord_system="LRG_104" start="3620" end="3757" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003660688">
+              <coordinates coord_system="LRG_104" start="2407" end="2537" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003639573">
+              <coordinates coord_system="LRG_104" start="1648" end="1785" strand="-1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000361660.7">
+            <coordinates coord_system="LRG_104" start="1" end="3749" strand="-1" mapped_from="GRCh38" />
+            <partial>3-prime</partial>
+            <long_name>TYW1-002 (nonsense_mediated_decay)</long_name>
+            <exon source="Ensembl" accession="ENSE00001951986">
+              <coordinates coord_system="LRG_104" start="3620" end="3749" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003519485">
+              <coordinates coord_system="LRG_104" start="2407" end="2537" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003585657">
+              <coordinates coord_system="LRG_104" start="1648" end="1785" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000354795.4">
+              <coordinates coord_system="LRG_104" start="1" end="3623" strand="-1" mapped_from="GRCh38" />
+              <partial>3-prime</partial>
+              <db_xref source="UniProtKB" accession="Q9NV66">
+                <synonym>Q6PJG8</synonym>
+                <synonym>Q75MG8</synonym>
+                <synonym>Q75MN3</synonym>
+                <synonym>Q86V12</synonym>
+                <synonym>Q8IVS7</synonym>
+                <synonym>Q9H9C4</synonym>
+              </db_xref>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000615572.3">
+            <coordinates coord_system="LRG_104" start="1" end="3782" strand="-1" mapped_from="GRCh38" />
+            <partial>3-prime</partial>
+            <long_name>TYW1-201 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00001803958">
+              <coordinates coord_system="LRG_104" start="3620" end="3782" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003519485">
+              <coordinates coord_system="LRG_104" start="2407" end="2537" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000478959.1">
+              <coordinates coord_system="LRG_104" start="1" end="3623" strand="-1" mapped_from="GRCh38" />
+              <partial>3-prime</partial>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000491969.4">
+            <coordinates coord_system="LRG_104" start="1747" end="5429" strand="-1" mapped_from="GRCh38" />
+            <long_name>TYW1-009 (processed_transcript)</long_name>
+            <exon source="Ensembl" accession="ENSE00001875311">
+              <coordinates coord_system="LRG_104" start="5105" end="5429" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003660688">
+              <coordinates coord_system="LRG_104" start="2407" end="2537" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001910501">
+              <coordinates coord_system="LRG_104" start="1747" end="1785" strand="-1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+        </gene>
+        <gene source="Ensembl" accession="ENSG00000126524.8">
+          <symbol source="HGNC" name="SBDS" />
+          <coordinates coord_system="LRG_104" start="5001" end="12925" strand="1" mapped_from="GRCh38" />
+          <long_name>Shwachman-Bodian-Diamond syndrome (protein_coding)</long_name>
+          <db_xref source="GeneID" accession="51119">
+            <synonym>CGI-97</synonym>
+            <synonym>SDS</synonym>
+            <synonym>SWDS</synonym>
+          </db_xref>
+          <db_xref source="MIM" accession="607444" />
+          <db_xref source="HGNC" accession="19440">
+            <synonym>CGI-97</synonym>
+            <synonym>FLJ10917</synonym>
+            <synonym>SDS</synonym>
+            <synonym>SWDS</synonym>
+          </db_xref>
+          <db_xref source="Ensembl" accession="ENSG00000126524" />
+          <transcript source="Ensembl" accession="ENST00000246868.5">
+            <coordinates coord_system="LRG_104" start="5001" end="12925" strand="1" mapped_from="GRCh38" />
+            <long_name>SBDS-001 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS5537.1" />
+            <db_xref source="RefSeq" accession="NM_016038.2" />
+            <exon source="Ensembl" accession="ENSE00000909225">
+              <coordinates coord_system="LRG_104" start="5001" end="5312" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00000909224">
+              <coordinates coord_system="LRG_104" start="6261" end="6390" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003483847">
+              <coordinates coord_system="LRG_104" start="7185" end="7385" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003550090">
+              <coordinates coord_system="LRG_104" start="9301" end="9465" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001017311">
+              <coordinates coord_system="LRG_104" start="12103" end="12925" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000246868.2">
+              <coordinates coord_system="LRG_104" start="5185" end="12231" strand="1" mapped_from="GRCh38" />
+              <long_name>ribosome maturation protein SBDS</long_name>
+              <db_xref source="RefSeq" accession="NP_057122.2" />
+              <db_xref source="UniProtKB" accession="Q9Y3A5">
+                <synonym>A8K0P4</synonym>
+                <synonym>Q96FX0</synonym>
+                <synonym>Q9NV53</synonym>
+              </db_xref>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000617799.1">
+            <coordinates coord_system="LRG_104" start="5015" end="12261" strand="1" mapped_from="GRCh38" />
+            <long_name>SBDS-201 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00003742803">
+              <coordinates coord_system="LRG_104" start="5015" end="5307" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003721032">
+              <coordinates coord_system="LRG_104" start="5309" end="5312" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003722625">
+              <coordinates coord_system="LRG_104" start="6260" end="6390" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003483847">
+              <coordinates coord_system="LRG_104" start="7185" end="7385" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003550090">
+              <coordinates coord_system="LRG_104" start="9301" end="9465" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003730230">
+              <coordinates coord_system="LRG_104" start="12103" end="12261" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000483040.1">
+              <coordinates coord_system="LRG_104" start="5185" end="12231" strand="1" mapped_from="GRCh38" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000414306.4">
+            <coordinates coord_system="LRG_104" start="5026" end="12858" strand="1" mapped_from="GRCh38" />
+            <long_name>SBDS-005 (nonsense_mediated_decay)</long_name>
+            <exon source="Ensembl" accession="ENSE00001768782">
+              <coordinates coord_system="LRG_104" start="5026" end="5312" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003537267">
+              <coordinates coord_system="LRG_104" start="6261" end="6382" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003657867">
+              <coordinates coord_system="LRG_104" start="7185" end="7385" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003629263">
+              <coordinates coord_system="LRG_104" start="9301" end="9465" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001696282">
+              <coordinates coord_system="LRG_104" start="12103" end="12858" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000394586.1">
+              <coordinates coord_system="LRG_104" start="5185" end="7195" strand="1" mapped_from="GRCh38" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000490953.4">
+            <coordinates coord_system="LRG_104" start="5036" end="9541" strand="1" mapped_from="GRCh38" />
+            <long_name>SBDS-004 (retained_intron)</long_name>
+            <exon source="Ensembl" accession="ENSE00002430839">
+              <coordinates coord_system="LRG_104" start="5036" end="5312" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003585054">
+              <coordinates coord_system="LRG_104" start="6261" end="6382" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003528960">
+              <coordinates coord_system="LRG_104" start="7185" end="7385" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001929359">
+              <coordinates coord_system="LRG_104" start="9301" end="9541" strand="1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000463579.1">
+            <coordinates coord_system="LRG_104" start="6236" end="9465" strand="1" mapped_from="GRCh38" />
+            <long_name>SBDS-007 (retained_intron)</long_name>
+            <exon source="Ensembl" accession="ENSE00001958573">
+              <coordinates coord_system="LRG_104" start="6236" end="6382" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003528960">
+              <coordinates coord_system="LRG_104" start="7185" end="7385" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003629263">
+              <coordinates coord_system="LRG_104" start="9301" end="9465" strand="1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+        </gene>
+      </features>
+    </annotation_set>
+    <annotation_set type="lsdb">
+      <source>
+        <name>List of locus specific databases for SBDS</name>
+        <url>http://grenada.lumc.nl/LSDB_list/lsdbs/SBDS</url>
+      </source>
+      <modification_date>2015-06-22</modification_date>
+    </annotation_set>
+  </updatable_annotation>
+</lrg>

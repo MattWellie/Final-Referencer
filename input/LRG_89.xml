@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="application/xml" href="lrg2html.xsl"?>
+
+<lrg schema_version="1.9">
+  <fixed_annotation>
+    <id>LRG_89</id>
+    <hgnc_id>7797</hgnc_id>
+    <sequence_source>NG_007571.1</sequence_source>
+    <organism taxon="9606">Homo sapiens</organism>
+    <source>
+      <name>NFKBIAbase: Mutation registry for Autosomal dominant anhidrotic ectodermal dysplasia and T-cell immunodeficiency</name>
+      <url>http://structure.bmc.lu.se/idbase/NFKBIAbase/</url>
+      <contact>
+        <name>Jouni Valiaho</name>
+        <address>University of Tampere, Finland</address>
+        <email>Jouni.Valiaho@uta.fi</email>
+      </contact>
+      <contact>
+        <name>Mauno Vihinen</name>
+        <address>University of Tampere, Finland</address>
+        <email>Mauno.Vihinen@med.lu.se</email>
+      </contact>
+    </source>
+    <mol_type>dna</mol_type>
+    <creation_date>2010-09-24</creation_date>
+    <sequence>AAAAGAGGTTGTAAACTCAGAGCTTATAGGCTCTGTTTAGCCAATAGATGCAGAAATGCATTGTGTTTAGTTTTCATAATGTTTTTATGTTTGTTTGAGGCAAGGTCTCACTCTTTTGCTGAGGCTGGAGCTCAGTGACACAGTCATGGCCCACTGTAGCCTCAACGTCCCAGGTTCGAGCAATCCTCCCACCTCAGTCTCCCAAGTAGGTGCGACTACAGGTGTATGCCACCACACCTGGTTAATTTTTTTATTTTTATTTTTATAGCGATGGGGTCTCACTATGTTGCCCAGGCTGGTCTCAAACTCCTAAACGCAAGTGATCCTCCTGCCTCACCCTCTCAAAGTGTTGGGATTGCAGGCATGAGCCACGGAGCTGGGCCAATTTTTTTTATTTCTTTAACAATAGAAGGTCACTACTGAACTGAAGGTGCTACATGCCAAAAGTTGTCTGAGCTAAGTATGAGGGAAGTACACACCCTGACCTAAGCTGTTGGAGATCCCACTCCTTTCAGACTCAAATGGTCTGTTTCACTCATCTGTGAAATCTGCCTGCTCCCTATGCGTAAGTATTTTGAGTTTGAGATCCTTTAAAGCTTTGATCTCCATTAAATTGCAGAATTTGTAGCAAAGGAAACACATTAAGGATTTGACGGTCTTATTTTCACTTCACTACAAATGAAGGTTCTGACAGCTGTTTTTCCTTTTTTTTTTTTTTAATTGAGACAGAGTCTCTCTCTGCTGCCCAGGCAGGAGTGCAATGGCACGATCTCAGCTCACTGCAACCTTCACCTCCCAGGGTCAAGTGATTCTCCTGCCTCAGCCTCCCGAGTAGCTGGGATTACAGGCATGTGCCATCACGCCTGGCTAATTTTTGTATTTTGAGTAGAGATGGGGTTTCACCATGTTGGCCGGGCTGGTCTTGAACTCCTGACCTCAGGTGATCAGCTCGCCTCAGCCTCCCAAAGTGCTGGGATTATAGGTCGGAGCCACCGCCCCCAGCCTTGTTTTTCTATGGGAAAAGATCCATAGCTTGGGGGCTCCCTGTTCTGAAGAGGATGCAGACAGTTGCTACCACGATAGCAAGAAAGAAGACAACCTGAGACTGAAAGCAGAATATTTAGAATTTCACAGTGGGGCTGCCAGTTGGGAGTGCACCTGCCTTGCTCTTCAGGAACTCTGTCATGGCTCGTCTTTCTTCCAGCCTAGCTGCACTGAGCAATAGGTAGCCTGATTCCAGAGTTGAATTTGCTGTAGCCAAAACAATTTAGTTTTAATTGGCCAGGCCAGTTGACACAGGCCACCCTGCCCTGAGGATTTTGGACCACCTGGCTGAACTTGTAGACTCTCTCCATGGCACTTCAGGCAATAGGTTTTGTCCATACTGTGCTTGTTCCATGCAGGAGGAGTGCCTGAAGTGCCTGCAGCCAAACCAGGCCCTGGCGATGCTCCTTTTCCCATGGGGGTGCTCCTGGAGCATCACTGGCCGTCCTGTCATTTCCTACGGCTGCGTCCTGGGCCAAAATACAAAGCAGCTTTGAGGTGTAACTTATTATTTTGCCTTATGCATTAAAAAGGCCAAATAACATTAAAAATCAGTTATCTAAAGTATTTTGTTTTGTTTTGTTTTGTTTTTTGAGACAGAGTCTCACCCTGTTGCCCAGGCTGGCGTGCAATGGCGCGATCTCGGCTCACTGCAACCTCTGCCTCCTCGGTTCAAGTGATTCTCCTGCCTCAGCCTCCTAAGCAGCATCTGCACCACCACACCCGACTAATTTTTTGTATCTTTAGTAGAGACGGGGTTTCATCATGTTGGCCAGGCTGGTCTCGAACTCCTGACCTCATGATCCACCTGCCTCAGCCTCCCAAAGTGCTGAGATTATAGGCGTGAGCCACTGCGCACAGCCTACAGTTTTAACATTTTTTTTAACGGTTATGTTAGCTAGAATGTTTGACAATGAGGAGGAGAAAAATCTGAGTGCTGAAGGGTCCATAAAGGTCTTTCTTTTTCTTTTTTTTCTTTTTGAGACAGGGTCTCAGTCTGTTGCTCAAGCTGGAGTGCAGTTGTGCCATCATGGCTCACTACAAACTCCACCTCCCAGGCTCAAGCAATTCTCCCACTTCTGCCTCTGGAGTAGCTGGGACTACAGGCACCTGCCACCACACTCTGCTAATTATATTTTTTGTAGAGACAAGAGTTTAGCCTTGTTGCCCAGGCTGGTCTCCAACTCCTGGGTGGCAAGCAATCCTCCTGCCTCAGCAACCCAAAGTGCTGAAATTACAGCAGTGAGCCACAACTCCTGGCCCATAAAGGTCTTTCTAAATCAAAACCAGACCCTCTTGTTGTCTTCTGCCCAGTCTGCTCATGGTTCTAATTTCCAAGTGTATATTCTTTTTCACCCACGTTGTAATGTTTGTTGACTTAAACCATATAGCGCTATAGATGATGGGGAGAAAACCTGTTGGATCACATTATTCAAAACTGTTTCCCAGAGTCGCAGGAAAACAATAGGTACCTCCTTGGAAATCTCCACTGTAGGGACAAGTCATCAAGGCTCAGCACCTCCCAATTTTTGCAAAAGGCACTATGACAAATCAAGGAACGCCTGTGCCTTACTCTTACCACTAGGTGTCACACAAAACAATCAGGAATAAACACCAAGATCCTGAAGGCTACCAGAAATATAAAACCATAGAAGGTGGTGCAAAAAAACCTTATTCCTCAGATATTTTTATTTTTTATAACCATTTTTATACCTGAAGCCAAATATCTTCTTCTGATGTATCCTCTATAATTGGGACATTTAGAGTTTGATGTTTCTGTACTTGTTTAAAAGAAGTGACTATCCCCAGATGGGGGTCAGGGGACACCCACCCTTTATTTTCCCTAACAGTTGGAGTAGAAAATACTTTTGAGTACATTCCAAATTATAGTGTAGTCAGTCTGATTTTCACAGCGTGTTTTCAAAAGTGTTAATACTAAGACTGCTTTGGCCAAATGATTAATATACTGCCAAGGGGTTCCTGGGTAAATTTCTATGCATTTCAGTTTCTTTTTAGGGAAGTAGGAACAATATCTATCTTACAAGATTAGTTCTGAGAACAATGTGGTACATAAGGCGCTGGAATTCTTTCAAAAATTTATACCCTGACATTTCCAAGAGCCATGGTCACCCTTACAAAGGAGAGTTAGGCATGCATTTGTAGACAAGCAATATGACTTTTAAGCTAGAAAAGACCTTAAGTAACATTCAATCTAATCTTATTATAAAAGTTAAGTATACCACAAAAAAGTTAACTGACCTCTCCAACTAATGTGCAGTCAAGTAAAGATAGAACCTGGAATTGAGATGTCCCATTGCAGTCACTGTTTCACCTTGCCTCAATCATTGTAGATTTGCATATCATAAACCTGCAGAGACAATGGTGTCTATCCCTGGGAAGTTTTCATTGTAACATGTGATCATTATTACCCTGGAGGGTCTATCTGATTTTAATTTTTTTCCCTTCATACTTGGTCTCTCTCTATCGAGTCAGATTTCTTTCATTCTAATATTAGGGGAGGGGTGGAGATACGAAGAGAGGGGAAGGATTGGTTAGTACAAGGCCAGTCAAGGTAAAGATGATTGCAATAATCACCAGAAATCTCTGCAGAACTACAGAGGCCTCCTGGGACTAATTCTGAAGAGCTCTGACCGAAGTTTGCTTTATTTTGCCTGTACCAATTCTACCAAGTAGATGAATTCAGTCCATGGCTTGCAGGCTTGGAGGTGGAGGTGGAGTGGAGAGCATAAATTATATTTCTGCAGGTGAAACCAGAGCATAGTGAGCCGAAACCCCTTTCTACCCAGGTGGCGTGAATGGGTCCAACTGCTACTGTCCCCCAGGACAAGAGAGCAAGGAGGGGCGGGCAGGATGGGACTACCTTGAGCCTCCCGCAGGATGCCTGGCAACTACTTTCTTAGTGGTCCTTAAGGTCCAATCGCGGTTAAGGCACTAACTAAACTCATTCTTCAGCCTCCTTCTCTAAGTTCTCCTCGAATTTGGGTGCCCAGAAGTAGGCTCACGATCCTTTTTCTGCGGGAGCACAATGTAGGTCAGATAGCATAAACGAATAGCTACTTATGAACACAATAGCTACTCTGCTATTGCAAGGTATCCACAACCACCACTACAAACATTAACACCTTGCTTTACTTGGGAAACAAAAAAAATCATGGTCCTATTCAGCAGTTTCCCCATACAGGGAGCGTTTGCCCCTCCCCCAGTCAACAGGGCTGTTCATCCCTAGGAAGTGATTTGAGAGTTCTCCAAGGATTTAGGCTTTTCACTCCTCCAAAGCTTTCACAACTTCTACCTGGCGGGGGTGCGTGGGGGGGTGGGGGCGAAGCTAAAAGTTCCTTTGCTGCAAAGAGCCTGGTATAGGCAGAAACACCGGCGCGGCCTGCAGCCCCCTAACCACAGTGCGTCCTTCCCCTTAGAAGTCTGGGGAAAGCAAATCCCTACGCCCAGCCATCATTTCCACTCTTGCGTTTTCAAAAGATCAAAAAACGGAAAGGACCGGCAGGTTGGCAAACCCCAAAGAGGGACCGCCCATCAGGTCGGCGTCCTTGGGATCTCAGCAGCCGACGACCCCAATTCAAATCGATCGTGGGAAACCCCAGGGAAAGAAGGCTCACTTGCAGAGGGACAGGATTACAGGGTGCAGGCTGCAGGGAAGTACCGGGGGGAGGGGGCCTGGTCGGAAGGACTTTCCAGCCACTCGGCGCTCATCAAAAAGTTCCCTGTCCGTGACCCTAGTGGCTCATCGCAGGGAGTTTCTCCGATGAACCCCAGCTCAGGGTTTAGGCTTCTTTTTCCCCCTAGCAGAGGACGAAGCCAGTTCTCTTTTTCTGGTCTGACTGGCTTGGAAATTCCCCGAGCCTGACCCCGCCCCAGAGAAATCCCCAGCCAGCGTTTATAGGGCGCCGCGGCGGCGCTGCAGAGCCCACAGCAGTCCGTGCCGCCGTCCCGCCCGCCAGCGCCCCAGCGAGGAAGCAGCGCGCAGCCCGCGGCCCAGCGCACCCGCAGCAGCGCCCGCAGCTCGTCCGCGCCATGTTCCAGGCGGCCGAGCGCCCCCAGGAGTGGGCCATGGAGGGCCCCCGCGACGGGCTGAAGAAGGAGCGGCTACTGGACGACCGCCACGACAGCGGCCTGGACTCCATGAAAGACGAGGAGTACGAGCAGATGGTCAAGGAGCTGCAGGAGATCCGCCTCGAGCCGCAGGAGGTGCCGCGCGGCTCGGAGCCCTGGAAGCAGCAGCTCACCGAGGACGGGGACTCGTAAGTGGCGGAGGCCCGGGGCTGGGGGTCGTCGGGAGGGCGGGACGCGCGCGGCCTGGGGGTGGGAGGCGCCGGGCCTGGAGCCCGAGCCGGGGGACCAGCGATGCAGCCGGGCGGGCGCCGCGGCACCCCGGGGCTCCTGCACCGCCCCGAACGCTGCAGGGCTGCAGGGCCGCGCGGGGCACCGGCCCAACTCGGAGGGGCGGCGGCTGGGCCCTGGTGGATGGCAGCGTCGCCACACGCCCCCTCCCCCCAGACCCGTCCTCTAGGCCGGGGGCGGGGCGGCAGCGGGGACGCGAAGTCCCCGGTTGCATAAGGCGGGGCGGGAGTTTCTGGCCGCTGGCGGGCGCCGAGCAGCCGGGAGGGGAAGTACAGGGCGTTCCGAGCTGGCGGGAGGGCGGGGCGGTCTGGCCGGCGCCCGCCGGGGCCGCGGGGGGAGGGGGGCGGAAAGTCCCTGGGCGCCTGCCAGGAACACTCAGCTCATAATAACCTCGCGGAAAACACCGCGGCCTCGGCCTCCAGAAACCCCGGCCTTGCGCAATCCCCCGCAGCCCGCGCCTCCCTGGGCCCCACGCGGTGCACTCACCACCCCTGGGGTTTTTCCCTCTCTTCCCCACAGGTTCCTGCACTTGGCCATCATCCATGAAGAAAAGGCACTGACCATGGAAGTGATCCGCCAGGTGAAGGGAGACCTGGCCTTCCTCAACTTCCAGAACAACCTGCAGCAGGTGCGCCGCTTGCCTGGCCCGGGTTCTCTCTGACCCTGGGACGTAGCTGATGTAGCAGAGTCACCCCAGATCCTTTCTGAATTCAGGGCCACTGAGCACTATTTACCCTCACCTTTTACTTCACATCAGCCCACATCCTAGAGAGTGAAGGAAATTCCACTGATTTGGTGAGGTCTTTATGACCCACCTGGAGCCTCTGCTATTTGCCAGCCCTCCCCACCCCCCTGTCTAGGAGGAGCAGCACCCAACCAGGAGACACGGGTTGAGGGGAACTCGGGGTGTGGGTTTGGTCCATGGCTTACTTTCTCTGGTCTCTCTTGCATTCGTAGACTCCACTCCACTTGGCTGTGATCACCAACCAGCCAGAAATTGCTGAGGCACTTCTGGGAGCTGGCTGTGATCCTGAGCTCCGAGACTTTCGAGGAAATACCCCCCTACACCTTGCCTGTGAGCAGGGCTGCCTGGCCAGCGTGGGAGTCCTGACTCAGTCCTGCACCACCCCGCACCTCCACTCCATCCTGAAGGCTACCAACTACAATGGTATGTCTGCCTCCCTGCCCTGCCCCACCCCCTCGGAGGGCAGGTGACGTGGAGAAGGGGCAGGTGGGCCAACTTAAGGAGTCCAGGCAAGAGCTTAAACTCCTAACATTTGGAAGGTTGAGAAAATATGTGTGCAAAGTGCCTATTGGATGCCTTTATAAAGTTCTTTCAGAACCCAGACTGTGGGTTCTTAAAATTCAGAAGATAAGACTACTTGTTCCATAAAAGAATAGGTGAAAGGAGTGAGGGTTGAAACAGGTGGTTATACTTTTTTCCTTTTGTTCTTCCAGGCCACACGTGTCTACACTTAGCCTCTATCCATGGCTACCTGGGCATCGTGGAGCTTTTGGTGTCCTTGGGTGCTGATGTCAATGCTCAGGTTGGTGCTTCCTGCCCCCGACGCACTGAGTCAGGCTCCTCGTGCTTATGTTGTGAGCAGAAATTCCAAATGCAGCCATAAGCATCTCAAATTCCTTTTGGTTTCAGGAGCCCTGTAATGGCCGGACTGCCCTTCACCTCGCAGTGGACCTGCAAAATCCTGACCTGGTGTCACTCCTGTTGAAGTGTGGGGCTGATGTCAACAGAGTTACCTACCAGGGCTATTCTCCCTACCAGCTCACCTGGGGCCGCCCAAGCACCCGGATACAGCAGCAGCTGGGCCAGCTGACACTAGAAAACCTTCAGATGCTGCCAGAGAGTGAGGATGAGGAGAGCTATGACACAGAGTCAGAGTTCACGGAGTTCACAGAGGACGAGGTGAGTCTGTGAACTCCTTCGGCGCTCTAACTAATGAGGTGCCATTCCCTTCACCCTCCCAGGCCCCTAGAGCTGCTCCTTATCAGAGGGGTATCTACATAATGAGTCTCTCAAATTTCTGTGCATAACCAGTATCCCAAGAATGTACCTGCCCCCCCTCTTTTTTTAAAGAGAAGCATTAAAGGCAAACTCTCTCAGCCTGTAAAGTTCATTATATTTGGGCTATGGAGAATGGAGTCCAAGAGTTATTTCCAGTAGTGGCCTCCCCATCCCGGTAGCTTGGCAGAGCTCCGCTCCGGAAGCTTAACGTGTCTTTTTTCCCCTTGTTTTCAGCTGCCCTATGATGACTGTGTGTTTGGAGGCCAGCGTCTGACGTTATGAGCGCAAAGGGGCTGAAAGAACATGGACTTGTATATTTGTACAAAAAAAAAGTTTTATTTTTCTAAAAAAAGAAAAAAGAAGAAAAAATTTAAAGGGTGTACTTATATCCACACTGCACACTGCCTGGCCCAAAACGTCTTATTGTGGTAGGATCAGCCCTCATTTTGTTGCTTTTGTGAACTTTTTGTAGGGGACGAGAAAGATCATTGAAATTCTGAGAAAACTTCTTTTAAACCTCACCTTTGTGGGGTTTTTGGAGAAGGTTATCAAAAATTTCATGGAAGGACCACATTTTATATTTATTGTGCTTCGAGTGACTGACCCCAGTGGTATCCTGTGACATGTAACAGCCAGGAGTGTTAAGCGTTCAGTGATGTGGGGTGAAAAGTTACTACCTGTCAAGGTTTGTGTTACCCTCCTGTAAATGGTGTACATAATGTATTGTTGGTAATTATTTTGGTACTTTTATGATGTATATTTATTAAACAGATTTTTACAAATGAGTTATCCTGATCATTTTCTTCAGGCTGCCGTGGGCCTCCGGTTCTGAAGTTCCATCCTCCGGCAGAGGTGGAGGTGGAGCAGTGTGAGGGAGGAGGTAACTCCCAGCAGCTTCTCACACCTGACACCCAGCCTCCAGCAAAGCTTTGCAGGCACCCTGGGCCCAGTGTGTGGGAGGGAGGCTGTTGCAAGGTTATAGGAAATTACCAATCTCAGGCTTGGGGTGGAAGCATGCTGTTTGGCCTGTGGTTGGAGACCTCTCCGTTGTCATTCTGTCATCCCGTTGATTTAAACTTCCTGGACCCTAATTGCCAGTTGAGGAAATTATTTTGGCCAAGAAGAATATGCTGAATTCATATAGAGCTGGGAAAGATCTCACTAATACAGGAAGTTCCTAAGGACATAGGCTCAGAAATGGGACTGCACTGACATTTGTTAGCAGATGCTCACCTCTGAGCCTCAGTTTTCTCATTTATTAGCTGGGCTGTTGTGAAAATTACATAAGACAATCCACGTAAAATGCATAGCAGAGCGGCAGGCACGTAGTGCTAAAGAAAAACAAGCTGTTACGCAACGTTCTTTATGTCATACCAGGAGAAACAAGTCCAGAGAGAATGTCCTGTCTAGGGTCACCTTGCAGGAGAAATAGGTGGTTAACATATTTCATACGTGCTCGTTTTGGGGTAAACATCTTTTAAGAGCATTCCATCTCTTAAATCTATGTGTTATTGGCTGTAGTAGAAAAGTAATAAAGGCTTGAAGGGTCTTATCAGTTCAGTCTACTGATTGTACTGGACGATTCTACAGGAGCAAATGTCACAAGAAACCAGTAATGTGAAACTTGGCTTAGATGCTCTATCTTGAGGTTTTCATCCCTAAAATGGCTCTCTTGCCTAGGTAGAGAGAAGAATAAAGATGGGTATACTGAAAGCCCAGACTTTACCGCTATACAATATAAAAAATCTGCATTTGTACTCTGTAAACATTTTTATTAAATTTTTGGGGGATAGGGTCTCACTCTGTTGCCCAGGCTGGGGTGCAATTGTGCAATCACAGCTCACTGCAGCCCCAAACTCCTGGGCTCAAGCGATCCTCCCAACTCAGCCTCCTGAGTAGCTGGGACTACAAGCATGCACCACCATGCCTGACTAATTTTATTTGTAGAGACAGGGTTTCTCTATGTTGCCCAGGCTGGTCTGGAACTCCTGGGCTCAAGAGATCCACCCACTATGGCCTCCCAAAGCACTGGGATTACAGGTCTGAGCCACCACACCCAGCCAAAACATTTCTGAGGAAAAAGTAAAGTTATTGCATTCTAGAAAATGCAGAGTAGTGTATAAATGCAATTCATGTCTTTGACTTATACCTAAGAAAAAATTATTACATTATCCCTTTCCTGATCCACAAACGATGTCAAAGTCAAAAGAATATGGTCACCTTGGACCAAAAAGGAGCCAGTATTTAGTGGTCTTCCACATATAAGGAGTGTTACTACAGACTGGTTAAAGCCAATTCTGCCCCAATTCTTTCTCTTTCTTTTTTTTTTTTTTTTTTTTTTTTTGAGATGGAGTCTTGCTCTGTCGCCCAGGCTGGAGTACAGTGGCATGATCTCAGCTCACTGCAACCTCCACCTCCCGGGTTCTAGCGATTCTCTGTGCCTCAGCCTCCCGAGTAGCTGGGATTACAGGTGCCTGCCACCACGCCTGGCTAATTTTTATATTTTTAGTAGAGACAGGGTTTCACCATGTTGCCCAGGCTGGTCTTGAACTCCTGACCTCAGGTGATCTGCCCACCTCAGCCTCCCAAAGTGCTGGAATTTCAGGCGTGAGTCACCGCGCCCAGCTCTGCTCCATTTCTGTAGCCTTAGTCCATCCGGAACCCAGCACTGGCGGTCCCTCTACCAGTCTTATTCTCTGTCAAAGTGCCCGGGTTCTTCCCTGAAATTCCTTGTCCATCCCCAAGCACCTCAACACAGGTGTTAAATGACCTACCACAGGAATT</sequence>
+    <transcript name="t1">
+      <comment>This transcript is identical to the RefSeq transcript NM_020529.2 but with the polyA tail removed.</comment>
+      <coordinates coord_system="LRG_89" start="4985" end="8229" strand="1" />
+      <cdna>
+        <sequence>AGCCCACAGCAGTCCGTGCCGCCGTCCCGCCCGCCAGCGCCCCAGCGAGGAAGCAGCGCGCAGCCCGCGGCCCAGCGCACCCGCAGCAGCGCCCGCAGCTCGTCCGCGCCATGTTCCAGGCGGCCGAGCGCCCCCAGGAGTGGGCCATGGAGGGCCCCCGCGACGGGCTGAAGAAGGAGCGGCTACTGGACGACCGCCACGACAGCGGCCTGGACTCCATGAAAGACGAGGAGTACGAGCAGATGGTCAAGGAGCTGCAGGAGATCCGCCTCGAGCCGCAGGAGGTGCCGCGCGGCTCGGAGCCCTGGAAGCAGCAGCTCACCGAGGACGGGGACTCGTTCCTGCACTTGGCCATCATCCATGAAGAAAAGGCACTGACCATGGAAGTGATCCGCCAGGTGAAGGGAGACCTGGCCTTCCTCAACTTCCAGAACAACCTGCAGCAGACTCCACTCCACTTGGCTGTGATCACCAACCAGCCAGAAATTGCTGAGGCACTTCTGGGAGCTGGCTGTGATCCTGAGCTCCGAGACTTTCGAGGAAATACCCCCCTACACCTTGCCTGTGAGCAGGGCTGCCTGGCCAGCGTGGGAGTCCTGACTCAGTCCTGCACCACCCCGCACCTCCACTCCATCCTGAAGGCTACCAACTACAATGGCCACACGTGTCTACACTTAGCCTCTATCCATGGCTACCTGGGCATCGTGGAGCTTTTGGTGTCCTTGGGTGCTGATGTCAATGCTCAGGAGCCCTGTAATGGCCGGACTGCCCTTCACCTCGCAGTGGACCTGCAAAATCCTGACCTGGTGTCACTCCTGTTGAAGTGTGGGGCTGATGTCAACAGAGTTACCTACCAGGGCTATTCTCCCTACCAGCTCACCTGGGGCCGCCCAAGCACCCGGATACAGCAGCAGCTGGGCCAGCTGACACTAGAAAACCTTCAGATGCTGCCAGAGAGTGAGGATGAGGAGAGCTATGACACAGAGTCAGAGTTCACGGAGTTCACAGAGGACGAGCTGCCCTATGATGACTGTGTGTTTGGAGGCCAGCGTCTGACGTTATGAGCGCAAAGGGGCTGAAAGAACATGGACTTGTATATTTGTACAAAAAAAAAGTTTTATTTTTCTAAAAAAAGAAAAAAGAAGAAAAAATTTAAAGGGTGTACTTATATCCACACTGCACACTGCCTGGCCCAAAACGTCTTATTGTGGTAGGATCAGCCCTCATTTTGTTGCTTTTGTGAACTTTTTGTAGGGGACGAGAAAGATCATTGAAATTCTGAGAAAACTTCTTTTAAACCTCACCTTTGTGGGGTTTTTGGAGAAGGTTATCAAAAATTTCATGGAAGGACCACATTTTATATTTATTGTGCTTCGAGTGACTGACCCCAGTGGTATCCTGTGACATGTAACAGCCAGGAGTGTTAAGCGTTCAGTGATGTGGGGTGAAAAGTTACTACCTGTCAAGGTTTGTGTTACCCTCCTGTAAATGGTGTACATAATGTATTGTTGGTAATTATTTTGGTACTTTTATGATGTATATTTATTAAACAGATTTTTACAAATGA</sequence>
+      </cdna>
+      <coding_region>
+        <coordinates coord_system="LRG_89" start="5095" end="7726" strand="1" />
+        <translation name="p1">
+          <sequence>MFQAAERPQEWAMEGPRDGLKKERLLDDRHDSGLDSMKDEEYEQMVKELQEIRLEPQEVPRGSEPWKQQLTEDGDSFLHLAIIHEEKALTMEVIRQVKGDLAFLNFQNNLQQTPLHLAVITNQPEIAEALLGAGCDPELRDFRGNTPLHLACEQGCLASVGVLTQSCTTPHLHSILKATNYNGHTCLHLASIHGYLGIVELLVSLGADVNAQEPCNGRTALHLAVDLQNPDLVSLLLKCGADVNRVTYQGYSPYQLTWGRPSTRIQQQLGQLTLENLQMLPESEDEESYDTESEFTEFTEDELPYDDCVFGGQRLTL</sequence>
+        </translation>
+      </coding_region>
+      <exon label="1">
+        <coordinates coord_system="LRG_89" start="4985" end="5321" strand="1" />
+        <coordinates coord_system="LRG_89t1" start="1" end="337" />
+        <coordinates coord_system="LRG_89p1" start="1" end="76" />
+      </exon>
+      <intron phase="2" />
+      <exon label="2">
+        <coordinates coord_system="LRG_89" start="5941" end="6049" strand="1" />
+        <coordinates coord_system="LRG_89t1" start="338" end="446" />
+        <coordinates coord_system="LRG_89p1" start="76" end="112" />
+      </exon>
+      <intron phase="0" />
+      <exon label="3">
+        <coordinates coord_system="LRG_89" start="6379" end="6589" strand="1" />
+        <coordinates coord_system="LRG_89t1" start="447" end="657" />
+        <coordinates coord_system="LRG_89p1" start="113" end="183" />
+      </exon>
+      <intron phase="1" />
+      <exon label="4">
+        <coordinates coord_system="LRG_89" start="6880" end="6968" strand="1" />
+        <coordinates coord_system="LRG_89t1" start="658" end="746" />
+        <coordinates coord_system="LRG_89p1" start="183" end="212" />
+      </exon>
+      <intron phase="0" />
+      <exon label="5">
+        <coordinates coord_system="LRG_89" start="7076" end="7345" strand="1" />
+        <coordinates coord_system="LRG_89t1" start="747" end="1016" />
+        <coordinates coord_system="LRG_89p1" start="213" end="302" />
+      </exon>
+      <intron phase="0" />
+      <exon label="6">
+        <coordinates coord_system="LRG_89" start="7679" end="8229" strand="1" />
+        <coordinates coord_system="LRG_89t1" start="1017" end="1567" />
+        <coordinates coord_system="LRG_89p1" start="303" end="317" />
+      </exon>
+    </transcript>
+  </fixed_annotation>
+  <updatable_annotation>
+    <annotation_set type="requester">
+      <source>
+        <name>NFKBIAbase: Mutation registry for Autosomal dominant anhidrotic ectodermal dysplasia and T-cell immunodeficiency</name>
+        <url>http://structure.bmc.lu.se/idbase/NFKBIAbase/</url>
+        <contact>
+          <name>Jouni Valiaho</name>
+          <address>University of Tampere, Finland</address>
+          <email>Jouni.Valiaho@uta.fi</email>
+        </contact>
+        <contact>
+          <name>Mauno Vihinen</name>
+          <address>University of Tampere, Finland</address>
+          <email>Mauno.Vihinen@med.lu.se</email>
+        </contact>
+      </source>
+      <modification_date>2015-06-22</modification_date>
+    </annotation_set>
+    <annotation_set type="lrg">
+      <source>
+        <name>LRG</name>
+        <url>http://www.lrg-sequence.org/</url>
+        <contact>
+          <name>Locus Reference Genomic</name>
+          <url>http://www.lrg-sequence.org/contact</url>
+          <email>feedback@lrg-sequence.org</email>
+        </contact>
+      </source>
+      <modification_date>2015-06-22</modification_date>
+      <mapping coord_system="GRCh37.p13" other_name="14" other_id="NC_000014.8" other_id_syn="CM000676.1" other_start="35868717" other_end="35878944" type="other_assembly">
+        <mapping_span lrg_start="1" lrg_end="10228" other_start="35868717" other_end="35878944" strand="-1" />
+      </mapping>
+      <mapping coord_system="GRCh38.p2" other_name="14" other_id="NC_000014.9" other_id_syn="CM000676.2" other_start="35399511" other_end="35409738" type="main_assembly">
+        <mapping_span lrg_start="1" lrg_end="10228" other_start="35399511" other_end="35409738" strand="-1" />
+      </mapping>
+      <lrg_locus source="HGNC">NFKBIA</lrg_locus>
+    </annotation_set>
+    <annotation_set type="ncbi">
+      <source>
+        <name>NCBI RefSeqGene</name>
+        <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
+        <contact>
+          <name>RefSeqGene Group</name>
+          <address>NCBI/NLM/NIH</address>
+          <email>rsgene@ncbi.nlm.nih.gov</email>
+        </contact>
+      </source>
+      <comment>Annotation from NG_007571.1</comment>
+      <modification_date>2015-06-19</modification_date>
+      <mapping coord_system="NM_020529.2" other_name="NM_020529.2" other_id="NM_020529.2" other_start="1" other_end="1567" type="transcript">
+        <mapping_span lrg_start="4985" lrg_end="5321" other_start="1" other_end="337" strand="1" />
+        <mapping_span lrg_start="5941" lrg_end="6049" other_start="338" other_end="446" strand="1" />
+        <mapping_span lrg_start="6379" lrg_end="6589" other_start="447" other_end="657" strand="1" />
+        <mapping_span lrg_start="6880" lrg_end="6968" other_start="658" other_end="746" strand="1" />
+        <mapping_span lrg_start="7076" lrg_end="7345" other_start="747" other_end="1016" strand="1" />
+        <mapping_span lrg_start="7679" lrg_end="8229" other_start="1017" other_end="1567" strand="1" />
+      </mapping>
+      <features>
+        <gene source="NCBI-Gene" accession="4792">
+          <symbol source="HGNC" name="NFKBIA">
+            <synonym>IKBA</synonym>
+            <synonym>MAD-3</synonym>
+            <synonym>NFKBI</synonym>
+          </symbol>
+          <coordinates coord_system="LRG_89" start="4985" end="8229" strand="1" />
+          <long_name>nuclear factor of kappa light polypeptide gene enhancer in B-cells inhibitor, alpha</long_name>
+          <db_xref source="GeneID" accession="4792" />
+          <db_xref source="HGNC" accession="HGNC:7797" />
+          <db_xref source="MIM" accession="164008" />
+          <db_xref source="CCDS" accession="CCDS9656.1" />
+          <db_xref source="GI" accession="187423894" />
+          <transcript source="RefSeq" accession="NM_020529.2" fixed_id="t1">
+            <coordinates coord_system="LRG_89" start="4985" end="8229" strand="1" />
+            <long_name>nuclear factor of kappa light polypeptide gene enhancer in B-cells inhibitor, alpha</long_name>
+            <db_xref source="GeneID" accession="4792" />
+            <db_xref source="GI" accession="168693660" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_89" start="4985" end="5321" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_89" start="5941" end="6049" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_89" start="6379" end="6589" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_89" start="6880" end="6968" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_89" start="7076" end="7345" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_89" start="7679" end="8229" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_065390.1" fixed_id="p1">
+              <coordinates coord_system="LRG_89" start="5095" end="7726" strand="1" />
+              <long_name>NF-kappa-B inhibitor alpha</long_name>
+              <long_name>nuclear factor of kappa light chain gene enhancer in B-cells</long_name>
+              <long_name>IkappaBalpha</long_name>
+              <long_name>major histocompatibility complex enhancer-binding protein MAD3</long_name>
+              <long_name>ikB-alpha</long_name>
+              <long_name>I-kappa-B-alpha</long_name>
+              <db_xref source="CCDS" accession="CCDS9656.1" />
+              <db_xref source="GeneID" accession="4792" />
+              <db_xref source="GI" accession="10092619" />
+            </protein_product>
+          </transcript>
+        </gene>
+      </features>
+    </annotation_set>
+    <annotation_set type="ensembl">
+      <source>
+        <name>Ensembl</name>
+        <url>http://www.ensembl.org/</url>
+        <contact>
+          <name>Ensembl</name>
+          <address>European Bioinformatics Institute</address>
+          <email>helpdesk@ensembl.org</email>
+        </contact>
+      </source>
+      <comment>Annotation is based on Ensembl release 80 (GRCh38  primary assembly)</comment>
+      <modification_date>2015-06-22</modification_date>
+      <mapping coord_system="ENST00000216797.8" other_name="ENST00000216797.8" other_id="ENST00000216797.8" other_start="1" other_end="1558" type="transcript">
+        <mapping_span lrg_start="4993" lrg_end="5321" other_start="1" other_end="329" strand="1" />
+        <mapping_span lrg_start="5941" lrg_end="6049" other_start="330" other_end="438" strand="1" />
+        <mapping_span lrg_start="6379" lrg_end="6589" other_start="439" other_end="649" strand="1" />
+        <mapping_span lrg_start="6880" lrg_end="6968" other_start="650" other_end="738" strand="1" />
+        <mapping_span lrg_start="7076" lrg_end="7345" other_start="739" other_end="1008" strand="1" />
+        <mapping_span lrg_start="7679" lrg_end="8228" other_start="1009" other_end="1558" strand="1" />
+      </mapping>
+      <mapping coord_system="ENST00000553342.1" other_name="ENST00000553342.1" other_id="ENST00000553342.1" other_start="1" other_end="212" type="transcript">
+        <mapping_span lrg_start="5089" lrg_end="5229" other_start="1" other_end="141" strand="1" />
+        <mapping_span lrg_start="5302" lrg_end="5321" other_start="142" other_end="161" strand="1" />
+        <mapping_span lrg_start="5941" lrg_end="5991" other_start="162" other_end="212" strand="1" />
+      </mapping>
+      <mapping coord_system="ENST00000554001.4" other_name="ENST00000554001.4" other_id="ENST00000554001.4" other_start="1" other_end="1396" type="transcript">
+        <mapping_span lrg_start="5023" lrg_end="5321" other_start="1" other_end="299" strand="1" />
+        <mapping_span lrg_start="6379" lrg_end="6589" other_start="300" other_end="510" strand="1" />
+        <mapping_span lrg_start="6880" lrg_end="6968" other_start="511" other_end="599" strand="1" />
+        <mapping_span lrg_start="7076" lrg_end="7345" other_start="600" other_end="869" strand="1" />
+        <mapping_span lrg_start="7679" lrg_end="8205" other_start="870" other_end="1396" strand="1" />
+      </mapping>
+      <mapping coord_system="ENST00000555371.1" other_name="ENST00000555371.1" other_id="ENST00000555371.1" other_start="1" other_end="690" type="transcript">
+        <mapping_span lrg_start="6501" lrg_end="6589" other_start="1" other_end="89" strand="1" />
+        <mapping_span lrg_start="6880" lrg_end="7345" other_start="90" other_end="555" strand="1" />
+        <mapping_span lrg_start="7679" lrg_end="7813" other_start="556" other_end="690" strand="1" />
+      </mapping>
+      <mapping coord_system="ENST00000555629.1" other_name="ENST00000555629.1" other_id="ENST00000555629.1" other_start="1" other_end="599" type="transcript">
+        <mapping_span lrg_start="4990" lrg_end="5321" other_start="1" other_end="332" strand="1" />
+        <mapping_span lrg_start="5941" lrg_end="6207" other_start="333" other_end="599" strand="1" />
+      </mapping>
+      <mapping coord_system="ENST00000556664.1" other_name="ENST00000556664.1" other_id="ENST00000556664.1" other_start="1" other_end="381" type="transcript">
+        <mapping_span lrg_start="6309" lrg_end="6589" other_start="1" other_end="281" strand="1" />
+        <mapping_span lrg_start="6880" lrg_end="6968" other_start="282" other_end="370" strand="1" />
+        <mapping_span lrg_start="7076" lrg_end="7086" other_start="371" other_end="381" strand="1" />
+      </mapping>
+      <mapping coord_system="ENST00000557100.4" other_name="ENST00000557100.4" other_id="ENST00000557100.4" other_start="1" other_end="825" type="transcript">
+        <mapping_span lrg_start="5039" lrg_end="5321" other_start="1" other_end="283" strand="1" />
+        <mapping_span lrg_start="5941" lrg_end="6049" other_start="284" other_end="392" strand="1" />
+        <mapping_span lrg_start="6379" lrg_end="6589" other_start="393" other_end="603" strand="1" />
+        <mapping_span lrg_start="7076" lrg_end="7297" other_start="604" other_end="825" strand="1" />
+      </mapping>
+      <mapping coord_system="ENST00000557140.4" other_name="ENST00000557140.4" other_id="ENST00000557140.4" other_start="1" other_end="1400" type="transcript">
+        <mapping_span lrg_start="4993" lrg_end="5321" other_start="1" other_end="329" strand="1" />
+        <mapping_span lrg_start="5941" lrg_end="6049" other_start="330" other_end="438" strand="1" />
+        <mapping_span lrg_start="6379" lrg_end="6589" other_start="439" other_end="649" strand="1" />
+        <mapping_span lrg_start="6880" lrg_end="6968" other_start="650" other_end="738" strand="1" />
+        <mapping_span lrg_start="7205" lrg_end="7345" other_start="739" other_end="879" strand="1" />
+        <mapping_span lrg_start="7679" lrg_end="8199" other_start="880" other_end="1400" strand="1" />
+      </mapping>
+      <mapping coord_system="ENST00000557389.1" other_name="ENST00000557389.1" other_id="ENST00000557389.1" other_start="1" other_end="1537" type="transcript">
+        <mapping_span lrg_start="5599" lrg_end="6049" other_start="1" other_end="451" strand="1" />
+        <mapping_span lrg_start="6379" lrg_end="6589" other_start="452" other_end="662" strand="1" />
+        <mapping_span lrg_start="6880" lrg_end="6968" other_start="663" other_end="751" strand="1" />
+        <mapping_span lrg_start="7076" lrg_end="7345" other_start="752" other_end="1021" strand="1" />
+        <mapping_span lrg_start="7679" lrg_end="8194" other_start="1022" other_end="1537" strand="1" />
+      </mapping>
+      <mapping coord_system="ENST00000557459.1" other_name="ENST00000557459.1" other_id="ENST00000557459.1" other_start="1" other_end="780" type="transcript">
+        <mapping_span lrg_start="4997" lrg_end="5321" other_start="1" other_end="325" strand="1" />
+        <mapping_span lrg_start="5941" lrg_end="6049" other_start="326" other_end="434" strand="1" />
+        <mapping_span lrg_start="6379" lrg_end="6724" other_start="435" other_end="780" strand="1" />
+      </mapping>
+      <features>
+        <gene source="Ensembl" accession="ENSG00000100906.9">
+          <symbol source="HGNC" name="NFKBIA" />
+          <coordinates coord_system="LRG_89" start="4990" end="8228" strand="1" mapped_from="GRCh38" />
+          <long_name>nuclear factor of kappa light polypeptide gene enhancer in B-cells inhibitor, alpha (protein_coding)</long_name>
+          <db_xref source="GeneID" accession="4792">
+            <synonym>IKBA</synonym>
+            <synonym>MAD-3</synonym>
+            <synonym>NFKBI</synonym>
+          </db_xref>
+          <db_xref source="MIM" accession="164008" />
+          <db_xref source="HGNC" accession="7797">
+            <synonym>IkappaBalpha</synonym>
+            <synonym>IKBA</synonym>
+            <synonym>MAD-3</synonym>
+            <synonym>NFKBI</synonym>
+          </db_xref>
+          <db_xref source="Ensembl" accession="ENSG00000100906" />
+          <transcript source="Ensembl" accession="ENST00000555629.1">
+            <coordinates coord_system="LRG_89" start="4990" end="6207" strand="1" mapped_from="GRCh38" />
+            <long_name>NFKBIA-005 (retained_intron)</long_name>
+            <exon source="Ensembl" accession="ENSE00002449671">
+              <coordinates coord_system="LRG_89" start="4990" end="5321" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002526820">
+              <coordinates coord_system="LRG_89" start="5941" end="6207" strand="1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000216797.8">
+            <coordinates coord_system="LRG_89" start="4993" end="8228" strand="1" mapped_from="GRCh38" />
+            <long_name>NFKBIA-001 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS9656.1" />
+            <db_xref source="RefSeq" accession="NM_020529.2" />
+            <exon source="Ensembl" accession="ENSE00000889713">
+              <coordinates coord_system="LRG_89" start="4993" end="5321" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003585907">
+              <coordinates coord_system="LRG_89" start="5941" end="6049" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003551771">
+              <coordinates coord_system="LRG_89" start="6379" end="6589" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003686913">
+              <coordinates coord_system="LRG_89" start="6880" end="6968" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003694288">
+              <coordinates coord_system="LRG_89" start="7076" end="7345" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00000889712">
+              <coordinates coord_system="LRG_89" start="7679" end="8228" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000216797.5">
+              <coordinates coord_system="LRG_89" start="5095" end="7726" strand="1" mapped_from="GRCh38" />
+              <long_name>NF-kappa-B inhibitor alpha</long_name>
+              <db_xref source="RefSeq" accession="NP_065390.1" />
+              <db_xref source="UniProtKB" accession="P25963">
+                <synonym>B2R8L6</synonym>
+              </db_xref>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000557140.4">
+            <coordinates coord_system="LRG_89" start="4993" end="8199" strand="1" mapped_from="GRCh38" />
+            <long_name>NFKBIA-002 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00000889713">
+              <coordinates coord_system="LRG_89" start="4993" end="5321" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003585907">
+              <coordinates coord_system="LRG_89" start="5941" end="6049" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003551771">
+              <coordinates coord_system="LRG_89" start="6379" end="6589" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003686913">
+              <coordinates coord_system="LRG_89" start="6880" end="6968" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002454972">
+              <coordinates coord_system="LRG_89" start="7205" end="7345" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002444522">
+              <coordinates coord_system="LRG_89" start="7679" end="8199" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000451257.1">
+              <coordinates coord_system="LRG_89" start="5095" end="7726" strand="1" mapped_from="GRCh38" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000557459.1">
+            <coordinates coord_system="LRG_89" start="4997" end="6724" strand="1" mapped_from="GRCh38" />
+            <long_name>NFKBIA-008 (retained_intron)</long_name>
+            <exon source="Ensembl" accession="ENSE00002481620">
+              <coordinates coord_system="LRG_89" start="4997" end="5321" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003619972">
+              <coordinates coord_system="LRG_89" start="5941" end="6049" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002515020">
+              <coordinates coord_system="LRG_89" start="6379" end="6724" strand="1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000554001.4">
+            <coordinates coord_system="LRG_89" start="5023" end="8205" strand="1" mapped_from="GRCh38" />
+            <long_name>NFKBIA-003 (nonsense_mediated_decay)</long_name>
+            <exon source="Ensembl" accession="ENSE00002512851">
+              <coordinates coord_system="LRG_89" start="5023" end="5321" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003633510">
+              <coordinates coord_system="LRG_89" start="6379" end="6589" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003597799">
+              <coordinates coord_system="LRG_89" start="6880" end="6968" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003532849">
+              <coordinates coord_system="LRG_89" start="7076" end="7345" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002467240">
+              <coordinates coord_system="LRG_89" start="7679" end="8205" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000450537.1">
+              <coordinates coord_system="LRG_89" start="5095" end="6400" strand="1" mapped_from="GRCh38" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000557100.4">
+            <coordinates coord_system="LRG_89" start="5039" end="7297" strand="1" mapped_from="GRCh38" />
+            <long_name>NFKBIA-010 (processed_transcript)</long_name>
+            <exon source="Ensembl" accession="ENSE00002449199">
+              <coordinates coord_system="LRG_89" start="5039" end="5321" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003619972">
+              <coordinates coord_system="LRG_89" start="5941" end="6049" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003586504">
+              <coordinates coord_system="LRG_89" start="6379" end="6589" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002452825">
+              <coordinates coord_system="LRG_89" start="7076" end="7297" strand="1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000553342.1">
+            <coordinates coord_system="LRG_89" start="5089" end="5991" strand="1" mapped_from="GRCh38" />
+            <long_name>NFKBIA-011 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00002534900">
+              <coordinates coord_system="LRG_89" start="5089" end="5229" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002502977">
+              <coordinates coord_system="LRG_89" start="5302" end="5321" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002472965">
+              <coordinates coord_system="LRG_89" start="5941" end="5991" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000451281.1">
+              <coordinates coord_system="LRG_89" start="5095" end="5991" strand="1" mapped_from="GRCh38" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000557389.1">
+            <coordinates coord_system="LRG_89" start="5599" end="8194" strand="1" mapped_from="GRCh38" />
+            <long_name>NFKBIA-004 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00002489748">
+              <coordinates coord_system="LRG_89" start="5599" end="6049" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003551771">
+              <coordinates coord_system="LRG_89" start="6379" end="6589" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003686913">
+              <coordinates coord_system="LRG_89" start="6880" end="6968" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003694288">
+              <coordinates coord_system="LRG_89" start="7076" end="7345" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002532110">
+              <coordinates coord_system="LRG_89" start="7679" end="8194" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000450514.1">
+              <coordinates coord_system="LRG_89" start="5984" end="7726" strand="1" mapped_from="GRCh38" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000556664.1">
+            <coordinates coord_system="LRG_89" start="6309" end="7086" strand="1" mapped_from="GRCh38" />
+            <long_name>NFKBIA-007 (retained_intron)</long_name>
+            <exon source="Ensembl" accession="ENSE00002514397">
+              <coordinates coord_system="LRG_89" start="6309" end="6589" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003597799">
+              <coordinates coord_system="LRG_89" start="6880" end="6968" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002442683">
+              <coordinates coord_system="LRG_89" start="7076" end="7086" strand="1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000555371.1">
+            <coordinates coord_system="LRG_89" start="6501" end="7813" strand="1" mapped_from="GRCh38" />
+            <long_name>NFKBIA-006 (retained_intron)</long_name>
+            <exon source="Ensembl" accession="ENSE00002478679">
+              <coordinates coord_system="LRG_89" start="6501" end="6589" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002475364">
+              <coordinates coord_system="LRG_89" start="6880" end="7345" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002467896">
+              <coordinates coord_system="LRG_89" start="7679" end="7813" strand="1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+        </gene>
+      </features>
+    </annotation_set>
+    <annotation_set type="lsdb">
+      <source>
+        <name>List of locus specific databases for NFKBIA</name>
+        <url>http://grenada.lumc.nl/LSDB_list/lsdbs/NFKBIA</url>
+      </source>
+      <modification_date>2015-06-22</modification_date>
+    </annotation_set>
+  </updatable_annotation>
+</lrg>

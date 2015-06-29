@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="application/xml" href="lrg2html.xsl"?>
+
+<lrg schema_version="1.9">
+  <fixed_annotation>
+    <id>LRG_719</id>
+    <hgnc_id>11195</hgnc_id>
+    <sequence_source>NG_009080.1</sequence_source>
+    <organism taxon="9606">Homo sapiens</organism>
+    <source>
+      <name></name>
+      <contact>
+        <name>David FitzPatrick</name>
+        <address>MRC Human Genetics Unit, Edinburgh</address>
+        <email>David.FitzPatrick@hgu.mrc.ac.uk</email>
+      </contact>
+    </source>
+    <mol_type>dna</mol_type>
+    <creation_date>2014-10-22</creation_date>
+    <sequence>TATATGTTTATTCTTTTTATCATCTGGAAACATTCATTATAGTTACTGTCACTAATCCTTCACACTTCCAAAATCTGACAAGTTTGACATAGGAAAAAAATGGGGGAAATGTAGATGAAAGAGTTTCTATCATTTTGAAAATTGTGTTATAAAAATTAAGATGTCTATCCCCTCTAGGAATTCCTATGAGGGATCCTTCACAGTCTAAAGGAAATGAAGTTTGACAATGGTACAATTCAGTTTTGAATTTTTGCTCTTACTTTCTATATCCTAACCTTTTCCAGCTTATTTCTTGTTAATTGTTTTTGGAAAGTATGCAATGCTCTTTTAAGGGAAAAAAAATCTTCTAATGCACTTATTTACCTTCATTTATATGTGTTTGTTTCTGAAATGAAGAATCAAGCTTTGGTCATTCCGGAAGTCGTGTAGCATGCTCCAATTTGAAGTGACTGAGATCTTTTGTGACTTACAGAGGAGAAGGAAATGTTTTAAAAATTGGCTTATGCCAGTCTCCTTACTCTGAAATTCTCAATTTTCTTGTATTACAGGATAAATATAAATATCATCTCACCAAATTGTACCAGCATTGTCCTAAACATTTAAATTTTCCTTTATTTTTGGCCTTTAAAATTAGAAAATTTTCTCCAGTTGCTGCACTTAGCTTTTTAATTTTGTTTTCTTTTCACTTACCAGACTACTGGTATGATCTCTTTCACTGCAGTATGATTGCTGCTATGGTCACTTTTAGAGGAGATTGTGGGAAGGTTAGGATTTGGAGGAAACATGACAAAAAAGGGAAGAAAAAAAAAAACCTTCATTTGACCACATCTGGCTGCTTGTATATTTAACCAGTTCTAGAATTAGAAAACCTTTCTGTACATTTTCTTCTATTTTTCTCACTTTTTTCCTTACATAATGAAATTAAAACTTTTGGAGCCTACAGTTGACATTTTTCAGAAAATTGAGTTATCAAGGCAGTAATTATTTCACGGGGAGATAAAACTCTCATAGCCCTAACTGTCAAATAGGGCCCTTTTCAGATTTTAATTACAAAATAAAATTAGTCTGCTCTTCCTCAGAATGGTTTGTGAGTGGTTAAACAGAGCTTTCCCCCAATACTGGTGGTCGTCAAACTCTGCTAATTAGCAATGCTGAGAAATTCCAGTTAACAAGGACATTCTCCAAGACTCTGCAGGTTCCCTGCCGTTTGCCTTCATTTCCATAAGAAGATTAAGAGAGGAGGGGAACACACTCAAATGCAGATGCAGAAAAGAAGCGTTTTTTAACAAGCATCATAATAGTAAGATGCTTGGCTAGTTCTCACCTAATTACTGCAAGTTAAACCTCTATTTGACACTAAGAAGAAAAAATAAGTCTACAGTCCCCTGTCTCCACAAAATTGTTAGTTGGTTTCAGATATAATACTTGAGGAGTGCTGAGGAGACTTTAGGAGAGAAAAATCAATGTGCAAGATTTTGAAATAAAATTGAGTTACACTTAACAGTTAAGGCCTTTTGGCTAGGGCCTATAATAGAACAAAATAAAATCAGAATATTCCAGGAGTCATGCATTTTTGTTACTAACTACTAATCTTGCTCTAAAAGTATGTAGCTTTTTGTTGCCCGTGGAAGGGAAGTGTTACACTCCCTTTAGATTAAGCACTTTCAATTTTCGTAAATTGTGCCAATGGCAACATTTTAGATTCTCAGAGGATGAAGCATCCTGTTCCAAGTCTTTTTTGATTGTCTAGTAGTCAATGGTATATTGTTGTTAGTACTGTAGCTGTCTATTACAAACCTAAAACAGTGTTGCTTCTGTCATCTATTGGAATCGTTATAGTTATTATATTTAGGGATCAGTGATGGTGCTGGATTGAAATAGAGTGGGCAGTGATCTGATTTTTTAAAATGCATATGTTCTAAAAAATCTAATGAGAAAATGTTCCTGCTATCACCATCTTCTTTAATCTTATTTTCATAGCACATTATTATGCATAATCGCCAGCCACAGTTAGTTTATTGTCTCGATAAGTACAGCAGGCTTAATTAAAATAAAGCTGTAAATAAATGCAACCAATGATAACACAATTGTAACGTAATTCCATAGCTTATTAATGTGATAAAAGCAATTAATAAAAGACCTAGCCAACCCCTTTAACCTCTTAAATACATTATTATAGAGTTCATGCACAAACACATGCATCTGAGAATGTGTAAAAGTTGTTATATATCCTCCCAAGGAAAAAAATTGTGCCTTGAGAGAAAGGCAACGAGATTTAAAAGATTTGTGTCTATAACCGTCTGTTATTAGTATTTATTTTAACAAATATACACCACCCTTATCCACACCAATTCCTTGGTTGTTTCTTCAAACAATTATCCACAAGCTTTTTAAAGTTTTTAGAATAATGCTATTAAGCAGACCGATGCATACACAATCATAAAGTGAATTCTTGGTCTGCCCTTTGTGGCGTCTGGACAATCATAATTCATTCACATGTTGAATCTCATAATTTGTACCTATTTTTTCCCATGGTCTAACCTCCCACTTACCTCGAGGTTGTATGTATATTTCTAAGTTAGGCAAATTAAATCTGATTCTTATGATTTGGTTCCGCAGCTTATAAGATATGTTAACTTTTCTTTTGTTTAGATTATGTATAATTAGTCTGATCTTCCATCCCCCTCTTTTTTTTTTTTTTACTTTAATTATTTTCAAATACCTTCTTTTAAAGGTAAAAGCAATAGTCTTGGAAAAGCGAATCTACCAGCAGGGGGCGCACCAGCCACATCCCTGAAACCAGCCGCGCTGAAAAGCCGGTGGCCGCCTTCTCTTCCCCAGATCTTCTCAACCTTTTCTCTTTCCTAATCTCCAGGTCCGTGTTTACCTTAATATTACACCTGGATTAAACAGAAAACAGTGCTGTATTTTGAAGAGCGCCGAATATGTATGCATTTTGAGAAACCCAATCTCACCCTTTCCGGGTTCCCAAGAACTAAAACAAGCCATAACTTGAGAGAAAAAGGAGAACCTTCGGGGGGCAGGAAGGTTGATTGGAAATAACTTAAGGAAAGTCTGCAGAATTCTTTTTTTTACAACTTTTCTGAGTTTCCAGTGGGTATATTTAGTGTGAGTTTGACAGTAACAGGCTAGGGAGGGCAGAGATTGGAGAAATTGGGGGTCGGGGGAGTGATTATGGGAAGAAGGTTAGTAAGGAACAAAACAATGCACCGTTTTGTAAAGATAATAAATGGAACGTGGCTGGTAGATACTATTCAGTACATTTTCTTAGGGTGAGTAAGGGTAGACCAGGGGAGGAGGGGGCGGAGAGAGTGTTACAGAAGAAAGAAAATAAGTAACCCTGATGGTTTAAGCCCTTTATAAAAAAGAAATGGCATCAGGTTTTTTTTTCTTTATTCCCCCCCACCCCACCCTTTGTAGTCAAGTGCATTTTAGCCACAAAGATCCCAACAAGAGAGTGGAAGGAAACTTAGACGAGGCTTTGTTTGACTCCGTGTAGCGACAACAAGAGAAACAAAACTACCTATTTGTAACGGACGTGCTGCCATTGCCCTCCGCATTGAGCGCCTACCTATTGAAATCTTTACGTCGGGACAATGGGAGAGCGGCTAAAATTACCCTCTTGGGTCCTGGGCGGGCAAGATTCCTGAGCCCCTACCCCCGCCCCCATCTCATCCTCCTCTAACCCGGGCCTTGCTGGGCTCCCCCTTCCCCAGTCCCGGCCGCCTTCTCCCAGTGTGCGCTGCCTGCACCTGTGCCTGGAGAGCATCGACCCCGCCTCCCAGGCCTTGAGCCCCTTTGCGGCGCAGCCCCAGCCTTGCGCGGCCTGGGCTTTGCGGCCACCACAATGGAAATCTACGGGGAAAATGCCAGGGCTGGTTCTGCTGGAGTCCTGGGAACTCTGCGTGGGAGGGAGTTTGTGACTGCGGCCCAAAAGCCACCTCCATACAGTGCCGTGGGATGCCAGGAAGTTGAAATCACCCTCCCCCATCGCCTGCACTTTTGAGCGCCCTTCCGTCTGTGTCTTTCCCCAGCCCCCATTTGAAAGCCGCACGACCGAAACCCTTCTTACGGGGAGGCATGGGATGGGAATGGGGAGTGGGGGCAGACAGTAGAAGCATCCCCTTTGCTACGGTTGAATGAAGACAGTCTAGTGGGAGATGTGGCTGGGGCTAAGAGGAAGAGCTGCAGTTTCCTGGGCCAAAGAGCTGAGTTGGACAGGGAGATGGCAGCTTACCAAGGCCTGCTGGTTCTCAGCTCTAGAGTCTGCCTTATGGTCCGAGCAGGATTTATTTTTAAGAACAGAGCAAGTTACGTGGAAGCAAGGAAGGTTTTGAGGACAGAGGTTTGGGTCTCCTAACTTCTAGTCGGGACTGTGAGAAGGGCGTGAGAGAGTGTTGGCACCTGTAAGGTAAGAGAGGAGAGCGGAAGAGCGCAGTACGGGAGCGGCACCAGAGGGGCTGGAGTTGGGGGGGAGTGCTGTGGATGAGCGGGAGAACAATGACACACCAACTCCTGCACTGGCTGTTTCCAGAAATACGAGTTGGACAGCCGCCCTGAGCCACCCACTGTGCCCTGCCCCACCCCCGCACCTTAGCTGCTTCCCGCGTCCCATCCTCATTTAAGTACCCTGCACCAAAAAGTAAATCAATATTAAGTTTAAAGAAAAAAAAACCCACGTAGTCTTAGTGCTGTTTACCCACTTCCTTCGAAAAGGCGTGTGGTGTGACCTGTTGCTGCGAGAGGGGATACAAAGGTTTCTCAGTGGCTGGCAGGCTGGCTCTGGGAGCCTCCTCCCCCTCCTCGCCTGCCCCCTCCTCCCCCGGCCTCCCCCGCGCGGCCGGCGGCGCGGGAGGCCCCGCCCCCTTTCATGCAAAACCCGGCAGCGAGGCTGGGCTCGAGTGGAGGAGCCGCCGCGCGCTGATTGGTCGCTAGAAACCCATTTATTCCCTGACAGCCCCCGTCACATGGATGGTTGTCTATTAACTTGTTCAAAAAAGTATCAGGAGTTGTCAAGGCAGAGAAGAGAGTGTTTGCAAAAGGGGGAAAGTAGTTTGCTGCCTCTTTAAGACTAGGACTGAGAGAAAGAAGAGGAGAGAGAAAGAAAGGGAGAGAAGTTTGAGCCCCAGGCTTAAGCCTTTCCAAAAAATAATAATAACAATCATCGGCGGCGGCAGGATCGGCCAGAGGAGGAGGGAAGCGCTTTTTTTGATCCTGATTCCAGTTTGCCTCTCTCTTTTTTTCCCCCAAATTATTCTTCGCCTGATTTTCCTCGCGGAGCCCTGCGCTCCCGACACCCCCGCCCGCCTCCCCTCCTCCTCTCCCCCCGCCCGCGGGCCCCCCAAAGTCCCGGCCGGGCCGAGGGTCGGCGGCCGCCGGCGGGCCGGGCCCGCGCACAGCGCCCGCATGTACAACATGATGGAGACGGAGCTGAAGCCGCCGGGCCCGCAGCAAACTTCGGGGGGCGGCGGCGGCAACTCCACCGCGGCGGCGGCCGGCGGCAACCAGAAAAACAGCCCGGACCGCGTCAAGCGGCCCATGAATGCCTTCATGGTGTGGTCCCGCGGGCAGCGGCGCAAGATGGCCCAGGAGAACCCCAAGATGCACAACTCGGAGATCAGCAAGCGCCTGGGCGCCGAGTGGAAACTTTTGTCGGAGACGGAGAAGCGGCCGTTCATCGACGAGGCTAAGCGGCTGCGAGCGCTGCACATGAAGGAGCACCCGGATTATAAATACCGGCCCCGGCGGAAAACCAAGACGCTCATGAAGAAGGATAAGTACACGCTGCCCGGCGGGCTGCTGGCCCCCGGCGGCAATAGCATGGCGAGCGGGGTCGGGGTGGGCGCCGGCCTGGGCGCGGGCGTGAACCAGCGCATGGACAGTTACGCGCACATGAACGGCTGGAGCAACGGCAGCTACAGCATGATGCAGGACCAGCTGGGCTACCCGCAGCACCCGGGCCTCAATGCGCACGGCGCAGCGCAGATGCAGCCCATGCACCGCTACGACGTGAGCGCCCTGCAGTACAACTCCATGACCAGCTCGCAGACCTACATGAACGGCTCGCCCACCTACAGCATGTCCTACTCGCAGCAGGGCACCCCTGGCATGGCTCTTGGCTCCATGGGTTCGGTGGTCAAGTCCGAGGCCAGCTCCAGCCCCCCTGTGGTTACCTCTTCCTCCCACTCCAGGGCGCCCTGCCAGGCCGGGGACCTCCGGGACATGATCAGCATGTATCTCCCCGGCGCCGAGGTGCCGGAACCCGCCGCCCCCAGCAGACTTCACATGTCCCAGCACTACCAGAGCGGCCCGGTGCCCGGCACGGCCATTAACGGCACACTGCCCCTCTCACACATGTGAGGGCCGGACAGCGAACTGGAGGGGGGAGAAATTTTCAAAGAAAAACGAGGGAAATGGGAGGGGTGCAAAAGAGGAGAGTAAGAAACAGCATGGAGAAAACCCGGTACGCTCAAAAAGAAAAAGGAAAAAAAAAAATCCCATCACCCACAGCAAATGACAGCTGCAAAAGAGAACACCAATCCCATCCACACTCACGCAAAAACCGCGATGCCGACAAGAAAACTTTTATGAGAGAGATCCTGGACTTCTTTTTGGGGGACTATTTTTGTACAGAGAAAACCTGGGGAGGGTGGGGAGGGCGGGGGAATGGACCTTGTATAGATCTGGAGGAAAGAAAGCTACGAAAAACTTTTTAAAAGTTCTAGTGGTACGGTAGGAGCTTTGCAGGAAGTTTGCAAAAGTCTTTACCAATAATATTTAGAGCTAGTCTCCAAGCGACGAAAAAAATGTTTTAATATTTGCAAGCAACTTTTGTACAGTATTTATCGAGATAAACATGGCAATCAAAATGTCCATTGTTTATAAGCTGAGAATTTGCCAATATTTTTCAAGGAGAGGCTTCTTGCTGAATTTTGATTCTGCAGCTGAAATTTAGGACAGTTGCAAACGTGAAAAGAAGAAAATTATTCAAATTTGGACATTTTAATTGTTTAAAAATTGTACAAAAGGAAAAAATTAGAATAAGTACTGGCGAACCATCTCTGTGGTCTTGTTTAAAAAGGGCAAAAGTTTTAGACTGTACTAAATTTTATAACTTACTGTTAAAAGCAAAAATGGCCATGCAGGTTGACACCGTTGGTAATTTATAATAGCTTTTGTTCGATCCCAACTTTCCATTTTGTTCAGATAAAAAAAACCATGAAATTACTGTGTTTGAAATATTTTCTTATGGTTTGTAATATTTCTGTAAATTTATTGTGATATTTTAAGGTTTTCCCCCCTTTATTTTCCGTAGTTGTATTTTAAAAGATTCGGCTCTGTATTATTTGAATCAGTCTGCCGAGAATCCATGTATATATTTGAACTAATATCATCCTTATAACAGGTACATTTTCAACTTAAGTTTTTACTCCATTATGCACAGTTTGAGATAAATAAATTTTTGAAATATGGACACTGAAATTATTCTTGAGTCTTTCATTTATTTGGATAACACTGTGATTATACATAACTTTTCGGGGAATTATAATACTGTGCTCAGCCAAGAAAGCAAAATACCAAAAACCTTGGTATTACTAGTCCAGCATCATGTGCTAATGTTAACTGCAAAAAAGAAACGGCTGGATGATTAATAAGTACTGGAAAAATTGAAATTTCTGTCATTTCTAAAATAGAAACTAGAGACATATATTGTAAATCCGCCCCCTCCTTTTCTAAGCAGCATGAATAAGCATGATGGGGACCTATACTTAAAACTGATTTATGCCACTTGTTGCCAGAAAGGATTCAATTCTGAAATTTTTCATGTAGTTTAGCAGATGGGATATTGAGCCAAATCAGAACCAGGTTGGCTGGTTTTGTTTTCATTTTCTTCACAGCACAATGGCCCTTTGAAACCTGGCTATAGAGAAAAATGATGCTTCTTGTATCAGAATAATTGCAAACTAGACATGCAAAGTGTTCATCTGCTGGGTGGGTGTTTGGATTACTCTGGCCCTGCTATTGTCTGAGAGGAAACAAGTGGTTTGCTTTCTTTGTTCCTTGACTTCATAAACTTTCTCCTCTACATTTTCCTGTTCGGGGAGAGGGAAAGAAAAGAACATCTTGCAAAACTCCCCGGCTTATCATAAACATAGTTTTTTTTATTATTTATTTTCTTTTTTCCCCTCTCTCTCCCTCTCTCCCTGAATTCCATTTCTTAAATTGGCAGCGCGGGTCCAAGCCTGTAGCCCCAAATCGGATAATCTCTGCAGCTGATAACAAGCAAAAGAGAAGCCAGGCAACAGCCATATTAAAGAAGAAAACAATCAACTCTGAGGTAGATATTTTACTTTGTCCGGTCTAATCACATTTGGAGATGATTATGCTTTTGATCTGTTAACAATGTTTTACTACTGTAGTAGAGAAGTGGGGGAGGGGAAAGGGGTGGGGAAACAAGATTGGATTTGTTGTGTGGTGGTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTGCCCTAGGAAAGGTAAAGAAAGGCTATAGTTGTCCTCAGTGGGAGTGGAAAAGTTGAGACATCGCCATGGTCTTTGAATTAGCGATGCTTCTGCATCACCACCCACCCTTGCTTTGGGGCAGCCGGATAATCTGTTACCTAGTCAGGGACTTTTCTACTTTATTTACTACTTGATTCGCTCGTCTTCCCCCACCCACGGGGACCAGGAACCAACAATCGGGCACTTTTAAGAGCACGGGTTTGCTTCCCACAATTTCAAGAGCTTGTGTCAACTTGCTACAACTTTGGAGAAGTTGGAATCCGGCAGCGTCTTCCACCCTTGAGTAAAGTACCCGCTGCAGCCACTAAGTTAGCTCATCCCGTTGGTTTGCATCTTCTCATTTCCAAGAAAGTATTTCTTTCTCATGGTGTTGCTAATGTTAGTTCTGGGCTGAACTGAGGATATCTCATATTTTCTGTACTTTCTATTTTTTTCTAGATTGCTTTGTTTTAGATATGTACTGGTTTTTATTTATTACTTTTTTAATCCTCATTTTTAGGATAACATTGTACTGGGAAGGGACAATTATTATTCCAGTTCCCAATTCTAAGCAAGGCATTTTCCCCCCTAATTAATGCAGAGACTCTAAAAGAATTTCCCCTAGCCTGGCCAGCCATTGTAATGCATATACGGATTATTCACGTGGTAATGAGCACATTCGCCAGTTCTTGCTCACACATACGAATAAAAGAAACTTTGAATAAAGATCCAAATGATCATCCTGGGGGAGTGGGGAGGATATTCCCGGAATTTGAGGCAGTCAAATATATAGATTATATATATTTTGAAAATAGAAATATATTAGAAATATGTATAGAGGTTTACAGTAATTGCACTGCACTCACCTCTCATTTTTTAAAAAAAAGCCCACAGGGTCAGCAACTTTCTGGCAAAATGGTCAGGTTCAAATATT</sequence>
+    <transcript name="t1">
+      <comment>This transcript is identical to the RefSeq transcript NM_003106.2 but with the polyA tail removed.</comment>
+      <coordinates coord_system="LRG_719" start="5001" end="7503" strand="1" />
+      <cdna>
+        <sequence>CTATTAACTTGTTCAAAAAAGTATCAGGAGTTGTCAAGGCAGAGAAGAGAGTGTTTGCAAAAGGGGGAAAGTAGTTTGCTGCCTCTTTAAGACTAGGACTGAGAGAAAGAAGAGGAGAGAGAAAGAAAGGGAGAGAAGTTTGAGCCCCAGGCTTAAGCCTTTCCAAAAAATAATAATAACAATCATCGGCGGCGGCAGGATCGGCCAGAGGAGGAGGGAAGCGCTTTTTTTGATCCTGATTCCAGTTTGCCTCTCTCTTTTTTTCCCCCAAATTATTCTTCGCCTGATTTTCCTCGCGGAGCCCTGCGCTCCCGACACCCCCGCCCGCCTCCCCTCCTCCTCTCCCCCCGCCCGCGGGCCCCCCAAAGTCCCGGCCGGGCCGAGGGTCGGCGGCCGCCGGCGGGCCGGGCCCGCGCACAGCGCCCGCATGTACAACATGATGGAGACGGAGCTGAAGCCGCCGGGCCCGCAGCAAACTTCGGGGGGCGGCGGCGGCAACTCCACCGCGGCGGCGGCCGGCGGCAACCAGAAAAACAGCCCGGACCGCGTCAAGCGGCCCATGAATGCCTTCATGGTGTGGTCCCGCGGGCAGCGGCGCAAGATGGCCCAGGAGAACCCCAAGATGCACAACTCGGAGATCAGCAAGCGCCTGGGCGCCGAGTGGAAACTTTTGTCGGAGACGGAGAAGCGGCCGTTCATCGACGAGGCTAAGCGGCTGCGAGCGCTGCACATGAAGGAGCACCCGGATTATAAATACCGGCCCCGGCGGAAAACCAAGACGCTCATGAAGAAGGATAAGTACACGCTGCCCGGCGGGCTGCTGGCCCCCGGCGGCAATAGCATGGCGAGCGGGGTCGGGGTGGGCGCCGGCCTGGGCGCGGGCGTGAACCAGCGCATGGACAGTTACGCGCACATGAACGGCTGGAGCAACGGCAGCTACAGCATGATGCAGGACCAGCTGGGCTACCCGCAGCACCCGGGCCTCAATGCGCACGGCGCAGCGCAGATGCAGCCCATGCACCGCTACGACGTGAGCGCCCTGCAGTACAACTCCATGACCAGCTCGCAGACCTACATGAACGGCTCGCCCACCTACAGCATGTCCTACTCGCAGCAGGGCACCCCTGGCATGGCTCTTGGCTCCATGGGTTCGGTGGTCAAGTCCGAGGCCAGCTCCAGCCCCCCTGTGGTTACCTCTTCCTCCCACTCCAGGGCGCCCTGCCAGGCCGGGGACCTCCGGGACATGATCAGCATGTATCTCCCCGGCGCCGAGGTGCCGGAACCCGCCGCCCCCAGCAGACTTCACATGTCCCAGCACTACCAGAGCGGCCCGGTGCCCGGCACGGCCATTAACGGCACACTGCCCCTCTCACACATGTGAGGGCCGGACAGCGAACTGGAGGGGGGAGAAATTTTCAAAGAAAAACGAGGGAAATGGGAGGGGTGCAAAAGAGGAGAGTAAGAAACAGCATGGAGAAAACCCGGTACGCTCAAAAAGAAAAAGGAAAAAAAAAAATCCCATCACCCACAGCAAATGACAGCTGCAAAAGAGAACACCAATCCCATCCACACTCACGCAAAAACCGCGATGCCGACAAGAAAACTTTTATGAGAGAGATCCTGGACTTCTTTTTGGGGGACTATTTTTGTACAGAGAAAACCTGGGGAGGGTGGGGAGGGCGGGGGAATGGACCTTGTATAGATCTGGAGGAAAGAAAGCTACGAAAAACTTTTTAAAAGTTCTAGTGGTACGGTAGGAGCTTTGCAGGAAGTTTGCAAAAGTCTTTACCAATAATATTTAGAGCTAGTCTCCAAGCGACGAAAAAAATGTTTTAATATTTGCAAGCAACTTTTGTACAGTATTTATCGAGATAAACATGGCAATCAAAATGTCCATTGTTTATAAGCTGAGAATTTGCCAATATTTTTCAAGGAGAGGCTTCTTGCTGAATTTTGATTCTGCAGCTGAAATTTAGGACAGTTGCAAACGTGAAAAGAAGAAAATTATTCAAATTTGGACATTTTAATTGTTTAAAAATTGTACAAAAGGAAAAAATTAGAATAAGTACTGGCGAACCATCTCTGTGGTCTTGTTTAAAAAGGGCAAAAGTTTTAGACTGTACTAAATTTTATAACTTACTGTTAAAAGCAAAAATGGCCATGCAGGTTGACACCGTTGGTAATTTATAATAGCTTTTGTTCGATCCCAACTTTCCATTTTGTTCAGATAAAAAAAACCATGAAATTACTGTGTTTGAAATATTTTCTTATGGTTTGTAATATTTCTGTAAATTTATTGTGATATTTTAAGGTTTTCCCCCCTTTATTTTCCGTAGTTGTATTTTAAAAGATTCGGCTCTGTATTATTTGAATCAGTCTGCCGAGAATCCATGTATATATTTGAACTAATATCATCCTTATAACAGGTACATTTTCAACTTAAGTTTTTACTCCATTATGCACAGTTTGAGATAAATAAATTTTTGAAATATGGACACTGAAA</sequence>
+      </cdna>
+      <coding_region>
+        <coordinates coord_system="LRG_719" start="5428" end="6381" strand="1" />
+        <translation name="p1">
+          <sequence>MYNMMETELKPPGPQQTSGGGGGNSTAAAAGGNQKNSPDRVKRPMNAFMVWSRGQRRKMAQENPKMHNSEISKRLGAEWKLLSETEKRPFIDEAKRLRALHMKEHPDYKYRPRRKTKTLMKKDKYTLPGGLLAPGGNSMASGVGVGAGLGAGVNQRMDSYAHMNGWSNGSYSMMQDQLGYPQHPGLNAHGAAQMQPMHRYDVSALQYNSMTSSQTYMNGSPTYSMSYSQQGTPGMALGSMGSVVKSEASSSPPVVTSSSHSRAPCQAGDLRDMISMYLPGAEVPEPAAPSRLHMSQHYQSGPVPGTAINGTLPLSHM</sequence>
+        </translation>
+      </coding_region>
+      <exon label="1">
+        <coordinates coord_system="LRG_719" start="5001" end="7503" strand="1" />
+        <coordinates coord_system="LRG_719t1" start="1" end="2503" />
+        <coordinates coord_system="LRG_719p1" start="1" end="317" />
+      </exon>
+    </transcript>
+  </fixed_annotation>
+  <updatable_annotation>
+    <annotation_set type="requester">
+      <source>
+        <name></name>
+        <contact>
+          <name>David FitzPatrick</name>
+          <address>MRC Human Genetics Unit, Edinburgh</address>
+          <email>David.FitzPatrick@hgu.mrc.ac.uk</email>
+        </contact>
+      </source>
+      <modification_date>2015-06-22</modification_date>
+    </annotation_set>
+    <annotation_set type="lrg">
+      <source>
+        <name>LRG</name>
+        <url>http://www.lrg-sequence.org/</url>
+        <contact>
+          <name>Locus Reference Genomic</name>
+          <url>http://www.lrg-sequence.org/contact</url>
+          <email>feedback@lrg-sequence.org</email>
+        </contact>
+      </source>
+      <modification_date>2015-06-22</modification_date>
+      <mapping coord_system="GRCh37.p13" other_name="3" other_id="NC_000003.11" other_id_syn="CM000665.1" other_start="181424722" other_end="181434224" type="other_assembly">
+        <mapping_span lrg_start="1" lrg_end="9503" other_start="181424722" other_end="181434224" strand="1" />
+      </mapping>
+      <mapping coord_system="GRCh38.p2" other_name="3" other_id="NC_000003.12" other_id_syn="CM000665.2" other_start="181706934" other_end="181716436" type="main_assembly">
+        <mapping_span lrg_start="1" lrg_end="9503" other_start="181706934" other_end="181716436" strand="1" />
+      </mapping>
+      <lrg_locus source="HGNC">SOX2</lrg_locus>
+    </annotation_set>
+    <annotation_set type="ncbi">
+      <source>
+        <name>NCBI RefSeqGene</name>
+        <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
+        <contact>
+          <name>RefSeqGene Group</name>
+          <address>NCBI/NLM/NIH</address>
+          <email>rsgene@ncbi.nlm.nih.gov</email>
+        </contact>
+      </source>
+      <comment>Annotation from NG_009080.1</comment>
+      <modification_date>2015-06-19</modification_date>
+      <mapping coord_system="NM_003106.2" other_name="NM_003106.2" other_id="NM_003106.2" other_start="1" other_end="2503" type="transcript">
+        <mapping_span lrg_start="5001" lrg_end="7503" other_start="1" other_end="2503" strand="1" />
+      </mapping>
+      <mapping coord_system="NM_003106.3" other_name="NM_003106.3" other_id="NM_003106.3" other_start="1" other_end="2513" type="transcript">
+        <mapping_span lrg_start="4991" lrg_end="7503" other_start="1" other_end="2513" strand="1" />
+      </mapping>
+      <features>
+        <gene source="NCBI-Gene" accession="6657">
+          <symbol source="HGNC" name="SOX2">
+            <synonym>ANOP3</synonym>
+            <synonym>MCOPS3</synonym>
+          </symbol>
+          <coordinates coord_system="LRG_719" start="4991" end="7503" strand="1" />
+          <long_name>SRY (sex determining region Y)-box 2</long_name>
+          <db_xref source="GeneID" accession="6657" />
+          <db_xref source="HGNC" accession="HGNC:11195" />
+          <db_xref source="MIM" accession="184429" />
+          <db_xref source="CCDS" accession="CCDS3239.1" />
+          <db_xref source="GI" accession="215820640" />
+          <transcript source="RefSeq" accession="NM_003106.2" fixed_id="t1">
+            <coordinates coord_system="LRG_719" start="5001" end="7503" strand="1" />
+            <long_name>SRY (sex determining region Y)-box 2</long_name>
+            <db_xref source="GeneID" accession="6657" />
+            <db_xref source="GI" accession="29826338" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_719" start="5001" end="7503" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_003097.1" codon_start="1" fixed_id="p1">
+              <coordinates coord_system="LRG_719" start="5428" end="6381" strand="1" />
+              <long_name>transcription factor SOX-2</long_name>
+              <long_name>transcription factor SOX2</long_name>
+              <long_name>SRY-related HMG-box gene 2</long_name>
+              <long_name>sex determining region Y-box 2</long_name>
+              <db_xref source="CCDS" accession="CCDS3239.1" />
+              <db_xref source="GeneID" accession="6657" />
+              <db_xref source="GI" accession="28195386" />
+            </protein_product>
+          </transcript>
+        </gene>
+      </features>
+    </annotation_set>
+    <annotation_set type="ensembl">
+      <source>
+        <name>Ensembl</name>
+        <url>http://www.ensembl.org/</url>
+        <contact>
+          <name>Ensembl</name>
+          <address>European Bioinformatics Institute</address>
+          <email>helpdesk@ensembl.org</email>
+        </contact>
+      </source>
+      <comment>Annotation is based on Ensembl release 80 (GRCh38  primary assembly)</comment>
+      <modification_date>2015-06-22</modification_date>
+      <mapping coord_system="ENST00000325404.2" other_name="ENST00000325404.2" other_id="ENST00000325404.2" other_start="1" other_end="2513" type="transcript">
+        <mapping_span lrg_start="4991" lrg_end="7503" other_start="1" other_end="2513" strand="1" />
+      </mapping>
+      <features>
+        <gene source="Ensembl" accession="ENSG00000242808.6">
+          <symbol source="HGNC" name="SOX2-OT" />
+          <coordinates coord_system="LRG_719" start="1" end="9503" strand="1" mapped_from="GRCh38" />
+          <partial>5-prime</partial>
+          <partial>3-prime</partial>
+          <long_name>SOX2 overlapping transcript (sense_overlapping)</long_name>
+          <db_xref source="RFAM" accession="RF01952" />
+          <db_xref source="GeneID" accession="347689">
+            <synonym>NCRNA00043</synonym>
+            <synonym>SOX2OT</synonym>
+          </db_xref>
+          <db_xref source="HGNC" accession="20209">
+            <synonym>DKFZp761J1324</synonym>
+            <synonym>NCRNA00043</synonym>
+            <synonym>SOX2OT</synonym>
+          </db_xref>
+          <db_xref source="Ensembl" accession="ENSG00000242808" />
+          <transcript source="Ensembl" accession="ENST00000493521.4">
+            <coordinates coord_system="LRG_719" start="1" end="9503" strand="1" mapped_from="GRCh38" />
+            <partial>5-prime</partial>
+            <partial>3-prime</partial>
+            <long_name>SOX2-OT-003 (sense_overlapping)</long_name>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000469278.4">
+            <coordinates coord_system="LRG_719" start="1" end="9503" strand="1" mapped_from="GRCh38" />
+            <partial>5-prime</partial>
+            <partial>3-prime</partial>
+            <long_name>SOX2-OT-002 (sense_overlapping)</long_name>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000597828.4">
+            <coordinates coord_system="LRG_719" start="1" end="9503" strand="1" mapped_from="GRCh38" />
+            <partial>5-prime</partial>
+            <partial>3-prime</partial>
+            <long_name>SOX2-OT-019 (sense_overlapping)</long_name>
+            <exon source="Ensembl" accession="ENSE00001884103">
+              <coordinates coord_system="LRG_719" start="8252" end="8359" strand="1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000498731.4">
+            <coordinates coord_system="LRG_719" start="1" end="9503" strand="1" mapped_from="GRCh38" />
+            <partial>5-prime</partial>
+            <partial>3-prime</partial>
+            <long_name>SOX2-OT-008 (sense_overlapping)</long_name>
+            <db_xref source="RefSeq" accession="NR_075091.1" />
+            <exon source="Ensembl" accession="ENSE00001884103">
+              <coordinates coord_system="LRG_719" start="8252" end="8359" strand="1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000476964.4">
+            <coordinates coord_system="LRG_719" start="1" end="9503" strand="1" mapped_from="GRCh38" />
+            <partial>5-prime</partial>
+            <partial>3-prime</partial>
+            <long_name>SOX2-OT-010 (sense_overlapping)</long_name>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000492337.4">
+            <coordinates coord_system="LRG_719" start="1" end="9503" strand="1" mapped_from="GRCh38" />
+            <partial>5-prime</partial>
+            <partial>3-prime</partial>
+            <long_name>SOX2-OT-009 (sense_overlapping)</long_name>
+            <exon source="Ensembl" accession="ENSE00001884103">
+              <coordinates coord_system="LRG_719" start="8252" end="8359" strand="1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000491282.4">
+            <coordinates coord_system="LRG_719" start="1" end="9503" strand="1" mapped_from="GRCh38" />
+            <partial>5-prime</partial>
+            <partial>3-prime</partial>
+            <long_name>SOX2-OT-011 (sense_overlapping)</long_name>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000498226.4">
+            <coordinates coord_system="LRG_719" start="1" end="9503" strand="1" mapped_from="GRCh38" />
+            <partial>5-prime</partial>
+            <partial>3-prime</partial>
+            <long_name>SOX2-OT-012 (sense_overlapping)</long_name>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000476125.4">
+            <coordinates coord_system="LRG_719" start="1" end="3362" strand="1" mapped_from="GRCh38" />
+            <partial>5-prime</partial>
+            <long_name>SOX2-OT-016 (sense_overlapping)</long_name>
+            <exon source="Ensembl" accession="ENSE00001895783">
+              <coordinates coord_system="LRG_719" start="2876" end="3362" strand="1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000477928.1">
+            <coordinates coord_system="LRG_719" start="1" end="9503" strand="1" mapped_from="GRCh38" />
+            <partial>5-prime</partial>
+            <partial>3-prime</partial>
+            <long_name>SOX2-OT-014 (sense_overlapping)</long_name>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000466034.4">
+            <coordinates coord_system="LRG_719" start="1" end="9503" strand="1" mapped_from="GRCh38" />
+            <partial>5-prime</partial>
+            <partial>3-prime</partial>
+            <long_name>SOX2-OT-015 (sense_overlapping)</long_name>
+            <exon source="Ensembl" accession="ENSE00001884103">
+              <coordinates coord_system="LRG_719" start="8252" end="8359" strand="1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000600962.4">
+            <coordinates coord_system="LRG_719" start="1" end="2917" strand="1" mapped_from="GRCh38" />
+            <partial>5-prime</partial>
+            <long_name>SOX2-OT-026 (sense_overlapping)</long_name>
+            <exon source="Ensembl" accession="ENSE00003042742">
+              <coordinates coord_system="LRG_719" start="2735" end="2917" strand="1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000600801.4">
+            <coordinates coord_system="LRG_719" start="1" end="9503" strand="1" mapped_from="GRCh38" />
+            <partial>5-prime</partial>
+            <partial>3-prime</partial>
+            <long_name>SOX2-OT-028 (sense_overlapping)</long_name>
+            <exon source="Ensembl" accession="ENSE00001884103">
+              <coordinates coord_system="LRG_719" start="8252" end="8359" strand="1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000596250.4">
+            <coordinates coord_system="LRG_719" start="1" end="9503" strand="1" mapped_from="GRCh38" />
+            <partial>5-prime</partial>
+            <partial>3-prime</partial>
+            <long_name>SOX2-OT-029 (sense_overlapping)</long_name>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000628496.1">
+            <coordinates coord_system="LRG_719" start="1" end="9503" strand="1" mapped_from="GRCh38" />
+            <partial>5-prime</partial>
+            <partial>3-prime</partial>
+            <long_name>SOX2-OT-049 (sense_overlapping)</long_name>
+            <exon source="Ensembl" accession="ENSE00001884103">
+              <coordinates coord_system="LRG_719" start="8252" end="8359" strand="1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000593549.4">
+            <coordinates coord_system="LRG_719" start="1" end="9503" strand="1" mapped_from="GRCh38" />
+            <partial>5-prime</partial>
+            <partial>3-prime</partial>
+            <long_name>SOX2-OT-027 (sense_overlapping)</long_name>
+            <exon source="Ensembl" accession="ENSE00001884103">
+              <coordinates coord_system="LRG_719" start="8252" end="8359" strand="1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000599082.1">
+            <coordinates coord_system="LRG_719" start="1" end="9503" strand="1" mapped_from="GRCh38" />
+            <partial>5-prime</partial>
+            <partial>3-prime</partial>
+            <long_name>SOX2-OT-030 (sense_overlapping)</long_name>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000626299.1">
+            <coordinates coord_system="LRG_719" start="1" end="9503" strand="1" mapped_from="GRCh38" />
+            <partial>5-prime</partial>
+            <partial>3-prime</partial>
+            <long_name>SOX2-OT-050 (sense_overlapping)</long_name>
+            <exon source="Ensembl" accession="ENSE00001884103">
+              <coordinates coord_system="LRG_719" start="8252" end="8359" strand="1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000627530.1">
+            <coordinates coord_system="LRG_719" start="1" end="9503" strand="1" mapped_from="GRCh38" />
+            <partial>5-prime</partial>
+            <partial>3-prime</partial>
+            <long_name>SOX2-OT-051 (sense_overlapping)</long_name>
+            <exon source="Ensembl" accession="ENSE00001884103">
+              <coordinates coord_system="LRG_719" start="8252" end="8359" strand="1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000597651.4">
+            <coordinates coord_system="LRG_719" start="1" end="9503" strand="1" mapped_from="GRCh38" />
+            <partial>5-prime</partial>
+            <partial>3-prime</partial>
+            <long_name>SOX2-OT-032 (sense_overlapping)</long_name>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000600386.4">
+            <coordinates coord_system="LRG_719" start="1" end="9503" strand="1" mapped_from="GRCh38" />
+            <partial>5-prime</partial>
+            <partial>3-prime</partial>
+            <long_name>SOX2-OT-033 (sense_overlapping)</long_name>
+            <exon source="Ensembl" accession="ENSE00001884103">
+              <coordinates coord_system="LRG_719" start="8252" end="8359" strand="1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000628343.1">
+            <coordinates coord_system="LRG_719" start="1" end="9503" strand="1" mapped_from="GRCh38" />
+            <partial>5-prime</partial>
+            <partial>3-prime</partial>
+            <long_name>SOX2-OT-055 (sense_overlapping)</long_name>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000630887.1">
+            <coordinates coord_system="LRG_719" start="1" end="9503" strand="1" mapped_from="GRCh38" />
+            <partial>5-prime</partial>
+            <partial>3-prime</partial>
+            <long_name>SOX2-OT-053 (sense_overlapping)</long_name>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000629112.1">
+            <coordinates coord_system="LRG_719" start="1" end="9503" strand="1" mapped_from="GRCh38" />
+            <partial>5-prime</partial>
+            <partial>3-prime</partial>
+            <long_name>SOX2-OT-054 (sense_overlapping)</long_name>
+            <exon source="Ensembl" accession="ENSE00001884103">
+              <coordinates coord_system="LRG_719" start="8252" end="8359" strand="1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000629830.1">
+            <coordinates coord_system="LRG_719" start="1" end="9503" strand="1" mapped_from="GRCh38" />
+            <partial>5-prime</partial>
+            <partial>3-prime</partial>
+            <long_name>SOX2-OT-052 (sense_overlapping)</long_name>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000598474.2">
+            <coordinates coord_system="LRG_719" start="1" end="9503" strand="1" mapped_from="GRCh38" />
+            <partial>5-prime</partial>
+            <partial>3-prime</partial>
+            <long_name>SOX2-OT-034 (sense_overlapping)</long_name>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000627501.1">
+            <coordinates coord_system="LRG_719" start="1" end="9503" strand="1" mapped_from="GRCh38" />
+            <partial>5-prime</partial>
+            <partial>3-prime</partial>
+            <long_name>SOX2-OT-057 (sense_overlapping)</long_name>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000629781.1">
+            <coordinates coord_system="LRG_719" start="1" end="9503" strand="1" mapped_from="GRCh38" />
+            <partial>5-prime</partial>
+            <partial>3-prime</partial>
+            <long_name>SOX2-OT-058 (sense_overlapping)</long_name>
+            <exon source="Ensembl" accession="ENSE00001884103">
+              <coordinates coord_system="LRG_719" start="8252" end="8359" strand="1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000595084.2">
+            <coordinates coord_system="LRG_719" start="1" end="9503" strand="1" mapped_from="GRCh38" />
+            <partial>5-prime</partial>
+            <partial>3-prime</partial>
+            <long_name>SOX2-OT-022 (sense_overlapping)</long_name>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000595287.1">
+            <coordinates coord_system="LRG_719" start="1" end="9503" strand="1" mapped_from="GRCh38" />
+            <partial>5-prime</partial>
+            <partial>3-prime</partial>
+            <long_name>SOX2-OT-031 (sense_overlapping)</long_name>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000600778.2">
+            <coordinates coord_system="LRG_719" start="1" end="9503" strand="1" mapped_from="GRCh38" />
+            <partial>5-prime</partial>
+            <partial>3-prime</partial>
+            <long_name>SOX2-OT-035 (sense_overlapping)</long_name>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000630553.1">
+            <coordinates coord_system="LRG_719" start="1" end="9503" strand="1" mapped_from="GRCh38" />
+            <partial>5-prime</partial>
+            <partial>3-prime</partial>
+            <long_name>SOX2-OT-056 (sense_overlapping)</long_name>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000631025.1">
+            <coordinates coord_system="LRG_719" start="1" end="2669" strand="1" mapped_from="GRCh38" />
+            <partial>5-prime</partial>
+            <long_name>SOX2-OT-048 (sense_overlapping)</long_name>
+            <exon source="Ensembl" accession="ENSE00003764563">
+              <coordinates coord_system="LRG_719" start="1981" end="2669" strand="1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000629552.1">
+            <coordinates coord_system="LRG_719" start="1" end="9503" strand="1" mapped_from="GRCh38" />
+            <partial>5-prime</partial>
+            <partial>3-prime</partial>
+            <long_name>SOX2-OT-043 (sense_overlapping)</long_name>
+            <exon source="Ensembl" accession="ENSE00001884103">
+              <coordinates coord_system="LRG_719" start="8252" end="8359" strand="1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000626619.1">
+            <coordinates coord_system="LRG_719" start="1" end="9503" strand="1" mapped_from="GRCh38" />
+            <partial>5-prime</partial>
+            <partial>3-prime</partial>
+            <long_name>SOX2-OT-046 (sense_overlapping)</long_name>
+            <exon source="Ensembl" accession="ENSE00001884103">
+              <coordinates coord_system="LRG_719" start="8252" end="8359" strand="1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000628347.1">
+            <coordinates coord_system="LRG_719" start="1" end="578" strand="1" mapped_from="GRCh38" />
+            <partial>5-prime</partial>
+            <long_name>SOX2-OT-045 (sense_overlapping)</long_name>
+            <exon source="Ensembl" accession="ENSE00003768496">
+              <coordinates coord_system="LRG_719" start="397" end="578" strand="1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000628810.1">
+            <coordinates coord_system="LRG_719" start="1" end="9503" strand="1" mapped_from="GRCh38" />
+            <partial>5-prime</partial>
+            <partial>3-prime</partial>
+            <long_name>SOX2-OT-044 (sense_overlapping)</long_name>
+            <exon source="Ensembl" accession="ENSE00001884103">
+              <coordinates coord_system="LRG_719" start="8252" end="8359" strand="1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000593330.1">
+            <coordinates coord_system="LRG_719" start="1" end="9503" strand="1" mapped_from="GRCh38" />
+            <partial>5-prime</partial>
+            <partial>3-prime</partial>
+            <long_name>SOX2-OT-021 (sense_overlapping)</long_name>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000627738.1">
+            <coordinates coord_system="LRG_719" start="1" end="9503" strand="1" mapped_from="GRCh38" />
+            <partial>5-prime</partial>
+            <partial>3-prime</partial>
+            <long_name>SOX2-OT-041 (sense_overlapping)</long_name>
+          </transcript>
+        </gene>
+        <gene source="Ensembl" accession="ENSG00000181449.3">
+          <symbol source="HGNC" name="SOX2" />
+          <coordinates coord_system="LRG_719" start="4991" end="7503" strand="1" mapped_from="GRCh38" />
+          <long_name>SRY (sex determining region Y)-box 2 (protein_coding)</long_name>
+          <db_xref source="GeneID" accession="6657">
+            <synonym>ANOP3</synonym>
+            <synonym>MCOPS3</synonym>
+          </db_xref>
+          <db_xref source="MIM" accession="184429" />
+          <db_xref source="HGNC" accession="11195" />
+          <db_xref source="Ensembl" accession="ENSG00000181449" />
+          <transcript source="Ensembl" accession="ENST00000325404.2">
+            <coordinates coord_system="LRG_719" start="4991" end="7503" strand="1" mapped_from="GRCh38" />
+            <long_name>SOX2-001 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS3239.1" />
+            <db_xref source="RefSeq" accession="NM_003106.3" />
+            <exon source="Ensembl" accession="ENSE00001228743">
+              <coordinates coord_system="LRG_719" start="4991" end="7503" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000323588.1">
+              <coordinates coord_system="LRG_719" start="5428" end="6381" strand="1" mapped_from="GRCh38" />
+              <long_name>transcription factor SOX-2</long_name>
+              <db_xref source="RefSeq" accession="NP_003097.1" />
+              <db_xref source="UniProtKB" accession="P48431">
+                <synonym>Q14537</synonym>
+              </db_xref>
+            </protein_product>
+          </transcript>
+        </gene>
+        <gene source="Ensembl" accession="ENSG00000278026.1">
+          <symbol source="RFAM" name="SOX2OT_exon4" />
+          <coordinates coord_system="LRG_719" start="8252" end="8360" strand="1" mapped_from="GRCh38" />
+          <long_name>SOX2 overlapping transcript exon 4 [Source:RFAM;Acc:RF01954] (misc_RNA)</long_name>
+          <db_xref source="RFAM" accession="RF01954" />
+          <db_xref source="Ensembl" accession="ENSG00000278026" />
+          <transcript source="Ensembl" accession="ENST00000610449.1">
+            <coordinates coord_system="LRG_719" start="8252" end="8360" strand="1" mapped_from="GRCh38" />
+            <long_name>SOX2OT_exon4.1-201 (misc_RNA)</long_name>
+            <exon source="Ensembl" accession="ENSE00003723173">
+              <coordinates coord_system="LRG_719" start="8252" end="8360" strand="1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+        </gene>
+      </features>
+    </annotation_set>
+    <annotation_set type="lsdb">
+      <source>
+        <name>List of locus specific databases for SOX2</name>
+        <url>http://grenada.lumc.nl/LSDB_list/lsdbs/SOX2</url>
+      </source>
+      <modification_date>2015-06-22</modification_date>
+    </annotation_set>
+  </updatable_annotation>
+</lrg>

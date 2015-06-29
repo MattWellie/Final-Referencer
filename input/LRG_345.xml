@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="application/xml" href="lrg2html.xsl"?>
+
+<lrg schema_version="1.9">
+  <fixed_annotation>
+    <id>LRG_345</id>
+    <hgnc_id>14378</hgnc_id>
+    <sequence_source>NG_011562.1</sequence_source>
+    <organism taxon="9606">Homo sapiens</organism>
+    <source>
+      <name>RAPID: Resource of Asian Primary Immunodeficiency Diseases</name>
+      <url>http://web16.kazusa.or.jp/rapid/browseByPIDGenes</url>
+      <contact>
+        <name>Sujatha Mohan</name>
+        <address>The Institute of Physical and Chemical Research (RIKEN), Japan</address>
+        <email>sujatha@rcai.riken.jp</email>
+      </contact>
+    </source>
+    <mol_type>dna</mol_type>
+    <creation_date>2013-04-30</creation_date>
+    <sequence>AGTGAGCTGGGGAAAGCAGAGAGCATCAGAGGGTTGTCTGGAGAGAATACTGAAGGCATGATGGGCTGTGGAGGTGGCTCCCTGGGTGGGTGGTCTGGTGGGTCAGAAGTTGGTGGGAGAAAGGGAAGTGCAGGGGATGGAGACGGGGCGGCACTAGGTTTCATGCTCATATCCGGTCCCGGCAATGCAGATGCTGTTGAGACAAAGAAAAAGAAGAAATGGAGTAGGAGAAAAGAAGACCAGAGTTAGCCATCTGAATTCCCCATTTTTTTATTTTTATTTTTATTTTTATTTTTATTTTTATTTTTTGAGATGGAGTCTCGCTCTGTCGCCCAGGCTGGAGTGCAGTGGCACAATCTCGGCTCACTGCAATCTCCGCCTCCTAGGTTCATGCCATTCTCCTGCCTCAGCCTCCTGTGTAGCTGGGACTACAGACGCCCACCACCACGCCCGGCTAACTTTTTGTATTTTTAATAGAGACGGGGTTTCACCGTGTTAGCCAGGTTGGTCTCGATCTCCTGACCTTGTGATCCGCCTGCTTCGGCCTCCCAAAGTGCTGGGATTACAGGTGAATTCCTCCTTTATTTTTAAATTTTTTTGTAGAGGCCGGGCACGGTGGTTCATATCTGTAATCCCAGCACTTTGGGAGGCCAAGGTGGAAGGATTGCTTGACTCCAGGAGTTTGAGACCAGCCTGGGCAACATGGCAAAACCCTGTCTCCATTAAAAATACGAAAATAAGCCAGGTGCGGTGGCATGCACCTGTAGTCCCAACTACTTGGGGGGCTGGGGTGGGAGGATCGCTTGAGCCCAAGAAGTTGAGGCTGCAGTGAGCTGAGATTGCGCCTCTGTGCTCCAGCCTCGGTGACAAAGGAAAACTCTGTCTCAAAAAAAAAAAAAGAAAAATTGTAGAGATGACGTCTCGCTATGTTGCCTAGGCTAGGCTCAGACTCCTGGCCTCAAGTGATCCTCCTGCCTCAGCCTTCCAAAGTGCAGAGATAACTGGTGTGAGCCACCACACCCCATCTGAGTTCTTCTTTAGACCCGAAGACTCAAAGCACTGATTCTCAACAGGTGAAAGAGGGGATATGGATGGGGAACTTGCATAGTTTGCAAATGTCCCCCAAGTGATTTTGATCTTACTTCTCGTTGAGAATGACTGCATTAAAGAAGTTGCTTCTTTTTCAACAAGACACACAGACCCCTATCTGCCAAGAAGAGACAAGCCCAAGCCATCACTGCCTCTAAGTGCTGCTTTTTTTTTTTTTTTTTTTTTTTTTTAGATGGAGTCTTGCTCTGTGGCCCATTCTGGAGTGCAGCAGCACGATCTTAGCTCACTGCAACCTCCGCCTCCTGGGTTCAAGTGATTCTCCTGCCTCAGCCCCGCAAGTAGCTGGGATTACAGGCACGAACCACCACATCCAGCTAATTTTTGTATTTTTAGGACATACGGGGTTTACGCCATGTTGGCCAGGCTGGTCTCAAAAACCTGACCTCAGGTAATCCACCCGCCTCGACCTCCTAAAGTGCTGGGATTACAGGCATGAGCCACCGCACCCGGCCCAAGCAGAGGCAGTTTATAATACATTCCAGCCTAGTTTTCAGGAAGGCATTTCTCTGCAACAGATAACTACAGATTATCTTTTCCCACTAAGGTCCTTCCCACCTTACCCTCCCATCCTCCATCCTCCACATCCCCTTCCCCTCATAAGCTCAAGCATGGCAAAATCCTAGAACAGGCTCCAGTTGCCTAAAAAAGACAGATGAACTTGGGCCTTCCCCCTTGAAACCTCTCTGTGCCAGTCCTAAGACACATACCCCTGATCCTCTCTCCCACCACAAAAACACATGCGGAAGTGTCCCCTGTTCAAGAGAATCAAGTTGCTAATTGCCATCCTTTCTCTATACTCAGCATGTGTCCTCAGAGACACCTTAATCTGTCCTTAAGGAAGTCCTCTTCCTTCCCCAGCCCCTAGTCTTAAAGGTACAATCTCCTTCCCTAGCCTCCCCAAGTGTGATACCTTTGACGGGGTGTAGCACCTCACATTCCTTTAGGTCAGCCCAGAGAGCTTGTCTCAAAGGATATGAGCAGGTACCAGAAATCCTCCTCACCACCTGCAGACTTACCTCCATCTGAAGCCATCCTCTCAGGTTTGGGCACTAACTGTGGCTGTCTGGAAGCCTCCAGAATGAGGCAGTCAGGTCCAGGACCCAGAGTAACCTGGCTCCAGTAGGTGCACAGGGATCCAAGGAAGGGAAGGTAAAGATCAGATCACACAGAACTAGAATACGGAACTCAAGGCATTCTGCTGTGGGGGAGGGGAGAGGGAAAAGTGGGGTGAGGGTGGGGACAGATATTCCATGAAGGGTTCTAGTAAGTATGAAAAAACCAGGAATTCCCTTCAAACTACAGTTTGGCAACACAATTGATGTTTGCCTCTTTAGGGCTATTTGTAAACTTTTTCTCAGATTCCCAACACATTACAGTTTTACCGTTTGGTTCACTACACTTCGATTCTTCACCAACATATCTCATTTTGTGTCCTTCCATCCCAGCCAGTTCTGTAACTGACTTCCTATTAACAGCAGGTTGACTGTAGACCCCTGACTTAATTCAATGATGGCTATATTTTCTGAACTAAATTCAGAGTACATTGGTCTATACACGTAAGGATCAAGGGAACTAAAGTTTAAAATTAGAATTGTCAGATGATCCAAGGTGCTCGATTGCTGTGTGCACATCATTTCCTTGGAAAGCTGTCCAATCTACTAACATAGGCTCTGTACTCCACAGACGCCTTACCCTTTGCTGAAAAGCCTCACTAAATAAAAAAGCTGCCATGCAGTTTAAAATTTCAAGAGTAGAAAGTCCTTCTTTTTGTTAAATTATTTTGGTTTAAACTTTAAAAATAAAATTTATCTGCTAAGGTTCCTGGCGACTATTTCAGGCCAGTAACTCCCAGAGCATCCTCTACAGCCACAGCTTCATCCAAACGTGGATTTCCCCCAAAAGGCCTTCCCTGGGGTTCATGGCATCTTTCTTGCTTCCTCTGAGATATCTTTTCTCTTTTCTAAAGACCTGAAGGCTAAAATCATCATTTTCCTTTCTAACAAAATTAACTACTTAGATTTAAATTTTTTTTTTTAAACAGAGTCTCGCTCTGTCACCCAGGCTGTAGTGCAGTGGCGTGATCTCTGCTCACTGCAAGCTCCGCCTTCCGGGTTCACGCCATTGTCCTGCCTCACCCTCCTGAGTAGCTGGGACTACAGGCACCCACCACCATGCCCGGCTAATTTTTTGTATTTTTAGTAGAGACGGGGTTTCACTGTGTTAGCCAGGATAGTCTCGATCTCCTGACCTCATGATCCGCCCGCCTCAGCCTCCCAAAGTGCTGGGATTACTAGGCGTGAGCCACCGTGCCCGGCCTTTAAAAAATTTTTAACAGGTAATAAATACATTAGCAAGGTTCAAAAATCAAACTGCGTAATAAAATACATAGCAATAAGTCTGCCTCCCAACCCTTACCCCTTTCTCCTGCAACTAAGTTCTCTATCCCAGAGGAAACCAGTATCATCTGTTTCTTGTGAATACTTGCAGAGATTTTTTATGCAACTACAAGTAAATACAAACCATATTCTTTTTTTTTTTTTTTTTTTTTTGAGACAGGATCTCGCTCTGTCGCCCAGGCTGGAGTGCAGTGGCGTGATCTTGGCTCACTGCAACCTCCGCCTCCTGGGTTCAAGTGATTCTCCTGCCTCAGCCTCCCGAGTAGCTGGGACTACAGGTGCCCGCCACCACGCCCCGCTAATTTTTGTATTTTTGGGGGTTTCACCATATTGGCCAGGCTGGTCTCGAACTCCTGACCTTGTGATCCACCCGTCTCAGCCTCCCAAAGTGCTGGGATTACAGGCGTGAGCCACCGCGCCCAGCCACAAACCATATTTTTTTTTCTTTAAGACGGACCCAGGCTGGAGTGCAGTGGTGCTATCTCAGCTCGCTGCAACCTCTGCCTCCCCGGCTCAAATGATTCTCCTGCCTCAGCCTCTGAAGTAGCTGGGACTACAGGCGCCCACCACCACGCCCGGCTAATTTTTCTGTATTTTTAGTAGAGACGGGGTTTCGCCAGATTGGCCAGGCTGGTCTCGAACCCTTGACCTGTGATCTGCCTGCCTCAGCCTCCCAGTGTTGGGATTACAGGCGTGAGCCACCGCGCCCCGCCAAACCATATTCTTAAAAAAAAAAAAAAAAAAGTGCAGGTTTTTCTGGTTACACAGTTAATATATATTCCAATGCTTTTGTCATTGTAAATAATGGCGTAACGATGATCTTTGTAATGATATTTTGGTTCTCATTTTCATTTCTTTAAACGAGAGTCTTATAAGGAGAACTTCTATATTCTTTTAAAAATTGTAAAAACTCCTAGAAGGTGCACTTTATTACGTTATTATTAGCTACTCACCACCATAAGAAAGAGCGCTGAATTTGCGGTAGGGACCTAACTTTAAATCTTGGTTCGACCGCTGAAACATGCTTCACCAGTTTCATAAAATAACTTTACGCTCTTTCGCTTTACGGAATATTGATACTCAACATGCATTCTTTACCGCCAACGCTTTGAAATGGAGCAGGGGAACTGGATGTAAAAGAGGGGAGGGAAGAAAACCTCTTCTTTCTTCCCTAGGGTAAAGGGGCTCTGAATCCTGGAGCCCTTGTTTCTTCAGGCATTGAAAACTCACTGCTCCTGAAATGGGTGTGTATCTTGAGACAAAGACAGGCTTCTATACGTCAATATTCTATCCACATCCATCCCTACCCCCCTCTAACGCCGTGTACCTAGCACACAGTAGGGACACTCCACGTGTTTTAGCCTGCAAAGTTGCAAGTAGGGCCCCAAGCCAAGCCCTGCTCTCGTGCGCCCCCTTCTGGCTAGCTGAAAACAAGGCAAAAATTGACTACATTTTCCGGAGTGCCAGGAGAGAGAGACTTCCGGTTATGCAGGAAGGAAATTGACGAACACGTGACGCGGTCGGGCGGACCACTGCAGACTGAGCGGTGGACCGAATTGGGACCGCTGGCTTATAAGCGATCATGTTTCTCCAGTATTACCTCAACGAGCAGGGAGATCGAGTCTATACGCTGAAGGTGAGGAGAGAAAACAGGGTGTAAATAGGCATGGCGAGAAATGTAGATGGGAGGAGTGGGTGAGGTCATACGTGGAGTTACCTAGCTGGGTGCGGGGAACCAGAAAGTCCAGAACCGAGGTGGGGAAGAACCGGGACCGCGCGACTCATTTTTTAATTAAAAGAAAAAATTCTGGCGGGGCGCAGTGGCTCCCGCCTGTAATCCTAGCACTTTGGGAGGCCGAGGCGGGTGGATTGCCTTAGCTCAGGAGTTCGCGACCATTCTGGGCAACACTGTGAAACTCCGTTTCTACTAAAATACAAAAAATTAGCCGGGCATGGCGGTGTGCGCCTGTTATCCCAGCTACTCGGGAGGCTGAGACAGGAGAATCGCTTAAACCCGGGAGGCAGAGGTTGCAGTGAGCCGGGATAGCGCCATTGCACTCACTTTTCCTTTTTTTTTTTTTTTTTTTTTTTAAAGACAGGGACTCGCTTTGTTGCCTAGGCTGTAGTGCGGTGGTGCGGTCTCGGCTCACTGCAACCTCCGCCTCCTGGGCTCAAACAATCCTTCTGCCTCAGCCTCCCGAGTAGTTGGGACTACAGGCGTGCGCCACCATACCCGGCTAATTTTTGGTTTTGGGGTTTTTTGTTTGGTTGGTTGGTTTTGTTTGTTTGTTTGTTGTAGAGACGAGGTTTCGCCATATTGCCCAGGCTGGTCTCAAACCATCCTCCCGCCTCGACCTCCCAAAGTGCCAGGATTACAGGCGTGAGCCACCGCGCTCGGCCTTTTTAAATTTTATATTTCTCTATTTATTTGTACAACTTTTTGAGTTGACCATTGCATCTTCTATTTTCATGTTTGCCCTTTTTCGCGCTGGCCCCACCCCATTTCATCACTCCTGTACTGACATACATTCTGTGTTCCTGGAGCAGAAATTTGACCCGATGGGACAACAGACCTGCTCAGCCCATCCTGCTCGGTTCTCCCCAGATGACAAATACTCTCGACACCGAATCACCATCAAGAAACGCTTCAAGGTGCTCATGACCCAGCAACCGCGCCCTGTCCTCTGAGGGTCCCTTAAACTGATGTCTTTTCTGCCACCTGTTACCCCTCGGAGACTCCGTAACCAAACTCTTCGGACTGTGAGCCCTGATGCCTTTTTGCCAGCCATACTCTTTGGCATCCAGTCTCTCGTGGCGATTGATTATGCTTGTGTGAGGCAATCATGGTGGCATCACCCATAAAGGGAACACATTTGACTTTTTTTTCTCATATTTTAAATTACTACAAGATTATTAAAGATAAAATGATTTGAAAAACTCTTATTTTGTGAGTTGTTGGAGGAAAGGATTGGCAGTATTTTTTTAAAGGGAGGGAGATGATAAAGGAGAGTACCCCAGAGAGTTGCAACAATACCACTTGGAAGAAAAACTTCAGTCCTGCTGTTGCAAGAGTGGTCATGTGCTGTTCATGATAGGAGGGTATTGGGGAAGAAAGATTAAGACTTTCACAGCTGTCAGCATTCACTGAAAAATACCTCTGTTGTCACTTAACGTAATTTCTTGTCCCTTGAAATAAGATTTTGATTAAAAATGGAAGAGTACTTGTAAAAGTAATAGGCATATTACAGACAGAGGTCAGTGAATTGAAAGTCAGAAGACCAGTATTTGCTTTTTGTATAACTTTGAGAAAGTTACTTAACCTGTTTAGTCTGATTTTTCTCCTGATTAACTTATCTTTGAACTCAAATTGATTTAGTGGTGGGCCTTTCTTTTTTTTTCTTTTGAGACAGAGTCTAGATCTGTTGTCCAGGCTGGAGTGCAGGGGTGCAGCCTTGGCTGACTACAACCTCCGTCTCCCAGGTTCAAGCAATTCTCCTGCCTCAGCTTCCCAAGTAACTGGGATTACAGGTGCACGCCACCACACCTGGCTAATTTTTGTATTTCTTTTAGTAGTGACAGGGTTTCGCCATGTCGGCCAAGCTGGTCTCAAACTCCTCACCTCAAGTGATCCACCCACCTCAGCCTCCCAAAGTGCTGGGATTACAGGCATGAGTCACCACACCTGGCCTGGGTCTTTCTTTTTTTTTGAGATGGAGTTTTGCTCTTGTACCCCAGGCTGGAGTGCAGTGGCGCCATCTTGGTTCACTGCAACCTCCGCCTCCTGGGTTCAAGCTATTCTCCTGCCTCAGCCTCCCGAGTAGCTAGGACTACAGGCGCACACCACCATGCCTGGCTAATTTTTGTATTTTTAGTAGAAACAAGGTTTCACCTTGTTGGTCAGGCTGATCTCAAACTCCTGACCTCAAGTAATCCGCCCGCCTCAGCCTCCCAAAGTGCTGGGATTACGGGCATGAGCCACCTTGGCCGGCCTAGTGCTGCAGATTTTAAAATTGCTTTGTGGAGTCTGTATTTTAATTCTGCAATCTTTATTTTCTATGATAAAAATTCTAGATTCCAGAAGCAGATATAACTTAAATTAGCACAGATGTGATTTATGAAGACATACCCTGGAAATACTTTTTTTTTTTTTTTGAGTCAGGTCTCACTCCTGTGGTCCAGGCAGGAGTGCAGTGATGTGATCACAACTCATTGCAGCCTCTACCTCCCTGTCTCAAGCGGTCCACCCCATTTTTAAATTTTTTATAGAAACGAGGTCTCACTATGTTGCCCAAGCTGGTGTTGCACTCCGGGCTCAAGCTGTCCTCCTGCCTTGGCCTCCCAAAGTGTTGGGATTACGGGCGTGAGCCACAGTGCCCGGCCAGACTTTGCTTTTCTTGGATCTTGCTATTTGACCATCCCAGCAGAAAAGTTCAGGATAGTTGTGGGTTGCTGAAAAGAAAAAAAAAAGTCTCTCAACTGGAGTCATAATTAATAGAAGACAGATGATTTTGAAATACATTACTGAAACATATAGGAATGGTGAAATGAGATACTTGTTTCCTGTCAAGGAATTTTATTTCTTAGCCTGTTCACTTACTTGCAGGGTTCTTAACATTGGATCTGAAGGATTTTAAAGAGTTAACTTAGAGAAATTGTGAAATGGGATACTTGTTTCCTGTCAAGCAATTTTATTTCTTAGCTTGTTCACTTACAGGATTGGATATAACATTGGATCTGAAAGATTTTTAAAAGTTATCTTATCCAATTAAGGGGATAATGATTGGAGACATGTTTCTTAAGCACCAAAGTCAGTAAGTGAATTTTGCTACCAGTTTTTTAATGTTGGCTGCAGTTCTGCCTTTATCTTACAAAAAAGAAAAAAAAAAAAGAATTAGCATTGCTCCATGCTACCACCTGTGTAGACTTAAAAGCTTTAACCT</sequence>
+    <transcript name="t1">
+      <comment>This transcript is identical to the RefSeq transcript NM_018648.3 but with the polyA tail removed.</comment>
+      <coordinates coord_system="LRG_345" start="5001" end="6446" strand="1" />
+      <cdna>
+        <sequence>AGGAAATTGACGAACACGTGACGCGGTCGGGCGGACCACTGCAGACTGAGCGGTGGACCGAATTGGGACCGCTGGCTTATAAGCGATCATGTTTCTCCAGTATTACCTCAACGAGCAGGGAGATCGAGTCTATACGCTGAAGAAATTTGACCCGATGGGACAACAGACCTGCTCAGCCCATCCTGCTCGGTTCTCCCCAGATGACAAATACTCTCGACACCGAATCACCATCAAGAAACGCTTCAAGGTGCTCATGACCCAGCAACCGCGCCCTGTCCTCTGAGGGTCCCTTAAACTGATGTCTTTTCTGCCACCTGTTACCCCTCGGAGACTCCGTAACCAAACTCTTCGGACTGTGAGCCCTGATGCCTTTTTGCCAGCCATACTCTTTGGCATCCAGTCTCTCGTGGCGATTGATTATGCTTGTGTGAGGCAATCATGGTGGCATCACCCATAAAGGGAACACATTTGACTTTTTTTTCTCATATTTTAAATTACTACAAGATTATTAAAGATAAAATGATTTGAAAAACTC</sequence>
+      </cdna>
+      <coding_region>
+        <coordinates coord_system="LRG_345" start="5089" end="6194" strand="1" />
+        <translation name="p1">
+          <sequence>MFLQYYLNEQGDRVYTLKKFDPMGQQTCSAHPARFSPDDKYSRHRITIKKRFKVLMTQQPRPVL</sequence>
+        </translation>
+      </coding_region>
+      <exon label="1">
+        <coordinates coord_system="LRG_345" start="5001" end="5142" strand="1" />
+        <coordinates coord_system="LRG_345t1" start="1" end="142" />
+        <coordinates coord_system="LRG_345p1" start="1" end="18" />
+      </exon>
+      <intron phase="0" />
+      <exon label="2">
+        <coordinates coord_system="LRG_345" start="6054" end="6446" strand="1" />
+        <coordinates coord_system="LRG_345t1" start="143" end="535" />
+        <coordinates coord_system="LRG_345p1" start="19" end="64" />
+      </exon>
+    </transcript>
+  </fixed_annotation>
+  <updatable_annotation>
+    <annotation_set type="requester">
+      <source>
+        <name>RAPID: Resource of Asian Primary Immunodeficiency Diseases</name>
+        <url>http://web16.kazusa.or.jp/rapid/browseByPIDGenes</url>
+        <contact>
+          <name>Sujatha Mohan</name>
+          <address>The Institute of Physical and Chemical Research (RIKEN), Japan</address>
+          <email>sujatha@rcai.riken.jp</email>
+        </contact>
+      </source>
+      <modification_date>2015-06-22</modification_date>
+    </annotation_set>
+    <annotation_set type="lrg">
+      <source>
+        <name>LRG</name>
+        <url>http://www.lrg-sequence.org/</url>
+        <contact>
+          <name>Locus Reference Genomic</name>
+          <url>http://www.lrg-sequence.org/contact</url>
+          <email>feedback@lrg-sequence.org</email>
+        </contact>
+      </source>
+      <modification_date>2015-06-22</modification_date>
+      <mapping coord_system="GRCh37.p13" other_name="15" other_id="NC_000015.9" other_id_syn="CM000677.1" other_start="34631917" other_end="34640362" type="other_assembly">
+        <mapping_span lrg_start="1" lrg_end="8446" other_start="34631917" other_end="34640362" strand="-1" />
+      </mapping>
+      <mapping coord_system="GRCh38.p2" other_name="15" other_id="NC_000015.10" other_id_syn="CM000677.2" other_start="34339716" other_end="34348161" type="main_assembly">
+        <mapping_span lrg_start="1" lrg_end="8446" other_start="34339716" other_end="34348161" strand="-1" />
+      </mapping>
+      <lrg_locus source="HGNC">NOP10</lrg_locus>
+    </annotation_set>
+    <annotation_set type="ncbi">
+      <source>
+        <name>NCBI RefSeqGene</name>
+        <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
+        <contact>
+          <name>RefSeqGene Group</name>
+          <address>NCBI/NLM/NIH</address>
+          <email>rsgene@ncbi.nlm.nih.gov</email>
+        </contact>
+      </source>
+      <comment>Annotation from NG_011562.1</comment>
+      <modification_date>2015-06-19</modification_date>
+      <mapping coord_system="NM_018648.3" other_name="NM_018648.3" other_id="NM_018648.3" other_start="1" other_end="535" type="transcript">
+        <mapping_span lrg_start="5001" lrg_end="5142" other_start="1" other_end="142" strand="1" />
+        <mapping_span lrg_start="6054" lrg_end="6446" other_start="143" other_end="535" strand="1" />
+      </mapping>
+      <features>
+        <gene source="NCBI-Gene" accession="256646">
+          <symbol source="HGNC" name="NUTM1">
+            <synonym>C15orf55</synonym>
+            <synonym>FAM22H</synonym>
+            <synonym>NUT</synonym>
+          </symbol>
+          <coordinates coord_system="LRG_345" start="1" end="4847" strand="-1" />
+          <partial>3-prime</partial>
+          <long_name>NUT midline carcinoma, family member 1</long_name>
+          <db_xref source="GeneID" accession="256646" />
+          <db_xref source="HGNC" accession="HGNC:29919" />
+          <db_xref source="MIM" accession="608963" />
+          <db_xref source="CCDS" accession="CCDS32190.1" />
+          <db_xref source="CCDS" accession="CCDS61584.1" />
+          <db_xref source="CCDS" accession="CCDS61585.1" />
+          <transcript source="RefSeq" accession="NM_001284293.1">
+            <coordinates coord_system="LRG_345" start="1" end="4847" strand="-1" />
+            <partial>3-prime</partial>
+            <long_name>NUT midline carcinoma, family member 1, transcript variant 2</long_name>
+            <db_xref source="GeneID" accession="256646" />
+            <db_xref source="GI" accession="546231762" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_345" start="4460" end="4847" strand="-1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_345" start="1" end="193" strand="-1" />
+              <partial>3-prime</partial>
+            </exon>
+            <protein_product source="RefSeq" accession="NP_001271222.1" codon_start="1">
+              <coordinates coord_system="LRG_345" start="1" end="4529" strand="-1" />
+              <partial>3-prime</partial>
+              <long_name>NUT family member 1 isoform 2</long_name>
+              <long_name>nuclear protein in testis</long_name>
+              <long_name>NUT family member 1</long_name>
+              <db_xref source="CCDS" accession="CCDS61584.1" />
+              <db_xref source="GeneID" accession="256646" />
+              <db_xref source="GI" accession="546231763" />
+            </protein_product>
+          </transcript>
+          <transcript source="RefSeq" accession="NM_001284292.1">
+            <coordinates coord_system="LRG_345" start="1" end="4847" strand="-1" />
+            <partial>3-prime</partial>
+            <long_name>NUT midline carcinoma, family member 1, transcript variant 1</long_name>
+            <db_xref source="GeneID" accession="256646" />
+            <db_xref source="GI" accession="546231022" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_345" start="4460" end="4847" strand="-1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_345" start="2127" end="2220" strand="-1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_345" start="1" end="193" strand="-1" />
+              <partial>3-prime</partial>
+            </exon>
+            <protein_product source="RefSeq" accession="NP_001271221.1" codon_start="1">
+              <coordinates coord_system="LRG_345" start="1" end="4465" strand="-1" />
+              <partial>3-prime</partial>
+              <long_name>NUT family member 1 isoform 1</long_name>
+              <long_name>nuclear protein in testis</long_name>
+              <long_name>NUT family member 1</long_name>
+              <db_xref source="CCDS" accession="CCDS61585.1" />
+              <db_xref source="GeneID" accession="256646" />
+              <db_xref source="GI" accession="546231023" />
+            </protein_product>
+          </transcript>
+          <transcript source="RefSeq" accession="NM_175741.2">
+            <coordinates coord_system="LRG_345" start="1" end="4847" strand="-1" />
+            <partial>3-prime</partial>
+            <long_name>NUT midline carcinoma, family member 1, transcript variant 3</long_name>
+            <db_xref source="GeneID" accession="256646" />
+            <db_xref source="GI" accession="546230972" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_345" start="4460" end="4847" strand="-1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_345" start="2127" end="2305" strand="-1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_345" start="1" end="193" strand="-1" />
+              <partial>3-prime</partial>
+            </exon>
+            <protein_product source="RefSeq" accession="NP_786883.1" codon_start="1">
+              <coordinates coord_system="LRG_345" start="1" end="2142" strand="-1" />
+              <partial>3-prime</partial>
+              <long_name>NUT family member 1 isoform 3</long_name>
+              <long_name>nuclear protein in testis</long_name>
+              <long_name>NUT family member 1</long_name>
+              <db_xref source="CCDS" accession="CCDS32190.1" />
+              <db_xref source="GeneID" accession="256646" />
+              <db_xref source="GI" accession="50233787" />
+            </protein_product>
+          </transcript>
+        </gene>
+        <gene source="NCBI-Gene" accession="55505">
+          <symbol source="HGNC" name="NOP10">
+            <synonym>DKCB1</synonym>
+            <synonym>NOLA3</synonym>
+            <synonym>NOP10P</synonym>
+          </symbol>
+          <coordinates coord_system="LRG_345" start="5001" end="6446" strand="1" />
+          <long_name>NOP10 ribonucleoprotein</long_name>
+          <db_xref source="GeneID" accession="55505" />
+          <db_xref source="HGNC" accession="HGNC:14378" />
+          <db_xref source="MIM" accession="606471" />
+          <db_xref source="CCDS" accession="CCDS10037.1" />
+          <db_xref source="GI" accession="224922760" />
+          <transcript source="RefSeq" accession="NM_018648.3" fixed_id="t1">
+            <coordinates coord_system="LRG_345" start="5001" end="6446" strand="1" />
+            <long_name>NOP10 ribonucleoprotein</long_name>
+            <db_xref source="GeneID" accession="55505" />
+            <db_xref source="GI" accession="77812675" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_345" start="5001" end="5142" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_345" start="6054" end="6446" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_061118.1" fixed_id="p1">
+              <coordinates coord_system="LRG_345" start="5089" end="6194" strand="1" />
+              <long_name>H/ACA ribonucleoprotein complex subunit 3</long_name>
+              <long_name>homolog of yeast Nop10p</long_name>
+              <long_name>nucleolar protein family A, member 3 (H/ACA small nucleolar RNPs)</long_name>
+              <long_name>nucleolar protein 10</long_name>
+              <long_name>snoRNP protein NOP10</long_name>
+              <long_name>nucleolar protein family A member 3</long_name>
+              <long_name>NOP10 ribonucleoprotein homolog</long_name>
+              <db_xref source="CCDS" accession="CCDS10037.1" />
+              <db_xref source="GeneID" accession="55505" />
+              <db_xref source="GI" accession="8923942" />
+            </protein_product>
+          </transcript>
+        </gene>
+      </features>
+    </annotation_set>
+    <annotation_set type="ensembl">
+      <source>
+        <name>Ensembl</name>
+        <url>http://www.ensembl.org/</url>
+        <contact>
+          <name>Ensembl</name>
+          <address>European Bioinformatics Institute</address>
+          <email>helpdesk@ensembl.org</email>
+        </contact>
+      </source>
+      <comment>Annotation is based on Ensembl release 80 (GRCh38  primary assembly)</comment>
+      <modification_date>2015-06-22</modification_date>
+      <mapping coord_system="ENST00000328848.5" other_name="ENST00000328848.5" other_id="ENST00000328848.5" other_start="1" other_end="554" type="transcript">
+        <mapping_span lrg_start="4985" lrg_end="5142" other_start="1" other_end="158" strand="1" />
+        <mapping_span lrg_start="6054" lrg_end="6449" other_start="159" other_end="554" strand="1" />
+      </mapping>
+      <mapping coord_system="ENST00000557912.1" other_name="ENST00000557912.1" other_id="ENST00000557912.1" other_start="1" other_end="436" type="transcript">
+        <mapping_span lrg_start="5039" lrg_end="5142" other_start="1" other_end="104" strand="1" />
+        <mapping_span lrg_start="6112" lrg_end="6443" other_start="105" other_end="436" strand="1" />
+      </mapping>
+      <features>
+        <gene source="Ensembl" accession="ENSG00000184507.14">
+          <symbol source="HGNC" name="NUTM1" />
+          <coordinates coord_system="LRG_345" start="1" end="4847" strand="-1" mapped_from="GRCh38" />
+          <partial>3-prime</partial>
+          <long_name>NUT midline carcinoma, family member 1 (protein_coding)</long_name>
+          <db_xref source="GeneID" accession="256646">
+            <synonym>C15orf55</synonym>
+            <synonym>FAM22H</synonym>
+            <synonym>NUT</synonym>
+          </db_xref>
+          <db_xref source="MIM" accession="608963" />
+          <db_xref source="HGNC" accession="29919">
+            <synonym>C15orf55</synonym>
+            <synonym>DKFZp434O192</synonym>
+            <synonym>FAM22H</synonym>
+            <synonym>NUT</synonym>
+          </db_xref>
+          <db_xref source="Ensembl" accession="ENSG00000184507" />
+          <transcript source="Ensembl" accession="ENST00000537011.4">
+            <coordinates coord_system="LRG_345" start="1" end="4847" strand="-1" mapped_from="GRCh38" />
+            <partial>3-prime</partial>
+            <long_name>NUTM1-001 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS61585.1" />
+            <db_xref source="RefSeq" accession="NM_001284292.1" />
+            <exon source="Ensembl" accession="ENSE00002274257">
+              <coordinates coord_system="LRG_345" start="4460" end="4847" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002320889">
+              <coordinates coord_system="LRG_345" start="2127" end="2220" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001367212">
+              <coordinates coord_system="LRG_345" start="1" end="193" strand="-1" mapped_from="GRCh38" />
+              <partial>3-prime</partial>
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000444896.1">
+              <coordinates coord_system="LRG_345" start="1" end="4465" strand="-1" mapped_from="GRCh38" />
+              <partial>3-prime</partial>
+              <long_name>NUT family member 1 isoform 1</long_name>
+              <db_xref source="RefSeq" accession="NP_001271221.1" />
+              <db_xref source="UniProtKB" accession="Q86Y26">
+                <synonym>B4DZ00</synonym>
+                <synonym>B7Z7Y4</synonym>
+                <synonym>E7EVE8</synonym>
+                <synonym>F5H4I6</synonym>
+                <synonym>Q86YS8</synonym>
+                <synonym>Q8N7F2</synonym>
+                <synonym>Q9NTB3</synonym>
+              </db_xref>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000438749.6">
+            <coordinates coord_system="LRG_345" start="1" end="4752" strand="-1" mapped_from="GRCh38" />
+            <partial>3-prime</partial>
+            <long_name>NUTM1-004 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS61584.1" />
+            <db_xref source="RefSeq" accession="NM_001284293.1" />
+            <exon source="Ensembl" accession="ENSE00001602681">
+              <coordinates coord_system="LRG_345" start="4460" end="4752" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001367212">
+              <coordinates coord_system="LRG_345" start="1" end="193" strand="-1" mapped_from="GRCh38" />
+              <partial>3-prime</partial>
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000407031.3">
+              <coordinates coord_system="LRG_345" start="1" end="4529" strand="-1" mapped_from="GRCh38" />
+              <partial>3-prime</partial>
+              <long_name>NUT family member 1 isoform 2</long_name>
+              <db_xref source="RefSeq" accession="NP_001271222.1" />
+              <db_xref source="UniProtKB" accession="Q86Y26">
+                <synonym>B4DZ00</synonym>
+                <synonym>B7Z7Y4</synonym>
+                <synonym>E7EVE8</synonym>
+                <synonym>F5H4I6</synonym>
+                <synonym>Q86YS8</synonym>
+                <synonym>Q8N7F2</synonym>
+                <synonym>Q9NTB3</synonym>
+              </db_xref>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000333756.4">
+            <coordinates coord_system="LRG_345" start="1" end="2297" strand="-1" mapped_from="GRCh38" />
+            <partial>3-prime</partial>
+            <long_name>NUTM1-002 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS32190.1" />
+            <exon source="Ensembl" accession="ENSE00001300908">
+              <coordinates coord_system="LRG_345" start="2127" end="2297" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001367212">
+              <coordinates coord_system="LRG_345" start="1" end="193" strand="-1" mapped_from="GRCh38" />
+              <partial>3-prime</partial>
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000329448.4">
+              <coordinates coord_system="LRG_345" start="1" end="2142" strand="-1" mapped_from="GRCh38" />
+              <partial>3-prime</partial>
+              <db_xref source="UniProtKB" accession="Q86Y26">
+                <synonym>B4DZ00</synonym>
+                <synonym>B7Z7Y4</synonym>
+                <synonym>E7EVE8</synonym>
+                <synonym>F5H4I6</synonym>
+                <synonym>Q86YS8</synonym>
+                <synonym>Q8N7F2</synonym>
+                <synonym>Q9NTB3</synonym>
+              </db_xref>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000614490.3">
+            <coordinates coord_system="LRG_345" start="1" end="4847" strand="-1" mapped_from="GRCh38" />
+            <partial>3-prime</partial>
+            <long_name>NUTM1-201 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS32190.1" />
+            <db_xref source="RefSeq" accession="NM_175741.2" />
+            <exon source="Ensembl" accession="ENSE00003754291">
+              <coordinates coord_system="LRG_345" start="4460" end="4847" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003745011">
+              <coordinates coord_system="LRG_345" start="2127" end="2305" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001367212">
+              <coordinates coord_system="LRG_345" start="1" end="193" strand="-1" mapped_from="GRCh38" />
+              <partial>3-prime</partial>
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000478903.1">
+              <coordinates coord_system="LRG_345" start="1" end="2142" strand="-1" mapped_from="GRCh38" />
+              <partial>3-prime</partial>
+              <long_name>NUT family member 1 isoform 3</long_name>
+              <db_xref source="RefSeq" accession="NP_786883.1" />
+              <db_xref source="UniProtKB" accession="Q86Y26">
+                <synonym>B4DZ00</synonym>
+                <synonym>B7Z7Y4</synonym>
+                <synonym>E7EVE8</synonym>
+                <synonym>F5H4I6</synonym>
+                <synonym>Q86YS8</synonym>
+                <synonym>Q8N7F2</synonym>
+                <synonym>Q9NTB3</synonym>
+              </db_xref>
+            </protein_product>
+          </transcript>
+        </gene>
+        <gene source="Ensembl" accession="ENSG00000182117.5">
+          <symbol source="HGNC" name="NOP10" />
+          <coordinates coord_system="LRG_345" start="4985" end="6449" strand="1" mapped_from="GRCh38" />
+          <long_name>NOP10 ribonucleoprotein (protein_coding)</long_name>
+          <db_xref source="GeneID" accession="55505">
+            <synonym>DKCB1</synonym>
+            <synonym>NOLA3</synonym>
+            <synonym>NOP10P</synonym>
+          </db_xref>
+          <db_xref source="MIM" accession="606471" />
+          <db_xref source="HGNC" accession="14378">
+            <synonym>MGC70651</synonym>
+            <synonym>NOLA3</synonym>
+            <synonym>NOP10P</synonym>
+          </db_xref>
+          <db_xref source="Ensembl" accession="ENSG00000182117" />
+          <transcript source="Ensembl" accession="ENST00000328848.5">
+            <coordinates coord_system="LRG_345" start="4985" end="6449" strand="1" mapped_from="GRCh38" />
+            <long_name>NOP10-001 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS10037.1" />
+            <db_xref source="RefSeq" accession="NM_018648.3" />
+            <exon source="Ensembl" accession="ENSE00001313008">
+              <coordinates coord_system="LRG_345" start="4985" end="5142" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001291005">
+              <coordinates coord_system="LRG_345" start="6054" end="6449" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000332198.4">
+              <coordinates coord_system="LRG_345" start="5089" end="6194" strand="1" mapped_from="GRCh38" />
+              <long_name>H/ACA ribonucleoprotein complex subunit 3</long_name>
+              <db_xref source="RefSeq" accession="NP_061118.1" />
+              <db_xref source="UniProtKB" accession="Q9NPE3" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000557912.1">
+            <coordinates coord_system="LRG_345" start="5039" end="6443" strand="1" mapped_from="GRCh38" />
+            <long_name>NOP10-002 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00002538381">
+              <coordinates coord_system="LRG_345" start="5039" end="5142" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002537675">
+              <coordinates coord_system="LRG_345" start="6112" end="6443" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000453475.1">
+              <coordinates coord_system="LRG_345" start="5089" end="6168" strand="1" mapped_from="GRCh38" />
+            </protein_product>
+          </transcript>
+        </gene>
+      </features>
+    </annotation_set>
+    <annotation_set type="lsdb">
+      <source>
+        <name>List of locus specific databases for NOP10</name>
+        <url>http://grenada.lumc.nl/LSDB_list/lsdbs/NOP10</url>
+      </source>
+      <modification_date>2015-06-22</modification_date>
+    </annotation_set>
+  </updatable_annotation>
+</lrg>

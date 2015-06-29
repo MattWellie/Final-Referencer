@@ -1,0 +1,746 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="application/xml" href="lrg2html.xsl"?>
+
+<lrg schema_version="1.9">
+  <fixed_annotation>
+    <id>LRG_607</id>
+    <hgnc_id>12449</hgnc_id>
+    <sequence_source>NG_009304.1</sequence_source>
+    <organism taxon="9606">Homo sapiens</organism>
+    <source>
+      <name>LOVD 3.0 shared installation - TYROBP</name>
+      <url>http://databases.lovd.nl/shared/genes/TYROBP</url>
+      <contact>
+        <name>Juha Muilu</name>
+        <url>http://www.fimm.fi/en/</url>
+        <address>The Institute for Molecular Medicine Finland (FIMM) and University of Helsinki, Finland</address>
+        <email>juha.muilu@helsinki.fi</email>
+      </contact>
+    </source>
+    <mol_type>dna</mol_type>
+    <creation_date>2014-05-16</creation_date>
+    <sequence>GATGGAATTATAGGAAACTGCCACCACGCCCAGATAATTTTTGTGTTTTTAACAGAGATGTGGTTTCACCATATTTGCTGGGCTGGTCTCGAACTCCTTACCTCAGGTGATCCGCCCACCTTGGCCTCCTAAAGTGCTGGGATTACAGGAGTGAGCCACCACGCCCGGCCTTCACGTCTCATCTTTAGTGAAGTGTCTGTTCAAATGTTTTGGTCACTTAAAAATTAGGCTATTTGTCTGATTTTTAAATTAAATTAATTAATTTTTTTCTTTTTTGAGACAGGGTCTCACTCTGTGGCCCAGGCTGGACTGCTGTGGCACAATCAAAGCTCACTGTAGCTTCTGCCTCCCCAGGCTCAGGTGATCCTCCCACCTCAGCCTCCCTAGTAGCTAGGACTACAGGTAGGTGCCACCATGCTGGGCTAATTTTTGTATTTTTTGTAGAGCTGGGATTTTGCCCTGTTGCTCAGGCTGGTCTCAAACTTCTGGGCTCAAGCAATTCACCTGCCTCAGCTTCCCAAAGTGCTGGGATTTACAAGCTTGAGCCATCACGCCTGGCTCCCAGGCTGGTCTTGAAATCCTGAGGTCAAGTAATATGCCTGCCTTGGTGTCCCAAAGTGTTGGCATGACAGGCGTGAGCCACCATGCCCAGCCTATTTTTAAAAATATAATTAGAGCTGGGCACGGTGGCTCACGCCTGTAATCCCAGCACTTTGCGAGGCGGAGGCAGGTGGATCACCTGAGGTTGCGAGTTCGAGACCAGCCTGACCAACATGGAGAAACCCCATCTCTACTAAAAATACAAAATTAGCCAAGCATGGTGGCGTATGCCTGTAATCCCAGCTACTCGGCAGGCTGAGGCAGGAGAATTGCTTGAACCCGGGAGGTGGAGGTTGCAGTGAGCGGAGATCGCGCCACTGCACTCCAGCCTGGGCGACAAGAGCAAAACTCCATCTCAAAAAAAAAAAAAAGAATTAGAGACAGGGTCTCGTTATGTTGCCCAGGCTGGTTTTGAACTCCTGGCCTCAAGCGATCCTTCTGCCTTGGCCTCTATTCATCTGATGTTTTACAAAGCTTCCAGCTGCTTTGAGGAGGACAGGCTGTGGAGGGGCCAGTGTGGAAGCTGGGAGAGTGGGGAGGGACTGTAGCTTCCACAGAAGTGAGCTGGTCACAGGCCAACACACTACCTGGTTTCTGGGAAAGTCAGCGTTGGCTTCCCCAACTCTTGGCCTGCTGCCCAGAGAGGGTGAGACACTCACCTCTTGATCTTGTGTGGAGGCCCTCAGCTCAGCTTCCAGGAGTCTGGCAGTGTCTTGGGGCAGCGCCTTGTTGCTGGGTGCCCTGAATCTCAGCTTCTTCCTTCATCCAAAGAGGGAGGGTTTTTTTGTTTTGTTTTGTTTTGTTTATTTTGAGACGGAGTCTTGCTCTGTTGCCCAGGCTTGAGTGCAGTGGTGCGATCTCGGCTCACTGCAACCTCTGCCTCCCAGGTTCAAGCGATTCTCCTGCCTTAGCCTCCTGAGTAGCTGGGATTACAGATGTGTACCACCACGCCTGGCTAATTTTTGTATTTTTTAGCAGGGACGGGGTTTCACCATGTTGGCCAGGATGGTCTCAAACTCCTGACCTCAAGTGATCCACCCGCCTCAGTCTCCCAAAGTGGTGGGATTACAGGTGTGAGCCACTATGCCTGGCCAAAGAGAGTGTTTTATCCGTCCTCTAGCCCAGAGGCCAGCCCAGACCTGCCACCTGTGGTCTGCATCAGCACAGTTGTATTGGTTGCTAAAATGTTGAAACATTCCACTTCTGGTTAGTAAAGAGCCCACATAGCCCACAGATGTCTGCTACCACCCGAGTCCATTCTTTGGGGACCCCTTGGACTTTCCCACATCTCAGCAACTAAAGGTGGCGCTCTAGGACCCTGATTCCAGCCCCTATGGCCACATCCGTATGACTGGATGGTGCTTGGGGAATATCTTCTGGGGACAGCCCAGGCCTGGCTGAAGTGGGGAGGATGAGACTAGGAGGCTGATGCTGAAGGACTGAGGGAGGATTTTTTTTTTTTTTCTGAGTCAAAGTCTCACTCTTGTCATCCAGGCTGGAGTGCAATGGCATGATCTTGGCTCACTGCAACCTCTGCCTCCCAGGTTCAAGCGATTCTCCTGCCTCAGCCTCCCAAGTAGCTGGTATTACAGGCGCCTGCCACCATGTCTGGCTAGTTTTTGTATTTTTAGTAGAGACAGGGTTTCACCATGTTGGCCAGGCTGGTCTCAAACTCCTGACCTCAGGTGATCCACCCTCCTTGGCCTCCTAAAGTCCCAAAATCCAAAATCACGCCTGGGATTACAGGTGTGAGCCACTGCACCTGGCTGAGGGAGGATTTTTATCAAGCTAAGCTGAGAACTCGAGACTGGACATACTAATTTTTAGCATGGAACATATCCAAGTCACACGGTACCGAAGTATGTTCGCAGCAGTGAATCCATAGGGGTCTGCAGCAACCTCAATCCTTGCCTCCTCAAAAAAGAATTTGACCAAGGGACATAAGGCAGAGTGAGAAACCAAGGTAAGTTTTAGAGCAGGAGTGAAAGTTTATTATTATTATTATTATTATTATTATTATTATTATTATTATTATTATTTTGAGACTGAGTTTCGCTTTTGTTGCCCAGGCTGGAGTGCAATGGCGCAATCTCTGCTCACTGCAACCTCTGCCTCCTGGGTTCAAGCGATTCTCCTGCCTCAGGCTCCTGAGTAGCTGGAATTACAGGCACGCGCCACCACGCCAGGCTAATTTTGTATTTTTTAGTAAAGACCGAGTTTCTCCATATTGGTCAGGCTGGTCTCGAACTGCCGACCTCAGGGGATCCGCCCACCTCGGTCTTCCAAAGTGTTGGATTACAGGCGTGATCCACCGCGCTTGGCCCTTTATTATTATTATCATTATTTTGAGACAGAGTCTTGCTGTGTCGCCCAGGCTGGAGTGCAGTGGCGCGATCTCAGCTCACTGTAACCTCCACCTTCCAGGTTCAAGGTATTGTCTTGCCTCAGCCTTCTGAGTAGCTGGGACTACAGGTGCCCACCACCATGCCCAGGTAATTTTTTGTATTTTTAGTAGAGACCGGGTTTCACCATGTTGGCCAGGATGGTCTCGATCTCCTGACCTCGTGATCCGCCCGCCTCAGCCTCCCAAAGTGCTGGGATTACAGGCATAAGCCACCGTGCCCAGCCTAATTTTTAGTAGAGATGGGGTTTCACCATGCTGGCCGGGCTGGTCTTGAACTCAACCAGGCATTATTCTAATAGACCTCACAATATCCTCACAAATATCCCAGCAGCCTGGCCTCCCTGCTCCAGTCCCTGCCTCCACAGTCTGCTCCCCACCTGCGGCCGGAGGGAACCTGTGAACCCCTGAGTCAGGTCAGGGCCCTCCTGGCTCAGAGCCCTGCTCTGGTCTCTGACTGCCCCCTCGCCCACTCTGCTCCAACACATTGGGTGGCCTGGTGTGCCCGGGAGGACCTACAGGGTCTGTTCCCTCCATGCTCGCTCTAGACACAATGGGAGAGGCTTGGGTTTTTAAGGGAGGGGACTCAGCCAGGCCTGAACAGTGGTGACCGTGGGCTGAGCTGGGACCTGACCCTCCTCCAGGCTCCAAATCTCCTCTCCTCCCTTCCCCCACAGGCCACTGGGCATCTGCCCTGTGACCAGAATCCAGTTTCCCCTTTTTTCTCCTAAGCCCAGGCCCAAGGAGCGGTGGGTGTGACGTGTGGATGGGGGAGGGGGGCTTCCTGCAGCTGTCTCATCCTCCAGCACCCTAACCTCAGGTTCCTCCTTCCCCAGCCCCAGGCTCCAGCTGGGGGCTAGAAGTCCCCGTCTCCTTGGGGTGGCCTCCCTTGGGCCTTGCTCCCAGCCACTTCCTCATTCAGCAGGAGAGCCAGCCACCTGCCTCTCCCCAAGCCGCCAGCCGTGCCTCTGTGTCTGTGCCACTGCCTTACTCTCACCTTTCTCAGCTTTGCCGCTGTTTTCTCCTTCCCCATCTTTCATCTTTGTTTTTCCCCCTGACTCTTCCCTAGTCAAAAACCTGATTTTGGGTCTTGGGTTCCATTTCCACCTTGATTTGCTGTGCAGCCTTAGGCAAGCGTCTCTACCTCTCTGAACAATGGGGATGATAAGAGCATGTGCCCTAGAAGGGCATTGCGGGGACTGAATGATTTAACGCTTGGGACAGAGTGCCTGCATGTCATTAGTGCCCACATGCTGCTGGCTCTTTTAATATCCTTTAAACAGCACAAGTTTCTGATGATTAAATAATCATCATCATAGCTGATGCTTTTAAAAAGCTGACAAGGGTCAGACCCTGGTCTAGGAACTTTAATTCATTTAATCCCCACAACTCTAAAAAGTAGGTCCCATTTTACTCCCAATTTTACAGATGAAGAAACTGAGGTTGGAGCTGGGTGCGGTGGCTCACACTTGCAATCCTAGCACTTCGGGAGGCCAAGGTGGGTGGATCACCTGAGGTCAGGAGTTTGAGACCAGCTGGCCAACATGGTGAAACCCTGTCTCTACTAAAAAAAAAAGAAAAAAAAATACAAAAAATTAGCCGGGCATGGTGGCAGGCGCCTATAATCCCAGCTACTTGGGAGGCTGAGGCAGGAGAATCACTTGAACCCGGGAGGCAGAGGTTGCAGTGAGCCGAGACCGTGCCATTGCACTCAAGGTTGACCAGCCAGGAAGAGGCAGAGCTGGTTTCAATCAGCCAGAGGAAGGTCATGACACTGACCCTCCTGTTAAAACGATGTCTGACCCCTGACTGGGGACGGAGGTGAAGTTTGTGCTTCACGTACCCTTTGCCCTTCACGTCTAGTTGCTGGGGGCCTGTGGCATGGCCCCTGGGTGTCTGGGCCTGATTCTTTCTTGGGTTTTGTTTCTGTCTCTCCTCCCCTGTCTCCTCCTCCCTTCTGCCACCACCCGCCTCAGACTTCCTCCTTCACTTGCCTGGACGCTGCGCCACATCCCACCGGCCCTTACACTGTGGTGTCCAGCAGCATCCGGCTTCATGGGGGGACTTGAACCCTGCAGCAGGCTCCTGCTCCTGCCTCTCCTGCTGGCTGTAAGTGGTGAGTTAGGGGCTTCCGTGGCTGCCTCCCGGGTCCCTGGGCTCAGCTTGGGGCAGGGCAGGGAGTGGGGTGGAACGAGAGAACCAAAAGTGGGTGTTGGGATGGGAGCAGGTCCCCAACCTCCCAAAGCCTGTGGGTTTCTCCCAGAGCCCAAGCCCCCAAGTTTTGTCGTCCGCTACAAGCAGGGGAGAAGAGACATCTAAGTGTGTTGCCACAGGACAAGTTGTGCAGAAGTAACGCACATAGTCCGGTGGCCCAGACGCCAGCCCCCTGAGTCCCGCCAGACACGCTCTCCCCCTTGCTAACCTCTTGGCTGTCAGGATCCACCTTCCCTGGCTTCTAAACTTGCCTCCCCCACCCCCGTCATAACTCTGTGCCTCAGTTTACCTTCTTTTTCCTCCTCAGGTCTCCGTCCTGTCCAGGCCCAGGCCCAGAGCGGTAGGCCTAGACCCAGCAGTCCCTCTCTCTACCTCCCAGAGACCTCCCTGTCTCCGTCTCTCCCACACCCTTTCCAAACCTCCCTGCCGCTGACCCCCCTCCCCACAGTTCCCAGCACACACTGACCTCCCCTGACCCCTGTGCTGCAGATTGCAGTTGCTCTACGGTGAGCCCGGGCGTGCTGGCAGGGATCGTGATGGGAGACCTGGTGCTGACAGTGCTCATTGCCCTGGCCGTGTACTTCCTGGGCCGGCTGGTCCCTCGGGGGCGAGGGGCTGCGGAGGGTGAGTGGGGCTAGCAGGGGACATCCTGAGGACTTGCCTAGATGGGGGTGGGGGGCTGGGTAAACTCCCAGATCTCAAACATCCAAAGGGATGGTAATGGAGGTGCTGATTTGGAATGACAAAACACCCTCAACTCACCACTCTGCCTGTCTCTGCACCCCACAACACCCCTCACCTCCAGCAGCGACCCGGAAACAGCGTATCACTGAGACCGAGTCGCCTTATCAGGTGAGAAAACCAGACTGTCCTCCTCACATTTCACTCCTGCCAGGGATATCTGCCCCAGATACTCCTTCATGCCATCAGAGGGACCTCAAAGCCACTCTGCCTAAAGCACCCCCAAACCTTGAAGGCACATGGGACATCTGTCCAAAACTGGGCCGAATGATCAACCACAAGCTTATGGTCAGCTTAAAATGTGTGAAGAGGGGCTGGGCACGGTGACTCAAACCTGTAATCCCAGCACTTTGGGAGACAGAGGCGGGTGGATCACTTGAGGTCAGGAGTTCGAGACCAACATGGTGAAACCCTGTCTCTACTAAAAATACAAAATTAGCTGGGCGTGGTAACGCATGCCTGTAATCCCAGCTACTTGGGAGGCTGAGGCAGGAGAATCCTTTGACCCAGGAGGCGGAGGTTGCAGTGAGCCAAGATCACGCAATTGCACTCCAGCCTGGGCAACAAGAGGAAAACTCTGTCAAAAAAAAAAAAGCGTGAAGAGTTAAAAAGAAAAAAAAAAGGGTGGCTTTGCCTTTGTAAGTGTAAACACAGGCCTTGCCAGAAGTCAGGCCAGGAATTTTCTGGAAGAAACCCAGCCCTAGGACGACTGATTTCTGGGAGACGCTCTCAGTAGGGCAGAGAATGTCATTCAGCCCTACCTTGGTAACTCTAAAGAGAGGAGTCCTAGAATCTCTTTTTTGGGTTTGAGGACCCTTCATCCCTTTGAGAAACTAAGAAAATCTAGACTCCCAGAAAAATCTACACAAAAAATACAAAATTGTGCATATAATCTGAGAGCAGTGTAAATGTTCTTTATAATTAAAAAAAATTTTTTTTTGGCCAGGCATGGTGGCACACACCTGTAATCCCAGCACTTTGGGAGGCCAAGGTGGGTGGATCACGAGGTCAGGAGTTCAAGACCAGCCAGGCCAGGATGGTGAAACCCCATCTCTACTAAAAATACAAAAATTAGCTGGGCATGGTGTCATGCGCCTGTAATTCCAGCTTCTCAGGAGGCTGAGGCAAGAGAATCGCTTGAACCCAGGGGGCGGAGGTTGCAGTGAGCCTGGGCGACAGAGTGAGACTCCATCTCAAAAAAAAAAAAAAGACAGGGGTCTCACTATGTTGCCCCAGCTGGTCTCAAACTCCCAGTCTCAAGTGATCCTCCCGCCTCAGCCTCCGAAAATCTTGGGATTACAGGCTCAAGCAACCATGCTGGTTGAGTATTCTTGAAGCTCTTTTTTCTTTCTCTACTTTAATTTTTTTTTTTTTTTGAGATGGAGTCTCATTCTGTCACCCAGGCTGGAGTGCAATGGTGTGGTCTCAGCTCACTGCAACCTCCACCTCCCAGGTTCAAGCGATTCTCTTGCCTGAGCCTCCCGAGTAGCTGGAACTACAGGTGCATGCCACCACACCCGGCTAATTTTTGTATTTTTAGTAGAGATGGGGTTTCACTATGTTGGCCAGGCTGGTCTCAATCTCCTGACCTCGTGATCCGCCCACCTTTCCCTCCCAAAGTGCTGGGATTAGAGGTGTGAGCCACCGCGCCCGGCCTTAATTTTTTTTTTTTTTTTAAAGTAGAGATAGGTTCTCACTATGTTGCCCAGGCTGGTCTCAAACTCCTGGGCTCAAGAGATCCTGTTACCTCGGTCTCCCAAAGTGCTGGGATTATAGGCATGAGTCACCATGCCTGGCTGAAGCTCTTTTTAAAAACTATAGAGTATACAAGAGAATCTAGTCATCTATCCCCCTCTCTGTCAATGTTCCTTTTTAACCCTTTAGGGGGTCATGAGATTCTCTAAGACCTCTCCCCTGAAGAATGCACGCCCAGACTAGTCATCATATATGATTTTAGGGTTTCTGTCTGAGGCCTGCCCCTGGGGGCCACATAGATCCTCCCCCTACCCCAAGTGTGAACACTGCTGTGTGAAGTCTGATATATTGTCTGCAACCAGCTTTGCCTATTCACCTCACTTGTGGATAAAGTTTCTTTGTGAAGTCTAAGAATCTCAGGTTTGGCTCTGTGATATCCAGAAGACCGAGGGGCCCTTCCAGTTACTGGTGGCAGTGAAATTTTAGGGCAAAGCATTACCCGGATGTATTTATTCCCTCTGTGGATGTGTCTAGCACCTATAAGTGCTAAATGCTGGGGACACAGTGACAGAGTTTATATCCTAGTTAAGACAAACTTAAAGCAAATGAACAAATAAAATAATTTTGGGAGGCACAGTAAAGGAAATAAACAGGCTTTTTTTTTTTTTTTTACAGTGGCTGGAGTGTGGGGGGAAGAAACTACAGAGGGGAAATTGAGAAATGCCTCTCTGAGGAGGTGACGTGAGCTGAGACTTGAAGGGAGAGGGGATCTAGGGGAACAGAGTTTTAGGCAGAGGAAACAGCACACGCAGGGACCCTGAGGCTGGGGCACACTGATGAGGCAGAGGAGAAGGGGGAACATTGAATGTACTTGAATAAAATCCGGATCTCTTTCATGGCTATAAGGCTGAAGAAGCTGCCAGGGGCCTTGCAGGCCACTGGGAGAAGGCTGGATTTTATTTGGTGGGTCCCTTCCACTGATGGCCCCCATTCCTTTAGGAGCTCCAGGGTCAGAGGTCGGATGTCTACAGCGACCTCAACACACAGAGGCCGTATTACAAATGAGCCCGAATCATGACAGTCAGCAACATGATACCTGGATCCAGCCATTCCTGAAGCCCACCCTGCACCTCATTCCAACTCCTACCGCGATACAGACCCACAGAGTGCCATCCCTGAGAGACCAGACCGCTCCCCAATACTCTCCTAAAATAAACATGAAGCACAAAAACATTATGCCAGATCCTTGGGCTGATGGGATGGGGACATGTGGGGGTTCTGAGGGGGCCTTGGATCCAGAAACAGTTCATGGGAGGGAGGCTTTGGGAACTCTGGGGTTCTTTGAGAAAGAATACGACTACAGGTGTTTCAATTGTTTTATTACAATCCAAAAGTTGGGGCGGGGGTTCCTGTGCCACCACACACCATCCAGGATGAGAGGGTCAGAAGTCAAAGGTCCAAGCTGCAGGAGGGTCAGCCCCTGCCTGGCATGTTGATGTAGACTTTGCCATCTTCTGGGGATAGGGGAGAGAAAGCATGAAGCTTGACCACCCATATCTCCACTTCCCTGGGGACCCCCTGCTTCAGGGGTTTCCTCAGGGGTTCCCCCAGGCACCTCCCCCAGGGTTTCCCCAGCACCTCCTCCAGGGCTTCCCCAAGGGCCCCCTCCCTGGGACCCCCTCCCTAGGGACACTATACACCTTCCAGGCCCCGCCCATCTCCGCCCTCACCTTGGGCGGGGCTGCGGCGTGGGCGTGCGCACAGGAACACCGCCCCCACGATGAGCAGCGATGCCACCGCATCAGCAGCCACGAGGCCTGCCAGGAGCGGCAGAGAGAGGGACCCACATCCGGAACAAGAGCCTGGAGAGTGGGGGCCGGAACAGGGAGACAACTCAAGCTCTGCGTCCTGGGGCTGTGCTTTGGCCACAGGCAGAGAGGAAGTCCCCTGCGAGGGGGCGGGTCCCAGGTTCCTTGGAGTTGCGCTTGGGGAATGAAACGGGAGACAGATGCAGAGAGGCTGGGGTGTCCCAGGACCCTCGGGGCTGTGCGGCGGGCACACGGGGTGCTCCTGAACACAGGCTGGGGGTCGCTGATTCTGGGACTCGGAGAAGGACACGGATCCTCTGATTTGGGGACGGGAGGTGGGATGGTGACCTGGAGAACCACTGGGGTGTTCTGGGAGCCTCTGGCCAAGCTTCTGGGGTGGAAGTGATACCTGAAGTGCCAGGGTAAAAGGCAGGGAGTGATGATCTCTCTCCTGGAGTCGTCTGAGCTGCAGCCACTGTGGAAAGAGAAAGAAGGTGGATGAGGGTGGAGAGAAGGTCCACAAAACAGAATGCTCAGCCTGGCACCGTGGCTCACGCCTGTCATCCCAGCACTTTGGGAGGCCGAGGCAGGAAGATCGCTTGAGCCCAGGAGTTCGAGACCAGCCTGGGCAACATAGTGAGACCTCGTCTCTACAAGAAATACAAAAATTAGCTGGAAGTGTTGGTTCACACCTGTAATCCCAGTTACTCGGGAGGCTGAGCTGGGAGGATCACCTGAGCCCAGGAAGTCAAGGCTGCCGTGAGCCGTGATTGTGCCACTGCACTCCAGCCTGGACAACAGAGCAAGACCCCATCTCAAAATAAACAAACCAAAAAATAGGGTGTAGAGAAGGAAAGGTAGTGTCCTGAGAAGTAATCTCCAGGCTGGAGAGATGGAACAGGACCACATGGGAAGGGGACTCCCAGAGACATGGAGAGTGACAAGAAATTGGAAGTGGCAGCAGAGACCCAGCCATGAGAAGGGGACGCTAACAGGCAGCCCCTCCAGAACTCCCTGTCTCACCCCCTTCCGCCCCCAAGGACCCAGGCCCTGAAGCAGAATGGATCTCCCAGAAGGGAAGGGGTGCAGGGAGAAGAACCCCACTTTCATCACCCGTCCCTGCAGACGTCACCCAAGCACCCATCTCACAAACGCTCTGCCTACCATCCCCTGTAACCACTGGCTTCACCTGGGAGCAAAAGCAGGAAGAGGATGTGACCCAGATGGATCATGGTGGACTGGGGTCTGGCAGGGGTCTGGCAGAGGACTGTGGTCCAGAGAAGTCCAGAGGAACTGTGGGGGAGCAGAGAAGTAGCAATAGCGGATGTCACCCTGCTGGTGTCAAGGCCATCTGCTTCCTGTGTGTGTTGAGGGGGTGTCTCCGTTACTGCCTTTGGTGAACGAACTCAGGGGGAGGGTCAGAGA</sequence>
+    <transcript name="t1">
+      <comment>This transcript is identical to the RefSeq transcript NM_003332.3 but with the polyA tail removed.</comment>
+      <coordinates coord_system="LRG_607" start="4976" end="8884" strand="1" />
+      <cdna>
+        <sequence>AGACTTCCTCCTTCACTTGCCTGGACGCTGCGCCACATCCCACCGGCCCTTACACTGTGGTGTCCAGCAGCATCCGGCTTCATGGGGGGACTTGAACCCTGCAGCAGGCTCCTGCTCCTGCCTCTCCTGCTGGCTGTAAGTGGTCTCCGTCCTGTCCAGGCCCAGGCCCAGAGCGATTGCAGTTGCTCTACGGTGAGCCCGGGCGTGCTGGCAGGGATCGTGATGGGAGACCTGGTGCTGACAGTGCTCATTGCCCTGGCCGTGTACTTCCTGGGCCGGCTGGTCCCTCGGGGGCGAGGGGCTGCGGAGGCAGCGACCCGGAAACAGCGTATCACTGAGACCGAGTCGCCTTATCAGGAGCTCCAGGGTCAGAGGTCGGATGTCTACAGCGACCTCAACACACAGAGGCCGTATTACAAATGAGCCCGAATCATGACAGTCAGCAACATGATACCTGGATCCAGCCATTCCTGAAGCCCACCCTGCACCTCATTCCAACTCCTACCGCGATACAGACCCACAGAGTGCCATCCCTGAGAGACCAGACCGCTCCCCAATACTCTCCTAAAATAAACATGAAGCACAAAAACA</sequence>
+      </cdna>
+      <coding_region>
+        <coordinates coord_system="LRG_607" start="5057" end="8716" strand="1" />
+        <translation name="p1">
+          <sequence>MGGLEPCSRLLLLPLLLAVSGLRPVQAQAQSDCSCSTVSPGVLAGIVMGDLVLTVLIALAVYFLGRLVPRGRGAAEAATRKQRITETESPYQELQGQRSDVYSDLNTQRPYYK</sequence>
+        </translation>
+      </coding_region>
+      <exon label="1">
+        <coordinates coord_system="LRG_607" start="4976" end="5117" strand="1" />
+        <coordinates coord_system="LRG_607t1" start="1" end="142" />
+        <coordinates coord_system="LRG_607p1" start="1" end="21" />
+      </exon>
+      <intron phase="1" />
+      <exon label="2">
+        <coordinates coord_system="LRG_607" start="5523" end="5555" strand="1" />
+        <coordinates coord_system="LRG_607t1" start="143" end="175" />
+        <coordinates coord_system="LRG_607p1" start="21" end="32" />
+      </exon>
+      <intron phase="1" />
+      <exon label="3">
+        <coordinates coord_system="LRG_607" start="5705" end="5839" strand="1" />
+        <coordinates coord_system="LRG_607t1" start="176" end="310" />
+        <coordinates coord_system="LRG_607p1" start="32" end="77" />
+      </exon>
+      <intron phase="1" />
+      <exon label="4">
+        <coordinates coord_system="LRG_607" start="6021" end="6067" strand="1" />
+        <coordinates coord_system="LRG_607t1" start="311" end="357" />
+        <coordinates coord_system="LRG_607p1" start="77" end="92" />
+      </exon>
+      <intron phase="0" />
+      <exon label="5">
+        <coordinates coord_system="LRG_607" start="8651" end="8884" strand="1" />
+        <coordinates coord_system="LRG_607t1" start="358" end="591" />
+        <coordinates coord_system="LRG_607p1" start="93" end="113" />
+      </exon>
+    </transcript>
+  </fixed_annotation>
+  <updatable_annotation>
+    <annotation_set type="requester">
+      <source>
+        <name>LOVD 3.0 shared installation - TYROBP</name>
+        <url>http://databases.lovd.nl/shared/genes/TYROBP</url>
+        <contact>
+          <name>Juha Muilu</name>
+          <url>http://www.fimm.fi/en/</url>
+          <address>The Institute for Molecular Medicine Finland (FIMM) and University of Helsinki, Finland</address>
+          <email>juha.muilu@helsinki.fi</email>
+        </contact>
+      </source>
+      <modification_date>2015-06-22</modification_date>
+    </annotation_set>
+    <annotation_set type="lrg">
+      <source>
+        <name>LRG</name>
+        <url>http://www.lrg-sequence.org/</url>
+        <contact>
+          <name>Locus Reference Genomic</name>
+          <url>http://www.lrg-sequence.org/contact</url>
+          <email>feedback@lrg-sequence.org</email>
+        </contact>
+      </source>
+      <modification_date>2015-06-22</modification_date>
+      <mapping coord_system="GRCh37.p13" other_name="19" other_id="NC_000019.9" other_id_syn="CM000681.1" other_start="36393303" other_end="36404186" type="other_assembly">
+        <mapping_span lrg_start="1" lrg_end="10884" other_start="36393303" other_end="36404186" strand="-1" />
+      </mapping>
+      <mapping coord_system="GRCh38.p2" other_name="19" other_id="NC_000019.10" other_id_syn="CM000681.2" other_start="35902401" other_end="35913284" type="main_assembly">
+        <mapping_span lrg_start="1" lrg_end="10884" other_start="35902401" other_end="35913284" strand="-1" />
+      </mapping>
+      <lrg_locus source="HGNC">TYROBP</lrg_locus>
+    </annotation_set>
+    <annotation_set type="ncbi">
+      <source>
+        <name>NCBI RefSeqGene</name>
+        <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
+        <contact>
+          <name>RefSeqGene Group</name>
+          <address>NCBI/NLM/NIH</address>
+          <email>rsgene@ncbi.nlm.nih.gov</email>
+        </contact>
+      </source>
+      <comment>Annotation from NG_009304.1</comment>
+      <modification_date>2015-06-19</modification_date>
+      <mapping coord_system="NM_001173514.1" other_name="NM_001173514.1" other_id="NM_001173514.1" other_start="1" other_end="558" type="transcript">
+        <mapping_span lrg_start="4976" lrg_end="5117" other_start="1" other_end="142" strand="1" />
+        <mapping_span lrg_start="5705" lrg_end="5839" other_start="143" other_end="277" strand="1" />
+        <mapping_span lrg_start="6021" lrg_end="6067" other_start="278" other_end="324" strand="1" />
+        <mapping_span lrg_start="8651" lrg_end="8884" other_start="325" other_end="558" strand="1" />
+      </mapping>
+      <mapping coord_system="NM_001173515.1" other_name="NM_001173515.1" other_id="NM_001173515.1" other_start="1" other_end="555" type="transcript">
+        <mapping_span lrg_start="4976" lrg_end="5117" other_start="1" other_end="142" strand="1" />
+        <mapping_span lrg_start="5705" lrg_end="5839" other_start="143" other_end="277" strand="1" />
+        <mapping_span lrg_start="6024" lrg_end="6067" other_start="278" other_end="321" strand="1" />
+        <mapping_span lrg_start="8651" lrg_end="8884" other_start="322" other_end="555" strand="1" />
+      </mapping>
+      <mapping coord_system="NM_003332.3" other_name="NM_003332.3" other_id="NM_003332.3" other_start="1" other_end="591" type="transcript">
+        <mapping_span lrg_start="4976" lrg_end="5117" other_start="1" other_end="142" strand="1" />
+        <mapping_span lrg_start="5523" lrg_end="5555" other_start="143" other_end="175" strand="1" />
+        <mapping_span lrg_start="5705" lrg_end="5839" other_start="176" other_end="310" strand="1" />
+        <mapping_span lrg_start="6021" lrg_end="6067" other_start="311" other_end="357" strand="1" />
+        <mapping_span lrg_start="8651" lrg_end="8884" other_start="358" other_end="591" strand="1" />
+      </mapping>
+      <mapping coord_system="NM_198125.2" other_name="NM_198125.2" other_id="NM_198125.2" other_start="1" other_end="588" type="transcript">
+        <mapping_span lrg_start="4976" lrg_end="5117" other_start="1" other_end="142" strand="1" />
+        <mapping_span lrg_start="5523" lrg_end="5555" other_start="143" other_end="175" strand="1" />
+        <mapping_span lrg_start="5705" lrg_end="5839" other_start="176" other_end="310" strand="1" />
+        <mapping_span lrg_start="6024" lrg_end="6067" other_start="311" other_end="354" strand="1" />
+        <mapping_span lrg_start="8651" lrg_end="8884" other_start="355" other_end="588" strand="1" />
+      </mapping>
+      <mapping coord_system="NR_033390.1" other_name="NR_033390.1" other_id="NR_033390.1" other_start="1" other_end="551" type="transcript">
+        <mapping_span lrg_start="4976" lrg_end="5110" other_start="1" other_end="135" strand="1" />
+        <mapping_span lrg_start="5705" lrg_end="5839" other_start="136" other_end="270" strand="1" />
+        <mapping_span lrg_start="6021" lrg_end="6067" other_start="271" other_end="317" strand="1" />
+        <mapping_span lrg_start="8651" lrg_end="8884" other_start="318" other_end="551" strand="1" />
+      </mapping>
+      <features>
+        <gene source="NCBI-Gene" accession="7305">
+          <symbol source="HGNC" name="TYROBP">
+            <synonym>DAP12</synonym>
+            <synonym>KARAP</synonym>
+            <synonym>PLOSL</synonym>
+          </symbol>
+          <coordinates coord_system="LRG_607" start="4976" end="8884" strand="1" />
+          <long_name>TYRO protein tyrosine kinase binding protein</long_name>
+          <db_xref source="GeneID" accession="7305" />
+          <db_xref source="HGNC" accession="HGNC:12449" />
+          <db_xref source="MIM" accession="604142" />
+          <db_xref source="CCDS" accession="CCDS12482.1" />
+          <db_xref source="CCDS" accession="CCDS59378.1" />
+          <db_xref source="CCDS" accession="CCDS46058.1" />
+          <db_xref source="CCDS" accession="CCDS54255.1" />
+          <db_xref source="GI" accession="219842255" />
+          <transcript source="RefSeq" accession="NM_003332.3" fixed_id="t1">
+            <coordinates coord_system="LRG_607" start="4976" end="8884" strand="1" />
+            <long_name>TYRO protein tyrosine kinase binding protein, transcript variant 1</long_name>
+            <db_xref source="GeneID" accession="7305" />
+            <db_xref source="GI" accession="291045269" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_607" start="4976" end="5117" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_607" start="5523" end="5555" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_607" start="5705" end="5839" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_607" start="6021" end="6067" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_607" start="8651" end="8884" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_003323.1" fixed_id="p1">
+              <coordinates coord_system="LRG_607" start="5057" end="8716" strand="1" />
+              <long_name>TYRO protein tyrosine kinase-binding protein isoform 1 precursor</long_name>
+              <long_name>DNAX-activation protein 12</long_name>
+              <long_name>KAR-associated protein</long_name>
+              <long_name>killer-activating receptor-associated protein</long_name>
+              <db_xref source="CCDS" accession="CCDS12482.1" />
+              <db_xref source="GeneID" accession="7305" />
+              <db_xref source="GI" accession="4507755" />
+            </protein_product>
+          </transcript>
+          <transcript source="RefSeq" accession="NM_198125.2">
+            <coordinates coord_system="LRG_607" start="4976" end="8884" strand="1" />
+            <long_name>TYRO protein tyrosine kinase binding protein, transcript variant 2</long_name>
+            <db_xref source="GeneID" accession="7305" />
+            <db_xref source="GI" accession="291045270" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_607" start="4976" end="5117" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_607" start="5523" end="5555" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_607" start="5705" end="5839" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_607" start="6024" end="6067" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_607" start="8651" end="8884" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_937758.1">
+              <coordinates coord_system="LRG_607" start="5057" end="8716" strand="1" />
+              <long_name>TYRO protein tyrosine kinase-binding protein isoform 2 precursor</long_name>
+              <db_xref source="CCDS" accession="CCDS46058.1" />
+              <db_xref source="GeneID" accession="7305" />
+              <db_xref source="GI" accession="38158005" />
+            </protein_product>
+          </transcript>
+          <transcript source="RefSeq" accession="NM_001173514.1">
+            <coordinates coord_system="LRG_607" start="4976" end="8884" strand="1" />
+            <long_name>TYRO protein tyrosine kinase binding protein, transcript variant 3</long_name>
+            <db_xref source="GeneID" accession="7305" />
+            <db_xref source="GI" accession="291045271" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_607" start="4976" end="5117" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_607" start="5705" end="5839" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_607" start="6021" end="6067" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_607" start="8651" end="8884" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_001166985.1">
+              <coordinates coord_system="LRG_607" start="5057" end="8716" strand="1" />
+              <long_name>TYRO protein tyrosine kinase-binding protein isoform 3 precursor</long_name>
+              <db_xref source="CCDS" accession="CCDS54255.1" />
+              <db_xref source="GeneID" accession="7305" />
+              <db_xref source="GI" accession="291045272" />
+            </protein_product>
+          </transcript>
+          <transcript source="RefSeq" accession="NM_001173515.1">
+            <coordinates coord_system="LRG_607" start="4976" end="8884" strand="1" />
+            <long_name>TYRO protein tyrosine kinase binding protein, transcript variant 4</long_name>
+            <db_xref source="GeneID" accession="7305" />
+            <db_xref source="GI" accession="291045273" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_607" start="4976" end="5117" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_607" start="5705" end="5839" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_607" start="6024" end="6067" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_607" start="8651" end="8884" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_001166986.1">
+              <coordinates coord_system="LRG_607" start="5057" end="8716" strand="1" />
+              <long_name>TYRO protein tyrosine kinase-binding protein isoform 4 precursor</long_name>
+              <db_xref source="CCDS" accession="CCDS59378.1" />
+              <db_xref source="GeneID" accession="7305" />
+              <db_xref source="GI" accession="291045274" />
+            </protein_product>
+          </transcript>
+        </gene>
+        <gene source="NCBI-Gene" accession="10870">
+          <symbol source="HGNC" name="HCST">
+            <synonym>DAP10</synonym>
+            <synonym>KAP10</synonym>
+            <synonym>PIK3AP</synonym>
+          </symbol>
+          <coordinates coord_system="LRG_607" start="9014" end="10805" strand="-1" />
+          <long_name>hematopoietic cell signal transducer</long_name>
+          <db_xref source="GeneID" accession="10870" />
+          <db_xref source="HGNC" accession="HGNC:16977" />
+          <db_xref source="MIM" accession="604089" />
+          <db_xref source="CCDS" accession="CCDS32998.1" />
+          <db_xref source="CCDS" accession="CCDS46057.1" />
+          <transcript source="RefSeq" accession="NM_001007469.1">
+            <coordinates coord_system="LRG_607" start="9014" end="10805" strand="-1" />
+            <long_name>hematopoietic cell signal transducer, transcript variant 2</long_name>
+            <db_xref source="GeneID" accession="10870" />
+            <db_xref source="GI" accession="56117853" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_607" start="10649" end="10805" strand="-1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_607" start="9869" end="9934" strand="-1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_607" start="9382" end="9513" strand="-1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_607" start="9014" end="9162" strand="-1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_001007470.1">
+              <coordinates coord_system="LRG_607" start="9125" end="10691" strand="-1" />
+              <long_name>hematopoietic cell signal transducer isoform 2 precursor</long_name>
+              <long_name>DNAX-activation protein 10</long_name>
+              <long_name>phosphoinositide-3-kinase adaptor protein</long_name>
+              <long_name>kinase assoc pro of ~10kDa</long_name>
+              <long_name>kinase assoc protein</long_name>
+              <long_name>membrane protein DAP10</long_name>
+              <long_name>transmembrane adapter protein KAP10</long_name>
+              <db_xref source="CCDS" accession="CCDS46057.1" />
+              <db_xref source="GeneID" accession="10870" />
+              <db_xref source="GI" accession="56117854" />
+            </protein_product>
+          </transcript>
+          <transcript source="RefSeq" accession="NM_014266.3">
+            <coordinates coord_system="LRG_607" start="9014" end="10805" strand="-1" />
+            <long_name>hematopoietic cell signal transducer, transcript variant 1</long_name>
+            <db_xref source="GeneID" accession="10870" />
+            <db_xref source="GI" accession="33667066" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_607" start="10649" end="10805" strand="-1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_607" start="9869" end="9934" strand="-1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_607" start="9382" end="9513" strand="-1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_607" start="9014" end="9165" strand="-1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_055081.1">
+              <coordinates coord_system="LRG_607" start="9125" end="10691" strand="-1" />
+              <long_name>hematopoietic cell signal transducer isoform 1 precursor</long_name>
+              <long_name>DNAX-activation protein 10</long_name>
+              <long_name>phosphoinositide-3-kinase adaptor protein</long_name>
+              <long_name>kinase assoc pro of ~10kDa</long_name>
+              <long_name>kinase assoc protein</long_name>
+              <long_name>membrane protein DAP10</long_name>
+              <long_name>transmembrane adapter protein KAP10</long_name>
+              <db_xref source="CCDS" accession="CCDS32998.1" />
+              <db_xref source="GeneID" accession="10870" />
+              <db_xref source="GI" accession="15826850" />
+            </protein_product>
+          </transcript>
+        </gene>
+      </features>
+    </annotation_set>
+    <annotation_set type="ensembl">
+      <source>
+        <name>Ensembl</name>
+        <url>http://www.ensembl.org/</url>
+        <contact>
+          <name>Ensembl</name>
+          <address>European Bioinformatics Institute</address>
+          <email>helpdesk@ensembl.org</email>
+        </contact>
+      </source>
+      <comment>Annotation is based on Ensembl release 80 (GRCh38  primary assembly)</comment>
+      <modification_date>2015-06-22</modification_date>
+      <mapping coord_system="ENST00000262629.7" other_name="ENST00000262629.7" other_id="ENST00000262629.7" other_start="1" other_end="568" type="transcript">
+        <mapping_span lrg_start="4990" lrg_end="5117" other_start="1" other_end="128" strand="1" />
+        <mapping_span lrg_start="5523" lrg_end="5555" other_start="129" other_end="161" strand="1" />
+        <mapping_span lrg_start="5705" lrg_end="5839" other_start="162" other_end="296" strand="1" />
+        <mapping_span lrg_start="6021" lrg_end="6067" other_start="297" other_end="343" strand="1" />
+        <mapping_span lrg_start="8651" lrg_end="8875" other_start="344" other_end="568" strand="1" />
+      </mapping>
+      <mapping coord_system="ENST00000424586.6" other_name="ENST00000424586.6" other_id="ENST00000424586.6" other_start="1" other_end="541" type="transcript">
+        <mapping_span lrg_start="4990" lrg_end="5117" other_start="1" other_end="128" strand="1" />
+        <mapping_span lrg_start="5705" lrg_end="5839" other_start="129" other_end="263" strand="1" />
+        <mapping_span lrg_start="6024" lrg_end="6067" other_start="264" other_end="307" strand="1" />
+        <mapping_span lrg_start="8651" lrg_end="8884" other_start="308" other_end="541" strand="1" />
+      </mapping>
+      <mapping coord_system="ENST00000544690.5" other_name="ENST00000544690.5" other_id="ENST00000544690.5" other_start="1" other_end="522" type="transcript">
+        <mapping_span lrg_start="5010" lrg_end="5117" other_start="1" other_end="108" strand="1" />
+        <mapping_span lrg_start="5705" lrg_end="5839" other_start="109" other_end="243" strand="1" />
+        <mapping_span lrg_start="6021" lrg_end="6067" other_start="244" other_end="290" strand="1" />
+        <mapping_span lrg_start="8651" lrg_end="8882" other_start="291" other_end="522" strand="1" />
+      </mapping>
+      <mapping coord_system="ENST00000585626.1" other_name="ENST00000585626.1" other_id="ENST00000585626.1" other_start="1" other_end="448" type="transcript">
+        <mapping_span lrg_start="4990" lrg_end="5117" other_start="1" other_end="128" strand="1" />
+        <mapping_span lrg_start="5523" lrg_end="5555" other_start="129" other_end="161" strand="1" />
+        <mapping_span lrg_start="5705" lrg_end="5991" other_start="162" other_end="448" strand="1" />
+      </mapping>
+      <mapping coord_system="ENST00000585901.5" other_name="ENST00000585901.5" other_id="ENST00000585901.5" other_start="1" other_end="620" type="transcript">
+        <mapping_span lrg_start="5038" lrg_end="5117" other_start="1" other_end="80" strand="1" />
+        <mapping_span lrg_start="5523" lrg_end="5555" other_start="81" other_end="113" strand="1" />
+        <mapping_span lrg_start="5705" lrg_end="5839" other_start="114" other_end="248" strand="1" />
+        <mapping_span lrg_start="5928" lrg_end="6067" other_start="249" other_end="388" strand="1" />
+        <mapping_span lrg_start="8651" lrg_end="8882" other_start="389" other_end="620" strand="1" />
+      </mapping>
+      <mapping coord_system="ENST00000586946.1" other_name="ENST00000586946.1" other_id="ENST00000586946.1" other_start="1" other_end="522" type="transcript">
+        <mapping_span lrg_start="4990" lrg_end="5110" other_start="1" other_end="121" strand="1" />
+        <mapping_span lrg_start="5523" lrg_end="5555" other_start="122" other_end="154" strand="1" />
+        <mapping_span lrg_start="5705" lrg_end="5839" other_start="155" other_end="289" strand="1" />
+        <mapping_span lrg_start="6024" lrg_end="6067" other_start="290" other_end="333" strand="1" />
+        <mapping_span lrg_start="8651" lrg_end="8839" other_start="334" other_end="522" strand="1" />
+      </mapping>
+      <mapping coord_system="ENST00000587837.4" other_name="ENST00000587837.4" other_id="ENST00000587837.4" other_start="1" other_end="570" type="transcript">
+        <mapping_span lrg_start="4990" lrg_end="5110" other_start="1" other_end="121" strand="1" />
+        <mapping_span lrg_start="5523" lrg_end="5555" other_start="122" other_end="154" strand="1" />
+        <mapping_span lrg_start="5705" lrg_end="5839" other_start="155" other_end="289" strand="1" />
+        <mapping_span lrg_start="6021" lrg_end="6067" other_start="290" other_end="336" strand="1" />
+        <mapping_span lrg_start="8651" lrg_end="8884" other_start="337" other_end="570" strand="1" />
+      </mapping>
+      <mapping coord_system="ENST00000588439.1" other_name="ENST00000588439.1" other_id="ENST00000588439.1" other_start="1" other_end="594" type="transcript">
+        <mapping_span lrg_start="5062" lrg_end="5117" other_start="1" other_end="56" strand="1" />
+        <mapping_span lrg_start="5523" lrg_end="5839" other_start="57" other_end="373" strand="1" />
+        <mapping_span lrg_start="6021" lrg_end="6067" other_start="374" other_end="420" strand="1" />
+        <mapping_span lrg_start="8651" lrg_end="8824" other_start="421" other_end="594" strand="1" />
+      </mapping>
+      <mapping coord_system="ENST00000589517.1" other_name="ENST00000589517.1" other_id="ENST00000589517.1" other_start="1" other_end="415" type="transcript">
+        <mapping_span lrg_start="4990" lrg_end="5117" other_start="1" other_end="128" strand="1" />
+        <mapping_span lrg_start="5523" lrg_end="5555" other_start="129" other_end="161" strand="1" />
+        <mapping_span lrg_start="5705" lrg_end="5839" other_start="162" other_end="296" strand="1" />
+        <mapping_span lrg_start="6024" lrg_end="6067" other_start="297" other_end="340" strand="1" />
+        <mapping_span lrg_start="8651" lrg_end="8725" other_start="341" other_end="415" strand="1" />
+      </mapping>
+      <features>
+        <gene source="Ensembl" accession="ENSG00000011600.10">
+          <symbol source="HGNC" name="TYROBP" />
+          <coordinates coord_system="LRG_607" start="4990" end="8884" strand="1" mapped_from="GRCh38" />
+          <long_name>TYRO protein tyrosine kinase binding protein (protein_coding)</long_name>
+          <db_xref source="GeneID" accession="7305">
+            <synonym>DAP12</synonym>
+            <synonym>KARAP</synonym>
+            <synonym>PLOSL</synonym>
+          </db_xref>
+          <db_xref source="MIM" accession="604142" />
+          <db_xref source="HGNC" accession="12449">
+            <synonym>DAP12</synonym>
+            <synonym>KARAP</synonym>
+            <synonym>PLO-SL</synonym>
+            <synonym>PLOSL</synonym>
+          </db_xref>
+          <db_xref source="Ensembl" accession="ENSG00000011600" />
+          <transcript source="Ensembl" accession="ENST00000587837.4">
+            <coordinates coord_system="LRG_607" start="4990" end="8884" strand="1" mapped_from="GRCh38" />
+            <long_name>TYROBP-009 (nonsense_mediated_decay)</long_name>
+            <exon source="Ensembl" accession="ENSE00002762470">
+              <coordinates coord_system="LRG_607" start="4990" end="5110" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003619333">
+              <coordinates coord_system="LRG_607" start="5523" end="5555" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003528906">
+              <coordinates coord_system="LRG_607" start="5705" end="5839" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003491994">
+              <coordinates coord_system="LRG_607" start="6021" end="6067" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003625178">
+              <coordinates coord_system="LRG_607" start="8651" end="8884" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000465081.1">
+              <coordinates coord_system="LRG_607" start="5057" end="5725" strand="1" mapped_from="GRCh38" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000424586.6">
+            <coordinates coord_system="LRG_607" start="4990" end="8884" strand="1" mapped_from="GRCh38" />
+            <long_name>TYROBP-008 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS59378.1" />
+            <db_xref source="RefSeq" accession="NM_001173515.1" />
+            <exon source="Ensembl" accession="ENSE00003621149">
+              <coordinates coord_system="LRG_607" start="4990" end="5117" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003552202">
+              <coordinates coord_system="LRG_607" start="5705" end="5839" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003573595">
+              <coordinates coord_system="LRG_607" start="6024" end="6067" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003663746">
+              <coordinates coord_system="LRG_607" start="8651" end="8884" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000402371.3">
+              <coordinates coord_system="LRG_607" start="5057" end="8716" strand="1" mapped_from="GRCh38" />
+              <long_name>TYRO protein tyrosine kinase-binding protein isoform 4 precursor</long_name>
+              <db_xref source="RefSeq" accession="NP_001166986.1" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000262629.7">
+            <coordinates coord_system="LRG_607" start="4990" end="8875" strand="1" mapped_from="GRCh38" />
+            <long_name>TYROBP-001 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS12482.1" />
+            <db_xref source="RefSeq" accession="NM_003332.3" />
+            <exon source="Ensembl" accession="ENSE00003621149">
+              <coordinates coord_system="LRG_607" start="4990" end="5117" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003523162">
+              <coordinates coord_system="LRG_607" start="5523" end="5555" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003552202">
+              <coordinates coord_system="LRG_607" start="5705" end="5839" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003600798">
+              <coordinates coord_system="LRG_607" start="6021" end="6067" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00000862901">
+              <coordinates coord_system="LRG_607" start="8651" end="8875" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000262629.3">
+              <coordinates coord_system="LRG_607" start="5057" end="8716" strand="1" mapped_from="GRCh38" />
+              <long_name>TYRO protein tyrosine kinase-binding protein isoform 1 precursor</long_name>
+              <db_xref source="RefSeq" accession="NP_003323.1" />
+              <db_xref source="UniProtKB" accession="O43914">
+                <synonym>A8K2X0</synonym>
+                <synonym>F5H389</synonym>
+                <synonym>Q6FGA5</synonym>
+                <synonym>Q9UMT3</synonym>
+              </db_xref>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000586946.1">
+            <coordinates coord_system="LRG_607" start="4990" end="8839" strand="1" mapped_from="GRCh38" />
+            <long_name>TYROBP-007 (nonsense_mediated_decay)</long_name>
+            <exon source="Ensembl" accession="ENSE00002762470">
+              <coordinates coord_system="LRG_607" start="4990" end="5110" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003619333">
+              <coordinates coord_system="LRG_607" start="5523" end="5555" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003528906">
+              <coordinates coord_system="LRG_607" start="5705" end="5839" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003682088">
+              <coordinates coord_system="LRG_607" start="6024" end="6067" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002916937">
+              <coordinates coord_system="LRG_607" start="8651" end="8839" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000465656.1">
+              <coordinates coord_system="LRG_607" start="5057" end="5725" strand="1" mapped_from="GRCh38" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000589517.1">
+            <coordinates coord_system="LRG_607" start="4990" end="8725" strand="1" mapped_from="GRCh38" />
+            <long_name>TYROBP-002 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS46058.1" />
+            <db_xref source="RefSeq" accession="NM_198125.2" />
+            <exon source="Ensembl" accession="ENSE00003621149">
+              <coordinates coord_system="LRG_607" start="4990" end="5117" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003523162">
+              <coordinates coord_system="LRG_607" start="5523" end="5555" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003552202">
+              <coordinates coord_system="LRG_607" start="5705" end="5839" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003573595">
+              <coordinates coord_system="LRG_607" start="6024" end="6067" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002962606">
+              <coordinates coord_system="LRG_607" start="8651" end="8725" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000468447.1">
+              <coordinates coord_system="LRG_607" start="5057" end="8716" strand="1" mapped_from="GRCh38" />
+              <long_name>TYRO protein tyrosine kinase-binding protein isoform 2 precursor</long_name>
+              <db_xref source="RefSeq" accession="NP_937758.1" />
+              <db_xref source="UniProtKB" accession="O43914">
+                <synonym>A8K2X0</synonym>
+                <synonym>F5H389</synonym>
+                <synonym>Q6FGA5</synonym>
+                <synonym>Q9UMT3</synonym>
+              </db_xref>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000585626.1">
+            <coordinates coord_system="LRG_607" start="4990" end="5991" strand="1" mapped_from="GRCh38" />
+            <long_name>TYROBP-003 (retained_intron)</long_name>
+            <exon source="Ensembl" accession="ENSE00003487123">
+              <coordinates coord_system="LRG_607" start="4990" end="5117" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003591639">
+              <coordinates coord_system="LRG_607" start="5523" end="5555" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002760016">
+              <coordinates coord_system="LRG_607" start="5705" end="5991" strand="1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000544690.5">
+            <coordinates coord_system="LRG_607" start="5010" end="8882" strand="1" mapped_from="GRCh38" />
+            <long_name>TYROBP-010 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS54255.1" />
+            <db_xref source="RefSeq" accession="NM_001173514.1" />
+            <exon source="Ensembl" accession="ENSE00003458502">
+              <coordinates coord_system="LRG_607" start="5010" end="5117" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003552202">
+              <coordinates coord_system="LRG_607" start="5705" end="5839" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003600798">
+              <coordinates coord_system="LRG_607" start="6021" end="6067" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003461710">
+              <coordinates coord_system="LRG_607" start="8651" end="8882" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000445332.1">
+              <coordinates coord_system="LRG_607" start="5057" end="8716" strand="1" mapped_from="GRCh38" />
+              <long_name>TYRO protein tyrosine kinase-binding protein isoform 3 precursor</long_name>
+              <db_xref source="RefSeq" accession="NP_001166985.1" />
+              <db_xref source="UniProtKB" accession="O43914">
+                <synonym>A8K2X0</synonym>
+                <synonym>F5H389</synonym>
+                <synonym>Q6FGA5</synonym>
+                <synonym>Q9UMT3</synonym>
+              </db_xref>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000585901.5">
+            <coordinates coord_system="LRG_607" start="5038" end="8882" strand="1" mapped_from="GRCh38" />
+            <long_name>TYROBP-006 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00002829335">
+              <coordinates coord_system="LRG_607" start="5038" end="5117" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003523162">
+              <coordinates coord_system="LRG_607" start="5523" end="5555" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003552202">
+              <coordinates coord_system="LRG_607" start="5705" end="5839" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002752439">
+              <coordinates coord_system="LRG_607" start="5928" end="6067" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003461710">
+              <coordinates coord_system="LRG_607" start="8651" end="8882" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000468608.1">
+              <coordinates coord_system="LRG_607" start="5057" end="8716" strand="1" mapped_from="GRCh38" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000588439.1">
+            <coordinates coord_system="LRG_607" start="5062" end="8824" strand="1" mapped_from="GRCh38" />
+            <long_name>TYROBP-004 (retained_intron)</long_name>
+            <exon source="Ensembl" accession="ENSE00002957383">
+              <coordinates coord_system="LRG_607" start="5062" end="5117" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002826309">
+              <coordinates coord_system="LRG_607" start="5523" end="5839" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003491994">
+              <coordinates coord_system="LRG_607" start="6021" end="6067" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002898244">
+              <coordinates coord_system="LRG_607" start="8651" end="8824" strand="1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+        </gene>
+        <gene source="Ensembl" accession="ENSG00000126264.8">
+          <symbol source="HGNC" name="HCST" />
+          <coordinates coord_system="LRG_607" start="8908" end="10805" strand="-1" mapped_from="GRCh38" />
+          <long_name>hematopoietic cell signal transducer (protein_coding)</long_name>
+          <db_xref source="GeneID" accession="10870">
+            <synonym>DAP10</synonym>
+            <synonym>KAP10</synonym>
+            <synonym>PIK3AP</synonym>
+          </db_xref>
+          <db_xref source="MIM" accession="604089" />
+          <db_xref source="HGNC" accession="16977">
+            <synonym>DAP10</synonym>
+            <synonym>DKFZP586C1522</synonym>
+            <synonym>KAP10</synonym>
+            <synonym>PIK3AP</synonym>
+          </db_xref>
+          <db_xref source="Ensembl" accession="ENSG00000126264" />
+          <transcript source="Ensembl" accession="ENST00000246551.7">
+            <coordinates coord_system="LRG_607" start="8908" end="10805" strand="-1" mapped_from="GRCh38" />
+            <long_name>HCST-001 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS32998.1" />
+            <db_xref source="RefSeq" accession="NM_014266.3" />
+            <exon source="Ensembl" accession="ENSE00000862898">
+              <coordinates coord_system="LRG_607" start="10649" end="10805" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00000862899">
+              <coordinates coord_system="LRG_607" start="9869" end="9934" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00000699089">
+              <coordinates coord_system="LRG_607" start="9382" end="9513" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002856716">
+              <coordinates coord_system="LRG_607" start="8908" end="9165" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000246551.3">
+              <coordinates coord_system="LRG_607" start="9125" end="10691" strand="-1" mapped_from="GRCh38" />
+              <long_name>hematopoietic cell signal transducer isoform 1 precursor</long_name>
+              <db_xref source="RefSeq" accession="NP_055081.1" />
+              <db_xref source="UniProtKB" accession="Q9UBK5">
+                <synonym>Q9UBS1</synonym>
+                <synonym>Q9Y3Y0</synonym>
+              </db_xref>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000437550.2">
+            <coordinates coord_system="LRG_607" start="9015" end="10747" strand="-1" mapped_from="GRCh38" />
+            <long_name>HCST-002 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS46057.1" />
+            <db_xref source="RefSeq" accession="NM_001007469.1" />
+            <exon source="Ensembl" accession="ENSE00002800780">
+              <coordinates coord_system="LRG_607" start="10649" end="10747" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00000862899">
+              <coordinates coord_system="LRG_607" start="9869" end="9934" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00000699089">
+              <coordinates coord_system="LRG_607" start="9382" end="9513" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002974809">
+              <coordinates coord_system="LRG_607" start="9015" end="9162" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000400516.1">
+              <coordinates coord_system="LRG_607" start="9125" end="10691" strand="-1" mapped_from="GRCh38" />
+              <long_name>hematopoietic cell signal transducer isoform 2 precursor</long_name>
+              <db_xref source="RefSeq" accession="NP_001007470.1" />
+              <db_xref source="UniProtKB" accession="Q9UBK5">
+                <synonym>Q9UBS1</synonym>
+                <synonym>Q9Y3Y0</synonym>
+              </db_xref>
+            </protein_product>
+          </transcript>
+        </gene>
+        <gene source="Ensembl" accession="ENSG00000280194.1">
+          <symbol source="Clone_based_vega_gene" name="AD000864.6" />
+          <coordinates coord_system="LRG_607" start="9430" end="10884" strand="1" mapped_from="GRCh38" />
+          <partial>3-prime</partial>
+          <long_name>AD000864.6 (TEC)</long_name>
+          <db_xref source="Ensembl" accession="ENSG00000280194" />
+          <transcript source="Ensembl" accession="ENST00000624076.1">
+            <coordinates coord_system="LRG_607" start="9430" end="10884" strand="1" mapped_from="GRCh38" />
+            <partial>3-prime</partial>
+            <long_name>AD000864.6-001 (TEC)</long_name>
+            <exon source="Ensembl" accession="ENSE00003758125">
+              <coordinates coord_system="LRG_607" start="9430" end="10884" strand="1" mapped_from="GRCh38" />
+              <partial>3-prime</partial>
+            </exon>
+          </transcript>
+        </gene>
+      </features>
+    </annotation_set>
+    <annotation_set type="lsdb">
+      <source>
+        <name>List of locus specific databases for TYROBP</name>
+        <url>http://grenada.lumc.nl/LSDB_list/lsdbs/TYROBP</url>
+      </source>
+      <modification_date>2015-06-22</modification_date>
+    </annotation_set>
+  </updatable_annotation>
+</lrg>

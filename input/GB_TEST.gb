@@ -1,0 +1,138 @@
+LOCUS       NG_Welland.1            2955 bp    DNA     linear   PRI 05-FEB-2015
+DEFINITION  Homo sapiens argininosuccinate lyase (ASL), RefSeqGene on
+            chromosome 7.
+ACCESSION   NG_Welland.1
+VERSION     NG_Welland.1
+KEYWORDS    Test file; Welland
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 2955)
+  AUTHORS   Welland, MJ
+  TITLE     Welland Test File
+  JOURNAL   Unpublished
+   PUBMED   123456789
+COMMENT     This has been generated as a doftware test file for the reference
+            sequence typesetting program
+            matthew.welland@bwnft.nhs.uk
+            https://github.com/MattWellie/LaTex_LRG.git
+            
+PRIMARY     REFSEQ_SPAN         PRIMARY_IDENTIFIER PRIMARY_SPAN        COMP
+            1-2655              N/A                1-2955              c
+FEATURES             Location/Qualifiers
+     source          1..2955
+                     /organism="Homo sapiens"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9606"
+                     /chromosome="0"
+                     /map="0p0.0"
+     gene            complement(<1..551)
+                     /gene="WELLAND"
+                     /note="fake gene"
+                     /pseudo
+                     /db_xref="GeneID:123456789"
+     STS             317..465
+                     /standard_name="RH66402"
+                     /db_xref="UniSTS:26299"
+     STS             694..796
+                     /standard_name="D7S1454"
+                     /db_xref="UniSTS:32821"
+     gene            801..1355
+                     /gene="WELLAND"
+                     /gene_synonym="WELLAND"
+                     /note="test file"
+                     /db_xref="GeneID:123456789"
+                     /db_xref="HGNC:HGNC:N/A"
+                     /db_xref="MIM:N/A"
+     mRNA            join(801..1020,1621..1779,2380..2655)
+                     /gene="WELLAND"
+                     /gene_synonym="WELLAND"
+                     /product="argininosuccinate lyase, transcript variant 2"
+                     /transcript_id="NM_000048.3"
+                     /db_xref="GI:68303544"
+                     /db_xref="GeneID:435"
+                     /db_xref="HGNC:HGNC:746"
+                     /db_xref="MIM:608310"
+     exon            801..1020
+                     /gene="WELLAND"
+                     /gene_synonym="WELLAND"
+                     /number=1
+     exon            1621..1779
+                     /gene="WELLAND"
+                     /gene_synonym="WELLAND"
+                     /number=2
+     CDS             join(1677..1778,2381..2655)
+                     /gene="WELLAND"
+                     /gene_synonym="ASAL"
+                     /EC_number="4.3.2.1"
+                     /note="isoform 1 is encoded by transcript variant 2;
+                     argininosuccinase; arginosuccinase"
+                     /codon_start=1
+                     /product="WELLAND TEST"
+                     /protein_id="FAKE_PROTEIN"
+                     /db_xref="GI:31541964"
+                     /db_xref="CCDS:CCDS5531.1"
+                     /db_xref="GeneID:435"
+                     /db_xref="HGNC:HGNC:746"
+                     /db_xref="MIM:608310"
+                     /translation="ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQR
+                     STUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLM"
+     exon            2380..2655
+                     /gene="WELLAND"
+                     /gene_synonym="WELLAND"
+                     /number=3
+ORIGIN      
+        1 gaaaagaaaa gaaaagaaaa gaaaagaaaa gaaaagaaaa gaaaagaaaa gaaaagaaaa
+       61 gaaaagaaaa gaaaagaaaa gaaaagaaaa gaaaagaaaa gaaaagaaaa gaaaagaaaa
+      121 gaaaagaaaa gaaaagaaaa gaaaagaaaa gaaaagaaaa gaaaagaaaa gaaaagaaaa
+      181 gaaaagaaaa gaaaagaaaa gaaaagaaaa gaaaagaaaa gaaaagaaaa gaaaagaaaa
+      241 gaaaagaaaa gaaaagaaaa gaaaagaaaa gaaaagaaaa gaaaagaaaa gaaaagaaaa
+      301 gaaaagaaaa gaaaagaaaa gaaaagaaaa gaaaagaaaa gaaaagaaaa gaaaagaaaa
+      361 gaaaagaaaa gaaaagaaaa gaaaagaaaa gaaaagaaaa gaaaagaaaa gaaaagaaaa
+      421 gaaaagaaaa gaaaagaaaa gaaaagaaaa gaaaagaaaa gaaaagaaaa gaaaagaaaa
+      481 gaaaagaaaa gaaaagaaaa gaaaagaaaa gaaaagaaaa gaaaagaaaa gaaaagaaaa
+      541 gaaaagaaaa gaaaagaaaa gaaaagaaaa gaaaagaaaa gaaaagaaaa gaaaagaaaa
+      601 gaaaagaaaa gaaaagaaaa gaaaagaaaa gaaaagaaaa gaaaagaaaa gaaaagaaaa
+      661 gaaaagaaaa gaaaagaaaa gaaaagaaaa gaaaagaaaa gaaaagaaaa gaaaagaaaa
+      721 gaaaagaaaa gaaaagaaaa gaaaagaaaa gaaaagaaaa gaaaagaaaa gaaaagaaaa
+      781 gaaaagaaaa gaaaagaaaa acgtacgtac gtacgtacgt acgtacgtac gtacgtacgt
+      841 acgtacgtac gtacgtacgt acgtacgtac gtacgtacgt acgtacgtac gtacgtacgt
+      901 acgtacgtac gtacgtacgt acgtacgtac gtacgtacgt acgtacgtac gtacgtacgt
+      961 acgtacgtac gtacgtacgt acgtacgtac gtacgtacgt acgtacgtac gtacgtacgt
+     1021 aaaagaaaag aaaagaaaag aaaagaaaag aaaagaaaag aaaagaaaag aaaagaaaag
+     1081 aaaagaaaag aaaagaaaag aaaagaaaag aaaagaaaag aaaagaaaag aaaagaaaag
+     1141 aaaagaaaag aaaagaaaag aaaagaaaag aaaagaaaag aaaagaaaag aaaagaaaag
+     1201 aaaagaaaag aaaagaaaag aaaagaaaag aaaagaaaag aaaagaaaag aaaagaaaag
+     1261 aaaagaaaag aaaagaaaag aaaagaaaag aaaagaaaag aaaagaaaag aaaagaaaag
+     1321 gaaaagaaaa gaaaagaaaa gaaaagaaaa gaaaagaaaa gaaaagaaaa gaaaagaaaa
+     1381 gaaaagaaaa gaaaagaaaa gaaaagaaaa gaaaagaaaa gaaaagaaaa gaaaagaaaa
+     1441 gaaaagaaaa gaaaagaaaa gaaaagaaaa gaaaagaaaa gaaaagaaaa gaaaagaaaa
+     1501 gaaaagaaaa gaaaagaaaa gaaaagaaaa gaaaagaaaa gaaaagaaaa gaaaagaaaa
+     1561 gaaaagaaaa gaaaagaaaa gaaaagaaaa gaaaagaaaa gaaaagaaaa gaaaagaaaa
+     1621 acgtacgtac gtacgtacgt acgtacgtac gtacgtacgt acgtacgtac gtacgtatga
+     1681 cgtacgtacg tacgtacgta cgtacgtacg tacgtacgta cgtacgtacg tacgtacgta
+     1741 cgtacgtacg tacgtacgta cgtacgtacg tacgtacgta aaagaaaaga aaagaaaaga
+     1801 aaagaaaaga aaagaaaaga aaagaaaaga aaagaaaaga aaagaaaaga aaagaaaaga
+     1861 aaagaaaaga aaagaaaaga aaagaaaaga aaagaaaaga aaagaaaaga aaagaaaaga
+     1921 aaagaaaaga aaagaaaaga aaagaaaaga aaagaaaaga aaagaaaaga aaagaaaaga
+     1981 aaagaaaaga aaagaaaaga aaagaaaaga aaagaaaaga aaagaaaaga aaagaaaaga
+     2041 aaagaaaaga aaagaaaaga aaagaaaaga aaagaaaagg aaaagaaaag aaaagaaaag
+     2101 aaaagaaaag aaaagaaaag aaaagaaaag aaaagaaaag aaaagaaaag aaaagaaaag
+     2161 aaaagaaaag aaaagaaaag aaaagaaaag aaaagaaaag aaaagaaaag aaaagaaaag
+     2221 aaaagaaaag aaaagaaaag aaaagaaaag aaaagaaaag aaaagaaaag aaaagaaaag
+     2281 aaaagaaaag aaaagaaaag aaaagaaaag aaaagaaaag aaaagaaaag aaaagaaaag
+     2341 aaaagaaaag aaaagaaaag aaaagaaaag aaaagaaaaa cgtacgtacg tacgtacgta
+     2401 cgtacgtacg tacgtacgta cgtacgtacg tacgtacgta cgtacgtacg tacgtacgta
+     2461 cgtacgtacg tacgtacgta cgtacgtacg tacgtacgta cgtacgtacg tacgtacgta
+     2521 cgtacgtacg tacgtacgta cgtacgtacg tataaacgta cgtacgtacg tacgtacgta
+     2581 cgtacgtacg tacgtacgta cgtacgtacg tacgtacgta cgtacgtacg tacgtacgta
+     2641 cgtacgtacg tacgtaaaag aaaagaaaag aaaagaaaag aaaagaaaag aaaagaaaag
+     2701 aaaagaaaag aaaagaaaag aaaagaaaag aaaagaaaag aaaagaaaag aaaagaaaag
+     2761 aaaagaaaag aaaagaaaag aaaagaaaag aaaagaaaag aaaagaaaag aaaagaaaag
+     2821 aaaagaaaag aaaagaaaag aaaagaaaag aaaagaaaag aaaagaaaag aaaagaaaag
+     2881 aaaagaaaag aaaagaaaag aaaagaaaag aaaagaaaag aaaagaaaag aaaagaaaag
+     2941 aaaagaaaag aaaag
+//
+    

@@ -1,0 +1,685 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="application/xml" href="lrg2html.xsl"?>
+
+<lrg schema_version="1.9">
+  <fixed_annotation>
+    <id>LRG_452</id>
+    <hgnc_id>3805</hgnc_id>
+    <sequence_source>NG_032165.1</sequence_source>
+    <organism taxon="9606">Homo sapiens</organism>
+    <source>
+      <name></name>
+      <contact>
+        <name>James Ware</name>
+        <address>Molecular Cardiology, Imperial College, London, UK</address>
+        <email>j.ware@imperial.ac.uk</email>
+      </contact>
+    </source>
+    <mol_type>dna</mol_type>
+    <creation_date>2013-01-16</creation_date>
+    <sequence>CAAAGGAAGAACATCTTAATATGTTTATTCAGGTGAATGCAATTTTTAACTGATTAATGATTTATCAATGGTTTTGTTACATAGTTGTTGCTATTAGCGATGGTTGGTCTTATTAAAATATGTCACTTGATACAGAATCTCCTGTGGGAAAAGAATGTGAGAAACAAGGACAATCACTGCATGGAGGTCATAAGGCTGAAGGTACAGTTTACTGTTGCAGACTTTCGGACAAAGTCCTTTTCTTGGCTGTTATAAAAACTATATTTGGTTTTAAACAGAAACACTTGTTTTAGTACAAATCATCTTTGTCTACTTTCATTTTTCTTTATTATTTTCGTGACTGAAAAGGAGCTTTGGAAATCACTGCATAAGGCTTGATTTATTTGCACAACTTTCTTTAGGGTTGCAGCTAGAACAAACCTGTGTGCTTTGAAATGTTACCTTCTGCTCTCTGTTCCCAAGTACAGAGAAATAATGTTGCAAATCTCACTTCTGCTGAACATTATGCTTCCTGATGCATTTAGCAGACACTAAACATTTGTCATACTCTAAACAAAGTTACAAAGGACTAGAAGAATTCTTGTTCTGTATTTAGAAACCCACTCACGTTACTTGATATTTGGGTATTTAAGTCATGAAAGGTATTTCTTCTAGGAAGCAGTGATTCTAAAGTGTATGCTTAACCAGTCAGTTGAGTGTCTACTCTTGTGTGTTCACAAGTGTGCACAAAGTTTTTGGTAAATTAAGAATATTATTTCAAATAAATTAATTTCATCCCCATAGGAGCCAGTTTATCAGATAATTCGTTTCTCATTTCTGCAAATCAATACACAATGAGCTCATATTCAGATAAATATAATAGTTTTTCTTTATTTCATCATTGTTCATTGATTGCAACCCATTTCTAAAACAAATTATTTAATATAACCAAACTCCTTTAACTTCTCAACTTTTCCCACGAAAACTGTGAAACATTATATAAAATCTTTAATCAATAGGATATGATACATATTTCATCATTTTGTTTCAGGTTTTGGTTGTGATAAATAACACTGAAAAACCATCCTAATATATGTATTAACTTTATCATTAGAAAAGGGGATTGTTCAAAAAGAAAATCAATACACAGAAACCTTTTTTGAAAATTAAAAACATTAAGAAACTTCTTGTAATTCACAAATAATTGGAATTAAGTAATTTTCTCAGCTTAAGAGTTTGTATTTTTTAAGTGAATATCAGTAATTAATCCATTAACATTGATGCTCTATTTCTGCTTTTAAGTTTGAACTGAGGCTGATTAATGTTCAGTCAATTCTCCTTTGAGCAGGGATTGGTGTCAATCAAAGACAAATCACAACAAGTGATTGTCCAGGGTGTCCATGAGCTCTATGATCTGGAGGAGACTCCAGTGAGCTGGAAGGATGACACTGAGAGAACAAATCGATTGGTCCTCCTTGGTAAGTCTCAAAGGATTCACAGTTTTAAAACAAAGTGAAAAATATATTTGAAAGGGATATCATGTGCCACTTAAACAGATTAACCATTCAGGTCCTCTTTTAAAACTAAATAAGCTTGTGGTCAATGTTTCATCTTTATCACGTTACAACGTTCGTAAAAGCTTGTTAGGACTTTTGTTCTTCTTCAGTTTTAGAAAAGTGGTTAATCCAAGGACCAATGTGACTTTGATGTACTGACCTGGAAAGTTAAAGATGGAATCACTCAATTACTATTCTTTTTGTAAATTTCTAAACACCATAAAGCATTTAATGAACTGGAATTGATAGGTGAACTGTGTCATTTTAATAAGCATAATGTAATCACGTCATATTTTGTTTTGTTTGCAGGCAGAAATTTAGATAAGGATATCCTTAAACAGCTGTTTATAGCTACTGTGACAGAAACAGAAAAGCAGTGGACAACACGTTTCCAAGAAGATCAAGTTTGTACATAACACTAGAGGCATTTCTTATCAAAAGGATTGGATAATAAAAATAAGTTTCTACTGGGTATATTTCAAGCATTTATTTATTACTTTAGTTACGAATTCCAATATACTTTAAAATGGTATTTGTTTTACAGCATACATAAAATGTAGCAAATCAGTACTGTAAAACATTTAACATTCATACAGTTATATATAATATCCTTTTTTTTAAAGAATGGTATTTCACAAAAATATCTTTTGAAATTGGCTTTGGAGTTTACATATACTGAACATGAAAGTTTATAATAATGATGATACAACTTTCAACATTGTCATTTTTTCTTAGAACTTCAGCTGATTGCAGAGATATAATGATTACATTGTTATTAAATTTTTTTAACACAAGTAAGTGTCACCATTTTATGACATGAAATAAAAGGTTATGACTGTTATTGATGTTGATGTTGACGACCTGATCACCTGGCTGAAGGAGTGTTTGTCAGGTTTCTCCATTGTAAAGTTACTCTTTTCCCCCATTTCATACTGTGCTCTTTGGAAGGAAATCACTATGCACAGCCCACACTAAAGGAATGGGGAGTTGTAGTGTACTTTCTTGGGAGTGGTCTACATGATTAATTGAAATTCTTCTGCAAAGGACAGTTGTCCCTTTCGCTTTATTAGTTCGATCATTTATGTTTATCAGTGTGGACACATGAATATTTTATACTTTGGGTTACAATTTAATACTGCTTTATTTTGTTGCTCAAATTATCCCAGCTTTGACCATTGGGAACTCTTTCCGTTATCTCCTGTTCCCACCTTTGACATACCCCCATCAATGTGGGTTTTGTGTTTTGTTTTTGAGTGCCTCCTTACTTTTCTCCTGTATTTTTAAATAACCCCAATCCCTATTGAAGCTGGCGCTAGGAAAACTAACAATACTCCCTTTCCCAGGTCATCCGATTCCTATGCTGATGGAGGAAATTTGCCTCACATGCTGGGGGCGCTGGGATTTTGTGGTTGAATAAGACACCTGGCCTGGCCCTCCTGGAGCTTAGTTTAGTAGGTCACACAAGCAGTCATTGGTAAATTTGGGATTCAAACAAATCTGTTAGGCTCAAACCTGTCTGTTATTTGTCCTCCAAGCTTCATATAAACTGAGGAGCCTTAAAGGGTAAAAACTTCAGGAGCAGCAAAGTTTCAAAAAAAGATCAGCAAGAAAGCCCTTTTCCAGATTTTATCCTGAAGGCACTAGCTACTTTAAGCTATTTTTTATTATATTTTGCCCTTGCAGTTGGCGTTTGATTTCTCACTGAACATTCATTGTCATAATTATAGACACTATGTGACTATCAAGGGCATAATATTCTTTCATGCTGCATTTTTATTAGATGGCACCTCAAAGTTTTCCCAAGTAGGTGGGTTTTAAATTATGAATATATACCGTGGCATAGTATCTTACTTAGTATTTTAATAAGATCCTTATTTATATAACAAATATTTTTTTTATTCCTCTGTAGTGCTACTTTAGTCTCTGAGCTAATTTTCATGAAGCCAATCTAAAAATCGTGTTACTTCTAAGGATGTGGAGCGAGTGAGATGAACAGTTGTGCTGTCATATTGCCCCTCCCCAGTGCAGACAGTGAATGAGGACCCACTGATTTAAAGGCAACACTGCAGCCCCTTCTTGCCTCATTGAAGTCCCAAGTTTTATTACAGTAAAAGCACTTAATGTTGACATTTCTGAAAGAATGAAGAGGCCGGGCGTGGTGGCTCACGCCGGTAATCCCAGCACTTTGGGAGGCTGAGGCGGGCGGATCATGAGGTCAGGACATCGAGACCATCCTGGCTAACACGGTGAAACCCCGTCTCTACTAAAAATACAAAAAATTAGCCGGGTGCGGTGGCGGGCGCCTGTGGTCCCAGCTACTTGGGAGGCTGAGGCAGGAGAATGGCGTGAACCCGGGAGGCGGAGCTTGCAGGGAGCCGAGATCCCGCCACTGCACTCCAGCCTGGGCGACAGAGCGAGACTCCGCCTCAAAAAAAAAAAAAAAAAAAGGAAAAAAAGAATGAAGAGCCAGAGCCAGGCATAGTGGCACGCCTGTAGTCCCACCTACTCAGGAGGCTGAGGCGGGAGGATCACTTGAGCCCAGGAATTCAAAGCCAGCCTGCGCAACATAGACCCTGTCTCTAAAAATGAATTGGTTATAAAGGATGAAGAAAGGAAGGAGGAAAGGGAGAGAGAGAAGCCCTTATAGAGTGGGTGCATTTCTTGTATGTGGGGCCACTTTGTAAGAACAGGATTTTTCAAACTGGGCCCATACTGGTATGTGTGAAATCAATTTAGTTGGTTATGGCCATTTTTTTTTAAAAGGAAATATCAGTGATCACTATAGTGTAAGTATATTGTTTCGTGAAAGCCATCTTAGTTATGTATTATGTCTGTATGTGTAAGATTGTGATATAAAATGTATTTCTGTGGTTAAATATTCAAAGAAATTGGAGAACCATTGCTACAAGGGGACAGAGGACTCCGTGTGAGCTCTCCTGCCTTCCCTGAATAAACTTACACAATTTAGTGCTGGGACATTTGAACCTTTTCTGAAAATTTGAGTCAGGGAGAGCATCTTGGGGAGGTGGGAAGGAAGGTAGAAGGAGCAAAGCAACACCCCCCTGAAGCCTGGGAATATTGTCAGAACCTTAAATATAATTCAGCTCACCATTCTGGGTAAGGACAGACTCTACCAATGAAAATGGGTGATTACCAGCTGTGAAACACAAAAACATACTTTCACGGTTACACATTCCTTTACAAACAACCGTGTACATTTCAGCCTCCTACCCCACCATTTCTTTTCTCCAGGCGGGAAGGCTGCATGTCGAGGTGGTCGTAGAATGTTGAGTATCCTACTTTCCTACCTCGCTTTTATTTGCGCGGGTTTAAATGCGCCTTAACAGAACCCGTGCAAAGGCTTGCCTACTGTCTGGCTGCACCGGATGAGTAGAGCATCTTCCTTGGTGGCAGGTGGGTGCGAGGAGGAGGGCGCTGGGCTTTTCTCCGGACGGTGTTTGCCCAGAAGACCATCATCCCTGGACTACGTTAGGAGGAAGTGGCACCGCTCCGAGGTAGGGGAAGAAGGGTTATAAAGGGAGGCGTCCACCACACATGGTCTTGAAGAAGCTTTTATAAAAGGCGAAGGCATCTTTGCCGGACGTTGTTGCAAAGGCGTAGAAACAAGCAGAGGAAAACATCCCAAAGGGTAACCACTAGCGTTCCTGCTTCTTGCAACATTCATCCCGGGCTTCCAGCTCAGCCCGCCGGGGCCAGGTGATCCGGCCGCCACATCCCCTGCGACTGAAGCACCTGCTCCGCCATGAACTTGCCAAGAGCTGAGCGCCTTCGCTCCACACCGCAGCGCAGCCTCCGGGACTCCGATGGGGAAGACGGTAAAATCGATGTCCTGGGAGAGGAGGAAGATGAAGACGAGGAGGAGGCGGCGAGCCAGCAGTTCCTAGAGCAGTCGCTCCAGCCGGGGCTGCAGGTGGCCCGGTGGGGCGGGGTTGCGCTTCCCCGAGAGCACATCGAGGGCGGCGGCGGCCCGAGCGACCCCTCAGAGTTTGGCACCGAGTTCAGGGCACCGCCAAGGTCTGCGGCGGCCTCTGAAGATGCCCGGCAGCCGGCAAAGCCCCCCTCCTCGTACATCGCGCTCATCACCATGGCCATCCTGCAAAGCCCGCACAAGCGCCTCACGCTCAGCGGCATCTGCGCCTTCATTAGTGACCGCTTCCCCTACTACCGCCGCAAGTTCCCCGCCTGGCAGAACAGCATCCGCCACAACCTCTCGCTGAACGACTGCTTCGTCAAGATCCCCCGCGAGCCGGGCCGCCCAGGCAAGGGCAACTACTGGAGCCTGGACCCCGCCTCCCAGGACATGTTCGACAATGGCAGCTTTCTCCGGCGTAGGAAGCGTTTCCAGCGCCACCAACCGACCCCGGGAGCCCACCTGCCCCACCCCTTCCCTCTACCTGCTGCACACGCCGCCCTGCACAACCCCCGCCCAGGCCCTCTGCTTGGGGCCCCTGCCCCGCCGCAGCCAGTCCCGGGGGCCTACCCCAACACCGGCCCCGGGAGACGCCCTTACGCTCTGCTGCACCCGCATCCTCCTCGCTACCTACTGCTCTCGGCCCCCGCCTATGCCGGGGCACCGAAGAAAGCAGAAGGCGCGGACCTGGCGACCCCGGCACCCTTCCCGTGCTGCAGCCCTCACTTGGTCCTCAGCCTTGGGAGGAGGGCAAGGGTCTGGCGTCGCCACCGGGAGGCGGATGCATCTCTTTCAGCATTGAGAGTATCATGCAAGGGGTCAGGGGAGCGGGTACAGGGGCTGCGCAGAGTTTGTCCCCGACCGCGTGGAGCTACTGCCCCCTGCTCCAGCGACCGTCAAGCCTGTCGGACAATTTTGCAGCAACAGCAGCGGCATCAGGAGGAGGACTGCGCCAACGGCTGCGCTCCCACCAAGGGCGCGGTGCTGGGCGGGCACCTGTCGGCCGCGTCGGCGCTGCTGCGGTATCAGGCGGTGGCAGAGGGCTCTGGGCTGACATCGCTGGCCGCCCCTTTGGGCGGAGAGGGGACCTCACCAGTTTTTTTAGTATCGCCCACGCCCAGTTCCCTGGCCGAGTCCGCAGGGCCCTCCTAGAGCCAGGTGGGAGTGGGGAGCGACCCGCAGCTGCTCACTCCACCTTGCGCGGCCCATACTGGGCGTGTGCATCTGAATCCCGCTGGAGAGCAAACACGAACTTCTGTTCCCTGCAAAATGGTTAGAAAGAAACAGCTGGATTACGTTCCTCTAAAAACCACCTGAACGTAACCTTCGCAGGGCGTCAAGTCATCTTTTCTTGCCTTCGGTTGTGGCTTCTGTGGCTTTCCCGATTTGCACATGTCCTGGGGTACTATGAACGTGAGTGGGGTATTTTGTTCTGGCATTAAAAGAAAAACAAGCAAGCAAACAAAAACACAGCCTCCGATGCCAAACATGTTCCCCCTTCTTCACTTCCTTGGAACTGGAAGTATTATTCCTAAGTCTAGTGCAAAATGCTTCTACTCTCTGTGTCTTCCTGATAGGGATGTTTAATGTAAGTAGGATATTAATTTCAGAACATTGATTTCTTATCTGTGTGTCTGACGTGCCATCTTTAATGTTAAAATTAAGGTGTTAAAATTAAGCCTAGTTATATAGACGAAATAAAATGCTAAGTCACTACACTACATCGTTTATTTTCTATTACGTCTCATTCTTCCCTTTCTAAATGGAACTTTTTAAAACCTACATTATTTTCCCTCAATTTATTTTCACAATTCATATTTATTATAGATAGCAGAAGTAATCCATTTTAATATGGCCTTTAAAAATTCCAAATATTTGAGGTTGAAAATGTCCTGGCTTTTAAAATAGGAAATTTACTATTTATGAGACTTCTAAAAGAATGAATAGGAGGGCATGTAAATATATTCTCCATTTATTTTTCCTCACCCCCCAACAAGCTGGAAAACCATTTGAGATCAATTTGGAATGTAGTGGCCAACATGTACTCAGGGAAAATAAAAGGCTATAAATATACATATATATATATATATATATATATATATATATATATATATATATATATATATATACACATTTTTTAAGCACTAGAATTTTCAAAACTTATTTCCTAAAAAAAAAACTCTGAAAAGACTTTGCAACTAGAAAGGTTTAAGTGTTACTCGGCGTCAGGGGACGGAGTGGGGGGAAACCAGACAAGAACGCCCATCATGAATTGCTCCCCACAAAGAAAACAAATTTCTAGGAACTTGGCCGTTTTCCCCTGTCCCGAGTGGGGTTCCCGATTCCGTGCCGCTTTGAGGGAAGCTGCTCTGTGAATGTGAGAAAGTTTTTCCCCCAGCCCCCATCTACTCCCCACCCCCAGCTATGAATTTCTTATTTCAGGAGGGAGGACAAACATGGAGACACATTTTTACAGGAGTCTAATTGGCCGATTTTTCTCCGGCTTCTCTTCTCCATCCCGTCTCTTGGAATTTCTTGGCATGCCCTACCTGAGATCCCCTACGGGAGATTTCCTCTTGGCTCCTGCGGTTCTGAGGACGTTCTGAAAAGTTCCCAAGCCCCATCTTTGGTAGCTGCCCAGACCCCAGCTTCCAATTCTTCCCTCTTCTTTGCACAGGCAGCCGTCAGCCCCATAGCCCCACCGGCGTCCAGAAGAGACCACTTTTAGCAAATCCGGCAGGGCTGGGGCAGTCTAAGAGTTTGGAAACAAACTGAGAATAGAGGGATCCTATGTCATGCCAGCTTCTCGCTGGTTTACGCTCCAACTCCCCTCTGTCCGTTGTGCGAAAACGTCTCCGGGCCGACCTTCCTTCATTTATTGCCAACAAACGTCCTGGGAGAGCGGCTACAGCCGCTGAACCCAGAAGGGACTTTCTCCAGGCTTTCTTGGCACCCTCCCAATCATCTTCCTTCTCTTGCCCGAGGGCAGATCACCCGGCTACGAACGTGGGTGACTGAGGGTCAGGCCCCTTCCCGGAACCGCCTCCAAGCTCCTAACTTTTGCCTAATGTGAAACCATATCCAAAGATGAATATTTAAACCATCAGTTCAGCGGCGGAGTAAATTGAACGTTATTCTCCGATCAAACAGGAGCTTCGGGTCCACCTGTTTGGAAGCTCCCAGGCGGCTTGGAGGGGTCCGGCCTTCGGGCGCGACCCGCAGGGGTTGCCTTGCCCGGCTCGCGGAACGGACGTTTACCCGTCGCAGCCACGAACCCACCAACGACACCAAGCACTGGCCGGGCAGACCAGGCGTCGTGGAGGCGCCCCAGCCCCCCAGCCCCCCGCAACGACGCGTCCCAGGGGTGCGCAGTGCTTGGCGCGGTGACCGGACCCGGCCGCCTTCCCGACCGCGCAGAGCGAGAGGCCACACCCTGGATCCCAGGCCGGGTCCCTGCGGTTCTGGGAGGGAGGTCCCGGACGCCTCCCAGATCTCGGGCTTCTGTAACCCCGAGGCCGGGTTTTAAAATCACGGCTCTTCCGAGTTACACGGAGAGTCCGTGGTCAAGGGTCAAGGGCGGCCTTCGACCCTCGGGATCGTCTTCTTGAGAAATGGCTGAGAGCTAAGCCTAGAGCTGCGCAGGGAAGGGAGCCAAAGAGCTGGCGCCGAGCGCGAAGGGCCGGGAGGCGCGGGGAGGCCCCTTACCCGCCCCACTGTC</sequence>
+    <transcript name="t1">
+      <comment>This transcript is identical to the RefSeq transcript NM_207305.4 but with the polyA tail removed.</comment>
+      <coordinates coord_system="LRG_452" start="5001" end="7187" strand="1" />
+      <cdna>
+        <sequence>GAAGACCATCATCCCTGGACTACGTTAGGAGGAAGTGGCACCGCTCCGAGGTAGGGGAAGAAGGGTTATAAAGGGAGGCGTCCACCACACATGGTCTTGAAGAAGCTTTTATAAAAGGCGAAGGCATCTTTGCCGGACGTTGTTGCAAAGGCGTAGAAACAAGCAGAGGAAAACATCCCAAAGGGTAACCACTAGCGTTCCTGCTTCTTGCAACATTCATCCCGGGCTTCCAGCTCAGCCCGCCGGGGCCAGGTGATCCGGCCGCCACATCCCCTGCGACTGAAGCACCTGCTCCGCCATGAACTTGCCAAGAGCTGAGCGCCTTCGCTCCACACCGCAGCGCAGCCTCCGGGACTCCGATGGGGAAGACGGTAAAATCGATGTCCTGGGAGAGGAGGAAGATGAAGACGAGGAGGAGGCGGCGAGCCAGCAGTTCCTAGAGCAGTCGCTCCAGCCGGGGCTGCAGGTGGCCCGGTGGGGCGGGGTTGCGCTTCCCCGAGAGCACATCGAGGGCGGCGGCGGCCCGAGCGACCCCTCAGAGTTTGGCACCGAGTTCAGGGCACCGCCAAGGTCTGCGGCGGCCTCTGAAGATGCCCGGCAGCCGGCAAAGCCCCCCTCCTCGTACATCGCGCTCATCACCATGGCCATCCTGCAAAGCCCGCACAAGCGCCTCACGCTCAGCGGCATCTGCGCCTTCATTAGTGACCGCTTCCCCTACTACCGCCGCAAGTTCCCCGCCTGGCAGAACAGCATCCGCCACAACCTCTCGCTGAACGACTGCTTCGTCAAGATCCCCCGCGAGCCGGGCCGCCCAGGCAAGGGCAACTACTGGAGCCTGGACCCCGCCTCCCAGGACATGTTCGACAATGGCAGCTTTCTCCGGCGTAGGAAGCGTTTCCAGCGCCACCAACCGACCCCGGGAGCCCACCTGCCCCACCCCTTCCCTCTACCTGCTGCACACGCCGCCCTGCACAACCCCCGCCCAGGCCCTCTGCTTGGGGCCCCTGCCCCGCCGCAGCCAGTCCCGGGGGCCTACCCCAACACCGGCCCCGGGAGACGCCCTTACGCTCTGCTGCACCCGCATCCTCCTCGCTACCTACTGCTCTCGGCCCCCGCCTATGCCGGGGCACCGAAGAAAGCAGAAGGCGCGGACCTGGCGACCCCGGCACCCTTCCCGTGCTGCAGCCCTCACTTGGTCCTCAGCCTTGGGAGGAGGGCAAGGGTCTGGCGTCGCCACCGGGAGGCGGATGCATCTCTTTCAGCATTGAGAGTATCATGCAAGGGGTCAGGGGAGCGGGTACAGGGGCTGCGCAGAGTTTGTCCCCGACCGCGTGGAGCTACTGCCCCCTGCTCCAGCGACCGTCAAGCCTGTCGGACAATTTTGCAGCAACAGCAGCGGCATCAGGAGGAGGACTGCGCCAACGGCTGCGCTCCCACCAAGGGCGCGGTGCTGGGCGGGCACCTGTCGGCCGCGTCGGCGCTGCTGCGGTATCAGGCGGTGGCAGAGGGCTCTGGGCTGACATCGCTGGCCGCCCCTTTGGGCGGAGAGGGGACCTCACCAGTTTTTTTAGTATCGCCCACGCCCAGTTCCCTGGCCGAGTCCGCAGGGCCCTCCTAGAGCCAGGTGGGAGTGGGGAGCGACCCGCAGCTGCTCACTCCACCTTGCGCGGCCCATACTGGGCGTGTGCATCTGAATCCCGCTGGAGAGCAAACACGAACTTCTGTTCCCTGCAAAATGGTTAGAAAGAAACAGCTGGATTACGTTCCTCTAAAAACCACCTGAACGTAACCTTCGCAGGGCGTCAAGTCATCTTTTCTTGCCTTCGGTTGTGGCTTCTGTGGCTTTCCCGATTTGCACATGTCCTGGGGTACTATGAACGTGAGTGGGGTATTTTGTTCTGGCATTAAAAGAAAAACAAGCAAGCAAACAAAAACACAGCCTCCGATGCCAAACATGTTCCCCCTTCTTCACTTCCTTGGAACTGGAAGTATTATTCCTAAGTCTAGTGCAAAATGCTTCTACTCTCTGTGTCTTCCTGATAGGGATGTTTAATGTAAGTAGGATATTAATTTCAGAACATTGATTTCTTATCTGTGTGTCTGACGTGCCATCTTTAATGTTAAAATTAAGGTGTTAAAATTAAGCCTAGTTATATAGACGAAATAAAATGCTAAGTCACTACACTA</sequence>
+      </cdna>
+      <coding_region>
+        <coordinates coord_system="LRG_452" start="5299" end="6618" strand="1" />
+        <translation name="p1">
+          <sequence>MNLPRAERLRSTPQRSLRDSDGEDGKIDVLGEEEDEDEEEAASQQFLEQSLQPGLQVARWGGVALPREHIEGGGGPSDPSEFGTEFRAPPRSAAASEDARQPAKPPSSYIALITMAILQSPHKRLTLSGICAFISDRFPYYRRKFPAWQNSIRHNLSLNDCFVKIPREPGRPGKGNYWSLDPASQDMFDNGSFLRRRKRFQRHQPTPGAHLPHPFPLPAAHAALHNPRPGPLLGAPAPPQPVPGAYPNTGPGRRPYALLHPHPPRYLLLSAPAYAGAPKKAEGADLATPAPFPCCSPHLVLSLGRRARVWRRHREADASLSALRVSCKGSGERVQGLRRVCPRPRGATAPCSSDRQACRTILQQQQRHQEEDCANGCAPTKGAVLGGHLSAASALLRYQAVAEGSGLTSLAAPLGGEGTSPVFLVSPTPSSLAESAGPS</sequence>
+        </translation>
+      </coding_region>
+      <exon label="1">
+        <coordinates coord_system="LRG_452" start="5001" end="7187" strand="1" />
+        <coordinates coord_system="LRG_452t1" start="1" end="2187" />
+        <coordinates coord_system="LRG_452p1" start="1" end="439" />
+      </exon>
+    </transcript>
+  </fixed_annotation>
+  <updatable_annotation>
+    <annotation_set type="requester">
+      <source>
+        <name></name>
+        <contact>
+          <name>James Ware</name>
+          <address>Molecular Cardiology, Imperial College, London, UK</address>
+          <email>j.ware@imperial.ac.uk</email>
+        </contact>
+      </source>
+      <modification_date>2015-06-22</modification_date>
+    </annotation_set>
+    <annotation_set type="lrg">
+      <source>
+        <name>LRG</name>
+        <url>http://www.lrg-sequence.org/</url>
+        <contact>
+          <name>Locus Reference Genomic</name>
+          <url>http://www.lrg-sequence.org/contact</url>
+          <email>feedback@lrg-sequence.org</email>
+        </contact>
+      </source>
+      <modification_date>2015-06-22</modification_date>
+      <mapping coord_system="GRCh37.p13" other_name="9" other_id="NC_000009.11" other_id_syn="CM000671.1" other_start="114234" other_end="123417" type="other_assembly">
+        <mapping_span lrg_start="1" lrg_end="9184" other_start="114234" other_end="123417" strand="-1" />
+      </mapping>
+      <mapping coord_system="GRCh38.p2" other_name="9" other_id="NC_000009.12" other_id_syn="CM000671.2" other_start="114234" other_end="123417" type="main_assembly">
+        <mapping_span lrg_start="1" lrg_end="9184" other_start="114234" other_end="123417" strand="-1" />
+      </mapping>
+      <lrg_locus source="HGNC">FOXD4</lrg_locus>
+    </annotation_set>
+    <annotation_set type="ncbi">
+      <source>
+        <name>NCBI RefSeqGene</name>
+        <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
+        <contact>
+          <name>RefSeqGene Group</name>
+          <address>NCBI/NLM/NIH</address>
+          <email>rsgene@ncbi.nlm.nih.gov</email>
+        </contact>
+      </source>
+      <comment>Annotation from NG_032165.1</comment>
+      <modification_date>2015-06-19</modification_date>
+      <mapping coord_system="NM_207305.4" other_name="NM_207305.4" other_id="NM_207305.4" other_start="1" other_end="2187" type="transcript">
+        <mapping_span lrg_start="5001" lrg_end="7187" other_start="1" other_end="2187" strand="1" />
+      </mapping>
+      <features>
+        <gene source="NCBI-Gene" accession="55871">
+          <symbol source="HGNC" name="CBWD1">
+            <synonym>COBP</synonym>
+          </symbol>
+          <coordinates coord_system="LRG_452" start="1" end="2380" strand="1" />
+          <partial>5-prime</partial>
+          <long_name>COBW domain containing 1</long_name>
+          <db_xref source="GeneID" accession="55871" />
+          <db_xref source="HGNC" accession="HGNC:17134" />
+          <db_xref source="MIM" accession="611078" />
+          <db_xref source="CCDS" accession="CCDS47947.1" />
+          <db_xref source="CCDS" accession="CCDS6438.1" />
+          <db_xref source="CCDS" accession="CCDS47948.1" />
+          <transcript source="RefSeq" accession="NM_018491.3">
+            <coordinates coord_system="LRG_452" start="1" end="2380" strand="1" />
+            <partial>5-prime</partial>
+            <long_name>COBW domain containing 1, transcript variant 1</long_name>
+            <db_xref source="GeneID" accession="55871" />
+            <db_xref source="GI" accession="126722883" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_452" start="1" end="32" strand="1" />
+              <partial>5-prime</partial>
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_452" start="136" end="201" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_452" start="1328" end="1457" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_452" start="1845" end="2380" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_060961.3" codon_start="3">
+              <coordinates coord_system="LRG_452" start="1" end="1951" strand="1" />
+              <partial>5-prime</partial>
+              <long_name>COBW domain-containing protein 1 isoform 1</long_name>
+              <long_name>COBW-like protein</long_name>
+              <long_name>COBW domain-containing protein 1</long_name>
+              <long_name>NPC-A-6 COBW domain-containing protein 1</long_name>
+              <long_name>cobalamin synthetase W domain-containing protein 1</long_name>
+              <long_name>cobalamin synthase W domain-containing protein 1</long_name>
+              <db_xref source="CCDS" accession="CCDS6438.1" />
+              <db_xref source="GeneID" accession="55871" />
+              <db_xref source="GI" accession="126722884" />
+            </protein_product>
+          </transcript>
+          <transcript source="RefSeq" accession="NM_001145355.1">
+            <coordinates coord_system="LRG_452" start="1" end="2380" strand="1" />
+            <partial>5-prime</partial>
+            <long_name>COBW domain containing 1, transcript variant 2</long_name>
+            <db_xref source="GeneID" accession="55871" />
+            <db_xref source="GI" accession="223941775" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_452" start="1" end="32" strand="1" />
+              <partial>5-prime</partial>
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_452" start="136" end="201" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_452" start="1328" end="1457" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_452" start="1845" end="2380" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_001138827.1" codon_start="3">
+              <coordinates coord_system="LRG_452" start="1" end="1951" strand="1" />
+              <partial>5-prime</partial>
+              <long_name>COBW domain-containing protein 1 isoform 2</long_name>
+              <long_name>COBW-like protein</long_name>
+              <long_name>COBW domain-containing protein 1</long_name>
+              <long_name>NPC-A-6 COBW domain-containing protein 1</long_name>
+              <long_name>cobalamin synthetase W domain-containing protein 1</long_name>
+              <long_name>cobalamin synthase W domain-containing protein 1</long_name>
+              <db_xref source="CCDS" accession="CCDS47948.1" />
+              <db_xref source="GeneID" accession="55871" />
+              <db_xref source="GI" accession="223941776" />
+            </protein_product>
+          </transcript>
+          <transcript source="RefSeq" accession="NM_001145356.1">
+            <coordinates coord_system="LRG_452" start="1" end="2380" strand="1" />
+            <partial>5-prime</partial>
+            <long_name>COBW domain containing 1, transcript variant 3</long_name>
+            <db_xref source="GeneID" accession="55871" />
+            <db_xref source="GI" accession="223941778" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_452" start="1" end="32" strand="1" />
+              <partial>5-prime</partial>
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_452" start="136" end="201" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_452" start="1328" end="1457" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_452" start="1845" end="2380" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_001138828.1" codon_start="3">
+              <coordinates coord_system="LRG_452" start="1" end="1951" strand="1" />
+              <partial>5-prime</partial>
+              <long_name>COBW domain-containing protein 1 isoform 3</long_name>
+              <long_name>COBW-like protein</long_name>
+              <long_name>COBW domain-containing protein 1</long_name>
+              <long_name>NPC-A-6 COBW domain-containing protein 1</long_name>
+              <long_name>cobalamin synthetase W domain-containing protein 1</long_name>
+              <long_name>cobalamin synthase W domain-containing protein 1</long_name>
+              <db_xref source="CCDS" accession="CCDS47947.1" />
+              <db_xref source="GeneID" accession="55871" />
+              <db_xref source="GI" accession="223941779" />
+            </protein_product>
+          </transcript>
+        </gene>
+        <gene source="NCBI-Gene" accession="2298">
+          <symbol source="HGNC" name="FOXD4">
+            <synonym>FKHL9</synonym>
+            <synonym>FOXD4A</synonym>
+            <synonym>FREAC-5</synonym>
+            <synonym>FREAC5</synonym>
+          </symbol>
+          <coordinates coord_system="LRG_452" start="5001" end="7187" strand="1" />
+          <long_name>forkhead box D4</long_name>
+          <db_xref source="GeneID" accession="2298" />
+          <db_xref source="HGNC" accession="HGNC:3805" />
+          <db_xref source="MIM" accession="601092" />
+          <db_xref source="CCDS" accession="CCDS34975.1" />
+          <db_xref source="GI" accession="380848767" />
+          <transcript source="RefSeq" accession="NM_207305.4" fixed_id="t1">
+            <coordinates coord_system="LRG_452" start="5001" end="7187" strand="1" />
+            <long_name>forkhead box D4</long_name>
+            <db_xref source="GeneID" accession="2298" />
+            <db_xref source="GI" accession="380692348" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_452" start="5001" end="7187" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_997188.2" fixed_id="p1">
+              <coordinates coord_system="LRG_452" start="5299" end="6618" strand="1" />
+              <long_name>forkhead box protein D4</long_name>
+              <long_name>myeloid factor-alpha</long_name>
+              <long_name>forkhead-related transcription factor 5</long_name>
+              <long_name>forkhead-related activator 5</long_name>
+              <long_name>forkhead, Drosophila, homolog-like 9</long_name>
+              <long_name>forkhead-related protein FKHL9</long_name>
+              <db_xref source="CCDS" accession="CCDS34975.1" />
+              <db_xref source="GeneID" accession="2298" />
+              <db_xref source="GI" accession="75677594" />
+            </protein_product>
+          </transcript>
+        </gene>
+      </features>
+    </annotation_set>
+    <annotation_set type="ensembl">
+      <source>
+        <name>Ensembl</name>
+        <url>http://www.ensembl.org/</url>
+        <contact>
+          <name>Ensembl</name>
+          <address>European Bioinformatics Institute</address>
+          <email>helpdesk@ensembl.org</email>
+        </contact>
+      </source>
+      <comment>Annotation is based on Ensembl release 80 (GRCh38  primary assembly)</comment>
+      <modification_date>2015-06-22</modification_date>
+      <mapping coord_system="ENST00000382500.3" other_name="ENST00000382500.3" other_id="ENST00000382500.3" other_start="1" other_end="1974" type="transcript">
+        <mapping_span lrg_start="5214" lrg_end="7187" other_start="1" other_end="1974" strand="1" />
+      </mapping>
+      <features>
+        <gene source="Ensembl" accession="ENSG00000172785.17">
+          <symbol source="HGNC" name="CBWD1" />
+          <coordinates coord_system="LRG_452" start="1" end="2380" strand="1" mapped_from="GRCh38" />
+          <partial>5-prime</partial>
+          <long_name>COBW domain containing 1 (protein_coding)</long_name>
+          <db_xref source="GeneID" accession="150472" />
+          <db_xref source="GeneID" accession="55871">
+            <synonym>COBP</synonym>
+          </db_xref>
+          <db_xref source="MIM" accession="611078" />
+          <db_xref source="HGNC" accession="17134" />
+          <db_xref source="Ensembl" accession="ENSG00000172785" />
+          <transcript source="Ensembl" accession="ENST00000356521.7">
+            <coordinates coord_system="LRG_452" start="1" end="2380" strand="1" mapped_from="GRCh38" />
+            <partial>5-prime</partial>
+            <long_name>CBWD1-008 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS6438.1" />
+            <db_xref source="RefSeq" accession="NM_018491.3" />
+            <exon source="Ensembl" accession="ENSE00003537099">
+              <coordinates coord_system="LRG_452" start="1" end="32" strand="1" mapped_from="GRCh38" />
+              <partial>5-prime</partial>
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003634857">
+              <coordinates coord_system="LRG_452" start="136" end="201" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003587421">
+              <coordinates coord_system="LRG_452" start="1328" end="1457" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003732326">
+              <coordinates coord_system="LRG_452" start="1845" end="2380" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000348915.4">
+              <coordinates coord_system="LRG_452" start="1" end="1951" strand="1" mapped_from="GRCh38" />
+              <partial>5-prime</partial>
+              <long_name>COBW domain-containing protein 1 isoform 1</long_name>
+              <db_xref source="RefSeq" accession="NP_060961.3" />
+              <db_xref source="UniProtKB" accession="Q9BRT8">
+                <synonym>A2RU55</synonym>
+                <synonym>A8K3N3</synonym>
+                <synonym>B0AZR4</synonym>
+                <synonym>Q49AJ1</synonym>
+                <synonym>Q5VVK2</synonym>
+                <synonym>Q6VBU6</synonym>
+                <synonym>Q7Z5Z0</synonym>
+                <synonym>Q7Z652</synonym>
+                <synonym>Q9BY38</synonym>
+                <synonym>Q9NYD0</synonym>
+              </db_xref>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000377400.7">
+            <coordinates coord_system="LRG_452" start="1" end="2377" strand="1" mapped_from="GRCh38" />
+            <partial>5-prime</partial>
+            <long_name>CBWD1-019 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS6438.1" />
+            <exon source="Ensembl" accession="ENSE00003537099">
+              <coordinates coord_system="LRG_452" start="1" end="32" strand="1" mapped_from="GRCh38" />
+              <partial>5-prime</partial>
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003634857">
+              <coordinates coord_system="LRG_452" start="136" end="201" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003587421">
+              <coordinates coord_system="LRG_452" start="1328" end="1457" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001850433">
+              <coordinates coord_system="LRG_452" start="1845" end="2377" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000366617.5">
+              <coordinates coord_system="LRG_452" start="1" end="1951" strand="1" mapped_from="GRCh38" />
+              <partial>5-prime</partial>
+              <db_xref source="UniProtKB" accession="Q9BRT8">
+                <synonym>A2RU55</synonym>
+                <synonym>A8K3N3</synonym>
+                <synonym>B0AZR4</synonym>
+                <synonym>Q49AJ1</synonym>
+                <synonym>Q5VVK2</synonym>
+                <synonym>Q6VBU6</synonym>
+                <synonym>Q7Z5Z0</synonym>
+                <synonym>Q7Z652</synonym>
+                <synonym>Q9BY38</synonym>
+                <synonym>Q9NYD0</synonym>
+              </db_xref>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000475990.4">
+            <coordinates coord_system="LRG_452" start="1" end="2366" strand="1" mapped_from="GRCh38" />
+            <partial>5-prime</partial>
+            <long_name>CBWD1-004 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00003537099">
+              <coordinates coord_system="LRG_452" start="1" end="32" strand="1" mapped_from="GRCh38" />
+              <partial>5-prime</partial>
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001899167">
+              <coordinates coord_system="LRG_452" start="136" end="2366" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000478349.1" codon_start="3">
+              <coordinates coord_system="LRG_452" start="1" end="255" strand="1" mapped_from="GRCh38" />
+              <partial>5-prime</partial>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000619157.3">
+            <coordinates coord_system="LRG_452" start="1" end="2360" strand="1" mapped_from="GRCh38" />
+            <partial>5-prime</partial>
+            <long_name>CBWD1-026 (nonsense_mediated_decay)</long_name>
+            <exon source="Ensembl" accession="ENSE00003690842">
+              <coordinates coord_system="LRG_452" start="1" end="32" strand="1" mapped_from="GRCh38" />
+              <partial>5-prime</partial>
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003593429">
+              <coordinates coord_system="LRG_452" start="136" end="201" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003569247">
+              <coordinates coord_system="LRG_452" start="1328" end="1457" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003728121">
+              <coordinates coord_system="LRG_452" start="1845" end="2360" strand="1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000314367.13">
+            <coordinates coord_system="LRG_452" start="1" end="2358" strand="1" mapped_from="GRCh38" />
+            <partial>5-prime</partial>
+            <long_name>CBWD1-009 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS47948.1" />
+            <db_xref source="RefSeq" accession="NM_001145355.1" />
+            <exon source="Ensembl" accession="ENSE00003537099">
+              <coordinates coord_system="LRG_452" start="1" end="32" strand="1" mapped_from="GRCh38" />
+              <partial>5-prime</partial>
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003634857">
+              <coordinates coord_system="LRG_452" start="136" end="201" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003587421">
+              <coordinates coord_system="LRG_452" start="1328" end="1457" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003720567">
+              <coordinates coord_system="LRG_452" start="1845" end="2358" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000323433.10">
+              <coordinates coord_system="LRG_452" start="1" end="1951" strand="1" mapped_from="GRCh38" />
+              <partial>5-prime</partial>
+              <long_name>COBW domain-containing protein 1 isoform 2</long_name>
+              <db_xref source="RefSeq" accession="NP_001138827.1" />
+              <db_xref source="UniProtKB" accession="Q9BRT8">
+                <synonym>A2RU55</synonym>
+                <synonym>A8K3N3</synonym>
+                <synonym>B0AZR4</synonym>
+                <synonym>Q49AJ1</synonym>
+                <synonym>Q5VVK2</synonym>
+                <synonym>Q6VBU6</synonym>
+                <synonym>Q7Z5Z0</synonym>
+                <synonym>Q7Z652</synonym>
+                <synonym>Q9BY38</synonym>
+                <synonym>Q9NYD0</synonym>
+              </db_xref>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000475411.4">
+            <coordinates coord_system="LRG_452" start="1" end="2329" strand="1" mapped_from="GRCh38" />
+            <partial>5-prime</partial>
+            <long_name>CBWD1-002 (retained_intron)</long_name>
+            <exon source="Ensembl" accession="ENSE00003690842">
+              <coordinates coord_system="LRG_452" start="1" end="32" strand="1" mapped_from="GRCh38" />
+              <partial>5-prime</partial>
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003593429">
+              <coordinates coord_system="LRG_452" start="136" end="201" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001869933">
+              <coordinates coord_system="LRG_452" start="1328" end="2329" strand="1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000612045.3">
+            <coordinates coord_system="LRG_452" start="1" end="2329" strand="1" mapped_from="GRCh38" />
+            <partial>5-prime</partial>
+            <long_name>CBWD1-025 (nonsense_mediated_decay)</long_name>
+            <exon source="Ensembl" accession="ENSE00003690842">
+              <coordinates coord_system="LRG_452" start="1" end="32" strand="1" mapped_from="GRCh38" />
+              <partial>5-prime</partial>
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003593429">
+              <coordinates coord_system="LRG_452" start="136" end="201" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003569247">
+              <coordinates coord_system="LRG_452" start="1328" end="1457" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003751883">
+              <coordinates coord_system="LRG_452" start="1845" end="2329" strand="1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000611457.3">
+            <coordinates coord_system="LRG_452" start="1" end="2327" strand="1" mapped_from="GRCh38" />
+            <partial>5-prime</partial>
+            <long_name>CBWD1-029 (retained_intron)</long_name>
+            <exon source="Ensembl" accession="ENSE00003690842">
+              <coordinates coord_system="LRG_452" start="1" end="32" strand="1" mapped_from="GRCh38" />
+              <partial>5-prime</partial>
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003593429">
+              <coordinates coord_system="LRG_452" start="136" end="201" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003569247">
+              <coordinates coord_system="LRG_452" start="1328" end="1457" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003751359">
+              <coordinates coord_system="LRG_452" start="1845" end="2327" strand="1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000465014.5">
+            <coordinates coord_system="LRG_452" start="1" end="2194" strand="1" mapped_from="GRCh38" />
+            <partial>5-prime</partial>
+            <long_name>CBWD1-024 (nonsense_mediated_decay)</long_name>
+            <exon source="Ensembl" accession="ENSE00003690842">
+              <coordinates coord_system="LRG_452" start="1" end="32" strand="1" mapped_from="GRCh38" />
+              <partial>5-prime</partial>
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003593429">
+              <coordinates coord_system="LRG_452" start="136" end="201" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003569247">
+              <coordinates coord_system="LRG_452" start="1328" end="1457" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003729852">
+              <coordinates coord_system="LRG_452" start="1845" end="2194" strand="1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000613508.3">
+            <coordinates coord_system="LRG_452" start="1" end="2011" strand="1" mapped_from="GRCh38" />
+            <partial>5-prime</partial>
+            <long_name>CBWD1-027 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00003537099">
+              <coordinates coord_system="LRG_452" start="1" end="32" strand="1" mapped_from="GRCh38" />
+              <partial>5-prime</partial>
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003634857">
+              <coordinates coord_system="LRG_452" start="136" end="201" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003587421">
+              <coordinates coord_system="LRG_452" start="1328" end="1457" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003689618">
+              <coordinates coord_system="LRG_452" start="1845" end="2011" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000483870.1">
+              <coordinates coord_system="LRG_452" start="1" end="1951" strand="1" mapped_from="GRCh38" />
+              <partial>5-prime</partial>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000382447.7">
+            <coordinates coord_system="LRG_452" start="1" end="2009" strand="1" mapped_from="GRCh38" />
+            <partial>5-prime</partial>
+            <long_name>CBWD1-012 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS47947.1" />
+            <db_xref source="RefSeq" accession="NM_001145356.1" />
+            <exon source="Ensembl" accession="ENSE00003537099">
+              <coordinates coord_system="LRG_452" start="1" end="32" strand="1" mapped_from="GRCh38" />
+              <partial>5-prime</partial>
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003634857">
+              <coordinates coord_system="LRG_452" start="136" end="201" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003587421">
+              <coordinates coord_system="LRG_452" start="1328" end="1457" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001899746">
+              <coordinates coord_system="LRG_452" start="1845" end="2009" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000371885.4">
+              <coordinates coord_system="LRG_452" start="1" end="1951" strand="1" mapped_from="GRCh38" />
+              <partial>5-prime</partial>
+              <long_name>COBW domain-containing protein 1 isoform 3</long_name>
+              <db_xref source="RefSeq" accession="NP_001138828.1" />
+              <db_xref source="UniProtKB" accession="Q9BRT8">
+                <synonym>A2RU55</synonym>
+                <synonym>A8K3N3</synonym>
+                <synonym>B0AZR4</synonym>
+                <synonym>Q49AJ1</synonym>
+                <synonym>Q5VVK2</synonym>
+                <synonym>Q6VBU6</synonym>
+                <synonym>Q7Z5Z0</synonym>
+                <synonym>Q7Z652</synonym>
+                <synonym>Q9BY38</synonym>
+                <synonym>Q9NYD0</synonym>
+              </db_xref>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000487575.5">
+            <coordinates coord_system="LRG_452" start="1" end="2008" strand="1" mapped_from="GRCh38" />
+            <partial>5-prime</partial>
+            <long_name>CBWD1-014 (processed_transcript)</long_name>
+            <exon source="Ensembl" accession="ENSE00003690842">
+              <coordinates coord_system="LRG_452" start="1" end="32" strand="1" mapped_from="GRCh38" />
+              <partial>5-prime</partial>
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003593429">
+              <coordinates coord_system="LRG_452" start="136" end="201" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003569247">
+              <coordinates coord_system="LRG_452" start="1328" end="1457" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003579091">
+              <coordinates coord_system="LRG_452" start="1845" end="2008" strand="1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000464198.4">
+            <coordinates coord_system="LRG_452" start="1" end="2007" strand="1" mapped_from="GRCh38" />
+            <partial>5-prime</partial>
+            <long_name>CBWD1-005 (retained_intron)</long_name>
+            <exon source="Ensembl" accession="ENSE00001861051">
+              <coordinates coord_system="LRG_452" start="1" end="32" strand="1" mapped_from="GRCh38" />
+              <partial>5-prime</partial>
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003593429">
+              <coordinates coord_system="LRG_452" start="136" end="201" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003569247">
+              <coordinates coord_system="LRG_452" start="1328" end="1457" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001883856">
+              <coordinates coord_system="LRG_452" start="1845" end="2007" strand="1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000495302.4">
+            <coordinates coord_system="LRG_452" start="1" end="2000" strand="1" mapped_from="GRCh38" />
+            <partial>5-prime</partial>
+            <long_name>CBWD1-003 (processed_transcript)</long_name>
+            <exon source="Ensembl" accession="ENSE00003690842">
+              <coordinates coord_system="LRG_452" start="1" end="32" strand="1" mapped_from="GRCh38" />
+              <partial>5-prime</partial>
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003593429">
+              <coordinates coord_system="LRG_452" start="136" end="201" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003569247">
+              <coordinates coord_system="LRG_452" start="1328" end="1457" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001858908">
+              <coordinates coord_system="LRG_452" start="1845" end="2000" strand="1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000462513.4">
+            <coordinates coord_system="LRG_452" start="1" end="1915" strand="1" mapped_from="GRCh38" />
+            <partial>5-prime</partial>
+            <long_name>CBWD1-006 (processed_transcript)</long_name>
+            <exon source="Ensembl" accession="ENSE00003690842">
+              <coordinates coord_system="LRG_452" start="1" end="32" strand="1" mapped_from="GRCh38" />
+              <partial>5-prime</partial>
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003593429">
+              <coordinates coord_system="LRG_452" start="136" end="201" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001878625">
+              <coordinates coord_system="LRG_452" start="1282" end="1457" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001841938">
+              <coordinates coord_system="LRG_452" start="1845" end="1915" strand="1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000616944.3">
+            <coordinates coord_system="LRG_452" start="1" end="727" strand="1" mapped_from="GRCh38" />
+            <partial>5-prime</partial>
+            <long_name>CBWD1-023 (nonsense_mediated_decay)</long_name>
+            <exon source="Ensembl" accession="ENSE00003690842">
+              <coordinates coord_system="LRG_452" start="1" end="32" strand="1" mapped_from="GRCh38" />
+              <partial>5-prime</partial>
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003728282">
+              <coordinates coord_system="LRG_452" start="136" end="727" strand="1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000613355.3">
+            <coordinates coord_system="LRG_452" start="1" end="575" strand="1" mapped_from="GRCh38" />
+            <partial>5-prime</partial>
+            <long_name>CBWD1-022 (nonsense_mediated_decay)</long_name>
+            <exon source="Ensembl" accession="ENSE00003690842">
+              <coordinates coord_system="LRG_452" start="1" end="32" strand="1" mapped_from="GRCh38" />
+              <partial>5-prime</partial>
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003750817">
+              <coordinates coord_system="LRG_452" start="136" end="575" strand="1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+        </gene>
+        <gene source="Ensembl" accession="ENSG00000170122.5">
+          <symbol source="HGNC" name="FOXD4" />
+          <coordinates coord_system="LRG_452" start="5214" end="7187" strand="1" mapped_from="GRCh38" />
+          <long_name>forkhead box D4 (protein_coding)</long_name>
+          <db_xref source="GeneID" accession="2298">
+            <synonym>FKHL9</synonym>
+            <synonym>FOXD4A</synonym>
+            <synonym>FREAC-5</synonym>
+            <synonym>FREAC5</synonym>
+          </db_xref>
+          <db_xref source="MIM" accession="601092" />
+          <db_xref source="HGNC" accession="3805">
+            <synonym>FKHL9</synonym>
+            <synonym>FOXD4a</synonym>
+            <synonym>FREAC5</synonym>
+          </db_xref>
+          <db_xref source="Ensembl" accession="ENSG00000170122" />
+          <transcript source="Ensembl" accession="ENST00000382500.3">
+            <coordinates coord_system="LRG_452" start="5214" end="7187" strand="1" mapped_from="GRCh38" />
+            <long_name>FOXD4-001 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS34975.1" />
+            <db_xref source="RefSeq" accession="NM_207305.4" />
+            <exon source="Ensembl" accession="ENSE00001492340">
+              <coordinates coord_system="LRG_452" start="5214" end="7187" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000371940.2">
+              <coordinates coord_system="LRG_452" start="5299" end="6618" strand="1" mapped_from="GRCh38" />
+              <long_name>forkhead box protein D4</long_name>
+              <db_xref source="RefSeq" accession="NP_997188.2" />
+              <db_xref source="UniProtKB" accession="Q12950">
+                <synonym>B2RN05</synonym>
+                <synonym>B9EGL7</synonym>
+                <synonym>Q5VVK1</synonym>
+                <synonym>Q8WXT6</synonym>
+              </db_xref>
+            </protein_product>
+          </transcript>
+        </gene>
+      </features>
+    </annotation_set>
+    <annotation_set type="lsdb">
+      <source>
+        <name>List of locus specific databases for FOXD4</name>
+        <url>http://grenada.lumc.nl/LSDB_list/lsdbs/FOXD4</url>
+      </source>
+      <modification_date>2015-06-22</modification_date>
+    </annotation_set>
+  </updatable_annotation>
+</lrg>

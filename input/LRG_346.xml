@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="application/xml" href="lrg2html.xsl"?>
+
+<lrg schema_version="1.9">
+  <fixed_annotation>
+    <id>LRG_346</id>
+    <hgnc_id>14377</hgnc_id>
+    <sequence_source>NG_011765.1</sequence_source>
+    <organism taxon="9606">Homo sapiens</organism>
+    <source>
+      <name>RAPID: Resource of Asian Primary Immunodeficiency Diseases</name>
+      <url>http://web16.kazusa.or.jp/rapid/browseByPIDGenes</url>
+      <contact>
+        <name>Sujatha Mohan</name>
+        <address>The Institute of Physical and Chemical Research (RIKEN), Japan</address>
+        <email>sujatha@rcai.riken.jp</email>
+      </contact>
+    </source>
+    <mol_type>dna</mol_type>
+    <creation_date>2013-04-30</creation_date>
+    <sequence>AATGGAATATTATTTAATAATAAAGCACTAGGTTGGGCATGGTGGCTCACGCCTGTAATCCCAGCACTTTGGGAGGCAGAGGTGGGCAGATCATGAGGTCAGGAGTTCGAGACCAGCCTGGCCAACATGGTGAAACCCCGTCTCTACTAAACATGCAAAAATTGGCTGGGCGTGGTGGCACGTGCCTGTAATCTCAGCTACTAGAGAGGCTGAGGCAGGAGAATTGCTGGAACCCAGGAGGCAGAGGTTGCAGTGAGCCGAGATCATGCCATTGCACTCCAGCCTGGCCAACAGAGCGAGACTCCATCTCAAAATAATAATAATAATAAAGCACTAATAAATGCTGTAACATGGACAAACCTTGAAAATGTTATTCTAAGTAAAAGAAGCTAGTCACAAAAACTGCATATTACATGATTCTATTTCTATGAAATGTCCAGAACACAGAAATGGATAGAGACAGAACGTAGATTAGTGGTAGCTTAGAGTTCAGGAAAGATAAGGAGGTCAGAGGGTGACAGCTAAAGGGTACAGCGTTTCTTTTTTCTTTTCTTTTTTTTTTTTTTTTTTTGAGGTGGGGGTCTCACTGTGTCACCCTGGCTGGAGTTCATTGGCACAATCACAGCTCCCCACAGCCTTGATCTCCCAGACTCAGGTGGTCCTCCTGCAGGTTAGTCTCGATCTCCTGGGCTCAAGAGATTCTCTCCTGGCCGGGCGCGGTGGCTCACGCCTGTAATCCTAGCACTTTGGGAGGCCGAGGCGGGTGGATCACGAGGTCAGGAGATCGAGACCATCCTGGCTAACACAGTGAAACCCCGTCTCTACTAAAAATACAAAAAATTAGCCAGGCGTGGTGGCGGGTGCCTGTAGTCCCAGCTACTCAAGAGGCTGAGGCAGGAGAATGGCGTGAACCCGGGAGGCGGAGCTTGCAGTGAGCTGAGATCGTGCCACTGCACTCCAACCTGGGTGACAGAGCAAGACTCCGTCTCAAAATAAATAAATAAATAAATAAATAAATAAATAAATAAATAAATCCTCTCCAATTTTTTAAAAGATGGACCTTAGTCCATCTAGATCTAACTTTCTCACTTTATGGTGAAGCACTGACGCCCAGAGAGGCTAAATGACTTGCCTAAAGTCATTTGTCATTTAGAGCTCTGGACCAGTGTCCATTAATTTTTATGTTATCAGCCACTGTACACTGCTTAAAGTAAACTCAGCTGGGCACAGTAGCTCACACCTGTAATCCCAGCACTTTGGGAGTTCGAGGTAGGCAGATCACGTGAGGTCAGGAGTTTGAGACCAGCCTGGCCAACATGGTGAACCTCTGTCTCTACTAAAATACAAAAGTTAGCCAGGTGTGGTGGTGCATGCCTGTAATCCCAGCTACTTGGGAGGCTGAGGCATGAGACTCGCTTGAACCCGGGAGGCAGAGGTTGCAGTGAGCCGAGATTGCGCTACTGCACTCCAGCTGGGGCAACAGAGCGAGACTCCATCTCAAAAAAAAAAGAAAAAAGAAACAAAAAAGTAAGCTCAAATAGCCATTCCAACAAAATCCATAAAGTAATAAAGTCATGCAAAACAACCTGGGTTCAGAACAGATTTCTGAGTCTGGCTTTAGAAATACACAATGTGTTGGCTGGGCGCAGTGGCTCACACCTGTAATCCCAGCACTTTGGGAGGCCCAGGCAGGCAGATCACAAGGTCAGAGATCGAGACCATCCTGAATAACACAGTGAAACCCCGTCTCTACTCAAAATACAAAAATTAGCTGGGCGTGGCCGGGCGCAGTGGCTCACACCTGTAATCCCAGCACTTTGGGAGGCCGAGGCGGGTGGATCATGAGGTCATGAGTTCAAGACCAGCTTGGCCAAGATGGTGAAACCCCGTCTCTACTAAAACTACAAAAATTAGCTGGGTGCAGTGGCAGGCGTCTGTAATCCCAGCTACTCGGGAGGCTGAGGCAGGAGAATCGCTTGAACCCGGGTGGTGGAGGTTGTGGTGAGCCAAGATCGTGCCACTGCACTCCAGCCTGGGCGACAGAGTGAGACTCTGTCTCAAACAAACAAACAAACCAACAAAAATTAGCTAGGTGTAGTGGCAGGCACCAGTAGTCCCAGCTACTCGGGAGGCTGAGGCAGGAGAATGGCGTGATTCCAGGAGGCAGAGCTTGCAGTGAGCCAAGATGGGGCCACTATACTCCAGCCTGGGTGACAGAGCGAGACTCCGTCTCAAAAAAAAAAAAAGATAAGAAATACACAGTGTGTTAACAACAAAAAAAGAAAACAGGCCAGGTGCGGTGGCTTACATCTGTAATCCCAACACTTTGGGAGGCCAAGGCGAGTGGATCACTTGAGGTCAGGAGTTCGAGGCCAGCCTGGCCAACATGGTAAAACCCTATCTCTCCTAAAAGTACAAAAATTAGCTGGGCATGGTGGCGGGTGCCTGTAATCCCAGCTACTTGGGAGGCTGAGGCAGTAGGATCACTTGAATCTGGGAGGCAGATATTGCAGTGAGCTGAGATCATGCCACAGCCTGGGTGACAAAGGGAGACTCTGTCTTAAAAAAAAAAGGGGGCCGGGCGCGGTGGCTCATGCCTGTAATCCCAGCACTTTGGGAGGCCGAGGCGGGCAGAACATGAGGTCAGGAGATCGAGACCATCCTGGCTAACACGGTGAAACCCTAGTGAAACCCCGTCTCTACTAAAAATACAAAAAATTAGCCGGATGTGGTGGTGGGCACCTGTAGTCCCAGCTACTTGGCAGGCTGAGGCAGGAGAATGGCGTGAACCTGGGAGGCGGAGCTTGCAGTGAGCCGAGATGGTGCCACTGCACTCCAGCCTGGGCCAAAGTGCGAGACTCCATCTCAAAAAAAAAAAAAAGAAAAAAAAAGAAAAAGAAAACACTGTGGTTTTCTGAAGACATATTTGTTCTCAGCACTTCATTGTCTTATGGCTCAAAATGCAGACACGTGTGACCTGGGCCAAGCTGAGGTTCCTACACTTTCACTATTTACGTATCCTTTTGAGCTGAAGTCAAATGTCAAATCACAGGTATGGGTAAAGTCTGGGCTTGGAGACAAGTGGACCTGGGTTCAAATCCAGCTTTGTGTGAGCTGTACCAAACTATTCATCTTTATGTGTGTCAGTAAATTGTGAATATAAAGTTATATATTCCTGGTAAAAGGATGGTAAAGTCTTTACCTTTACCATAGAGGTATTTTTTGGTGAGCACTGAATGAGATATTGTATATAATATGCTCGCCACATAAATGTTAACTTTCTTTTTCCTTCCATGTAAGAGCTGAAGGGACTTCACAACCGAGGCTCTGAGTGAGGTCAGTCAAGCGAGCCCATTTGTTTGAATTTGTTTGAACTGGGTTCTCAGGAGTGAAATTCTCCATCACTCTGCTGGACAGAGTGATTTTTAGTAGAGACGGGGGTTTCACCGTGTTAGCCAGGATGGTCTCGATCTCCTGACCTCATGATCTGCCCGCCTCGGCCTCCCAAAGTGCTGGGATTACAGGCACCGCGCCCAGCCTATTTGTTTTTATTTAATGCAAAACAAAATTTATTGCACTTTAGTTCAGAGTTACAAGGTTTTTGTTGTTGTTGTTTTGTTTTAGAGACAAGATTTTCCTGGGTGGCCCAGACTGGAGTGCAGTGGCTATTCACAGGTGCAGTCATGGCTCACTGAAGCCTCTAACTTCTGGGCTCAAGCGAGCCCCCTCTCAGCCTCCCGGGTAGCTGGAACCACAGGCACGAGTCACCACACCCGGGAAAGGCCAATTTTTAAGTTGGTTTAACTGACCTGTGTTCCCACCCACAACTACCGGAACACTTCTAAGTTTCTACTTACTGGCCTGTTCCAGCAACACAAAAATGGCAGGCCTGCCACATCAGGATCAAAGGTAATTAGTATTACAAATTAGTAATTTGCAGCGATTATCTAATTAATATCCATCCAGAGTTCCAAAATATAGTGGAAGAGGCTAATCAGAGATACCAAGATCCACTGGATCTCGGCCTGCCACCGCCCCCCACGCCCTGGCAGCTCTGTCCCTTTACCTTCTACAGACCCGTCCAAAGGGTAGCTCCTCATAGCTCTCACCCTGCACGGCAGGGAGCTCAGTCCCCAAAGCCTTCCCTCCGCTGTTCCCGGCTTCGCTGGAGCCGTCCTTCCCTCAGCCCCGGCTGGCTTCTCGGCTAGGCCCTCTGCATGTGTAGCGTCAGGCAATGGTAAGAACTGCGGGAAAATAGCGGGTGAAGGGATGCTGGTTTGGAGAGAGAGGGGACGGCAATTTTAGATAAAATCACCAGGGAAACCTCTCCCATGGGAAACACTGAAACGGAACCCTGCGGGATGAGAGTGAGCCACACGCTATCTGTGGAAAAGCGGTGCAGACGCAGGTCAGTGGGGTCATCCCTTGCTCTGTATCTTTCACACCTGCGCAGCCGGGTCCAGGGGTCAGAAAACAAAGAAAAATTATGCAAGAAAGGAGGCAGCCTTAGGCCGGGCGCGGTGGCTCACGCCTGTAATCCCAGCACTTTGGGAGGCCGAGGCGGGCGGATCGCCTGAGGTCAGGAGTTCAAGACCAGCCTGACCAACATGGAGAACCCCTGTCTCTAGTAAAAATACAAAATTATCTGGGCGTGGTGGCGCATGCCTGCAATCCCAGCTACTCGGGAGGCTGAAGTAGGAGAATCGCTTGAACCCGGGAGGCGGAGGTTGCAGTGAGTCGAGATTGCGCCACTGTACCCCAGCCTGGGCAATAAGAGCGAAACTCTGCCTCAAAAAAGAAAAAAAACGAGGCAGCCTTTCCAGCACCCAGAGCCCCGCCCTCTCCGGCCCCGATTCCCAGGGCTCCGCCCCTTGCCTCACATTCCCTCCGCTCCGCCCTAATCGGTTCCGCCCAGTCCCTTGGTCCGGGGATGGCCCCGCCTTAAGGACCATGACTCCGCCCCTCTCCGCTCTCCGTAGTTACGAAGCTGGGCGTCAACGATTGGGCTGAGTCGGAGACTTCCTTTCCTGATTGGCCGTGTTGTACGGCGGCTTCTCGCGCAGCTGATGACCTGGAAGTGATGCCTAAAGCTGTGGACCGCGTGGGCTCGCCTCCCTGGGACTAGGTTTCAGCGGCCGCTGCGATGACCAAAATAAAGGCAGATCCCGACGGGCCCGAGGCTCAGGCGGAGGCGTGTTCCGGGGAGCGCACCTACCAGGAGCTGCTGGTCAACCAGAACCCCATCGCGCAGCCCCTGGCTTCTCGCCGCCTCACGCGGAAGCTCTACAAATGCATCAAGAAAGGTGAGGCGGACGGCGGCGTGGCCGGGATGGGTGCGCGGGTGGGATGGGTGCGCGGGTGGCTGAGCGAGGCCCCCGACCGACTCTTCTGTCGTTGCAGCGGTGAAGCAGAAGCAGATTCGGCGCGGGGTGAAAGAGGTTCAGAAATTTGTCAACAAAGGAGAAAAAGGGTAAGAACCTTCCTTCCTCTGGATTTTGCATTTCTAAACGTTAACGGAGAAATCTCTACTTAGTAGGCGCGCAGTAAAAAGGTTAACTCTGACCTAGCCCCATATACAGAAGCCAATCAAGCAGTCGGTAAAGTCCCTTTGGTACAATACCGGTACGACAATACCGGTACACCACGTATACCAGCTCAAAGTGAATTCCAAAGTGAAGCGAATTGTGTAAGCAAAGTCCCTTAGAGTAAACCCACCTTCATTAATTCAGGGACCCTCCTCCCCGGGCTCCGCTCCTTGCCTCAGATTACCTCCGGCCCCCGCCCTAATCCTCTCAGCCCTGAATCTCAGTCCTAGGGATGACCCCTCTCCGGCTCTGTATTTAAGGAACTGAACGTTAACGTTTTTGTTTGTTTTTGAGATGGGTCTAGCTCTCACCCAGGTTGGAGTGCGGTGGTGCGATCACAGCTCGCTGCAGCCTCGTCCCCCTGGGCTCAAGCGATCCTCCCACCTCAGCCTCCCGAATAGCTGAGACCACCGGCTTGCGCCACGCCTGGCTGTTGTTATTGTTGTTTTGCAGAGACAGAGGAGTCTCGCCATGTTGCCCGGGCTGGTCTTGAACTCCTGGGCTCAAGGAATCCTCCTGCCTCAGCCTCCCGAAGCGTTGGGATTACAGGCATGAGCCACCGCGCCTGGCAGCCTTAACAATTGAATGTACTCTTTTTCAGGCACTGTGTTATGGGGGAAACAGTGACATTCATTCATCAGATAATGACACACACACAACTAATTACACGTTGTGATAGATAGCCATGAAGGAAAATAACAGAGTGCAATGATAACTTCATCACCCCACTTTTCTTAATGGCATTTATCAAAGTTTGAACCTTGTTTACATTTTTCTTCCCTTTATCACCCTCTCAGGCCAGATGGTAAGCTCCTTCAGAACAGGGCCTCCTTGCTTTATCCCAAGAAGTGAAACTGTAGGTGCTCAAGAGATCAATAATGTTGGGCAGACTTGATGCTCAACGGCATCTAACCTAGCTGGGGAGGGCGCATCTGGGGAAGTTTCCCTCAGCAGTCACATTTGAGCTGAGGTCTTAAGACACAGGGATTAATTGGGGGGTGGGTGGGAGGATTCTGCCAGAAGAAAGAGTGGGCCTCTGGGCAGGAGAGGGTCTGGTGAGCAGAAGTGCTACCTTCTTAGGGGGCCTTGTAGGACACAGTAAATTTAGTTTTTATACTCAGCACTTTGGAGGCTATTAGGGGTTAAAGCCAGGAAGTGACATAATTTTTATTATTTTTTACACCCTAAGATTTTTCTGACAATTGAAGAAAGGATTAGAGAGGTACGAGTAGGTTTGGGAAAGTTCAGGTAGTAGACTACTGTAGTCCTGGAGAGGTGATGGTGGAGACAGAGTTAAAGGGGACAGATTTGAAAGGACTTTCAGATGTGGAGAATGGGGAGGTATTGACGACTTCTAGGTTCTGACATGCCCAGCTGGAGGGACAGAGGGCCCAATCTTGAGATGTGAACAGTGGAGGGGGACCAGATTTGTGTAGAAAGATCACAAATTTGGGTCTGGGTAAGTTTTTGAGGTGCTGTAGAGACACATGACTTCCACCCCGCCCCACACCAGGAGAACTGTCAAACAGGCAGATGGCTATAGGGGTTTGGAGCATGGAAGAGAGAGGGCCAGGCTGGAGATAGTACATCTGGGAGTTTTCAGCACATAGATGGCACCTGACCCCATGGCAGTGGCTCCGGTCAGCCAGGAAGAAGGTCCTGAGAGGAGAGGGCAGCCGAGGACAAGGCTGTGAGGAACACTCACAGTGAAAGGCGCTTAACAGAAGGGGAGCCAGCAGAGGGCCCAGAGGAGCACTAGGAGTGCGGAAGCATTCTTTCAGCCGAGGGCTCTGTCCTTGTGTGTCCGCCTGTTATCCAGCATGGGAGAGCAGACTTTTCCTTCTGTGTCTTAGGCTCCTGAGGCCCTTGCCCCCCAGCCTTGACACCTGGCCAGCTAGGAACCCTGGCTGAGTCTCTGGCAAGCTTTCATTGCCTCACTGTCACTCTTGGGACAGAGCCCATGCTTCTTAGCCTGGTACTCAAGGTCTTGGGGGTGTCCCCTGCCAGTCTCTCGGCTGTGTCTGGTGCCGTTCTGATTCTCACACCACATGCTCTCCCCCGCCCCAGCCCCTCCGTGGGCTGCCTGCCACACAGTCATCCATCAGCGTGCTGTTCAAGTGTCACCTCCTGGTTGAACCCTTTTTTGACTCTCCAAAGAGAGCTGAGCTCATACACCTTGGCACCCATCCTGTACTTCACCTGTCCGAGCACTACATCACTTTGGTGGCACCTGTATGTTGCCAAGAGGTAGAGATCACCCCCAAATAGTGTGCTCACCAAACACAATTTTGTCTCTATCCCTAAGACCCAGCCCAGGGCAGCACTTAAAACTGAAAGAAGGAAGGAGCAAGCCAGAGATGACAGTGTTTTCTCTCATTTCAGGATCATGGTTTTGGCAGGAGACACACTGCCCATTGAGGTATACTGCCATCTCCCAGTCATGTGTGAGGACCGAAATTTGCCCTATGTCTATATCCCCTCTAAGACGGTAAGGAGCACGTGGCCCCCTGACCTTGCTCAGCACTGGGGTGTCTGGGATAGTCTGCCATAGCAGGAGAGTGTGGGAAAGAGCCAGGAGTGTTGGAGCTAAGACAGGCCTGGATGGATTCTCAGCTCCACATCTTCTTAGTTTTGGGACTACAGATATGTTACTTCTTGCATTTCAGTTCCCATCTTGTAAAGTGGGAATCCCAGCCCAGGCGCTGTGGCTCACACCTGTAATCCTAGTGCTTTGGGAGGCCAAGACAGGAGGATCAGTTGAGGACAGGAGTTCAGGAATAACCTGCGCAACAAAGTGAGACTCCATCTCTACAAAAAAAATTTTTTTAATTAGCTGGGTGTGGTGGCACATGCCTGTAGTCCCAGCCACTTGGGAGGCTAAAGCAGGAGATCACTTGAACCCAGGAGTTCAAGGCTGCAGTGAGCCATGATCATACACCACCACACTCCAGACTGCATGACAGAGTGAGGCCCTGTCTCAAAAAAAAAAAATAGAGGCTGGGGGTGGATCTTGGGTACCTACAGTATCACTTCTTGGGATAAAGCAGGAGGCCCTGTTCTGAAGGAACTTACCGTTTGGCCTGATGGTAAGAACCAAATAGTCAGTTATCTGTGGACTATGAGAATAAAGAGATAGATGTATGTGAAAGAGCTTTGTAAGCTAAGATGCTTCACCCATGTTAGTCCGGTTAGGTGGGTTTAGGCTCAGAGGGACCTGTAGCTGTCCTTATCTTACGTAACAGGGGCCAGATCTGAGGCACAGGAAGTGGGGGTGGCAGGGACCGGGACAGCCCCTGCTGGGCTGGAGCCCTTTCATAGTTGCCATGTGGGAATGTAGGCCCTGTGTGGCTGGACCATGCCTTCAAAGTCTGATTGAGTTTAAATGATGGCAACCAATTCAAGATGCTTTTAAATAGAACATGGACCGAACAGAACATGGTTGTGGGCCAGATTAGGCTGGTGGGTCATCAGTTGGTGACTTCCTGGCATACAGGTTGTACAGCTTTTTTCCAAACAGCACTTCTTTCCCCTCTGTAGGACCTGGGTGCAGCCGCAGGCTCCAAGCGCCCCACCTGTGTGATAATGGTCAAGCCCCATGAGGAGTACCAGGAGGCTTACGATGAGTGCCTGGAGGAGGTGCAGTCCCTGCCCCTACCCCTATGAGGGGCTCCGGTAGCACCTGGGCACCTGCCGCTGGAAGCTATTGGGCTGGCAGCAGGACGACTGGCTGTCCTCCTGCCCACCCACACTGACGGCATCTTCCCAGTTCCCCAAGGCACGCCTTCTTCCCAGGCAGCTCTAACAGCCCTTTCATGAAGGTAATGCTAGTCTTCTGTCCATCAGTGCCATTTCCTGTAGAACTAAAGGCTGTTCCAAGAATGTGGGGTGGGGAAAGTAAATGCTAAGACTAAAATGTGGTGAGTCTGTGGGTGTTTTCTTAAGCAGCAGCTGCTGGTTGGGCCAGCGAGTTGGTGGGCGGGAAGAGTGAAGCAGTCTTCCTCAGCAGAGAGCCCAAAGGACTCAGAGGGTTCTGTGCTGATGCTCAGCTGCCCAGGGCCGGGTGCTTTGGCTCAAGCTGAGAACTGATCCTGCTGCTATCCCAGCATTTTCAACTCCCTCTTCCAGGGTAGATGGGGGCTGTGAGGTAAGGCAGGGGGCCCAGACCCACTTCATGGAAGCCTAAAGCCCCCACATCAGGAACACCCCCATTCCTAACTTAACCCAGGAGCCTTAAATGCCACTGTGAAGCTTATGGAAGCAATTTACCCACCCACACAGCACATTTTAAATAGGAATATGAAGCTAAAATGCATTCCCCCGAGCTCTCTTGCTTAACATAATGGCCCTAGTAACCCAATCCCTTCAAGTATTTTAGACTTGGGGCCCCTTCCTGCTGTCAGAGGCCCTGCACAGGACTCAGTATACATAACAGCCAAGTTCAGGCACCCTGGAATAAACTGGAAATAGCTTGGGCTTGAGGGTCAGATCTGGTTAAAACTCCAAGCTCTCTCCTTTCTAAGCTGTGAGCCCTGTTGTGCAAGTTACTTCATTTTCCTGAATCCCATTACACGGATTTCTCCTATGGAGTTAGTAAGATCTGGTATGGGTATATGTAAAAGCACCTTGCCCGGGGTCTGACATCTAAGCTCCCCGCAGTCAGGGATGCAAGTTGTGTTCTTCCTGCCTGGACACTGGATACCTGCTGGCCATGTTTTTGTTTGCGGCAGCCACCAGGCCGTGCCCAGTCCCTGTGTGTGGTAGACATGTGGTCATAATTTGTCAGTGAGGCTAAAGGTTGGCCAGGAGAAATGAGAAGGGCAGTAAATACATTTGTTCAAAGTTATAAAACAACGGCATTCCGTTCTAACTGGGACTATTTACAGTGGGAGATGGTACATACTGTTGAGGCTGTAGTGGGAGGAAGAGGTGGGCCACCGCTGGACACTCTTGGGCCGAGGGGCAAGGGTGGACATAGCATTGGCATGGCAGCAAGAGACTTGGCTGAGGGCAGGGGTGGAAGGATGTCTACTGCTGAAGACCAAATCCCTTGCCACTCTGTCGGTTGCTACTAAGTCAAACGCAAACAGAAACAGGAAAAGACAGCAGGAGCACAGAGGCCAGCATCTCCCTTTCCTTATGCCATGGAGCCAGGTGCCAGGCGTGGGCTGGTCCATCTCCCTCCTCAGCCTCTGCCAAAGGGCTGCTCCAGTGCTCCCCTCAGTGGAACTCCTCAGCCAGGCGCTCTGAAACCAACCACAGTCCACTGAAGTTGACCACCCTACCGAGACAGACCAAGGCTCACAGGTGAAAACCCCTTTCAACAAAATTCCTTCCAGGTAGGAATCAGAATATGATGCGTTTCCCATCTGCCGGGTTCTGCTCCATGGGACAGTAGGGACACTTCAGCCTGCAAAGGGAGGAGAACCGAGAACGTCTCAGGGGTGGCCAGTAGGAGAGCCAAGCCAAGGTGGAGTAGAGCACGGGGAACTTACTTTCCTCCATTAATGAGCTTATTGAGTGCATCTCGGGAGATAACATGGCCACAGATGAGCTTGATGGGAGGGTTGGAATCTGACGTCTGCTGGCGGAGGATGGGGCAAGCGAACACGGAGTGGTACCAGCACTTCATGCCTAGTTCAATCTCAATCTGGGAAGGGCAGCGAAGCGGGTGAGTTCCACTTCCTGTCATGGCTGTCCTCCCCAGTACCTCTTGCCCACGATTCCCCAGACCAGGCCTCACCGGTAACTCGTCCTTGTGATTCCAGACCCCAGTGCACTGCCGCTGCTCAATCACAGCCTTGATGTTCATCAACACAGGCAGCGCCACACAGCCAGAGGCAAAGCTGCAGACAAGGAACAGGGGCTAGAGTGGCTCAGATCACAGCAGACAGGCAAAAAGGGCCAGCGCGCCAT</sequence>
+    <transcript name="t1">
+      <comment>This transcript is identical to the RefSeq transcript NM_017838.3 but with the polyA tail removed.</comment>
+      <coordinates coord_system="LRG_346" start="5001" end="9498" strand="1" />
+      <cdna>
+        <sequence>ATTGGGCTGAGTCGGAGACTTCCTTTCCTGATTGGCCGTGTTGTACGGCGGCTTCTCGCGCAGCTGATGACCTGGAAGTGATGCCTAAAGCTGTGGACCGCGTGGGCTCGCCTCCCTGGGACTAGGTTTCAGCGGCCGCTGCGATGACCAAAATAAAGGCAGATCCCGACGGGCCCGAGGCTCAGGCGGAGGCGTGTTCCGGGGAGCGCACCTACCAGGAGCTGCTGGTCAACCAGAACCCCATCGCGCAGCCCCTGGCTTCTCGCCGCCTCACGCGGAAGCTCTACAAATGCATCAAGAAAGCGGTGAAGCAGAAGCAGATTCGGCGCGGGGTGAAAGAGGTTCAGAAATTTGTCAACAAAGGAGAAAAAGGGATCATGGTTTTGGCAGGAGACACACTGCCCATTGAGGTATACTGCCATCTCCCAGTCATGTGTGAGGACCGAAATTTGCCCTATGTCTATATCCCCTCTAAGACGGACCTGGGTGCAGCCGCAGGCTCCAAGCGCCCCACCTGTGTGATAATGGTCAAGCCCCATGAGGAGTACCAGGAGGCTTACGATGAGTGCCTGGAGGAGGTGCAGTCCCTGCCCCTACCCCTATGAGGGGCTCCGGTAGCACCTGGGCACCTGCCGCTGGAAGCTATTGGGCTGGCAGCAGGACGACTGGCTGTCCTCCTGCCCACCCACACTGACGGCATCTTCCCAGTTCCCCAAGGCACGCCTTCTTCCCAGGCAGCTCTAACAGCCCTTTCATGAAGGTAATGCTAGTCTTCTGTCCATCAGTGCCATTTCCTGTAGAACTAAAGGCTGTTCCAAGAATGTGGGGTGGGGAAAGTAAATGCTAAGACTAAAA</sequence>
+      </cdna>
+      <coding_region>
+        <coordinates coord_system="LRG_346" start="5144" end="9248" strand="1" />
+        <translation name="p1">
+          <sequence>MTKIKADPDGPEAQAEACSGERTYQELLVNQNPIAQPLASRRLTRKLYKCIKKAVKQKQIRRGVKEVQKFVNKGEKGIMVLAGDTLPIEVYCHLPVMCEDRNLPYVYIPSKTDLGAAAGSKRPTCVIMVKPHEEYQEAYDECLEEVQSLPLPL</sequence>
+        </translation>
+      </coding_region>
+      <exon label="1">
+        <coordinates coord_system="LRG_346" start="5001" end="5303" strand="1" />
+        <coordinates coord_system="LRG_346t1" start="1" end="303" />
+        <coordinates coord_system="LRG_346p1" start="1" end="54" />
+      </exon>
+      <intron phase="1" />
+      <exon label="2">
+        <coordinates coord_system="LRG_346" start="5401" end="5470" strand="1" />
+        <coordinates coord_system="LRG_346t1" start="304" end="373" />
+        <coordinates coord_system="LRG_346p1" start="54" end="77" />
+      </exon>
+      <intron phase="2" />
+      <exon label="3">
+        <coordinates coord_system="LRG_346" start="7968" end="8073" strand="1" />
+        <coordinates coord_system="LRG_346t1" start="374" end="479" />
+        <coordinates coord_system="LRG_346p1" start="77" end="112" />
+      </exon>
+      <intron phase="0" />
+      <exon label="4">
+        <coordinates coord_system="LRG_346" start="9123" end="9498" strand="1" />
+        <coordinates coord_system="LRG_346t1" start="480" end="855" />
+        <coordinates coord_system="LRG_346p1" start="113" end="153" />
+      </exon>
+    </transcript>
+  </fixed_annotation>
+  <updatable_annotation>
+    <annotation_set type="requester">
+      <source>
+        <name>RAPID: Resource of Asian Primary Immunodeficiency Diseases</name>
+        <url>http://web16.kazusa.or.jp/rapid/browseByPIDGenes</url>
+        <contact>
+          <name>Sujatha Mohan</name>
+          <address>The Institute of Physical and Chemical Research (RIKEN), Japan</address>
+          <email>sujatha@rcai.riken.jp</email>
+        </contact>
+      </source>
+      <modification_date>2015-06-22</modification_date>
+    </annotation_set>
+    <annotation_set type="lrg">
+      <source>
+        <name>LRG</name>
+        <url>http://www.lrg-sequence.org/</url>
+        <contact>
+          <name>Locus Reference Genomic</name>
+          <url>http://www.lrg-sequence.org/contact</url>
+          <email>feedback@lrg-sequence.org</email>
+        </contact>
+      </source>
+      <modification_date>2015-06-22</modification_date>
+      <mapping coord_system="GRCh37.p13" other_name="5" other_id="NC_000005.9" other_id_syn="CM000667.1" other_start="177574464" other_end="177585961" type="other_assembly">
+        <mapping_span lrg_start="1" lrg_end="11498" other_start="177574464" other_end="177585961" strand="-1" />
+      </mapping>
+      <mapping coord_system="GRCh38.p2" other_name="5" other_id="NC_000005.10" other_id_syn="CM000667.2" other_start="178147463" other_end="178158960" type="main_assembly">
+        <mapping_span lrg_start="1" lrg_end="11498" other_start="178147463" other_end="178158960" strand="-1" />
+      </mapping>
+      <lrg_locus source="HGNC">NHP2</lrg_locus>
+    </annotation_set>
+    <annotation_set type="ncbi">
+      <source>
+        <name>NCBI RefSeqGene</name>
+        <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
+        <contact>
+          <name>RefSeqGene Group</name>
+          <address>NCBI/NLM/NIH</address>
+          <email>rsgene@ncbi.nlm.nih.gov</email>
+        </contact>
+      </source>
+      <comment>Annotation from NG_011765.1</comment>
+      <modification_date>2015-06-19</modification_date>
+      <mapping coord_system="NM_001034833.1" other_name="NM_001034833.1" other_id="NM_001034833.1" other_start="1" other_end="749" type="transcript">
+        <mapping_span lrg_start="5001" lrg_end="5303" other_start="1" other_end="303" strand="1" />
+        <mapping_span lrg_start="5401" lrg_end="5470" other_start="304" other_end="373" strand="1" />
+        <mapping_span lrg_start="9123" lrg_end="9498" other_start="374" other_end="749" strand="1" />
+      </mapping>
+      <mapping coord_system="NM_017838.3" other_name="NM_017838.3" other_id="NM_017838.3" other_start="1" other_end="855" type="transcript">
+        <mapping_span lrg_start="5001" lrg_end="5303" other_start="1" other_end="303" strand="1" />
+        <mapping_span lrg_start="5401" lrg_end="5470" other_start="304" other_end="373" strand="1" />
+        <mapping_span lrg_start="7968" lrg_end="8073" other_start="374" other_end="479" strand="1" />
+        <mapping_span lrg_start="9123" lrg_end="9498" other_start="480" other_end="855" strand="1" />
+      </mapping>
+      <features>
+        <gene source="NCBI-Gene" accession="55651">
+          <symbol source="HGNC" name="NHP2">
+            <synonym>DKCB2</synonym>
+            <synonym>NHP2P</synonym>
+            <synonym>NOLA2</synonym>
+          </symbol>
+          <coordinates coord_system="LRG_346" start="5001" end="9498" strand="1" />
+          <long_name>NHP2 ribonucleoprotein</long_name>
+          <db_xref source="GeneID" accession="55651" />
+          <db_xref source="HGNC" accession="HGNC:14377" />
+          <db_xref source="MIM" accession="606470" />
+          <db_xref source="CCDS" accession="CCDS34308.1" />
+          <db_xref source="CCDS" accession="CCDS4432.1" />
+          <db_xref source="GI" accession="226371644" />
+          <transcript source="RefSeq" accession="NM_017838.3" fixed_id="t1">
+            <coordinates coord_system="LRG_346" start="5001" end="9498" strand="1" />
+            <long_name>NHP2 ribonucleoprotein, transcript variant 1</long_name>
+            <db_xref source="GeneID" accession="55651" />
+            <db_xref source="GI" accession="53729323" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_346" start="5001" end="5303" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_346" start="5401" end="5470" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_346" start="7968" end="8073" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_346" start="9123" end="9498" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_060308.1" fixed_id="p1">
+              <coordinates coord_system="LRG_346" start="5144" end="9248" strand="1" />
+              <long_name>H/ACA ribonucleoprotein complex subunit 2 isoform a</long_name>
+              <long_name>nucleolar protein family A, member 2 (H/ACA small nucleolar RNPs)</long_name>
+              <long_name>h/ACA ribonucleoprotein complex subunit 2</long_name>
+              <long_name>NHP2-like protein</long_name>
+              <long_name>snoRNP protein NHP2</long_name>
+              <long_name>NHP2 ribonucleoprotein homolog</long_name>
+              <db_xref source="CCDS" accession="CCDS4432.1" />
+              <db_xref source="GeneID" accession="55651" />
+              <db_xref source="GI" accession="8923444" />
+            </protein_product>
+          </transcript>
+          <transcript source="RefSeq" accession="NM_001034833.1">
+            <coordinates coord_system="LRG_346" start="5001" end="9498" strand="1" />
+            <long_name>NHP2 ribonucleoprotein, transcript variant 2</long_name>
+            <db_xref source="GeneID" accession="55651" />
+            <db_xref source="GI" accession="77812673" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_346" start="5001" end="5303" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_346" start="5401" end="5470" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_346" start="9123" end="9498" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_001030005.1">
+              <coordinates coord_system="LRG_346" start="5144" end="9165" strand="1" />
+              <long_name>H/ACA ribonucleoprotein complex subunit 2 isoform b</long_name>
+              <db_xref source="CCDS" accession="CCDS34308.1" />
+              <db_xref source="GeneID" accession="55651" />
+              <db_xref source="GI" accession="77812674" />
+            </protein_product>
+          </transcript>
+        </gene>
+        <gene source="NCBI-Gene" accession="64777">
+          <symbol source="HGNC" name="RMND5B">
+            <synonym>GID2</synonym>
+            <synonym>GID2B</synonym>
+          </symbol>
+          <coordinates coord_system="LRG_346" start="10391" end="11498" strand="-1" />
+          <partial>5-prime</partial>
+          <long_name>required for meiotic nuclear division 5 homolog B (S. cerevisiae)</long_name>
+          <db_xref source="GeneID" accession="64777" />
+          <db_xref source="HGNC" accession="HGNC:26181" />
+          <db_xref source="CCDS" accession="CCDS4431.1" />
+          <db_xref source="CCDS" accession="CCDS75382.1" />
+          <transcript source="RefSeq" accession="NM_022762.4">
+            <coordinates coord_system="LRG_346" start="10391" end="11428" strand="-1" />
+            <partial>5-prime</partial>
+            <long_name>required for meiotic nuclear division 5 homolog B (S. cerevisiae), transcript variant 2</long_name>
+            <db_xref source="GeneID" accession="64777" />
+            <db_xref source="GI" accession="571031344" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_346" start="11326" end="11428" strand="-1" />
+              <partial>5-prime</partial>
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_346" start="11078" end="11232" strand="-1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_346" start="10391" end="10992" strand="-1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_073599.2" codon_start="2">
+              <coordinates coord_system="LRG_346" start="10929" end="11428" strand="-1" />
+              <partial>5-prime</partial>
+              <long_name>protein RMD5 homolog B isoform a</long_name>
+              <long_name>protein RMD5 homolog B</long_name>
+              <long_name>GID complex subunit 2 homolog B</long_name>
+              <db_xref source="CCDS" accession="CCDS4431.1" />
+              <db_xref source="GeneID" accession="64777" />
+              <db_xref source="GI" accession="21362098" />
+            </protein_product>
+          </transcript>
+          <transcript source="RefSeq" accession="NM_001288795.1">
+            <coordinates coord_system="LRG_346" start="10391" end="11428" strand="-1" />
+            <partial>5-prime</partial>
+            <long_name>required for meiotic nuclear division 5 homolog B (S. cerevisiae), transcript variant 3</long_name>
+            <db_xref source="GeneID" accession="64777" />
+            <db_xref source="GI" accession="571031349" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_346" start="11326" end="11428" strand="-1" />
+              <partial>5-prime</partial>
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_346" start="11078" end="11232" strand="-1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_346" start="10391" end="10992" strand="-1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_001275724.1" codon_start="2">
+              <coordinates coord_system="LRG_346" start="10929" end="11428" strand="-1" />
+              <partial>5-prime</partial>
+              <long_name>protein RMD5 homolog B isoform b</long_name>
+              <long_name>protein RMD5 homolog B</long_name>
+              <long_name>GID complex subunit 2 homolog B</long_name>
+              <db_xref source="CCDS" accession="CCDS75382.1" />
+              <db_xref source="GeneID" accession="64777" />
+              <db_xref source="GI" accession="571031350" />
+            </protein_product>
+          </transcript>
+          <transcript source="RefSeq" accession="NM_001288794.1">
+            <coordinates coord_system="LRG_346" start="10391" end="11428" strand="-1" />
+            <partial>5-prime</partial>
+            <long_name>required for meiotic nuclear division 5 homolog B (S. cerevisiae), transcript variant 1</long_name>
+            <db_xref source="GeneID" accession="64777" />
+            <db_xref source="GI" accession="571031353" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_346" start="11326" end="11428" strand="-1" />
+              <partial>5-prime</partial>
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_346" start="11078" end="11232" strand="-1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_346" start="10391" end="10992" strand="-1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_001275723.1" codon_start="2">
+              <coordinates coord_system="LRG_346" start="10929" end="11428" strand="-1" />
+              <partial>5-prime</partial>
+              <long_name>protein RMD5 homolog B isoform a</long_name>
+              <long_name>protein RMD5 homolog B</long_name>
+              <long_name>GID complex subunit 2 homolog B</long_name>
+              <db_xref source="CCDS" accession="CCDS4431.1" />
+              <db_xref source="GeneID" accession="64777" />
+              <db_xref source="GI" accession="571031354" />
+            </protein_product>
+          </transcript>
+        </gene>
+      </features>
+    </annotation_set>
+    <annotation_set type="ensembl">
+      <source>
+        <name>Ensembl</name>
+        <url>http://www.ensembl.org/</url>
+        <contact>
+          <name>Ensembl</name>
+          <address>European Bioinformatics Institute</address>
+          <email>helpdesk@ensembl.org</email>
+        </contact>
+      </source>
+      <comment>Annotation is based on Ensembl release 80 (GRCh38  primary assembly)</comment>
+      <modification_date>2015-06-22</modification_date>
+      <mapping coord_system="ENST00000274606.6" other_name="ENST00000274606.6" other_id="ENST00000274606.6" other_start="1" other_end="865" type="transcript">
+        <mapping_span lrg_start="4994" lrg_end="5303" other_start="1" other_end="310" strand="1" />
+        <mapping_span lrg_start="5401" lrg_end="5470" other_start="311" other_end="380" strand="1" />
+        <mapping_span lrg_start="7968" lrg_end="8073" other_start="381" other_end="486" strand="1" />
+        <mapping_span lrg_start="9123" lrg_end="9501" other_start="487" other_end="865" strand="1" />
+      </mapping>
+      <mapping coord_system="ENST00000314397.7" other_name="ENST00000314397.7" other_id="ENST00000314397.7" other_start="1" other_end="599" type="transcript">
+        <mapping_span lrg_start="5132" lrg_end="5303" other_start="1" other_end="172" strand="1" />
+        <mapping_span lrg_start="5401" lrg_end="5470" other_start="173" other_end="242" strand="1" />
+        <mapping_span lrg_start="9123" lrg_end="9479" other_start="243" other_end="599" strand="1" />
+      </mapping>
+      <mapping coord_system="ENST00000502263.1" other_name="ENST00000502263.1" other_id="ENST00000502263.1" other_start="1" other_end="552" type="transcript">
+        <mapping_span lrg_start="5382" lrg_end="5470" other_start="1" other_end="89" strand="1" />
+        <mapping_span lrg_start="7968" lrg_end="8430" other_start="90" other_end="552" strand="1" />
+      </mapping>
+      <mapping coord_system="ENST00000510363.1" other_name="ENST00000510363.1" other_id="ENST00000510363.1" other_start="1" other_end="566" type="transcript">
+        <mapping_span lrg_start="5077" lrg_end="5303" other_start="1" other_end="227" strand="1" />
+        <mapping_span lrg_start="5401" lrg_end="5739" other_start="228" other_end="566" strand="1" />
+      </mapping>
+      <mapping coord_system="ENST00000511078.1" other_name="ENST00000511078.1" other_id="ENST00000511078.1" other_start="1" other_end="475" type="transcript">
+        <mapping_span lrg_start="5067" lrg_end="5303" other_start="1" other_end="237" strand="1" />
+        <mapping_span lrg_start="5401" lrg_end="5470" other_start="238" other_end="307" strand="1" />
+        <mapping_span lrg_start="7968" lrg_end="8135" other_start="308" other_end="475" strand="1" />
+      </mapping>
+      <mapping coord_system="ENST00000514354.4" other_name="ENST00000514354.4" other_id="ENST00000514354.4" other_start="1" other_end="472" type="transcript">
+        <mapping_span lrg_start="5079" lrg_end="5303" other_start="1" other_end="225" strand="1" />
+        <mapping_span lrg_start="5401" lrg_end="5470" other_start="226" other_end="295" strand="1" />
+        <mapping_span lrg_start="7968" lrg_end="8073" other_start="296" other_end="401" strand="1" />
+        <mapping_span lrg_start="8252" lrg_end="8322" other_start="402" other_end="472" strand="1" />
+      </mapping>
+      <features>
+        <gene source="Ensembl" accession="ENSG00000145912.7">
+          <symbol source="HGNC" name="NHP2" />
+          <coordinates coord_system="LRG_346" start="4994" end="9501" strand="1" mapped_from="GRCh38" />
+          <long_name>NHP2 ribonucleoprotein (protein_coding)</long_name>
+          <db_xref source="GeneID" accession="55651">
+            <synonym>DKCB2</synonym>
+            <synonym>NHP2P</synonym>
+            <synonym>NOLA2</synonym>
+          </db_xref>
+          <db_xref source="MIM" accession="606470" />
+          <db_xref source="HGNC" accession="14377">
+            <synonym>FLJ20479</synonym>
+            <synonym>NOLA2</synonym>
+          </db_xref>
+          <db_xref source="Ensembl" accession="ENSG00000145912" />
+          <transcript source="Ensembl" accession="ENST00000274606.6">
+            <coordinates coord_system="LRG_346" start="4994" end="9501" strand="1" mapped_from="GRCh38" />
+            <long_name>NHP2-001 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS4432.1" />
+            <db_xref source="RefSeq" accession="NM_017838.3" />
+            <exon source="Ensembl" accession="ENSE00001839144">
+              <coordinates coord_system="LRG_346" start="4994" end="5303" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00000972982">
+              <coordinates coord_system="LRG_346" start="5401" end="5470" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00000972983">
+              <coordinates coord_system="LRG_346" start="7968" end="8073" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001614289">
+              <coordinates coord_system="LRG_346" start="9123" end="9501" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000274606.3">
+              <coordinates coord_system="LRG_346" start="5144" end="9248" strand="1" mapped_from="GRCh38" />
+              <long_name>H/ACA ribonucleoprotein complex subunit 2 isoform a</long_name>
+              <db_xref source="RefSeq" accession="NP_060308.1" />
+              <db_xref source="UniProtKB" accession="Q9NX24">
+                <synonym>A6NKY8</synonym>
+                <synonym>Q9P095</synonym>
+              </db_xref>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000511078.1">
+            <coordinates coord_system="LRG_346" start="5067" end="8135" strand="1" mapped_from="GRCh38" />
+            <long_name>NHP2-005 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00000972981">
+              <coordinates coord_system="LRG_346" start="5067" end="5303" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00000972982">
+              <coordinates coord_system="LRG_346" start="5401" end="5470" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002033131">
+              <coordinates coord_system="LRG_346" start="7968" end="8135" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000423849.1">
+              <coordinates coord_system="LRG_346" start="5144" end="8135" strand="1" mapped_from="GRCh38" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000510363.1">
+            <coordinates coord_system="LRG_346" start="5077" end="5739" strand="1" mapped_from="GRCh38" />
+            <long_name>NHP2-006 (retained_intron)</long_name>
+            <exon source="Ensembl" accession="ENSE00002043370">
+              <coordinates coord_system="LRG_346" start="5077" end="5303" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002036386">
+              <coordinates coord_system="LRG_346" start="5401" end="5739" strand="1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000514354.4">
+            <coordinates coord_system="LRG_346" start="5079" end="8322" strand="1" mapped_from="GRCh38" />
+            <long_name>NHP2-003 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00002035456">
+              <coordinates coord_system="LRG_346" start="5079" end="5303" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00000972982">
+              <coordinates coord_system="LRG_346" start="5401" end="5470" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00000972983">
+              <coordinates coord_system="LRG_346" start="7968" end="8073" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002078365">
+              <coordinates coord_system="LRG_346" start="8252" end="8322" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000423803.1">
+              <coordinates coord_system="LRG_346" start="5144" end="8322" strand="1" mapped_from="GRCh38" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000314397.7">
+            <coordinates coord_system="LRG_346" start="5132" end="9479" strand="1" mapped_from="GRCh38" />
+            <long_name>NHP2-002 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS34308.1" />
+            <db_xref source="RefSeq" accession="NM_001034833.1" />
+            <exon source="Ensembl" accession="ENSE00002037251">
+              <coordinates coord_system="LRG_346" start="5132" end="5303" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00000972982">
+              <coordinates coord_system="LRG_346" start="5401" end="5470" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001679978">
+              <coordinates coord_system="LRG_346" start="9123" end="9479" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000366276.2">
+              <coordinates coord_system="LRG_346" start="5144" end="9165" strand="1" mapped_from="GRCh38" />
+              <long_name>H/ACA ribonucleoprotein complex subunit 2 isoform b</long_name>
+              <db_xref source="RefSeq" accession="NP_001030005.1" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000502263.1">
+            <coordinates coord_system="LRG_346" start="5382" end="8430" strand="1" mapped_from="GRCh38" />
+            <long_name>NHP2-004 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00002025630">
+              <coordinates coord_system="LRG_346" start="5382" end="5470" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002081384">
+              <coordinates coord_system="LRG_346" start="7968" end="8430" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000431126.1">
+              <coordinates coord_system="LRG_346" start="5382" end="8136" strand="1" mapped_from="GRCh38" />
+            </protein_product>
+          </transcript>
+        </gene>
+        <gene source="Ensembl" accession="ENSG00000145916.17">
+          <symbol source="HGNC" name="RMND5B" />
+          <coordinates coord_system="LRG_346" start="8396" end="11498" strand="-1" mapped_from="GRCh38" />
+          <partial>5-prime</partial>
+          <long_name>required for meiotic nuclear division 5 homolog B (S. cerevisiae) (protein_coding)</long_name>
+          <db_xref source="GeneID" accession="64777">
+            <synonym>GID2</synonym>
+            <synonym>GID2B</synonym>
+          </db_xref>
+          <db_xref source="HGNC" accession="26181">
+            <synonym>FLJ22318</synonym>
+            <synonym>GID2</synonym>
+            <synonym>GID2B</synonym>
+          </db_xref>
+          <db_xref source="Ensembl" accession="ENSG00000145916" />
+          <transcript source="Ensembl" accession="ENST00000515098.4">
+            <coordinates coord_system="LRG_346" start="8396" end="11498" strand="-1" mapped_from="GRCh38" />
+            <partial>5-prime</partial>
+            <long_name>RMND5B-002 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS4431.1" />
+            <db_xref source="RefSeq" accession="NM_001288794.1" />
+            <exon source="Ensembl" accession="ENSE00003598669">
+              <coordinates coord_system="LRG_346" start="11326" end="11428" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003686173">
+              <coordinates coord_system="LRG_346" start="11078" end="11232" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002057684">
+              <coordinates coord_system="LRG_346" start="8396" end="10992" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000420875.1">
+              <coordinates coord_system="LRG_346" start="10929" end="11498" strand="-1" mapped_from="GRCh38" />
+              <partial>5-prime</partial>
+              <long_name>protein RMD5 homolog B isoform a</long_name>
+              <db_xref source="RefSeq" accession="NP_001275723.1" />
+              <db_xref source="UniProtKB" accession="Q96G75">
+                <synonym>Q1HE27</synonym>
+                <synonym>Q6UVY7</synonym>
+                <synonym>Q9H6F6</synonym>
+              </db_xref>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000513162.4">
+            <coordinates coord_system="LRG_346" start="8970" end="11498" strand="-1" mapped_from="GRCh38" />
+            <partial>5-prime</partial>
+            <long_name>RMND5B-005 (retained_intron)</long_name>
+            <exon source="Ensembl" accession="ENSE00003679623">
+              <coordinates coord_system="LRG_346" start="11326" end="11428" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003461767">
+              <coordinates coord_system="LRG_346" start="11078" end="11232" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002037752">
+              <coordinates coord_system="LRG_346" start="8970" end="10992" strand="-1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000542098.2">
+            <coordinates coord_system="LRG_346" start="10391" end="11498" strand="-1" mapped_from="GRCh38" />
+            <partial>5-prime</partial>
+            <long_name>RMND5B-201 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS75382.1" />
+            <db_xref source="RefSeq" accession="NM_001288795.1" />
+            <exon source="Ensembl" accession="ENSE00003598669">
+              <coordinates coord_system="LRG_346" start="11326" end="11428" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003686173">
+              <coordinates coord_system="LRG_346" start="11078" end="11232" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003599753">
+              <coordinates coord_system="LRG_346" start="10391" end="10992" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000437630.1">
+              <coordinates coord_system="LRG_346" start="10929" end="11498" strand="-1" mapped_from="GRCh38" />
+              <partial>5-prime</partial>
+              <long_name>protein RMD5 homolog B isoform b</long_name>
+              <db_xref source="RefSeq" accession="NP_001275724.1" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000313386.7">
+            <coordinates coord_system="LRG_346" start="10393" end="11498" strand="-1" mapped_from="GRCh38" />
+            <partial>5-prime</partial>
+            <long_name>RMND5B-001 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS4431.1" />
+            <db_xref source="RefSeq" accession="NM_022762.4" />
+            <exon source="Ensembl" accession="ENSE00003598669">
+              <coordinates coord_system="LRG_346" start="11326" end="11428" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003686173">
+              <coordinates coord_system="LRG_346" start="11078" end="11232" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001369432">
+              <coordinates coord_system="LRG_346" start="10393" end="10992" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000320623.4">
+              <coordinates coord_system="LRG_346" start="10929" end="11498" strand="-1" mapped_from="GRCh38" />
+              <partial>5-prime</partial>
+              <long_name>protein RMD5 homolog B isoform a</long_name>
+              <db_xref source="RefSeq" accession="NP_073599.2" />
+              <db_xref source="UniProtKB" accession="Q96G75">
+                <synonym>Q1HE27</synonym>
+                <synonym>Q6UVY7</synonym>
+                <synonym>Q9H6F6</synonym>
+              </db_xref>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000515360.4">
+            <coordinates coord_system="LRG_346" start="10395" end="11498" strand="-1" mapped_from="GRCh38" />
+            <partial>5-prime</partial>
+            <long_name>RMND5B-004 (retained_intron)</long_name>
+            <exon source="Ensembl" accession="ENSE00003679623">
+              <coordinates coord_system="LRG_346" start="11326" end="11428" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003461767">
+              <coordinates coord_system="LRG_346" start="11078" end="11232" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002021292">
+              <coordinates coord_system="LRG_346" start="10395" end="10992" strand="-1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000507575.4">
+            <coordinates coord_system="LRG_346" start="10412" end="11498" strand="-1" mapped_from="GRCh38" />
+            <partial>5-prime</partial>
+            <long_name>RMND5B-003 (retained_intron)</long_name>
+            <exon source="Ensembl" accession="ENSE00003679623">
+              <coordinates coord_system="LRG_346" start="11326" end="11428" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003461767">
+              <coordinates coord_system="LRG_346" start="11078" end="11232" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003571286">
+              <coordinates coord_system="LRG_346" start="10412" end="10992" strand="-1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000507937.1">
+            <coordinates coord_system="LRG_346" start="10421" end="11498" strand="-1" mapped_from="GRCh38" />
+            <partial>5-prime</partial>
+            <long_name>RMND5B-006 (retained_intron)</long_name>
+            <exon source="Ensembl" accession="ENSE00002035126">
+              <coordinates coord_system="LRG_346" start="11326" end="11498" strand="-1" mapped_from="GRCh38" />
+              <partial>5-prime</partial>
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003461767">
+              <coordinates coord_system="LRG_346" start="11078" end="11232" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002054787">
+              <coordinates coord_system="LRG_346" start="10421" end="10992" strand="-1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+        </gene>
+      </features>
+    </annotation_set>
+    <annotation_set type="lsdb">
+      <source>
+        <name>List of locus specific databases for NHP2</name>
+        <url>http://grenada.lumc.nl/LSDB_list/lsdbs/NHP2</url>
+      </source>
+      <modification_date>2015-06-22</modification_date>
+    </annotation_set>
+  </updatable_annotation>
+</lrg>

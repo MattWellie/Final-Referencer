@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="application/xml" href="lrg2html.xsl"?>
+
+<lrg schema_version="1.9">
+  <fixed_annotation>
+    <id>LRG_533</id>
+    <hgnc_id>1786</hgnc_id>
+    <sequence_source>NG_008022.1</sequence_source>
+    <organism taxon="9606">Homo sapiens</organism>
+    <source>
+      <name></name>
+      <contact>
+        <name>Nazneen Rahman</name>
+        <address>Institute of Cancer Research, Sutton, Surrey, UK</address>
+        <email>Nazneen.Rahman@icr.ac.uk</email>
+      </contact>
+    </source>
+    <mol_type>dna</mol_type>
+    <creation_date>2014-04-09</creation_date>
+    <sequence>AACTGGTGCGGGGGAGCTCTCCTGGCCCAGCATGGCCCCCCGCCAAGTGTGTGCTGAGCCGCCTGTTGCGGGAGGGGGGGCCTTGGGTTAATCTGTCACTCCCCATGCCCCTGGGGCCTCTGGGCTGGATGACTCCCCACCCCATCTTATGGATGGGAAGGTGGAGGCTCAGTGGGGGCAGGGAGCTCTGGGGCCTTTGGGGGCACAGCCAGTCAAGCTCCTGTCCAGGGCTGGTCTGAGGACCTGCTGCTGGGTGATGTGGTTTGAGGCCAAAGGGGTGGCCTTTCCAGAGTCAGGCATCCCTGGGCAGGGTTGTACCCTGCACAGATGCCCAGCCCTGGCTCTAGGGCTTGGGGTGGGAGATGTCAGGGGAGATTCCCAGGGCCCTTGACTTCTTTCTTTTCCTGCTTTCTTGTGCCCTCACAGAAGTCCTATGGAGGGGCTCAGGCTGGGTGAAAGGCAGGGCCAACCTCAAGTCTCAGTGACCTCAGGCAGGTGGCTTAACCTCTGGGAGCCTGAGTCCCCTCCCTTGCAAAATGGGCACGAACACACCTCCCTCTCAGGGGTCTTGGAAGGATTAAATGAGGCAACGAGCCCAGCCCTGGGTTAGGGCAGGGCCCTGAGCAGGCACAAGATGAAGGCAGCAAGTGTTGTCATTGTTTATAATATCCCTCTGGTCCTCTCCACAGGGCACCACCTGGGGAGCAGCTGGGGAGGCAGCCGGGAAGGGCACAGACACCTCTTGCAGGGTCCCTGGGGTGCTGTGGGAGGGTGGTACTGCTGAGGGCAGGCTCCGGGTACCTGGAGACTCTCTAGTGGGCCCTGGAACAGCACAGATTCAGATGGTGTCCAGCCCTCACCTCCTACCCACCTTGACCCTGTGCCTGCAATCCCCAGCCCTTTGTGATTGATGGGTGATATGGGGCCCATGGCTCAATGGAACATTCTTTGAGGCCTTCGTTTGTTTGAAGACAGATAGCTCAGGGCCTCAGAACCCAGGGAACAGGCCCGAGGCAGGTTTCACCATGGGTCAGAGGGGAAAGAAGAGCTCCCGGCCTGTCCTTGGTCACTCCCTGATAGGGGCCATTGGCCCACTGGCCGGGTGTCCTGTGTCCCAGAATTTGGGTTCCCTGGGGCTCTGGGTAGGGATTGGGCCTAACCTAGGACGGGCATTCCTAGCCCTGTGAAGCCACCTGCGGCACACATTCCTGATGGGGCCATGAACATGCCGACAAGGCAGCTGTACAGCTGCCACACCCGGGAAGGGGAGGCCTCGGGCAGCCGGGGAGGCACTGGAGTGGAGGTCACCCGCCAGAAAGCACATGTGGCCAAGGACATGGCTTCCTGGGCCTACCCTCGTTCTGCTACTCATGGACCAGTGTGTTTGCCTCTGGAAGCCTCTGTCTCCTCGGCTGTAAAGCGGGCCTACGACATTGACCGACCACCCATGAGGTTGTGGTGAGGACTGGCCCATGGGTGGCCCCTGGGAAACAGCTGGCTTAACGATTCCAGCACGAAGATCCACCAGGATTGGGACCTAGGCTTCTCTGGCTTCTGGGTCTTTCCTAGAAGGAACGCACAGCAGTGAGGGCTGCAGGTTAATCCTGCCTTAACTGCTTGGGCAGCAAGTTTTTCTTTTTCTTCTTCTTCTTTCTTCTTCTTCTTCTTCTTTTTTTTTTTTAGAGGGCGTCTTGCTCTGTCGTCCAGGCTAGAGGTAGTGGCACGATCACGGCTCACTATAGCCTCAACCTCCTGGGCTCAAGCAATCCTCCCACCTCAGCCTCCCGAGTAGCTGGGACCACAGACACGTGCCACCACACCCAGCTAATTTAAAAAATATTCGTAGAGATGGGGTTTCTCTATGTTGCCCAGGCTTGTCTGGAACTCCTGGGCTCAAGCGAGCCACCTGCCTTGGTCTCCCAAAGTACTGAGGGTATATAGGTGTGAGCCATGGCTGCAGTAAGGTTTGAATCTTCTCAAGCCTTGGTTTCCTTGTCTGTAAAAGGCCAACTGAAATCTACCTATGCCTTCCCTATGTATTAGGGTATGTAACGCCCCACTGTGATGGACAAGCCTACATTTCTAGTGGGTTAAGATGCAATAAAAGTTTATTCTTTGTGCCCAACACAGGCAATGCGGTGTGCAGAGGGTGCTTGGTGGTTCTCTCCTGATGGCCCCGCAGGGTCTGCAGCCTCCATCTGGCCAGCAGAGGGCGCAGAAGGACTGCCTGGGCAGCTCGGACGTGACCGCCTGGAAGTGGTGTACAGCGTTCCTGACAACGTTCCCGGCCAAAACGGGTCCCGCCGCCCACTTGTGTGCAAGATAACTGGAAAATGTCTTTCTGTGTGCTCCGAGGAGAATGCAAAGGCTGGTGGATGTAGTGCCTTTCCTCTACTGCTCTCTCAGCTGGGGGCAAGAATGACAGGACGTGAACATGCACACAAGGGCCCGGAACTCACGACCCCCGACAGCGGTCTCCCCCGCCCCCCCAACCCCGCGCTTGCAGGATTTAGGGCACTAGCACAGCACAGTCCACCCCTTGGGACTAGCACCCCCTCCGCAGTTCTGCTCTCTGCAGCAACATAGAGTACAAATATTGTTCCTTTTGTTTCTTTTTTCCCTTTGGATACATTTTTAATTACAAAAATAGAGCTTGATTGTTGCACCTAGACAGATGTTTGCTTGCTTCTGGGCCCATTGGGCCTCCTCTCAGAGCCTGGAACTCCCAGCCCCCAGCTCCTGGGGTGCCTTCCTCCAGGTGTGTCCCTGGCTTGGGCTGGGGGGACACAGCCCCGCTCCTGGGACGTGCAGGTTTAAAATGCTATTGGGTACCATCTTTGATCGAATTCAGAGTGACAGACTTAGAGCAGGTCACCTCTCAGCTTCTAACGAGGCCAAGACGGAGGAATCCCCACAGCACTGGGTTTGACTCTGTAATTAAGCTGGTAAAGTGGAAAAATAAAAGTAGGAAACCTAAGTGGAAACCAAACCAGAAAGCCAGGCAGCCCGGGAGTTCTGAGCCCTGCTTCCTTCCAGCTGTGCGGCCTCAGCGGCTGACGCGGTCTCTGCTGCTCTTCTATAACACAGGATGATGGCAGCTACACCCTCTGAGTGGTGTCACCAAGGCCAATGAGTCCTGATGGTTGGAGTGTGGGTATCCGGGGGCCTCTAGGTCACTACCCACTCTAGCCCTTTGCTCCTAGTCTCTGGGGAGGTGGCAGCATAGGGGCATGGAGCAGACTAGACTTTGCCTCTTTCTGCCCCCAGGCCAGTTGATATGAGCCCTGCTTGAGGGGTTCGCAGGGCCTGGGGAGCCTTCTTCAGCTTCTCTTTGTTTTCCTAAGATGAAAATTGTGACATCTGGGCTTGTTGCGGGAAATTTGTAAATTGTGCACAGAGAAGAATATGAAATTGCACATAAATCATGGCTTTTGGTTCCACCATCAAGAGCCAAGAATGGCCCTGGCCCCTCTCCTGGGTTAACGCCCTGTCCCATCCAGTTCACCCCCCTCACTTCAGATCTCGCTTCCCTGAGACCCAGAAGACCCGCCCTGCTCCCCCAGCTGCAGCTGCACACTGCCACAGCATTCCATGGGGGTGGGGGTGTCTTGGGACTCAAAGGCAGGCTGGTTGGGGTTCAGGGGACCGCACCTTCCCTCCCTCCCAGAGGTCTCTCTGCTGGCTCACAGGCTCACCTGAGATAGGGGCTTAGATCTCATGGGCTGCTGGACCCTCCAACAGGTGTCTGACAGTCCCCATCCCGATCTGGGAGGCTCCTGGTTTGAGGAGGGGGCTCCCTGCCTCATGGTAGGTGGGCCAAAAGGGAGGCAGCAGGAAATAATGGTCTCTTTTGGTCTGGCCTGGCTGGGGTGAAGCACCGTGTGTGTGCGTGCGTGTGTGTGTGTGTGTGTGTGTGCGTGCGCGCACGACCGAGGTCTGTACCAGGAAGGGCTGCAGGCGGGGGAGGGGCATGGTCCTTCACAGCCCCTTCCCCTATGACCTCGGGCAGATCTTTCACTTTTACCCAGTACAACAGCTTCCAGCCAGCCTGGACAGGCAGATCCCGGGGCTGGAGTGGTCTGGCCCAAGGCTGAGAAGGGCTGGGACCCCCGACAGTGACATGATGGGCTCAGCCCCTGTTCCATCTACTGGGCAGGGTGGGCCTCCGCAGATAGCGGCTTCAGACTCCAGCTCCAGGGGGCTGGTGGGAGTCTCTCAAGGTGTCCCACACATGGTCCCTCGGGGAAAGAGTGGAGCTGACCCCTGTCCCCCCTCCCGACTCGAGGGCCTTAGGGCCAGCAGGTGTGTGAGGGCTCCAGGCGCGCGGAGCCCTCGAAGGGACACCAGCCCAGCAGCAGCAGGCCGCGCGGGGGCAGCCGAAGACCCCATCCGGCGCAGGCCAGGGCCGAGCTGGCAGCGGCGGGTCCAAGCCTCGTCAGCTGGCGCAGGAGGCCCACGGGCGAGCGCGGGACGGAGCTGGGCGCCGGGGTCCGGACCGGGCCGGGGTCGAGTTGGGCCTGGCCGGACACCGGACCCGCCAGGAGCCGGCCCCTGCCGCGCTGGGCTGAGGCCCCCGCCTGCAGACAAAGGAGCCGGCGGGGGGCGGGAGCCGGGGGGGTGGGGGAGTGTTGCAGGGGGGATGGGGCGAGGGGGCGGGCGTCGCGGTGTCACGTTACCGCCCGCAGCGCCCTTTAACTCCCGCCCCCGCCCCGCTCACCGCCCCCTTCCCCTGCTACAGCGCGCTCGCCCCGCGGCCGCCAATCAGCCGCGCGCCCCGGCCGCGCGCCCCGCCCCGCCCCCGGTGGGTGTGCGCGCGGCCAATGGGCGGTGCGCGGGGGCCGGGCCGCGGCGGGGCGGGGCAGCGGGGCGGCCGCCAATCGCCGTGGTGTTGTTGAAACTGAAAATACTACATTATGCTAATCGCGGCCGGGCCCGCGCGCACGGGGGTGGGGCCCGCGCGTATAAAGGGGGCGCAGGCGGGCTGGGCGTTCCACAGGCCAAGTGCGCTGTGCTCGAGGGGTGCCGGCCAGGCCTGAGCGAGCGAGCTAGCCAGCAGGCATCGAGGGGGCGCGGCTGCCGTCCGGACGAGACAGGCGAACCCGACGCAGAAGAGTCCACCACCGGACAGCCAGGTAGCCGCCGCGTCCCTCGCACACGCAGAGTCGGGCGGCGCGGGGTCTCCCTTGCGCCCGGCCTCCGCCCTCTCCTCCTCTCCTTTCCCCTTCTTCTCGCTGTCCTCTCCTCTCTCGCTGCCCGCGTTTGCGCAGCCCCGGGCCATGTCCGACGCGTCCCTCCGCAGCACATCCACGATGGAGCGTCTTGTCGCCCGTGGGACCTTCCCAGTACTAGTGCGCACCAGCGCCTGCCGCAGCCTCTTCGGGCCGGTGGACCACGAGGAGCTGAGCCGCGAGCTGCAGGCCCGCCTGGCCGAGCTGAACGCCGAGGACCAGAACCGCTGGGATTACGACTTCCAGCAGGACATGCCGCTGCGGGGCCCTGGACGCCTGCAGTGGACCGAAGTGGACAGCGACTCGGTGCCCGCGTTCTACCGCGAGACGGTGCAGGTGGGGCGCTGCCGCCTGCTGCTGGCGCCGCGGCCCGTCGCGGTCGCGGTGGCTGTCAGCCCGCCCCTCGAGCCGGCCGCTGAGTCCCTCGACGGCCTCGAGGAGGCGCCGGAGCAGCTGCCTAGTGTCCCGGTCCCGGCCCCGGCGTCCACCCCGCCCCCAGTCCCGGTCCTGGCTCCAGCCCCGGCCCCGGCTCCGGCTCCGGTCGCGGCTCCGGTCGCGGCTCCGGTCGCGGTCGCGGTCCTGGCCCCGGCCCCGGCCCCGGCTCCGGCTCCGGCTCCGGCCCCGGCTCCAGTCGCGGCCCCGGCCCCAGCCCCGGCCCCGGCCCCGGCCCCGGCCCCCGCCCCGGCCCCGGCCCCGGACGCGGCGCCTCAAGAGAGCGCCGAGCAGGGCGCGAACCAGGGGCAGCGCGGCCAGGAGCCTCTCGCTGACCAGCTGCACTCGGGGATTTCGGGACGTCCCGCGGCCGGCACCGCGGCCGCCAGCGCCAACGGCGCGGCGATCAAGAAGCTGTCCGGGCCTCTGATCTCCGGTGAGCCCCGCACGGCCCCGCCCCGGCCCGGCCCGGCCCCGCTTTGTCCGGCCGGCCGGTCCCCCCAGCCCTCGGGGGCCTCGCTGGGTTCCCGCCTCCTCCCGTGGCATTAAAGGGCCCGCAGCGCTCAGGGCGCGGCTGCGCCCTTACCCCCCTCCCCGCCCCGTTGTTGTGCCCTCCAGCGGCTTCGCGCGGGCGGGGTGGGAGGCTGAATCCCGGCCGCGACCCCCCGGGAGCGCAGTTTTCGCCCCCGGCCGCGGGAGCCCCTCCCCGGGCGCGGCCGGGCGCCGTGAGCACGGCGTGGAGGGGGTTAAGCGCGGCGGCGGCCCCGGGGGGCTTGGCCGCGGGACAAGGGGAAATGCTTACACAGCACATTGCGCGGCGACGTAAACAAAGCTGACCCGCCGCGGACCTCGGCGCGGGCGGGGACGGCGCCCCCACCCCGGCCGGCCCGCGCCCCGCGCCCTCTCCCGGCCCCCTCTCGGGTCTCCGGGCCGGCCCCGCCCTGACCGGCCGCGCGCGCTGTCGCCCGCAGATTTCTTCGCCAAGCGCAAGAGATCAGCGCCTGAGAAGTCGTCGGGCGATGTCCCCGCGCCGTGTCCCTCTCCAAGCGCCGCCCCTGGCGTGGGCTCGGTGGAGCAGACCCCGCGCAAGAGGCTGCGGTGAGCCAAGTGAGTACAGCGCACCTGGGGGGGCGCGGAGGGCCGACCCGCCGGGTCCCCGCCGGCTTTGCTGACCGCCCCTCTCCTCGCAGTTTAGAGCCCAAAGAGCCCCGAGGGAACCTGCCGGGGCAGCGGACGTTGGAAGGGCGCTGGGCCTCGGCTGGGACCGTTCATGTAGCAGCAACCGGCGGCGGCTGCCGCAGAGCAGCGTTCGGTTTTGTTTTTAAATTTTGAAAACTGTGCAATGTATTAATAACGTCTTTTTATATCTAAATGTATTCTGCACGAGAAGGTACACTGGTCCCAAGGTGTAAAGCTTTAAGAGTCATTTATATAAAATGTTTAATCTCTGCTGAAACTCAGTGCAAAAAAAAGAAAAAAGAAAAAAAAAAGGAAAAAATAAAAAAACCATGTATATTTGTACAAAAAGTTTTTAAAGTTATACTAACTTATATTTTCTATTTATGTCCAGGCGTGGACCGCTCTGCCACGCACTAGCTCGGTTATTGGTTATGCCAAAGGCACTCTCCATCTCCCACATCTGGTTATTGACAAGTGTAACTTTATTTTCATCGCGGACTCTGGGGAAGGGGGTCACTCACAAGCTGTAGCTGCCATACATGCCCATCTAGCTTGCAGTCTCTTCGCGCTTTCGCTGTCTCTCTTATTATGACTGTGTTTATCTGAAACTTGAAGACAAGTCTGTTAAAATGGTTCCTGAGCCGTCTGTACCACTGCCCCGGCCCCTCGTCCGCCGGGTTCTAAATAAAGAGGCCGAAAAATGCTGCAACTCCAGTCTGTTTGTGCTTGTGCCTGCCTCCAGCTCCCTTCTCCTGCACCCCCAAAAGCTGGAGAGCTGGAACGCAGGAGAGAGCAGCCCAAAGTGGGCATCCCCAGTCCATCCAAAAGGGGAAGCCTCTCTCCTGGCTGGGCCTGGCCCACACCCACCTGCTCCAGTCCCCTTATCTCAGGAGGGGCGGCCGGCCTGCACTGCACCCTGCATTTATCACCTCTCACCTGCGGGGCTGCAGAAAGACAAGCCTGGACTTCATGTAGCCCCAGGAGGCAGGGAGCACAGCCCCTGACTTGCTGCCCAGACCCAGGCTTGTTTCAAGGAAACCACCCGCAACCCCTCTGCTGATGGGCTCAAGCCCCTGCTAGTTTGAGGATGCGCTGAGGTGGAGGGTGTGGAGCAGGGCTCCACCAAGACACAGCCAGTCCTCCAGACTTCTTCAGGCCTTGCACCAGGGTCTCCTGTTTTTGTGGGCCAGGGTCTCCCTAGGTCTTGCCACAAGACACTCAAAGTGTTCAAGGTCTAGTCACACCTGCAGTGGAGGAGGGGCAGCCTCGAAGCCTCTGAGGGGAGGCAGAAATGGGAGCACAAGGGGGAGGTGCCCTGGAATCAGGAGGACATGGGGAGGGGTGGCTTCTGATAACCAGGCTTTGGTGGAAGAAGTCGAGGCTGAGTGCACCCCTGTGCGCCCCCACTGTCCACCCTACCAGCCCCGAGTTTCAAAGCGCTCCCTCTTAGTAAAAGAGACGTTTATTATTTTAATAGCTGACCTATAAACCTCTGAAAATTATGGCTTACAATGGAAAGGGTGATGTAAAATAGCAAAAACAGAACGGCTAGCAGTATTTTTGCTGGTGCCTTGGGCTGGGAGAAGAAAAGAACTGGTGGACCCTTACGGGGCCCTACGTGACAGTTGCTGACTTCCTCCTCCCACCTCCACCGGGGGCAGGGACAAAGGGGGGCTCAACTTGAGATGGTCGAGATGTATTTAGACATGTAATTAACTGAGCTCCCCCCAGCTGCCTGGAAGGGCTGGGCGGGGAGGGTGATGGGCCTGGCCTCGAGGCCCAGCTGGGGCCAGACTCCGGGAAATGCCCCCGGGACCTGAGAGTGGCAGGTCTCGCTGCTTCGGCTCAGCAACAGGGACCCTCAGCTGACGGTAATGAGGGACCAGACCCATGTAGACCTGGCTTCGGCCTTCCAACCTCTCCCACAGGGGAGAAACCTCCACATTCACCTGTGTGAGGAGGACAAAGCCTTTTCCCTTCTGAGATAAAGGAGGGTGGCAGTGCCTTCTGCCTTGGGCTGGGAGGAGGCTGGACCGGGTGCCTGGCAGGCAGTTAGTGGGTGCACAGCGTAACCTGAGTTAACTGTTTGTGGTGACCGATCTGCTGGGTTGGGGCCTCATCATCCACAGCTGCATCTGCTGCCAGGCCTCCTGCTGCAGCTGGGGCCGGCGGGGCTCCTACCTTGCTTAGCTTCTTGCAGTCCTGGCCCTTGGGCACAGGACATGTGGTTGCCCAGCACCCTCTTGTCACTCAAGGGTAGCTTTCTCAAAAGCAGTGTGAGGCCTTTGTGGGGACGTGAAGGTGAGGCCCAGCGCCATTTCTCAGGAGGAGTTTCTCCCCAGGGCAGGAGCTGGCTGCAGGGATGCACAGGCCACCAGCCTCCATGGGCTGCTAGTCACACGTGGGACTCTGGGCACATGTGACCCAGGCAAGCTAGCCTTTCCTTCTGGGGGGCCTCGGTTTCCCCATCTGGGCTGAGAAACGTCCAGGGTTTTTTCCAGCACTGTGTTCTGTGATTCTCACGTGGGGACAGCCATGGAAATAATACCTGATGGCACTGTTTGCAAAGCTCTCTTCTCACCCATGCTGTTGGGAAAGAGCAGATAGGAGCGTGCGTCCTGGCCCCCAGGCCTCATCCAAGCTGAAAACACAGGCACCGGCTGGCAGCCAGCACACTCATGGGTCTGCCGTGTGGGAGTCACGCTCCAG</sequence>
+    <transcript name="t1">
+      <comment>This transcript is identical to the RefSeq transcript NM_000076.2 but with the polyA tail removed.</comment>
+      <coordinates coord_system="LRG_533" start="5001" end="7548" strand="1" />
+      <cdna>
+        <sequence>AGTGCGCTGTGCTCGAGGGGTGCCGGCCAGGCCTGAGCGAGCGAGCTAGCCAGCAGGCATCGAGGGGGCGCGGCTGCCGTCCGGACGAGACAGGCGAACCCGACGCAGAAGAGTCCACCACCGGACAGCCAGGTAGCCGCCGCGTCCCTCGCACACGCAGAGTCGGGCGGCGCGGGGTCTCCCTTGCGCCCGGCCTCCGCCCTCTCCTCCTCTCCTTTCCCCTTCTTCTCGCTGTCCTCTCCTCTCTCGCTGCCCGCGTTTGCGCAGCCCCGGGCCATGTCCGACGCGTCCCTCCGCAGCACATCCACGATGGAGCGTCTTGTCGCCCGTGGGACCTTCCCAGTACTAGTGCGCACCAGCGCCTGCCGCAGCCTCTTCGGGCCGGTGGACCACGAGGAGCTGAGCCGCGAGCTGCAGGCCCGCCTGGCCGAGCTGAACGCCGAGGACCAGAACCGCTGGGATTACGACTTCCAGCAGGACATGCCGCTGCGGGGCCCTGGACGCCTGCAGTGGACCGAAGTGGACAGCGACTCGGTGCCCGCGTTCTACCGCGAGACGGTGCAGGTGGGGCGCTGCCGCCTGCTGCTGGCGCCGCGGCCCGTCGCGGTCGCGGTGGCTGTCAGCCCGCCCCTCGAGCCGGCCGCTGAGTCCCTCGACGGCCTCGAGGAGGCGCCGGAGCAGCTGCCTAGTGTCCCGGTCCCGGCCCCGGCGTCCACCCCGCCCCCAGTCCCGGTCCTGGCTCCAGCCCCGGCCCCGGCTCCGGCTCCGGTCGCGGCTCCGGTCGCGGCTCCGGTCGCGGTCGCGGTCCTGGCCCCGGCCCCGGCCCCGGCTCCGGCTCCGGCTCCGGCCCCGGCTCCAGTCGCGGCCCCGGCCCCAGCCCCGGCCCCGGCCCCGGCCCCGGCCCCCGCCCCGGCCCCGGCCCCGGACGCGGCGCCTCAAGAGAGCGCCGAGCAGGGCGCGAACCAGGGGCAGCGCGGCCAGGAGCCTCTCGCTGACCAGCTGCACTCGGGGATTTCGGGACGTCCCGCGGCCGGCACCGCGGCCGCCAGCGCCAACGGCGCGGCGATCAAGAAGCTGTCCGGGCCTCTGATCTCCGATTTCTTCGCCAAGCGCAAGAGATCAGCGCCTGAGAAGTCGTCGGGCGATGTCCCCGCGCCGTGTCCCTCTCCAAGCGCCGCCCCTGGCGTGGGCTCGGTGGAGCAGACCCCGCGCAAGAGGCTGCGGTGAGCCAATTTAGAGCCCAAAGAGCCCCGAGGGAACCTGCCGGGGCAGCGGACGTTGGAAGGGCGCTGGGCCTCGGCTGGGACCGTTCATGTAGCAGCAACCGGCGGCGGCTGCCGCAGAGCAGCGTTCGGTTTTGTTTTTAAATTTTGAAAACTGTGCAATGTATTAATAACGTCTTTTTATATCTAAATGTATTCTGCACGAGAAGGTACACTGGTCCCAAGGTGTAAAGCTTTAAGAGTCATTTATATAAAATGTTTAATCTCTGCTGAAACTCAGTGCAAAAAAAAGAAAAAAGAAAAAAAAAAGGAAAAAATAAAAAAACCATGTATATTTGTACAAAAAGTTTTTAAAGTTATACTAACTTATATTTTCTATTTATGTCCAGGCGTGGACCGCTCTGCCACGCACTAGCTCGGTTATTGGTTATGCCAAAGGCACTCTCCATCTCCCACATCTGGTTATTGACAAGTGTAACTTTATTTTCATCGCGGACTCTGGGGAAGGGGGTCACTCACAAGCTGTAGCTGCCATACATGCCCATCTAGCTTGCAGTCTCTTCGCGCTTTCGCTGTCTCTCTTATTATGACTGTGTTTATCTGAAACTTGAAGACAAGTCTGTTAAAATGGTTCCTGAGCCGTCTGTACCACTGCCCCGGCCCCTCGTCCGCCGGGTTCTAAATAAAGAGGCCGAAAAATGCTGCAA</sequence>
+      </cdna>
+      <coding_region>
+        <coordinates coord_system="LRG_533" start="5277" end="6762" strand="1" />
+        <translation name="p1">
+          <sequence>MSDASLRSTSTMERLVARGTFPVLVRTSACRSLFGPVDHEELSRELQARLAELNAEDQNRWDYDFQQDMPLRGPGRLQWTEVDSDSVPAFYRETVQVGRCRLLLAPRPVAVAVAVSPPLEPAAESLDGLEEAPEQLPSVPVPAPASTPPPVPVLAPAPAPAPAPVAAPVAAPVAVAVLAPAPAPAPAPAPAPAPVAAPAPAPAPAPAPAPAPAPAPDAAPQESAEQGANQGQRGQEPLADQLHSGISGRPAAGTAAASANGAAIKKLSGPLISDFFAKRKRSAPEKSSGDVPAPCPSPSAAPGVGSVEQTPRKRLR</sequence>
+        </translation>
+      </coding_region>
+      <exon label="1">
+        <coordinates coord_system="LRG_533" start="5001" end="6096" strand="1" />
+        <coordinates coord_system="LRG_533t1" start="1" end="1096" />
+        <coordinates coord_system="LRG_533p1" start="1" end="274" />
+      </exon>
+      <intron phase="1" />
+      <exon label="2">
+        <coordinates coord_system="LRG_533" start="6632" end="6767" strand="1" />
+        <coordinates coord_system="LRG_533t1" start="1097" end="1232" />
+        <coordinates coord_system="LRG_533p1" start="274" end="316" />
+      </exon>
+      <exon label="3">
+        <coordinates coord_system="LRG_533" start="6851" end="7548" strand="1" />
+        <coordinates coord_system="LRG_533t1" start="1233" end="1930" />
+      </exon>
+    </transcript>
+  </fixed_annotation>
+  <updatable_annotation>
+    <annotation_set type="requester">
+      <source>
+        <name></name>
+        <contact>
+          <name>Nazneen Rahman</name>
+          <address>Institute of Cancer Research, Sutton, Surrey, UK</address>
+          <email>Nazneen.Rahman@icr.ac.uk</email>
+        </contact>
+      </source>
+      <modification_date>2015-06-22</modification_date>
+    </annotation_set>
+    <annotation_set type="lrg">
+      <source>
+        <name>LRG</name>
+        <url>http://www.lrg-sequence.org/</url>
+        <contact>
+          <name>Locus Reference Genomic</name>
+          <url>http://www.lrg-sequence.org/contact</url>
+          <email>feedback@lrg-sequence.org</email>
+        </contact>
+      </source>
+      <modification_date>2015-06-22</modification_date>
+      <mapping coord_system="GRCh37.p13" other_name="11" other_id="NC_000011.9" other_id_syn="CM000673.1" other_start="2902448" other_end="2911995" type="other_assembly">
+        <mapping_span lrg_start="1" lrg_end="9548" other_start="2902448" other_end="2911995" strand="-1" />
+      </mapping>
+      <mapping coord_system="GRCh38.p2" other_name="11p15.5-15.4" other_id="NT_187585.1" other_id_syn="KI270831.1" other_start="113398" other_end="122976" type="haplotype">
+        <mapping_span lrg_start="1" lrg_end="9548" other_start="113398" other_end="122976" strand="-1">
+          <diff type="mismatch" lrg_start="459" lrg_end="459" other_start="122518" other_end="122518" lrg_sequence="G" other_sequence="T" />
+          <diff type="mismatch" lrg_start="463" lrg_end="463" other_start="122514" other_end="122514" lrg_sequence="G" other_sequence="N" />
+          <diff type="mismatch" lrg_start="615" lrg_end="615" other_start="122362" other_end="122362" lrg_sequence="G" other_sequence="T" />
+          <diff type="mismatch" lrg_start="627" lrg_end="627" other_start="122350" other_end="122350" lrg_sequence="G" other_sequence="C" />
+          <diff type="mismatch" lrg_start="657" lrg_end="657" other_start="122320" other_end="122320" lrg_sequence="T" other_sequence="A" />
+          <diff type="mismatch" lrg_start="1805" lrg_end="1805" other_start="121172" other_end="121172" lrg_sequence="A" other_sequence="G" />
+          <diff type="mismatch" lrg_start="2211" lrg_end="2211" other_start="120766" other_end="120766" lrg_sequence="G" other_sequence="A" />
+          <diff type="mismatch" lrg_start="2221" lrg_end="2221" other_start="120756" other_end="120756" lrg_sequence="G" other_sequence="A" />
+          <diff type="mismatch" lrg_start="3031" lrg_end="3031" other_start="119946" other_end="119946" lrg_sequence="T" other_sequence="C" />
+          <diff type="mismatch" lrg_start="3242" lrg_end="3242" other_start="119735" other_end="119735" lrg_sequence="T" other_sequence="C" />
+          <diff type="mismatch" lrg_start="3397" lrg_end="3397" other_start="119580" other_end="119580" lrg_sequence="G" other_sequence="A" />
+          <diff type="mismatch" lrg_start="3399" lrg_end="3399" other_start="119578" other_end="119578" lrg_sequence="G" other_sequence="A" />
+          <diff type="mismatch" lrg_start="3402" lrg_end="3402" other_start="119575" other_end="119575" lrg_sequence="G" other_sequence="A" />
+          <diff type="mismatch" lrg_start="3448" lrg_end="3448" other_start="119529" other_end="119529" lrg_sequence="G" other_sequence="C" />
+          <diff type="mismatch" lrg_start="3455" lrg_end="3455" other_start="119522" other_end="119522" lrg_sequence="G" other_sequence="T" />
+          <diff type="mismatch" lrg_start="3493" lrg_end="3493" other_start="119484" other_end="119484" lrg_sequence="C" other_sequence="T" />
+          <diff type="mismatch" lrg_start="3500" lrg_end="3500" other_start="119477" other_end="119477" lrg_sequence="G" other_sequence="C" />
+          <diff type="mismatch" lrg_start="3502" lrg_end="3502" other_start="119475" other_end="119475" lrg_sequence="T" other_sequence="C" />
+          <diff type="mismatch" lrg_start="3597" lrg_end="3597" other_start="119380" other_end="119380" lrg_sequence="G" other_sequence="A" />
+          <diff type="mismatch" lrg_start="3801" lrg_end="3801" other_start="119176" other_end="119176" lrg_sequence="C" other_sequence="A" />
+          <diff type="other_ins" lrg_start="4657" lrg_end="4658" other_start="118319" other_end="118319" lrg_sequence="-" other_sequence="G" />
+          <diff type="mismatch" lrg_start="5869" lrg_end="5869" other_start="117107" other_end="117107" lrg_sequence="C" other_sequence="G" />
+          <diff type="mismatch" lrg_start="5887" lrg_end="5887" other_start="117089" other_end="117089" lrg_sequence="C" other_sequence="G" />
+          <diff type="mismatch" lrg_start="5893" lrg_end="5893" other_start="117083" other_end="117083" lrg_sequence="C" other_sequence="G" />
+          <diff type="mismatch" lrg_start="6128" lrg_end="6128" other_start="116848" other_end="116848" lrg_sequence="C" other_sequence="G" />
+          <diff type="lrg_ins" lrg_start="6241" lrg_end="6242" other_start="116735" other_end="116736" lrg_sequence="CC" other_sequence="-" />
+          <diff type="other_ins" lrg_start="6288" lrg_end="6289" other_start="116658" other_end="116689" lrg_sequence="-" other_sequence="GCCCCGTTCTTCTCGGGTGGAGCGGCTTCGCG" />
+          <diff type="other_ins" lrg_start="6292" lrg_end="6293" other_start="116653" other_end="116653" lrg_sequence="-" other_sequence="C" />
+          <diff type="mismatch" lrg_start="6376" lrg_end="6376" other_start="116569" other_end="116569" lrg_sequence="G" other_sequence="C" />
+          <diff type="mismatch" lrg_start="6380" lrg_end="6380" other_start="116565" other_end="116565" lrg_sequence="G" other_sequence="C" />
+          <diff type="mismatch" lrg_start="6383" lrg_end="6383" other_start="116562" other_end="116562" lrg_sequence="G" other_sequence="C" />
+          <diff type="mismatch" lrg_start="7776" lrg_end="7776" other_start="115169" other_end="115169" lrg_sequence="C" other_sequence="A" />
+          <diff type="mismatch" lrg_start="7805" lrg_end="7805" other_start="115140" other_end="115140" lrg_sequence="C" other_sequence="T" />
+          <diff type="lrg_ins" lrg_start="7957" lrg_end="7957" other_start="114988" other_end="114989" lrg_sequence="C" other_sequence="-" />
+          <diff type="mismatch" lrg_start="7986" lrg_end="7986" other_start="114960" other_end="114960" lrg_sequence="C" other_sequence="T" />
+          <diff type="mismatch" lrg_start="8185" lrg_end="8185" other_start="114761" other_end="114761" lrg_sequence="C" other_sequence="T" />
+          <diff type="mismatch" lrg_start="8255" lrg_end="8255" other_start="114691" other_end="114691" lrg_sequence="C" other_sequence="A" />
+          <diff type="mismatch" lrg_start="8265" lrg_end="8265" other_start="114681" other_end="114681" lrg_sequence="C" other_sequence="G" />
+          <diff type="mismatch" lrg_start="8279" lrg_end="8279" other_start="114667" other_end="114667" lrg_sequence="C" other_sequence="T" />
+          <diff type="mismatch" lrg_start="8283" lrg_end="8283" other_start="114663" other_end="114663" lrg_sequence="C" other_sequence="T" />
+          <diff type="mismatch" lrg_start="8823" lrg_end="8823" other_start="114123" other_end="114123" lrg_sequence="G" other_sequence="C" />
+          <diff type="other_ins" lrg_start="8828" lrg_end="8829" other_start="114117" other_end="114117" lrg_sequence="-" other_sequence="C" />
+          <diff type="lrg_ins" lrg_start="8832" lrg_end="8832" other_start="114113" other_end="114114" lrg_sequence="G" other_sequence="-" />
+          <diff type="mismatch" lrg_start="8846" lrg_end="8846" other_start="114100" other_end="114100" lrg_sequence="T" other_sequence="A" />
+          <diff type="mismatch" lrg_start="8852" lrg_end="8853" other_start="114093" other_end="114094" lrg_sequence="TT" other_sequence="AC" />
+          <diff type="mismatch" lrg_start="8863" lrg_end="8863" other_start="114083" other_end="114083" lrg_sequence="G" other_sequence="T" />
+          <diff type="mismatch" lrg_start="8866" lrg_end="8866" other_start="114080" other_end="114080" lrg_sequence="G" other_sequence="T" />
+          <diff type="mismatch" lrg_start="9099" lrg_end="9099" other_start="113847" other_end="113847" lrg_sequence="G" other_sequence="C" />
+        </mapping_span>
+      </mapping>
+      <mapping coord_system="GRCh38.p2" other_name="11" other_id="NC_000011.10" other_id_syn="CM000673.2" other_start="2881218" other_end="2890765" type="main_assembly">
+        <mapping_span lrg_start="1" lrg_end="9548" other_start="2881218" other_end="2890765" strand="-1" />
+      </mapping>
+      <lrg_locus source="HGNC">CDKN1C</lrg_locus>
+    </annotation_set>
+    <annotation_set type="ncbi">
+      <source>
+        <name>NCBI RefSeqGene</name>
+        <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
+        <contact>
+          <name>RefSeqGene Group</name>
+          <address>NCBI/NLM/NIH</address>
+          <email>rsgene@ncbi.nlm.nih.gov</email>
+        </contact>
+      </source>
+      <comment>Annotation from NG_008022.1</comment>
+      <modification_date>2015-06-19</modification_date>
+      <mapping coord_system="NM_000076.2" other_name="NM_000076.2" other_id="NM_000076.2" other_start="1" other_end="1930" type="transcript">
+        <mapping_span lrg_start="5001" lrg_end="6096" other_start="1" other_end="1096" strand="1" />
+        <mapping_span lrg_start="6632" lrg_end="6767" other_start="1097" other_end="1232" strand="1" />
+        <mapping_span lrg_start="6851" lrg_end="7548" other_start="1233" other_end="1930" strand="1" />
+      </mapping>
+      <mapping coord_system="NM_001122630.1" other_name="NM_001122630.1" other_id="NM_001122630.1" other_start="1" other_end="1763" type="transcript">
+        <mapping_span lrg_start="5001" lrg_end="5132" other_start="1" other_end="132" strand="1" />
+        <mapping_span lrg_start="5300" lrg_end="6096" other_start="133" other_end="929" strand="1" />
+        <mapping_span lrg_start="6632" lrg_end="6767" other_start="930" other_end="1065" strand="1" />
+        <mapping_span lrg_start="6851" lrg_end="7548" other_start="1066" other_end="1763" strand="1" />
+      </mapping>
+      <mapping coord_system="NM_001122631.1" other_name="NM_001122631.1" other_id="NM_001122631.1" other_start="1" other_end="1758" type="transcript">
+        <mapping_span lrg_start="5001" lrg_end="5132" other_start="1" other_end="132" strand="1" />
+        <mapping_span lrg_start="5300" lrg_end="6096" other_start="133" other_end="929" strand="1" />
+        <mapping_span lrg_start="6632" lrg_end="6767" other_start="930" other_end="1065" strand="1" />
+        <mapping_span lrg_start="6856" lrg_end="7548" other_start="1066" other_end="1758" strand="1" />
+      </mapping>
+      <features>
+        <gene source="NCBI-Gene" accession="5003">
+          <symbol source="HGNC" name="SLC22A18AS">
+            <synonym>BWR1B</synonym>
+            <synonym>BWSCR1B</synonym>
+            <synonym>ORCTL2S</synonym>
+            <synonym>p27-BWR1B</synonym>
+            <synonym>SLC22A1LS</synonym>
+          </symbol>
+          <coordinates coord_system="LRG_533" start="1" end="3422" strand="1" />
+          <partial>5-prime</partial>
+          <long_name>solute carrier family 22 (organic cation transporter), member 18 antisense</long_name>
+          <db_xref source="GeneID" accession="5003" />
+          <db_xref source="HGNC" accession="HGNC:10965" />
+          <db_xref source="MIM" accession="603240" />
+          <transcript source="RefSeq" accession="NM_007105.3">
+            <coordinates coord_system="LRG_533" start="2131" end="3422" strand="1" />
+            <partial>5-prime</partial>
+            <long_name>solute carrier family 22 (organic cation transporter), member 18 antisense, transcript variant 1</long_name>
+            <db_xref source="GeneID" accession="5003" />
+            <db_xref source="GI" accession="724382923" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_533" start="2131" end="3422" strand="1" />
+              <partial>5-prime</partial>
+            </exon>
+            <protein_product source="RefSeq" accession="NP_009036.2" codon_start="1">
+              <coordinates coord_system="LRG_533" start="2131" end="2586" strand="1" />
+              <partial>5-prime</partial>
+              <long_name>beckwith-Wiedemann syndrome chromosomal region 1 candidate gene B protein isoform a</long_name>
+              <long_name>Beckwith-Wiedemann region 1B</long_name>
+              <long_name>solute carrier family 22 (organic cation transporter), member 1-like antisense</long_name>
+              <long_name>organic cation transporter-like 2 antisense</long_name>
+              <long_name>Beckwith-Wiedemann syndrome chromosome region 1, candidate b</long_name>
+              <long_name>beckwith-Wiedemann syndrome chromosomal region 1 candidate gene B protein</long_name>
+              <long_name>p27-Beckwith-Wiedemann region 1 B</long_name>
+              <long_name>solute carrier family 22 member 18 antisense protein</long_name>
+              <long_name>solute carrier family 22 member 1-like antisense protein</long_name>
+              <long_name>organic cation transporter-like protein 2 antisense protein</long_name>
+              <db_xref source="GeneID" accession="5003" />
+              <db_xref source="GI" accession="198041703" />
+            </protein_product>
+          </transcript>
+          <transcript source="RefSeq" accession="NM_001302862.1">
+            <coordinates coord_system="LRG_533" start="2131" end="3422" strand="1" />
+            <partial>5-prime</partial>
+            <long_name>solute carrier family 22 (organic cation transporter), member 18 antisense, transcript variant 2</long_name>
+            <db_xref source="GeneID" accession="5003" />
+            <db_xref source="GI" accession="724470698" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_533" start="2131" end="3422" strand="1" />
+              <partial>5-prime</partial>
+            </exon>
+            <protein_product source="RefSeq" accession="NP_001289791.1">
+              <coordinates coord_system="LRG_533" start="2134" end="2586" strand="1" />
+              <long_name>beckwith-Wiedemann syndrome chromosomal region 1 candidate gene B protein isoform b</long_name>
+              <long_name>Beckwith-Wiedemann region 1B</long_name>
+              <long_name>solute carrier family 22 (organic cation transporter), member 1-like antisense</long_name>
+              <long_name>organic cation transporter-like 2 antisense</long_name>
+              <long_name>Beckwith-Wiedemann syndrome chromosome region 1, candidate b</long_name>
+              <long_name>beckwith-Wiedemann syndrome chromosomal region 1 candidate gene B protein</long_name>
+              <long_name>p27-Beckwith-Wiedemann region 1 B</long_name>
+              <long_name>solute carrier family 22 member 18 antisense protein</long_name>
+              <long_name>solute carrier family 22 member 1-like antisense protein</long_name>
+              <long_name>organic cation transporter-like protein 2 antisense protein</long_name>
+              <db_xref source="GeneID" accession="5003" />
+              <db_xref source="GI" accession="724470699" />
+            </protein_product>
+          </transcript>
+        </gene>
+        <gene source="NCBI-Gene" accession="1028">
+          <symbol source="HGNC" name="CDKN1C">
+            <synonym>BWCR</synonym>
+            <synonym>BWS</synonym>
+            <synonym>KIP2</synonym>
+            <synonym>p57</synonym>
+            <synonym>p57Kip2</synonym>
+            <synonym>WBS</synonym>
+          </symbol>
+          <coordinates coord_system="LRG_533" start="5001" end="7548" strand="1" />
+          <long_name>cyclin-dependent kinase inhibitor 1C (p57, Kip2)</long_name>
+          <db_xref source="GeneID" accession="1028" />
+          <db_xref source="HGNC" accession="HGNC:1786" />
+          <db_xref source="MIM" accession="600856" />
+          <db_xref source="CCDS" accession="CCDS44519.1" />
+          <db_xref source="CCDS" accession="CCDS7738.1" />
+          <db_xref source="GI" accession="190341108" />
+          <transcript source="RefSeq" accession="NM_000076.2" fixed_id="t1">
+            <coordinates coord_system="LRG_533" start="5001" end="7548" strand="1" />
+            <long_name>cyclin-dependent kinase inhibitor 1C (p57, Kip2), transcript variant 1</long_name>
+            <db_xref source="GeneID" accession="1028" />
+            <db_xref source="GI" accession="169790897" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_533" start="5001" end="6096" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_533" start="6632" end="6767" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_533" start="6851" end="7548" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_000067.1" fixed_id="p1">
+              <coordinates coord_system="LRG_533" start="5277" end="6762" strand="1" />
+              <long_name>cyclin-dependent kinase inhibitor 1C isoform a</long_name>
+              <long_name>cyclin-dependent kinase inhibitor p57</long_name>
+              <db_xref source="CCDS" accession="CCDS7738.1" />
+              <db_xref source="GeneID" accession="1028" />
+              <db_xref source="GI" accession="4557441" />
+            </protein_product>
+          </transcript>
+          <transcript source="RefSeq" accession="NM_001122630.1">
+            <coordinates coord_system="LRG_533" start="5001" end="7548" strand="1" />
+            <long_name>cyclin-dependent kinase inhibitor 1C (p57, Kip2), transcript variant 2</long_name>
+            <db_xref source="GeneID" accession="1028" />
+            <db_xref source="GI" accession="169790898" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_533" start="5001" end="5132" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_533" start="5300" end="6096" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_533" start="6632" end="6767" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_533" start="6851" end="7548" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_001116102.1">
+              <coordinates coord_system="LRG_533" start="5310" end="6762" strand="1" />
+              <long_name>cyclin-dependent kinase inhibitor 1C isoform b</long_name>
+              <db_xref source="CCDS" accession="CCDS44519.1" />
+              <db_xref source="GeneID" accession="1028" />
+              <db_xref source="GI" accession="169790899" />
+            </protein_product>
+          </transcript>
+          <transcript source="RefSeq" accession="NM_001122631.1">
+            <coordinates coord_system="LRG_533" start="5001" end="7548" strand="1" />
+            <long_name>cyclin-dependent kinase inhibitor 1C (p57, Kip2), transcript variant 3</long_name>
+            <db_xref source="GeneID" accession="1028" />
+            <db_xref source="GI" accession="169790902" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_533" start="5001" end="5132" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_533" start="5300" end="6096" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_533" start="6632" end="6767" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_533" start="6856" end="7548" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_001116103.1">
+              <coordinates coord_system="LRG_533" start="5310" end="6762" strand="1" />
+              <long_name>cyclin-dependent kinase inhibitor 1C isoform b</long_name>
+              <db_xref source="CCDS" accession="CCDS44519.1" />
+              <db_xref source="GeneID" accession="1028" />
+              <db_xref source="GI" accession="169790903" />
+            </protein_product>
+          </transcript>
+        </gene>
+      </features>
+    </annotation_set>
+    <annotation_set type="ensembl">
+      <source>
+        <name>Ensembl</name>
+        <url>http://www.ensembl.org/</url>
+        <contact>
+          <name>Ensembl</name>
+          <address>European Bioinformatics Institute</address>
+          <email>helpdesk@ensembl.org</email>
+        </contact>
+      </source>
+      <comment>Annotation is based on Ensembl release 80 (GRCh38  primary assembly)</comment>
+      <modification_date>2015-06-22</modification_date>
+      <mapping coord_system="ENST00000380725.1" other_name="ENST00000380725.1" other_id="ENST00000380725.1" other_start="1" other_end="1220" type="transcript">
+        <mapping_span lrg_start="5017" lrg_end="5132" other_start="1" other_end="116" strand="1" />
+        <mapping_span lrg_start="5300" lrg_end="5564" other_start="117" other_end="381" strand="1" />
+        <mapping_span lrg_start="6632" lrg_end="6767" other_start="382" other_end="517" strand="1" />
+        <mapping_span lrg_start="6851" lrg_end="7553" other_start="518" other_end="1220" strand="1" />
+      </mapping>
+      <mapping coord_system="ENST00000414822.6" other_name="ENST00000414822.6" other_id="ENST00000414822.6" other_start="1" other_end="2051" type="transcript">
+        <mapping_span lrg_start="4885" lrg_end="6096" other_start="1" other_end="1212" strand="1">
+          <diff type="mismatch" lrg_start="5869" lrg_end="5869" other_start="117107" other_end="117107" lrg_sequence="C" other_sequence="G" />
+          <diff type="mismatch" lrg_start="5887" lrg_end="5887" other_start="117089" other_end="117089" lrg_sequence="C" other_sequence="G" />
+          <diff type="mismatch" lrg_start="5893" lrg_end="5893" other_start="117083" other_end="117083" lrg_sequence="C" other_sequence="G" />
+        </mapping_span>
+        <mapping_span lrg_start="6632" lrg_end="6767" other_start="1213" other_end="1348" strand="1" />
+        <mapping_span lrg_start="6851" lrg_end="7553" other_start="1349" other_end="2051" strand="1" />
+      </mapping>
+      <mapping coord_system="ENST00000430149.2" other_name="ENST00000430149.2" other_id="ENST00000430149.2" other_start="1" other_end="1570" type="transcript">
+        <mapping_span lrg_start="4995" lrg_end="6096" other_start="1" other_end="1102" strand="1">
+          <diff type="mismatch" lrg_start="5869" lrg_end="5869" other_start="117107" other_end="117107" lrg_sequence="C" other_sequence="G" />
+          <diff type="mismatch" lrg_start="5887" lrg_end="5887" other_start="117089" other_end="117089" lrg_sequence="C" other_sequence="G" />
+          <diff type="mismatch" lrg_start="5893" lrg_end="5893" other_start="117083" other_end="117083" lrg_sequence="C" other_sequence="G" />
+        </mapping_span>
+        <mapping_span lrg_start="6632" lrg_end="6767" other_start="1103" other_end="1238" strand="1" />
+        <mapping_span lrg_start="6856" lrg_end="7187" other_start="1239" other_end="1570" strand="1" />
+      </mapping>
+      <mapping coord_system="ENST00000440480.5" other_name="ENST00000440480.5" other_id="ENST00000440480.5" other_start="1" other_end="1811" type="transcript">
+        <mapping_span lrg_start="4953" lrg_end="5132" other_start="1" other_end="180" strand="1" />
+        <mapping_span lrg_start="5300" lrg_end="6096" other_start="181" other_end="977" strand="1">
+          <diff type="mismatch" lrg_start="5869" lrg_end="5869" other_start="117107" other_end="117107" lrg_sequence="C" other_sequence="G" />
+          <diff type="mismatch" lrg_start="5887" lrg_end="5887" other_start="117089" other_end="117089" lrg_sequence="C" other_sequence="G" />
+          <diff type="mismatch" lrg_start="5893" lrg_end="5893" other_start="117083" other_end="117083" lrg_sequence="C" other_sequence="G" />
+        </mapping_span>
+        <mapping_span lrg_start="6632" lrg_end="6767" other_start="978" other_end="1113" strand="1" />
+        <mapping_span lrg_start="6851" lrg_end="7548" other_start="1114" other_end="1811" strand="1" />
+      </mapping>
+      <mapping coord_system="ENST00000471157.2" other_name="ENST00000471157.2" other_id="ENST00000471157.2" other_start="1" other_end="944" type="transcript">
+        <mapping_span lrg_start="6065" lrg_end="6767" other_start="1" other_end="703" strand="1">
+          <diff type="mismatch" lrg_start="6128" lrg_end="6128" other_start="116848" other_end="116848" lrg_sequence="C" other_sequence="G" />
+          <diff type="lrg_ins" lrg_start="6241" lrg_end="6242" other_start="116735" other_end="116736" lrg_sequence="CC" other_sequence="-" />
+          <diff type="other_ins" lrg_start="6288" lrg_end="6289" other_start="116658" other_end="116689" lrg_sequence="-" other_sequence="GCCCCGTTCTTCTCGGGTGGAGCGGCTTCGCG" />
+          <diff type="other_ins" lrg_start="6292" lrg_end="6293" other_start="116653" other_end="116653" lrg_sequence="-" other_sequence="C" />
+          <diff type="mismatch" lrg_start="6376" lrg_end="6376" other_start="116569" other_end="116569" lrg_sequence="G" other_sequence="C" />
+          <diff type="mismatch" lrg_start="6380" lrg_end="6380" other_start="116565" other_end="116565" lrg_sequence="G" other_sequence="C" />
+          <diff type="mismatch" lrg_start="6383" lrg_end="6383" other_start="116562" other_end="116562" lrg_sequence="G" other_sequence="C" />
+        </mapping_span>
+        <mapping_span lrg_start="6851" lrg_end="7091" other_start="704" other_end="944" strand="1" />
+      </mapping>
+      <features>
+        <gene source="Ensembl" accession="ENSG00000254827.4">
+          <symbol source="HGNC" name="SLC22A18AS" />
+          <coordinates coord_system="LRG_533" start="1" end="2986" strand="1" mapped_from="GRCh38" />
+          <partial>5-prime</partial>
+          <long_name>solute carrier family 22 (organic cation transporter), member 18 antisense (antisense)</long_name>
+          <db_xref source="HGNC" accession="10965">
+            <synonym>BWR1B</synonym>
+            <synonym>BWSCR1B</synonym>
+            <synonym>ORCTL2S</synonym>
+            <synonym>p27-BWR1B</synonym>
+            <synonym>SLC22A1LS</synonym>
+          </db_xref>
+          <db_xref source="Ensembl" accession="ENSG00000254827" />
+          <transcript source="Ensembl" accession="ENST00000625099.2">
+            <coordinates coord_system="LRG_533" start="1" end="2986" strand="1" mapped_from="GRCh38" />
+            <partial>5-prime</partial>
+            <long_name>SLC22A18AS-001 (antisense)</long_name>
+            <exon source="Ensembl" accession="ENSE00002181520">
+              <coordinates coord_system="LRG_533" start="2131" end="2986" strand="1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000455942.3">
+            <coordinates coord_system="LRG_533" start="1" end="2669" strand="1" mapped_from="GRCh38" />
+            <partial>5-prime</partial>
+            <long_name>SLC22A18AS-002 (antisense)</long_name>
+            <exon source="Ensembl" accession="ENSE00001642913">
+              <coordinates coord_system="LRG_533" start="2131" end="2669" strand="1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000526203.1">
+            <coordinates coord_system="LRG_533" start="1336" end="2671" strand="1" mapped_from="GRCh38" />
+            <long_name>SLC22A18AS-003 (antisense)</long_name>
+            <exon source="Ensembl" accession="ENSE00002151104">
+              <coordinates coord_system="LRG_533" start="1336" end="1458" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002153290">
+              <coordinates coord_system="LRG_533" start="2131" end="2671" strand="1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+        </gene>
+        <gene source="Ensembl" accession="ENSG00000129757.11">
+          <symbol source="HGNC" name="CDKN1C" />
+          <coordinates coord_system="LRG_533" start="4885" end="7553" strand="1" mapped_from="GRCh38" />
+          <long_name>cyclin-dependent kinase inhibitor 1C (p57, Kip2) (protein_coding)</long_name>
+          <db_xref source="GeneID" accession="1028">
+            <synonym>BWCR</synonym>
+            <synonym>BWS</synonym>
+            <synonym>KIP2</synonym>
+            <synonym>p57</synonym>
+            <synonym>p57Kip2</synonym>
+            <synonym>WBS</synonym>
+          </db_xref>
+          <db_xref source="MIM" accession="600856" />
+          <db_xref source="HGNC" accession="1786">
+            <synonym>BWCR</synonym>
+            <synonym>BWS</synonym>
+            <synonym>KIP2</synonym>
+            <synonym>P57</synonym>
+          </db_xref>
+          <db_xref source="Ensembl" accession="ENSG00000129757" />
+          <transcript source="Ensembl" accession="ENST00000414822.6">
+            <coordinates coord_system="LRG_533" start="4885" end="7553" strand="1" mapped_from="GRCh38" />
+            <long_name>CDKN1C-001 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS7738.1" />
+            <db_xref source="RefSeq" accession="NM_000076.2" />
+            <exon source="Ensembl" accession="ENSE00001691292">
+              <coordinates coord_system="LRG_533" start="4885" end="6096" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003634161">
+              <coordinates coord_system="LRG_533" start="6632" end="6767" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003563939">
+              <coordinates coord_system="LRG_533" start="6851" end="7553" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000413720.3">
+              <coordinates coord_system="LRG_533" start="5277" end="6762" strand="1" mapped_from="GRCh38" />
+              <long_name>cyclin-dependent kinase inhibitor 1C isoform a</long_name>
+              <db_xref source="RefSeq" accession="NP_000067.1" />
+              <db_xref source="UniProtKB" accession="P49918" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000440480.5">
+            <coordinates coord_system="LRG_533" start="4953" end="7548" strand="1" mapped_from="GRCh38" />
+            <long_name>CDKN1C-003 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS44519.1" />
+            <db_xref source="RefSeq" accession="NM_001122630.1" />
+            <db_xref source="RefSeq" accession="NM_001122631.1" />
+            <exon source="Ensembl" accession="ENSE00001781969">
+              <coordinates coord_system="LRG_533" start="4953" end="5132" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001486025">
+              <coordinates coord_system="LRG_533" start="5300" end="6096" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003634161">
+              <coordinates coord_system="LRG_533" start="6632" end="6767" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001771741">
+              <coordinates coord_system="LRG_533" start="6851" end="7548" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000411257.2">
+              <coordinates coord_system="LRG_533" start="5310" end="6762" strand="1" mapped_from="GRCh38" />
+              <long_name>cyclin-dependent kinase inhibitor 1C isoform b, cyclin-dependent kinase inhibitor 1C isoform b</long_name>
+              <db_xref source="RefSeq" accession="NP_001116103.1" />
+              <db_xref source="RefSeq" accession="NP_001116102.1" />
+              <db_xref source="UniProtKB" accession="P49918" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000430149.2">
+            <coordinates coord_system="LRG_533" start="4995" end="7187" strand="1" mapped_from="GRCh38" />
+            <long_name>CDKN1C-006 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS7738.1" />
+            <exon source="Ensembl" accession="ENSE00001593098">
+              <coordinates coord_system="LRG_533" start="4995" end="6096" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003634161">
+              <coordinates coord_system="LRG_533" start="6632" end="6767" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001820727">
+              <coordinates coord_system="LRG_533" start="6856" end="7187" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000411552.2">
+              <coordinates coord_system="LRG_533" start="5277" end="6762" strand="1" mapped_from="GRCh38" />
+              <db_xref source="UniProtKB" accession="P49918" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000380725.1">
+            <coordinates coord_system="LRG_533" start="5017" end="7553" strand="1" mapped_from="GRCh38" />
+            <long_name>CDKN1C-002 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00001486037">
+              <coordinates coord_system="LRG_533" start="5017" end="5132" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001486036">
+              <coordinates coord_system="LRG_533" start="5300" end="5564" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003687341">
+              <coordinates coord_system="LRG_533" start="6632" end="6767" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003646989">
+              <coordinates coord_system="LRG_533" start="6851" end="7553" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000370101.1">
+              <coordinates coord_system="LRG_533" start="5310" end="6855" strand="1" mapped_from="GRCh38" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000471157.2">
+            <coordinates coord_system="LRG_533" start="6065" end="7091" strand="1" mapped_from="GRCh38" />
+            <long_name>CDKN1C-004 (retained_intron)</long_name>
+            <exon source="Ensembl" accession="ENSE00001886283">
+              <coordinates coord_system="LRG_533" start="6065" end="6767" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001884983">
+              <coordinates coord_system="LRG_533" start="6851" end="7091" strand="1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+        </gene>
+      </features>
+    </annotation_set>
+    <annotation_set type="lsdb">
+      <source>
+        <name>List of locus specific databases for CDKN1C</name>
+        <url>http://grenada.lumc.nl/LSDB_list/lsdbs/CDKN1C</url>
+      </source>
+      <modification_date>2015-06-22</modification_date>
+    </annotation_set>
+  </updatable_annotation>
+</lrg>

@@ -1,0 +1,679 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="application/xml" href="lrg2html.xsl"?>
+
+<lrg schema_version="1.9">
+  <fixed_annotation>
+    <id>LRG_450</id>
+    <hgnc_id>4800</hgnc_id>
+    <sequence_source>NG_008153.1</sequence_source>
+    <organism taxon="9606">Homo sapiens</organism>
+    <source>
+      <name>LOVD - HSD17B10</name>
+      <url>http://databases.lovd.nl/shared/genes/HSD17B10</url>
+      <contact>
+        <name>Martina Witsch-Baumgartner</name>
+        <address>Medizinische Universitat Innsbruck, Austria</address>
+        <email>witsch-baumgartner@i-med.ac.at</email>
+      </contact>
+    </source>
+    <mol_type>dna</mol_type>
+    <creation_date>2013-01-16</creation_date>
+    <sequence>TGGTGGGCGCCTGTAGTCCCAGCTACTCGGGAGGCTGAGGCATGAGAATGGCTTGAACCTGGGAGGTGGAGGCTGCAGTAAGCCGAGATTGTGCCACTGCACTCCAGCCTGGGCGACAGAGCAAGATTCCCTCCAAAAAAAAAAAAAAGTGAAGAGGGGGCACTGAAGGGGTTTGAAAGCAAGTGGGTAACAATAAAAATTGGGTTTTAGGAAGAGGCTTCTGCTGGTTTCTTGGATGATCCTTTTAAGAGCAACAATAGTGGAGTCTGACCAGTTGCAATTGTACAGGCAAGAGATTTTGGATGGTGATAATAGGAAAGTAGGTGGGAGGAGGTGCCAGATCCAAAAAGTATGTAGGAGTTAAATCAGCAGGACTTGGCAGTTGCTTAGATGGGGTGAAGAGGGCGTGAGTCCCAGGATCTGGCTTGGGTGTCTGGGAAGTTAGTACTGCAACCAATTGAGATACAGCAGTTTTAGGGGGCAATGATTGAGTTTAATTTAGGGCATCTGGTGTAGAGGGCCAGCAAATTATTTGCTATATGATTCTGAAGTTCAGTGGAGAAGATGAGCTCAAAGTAGAGACTGGGAAGTCCTCAGCAGAGAGGGAGTATTGAAACCAGGAGATGGATAAGCTCCCCAGAGAGGGGGCAGAAGAAAAAGAACCCAGGGAAGAGACAAAAGAACAATCAGGGGAGTACAAGAAACCAGGAGAGTCAGGCTTCCTGGAAGCCAAGTGGGAGTTTCTAGGAAGAGCAAGTGATGAATATGTCAAATGCAGCCAGAAAGGTCTGATTACACAAAGCCTGAAAAATTACAGTTGATTTAGGCAACGGTAAAGTCACCATAACCTGAGGCTGTCATCCTTCAGGTTCATTCAGACATCAGCCCCATTTATTCAAGTGGCAAACACTCAGCCAACATGCGTCCTCAGCATCCTCTCAAACGCTCGCCACAGTAATTTTCATGTCCCCTGCAGTCCTTCAGCGTTTAAACCAATCATTCAGATTGTGCCCCAGCTCACTCAGAAATGACAGGCTCTGTATAATCATCACTTGGGGTTCTTCTTTTCCCCTCACATAGATGATGATATAATTGGGATTCTTTATATTTGTCAATGTCACCTCAGAGCCAGCTGGAACCAGTGCAGCTCTGTCTTTGCAGAGGTAACTGCAGGTGCCCACAAGAGTTAAATGGGTTATCTTGTGGTTTTTATCTCCCAGGAGTGAAGACCACCCAGGAGTAAAGACCACCTTTATTCTTCTCTGTTTCCTGGCAGGGCTAATTTGACACAATGCTGCGTGTTGCTTGTTTTGGTGTCCTTGCTGGGCCCCTTTGCGCACCTCTGGCCCTCAGGTTCCCATGAGACATGCATCCAAACTGTTGAGTATGTGCGTGTAAAGGTTGACATCACTTTATTCCCTATTTTTTTGTGTGTGTGGAGACAGGGTCTTGCTATGTTGCCCAGGCTGGTCTCAAACTCCTGGGCTCAAGACATCCTGCTGCTTCAGCCTCCCAAAATGTTAGGATTACAGGCGTGAACCACTGCACTCAGCCCCTATTCCCTATTTTCTAATGGTTTTGAGACAGAGGTGCGTGCAATCAAGAGAGAGGATGCTCAGTAGCAGAAATCCCCAAGAAAGTGGGAGGGGCTGGGACACAAAACCCAGTGGAAGGGTGAGCCCTAAACAGGACATCTCTGAGACCCAAGGAAAGGATGGTGTGGGTGGGTAGAGACAATTTTGGAGGTGGCAAGAGAGAAGTATTCACTAATGGCTTCCGTTTGCTCTAAAAACAGTTCTTTTAATTGTGCAGCCCTCAGAACCAGAAGAAGTTCAGAGAGCTCCCTCTAAACACAGTTCTTAACCCACAATCCAAAAGACCCCTGAGGAGTCAGTGAATAGAATTCAAAGAGCCCATGGACTTGGATAGAGGGGAAATTGCATCATTATTTTCACTATTACTAACAGAAATATAGCATATCCTTCCAGGGGATGTGGGTAACAAACTGCAGTAATATTAGCACCTGTGACTTTGACACTAAGAGAGATCAGATTTTCATTATTACGGTTGTTGCATATCTCTCAAAATAACATCACTATTTCAAAAATCATGGTTGTCACTAGACCTGTTGATAGAGCTTGCTATTTAATGTGTTAATAAAGAAGCACATATATTACTACATTACAGGTGCGTTTCCTTTTATTTTGAAAATTGTACCCCAATATAATTGGTTTCTTTTGTAATCCTACTTATAGGACGCATGCATTATTCTGGGAAGGGGTTCCTAAGACTTCACCAGACTCCCATAGGTGTCCGTAGCATAGAAAAGGATGAGAAACACTGCTCTGAAGAGTAACCATAGCTAACACTTATATAGCTCTTGCTAAAGGCCAAGCACTGTTCCAAGTCCTTTTTAAATACATAGTTGTTAACTCATTTATTCCTAACAACCCTACGAATAGTCATTTGTTTATACTCATTTTACAGAAGAGGAAACTGAGGCACATCAGTTAAGTAACTTGTCCAGGGTCATTCGGCTAGTAAATAATAGAGCTGAGGCTGGGCGCGATGGCTCATGCCTGTAATCCCAACACTTTGGGAGGCTGAGGCAGGGCGGATCACCTGAGGTCAGGAGTTCAACACCAGACTGGCCAACATGGTAAAATCCCATCTCTACTAAAAATACAAAAATTAGCCAGGCGTGGTGGCCCATGCCTGTAATTTCAGCTACTCTGGAAGCTGAGGCAGGAGAATTGCTTGCACCCAGGAAGCGGAGGTTGCAGTGAGCCAAGATGCGCCACTGCACTCCAGCCTGGGCAGCGGGAGACTCCATCTCAAAAAAAAAAAAAAAAGCGGTAGAGGGGAAGAGATCCAAGACAACTCGAGAACATGGTCAGAGAGAGAAAAGATGGTGTGTAGATGCTGGGGAGGGCAGGAGGTTATTCCAGGGAATGACAAGTGCAATAAGGTGGCCTGGACAGGTGGTTAAAGTAGAGAGGAGGTGAAGGTTCCCGGAGTTGGGCAGGTGAAAGAATCATGAAACTGTGCCTGGAAATTCTTCCAAGATTAATTCATTAATTCATTTATTTCACACATTTGTTTTAAGTGTCTTGTACACGCCAAGCAGTGTTCTCGGCATTAGGTGAACCAGCTGGACAAGCCCCTGGTGCCATGGGGCTTACCTTCCAGCAGGGGGAGAACTACACAAACAAGGCCAGGTTAGCGGAGCATGCAGGCTCACAAGCCTGTAGGCACAATCCTGCAATGCCAAAACTTCTGAAAAGCATAAGGTTGTTTTTTCATACTTTGGAGCCCAAACTCAATAGATGACAAAACCTGACCTGAAGTAGTGTGAGGCTATTTATAGTCTTTATTCACACTTGGTGTGAATTTTCATACCTTTCACTTCAGAAATATTAATATTTCATTACGATGCTCCAGGCTTTTCTCAATAGTTATATAATATAGACTATACAAAAAGTTATGTTTGACTAGTTTTTTTAAAGAGTTATGTAATATAAATTACATGTCTTCCTTTCTCAAATTGAAAAAAACTCTGAATTCCACAGCACATCTGGCCCTAAGGTTGGAAAATGGATTACGGACATGCAAGTGCTATGAAGATAATTCAAATATGCAATGGGATAGTGTCTAGGTGGCTACAGTTTGAATATTTAGGGAGGACCCCTCTGGGAAGGTGATATTTAAGCTTAGTTCTGAATGAAAAAAAATAAAAGCAGTCATGCAAAGATCAGGGGAGAGCATTCCAAGCAGAGGGAGCAGCTAATGCAAAGATGAACACAAAGGAGGCCACTGTGGCTACAGCATATTGGGCCGGATGAAGAGTGCTATAAATTGATGGAAGCACTTCATGTAGATAGGAAAATTGTGAGACCGGTGTGCTAAATCCTTTGGTAAATACGGTGTAGTGATTATGAGTGTGGTGGCTGTCAACAACTAGAAGGCCTGGAGGGGAATCTTCCTGGGTGAGAAAGCAAGTGGGGGGAGATATTTCAGATAGAGAAAACATAAAGCAGTTCTGAGGCTGAAATGGTGGGCTAAGATTTATGGCCTGAAGACCTTGGTTTGAGGAAAAGTATAGAAGGAAGACAGATTAGATATCTGGGCTCAAGACTCTAATGACATAGCTTCTGGAAGCTGCCTGAAAGATGTTCTAGGATGACAAAGACCTGGGTCTTAAATAATAGTCTCTGGTTGAAGTCCAATCTGCAGTGTGTGATCTGGGCTTTTGGACTTAAATTAGACAAAGATAGAGGAGAGTAGCAAAGCCTGAACTGATGAAAGATGTTTTTGCCTCTTTAGGTTTGTGCTTCTCAGCAGCTGTCCTAGAATGTCTGTCTCCAAGCATCTCTCTTAGCGGCTTTCCACATTCATCTCTCTGTGATCCTACCTGGCATCTCTCTTCCTATCTCGGCCTCAACATATTTCTCTTTACATGGCTCTCTCTCTCTCTAACTCAGACTCCTCATCTTTGGATCTCCTTGTCTGAGTGTCCCAGAATCTGGTTCCGTCCATTCGTCTGTGTCTGTACTGTAATTCTCTTTCTCCACCTGGACTGTGCCCTCCTGGAAGGCATGAATCTTTTATTATTCCGCTGGGTATCCCAGGTGCCCCGCACACCGTCTAGCATATAGGAGTCTCAAATACATTCATACTTGAATTAAGACTTTTTCAGAGGAGAAAGGCATCCGTTCTCAATATCCACCCCTCTTCCCCCACGCGGAGCAGGCCACTTGCCAAAAGGCCAGCTAGAGAGTAGGGCGAGGGGTGTTGTGGTATTGTACTTCTGCTATTGGTCTCTTTCCCCAGTTGAAATAACTCTGGGGATACCTTAGCAGGCGGAATCCGCCCTCTGGCCAAAGGACTAGCGTACCAGGCCACGCCCCCACGTCTCATGCGGCAGCGGCAGACGCCCCGGCCCGTCGCATCCGCCCCTTCCGCCGCTTCGCCTCGGCCAATCAACGAGCGCCCGCGCCCCCATCCCCATCCCGTGGAGTGGCCGGCGACAAGATGGCAGCAGCGTGTCGGAGCGTGAAGGTAGAAGGTTCTTTGCCTCTGTTGCTTGCCTTCCTTTACGGGCCGGGACAGCGCGGCCGTGGAACTAGGAGAAAGAGATCGGTTTCGAGGGAAAGGGTCATGCTTATGTAGGCCTGGTATTGTGGCCGTTGGGCTCAAGAGGTGAAAGTCAGCACTCCGCGGCGCATCTGTCTGTCTGTCTGTCTGTCTATCTATCTATCTATCAATCATCTATCTATCTATCGTCACGGGACGGGCTGTCTGGGGATGAGATCCCTTCTGCCCCCGAGGTCCCAACGCTGAGGAGAAGCAGCACACCTAGTTTACCCGCAGGGGTGACCACGACCTCTCCCCTCCCCCCTTCTCCTCAGAAGCCTGGAGAACAGGCAGGCGACAGCGTGGGGATGGTCTGGGCAATGTAACAGCTGACCCTGACCATGTCCCTTTTGACAGGGCCTGGTGGCGGTAATAACCGGAGGAGCCTCGGGCCTGGGCCTGGCCACGGCGGAGCGACTTGTGGGGCAGGGAGCCTCTGCTGTGCTTCTGGACCTGCCCAACTCGGGTGGGGAGGCCCAAGCCAAGAAGTTAGGAAACAACTGCGTTTTCGCCCCAGCCGACGTAAGTGGGGTCACCTCTCCTCTCCCAGGGTGTGCATGAGGTCACCAACACCGGCCTGGGAACCTGTGGGGGTCCCTCCCATAAGGGTCTCCTCTATGGGGGCGGTAGACCCATCTCCTTGTCTCTTTTGGCCTGAGCCTTCAAGCACTGTGGGACCACCTGTGATAAGGATTCTCTAAAGCTGGGATTCACAACAATGAGGATGGGGATTGGACGTAACAATCTCCTGGAGGAGTTATGTATGGTTTGAAAATGCATTTTGTGCCTTGTAATTTTATATTTACAAAGTCAAAAAACTTGTTTTCATGAAACAAACTACAGAAAGTGAAACTTGATGAAATCATCTTAGCAGGTAAGGATACAAAAAAGCTAGTTTATCTTCCTATCAATAATTCTCACAAGAGGGTTATTTTTTATTTTTATTTTTGAGATGGAGTCTCGCTCTGTTGCCCAGGCTGGAGTGCAGTGGCACAATCTCAGCTCCTTGCAACCTCCATCTTCTGGGTTCAAGCGATTTTCCTGCCTCAACCTCCCAAGTAGCTGGGATTACAGGCACCTGCCACCACGCCCAGCTAATTTTTTTTTTTGTATTTTTAGAAGAGATGGGGTTTCACCATGTTGGCCGGGCTGGTCTTGAACTCCTGATCTCACGTGATCCGCCCGCCTCGGCCTCCCAAAGTGCTGGGATTACAGGTGTGAGCCACTGCACCCAGCCTCACAACAGGGTTGCATTAGTGCTCTGATCCACAGCAATTAAGAATCTTCAGGAGCATGTGAATTTATCAAGAAGGTATTGATTTGAAAAATGTTTTGCAACACTGCTCTATATTACCTAATATTTTCACCTTTGACCTACTCTCTCAATTTTTTTTTTTGGGACAGAGTCTCACTGTTGCCCAGGCTGCAGTGCAATGGCACGATCTCAGCTCACTGCAACCTCTGCCTCCCGGGTTCAAGCGATTCTTCTGCCTCAGCCTTCCAAGTAGCTGGGATTACAGGCATGTGTCACTATGCCGGCTAATTTTGTATTTTTAGTAGAGACGGGTTTTCACCACGTTGGCCAGGCTGGTCTCAAACTCCTGATCTTAAGTGATCCACCAGCCTCGGCCTCCCAAAGTGCTGAGATTACAGGCATGAGCCACCGCACCCAGCCTATCTCTCAAGTTTTACAACCTTTCTCTTGGCCTCTCCCTTCTCACAAATCTCTTCTCACCCAAGGACTGGGCATGCCCTGCCCTGCCCTCCCTCAGGTTTAGTGGGAAGAGTGGGTGCTGGGAGATGAATACCTTCTCCACTTCTCTCTTTGAAGGTGACCTCTGAGAAGGATGTGCAAACAGCTCTGGCTCTAGCAAAAGGAAAGTTTGGCCGTGTGGATGTAGCTGTCAACTGTGCAGGCATCGCGGTGGCTAGCAAGACGTACAACTTAAAGAAGGGCCAGACCCATACCTTGGAAGACTTCCAGCGAGTTCTTGATGTAAGGCCTTGGAAGTTCTCCAGGGATAGTGGTAGTAAGAAGTATCTGGCTGTGGAGGACCCCAAAGTTTTTAGGGGACAAAGGCTTCTTCTGCCTCAGGTCCTATAGCATGTCTCCATCTGTCCTACAGGTGAATCTCATGGGCACCTTCAATGTGATCCGCCTGGTGGCTGGTGAGATGGGCCAGAATGAACCAGACCAGGGAGGCCAACGTGGGGTCATCATCAACACTGCCAGTGTGGCTGCCTTCGAGGGTCAGGTGTGTGGGCAGGGGTAAGACTTATGCCTCCTAAGTGACTTGTTGGGGCCCTCCCACCTATGACTTCTACTCTTTCTCCAGGTTGGACAAGCTGCATACTCTGCTTCCAAGGGGGGAATAGTGGGCATGACACTGCCCATTGCTCGGGATCTGGCTCCCATAGGTATCCGGGTGATGACCATTGCCCCAGGTAGACATATCCCCTCTCTCCATCATACCTGGGATTGGGTGGGATCCATGGACAGTTGAGAGGGGAAGGTATCCACCACCTAAGCAGCAGCAGCCTTTTATCTTTGGGCCCCAGAGAAGCACCAAGAAGTAGGGCTAAAGTAAGGAAGAACCAGGTAATCATGAAAGCAAGGGTGAGTCTCTGAATTTGGCTATATTGTTTAGGTCTGTTTGGCACCCCACTGCTGACCAGCCTCCCAGAGAAAGTGTGCAACTTCTTGGCCAGCCAAGTGCCCTTCCCTAGCCGACTGGGTGACCCTGCTGAGTATGCTCACCTCGTACAGGCCATCATCGAGAACCCATTCCTCAATGGAGAGGTCATCCGGCTGGATGGGGCCATTCGTATGCAGCCTTGAAGGGAGAAGGCAGAGAAAACACACGCTCCTCTGCCCTTCCTTTCCCTGGGGTACTACTCTCCAGCTTGGGAGGAAGCCCAGTAGCCATTTTGTAACTGCCTACCAGTCGCCCTCTGTGCCTAATAAAGTCTCTTTTTCTCACAGAGTGTAGGCAGTGTTGTGTGCTAGGGGGCCTGGCATGGGGAAGAAATGTGAAGGCTGTGACAGGGTTGGATGCTCAGAGCTCCAGGGTGGGGTGGGAAAGGCAGTACCTTCATAATACTTTGTGTCCTGTTACAACATGTGGACTTGATTTTGAGTGCAGAACTTTATTACCTAGGTTAGAAGGTGGGAGTATGCAGCATTTTTCTCTTTGACTCCTAACCACCTGTGAGCTTGATGGAGGAGAAGGGAGAGAGAGATAGACATCCTGAACTTAGCGGCTGCTGGTGTTAAACTGCTGGTGATACTGGGCTGTAGGTTGATTGGTGTAGATTACTGAATTCAGGTAATCCTGCCTGTGAAAGAAGTCCAGAGGTCTCAGCTGACATGCTTTCCCTCTCTCCATGGTTCCTCACCATCCCTCCTCTCCCTCCCTTGGCATTTATCTCCACCACTACCACCTAGAACTCACTGGGCTTTTTGCTCATTAGCCAGCTGCTGGTTGAAGGATCCTAGACCCCTTTGAAATACAGCACACAATTCCCTCTCCTGCTCTTCTAGCTCCAGCACTGCCTGGGCTGAGCTCATAGTCTGGCTTTTCCATTCAGTATCCAGTGTTTTCTCAGCCTGACGGTGTGCTTGCTTCTTAGAGCGTTGTACTTCCTGCTCTTTCCTGATGGCAGCTTGCTGCTCTGGAGTCATGCCCTTCCAGCAATAGGGCAGGACCCGGTAGGGAGCCATAGGGTGTTGGGCGACCTGGGGGTTTTCAGTCAGTAGGTCACTCGTGCTCTGGTGCTGGATCTCCGCAAGGTTGGCCTTCTGTTCACGCTGACGCTCACAGCGCTGACGCCCAGCCTGCACAGCTGCCTGGTGGAGCCCCCAAATGCAAACATTTGGGTGCCCAACCTCAGGGAACTCTGTCACAGGGGAGGGGGGAACATGGCCCTACTCTTCCATCTCAAGGAGAAAGAACAGATACTGCATGGCCTTTCAATGCCCCTAATATGTGTTGGGGAGAATGGGCAGGGAACTTCTCTGCCTTCAGGAAGCCTTTAGACTGGGAAGCGGAGGATGAGAGGGCAATGTTCTATTCTCAAGTCATCCTGCTTCTGGAGGTGGGGAGAAGTGACTTGTACCCTAAGAGGGGCCTTCAGTGAAGGGGGAGTACTCAGATGAGAGGGCTGATGCTGATTTAAGAGGGGATGTAAGAGGAAGAATATGGCTAAGGTTCTCCAGGATTTTGTTCAGGAGTTGGGGAGAGCCCAAGGTACTGCATGGCTCAGGCCATACCTGCGCTTTGTTGGCGTTGGCCATGGCACACATCATGGCCGCACGACAGGACTCCTCCAGCCTGGCCAGATGGGTGGCCTGTGCATCCATGGCGAGGCGCAGCTGGTTACTGAGCGCATCTACACAGAGAAATATGGCCGGGGTACTGTACTGGCTTGCTCCATTCCTGTTTCACTCATCCAGCCATTTGTTCAGCAAGTTTTGTGTTTGTGTGTGTACGAATGTTTAGGAGGGGGTTAGTGTCCGAGTTGTAGGGATGTGGAAGGAACTAGGTGCAGCAACAACGATTTCTCAAGCGCATAACTAAAAGATGCCTCCAATGGACCTGGGTCCCAATGTCAGTTCTGCTGCTTCTGAGCTGTGTGATTTTGGGTAAATCATTTCATATCTCTGAATCTCAGTCTAAGGGCCATGTGCTGGGTTCTAATGATACCATCGAATTAAATCCTGTCCTCAGAGAACTCCCTGTCTAGTTGGGGACACAGATCAAACATAGACCACAATCTGGCAAGAGCAATGGCAGGGATGTACACAGGGTATTAAGAGGGTTTTGGATGGTGGAAAAGAGGAAGGCTTCCAGGAAGAGGTGATCCTTGAAATACATTTTGTATACAGGCTAAAAGAGCAAAGGGCATTCCAGGCTGAGGGCATGGCATGAGCAAAGGTACTGACAATTTTTTTCTGCTCCAGCCACACTGAGCTCCTTGCTGTTCCT</sequence>
+    <transcript name="t1">
+      <coordinates coord_system="LRG_450" start="5001" end="8118" strand="1" />
+      <cdna>
+        <sequence>ATCCCCATCCCGTGGAGTGGCCGGCGACAAGATGGCAGCAGCGTGTCGGAGCGTGAAGGGCCTGGTGGCGGTAATAACCGGAGGAGCCTCGGGCCTGGGCCTGGCCACGGCGGAGCGACTTGTGGGGCAGGGAGCCTCTGCTGTGCTTCTGGACCTGCCCAACTCGGGTGGGGAGGCCCAAGCCAAGAAGTTAGGAAACAACTGCGTTTTCGCCCCAGCCGACGTGACCTCTGAGAAGGATGTGCAAACAGCTCTGGCTCTAGCAAAAGGAAAGTTTGGCCGTGTGGATGTAGCTGTCAACTGTGCAGGCATCGCGGTGGCTAGCAAGACGTACAACTTAAAGAAGGGCCAGACCCATACCTTGGAAGACTTCCAGCGAGTTCTTGATGTGAATCTCATGGGCACCTTCAATGTGATCCGCCTGGTGGCTGGTGAGATGGGCCAGAATGAACCAGACCAGGGAGGCCAACGTGGGGTCATCATCAACACTGCCAGTGTGGCTGCCTTCGAGGGTCAGGTTGGACAAGCTGCATACTCTGCTTCCAAGGGGGGAATAGTGGGCATGACACTGCCCATTGCTCGGGATCTGGCTCCCATAGGTATCCGGGTGATGACCATTGCCCCAGGTCTGTTTGGCACCCCACTGCTGACCAGCCTCCCAGAGAAAGTGTGCAACTTCTTGGCCAGCCAAGTGCCCTTCCCTAGCCGACTGGGTGACCCTGCTGAGTATGCTCACCTCGTACAGGCCATCATCGAGAACCCATTCCTCAATGGAGAGGTCATCCGGCTGGATGGGGCCATTCGTATGCAGCCTTGAAGGGAGAAGGCAGAGAAAACACACGCTCCTCTGCCCTTCCTTTCCCTGGGGTACTACTCTCCAGCTTGGGAGGAAGCCCAGTAGCCATTTTGTAACTGCCTACCAGTCGCCCTCTGTGCCTAATAAAGTCTCTTTTTCTCACAGAG</sequence>
+      </cdna>
+      <coding_region>
+        <coordinates coord_system="LRG_450" start="5032" end="7972" strand="1" />
+        <translation name="p1">
+          <sequence>MAAACRSVKGLVAVITGGASGLGLATAERLVGQGASAVLLDLPNSGGEAQAKKLGNNCVFAPADVTSEKDVQTALALAKGKFGRVDVAVNCAGIAVASKTYNLKKGQTHTLEDFQRVLDVNLMGTFNVIRLVAGEMGQNEPDQGGQRGVIINTASVAAFEGQVGQAAYSASKGGIVGMTLPIARDLAPIGIRVMTIAPGLFGTPLLTSLPEKVCNFLASQVPFPSRLGDPAEYAHLVQAIIENPFLNGEVIRLDGAIRMQP</sequence>
+        </translation>
+      </coding_region>
+      <exon label="1">
+        <coordinates coord_system="LRG_450" start="5001" end="5058" strand="1" />
+        <coordinates coord_system="LRG_450t1" start="1" end="58" />
+        <coordinates coord_system="LRG_450p1" start="1" end="9" />
+      </exon>
+      <intron phase="0" />
+      <exon label="2">
+        <coordinates coord_system="LRG_450" start="5491" end="5655" strand="1" />
+        <coordinates coord_system="LRG_450t1" start="59" end="223" />
+        <coordinates coord_system="LRG_450p1" start="10" end="64" />
+      </exon>
+      <intron phase="0" />
+      <exon label="3">
+        <coordinates coord_system="LRG_450" start="6965" end="7129" strand="1" />
+        <coordinates coord_system="LRG_450t1" start="224" end="388" />
+        <coordinates coord_system="LRG_450p1" start="65" end="119" />
+      </exon>
+      <intron phase="0" />
+      <exon label="4">
+        <coordinates coord_system="LRG_450" start="7260" end="7388" strand="1" />
+        <coordinates coord_system="LRG_450t1" start="389" end="517" />
+        <coordinates coord_system="LRG_450p1" start="120" end="162" />
+      </exon>
+      <intron phase="0" />
+      <exon label="5b">
+        <coordinates coord_system="LRG_450" start="7470" end="7578" strand="1" />
+        <coordinates coord_system="LRG_450t1" start="518" end="626" />
+        <coordinates coord_system="LRG_450p1" start="163" end="199" />
+      </exon>
+      <intron phase="1" />
+      <exon label="6">
+        <coordinates coord_system="LRG_450" start="7782" end="8118" strand="1" />
+        <coordinates coord_system="LRG_450t1" start="627" end="963" />
+        <coordinates coord_system="LRG_450p1" start="199" end="261" />
+      </exon>
+    </transcript>
+    <transcript name="t2">
+      <coordinates coord_system="LRG_450" start="5001" end="8118" strand="1" />
+      <cdna>
+        <sequence>ATCCCCATCCCGTGGAGTGGCCGGCGACAAGATGGCAGCAGCGTGTCGGAGCGTGAAGGGCCTGGTGGCGGTAATAACCGGAGGAGCCTCGGGCCTGGGCCTGGCCACGGCGGAGCGACTTGTGGGGCAGGGAGCCTCTGCTGTGCTTCTGGACCTGCCCAACTCGGGTGGGGAGGCCCAAGCCAAGAAGTTAGGAAACAACTGCGTTTTCGCCCCAGCCGACGTGACCTCTGAGAAGGATGTGCAAACAGCTCTGGCTCTAGCAAAAGGAAAGTTTGGCCGTGTGGATGTAGCTGTCAACTGTGCAGGCATCGCGGTGGCTAGCAAGACGTACAACTTAAAGAAGGGCCAGACCCATACCTTGGAAGACTTCCAGCGAGTTCTTGATGTGAATCTCATGGGCACCTTCAATGTGATCCGCCTGGTGGCTGGTGAGATGGGCCAGAATGAACCAGACCAGGGAGGCCAACGTGGGGTCATCATCAACACTGCCAGTGTGGCTGCCTTCGAGGGTCAGGTTGGACAAGCTGCATACTCTGCTTCCAAGGGGGGAATAGTGGGCATGACACTGCCCATTGCTCGGGATCTGGCTCCCATAGGTCTGTTTGGCACCCCACTGCTGACCAGCCTCCCAGAGAAAGTGTGCAACTTCTTGGCCAGCCAAGTGCCCTTCCCTAGCCGACTGGGTGACCCTGCTGAGTATGCTCACCTCGTACAGGCCATCATCGAGAACCCATTCCTCAATGGAGAGGTCATCCGGCTGGATGGGGCCATTCGTATGCAGCCTTGAAGGGAGAAGGCAGAGAAAACACACGCTCCTCTGCCCTTCCTTTCCCTGGGGTACTACTCTCCAGCTTGGGAGGAAGCCCAGTAGCCATTTTGTAACTGCCTACCAGTCGCCCTCTGTGCCTAATAAAGTCTCTTTTTCTCACAGAG</sequence>
+      </cdna>
+      <coding_region>
+        <coordinates coord_system="LRG_450" start="5032" end="7972" strand="1" />
+        <translation name="p2">
+          <sequence>MAAACRSVKGLVAVITGGASGLGLATAERLVGQGASAVLLDLPNSGGEAQAKKLGNNCVFAPADVTSEKDVQTALALAKGKFGRVDVAVNCAGIAVASKTYNLKKGQTHTLEDFQRVLDVNLMGTFNVIRLVAGEMGQNEPDQGGQRGVIINTASVAAFEGQVGQAAYSASKGGIVGMTLPIARDLAPIGLFGTPLLTSLPEKVCNFLASQVPFPSRLGDPAEYAHLVQAIIENPFLNGEVIRLDGAIRMQP</sequence>
+        </translation>
+      </coding_region>
+      <exon label="1">
+        <coordinates coord_system="LRG_450" start="5001" end="5058" strand="1" />
+        <coordinates coord_system="LRG_450t2" start="1" end="58" />
+        <coordinates coord_system="LRG_450p2" start="1" end="9" />
+      </exon>
+      <intron phase="0" />
+      <exon label="2">
+        <coordinates coord_system="LRG_450" start="5491" end="5655" strand="1" />
+        <coordinates coord_system="LRG_450t2" start="59" end="223" />
+        <coordinates coord_system="LRG_450p2" start="10" end="64" />
+      </exon>
+      <intron phase="0" />
+      <exon label="3">
+        <coordinates coord_system="LRG_450" start="6965" end="7129" strand="1" />
+        <coordinates coord_system="LRG_450t2" start="224" end="388" />
+        <coordinates coord_system="LRG_450p2" start="65" end="119" />
+      </exon>
+      <intron phase="0" />
+      <exon label="4">
+        <coordinates coord_system="LRG_450" start="7260" end="7388" strand="1" />
+        <coordinates coord_system="LRG_450t2" start="389" end="517" />
+        <coordinates coord_system="LRG_450p2" start="120" end="162" />
+      </exon>
+      <intron phase="0" />
+      <exon label="5a">
+        <coordinates coord_system="LRG_450" start="7470" end="7551" strand="1" />
+        <coordinates coord_system="LRG_450t2" start="518" end="599" />
+        <coordinates coord_system="LRG_450p2" start="163" end="190" />
+      </exon>
+      <intron phase="1" />
+      <exon label="6">
+        <coordinates coord_system="LRG_450" start="7782" end="8118" strand="1" />
+        <coordinates coord_system="LRG_450t2" start="600" end="936" />
+        <coordinates coord_system="LRG_450p2" start="190" end="252" />
+      </exon>
+    </transcript>
+  </fixed_annotation>
+  <updatable_annotation>
+    <annotation_set type="requester">
+      <source>
+        <name>LOVD - HSD17B10</name>
+        <url>http://databases.lovd.nl/shared/genes/HSD17B10</url>
+        <contact>
+          <name>Martina Witsch-Baumgartner</name>
+          <address>Medizinische Universitat Innsbruck, Austria</address>
+          <email>witsch-baumgartner@i-med.ac.at</email>
+        </contact>
+      </source>
+      <modification_date>2015-06-22</modification_date>
+    </annotation_set>
+    <annotation_set type="lrg">
+      <source>
+        <name>LRG</name>
+        <url>http://www.lrg-sequence.org/</url>
+        <contact>
+          <name>Locus Reference Genomic</name>
+          <url>http://www.lrg-sequence.org/contact</url>
+          <email>feedback@lrg-sequence.org</email>
+        </contact>
+      </source>
+      <modification_date>2015-06-22</modification_date>
+      <mapping coord_system="GRCh37.p13" other_name="Xp11.22" other_id="NW_004070877.1" other_id_syn="JH806587.1" other_start="3142373" other_end="3152491" type="patch">
+        <mapping_span lrg_start="1" lrg_end="10118" other_start="3142373" other_end="3152491" strand="-1">
+          <diff type="other_ins" lrg_start="6467" lrg_end="6468" other_start="3146024" other_end="3146024" lrg_sequence="-" other_sequence="T" />
+          <diff type="mismatch" lrg_start="8702" lrg_end="8702" other_start="3143789" other_end="3143789" lrg_sequence="A" other_sequence="G" />
+        </mapping_span>
+      </mapping>
+      <mapping coord_system="GRCh37.p13" other_name="X" other_id="NC_000023.10" other_id_syn="CM000685.1" other_start="53456206" other_end="53466323" type="other_assembly">
+        <mapping_span lrg_start="1" lrg_end="10118" other_start="53456206" other_end="53466323" strand="-1" />
+      </mapping>
+      <mapping coord_system="GRCh38.p2" other_name="X" other_id="NC_000023.11" other_id_syn="CM000685.2" other_start="53429258" other_end="53439376" type="main_assembly">
+        <mapping_span lrg_start="1" lrg_end="10118" other_start="53429258" other_end="53439376" strand="-1">
+          <diff type="other_ins" lrg_start="6467" lrg_end="6468" other_start="53432909" other_end="53432909" lrg_sequence="-" other_sequence="T" />
+          <diff type="mismatch" lrg_start="8702" lrg_end="8702" other_start="53430674" other_end="53430674" lrg_sequence="A" other_sequence="G" />
+        </mapping_span>
+      </mapping>
+      <lrg_locus source="HGNC">HSD17B10</lrg_locus>
+    </annotation_set>
+    <annotation_set type="ncbi">
+      <source>
+        <name>NCBI RefSeqGene</name>
+        <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
+        <contact>
+          <name>RefSeqGene Group</name>
+          <address>NCBI/NLM/NIH</address>
+          <email>rsgene@ncbi.nlm.nih.gov</email>
+        </contact>
+      </source>
+      <comment>Annotation from NG_008153.1</comment>
+      <modification_date>2015-06-19</modification_date>
+      <mapping coord_system="NM_001037811.2" other_name="NM_001037811.2" other_id="NM_001037811.2" other_start="1" other_end="936" type="transcript">
+        <mapping_span lrg_start="5001" lrg_end="5058" other_start="1" other_end="58" strand="1" />
+        <mapping_span lrg_start="5491" lrg_end="5655" other_start="59" other_end="223" strand="1" />
+        <mapping_span lrg_start="6965" lrg_end="7129" other_start="224" other_end="388" strand="1" />
+        <mapping_span lrg_start="7260" lrg_end="7388" other_start="389" other_end="517" strand="1" />
+        <mapping_span lrg_start="7470" lrg_end="7551" other_start="518" other_end="599" strand="1" />
+        <mapping_span lrg_start="7782" lrg_end="8118" other_start="600" other_end="936" strand="1" />
+      </mapping>
+      <mapping coord_system="NM_004493.2" other_name="NM_004493.2" other_id="NM_004493.2" other_start="1" other_end="963" type="transcript">
+        <mapping_span lrg_start="5001" lrg_end="5058" other_start="1" other_end="58" strand="1" />
+        <mapping_span lrg_start="5491" lrg_end="5655" other_start="59" other_end="223" strand="1" />
+        <mapping_span lrg_start="6965" lrg_end="7129" other_start="224" other_end="388" strand="1" />
+        <mapping_span lrg_start="7260" lrg_end="7388" other_start="389" other_end="517" strand="1" />
+        <mapping_span lrg_start="7470" lrg_end="7578" other_start="518" other_end="626" strand="1" />
+        <mapping_span lrg_start="7782" lrg_end="8118" other_start="627" other_end="963" strand="1" />
+      </mapping>
+      <features>
+        <gene source="NCBI-Gene" accession="3028">
+          <symbol source="HGNC" name="HSD17B10">
+            <synonym>17b-HSD10</synonym>
+            <synonym>ABAD</synonym>
+            <synonym>CAMR</synonym>
+            <synonym>DUPXp11.22</synonym>
+            <synonym>ERAB</synonym>
+            <synonym>HADH2</synonym>
+            <synonym>HCD2</synonym>
+            <synonym>MHBD</synonym>
+            <synonym>MRPP2</synonym>
+            <synonym>MRX17</synonym>
+            <synonym>MRX31</synonym>
+            <synonym>MRXS10</synonym>
+            <synonym>SCHAD</synonym>
+            <synonym>SDR5C1</synonym>
+          </symbol>
+          <coordinates coord_system="LRG_450" start="5001" end="8118" strand="1" />
+          <long_name>hydroxysteroid (17-beta) dehydrogenase 10</long_name>
+          <db_xref source="GeneID" accession="3028" />
+          <db_xref source="HGNC" accession="HGNC:4800" />
+          <db_xref source="MIM" accession="300256" />
+          <db_xref source="CCDS" accession="CCDS14354.1" />
+          <db_xref source="CCDS" accession="CCDS35300.1" />
+          <db_xref source="GI" accession="193290113" />
+          <transcript source="RefSeq" accession="NM_004493.2" fixed_id="t1">
+            <coordinates coord_system="LRG_450" start="5001" end="8118" strand="1" />
+            <long_name>hydroxysteroid (17-beta) dehydrogenase 10, transcript variant 1</long_name>
+            <db_xref source="GeneID" accession="3028" />
+            <db_xref source="GI" accession="91823611" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_450" start="5001" end="5058" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_450" start="5491" end="5655" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_450" start="6965" end="7129" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_450" start="7260" end="7388" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_450" start="7470" end="7578" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_450" start="7782" end="8118" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_004484.1" fixed_id="p1">
+              <coordinates coord_system="LRG_450" start="5032" end="7972" strand="1" />
+              <long_name>3-hydroxyacyl-CoA dehydrogenase type-2 isoform 1</long_name>
+              <long_name>short chain dehydrogenase/reductase family 5C, member 1</long_name>
+              <long_name>short chain L-3-hydroxyacyl-CoA dehydrogenase type 2</long_name>
+              <long_name>amyloid-beta peptide binding alcohol dehydrogenase</long_name>
+              <long_name>short chain type dehydrogenase/reductase XH98G2</long_name>
+              <long_name>3-hydroxy-2-methylbutyryl-CoA dehydrogenase</long_name>
+              <long_name>AB-binding alcohol dehydrogenase</long_name>
+              <long_name>mitochondrial ribonuclease P protein 2</long_name>
+              <long_name>endoplasmic reticulum-associated amyloid beta-peptide-binding protein</long_name>
+              <long_name>mitochondrial RNase P subunit 2</long_name>
+              <long_name>short chain dehydrogenase/reductase family 5C member 1</long_name>
+              <db_xref source="CCDS" accession="CCDS14354.1" />
+              <db_xref source="GeneID" accession="3028" />
+              <db_xref source="GI" accession="4758504" />
+            </protein_product>
+          </transcript>
+          <transcript source="RefSeq" accession="NM_001037811.2" fixed_id="t2">
+            <coordinates coord_system="LRG_450" start="5001" end="8118" strand="1" />
+            <long_name>hydroxysteroid (17-beta) dehydrogenase 10, transcript variant 2</long_name>
+            <db_xref source="GeneID" accession="3028" />
+            <db_xref source="GI" accession="91823617" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_450" start="5001" end="5058" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_450" start="5491" end="5655" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_450" start="6965" end="7129" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_450" start="7260" end="7388" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_450" start="7470" end="7551" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_450" start="7782" end="8118" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_001032900.1" fixed_id="p2">
+              <coordinates coord_system="LRG_450" start="5032" end="7972" strand="1" />
+              <long_name>3-hydroxyacyl-CoA dehydrogenase type-2 isoform 2</long_name>
+              <long_name>short chain dehydrogenase/reductase family 5C, member 1</long_name>
+              <long_name>short chain L-3-hydroxyacyl-CoA dehydrogenase type 2</long_name>
+              <long_name>amyloid-beta peptide binding alcohol dehydrogenase</long_name>
+              <long_name>short chain type dehydrogenase/reductase XH98G2</long_name>
+              <long_name>3-hydroxy-2-methylbutyryl-CoA dehydrogenase</long_name>
+              <long_name>AB-binding alcohol dehydrogenase</long_name>
+              <long_name>mitochondrial ribonuclease P protein 2</long_name>
+              <long_name>endoplasmic reticulum-associated amyloid beta-peptide-binding protein</long_name>
+              <long_name>mitochondrial RNase P subunit 2</long_name>
+              <long_name>short chain dehydrogenase/reductase family 5C member 1</long_name>
+              <db_xref source="CCDS" accession="CCDS35300.1" />
+              <db_xref source="GeneID" accession="3028" />
+              <db_xref source="GI" accession="83715985" />
+            </protein_product>
+          </transcript>
+        </gene>
+        <gene source="NCBI-Gene" accession="158787">
+          <symbol source="HGNC" name="RIBC1">
+            <synonym>2610028I09Rik</synonym>
+          </symbol>
+          <coordinates coord_system="LRG_450" start="8256" end="10118" strand="-1" />
+          <partial>5-prime</partial>
+          <long_name>RIB43A domain with coiled-coils 1</long_name>
+          <db_xref source="GeneID" accession="158787" />
+          <db_xref source="HGNC" accession="HGNC:26537" />
+          <db_xref source="CCDS" accession="CCDS35299.1" />
+          <db_xref source="CCDS" accession="CCDS59168.1" />
+          <db_xref source="CCDS" accession="CCDS14353.1" />
+          <transcript source="RefSeq" accession="NM_001031745.4">
+            <coordinates coord_system="LRG_450" start="8256" end="9522" strand="-1" />
+            <partial>5-prime</partial>
+            <long_name>RIB43A domain with coiled-coils 1, transcript variant 1</long_name>
+            <db_xref source="GeneID" accession="158787" />
+            <db_xref source="GI" accession="531034790" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_450" start="9404" end="9522" strand="-1" />
+              <partial>5-prime</partial>
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_450" start="8586" end="8980" strand="-1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_450" start="8256" end="8469" strand="-1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_001026915.1" codon_start="3">
+              <coordinates coord_system="LRG_450" start="8388" end="9522" strand="-1" />
+              <partial>5-prime</partial>
+              <long_name>RIB43A-like with coiled-coils protein 1 isoform 1</long_name>
+              <long_name>RIB43A-like with coiled-coils protein 1</long_name>
+              <db_xref source="CCDS" accession="CCDS35299.1" />
+              <db_xref source="GeneID" accession="158787" />
+              <db_xref source="GI" accession="72534784" />
+            </protein_product>
+          </transcript>
+          <transcript source="RefSeq" accession="NM_001267053.3">
+            <coordinates coord_system="LRG_450" start="8256" end="9522" strand="-1" />
+            <partial>5-prime</partial>
+            <long_name>RIB43A domain with coiled-coils 1, transcript variant 3</long_name>
+            <db_xref source="GeneID" accession="158787" />
+            <db_xref source="GI" accession="531034791" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_450" start="9404" end="9522" strand="-1" />
+              <partial>5-prime</partial>
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_450" start="8256" end="8980" strand="-1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_001253982.1" codon_start="3">
+              <coordinates coord_system="LRG_450" start="8582" end="9522" strand="-1" />
+              <partial>5-prime</partial>
+              <long_name>RIB43A-like with coiled-coils protein 1 isoform 3</long_name>
+              <long_name>RIB43A-like with coiled-coils protein 1</long_name>
+              <db_xref source="CCDS" accession="CCDS59168.1" />
+              <db_xref source="GeneID" accession="158787" />
+              <db_xref source="GI" accession="388490290" />
+            </protein_product>
+          </transcript>
+        </gene>
+      </features>
+    </annotation_set>
+    <annotation_set type="ensembl">
+      <source>
+        <name>Ensembl</name>
+        <url>http://www.ensembl.org/</url>
+        <contact>
+          <name>Ensembl</name>
+          <address>European Bioinformatics Institute</address>
+          <email>helpdesk@ensembl.org</email>
+        </contact>
+      </source>
+      <comment>Annotation is based on Ensembl release 80 (GRCh38  primary assembly)</comment>
+      <modification_date>2015-06-22</modification_date>
+      <mapping coord_system="ENST00000168216.9" other_name="ENST00000168216.9" other_id="ENST00000168216.9" other_start="1" other_end="960" type="transcript">
+        <mapping_span lrg_start="5004" lrg_end="5058" other_start="1" other_end="55" strand="1" />
+        <mapping_span lrg_start="5491" lrg_end="5655" other_start="56" other_end="220" strand="1" />
+        <mapping_span lrg_start="6965" lrg_end="7129" other_start="221" other_end="385" strand="1" />
+        <mapping_span lrg_start="7260" lrg_end="7388" other_start="386" other_end="514" strand="1" />
+        <mapping_span lrg_start="7470" lrg_end="7578" other_start="515" other_end="623" strand="1" />
+        <mapping_span lrg_start="7782" lrg_end="8118" other_start="624" other_end="960" strand="1" />
+      </mapping>
+      <mapping coord_system="ENST00000375298.4" other_name="ENST00000375298.4" other_id="ENST00000375298.4" other_start="1" other_end="823" type="transcript">
+        <mapping_span lrg_start="5027" lrg_end="5058" other_start="1" other_end="32" strand="1" />
+        <mapping_span lrg_start="5491" lrg_end="5655" other_start="33" other_end="197" strand="1" />
+        <mapping_span lrg_start="6965" lrg_end="7129" other_start="198" other_end="362" strand="1" />
+        <mapping_span lrg_start="7260" lrg_end="7388" other_start="363" other_end="491" strand="1" />
+        <mapping_span lrg_start="7782" lrg_end="8113" other_start="492" other_end="823" strand="1" />
+      </mapping>
+      <mapping coord_system="ENST00000375304.8" other_name="ENST00000375304.8" other_id="ENST00000375304.8" other_start="1" other_end="916" type="transcript">
+        <mapping_span lrg_start="5021" lrg_end="5058" other_start="1" other_end="38" strand="1" />
+        <mapping_span lrg_start="5491" lrg_end="5655" other_start="39" other_end="203" strand="1" />
+        <mapping_span lrg_start="6965" lrg_end="7129" other_start="204" other_end="368" strand="1" />
+        <mapping_span lrg_start="7260" lrg_end="7388" other_start="369" other_end="497" strand="1" />
+        <mapping_span lrg_start="7470" lrg_end="7551" other_start="498" other_end="579" strand="1" />
+        <mapping_span lrg_start="7782" lrg_end="8118" other_start="580" other_end="916" strand="1" />
+      </mapping>
+      <mapping coord_system="ENST00000477706.1" other_name="ENST00000477706.1" other_id="ENST00000477706.1" other_start="1" other_end="556" type="transcript">
+        <mapping_span lrg_start="7054" lrg_end="7129" other_start="1" other_end="76" strand="1" />
+        <mapping_span lrg_start="7260" lrg_end="7402" other_start="77" other_end="219" strand="1" />
+        <mapping_span lrg_start="7782" lrg_end="8118" other_start="220" other_end="556" strand="1" />
+      </mapping>
+      <mapping coord_system="ENST00000495986.1" other_name="ENST00000495986.1" other_id="ENST00000495986.1" other_start="1" other_end="666" type="transcript">
+        <mapping_span lrg_start="5041" lrg_end="5199" other_start="1" other_end="159" strand="1" />
+        <mapping_span lrg_start="5491" lrg_end="5655" other_start="160" other_end="324" strand="1" />
+        <mapping_span lrg_start="6965" lrg_end="7129" other_start="325" other_end="489" strand="1" />
+        <mapping_span lrg_start="7260" lrg_end="7388" other_start="490" other_end="618" strand="1" />
+        <mapping_span lrg_start="7470" lrg_end="7517" other_start="619" other_end="666" strand="1" />
+      </mapping>
+      <features>
+        <gene source="Ensembl" accession="ENSG00000072506.11">
+          <symbol source="HGNC" name="HSD17B10" />
+          <coordinates coord_system="LRG_450" start="5004" end="8118" strand="1" mapped_from="GRCh38" />
+          <long_name>hydroxysteroid (17-beta) dehydrogenase 10 (protein_coding)</long_name>
+          <db_xref source="GeneID" accession="3028">
+            <synonym>17b-HSD10</synonym>
+            <synonym>ABAD</synonym>
+            <synonym>CAMR</synonym>
+            <synonym>DUPXp11.22</synonym>
+            <synonym>ERAB</synonym>
+            <synonym>HADH2</synonym>
+            <synonym>HCD2</synonym>
+            <synonym>MHBD</synonym>
+            <synonym>MRPP2</synonym>
+            <synonym>MRX17</synonym>
+            <synonym>MRX31</synonym>
+            <synonym>MRXS10</synonym>
+            <synonym>SCHAD</synonym>
+            <synonym>SDR5C1</synonym>
+          </db_xref>
+          <db_xref source="MIM" accession="300256">
+            <synonym>602057</synonym>
+          </db_xref>
+          <db_xref source="HGNC" accession="4800">
+            <synonym>17b-HSD10</synonym>
+            <synonym>ABAD</synonym>
+            <synonym>CAMR</synonym>
+            <synonym>ERAB</synonym>
+            <synonym>HADH2</synonym>
+            <synonym>MHBD</synonym>
+            <synonym>MRPP2</synonym>
+            <synonym>MRXS10</synonym>
+            <synonym>SDR5C1</synonym>
+          </db_xref>
+          <db_xref source="Ensembl" accession="ENSG00000072506" />
+          <transcript source="Ensembl" accession="ENST00000168216.9">
+            <coordinates coord_system="LRG_450" start="5004" end="8118" strand="1" mapped_from="GRCh38" />
+            <long_name>HSD17B10-001 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS14354.1" />
+            <db_xref source="RefSeq" accession="NM_004493.2" />
+            <exon source="Ensembl" accession="ENSE00001038851">
+              <coordinates coord_system="LRG_450" start="5004" end="5058" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003616165">
+              <coordinates coord_system="LRG_450" start="5491" end="5655" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003520919">
+              <coordinates coord_system="LRG_450" start="6965" end="7129" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003560479">
+              <coordinates coord_system="LRG_450" start="7260" end="7388" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00000671346">
+              <coordinates coord_system="LRG_450" start="7470" end="7578" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003613891">
+              <coordinates coord_system="LRG_450" start="7782" end="8118" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000168216.6">
+              <coordinates coord_system="LRG_450" start="5032" end="7972" strand="1" mapped_from="GRCh38" />
+              <long_name>3-hydroxyacyl-CoA dehydrogenase type-2 isoform 1</long_name>
+              <db_xref source="RefSeq" accession="NP_004484.1" />
+              <db_xref source="UniProtKB" accession="Q99714">
+                <synonym>Q5H927</synonym>
+                <synonym>Q6IBS9</synonym>
+                <synonym>Q8TCV9</synonym>
+                <synonym>Q96HD5</synonym>
+              </db_xref>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000375304.8">
+            <coordinates coord_system="LRG_450" start="5021" end="8118" strand="1" mapped_from="GRCh38" />
+            <long_name>HSD17B10-002 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS35300.1" />
+            <db_xref source="RefSeq" accession="NM_001037811.2" />
+            <exon source="Ensembl" accession="ENSE00001563769">
+              <coordinates coord_system="LRG_450" start="5021" end="5058" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003616165">
+              <coordinates coord_system="LRG_450" start="5491" end="5655" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003520919">
+              <coordinates coord_system="LRG_450" start="6965" end="7129" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003560479">
+              <coordinates coord_system="LRG_450" start="7260" end="7388" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001466654">
+              <coordinates coord_system="LRG_450" start="7470" end="7551" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003613891">
+              <coordinates coord_system="LRG_450" start="7782" end="8118" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000364453.5">
+              <coordinates coord_system="LRG_450" start="5032" end="7972" strand="1" mapped_from="GRCh38" />
+              <long_name>3-hydroxyacyl-CoA dehydrogenase type-2 isoform 2</long_name>
+              <db_xref source="RefSeq" accession="NP_001032900.1" />
+              <db_xref source="UniProtKB" accession="Q99714">
+                <synonym>Q5H927</synonym>
+                <synonym>Q6IBS9</synonym>
+                <synonym>Q8TCV9</synonym>
+                <synonym>Q96HD5</synonym>
+              </db_xref>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000375298.4">
+            <coordinates coord_system="LRG_450" start="5027" end="8113" strand="1" mapped_from="GRCh38" />
+            <long_name>HSD17B10-004 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00001810180">
+              <coordinates coord_system="LRG_450" start="5027" end="5058" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003616165">
+              <coordinates coord_system="LRG_450" start="5491" end="5655" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003520919">
+              <coordinates coord_system="LRG_450" start="6965" end="7129" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003560479">
+              <coordinates coord_system="LRG_450" start="7260" end="7388" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001881347">
+              <coordinates coord_system="LRG_450" start="7782" end="8113" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000364447.4">
+              <coordinates coord_system="LRG_450" start="5032" end="7805" strand="1" mapped_from="GRCh38" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000495986.1">
+            <coordinates coord_system="LRG_450" start="5041" end="7517" strand="1" mapped_from="GRCh38" />
+            <long_name>HSD17B10-003 (processed_transcript)</long_name>
+            <exon source="Ensembl" accession="ENSE00001824167">
+              <coordinates coord_system="LRG_450" start="5041" end="5199" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003670387">
+              <coordinates coord_system="LRG_450" start="5491" end="5655" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003522479">
+              <coordinates coord_system="LRG_450" start="6965" end="7129" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003560469">
+              <coordinates coord_system="LRG_450" start="7260" end="7388" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001842477">
+              <coordinates coord_system="LRG_450" start="7470" end="7517" strand="1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000477706.1">
+            <coordinates coord_system="LRG_450" start="7054" end="8118" strand="1" mapped_from="GRCh38" />
+            <long_name>HSD17B10-005 (processed_transcript)</long_name>
+            <exon source="Ensembl" accession="ENSE00001836794">
+              <coordinates coord_system="LRG_450" start="7054" end="7129" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001890187">
+              <coordinates coord_system="LRG_450" start="7260" end="7402" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003543231">
+              <coordinates coord_system="LRG_450" start="7782" end="8118" strand="1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+        </gene>
+        <gene source="Ensembl" accession="ENSG00000233250.1">
+          <symbol source="Clone_based_vega_gene" name="RP3-339A18.6" />
+          <coordinates coord_system="LRG_450" start="6345" end="6654" strand="1" mapped_from="GRCh38" />
+          <long_name>RP3-339A18.6 (antisense)</long_name>
+          <db_xref source="Ensembl" accession="ENSG00000233250" />
+          <transcript source="Ensembl" accession="ENST00000418049.1">
+            <coordinates coord_system="LRG_450" start="6345" end="6654" strand="1" mapped_from="GRCh38" />
+            <long_name>RP3-339A18.6-001 (antisense)</long_name>
+            <exon source="Ensembl" accession="ENSE00001750425">
+              <coordinates coord_system="LRG_450" start="6345" end="6445" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001523329">
+              <coordinates coord_system="LRG_450" start="6538" end="6654" strand="1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+        </gene>
+        <gene source="Ensembl" accession="ENSG00000158423.15">
+          <symbol source="HGNC" name="RIBC1" />
+          <coordinates coord_system="LRG_450" start="8256" end="10118" strand="-1" mapped_from="GRCh38" />
+          <partial>5-prime</partial>
+          <long_name>RIB43A domain with coiled-coils 1 (protein_coding)</long_name>
+          <db_xref source="GeneID" accession="158787">
+            <synonym>2610028I09Rik</synonym>
+          </db_xref>
+          <db_xref source="HGNC" accession="26537">
+            <synonym>FLJ32783</synonym>
+          </db_xref>
+          <db_xref source="Ensembl" accession="ENSG00000158423" />
+          <transcript source="Ensembl" accession="ENST00000414955.5">
+            <coordinates coord_system="LRG_450" start="8256" end="10118" strand="-1" mapped_from="GRCh38" />
+            <partial>5-prime</partial>
+            <long_name>RIBC1-201 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS59168.1" />
+            <db_xref source="RefSeq" accession="NM_001267053.3" />
+            <exon source="Ensembl" accession="ENSE00001235782">
+              <coordinates coord_system="LRG_450" start="9404" end="9522" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002211603">
+              <coordinates coord_system="LRG_450" start="8256" end="8980" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000401463.2">
+              <coordinates coord_system="LRG_450" start="8582" end="10118" strand="-1" mapped_from="GRCh38" />
+              <partial>5-prime</partial>
+              <long_name>RIB43A-like with coiled-coils protein 1 isoform 3</long_name>
+              <db_xref source="RefSeq" accession="NP_001253982.1" />
+              <db_xref source="UniProtKB" accession="Q8N443">
+                <synonym>B4E297</synonym>
+                <synonym>E9PDU2</synonym>
+                <synonym>Q5H931</synonym>
+                <synonym>Q96A80</synonym>
+              </db_xref>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000375327.5">
+            <coordinates coord_system="LRG_450" start="8261" end="10118" strand="-1" mapped_from="GRCh38" />
+            <partial>5-prime</partial>
+            <long_name>RIBC1-002 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS35299.1" />
+            <db_xref source="RefSeq" accession="NM_001031745.4" />
+            <exon source="Ensembl" accession="ENSE00001235782">
+              <coordinates coord_system="LRG_450" start="9404" end="9522" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001038836">
+              <coordinates coord_system="LRG_450" start="8586" end="8980" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001466716">
+              <coordinates coord_system="LRG_450" start="8261" end="8469" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000364476.3">
+              <coordinates coord_system="LRG_450" start="8388" end="10118" strand="-1" mapped_from="GRCh38" />
+              <partial>5-prime</partial>
+              <long_name>RIB43A-like with coiled-coils protein 1 isoform 1</long_name>
+              <db_xref source="RefSeq" accession="NP_001026915.1" />
+              <db_xref source="UniProtKB" accession="Q8N443">
+                <synonym>B4E297</synonym>
+                <synonym>E9PDU2</synonym>
+                <synonym>Q5H931</synonym>
+                <synonym>Q96A80</synonym>
+              </db_xref>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000457095.4">
+            <coordinates coord_system="LRG_450" start="9548" end="10118" strand="-1" mapped_from="GRCh38" />
+            <partial>5-prime</partial>
+            <long_name>RIBC1-003 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS14353.1" />
+            <db_xref source="RefSeq" accession="NM_144968.3" />
+            <exon source="Ensembl" accession="ENSE00001788694">
+              <coordinates coord_system="LRG_450" start="9548" end="10118" strand="-1" mapped_from="GRCh38" />
+              <partial>5-prime</partial>
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000490702.1">
+            <coordinates coord_system="LRG_450" start="10098" end="10118" strand="-1" mapped_from="GRCh38" />
+            <partial>5-prime</partial>
+            <long_name>RIBC1-001 (processed_transcript)</long_name>
+            <exon source="Ensembl" accession="ENSE00001816921">
+              <coordinates coord_system="LRG_450" start="10098" end="10118" strand="-1" mapped_from="GRCh38" />
+              <partial>5-prime</partial>
+            </exon>
+          </transcript>
+        </gene>
+      </features>
+    </annotation_set>
+    <annotation_set type="lsdb">
+      <source>
+        <name>List of locus specific databases for HSD17B10</name>
+        <url>http://grenada.lumc.nl/LSDB_list/lsdbs/HSD17B10</url>
+      </source>
+      <modification_date>2015-06-22</modification_date>
+    </annotation_set>
+  </updatable_annotation>
+</lrg>

@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="application/xml" href="lrg2html.xsl"?>
+
+<lrg schema_version="1.9">
+  <fixed_annotation>
+    <id>LRG_278</id>
+    <hgnc_id>18518</hgnc_id>
+    <sequence_source>NG_012662.1</sequence_source>
+    <organism taxon="9606">Homo sapiens</organism>
+    <source>
+      <name>RAPID: Resource of Asian Primary Immunodeficiency Diseases</name>
+      <url>http://web16.kazusa.or.jp/rapid/browseByPIDGenes</url>
+      <contact>
+        <name>Sujatha Mohan</name>
+        <address>The Institute of Physical and Chemical Research (RIKEN), Japan</address>
+        <email>sujatha@rcai.riken.jp</email>
+      </contact>
+    </source>
+    <mol_type>dna</mol_type>
+    <creation_date>2013-12-18</creation_date>
+    <sequence>CCCCCGCAAGGACAAAGGAGGCCACTATAGCGGATGGAAAGCAAAGGCGGCCAGCACTAAAGTCAGGATCGGGCCAAAGCAGCCTGAAGGGGGTCCTCCCGCCAGGTGCACTCCGGGTGTTCATACCTGCGTGGGCAAAGGCTAGACGCACGGACGATCACACGCGTGGACCCGCGTTCTCAGCGCCAAGTGAGCCCTGGGCCGCGAAGCCTTTTATGCCCGGCCCGAACCAAGACGTGCACGGCGCGGGGGAGGGAGCGGACGAGCGGAGCGGTCGGGTCCACTGCGCCCGCAGGTGCGGGGGAGCGTGCGGCCGGGTCCATGCGCCTGCGGGCGGCGGGGGGAGACGCGTTGCCTTCGGCCGGGACCACTGCACCTGCCCGCGTGGGTAATGCGCCCGCCGCAGACTCCGCGCACGACTCCGCCTGGGAGCGCGTTGGGGGCCGTTGGAGTCCAGCATGGCGCGGACCCCGGGGGCGCTGCTGCTGGCGCCTCTGCTACTCCTGCAGCTGGCGACCCCTGCCCTGGTCTACCAGGACTATCAGTACTTAGGGCAGCAGGGCGAAGGTGACAGCTGGGAGCAGCTGAGGCTGCAGCATCTAAAGGGTAACCTCAGGCGGCGGGGATGACGATGCCCAAAGGCTCCCCGTTGCCCTACTTCTCCTGCTGGCTGCAAAGGGACCTTCCTCGGCGGGCTGCAAATCTCCACCCAGCTCCGCACTGGAGGCGTCCCCTTGGGCTGGTTACTTTTCTCTAAGGCTCGGTTTACTCTTGGATATATTGAAATAGATACTGCTTTAAAGCAGCTCCCAGGGGAAGAGAGGGTGTGGGCAGGACACTGAAGCTGTCACTCGGGGATAGGTGCCAGGAAGGGCAGAGACAGAGAAAGAAGGGGGCGGGCAAGCTTGGGAAATCAGAGAGGGTCCGATTGCAGAAGACCCGTGACCAGTGCAGCGAGAACGACAAGCGAAAGTCCCATATGGAAAGATTTGGGGAAAGAATGTCCAAGGAAGAGGGAATAGCAAATGCCAAGGTGAAAAGTCCTGAAGGAGAAATGGAAAGAGGTCGGTGAGGTGTGGCAGAGACATGGGTGTGGGAGGGTAGGAGGTGTCAGACCTTGGTGAGCGGTGAGTTGGGATAAGATCGGAGTTGGGATAAGATCTGTCTCATAGGGGAAAGGGGCAGATTCAGTAAAGAGCCCTTTAAAGTGATCACAGTGGCCGGCGCGGTAGCTCACGCCTATAATCCTAGCACTTTGGGAGGCTGAGGTGGGAGGATCCCTTGGTCTCGGAGACCAGACCAGCCTGGCCCACACAGCAAGACTCCATCTCTACAAAAAATATTTTAAAATTAGCCTGACTTGATGGCCCAGCACTTTGGGAGGCCGAGGCGGGAGGACTGCTTGAGCCCAGGAATTCAAGACCAGCCTGGGCAACATGGAGAGACCCCCTACTCTACAAAAATAAATAAATAAATAAAAATAAAAAATAAATTAGCCTGCCATGGTGGCATGCGCCTGTAGTCCCAGCTACTCAAGAGGCTGATACAGGAGGACCATTTGTGCCAAGGAGTTTGAAGCTGCAGTGAGCCATGATTATGCCCTTGCATTCCAACCTGGGTAACAGAGCAAGATCTTGTCTCAAAATAAATAAATTAAATAAATAAACAAACTGATCATAATAAATTGGTTTGTATATGCTAGCACAGCACCGGGAGATTTACTTACCTTCATTATGTCAATTATGCCATTTATCACTTGACAACCCTGCTGTCAGGTGGCATTGTGCCTTCTAGGTAGGGCCATGGTCACACCCCTGAAGACAGAAGTCAGCTTCAAATGGCGGGCACCAAGGATGTTGTAGGACACTCACAACTGGGCAGGCTGGCACAGCCTGGAAGTGTCAGGTTGTAGTTCCTCTGGCCCACTTACCCCGTATATGAGCTTGGAAGGTTGGCTTGCTGTCTCTGGGTCTTGGTTTCCCCACCTGAGACTCGTGGAAATATTAAATGAGGCCAGGCATGGTGGCTGGCTCACACCTGTAATCCCAGCACTTTGGGAGGCTGAGATGGGAGTATCACTTGAGCCCAGGAGTTCCAGACCAGCCTGGGCAACATGGTGAAACACCGTCTCTGCAAAAAATACAAAAAATTAGCCAGGCACAGTGGCATGTGCCTGTAGTCCCAGCTACTTGGTAGGCCGAGGTAGGAGGATTGCTTGAGCCCAGGAGGTTGAGGCTGCAGTGAGCTGTGACTGCGCCACTGCACTCCAGCCTGGGCGACAGAGCGAGACCCTGTCTCAAAAAAAAAAAAAAAAAAAAAAAAAAAGCTTAAATGAGATAATCTGTGGCAGGGTGTCTGGCATAGAAGCAGAGTCTAGCGAATATGTGCTTCTCTTATTCGTTAGTATCTTTATCTTTCTCCCTCTCTGGGGGAGGGGATTGGGAGTAGGCCCCCTCCACGTAGGTCTTCACCTCTGCCCTCCTTCTCTAGAAGTCGAGGACTCAATCCTTGGCCCGTGGGGAAAGTGGCGGTGTCTCTGCGACCTGGGCAAGCAGGAGCGCAGCCGCGAGGTAGTGGGCACAGCGCCGGGCCCGGTTTTCATGGACCCGGAGAAGCTGATCCAGTTACGGCCCTGCCGGCAACGGGATTGTCCATCCTGCAAGCCCTTCGACTGCGACTGGAGGCTCTGAGCCCGGGTGAGAGAGCAGGGCCGGGGCAAGTTGCGGGGCCCAGGGTGGGCGCGGAGGGAGGATGTGCGGTGCGGGGCGGGTATGAAGCGAGTTTGAGGAAGGGAGAACTGGGGCTCCAAGTCTTGAGTGACTTGAGGCTGATTTGGTTAGGGGGAAGCTGAGTCAGGAGCCGTGAGCCCCGCTGATATCTAGGGAGAAAAGGAGAAAAGTGGAGGGGGCGCCGGGCGCCGGGGCTCACGCCTGTAATTCCAGCATTTTGGGAGGCCGAGGCAGGCGGATCTCTTGAGTCCTGGAGTTCAAGATTAGTCTGGGCAATATCGTTGAGATCACCTCTCCATAAAAATTTTTAAAATTAGGCCGGGCGCGGTGGCTCACGCCCGCAATCCCAGCACTTTGGGAGGCCAAGGCAGGCGGATCACAAGGTCAGGAGATCGAGACCATCCTGGCTAAAACGGTGAAACCCCGTCTCTACTAAAAATATAAAAAATTAGCTGGGCGCGGTGGCGGGCGCCTGTAGTCCCAGCTACTCGGGAGGCTGAGGCAGGAGAATGGCATGAACCCGGGAGGCGGAGCCTGCAGTGAGCCGAGATCGCGCCACTGCACTCCAGCCTGGGCGACAGAGCGAGACTCTGTCTCAAAAAAAACCAACCAAACAAACAAACAAACAAAAACATTTAAGTTAGATGAGCGTGGCGGCACATGCCTGTGGTCCCAGCTACTCGGTACGATGGGGAGGAAGGATCGCTTGAGCCTGGGAGGCAAAGGTTACAATAAGCCGAGATCGCTACACTGCTATCCAGCCTGGGCAACAGAGTAACATCCTGTCTCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGTGGAGGGGGAGGCGAAGAGGAGTAAAAGGAGATAAAGAGACAATGAACTAGGACCCTGAGGAAGGGGCATGAGCCTGGTAAGGGGCGGGAACCCACAGGCAGAGGACATGAGCCCCAGTGAGCCCAGGGAATAGAAGTGGTGGATGCCAGGCACTGTGGCTGGCTCAGGCTTGTAATCCCAACACTTTGGGAGGCTGAGGCGACCGGATCGCTTGAGCCCAGGAGTTTGAAGCCAGCCTGGGCAACATAATGAGACCCCGTCTCTACAAAAAATACCAAAAATAGTCGGGCATGGTGGTGTGGTGTGCACCTGTAGTCCAGCTGCTTGGGAGACTGAGGTGGGAGGATCGCGTCAGCCCAGGAGGTGGAGGTTGCAGTGAGCCAAGATCGCGCCACTGCACTCCAGCCTGGACAACAGAGAGAGACCCTGTCTAAAAAAAAAAGAAGGCCGGGTGCGGTGGCTCACGCCTGCAATCCCAACACTTTGGGAGGCCGAGGCGGGCGGATCACAAGGTCAGGAAATCGAGACCAACCTGGCTAACACGGTGAAACCCCATCTCTACTAAAAAGTACAAAAAATTAGCCGGGTGTGGTGGCGGGCGCCTGTAGTCCCAGCTATTCGGGAGACTGAGGCAGGAGAATGGCGTGAACCCGGGACGCGGAGCTTGCAGTGAGCGGAGATGGCGCCATTGCACTCCAGCCTGGGCGACAAGAGCGAGACTCTGTCTCAAAAAAAAAAAAAAGAAAAAAAAAAAGTGGGTCGAGGGGTGGGGGTGGGGACATTCATTCTAAGTTGGGAGGAATGAGCTTCTATAGGGAGCAGAGACCCTGAGCAGGAGTCCACCGAGGTCTGTGATCTCCAACGGGGGTGGGGAAGGCTTGGCCTGAATGAGACAGAGGTTAGGAAGCACAGATCTTGCACGGAGTGGAGGTGGGCCGAAGGGAGCAACCAAGAGAGGGAGTTTGGGGACTCCAAATCCAAAAGCCTGGGTTTAGTGGAAGCGGGGCTACCTGGTCCAGGGGACTTAGAATGTGTACAGAAGCAGGGACCGCAAGTACAGGGCCTGAATCCAAGTGGCAGTTGGGGACCCAGTGATGCGGTGACCCGTGTCCTGGGAGTGGGGTGATATTTGACTCTCTAGTTCCCCGTTAGGCTGGGTCTTCGAAGCTACGTCTCAGTTTCCCTCTTATTTCCCCCTCTTCCCACCGGGCCACGCAGGCGGGGCCCCAGAGACCGTGAAGCAGAGCTTGCAAAGTGACCCCGTCCACCGAATTCCCCAAGCTGAGTGTTCGGCCATAGCCCTTCGGGACTACAATTCCCAGGAGGGCGCACGGCAGCGACGTCGGCGTCGGCTGCGTAAGCGTCCACGGCGGCGGGAGCGCCAGGGGCGTGTTCTGCCCGCGGATTGGCCGGAAGCAGGCGCCGCTTCGAGGCCCGCGGAAAACGCGCGCCGAGACCCGCTCCTGCAGTATTAGTTCTTGCAGCTGGTGGTGGCGGCTGAGGCGGCATGGATCTCAGCGAGCTGGAGAGAGACAATACAGGCCGCTGTCGCCTGAGTTCGCCTGTGCCCGCGGTGTGCCGCAAGGAGCCTTGCGTCCTGGGCGTCGATGAGGCGGGCAGGGGCCCCGTGCTGGGTGCGCCCCTAGGGCCAGGGAGGGGAGGGGCGTGGTACGGAGGATGCGGGAAACGGGAGTCGGGATTGCACTGCACCAAGGGAGGGGATGTGGTCGTGGTGATGGCACCTAAAGAAGCAGTGATGATAGAACAGGGATGAATGGCAACTTTCACGGGCTCAGTGATTGGACCCCGGCTGCCAGAAAACTGACACCCCTTCTCCCCAGGCCCCATGGTCTACGCCATCTGTTATTGTCCCCTGCCTCGCCTGGCAGATCTGGAGGCGCTGAAAGTGGCAGGTGAGCCCGAGGTGTGCGTCTGGGGAAGGGATTCCTGGGTATGTGCAGGGGCAGGTGAGAACTGAAAGGGGAGGGCAGGAACTGGGAGAACCAGCTGTTCCCCTTCTCTTCCAAACCTCCTCCCAGACTCAAAGACCCTATTGGAGAGCGAGCGGGAAAGGCTGTTTGCGAAAATGGAGGACACGGACTTTGTCGGCTGGGCGCTGGATGTGCTGTCTCCAAACCTCATCTCTACCAGCATGCTTGGGCGGTGAGGGGTCCCCGGGAGGGGCAGCCAGCATGGGCTGACCAAGCTTTGTTCCTAGAATGAGATTAACTGGGCTCTGTTCCCCACCACAGGGTCAAATACAACCTGAACTCCCTGTCACATGATACAGCCACTGGGCTTATACAGTATGCATTGGACCAGGGCGTGAACGTCACCCAGGTGAGTTAACTGTAAGTTGTCCCCATTTGGTCATCTCAGGATAAAATGGGGACAAAACAGGAGTTCGAGACTGCAGTGAGCCATGATCATGCCACAGCACTCCATCCTGGGTGACAAAGGAAGCCCCCCAACTCAAAAATGGAGGCAGGGCGCAGTGGCTCACGCCTATAATCGCAGCACTTTGGGAAGCCGCGGCGGGTAGATCACCGGAGGTCAAGAGTTCGAGACCAGCCTGACCAACATGGTGAAACCCCGTCTCTACTAAAAATACAAAAATTAGCTGGACGTGGTGGCAGGCGCCTGTAATCCTAGCTACTCAGGAGGCTGAGACAGGAGAATCGCTTGAACCCAGGAGGCAGAAGTTGCAGTGAGCCAAGATTGTGCCATTGCACTCCAACCCGGGCAACAGAGCAAGACCCTGTCTCAAAAAAATAAAAAATAAAAAATAAACTAAAAATGGGAGACCAGGCGCAGTGGCTCACGGCTGTAATCCCAGCGTTTCAGGAGGCTGAGGCAGGCAGATCACCTGAGGTCAGGAGTTGAAGACCATCCTGGCCAACATGGTGAAACCTCATCTCTACTGAAAATACAAAAAATTAGCCCAGCATGGTGGCGGGTGCCTGTAATCCCACCTATTGGTGAGGCCGAGGCAGAAGAATTGCTCGAACCCGGGAGGCGGAGGTTGCAGTGAGGTGAGATCGCGCCATTGCACTCCAGCCTGGGGGACAGAGCGAAAAATAAAAATAAAAATAAAATAAAAAATAAATGTGGGCAAAAATGTGCAGTGTGCAGATTCAGCATCAGATACGTCTGGAGTGCCTCGGGCATATTCATTGCTACTGTTGATTTCGTGCTCCTGTTTCTGCCCTAAATGTGTGCCACACTGACGACCACAGTGTAGCCCCTAGTCCCGTCTCCATCTAATCTCTCCCTCATCCTAAAGGCTCAGTCTCCAGAACAAATCCTACATTGTCTACCTGTCACCTCTGTCCTAGCCCAGGACACCCCCCACTCCCTGGACACCTGCTGAGTGTCGTCTCTCGTCCCTCACCCTCCTATCCCCTCCAATCTGTTCCCCAAGCAGCAACAGAAGGTAGTCTTTTTGAAATGCACATCTCGACATTTAGTTTTCCGATCACAGTGGAAATTAAATCAGGAAAATTCACAGTCGAGTGGGGCAGAATTACATTAAATTACCAGAGAAAAACATAAATCAGCATTGCCTCGAATGCTCTCAATGAAAGAATGGACCGTTCTGAGAGAATAACAAGGCAAAATAACCTTGACGTAGGAATTGTATGCTGGGTATGGTGGCTCACGCCTGTAATCCCAGCACTTTGGGAAGCTGAGGTGAGCAAATTGGTTGAGGCTAGGAGTTCCAGACCAGCCTGGGCAACATAGCGAGACTCCATCTCCACAAAAAGAAGAAGAAAGAAAGGAATTATAGCAAGGTAGACCCTGCTGAGGAGGGACCTGAGGACCAGGCCCAAATGCAGAGCTGGCGATACAGTAACTGGTGTAGACAGACAAGGGCCCTACCCGTAGGCGTTCAGGGCCTAGCCTGGGCAGAAAGATGGTCAGCTGGAGGTTGGGCGCAGTAGCTCACGCCTGTAATCCCAGCACTTTGGGAGGCCGAGGCGGGCGGATCATCAGGTCAGGAGTTCGAGACCAGCCTGACCAACATGGTGAAACCCCATCTCTACTAAAAATAAAAAATAAAAAAATAAAACATGAAAGATGGTCAGCTGGTAAACAAAAAATAAAGGTTGTTTCTGAAAACAGTAGTGCTGTGGAGATACCACTTTCTCCCAGCAGCTCTTGGACCCTCTCTTCGGTGCTGCAGCCAAAGGCCCCCATGCATGGGCCCAGCATCATGAACCTGGTCCCAGCTCAGGGCCTTTGTACTGGCTGTTCTCACACCTAGAGCCCTCTTCCCCAGATCTCTGCACAGTTCACTTCCTCACCTCCTTCAAGCCTTTATTCACCACTACACCTAGCTAACTTTTTATTTTTTGTAGAAACAGGGTCTCCATATGTTGCCCAGGTTGGTCTCAACCACCTGCCCTCAAGCGATCCTCCCACTTCGGCTTCCTAAAGTGTTGGGATTACAGGCTTGTGCTAACGCACTCTACCAATTTTTTTCTAGTGTTTTCTGCCACCTCAGTTCCTAGAACAGTATGTGGCATGCAGTAGGTGCTAAATAAGTTAGAGTAAAAGCAGCGTGATAGAGAAAGCCTCTTCAGGAGGTGAGTTTTTTCTTTATTTTATTGTATTTATTTTATGTTTTTATAAAGATGGGGTCTCACTGTGTTGCCAAGCCTGGCCTCAAACTCCCAGGATCAAGCGATCCTCCCGCCTCAGCCTCCCAAAGTGCTGGGATCACAGGCCTGAACAACTTTGCCTGGTCTAGGAGGAGATGTTCGAGTTGAAATCCCTGATTGATCCATCCTGGGGACGTGCTGGAGAAGAGGATTCTGGGTAGCAGGAAGAACGTGCCAGGGCTGTGAGGCTAGAGCATTGGTACAGTTGTTTGTTCAATTAATATGTGTCTGTTGCTGTGGCAGGTATTCGTGGACACCGTAGGGATGCCAGAGACATACCAGGCGCGGCTGCAGCAAAGTTTTCCCGGGATTGAGGTGACGGTCAAGGCCAAAGCAGATGCCCTCTACCCGGTGGTTAGTGCTGCCAGCATCTGTGCCAAGGTCAGTACCCTACTAGCCATGGCTGGCTTCCACCATCCCACTATATAGGGGCCAGGCATGGCCACCAAAGGGAAGGAGGGAGATTCCAGGTGCCTGTTTTGCCCACAGGTGGCCCGGGACCAGGCCGTGAAGAAATGGCAGTTCGTGGAGAAACTGCAGGACTTGGATACTGATTATGGCTCAGGCTACCCCAATGGTGAGCAGACACGTGACCATGGTACTAATGTTGAAATGGCCAGGGCTGAGCACACTTCTGAGGTTTTCTTTTTTTCCTTTCTGTCATTTATCATTTTATTTTGCTTATTTTTTGTTTTTATTTGTTATTTTTGTTTATTTTTTGAGACGGAGTTTCGCTCTTTTTGCCCAGGCTGGAGTGTAATGGTGCGATCTCGGCTCACCGCAACCTCCACCTCCTGGCTTCAAGCGATTCTCCTGCCTCAGCCTCGCGAGTAGCTGGGATTACAGGCATGTGCCACCACACCCAGCTAATTTTGTGTTTTTAGTAGAGACTAGTTTTCTCCATGTTGGTCAGGCTGGTCTTGAACTCCTGACCTCAGGTGATCTGCCTGGCTCAGCCTCCCAAAGTGCTGGGATTACAGGCATGAGCCACCGTGCCCAGCCTATTTTTTGTTTTTATAGAGATGGGGTCTTGTCATGTTGCCCAGGCTGGTCTCAAATTCCTGGAGTCAAGCAGTCCTCCCACCTTGGTCTTTCAAAGTGCTGGGATTACAGCCATGAGCCACCACCCCTGGCCCTTTTTTTCTTCTTTTTTTAAAGAGATGGGGTCTCCCTATGTTGCCCAGCCTGGTCTTGAATTCCTGGGCTTAAGTGATCCTCCTGCCTTGGACTCCCAAATAGCTAGGATTACAGGTGTGAACTACTGTGCCTGGCTGGAGGTTTTCTAAATTGCTCTGGTCACCCTACTCCACAGTGAAAGAGGCCAAGTGTTAGACAGTGGTGCCATTTGTTTATGGCCACACAGCCAGTGAGTGATAGAGCTGAATTCCAGGCCATAGGATTGCTGCTGTCTTCCCCGCTTCCCACTTTGCTGTCTTTCTGGAGCCCCAGTGATGGACTGAGACCCAAGGTGGGCATTTGTCCCTTTGTTAAGGGGAAGGGGACCAGGCGTGGTGGCTCATGCCTGTAATCCCAGCACTTTGGGAAGCTGAGGTAGGAGAACCGCTTGAGTCCTCGAGTTCAAGACCAGCCTGGGCAACATAGCGAGACCCCCATCTCTATAAAAAATTTAAAAAATTAGCCGGTTATAGTGGTGCCCACCTGTAGTCCCAGCTACTCTGGAGGAGGAGGCTAAGGTGGGTGGGTTGCTTGAGCCCAGGAGTTGGAGGCTGCAGTGAGCTATGATTATGCCACTGCACTCCAGCCTTGGTGACAAGATGAGATCTTGTGTCAAAAAAAAAAATAATGTTAGCCAGGCGTGGTGGCTCACACCTGTAATCCCAGGACTTTGGGAGGCTGAGGCAGGTGGATCCTTTGAGGTCAGGAGTTCTAGACCAGCCTGACCAACGTGGTGAAACCCCATCTCTACTAAAAATACAAAATTAGCTGGACGTGGTGGCACACGCCCGTAATCCCAGCAACTCGGGAGGCTGAGGCAGGAGAATTACTTAAACCTGGGAGGTGGAGGTTGCAGTGAGCCGAGATCGCATAATTGCACTCCAGCCTGGGAAATGAGCAAAATTCCATCTCAAAATAATAATAATAATAATAATAATAATATTTAATGACAGGCTGGGCCAGGTGGCTCATGCCCGTAATCCTAGCATTTTAAGAGACAGAGGCAGGTAGATCATGTGAACTCAGGAATTCACAACCAGCCTGGGCAATATGACAAGACCCCATCTCTACAAAAAATACAAAAATTAGGTGTGGTGGTGCGCACCTGTAGTCCCAGCTACTTGGGAGGCTGAGGTGAGAGGATGGCTTGAGCCTGGGAGGCAGAGGTTGCATTGAGCTGTGATAATGTCACTGCACTCCAGCCTGGGTAATAGAGCGAGACCCTATCTCAAAAAAATAAAAAGGCTGGGTGTGGTGTTTACACCTGTAATCCCAGCACTTTGGGAGGCTGAGGTGGGTGGATCACCTGAGGTCAGGAGTTTGAGACCAGCCTGCCTGTCCAATATGGTGAAACCCCGTCTCTACTAAAAATACAAAAATTAGCCAGGTATGGTGGTGGGTGGCTGTAGTCCCAGCTACTTGGGAGGCTGAGGCAGGAGAATCGCTTGAACCTGGGAGGCGGAGGTTGCAGTGAGCCGAGATCGCACCATTGCACTACAGCCTGGGTGACAGAGCAAGACTCCATTTCAAAAAATAAGTAAATAAAATAAAAATGTTTAATGACTTGTTCTTGGAGGTCAAGGAGATGTCTCAGAGGCAGTCTCCCTGCACTGCCCTTTTAGCAGCTCTTGGCCAGGTAAAGGTCCTGTGGCAAGAAGGTGCTTCAGACCATAGGAGGTGCCCCAGGTACTCAGGAGGAAGCCTTAGAAGAGCGGCAAGGAGGCCGGGCGTGGTGGCTCATGCCTGTAATCCCAGCACTTTGGGAGGCCGAGGGGGGTAGATCACGAGGTCAAGCAATTGAGACCATCCTGGCCAACATGGTGAAACCTCGTCACTACTAAAAACACAAAATTTAGCTGGGCATGGTGGCATGCGCCTGTAGTCCCAGCTACTTGGGAGGCTGAGGCAGGAGAATCGCTTGAATCCGGGAGGTGGAGGTTGCAGTGAGCTGAGATCGCGCCACTGCACTCCAGCCTGGCTACAGAGTGGGACTCCATCTCAAAGAAAAAAAAAAGAGTGGCAGGGAGCTTGAATGTTATGGTGCAACTTGGACTGTCACCATTGCCCACCCTACCCCAGATCCCAAGACAAAAGCGTGGTTGAAGGAGCACGTGGAGCCTGTGTTCGGCTTCCCCCAGTTTGTCCGGTTCAGCTGGCGCACGGCCCAGACCATCCTGGAGAAAGAGGCGGAAGATGTTATATGGTGGGTGTCATGGATGTCCTGGGGGTGCTATAGGGAAGGAAGGAGGGAGGCCAGCGTTCAGCCCTGCCTGAGAGGGTTGCTCCCTGTGTAAGTGGTCACTGTCATCACCTCTCTCCCACAGGGAGGACTCAGCATCCGAGAATCAGGAGGGACTCAGGAAGATCACATCCTACTTCCTCAATGAAGGGTCCCAAGCCCGTCCCCGTTCTTCCCACCGATATTTCCTGGAACGCGGCCTGGAGTCAGCAACCAGCCTCTAGCAGCTGCCTCTACGCGCTCTACCTGCTTCCCCAACCCAGACATTAAAATTGTTTAAGGAGAACCACACGTAGGGGATGTACTTTTGGGACAGAAGCAAGGTGGGAGTGTGCTCTGCAGCCGGGTCCAGCTACTTCCTTTTGGAACCTTAAATAGAATGGGTGTTGGTTGATTAATTTTATTTGGTTTGATTTTTTTCATTTTTAAATTTTATTTATTTTATTTTATTTTATTTTATTTTTTTGAGAGACGAAGTCTCACTCTGTCACCCAGGCTGGAGTAGAATGGGGCAATCTCAGCTCACTGCAACCTCTGCCTTCCAGGTTCAAGCGATTCTCCTGCCTCAATTTCCCAAGCAGCTGGGACTATAGGCGTGTGCCATGCCCAACTAATTTTTTTTTTTTTTTGAGACACAGTCTCCTGTTGCCCAGGCTGGAGTACCATGGCACAATCTTGGCTCACTGCAACCTCCACCTCCCTGGTTCAAGCAATTCCCCTGCCTCAGCCTCCTGAGTAGCTGGGATTACAGGTGCACACCACCACACCCGGCTAATTTTCTTTTCTTTTCTTTCTTTCTTTTTTTTTTAATTTGAGACAGAGTCTCACTTTGTCACCAGGCTGGAGTGCAGTGATGCAATTTTGGCTCACTGCAACCTCTGCCTCCTGGGTTCAAGCGATTCTCCTGCCTCAGCCTCCCACGTAGCTGTGACTACAGGCATGCGCCACCACACTCAGCTAATTTTTGTATTTTTAGTAGAGACGGGGTTTCACCACGTTGGCCAGACTGGTCTTAAACTGCTGACCTCAGGCAATCTGCCCGCCTTGGCCTCTCAAAGTGCTGGGATTACAGGTGTGAGCCACTGCGCCTGGCCTAATTTTTGTATTTTTTAGTAGAGACAAGGTTTCACTATATGTTAGTCAGGCTGCTCTCTACCTCCTGACCTCAGGTGATCTGCCCACCTCAGCCTCTCAAAGTGCTGGGATTACAGGCATGAGCCACTGCACCGACCTTTTTAGTTATATTTTTAATTTTTAAAAATTTTTAAATTTTCTTTCTTGAGATGGAGTCTCGCTCTGTCACCCAGGCTGGAGTGCATTGGCTCAATCTTAGCTCACTGTAACCTCTGCCTCCCAGGTTCAAATGATTCTCCTGCCTCAGCCTCCCGAGTAGCTGGGACTACAGGTGCGTGCCACCAGGCCTGGCTAATTTTTTGTATTTTTAGTAGAAACACGGTTTCACCGTGTTAGCCATGATGGTCTCAATCTTCTGACCTTGTGATCCGTCTGCTTCAGCCTCCCAAAGTGCTGGGATTACAGGCGTGAGCCGCCATGCATTGCCTATTTTTATTTAAAAAATTTTTTGAGACAGAATCTCACTCTGTCACCCAGGCTGGAGTGCAGTGGTGCGATCTCAGCTCAGTGTAACCTCCGCCTCCTGGGTTTAAGTGATTCTCCCACCTTAACCTCCTGAGTAGCTGAGGTTCCAGGCACACGCCACGATGCCCAACTAATTTTTGTATTTTTTGTAGAGATGAGGTTTCATCATGTCGCCCAGGCTGGTCTTGTAGTCCTGGGTTCAAGTGATCTGCCCGCTGTGACCTCTCAATGTGTGAGCTACCATACCTGGCTGACTAATATGTAAAATACATGATGTGGCTGGGCGCAGGGGCTCATACATGTAATCCTAGTGCTTTGGAAGGCTGAGTCAGGAGGATCTTGACCAGTCTGGACAACATAGGGTAACAAGAGCGAAACTCTGTCTCAAAAAAAAAAAAAAAAAAAAAAAAATGCTGGGCTGCATGGGGGAAGATAAGAAAAAATAAAGAAAGGTCACGAACCAAACAAAAATCTTGGCGGGCAGGGTGCCGTGTGGCTGCAGTCCCAGCTTTTCTGGAGGTTGAGGTAGGCTCCAGCATGGGCGACAGAGCAAGACCATGTCTCAAAAAAAAAAGCATATCTGCGCATTAATGTTTGGAACAAGCTGCATTCTCTCCAGAAGGACCTAGAAGGCACAGATAAGCCCACCAGTGATTTGGGGCAGGTTGGGATGGAAGCTTCTCAAATGTTCTCCCTTCTTTCTTTGGTTCTGTTTTTGTTGGTTTTATTTTGTTTTGTTTTGAGACAGAGTCTCGTTCTGTCACCCAGGCTGGAGTGCAGTGGCACAGTCTTAAGTCACTGCAACCC</sequence>
+    <transcript name="t1">
+      <comment>This transcript is identical to the RefSeq transcript NM_006397.2 but with the polyA tail removed.</comment>
+      <coordinates coord_system="LRG_278" start="5001" end="12035" strand="1" />
+      <cdna>
+        <sequence>GCGCCGAGACCCGCTCCTGCAGTATTAGTTCTTGCAGCTGGTGGTGGCGGCTGAGGCGGCATGGATCTCAGCGAGCTGGAGAGAGACAATACAGGCCGCTGTCGCCTGAGTTCGCCTGTGCCCGCGGTGTGCCGCAAGGAGCCTTGCGTCCTGGGCGTCGATGAGGCGGGCAGGGGCCCCGTGCTGGGCCCCATGGTCTACGCCATCTGTTATTGTCCCCTGCCTCGCCTGGCAGATCTGGAGGCGCTGAAAGTGGCAGACTCAAAGACCCTATTGGAGAGCGAGCGGGAAAGGCTGTTTGCGAAAATGGAGGACACGGACTTTGTCGGCTGGGCGCTGGATGTGCTGTCTCCAAACCTCATCTCTACCAGCATGCTTGGGCGGGTCAAATACAACCTGAACTCCCTGTCACATGATACAGCCACTGGGCTTATACAGTATGCATTGGACCAGGGCGTGAACGTCACCCAGGTATTCGTGGACACCGTAGGGATGCCAGAGACATACCAGGCGCGGCTGCAGCAAAGTTTTCCCGGGATTGAGGTGACGGTCAAGGCCAAAGCAGATGCCCTCTACCCGGTGGTTAGTGCTGCCAGCATCTGTGCCAAGGTGGCCCGGGACCAGGCCGTGAAGAAATGGCAGTTCGTGGAGAAACTGCAGGACTTGGATACTGATTATGGCTCAGGCTACCCCAATGATCCCAAGACAAAAGCGTGGTTGAAGGAGCACGTGGAGCCTGTGTTCGGCTTCCCCCAGTTTGTCCGGTTCAGCTGGCGCACGGCCCAGACCATCCTGGAGAAAGAGGCGGAAGATGTTATATGGGAGGACTCAGCATCCGAGAATCAGGAGGGACTCAGGAAGATCACATCCTACTTCCTCAATGAAGGGTCCCAAGCCCGTCCCCGTTCTTCCCACCGATATTTCCTGGAACGCGGCCTGGAGTCAGCAACCAGCCTCTAGCAGCTGCCTCTACGCGCTCTACCTGCTTCCCCAACCCAGACATTAAAATTGTTTAAGGAGAACCACACGTAGGGGATGTACTTTTGGGACAGAAGCAAGGTGGGAGTGTGCTCTGCAGCCGGGTCCAGCTACTTCCTTTTGGAACCTTAAATAGAATGGGTGTTGGTTGATTAATTTTATTT</sequence>
+      </cdna>
+      <coding_region>
+        <coordinates coord_system="LRG_278" start="5061" end="11853" strand="1" />
+        <translation name="p1">
+          <sequence>MDLSELERDNTGRCRLSSPVPAVCRKEPCVLGVDEAGRGPVLGPMVYAICYCPLPRLADLEALKVADSKTLLESERERLFAKMEDTDFVGWALDVLSPNLISTSMLGRVKYNLNSLSHDTATGLIQYALDQGVNVTQVFVDTVGMPETYQARLQQSFPGIEVTVKAKADALYPVVSAASICAKVARDQAVKKWQFVEKLQDLDTDYGSGYPNDPKTKAWLKEHVEPVFGFPQFVRFSWRTAQTILEKEAEDVIWEDSASENQEGLRKITSYFLNEGSQARPRSSHRYFLERGLESATSL</sequence>
+        </translation>
+      </coding_region>
+      <exon label="1">
+        <coordinates coord_system="LRG_278" start="5001" end="5187" strand="1" />
+        <coordinates coord_system="LRG_278t1" start="1" end="187" />
+        <coordinates coord_system="LRG_278p1" start="1" end="43" />
+      </exon>
+      <intron phase="1" />
+      <exon label="2">
+        <coordinates coord_system="LRG_278" start="5395" end="5466" strand="1" />
+        <coordinates coord_system="LRG_278t1" start="188" end="259" />
+        <coordinates coord_system="LRG_278p1" start="43" end="67" />
+      </exon>
+      <intron phase="1" />
+      <exon label="3">
+        <coordinates coord_system="LRG_278" start="5593" end="5716" strand="1" />
+        <coordinates coord_system="LRG_278t1" start="260" end="383" />
+        <coordinates coord_system="LRG_278p1" start="67" end="108" />
+      </exon>
+      <intron phase="2" />
+      <exon label="4">
+        <coordinates coord_system="LRG_278" start="5806" end="5893" strand="1" />
+        <coordinates coord_system="LRG_278t1" start="384" end="471" />
+        <coordinates coord_system="LRG_278p1" start="108" end="137" />
+      </exon>
+      <intron phase="0" />
+      <exon label="5">
+        <coordinates coord_system="LRG_278" start="8458" end="8595" strand="1" />
+        <coordinates coord_system="LRG_278t1" start="472" end="609" />
+        <coordinates coord_system="LRG_278p1" start="138" end="183" />
+      </exon>
+      <intron phase="0" />
+      <exon label="6">
+        <coordinates coord_system="LRG_278" start="8704" end="8791" strand="1" />
+        <coordinates coord_system="LRG_278t1" start="610" end="697" />
+        <coordinates coord_system="LRG_278p1" start="184" end="213" />
+      </exon>
+      <intron phase="1" />
+      <exon label="7">
+        <coordinates coord_system="LRG_278" start="11470" end="11593" strand="1" />
+        <coordinates coord_system="LRG_278t1" start="698" end="821" />
+        <coordinates coord_system="LRG_278p1" start="213" end="254" />
+      </exon>
+      <intron phase="2" />
+      <exon label="8">
+        <coordinates coord_system="LRG_278" start="11715" end="12035" strand="1" />
+        <coordinates coord_system="LRG_278t1" start="822" end="1142" />
+        <coordinates coord_system="LRG_278p1" start="254" end="299" />
+      </exon>
+    </transcript>
+  </fixed_annotation>
+  <updatable_annotation>
+    <annotation_set type="requester">
+      <source>
+        <name>RAPID: Resource of Asian Primary Immunodeficiency Diseases</name>
+        <url>http://web16.kazusa.or.jp/rapid/browseByPIDGenes</url>
+        <contact>
+          <name>Sujatha Mohan</name>
+          <address>The Institute of Physical and Chemical Research (RIKEN), Japan</address>
+          <email>sujatha@rcai.riken.jp</email>
+        </contact>
+      </source>
+      <modification_date>2015-06-22</modification_date>
+    </annotation_set>
+    <annotation_set type="lrg">
+      <source>
+        <name>LRG</name>
+        <url>http://www.lrg-sequence.org/</url>
+        <contact>
+          <name>Locus Reference Genomic</name>
+          <url>http://www.lrg-sequence.org/contact</url>
+          <email>feedback@lrg-sequence.org</email>
+        </contact>
+      </source>
+      <modification_date>2015-06-22</modification_date>
+      <mapping coord_system="GRCh37.p13" other_name="19" other_id="NC_000019.9" other_id_syn="CM000681.1" other_start="12912428" other_end="12926462" type="other_assembly">
+        <mapping_span lrg_start="1" lrg_end="14035" other_start="12912428" other_end="12926462" strand="1" />
+      </mapping>
+      <mapping coord_system="GRCh38.p2" other_name="19" other_id="NC_000019.10" other_id_syn="CM000681.2" other_start="12801614" other_end="12815648" type="main_assembly">
+        <mapping_span lrg_start="1" lrg_end="14035" other_start="12801614" other_end="12815648" strand="1">
+          <diff type="mismatch" lrg_start="7700" lrg_end="7700" other_start="12809313" other_end="12809313" lrg_sequence="T" other_sequence="C" />
+        </mapping_span>
+      </mapping>
+      <lrg_locus source="HGNC">RNASEH2A</lrg_locus>
+    </annotation_set>
+    <annotation_set type="ncbi">
+      <source>
+        <name>NCBI RefSeqGene</name>
+        <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
+        <contact>
+          <name>RefSeqGene Group</name>
+          <address>NCBI/NLM/NIH</address>
+          <email>rsgene@ncbi.nlm.nih.gov</email>
+        </contact>
+      </source>
+      <comment>Annotation from NG_012662.1</comment>
+      <modification_date>2015-06-19</modification_date>
+      <mapping coord_system="NM_006397.2" other_name="NM_006397.2" other_id="NM_006397.2" other_start="1" other_end="1142" type="transcript">
+        <mapping_span lrg_start="5001" lrg_end="5187" other_start="1" other_end="187" strand="1" />
+        <mapping_span lrg_start="5395" lrg_end="5466" other_start="188" other_end="259" strand="1" />
+        <mapping_span lrg_start="5593" lrg_end="5716" other_start="260" other_end="383" strand="1" />
+        <mapping_span lrg_start="5806" lrg_end="5893" other_start="384" other_end="471" strand="1" />
+        <mapping_span lrg_start="8458" lrg_end="8595" other_start="472" other_end="609" strand="1" />
+        <mapping_span lrg_start="8704" lrg_end="8791" other_start="610" other_end="697" strand="1" />
+        <mapping_span lrg_start="11470" lrg_end="11593" other_start="698" other_end="821" strand="1" />
+        <mapping_span lrg_start="11715" lrg_end="12035" other_start="822" other_end="1142" strand="1" />
+      </mapping>
+      <features>
+        <gene source="NCBI-Gene" accession="7001">
+          <symbol source="HGNC" name="PRDX2">
+            <synonym>HEL-S-2a</synonym>
+            <synonym>NKEF-B</synonym>
+            <synonym>NKEFB</synonym>
+            <synonym>PRP</synonym>
+            <synonym>PRX2</synonym>
+            <synonym>PRXII</synonym>
+            <synonym>PTX1</synonym>
+            <synonym>TDPX1</synonym>
+            <synonym>TPX1</synonym>
+            <synonym>TSA</synonym>
+          </symbol>
+          <coordinates coord_system="LRG_278" start="1" end="297" strand="-1" />
+          <partial>3-prime</partial>
+          <long_name>peroxiredoxin 2</long_name>
+          <db_xref source="GeneID" accession="7001" />
+          <db_xref source="HGNC" accession="HGNC:9353" />
+          <db_xref source="MIM" accession="600538" />
+          <db_xref source="CCDS" accession="CCDS12281.1" />
+          <transcript source="RefSeq" accession="NM_005809.5">
+            <coordinates coord_system="LRG_278" start="127" end="297" strand="-1" />
+            <partial>3-prime</partial>
+            <long_name>peroxiredoxin 2</long_name>
+            <db_xref source="GeneID" accession="7001" />
+            <db_xref source="GI" accession="460417277" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_278" start="127" end="297" strand="-1" />
+              <partial>3-prime</partial>
+            </exon>
+          </transcript>
+        </gene>
+        <gene source="NCBI-Gene" accession="10535">
+          <symbol source="HGNC" name="RNASEH2A">
+            <synonym>AGS4</synonym>
+            <synonym>JUNB</synonym>
+            <synonym>RNASEHI</synonym>
+            <synonym>RNHIA</synonym>
+            <synonym>RNHL</synonym>
+          </symbol>
+          <coordinates coord_system="LRG_278" start="5001" end="12035" strand="1" />
+          <long_name>ribonuclease H2, subunit A</long_name>
+          <db_xref source="GeneID" accession="10535" />
+          <db_xref source="HGNC" accession="HGNC:18518" />
+          <db_xref source="MIM" accession="606034" />
+          <db_xref source="CCDS" accession="CCDS12282.1" />
+          <db_xref source="GI" accession="255708431" />
+          <transcript source="RefSeq" accession="NM_006397.2" fixed_id="t1">
+            <coordinates coord_system="LRG_278" start="5001" end="12035" strand="1" />
+            <long_name>ribonuclease H2, subunit A</long_name>
+            <db_xref source="GeneID" accession="10535" />
+            <db_xref source="GI" accession="38455390" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_278" start="5001" end="5187" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_278" start="5395" end="5466" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_278" start="5593" end="5716" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_278" start="5806" end="5893" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_278" start="8458" end="8595" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_278" start="8704" end="8791" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_278" start="11470" end="11593" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_278" start="11715" end="12035" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_006388.2" fixed_id="p1">
+              <coordinates coord_system="LRG_278" start="5061" end="11853" strand="1" />
+              <long_name>ribonuclease H2 subunit A</long_name>
+              <long_name>ribonuclease H2, large subunit</long_name>
+              <long_name>ribonuclease HI, large subunit</long_name>
+              <long_name>RNase H(35)</long_name>
+              <long_name>RNase H2 subunit A</long_name>
+              <long_name>RNase HI large subunit</long_name>
+              <long_name>ribonuclease HI subunit A</long_name>
+              <long_name>ribonuclease HI large subunit</long_name>
+              <long_name>aicardi-Goutieres syndrome 4 protein</long_name>
+              <db_xref source="CCDS" accession="CCDS12282.1" />
+              <db_xref source="GeneID" accession="10535" />
+              <db_xref source="GI" accession="38455391" />
+            </protein_product>
+          </transcript>
+        </gene>
+      </features>
+    </annotation_set>
+    <annotation_set type="ensembl">
+      <source>
+        <name>Ensembl</name>
+        <url>http://www.ensembl.org/</url>
+        <contact>
+          <name>Ensembl</name>
+          <address>European Bioinformatics Institute</address>
+          <email>helpdesk@ensembl.org</email>
+        </contact>
+      </source>
+      <comment>Annotation is based on Ensembl release 80 (GRCh38  primary assembly)</comment>
+      <modification_date>2015-06-22</modification_date>
+      <mapping coord_system="ENST00000221486.4" other_name="ENST00000221486.4" other_id="ENST00000221486.4" other_start="1" other_end="1165" type="transcript">
+        <mapping_span lrg_start="4967" lrg_end="5187" other_start="1" other_end="221" strand="1" />
+        <mapping_span lrg_start="5395" lrg_end="5466" other_start="222" other_end="293" strand="1" />
+        <mapping_span lrg_start="5593" lrg_end="5716" other_start="294" other_end="417" strand="1" />
+        <mapping_span lrg_start="5806" lrg_end="5893" other_start="418" other_end="505" strand="1" />
+        <mapping_span lrg_start="8458" lrg_end="8595" other_start="506" other_end="643" strand="1" />
+        <mapping_span lrg_start="8704" lrg_end="8791" other_start="644" other_end="731" strand="1" />
+        <mapping_span lrg_start="11470" lrg_end="11593" other_start="732" other_end="855" strand="1" />
+        <mapping_span lrg_start="11715" lrg_end="12024" other_start="856" other_end="1165" strand="1" />
+      </mapping>
+      <mapping coord_system="ENST00000590121.1" other_name="ENST00000590121.1" other_id="ENST00000590121.1" other_start="1" other_end="859" type="transcript">
+        <mapping_span lrg_start="5064" lrg_end="5187" other_start="1" other_end="124" strand="1" />
+        <mapping_span lrg_start="5395" lrg_end="5466" other_start="125" other_end="196" strand="1" />
+        <mapping_span lrg_start="5593" lrg_end="5716" other_start="197" other_end="320" strand="1" />
+        <mapping_span lrg_start="5806" lrg_end="6344" other_start="321" other_end="859" strand="1" />
+      </mapping>
+      <mapping coord_system="ENST00000590279.1" other_name="ENST00000590279.1" other_id="ENST00000590279.1" other_start="1" other_end="696" type="transcript">
+        <mapping_span lrg_start="5071" lrg_end="5466" other_start="1" other_end="396" strand="1" />
+        <mapping_span lrg_start="5593" lrg_end="5892" other_start="397" other_end="696" strand="1" />
+      </mapping>
+      <mapping coord_system="ENST00000593017.1" other_name="ENST00000593017.1" other_id="ENST00000593017.1" other_start="1" other_end="1487" type="transcript">
+        <mapping_span lrg_start="4979" lrg_end="5716" other_start="1" other_end="738" strand="1" />
+        <mapping_span lrg_start="5806" lrg_end="5893" other_start="739" other_end="826" strand="1" />
+        <mapping_span lrg_start="8458" lrg_end="8595" other_start="827" other_end="964" strand="1" />
+        <mapping_span lrg_start="8704" lrg_end="8791" other_start="965" other_end="1052" strand="1" />
+        <mapping_span lrg_start="11470" lrg_end="11593" other_start="1053" other_end="1176" strand="1" />
+        <mapping_span lrg_start="11715" lrg_end="12025" other_start="1177" other_end="1487" strand="1" />
+      </mapping>
+      <features>
+        <gene source="Ensembl" accession="ENSG00000267062.1">
+          <symbol source="Clone_based_vega_gene" name="CTD-2659N19.10" />
+          <coordinates coord_system="LRG_278" start="1" end="236" strand="1" mapped_from="GRCh38" />
+          <partial>5-prime</partial>
+          <long_name>CTD-2659N19.10 (antisense)</long_name>
+          <db_xref source="Ensembl" accession="ENSG00000267062" />
+          <transcript source="Ensembl" accession="ENST00000585496.1">
+            <coordinates coord_system="LRG_278" start="1" end="236" strand="1" mapped_from="GRCh38" />
+            <partial>5-prime</partial>
+            <long_name>CTD-2659N19.10-001 (antisense)</long_name>
+            <exon source="Ensembl" accession="ENSE00002887894">
+              <coordinates coord_system="LRG_278" start="141" end="236" strand="1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+        </gene>
+        <gene source="Ensembl" accession="ENSG00000095066.10">
+          <symbol source="HGNC" name="HOOK2" />
+          <coordinates coord_system="LRG_278" start="1" end="14035" strand="-1" mapped_from="GRCh38" />
+          <partial>3-prime</partial>
+          <partial>5-prime</partial>
+          <long_name>hook microtubule-tethering protein 2 (protein_coding)</long_name>
+          <db_xref source="GeneID" accession="29911">
+            <synonym>HK2</synonym>
+          </db_xref>
+          <db_xref source="MIM" accession="607824" />
+          <db_xref source="HGNC" accession="19885">
+            <synonym>HK2</synonym>
+          </db_xref>
+          <db_xref source="Ensembl" accession="ENSG00000095066" />
+          <transcript source="Ensembl" accession="ENST00000589765.1">
+            <coordinates coord_system="LRG_278" start="1" end="14035" strand="-1" mapped_from="GRCh38" />
+            <partial>3-prime</partial>
+            <partial>5-prime</partial>
+            <long_name>HOOK2-024 (processed_transcript)</long_name>
+          </transcript>
+        </gene>
+        <gene source="Ensembl" accession="ENSG00000167815.10">
+          <symbol source="HGNC" name="PRDX2" />
+          <coordinates coord_system="LRG_278" start="1" end="246" strand="-1" mapped_from="GRCh38" />
+          <partial>3-prime</partial>
+          <long_name>peroxiredoxin 2 (protein_coding)</long_name>
+          <db_xref source="GeneID" accession="7001">
+            <synonym>HEL-S-2a</synonym>
+            <synonym>NKEF-B</synonym>
+            <synonym>NKEFB</synonym>
+            <synonym>PRP</synonym>
+            <synonym>PRX2</synonym>
+            <synonym>PRXII</synonym>
+            <synonym>PTX1</synonym>
+            <synonym>TDPX1</synonym>
+            <synonym>TPX1</synonym>
+            <synonym>TSA</synonym>
+          </db_xref>
+          <db_xref source="MIM" accession="600538" />
+          <db_xref source="HGNC" accession="9353">
+            <synonym>MGC4104</synonym>
+            <synonym>NKEFB</synonym>
+            <synonym>PRP</synonym>
+            <synonym>PRX2</synonym>
+            <synonym>PRXII</synonym>
+            <synonym>TDPX1</synonym>
+            <synonym>TSA</synonym>
+          </db_xref>
+          <db_xref source="Ensembl" accession="ENSG00000167815" />
+          <transcript source="Ensembl" accession="ENST00000334482.8">
+            <coordinates coord_system="LRG_278" start="1" end="174" strand="-1" mapped_from="GRCh38" />
+            <partial>3-prime</partial>
+            <long_name>PRDX2-002 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00001956558">
+              <coordinates coord_system="LRG_278" start="127" end="174" strand="-1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000301522.2">
+            <coordinates coord_system="LRG_278" start="1" end="246" strand="-1" mapped_from="GRCh38" />
+            <partial>3-prime</partial>
+            <long_name>PRDX2-001 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS12281.1" />
+            <db_xref source="RefSeq" accession="NM_005809.5" />
+            <exon source="Ensembl" accession="ENSE00001899489">
+              <coordinates coord_system="LRG_278" start="127" end="246" strand="-1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000466174.4">
+            <coordinates coord_system="LRG_278" start="1" end="176" strand="-1" mapped_from="GRCh38" />
+            <partial>3-prime</partial>
+            <long_name>PRDX2-006 (retained_intron)</long_name>
+            <exon source="Ensembl" accession="ENSE00001810634">
+              <coordinates coord_system="LRG_278" start="127" end="176" strand="-1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000477555.1">
+            <coordinates coord_system="LRG_278" start="1" end="175" strand="-1" mapped_from="GRCh38" />
+            <partial>3-prime</partial>
+            <long_name>PRDX2-003 (retained_intron)</long_name>
+            <exon source="Ensembl" accession="ENSE00001928440">
+              <coordinates coord_system="LRG_278" start="127" end="175" strand="-1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+        </gene>
+        <gene source="Ensembl" accession="ENSG00000104889.4">
+          <symbol source="HGNC" name="RNASEH2A" />
+          <coordinates coord_system="LRG_278" start="4967" end="12025" strand="1" mapped_from="GRCh38" />
+          <long_name>ribonuclease H2, subunit A (protein_coding)</long_name>
+          <db_xref source="GeneID" accession="10535">
+            <synonym>AGS4</synonym>
+            <synonym>JUNB</synonym>
+            <synonym>RNASEHI</synonym>
+            <synonym>RNHIA</synonym>
+            <synonym>RNHL</synonym>
+          </db_xref>
+          <db_xref source="MIM" accession="606034" />
+          <db_xref source="HGNC" accession="18518">
+            <synonym>AGS4</synonym>
+            <synonym>RNASEHI</synonym>
+            <synonym>RNHIA</synonym>
+            <synonym>RNHL</synonym>
+          </db_xref>
+          <db_xref source="Ensembl" accession="ENSG00000104889" />
+          <transcript source="Ensembl" accession="ENST00000221486.4">
+            <coordinates coord_system="LRG_278" start="4967" end="12024" strand="1" mapped_from="GRCh38" />
+            <long_name>RNASEH2A-001 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS12282.1" />
+            <db_xref source="RefSeq" accession="NM_006397.2" />
+            <exon source="Ensembl" accession="ENSE00001265301">
+              <coordinates coord_system="LRG_278" start="4967" end="5187" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003472728">
+              <coordinates coord_system="LRG_278" start="5395" end="5466" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003593437">
+              <coordinates coord_system="LRG_278" start="5593" end="5716" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003515791">
+              <coordinates coord_system="LRG_278" start="5806" end="5893" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003520689">
+              <coordinates coord_system="LRG_278" start="8458" end="8595" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003469311">
+              <coordinates coord_system="LRG_278" start="8704" end="8791" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003677620">
+              <coordinates coord_system="LRG_278" start="11470" end="11593" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002807159">
+              <coordinates coord_system="LRG_278" start="11715" end="12024" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000221486.3">
+              <coordinates coord_system="LRG_278" start="5061" end="11853" strand="1" mapped_from="GRCh38" />
+              <long_name>ribonuclease H2 subunit A</long_name>
+              <db_xref source="RefSeq" accession="NP_006388.2" />
+              <db_xref source="UniProtKB" accession="O75792">
+                <synonym>B2RCY1</synonym>
+                <synonym>Q96F11</synonym>
+              </db_xref>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000593017.1">
+            <coordinates coord_system="LRG_278" start="4979" end="12025" strand="1" mapped_from="GRCh38" />
+            <long_name>RNASEH2A-002 (retained_intron)</long_name>
+            <exon source="Ensembl" accession="ENSE00002908358">
+              <coordinates coord_system="LRG_278" start="4979" end="5716" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003663489">
+              <coordinates coord_system="LRG_278" start="5806" end="5893" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003682418">
+              <coordinates coord_system="LRG_278" start="8458" end="8595" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003544786">
+              <coordinates coord_system="LRG_278" start="8704" end="8791" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003510947">
+              <coordinates coord_system="LRG_278" start="11470" end="11593" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002878174">
+              <coordinates coord_system="LRG_278" start="11715" end="12025" strand="1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000590121.1">
+            <coordinates coord_system="LRG_278" start="5064" end="6344" strand="1" mapped_from="GRCh38" />
+            <long_name>RNASEH2A-003 (retained_intron)</long_name>
+            <exon source="Ensembl" accession="ENSE00002767573">
+              <coordinates coord_system="LRG_278" start="5064" end="5187" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003601284">
+              <coordinates coord_system="LRG_278" start="5395" end="5466" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003527485">
+              <coordinates coord_system="LRG_278" start="5593" end="5716" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002813297">
+              <coordinates coord_system="LRG_278" start="5806" end="6344" strand="1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000590279.1">
+            <coordinates coord_system="LRG_278" start="5071" end="5892" strand="1" mapped_from="GRCh38" />
+            <long_name>RNASEH2A-004 (retained_intron)</long_name>
+            <exon source="Ensembl" accession="ENSE00002892631">
+              <coordinates coord_system="LRG_278" start="5071" end="5466" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002859717">
+              <coordinates coord_system="LRG_278" start="5593" end="5892" strand="1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+        </gene>
+      </features>
+    </annotation_set>
+    <annotation_set type="lsdb">
+      <source>
+        <name>List of locus specific databases for RNASEH2A</name>
+        <url>http://grenada.lumc.nl/LSDB_list/lsdbs/RNASEH2A</url>
+      </source>
+      <modification_date>2015-06-22</modification_date>
+    </annotation_set>
+  </updatable_annotation>
+</lrg>

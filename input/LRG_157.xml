@@ -1,0 +1,1009 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="application/xml" href="lrg2html.xsl"?>
+
+<lrg schema_version="1.9">
+  <fixed_annotation>
+    <id>LRG_157</id>
+    <hgnc_id>7562</hgnc_id>
+    <sequence_source>NG_016964.1</sequence_source>
+    <organism taxon="9606">Homo sapiens</organism>
+    <source>
+      <name>RAPID: Resource of Asian Primary Immunodeficiency Diseases</name>
+      <url>http://web16.kazusa.or.jp/rapid/browseByPIDGenes</url>
+      <contact>
+        <name>Sujatha Mohan</name>
+        <address>The Institute of Physical and Chemical Research (RIKEN), Japan</address>
+        <email>sujatha@rcai.riken.jp</email>
+      </contact>
+    </source>
+    <mol_type>dna</mol_type>
+    <creation_date>2011-04-12</creation_date>
+    <sequence>AAGCACTCTTTACCCTGCAGGCGCTTAAAGGAAAGTTGACCAGGTCTCCTCCTGAGGGTCCTCCTTCCCCATGGTTCTGCCCTATCCCAAAGTCTCTGCTAGTGGGATATGACTGGAGTTCTCAGCTCAACTAGTAAAAAGGCTGAAAGTCACTTTTCAGCATTCTTACTTGATTACTCACCTGACAAATGAGGACAGAGTCCACACTCACAAAAGGCAAATGACAACCTGGCTTTGGCTAAAAATCAAGCTACAGAGAACTTCTGCTCCAGTCCCAAAGGTTTTGTGTATCGTGGCTCAGCACTTCAAAGTAGGGGAGAGGTTGAGTCCACAAGAGCAGGGAGCCAAGGACTCTCGTTGCCTCATTCTGGTGTCCAACCTTATCCTCCCCAACCTGCACACTGAGTTTCCTGGGGCCTGGGCCCAGTAAAGTGTCAAAATGGCCAACCCATGGCTAGAACTAGAAAAGTTTACCTCAGAAACTGGGCGATTCGGGCCATGATTGCCCCGGCCCCAGGCTGCAGCACATTTCCTGTGGACAACAAACTTTCATTCAGTGCCAGGCGGTGGTGTTCTGGGCACTAAAGTATAGCTGTGAAAACCAGAGATGAGGCATTCCAGATCTTTCTTCGGGACACTAGCCCTTGGCAGGCTCACTTGCAACTCTGGAACATCAGGGTTTGGGGCAGGGAGAGCCAGCCATACAACAGCTTGTCCTGGTCATCCACCAGCTCCTGTCCCTGAGGGTCCCACGCTCACTTGCCCATGCACCCAGCTTTTCCAAATCAGCACAGATGGGCAGGTTGTCTGCCCTTAAAAGTGAAATGGGAGTTTCTGAAAATGCACATCTCCCCAGGTATCCTCCTGTGAGCCCTGCTGTCACCCCAGAGAGGTGGAACAGTGATTGCCGACCTAGGGGTGGCATCCGCTGGATAAGACTCTTGCCATATCATATTGCTGTATTTCAAGGTGAGGGGTGGAATAGAGGGCTGGACTGAAGATTGTGGGGAAAAGAAAGATCAGATTGTTACCGTGTGTATGTAGAAAAGGAAGACATAAGAAACTCCATGTTGATCTGTACAAAGAAAAATTGTTTCTGCTTTGAGATGCTGTTAATCTGTAACTTTAGCCCCAACTCTGTGCTCACAAAAACATGTGCTATATTGAATCAAGGTTTAAGGGATTTAGGGCTGTGCAGGATGTGCCTTGTCAACATATGTTTGCAGACAGTATGCTTGGTAAAAGTCATCGTCATTCTCCATTCTCTATTAACCAGGGACATGATGCACTGTGGAAAGCCGCAGGGACCTCTGCCCAAGAAAGCCTGGGTATTTGTCCAAGGTTTCCCCCCACTGAGACAGCCTGAGATATGGCCTCGTGGGAAGGGAAAGACCTTACTGTCCCCCAGCCCGACACCTGTAAAGGGTCTGTGCTGAGGAGGATTAGTAAAAGAGGAAGGCCTCTATTTCCCGCACATCCCTGGGAACGGAATGTCTCGGTGTAAAGCCGACTATTGGTTCTATTTACTGAGATAGGAGAAAACCGCCCTGTGGCTGGAAGCGAAATATGCTGGCAGCAATACTGCTCTGTTACTCTTTGCTACACTGAGATGTCTGGGTAAAGAGAAACAAAAATCTAGCCTACATGCACATCTCAGCACAGTACCTTCCCTTGAACTTATTTATGATGCAGATTCCTTTACTCACATGTTTTCCTGCTGACCTTCTCCCCACCATCACCCTGTTCACCCCGTTTTGCCTGAAGAGGGCCTGCCCCTCCACACCTGTGGGTATTTCTCGCAAGGTGGAGACGAGAAACTGAGAAAAGAAATGACACAGAGACAAAGTATAGAGGAAGAAAAGTGGGCCCAGGGGACTGGTGCTCAGCAATTGAGGACCTACACCAGCACTGGTCTCTGAGTTCCCTCAGTATTTATTGATCACTATCTCTACTATCTTGGCAAGAGGGATGTGGCATTATATACCATTACTATAAGGTAATGGTGGGGAGGGGGTCAACAGGAAAAAATGTGAGCAAAGGACTCAGTGTCATAAGTAAGTTTAAGGAAAGGTGCTGTGCCTGGATGTGCACATAGGCCAGATTTATGTTTGACTTTACACAAACATCTCAGTGCAGTAAAGAGCAGTATTGCCGCCAGCATGTCTCACCTGCAGCCATAAGGCGGTTTTCTCCTATCTCAGTAAATAGAATGTATGGTTGGGTTTTACACCCAAGACATTCCATTCCCAGGGACAAGCAGGAGACAGATGCTTTCCTCTTATCTCAACTGCAAAGAGGCCTTCCTCTTTTACTAATACTCCTCAGCACCGACCCTTTACGGGTGTCTGCAAAGAGGCCTTCCTCTTTTACTAATACTCCTCAGCACAGACCCTTTACGGGTGTCGGGCTGGGGGACTGTAAGGTCTTTCCCTTCCCACTAGGCCATATCTCAGACAATCTCAGTGGGGGGAAACCTGGACAATACCCAGGCTTTCTTGGGCAGAGGTCCCTGCGGCCTTTCGCAGTGCACTGTGTACCTGGTTAATCGAGAATGGAGAATGGCGATGACTTTTACCAAGCATACTGCCTGCAAACAAATGGTTAACAAGCCACATCCTGCACAGCCCTAAATCCCTCAAACCTTGATTCAATACAGCACATGTTTCTGTGAGCACAGGGTTGGGGCTAAGGCTACAGATTAACAGCATCTCAAGGCAGAAAAATTTTTCTTAGTACAGATCAAAATGGAGTTTCTTCTGTCTTCCTTTTCTACACAGACACAGTAACAGTCTGATCTCTCTTCCTTTCCCCCACACTGCCGCACTCCCCTTGCCGAGATAGTGAAAATAGTAATCAATAAATACTGAGGGAACTCGGAGACCGATGCCGGTCACCTGGGCCCACTCTACACTTTGTCTCTGCGTCTTATTTCTTTTCTCAGTCTCTCCTCCCATCTGACGAGAAATACCCACAGGTGTGAAGGGGCAGGACCCCTTCAAAGGTCAAGGCCATGGAGGTTCCCCCAGTGAAAATTCGGGGCGGGGAGGTGAGGAGAGCTCTGGACGAACGGAAGAACGGGGAAGGCCCAGCGCAGGGCCTGAGTGGTTCGCTCACCGACACAGATGTCCCCCAGCTGTTCCGGCCTCAGATTCACGTCCTTGAGAACCGCGGTCATGACTGCCGAGAGAAGCTCGTCGGGGGTGGTGTCCTGCAGCAGAAAGAGCAGCCGCAGTGACCCCCACTCCCCCATGCCCACCCCAGGGAGACAAAGCGACCACAGCTGGGTGCGGAGCTGCCTCCGGCGTCCAGGATAACCAAACATACGAACCGGACCCCAGCCCGCGCCGGCGTCTTCCCACACTCGGCGCCCAGACCCTCGGGCCTCACCTTGAAGCCGCCGCGGCCCGCCCGGCAGATGGCCGTGCGCCGCCCGTGCACCACCACCACGTCCGCGGCCGAGGCCTGCGGGGCACCGCTCAGGCAAGGCGCGGCCTGCGGCATCCAGCCGGAATCGGCCGGACCCCTCAGGTGGCCCAGCACTACCTGCAGCCTCTGCATTGCGCAGGTCAACCCTGCAGACCAGCCACCAGTCCGGGAACTGACCGCGGAGTTAACAGACAGCCGTCCGCACACGCGCAGAACCACATCTCAGCCTCCAAGGCCTCAACTCCGCCCACAGCTCTGCGAACAGACGCGAGCGACCCTCCAAAAGTCCCGTCCACCTCCAGCCTCAGCCAACCACAAGGAGAGTCGGCCTGGGAACCCGCCCCTCCCCGCCACCGCCTACCAAGCCCTCTATAGGAGGGCCCACAGGCACCGCCCAGCCGAGCTTTCCACTCAATGCCCCGCCTACCTTGGCCTACCGCAGCCAACCAGAAGGTGTATCTTTACGAATCCCCGCCCAGAAATGCAGACCGGAAGTCTTTCCACCTTTTGTAGCCAAACCCGAGACCTGACCCCCAAATCCCTGTCTCCTGCCCGCAGCCAAACGGAAGGCTGGGCAGCCAGGACCGCTTACTGCTTGGGGGCTGGAGATGGAAGCCGAGGCTCTAATTCCTCTACCCACTTCCTAGGAGGCTCTGCTATCCCTCCGGTCCCAGTACCCGAGCTGGGGGACCTAAATACTTCCGAGACGCCCGAGTCCTGCTCCGACGTGGTTGGGCTTTCCCATTCTTTCGAGAAGACAGGGAATTTGGGCTTCCGGGCTGGCCGGGAGAACAGATTTTACAGACATGCGGGGTGTGACAAGCTCTCTAACTGGAGAATGAACATTTCACACTTTTACCAGTTTTACACCCAATTGGAATGATTTTATTAGTGCCCATTTCCCGTGCTAGGCTGGGGTCTCCACCAAGGCAGAGAGGTACCATGTATCCGGGGAGCCTGCGACACCCTTGACACTTAGTAGATGATCAATAAGTACTTGTCGAATGAGTAAATGAATGAACCAGGGCTCCCCAGGTCAGGACTGTGTCCCTAAACCTAAAGGGCAAGGCCACGTGCCCCCTTGACTCCCAATAGCAGGGCCATGTCTTCACCTGAGACCCTGGAGAGTAGTGCTGGGCTTTCCACAGACACCAAAGGACAGGGTGCCTTGTGCTCCCCAACCTAGTGTCATGACGTCCCCAACCATTTCGAGGGCAGGGCCACGGCATGCCTCAGGCTCCAGAAGGCAGCTGTCCGTTTCCCACTCCCACCTCGGGGAGCACAGCAGGGGTCTTCCCATACCCCTACTGGCAGGATTGCGTGTTCCCCAGAGACAGTGGAGGGCAGAGCTGGTGCCTTCCCACTTGTCCCCTCCTCGCCATCCTCGAGGGCAGGACCGTATGAACCCCTCAGATTCCTCCGTGGAAGAACTGTGGCTCCACCAGATCCCAAAAAGCAAGGCCCGTTTCCTACAACCCCCGAAGGAGGGTCGTCCTCACTCCGCCGCCAACCTACTAGCACCATCACCAGACCCTCGAGGGCGGTGCCGTGGACCTCTCCAGATCTCAAAAGGCAGATTCCTACTTCTTACGCCCCCCACATCACCCGCCTCGAGACCTCAAGGGTAGAGGTGGGCACCCCCGCCTCCGCACTTTTGCTCGGGGCTCCAGATTGTAGGGCAGGGCGGCGCTTCTCGGAAAGCGAAAGCCGGCGGGGCGGGGCGGGTGCCGCAGGAGAAAGAGGAAGCGCTGGCAGACAATGCGACCCGACCGCGCTGAGGCTCCAGGACCGCCCGCCATGGCTGCAGGAGGTCCCGGCGCGGGGTCTGCGGCCCCGGTCTCCTCCACATCCTCCCTTCCCCTGGCTGCTCTCAACATGCGAGTGCGGCGCCGCCTGTCTCTGTTCTTGAACGTGCGGACACAGGTGGCGGCCGACTGGACCGCGCTGGCGGAGGAGATGGACTTTGAGTACTTGGAGATCCGGCAACTGGAGACACAAGCGGACCCCACTGGCAGGCTGCTGGACGCCTGGCAGGGACGCCCTGGCGCCTCTGTAGGCCGACTGCTCGAGCTGCTTACCAAGCTGGGCCGCGACGACGTGCTGCTGGAGCTGGGACCCAGCATTGGTGAGGACGTCCCCTTCCTGGCCTCGTACCTGGGGGGTGAGGAGGCTGACTTTCCGCGGCCTCAGCATCCTGTCTCCCATGGAGAGACCCCATTTCCTGCCTCGGGGGCCCGAAGAAGCCTGCAGAGGGAGAACCATGCGGGTCCCGTTCCTTCTTAATAACCGGTCGCGGTTATTAAGAAGGACTGGAGAAAGGTCCGGATAGGCGGAGATGGGAAGGAAGCAGCTTAGGCAGAGGCTTTCAGGTAGGGCCAGGAGTCAGAATCAGGCTTCTGTGGGGGCATCTGGGCTGTTTCAAGTAGAGCAACAGGACAGGTGGGGCGATTGACAGTGGACTGTCTTAGAAACCTCAAGTCCTGGGGAAATGCAGCCCTTCTTTCTACTCACTGGCACTTACATAATATACATGCATAGGCGTTGGATACAGCCGCCCACAGACAGGCACACCTTGCTGAGTTGGAATCACTGCACCATAACCAGTGGGTCTCCTGAGCCTTTCTGGCATGCCCAGCCCCTTGCTCACATCTGCCCTGGATCCCAGAAGAAGCAGACCTACCTTGGTACCATTCTTAGGATCCCTAGGAAGGGACAGAGATACAAACCTGACTTTGATGGCCTTCCAGAAAGCCAGAACACCACTGACATCCCTTTGGGTCAGTTAGAGCCAGTGGGAGCTCAACTTCTCAGAGCCGTTGAGCTTCGCGTGGCACCAGTGAACTGGGGAAGCCCTCTAGAACAACCCAGCCAGAGGAGGTGGGACAGCGGCTGGATCCTGACTGTGGGTAAAGAGGTAGGCACTCCCAGGGAGGCTGCTTTACTCTGTCTCTTCCCCACAGAGGAGGATTGCCAAAAGTATATCTTGAAGCAGCAGCAGGAGGAGGCTGAGAAGCCTTTACAGGTGGCCGCTGTAGACAGCAGTGTCCCACGGACAGCAGAGCTGGCGGGCATCACCACACTTGATGACCCCCTGGGTAAGGGTCCAATACTGTTCCCATGGGACAGGTGGAATAGGACATTGTGGTGTTAAGAGCATGGGTGTTTGAAGCAGATGGGCTGTGAGACCTTGGGCAAGTCACTTAATCTTTCTGAGCCTCAGTTTCCTCACCTAAGAAATGGAGATAATAGTCCTACCTCTGGATTGCTGTGAGATGCTCATGAAATAATGTCTGTCTCGTGGTTAATCCAGAGCTTAGCCCCTGAGGTACTCATCTTTCCTCTCCTGGAAAGGGCACTTTCTCTGAGGAGTATCATCTTGGGAAGGGTGCAGGGCCCAGGGTTGCCTAGGCAGGGGACTCTTGGCTGGATCCCTCCCAAGCCTTCCCATGGAGCTCTGACCACCACCCTTGTGCTCTGCACCCAGGGCATATGCCTGAGCGTTTCGATGCCTTCATCTGCTATTGCCCCAGCGACATCCAGTTTGTGCAGGAGATGATCCGGCAACTGGAACAGACAAACTATCGACTGAAGTTGTGTGTGTCTGACCGCGATGTCCTGCCTGGCACCTGTGTCTGGTCTATTGCTAGTGAGCTCATCGAAAAGAGGTTGGCTAGAAGGCCACGGGGTGGGTGCGTGGATGCATGAAGCCCTGCCCTGGGGTCCAGATACTGGGCATCTCCTCCTAGCTGTGCACTGTCCAGCCTGGGCACAGTGGGCCCTTCCTGAAGCTATTCCCAGGGGATATGCTGAACTAAGTTGCCACAGGACCTGCAGCCTGCCCACTCTCCCCTAGGTGCCGCCGGATGGTGGTGGTTGTCTCTGATGATTACCTGCAGAGCAAGGAATGTGACTTCCAGACCAAATTTGCACTCAGCCTCTCTCCAGGTAAGCTCAACCCTGCTCTGGCAAGAGAATGAGGGAATGTGTAGGTGGGGCCTCTGGATTGTCAGCCTTCCCTCCCCAAGGACTGTGGATGCAGTACCAAAGAACTGCTGAAGATCTCTGCACACCTGAGCATGTGTGCATGTGTGTGCCTTTTTGTGTGAGTGAATGTGTGCCAGGGGTACTTAGATGGGGGATGGCTGTTGTTAACCCTGGGGTTGAAGACTGGGCTTGTCCCACCATGGGGCAAGGGCCTGATGCCAGCATGGCACCCCTTGGCTTGCAGGTGCCCATCAGAAGCGACTGATCCCCATCAAGTACAAGGCAATGAAGAAAGAGTTCCCCAGCATCCTGAGGTTCATCACTGTCTGCGACTACACCAACCCCTGCACCAAATCTTGGTTCTGGACTCGCCTTGCCAAGGCCTTGTCCCTGCCCTGAAGACTGTTCTGAGGCCCTGGGTGTGTGTGTATCTGTCTGCCTGTCCATGTACTTCTGCCCTGCCTCCTCCTTTCGTTGTAGGAGGAATCTGTGCTCTACTTACCTCTCAATTCCTGGAGATGCCAACTTCACAGACACGTCTGCAGCAGCTGGACATCACATTTCATGTCCTGCATGGAACCAGTGGCTGTGAGTGGCATGTCCACTTGCTGGATTATCAGCCAGGACACTATAGAACAGGACCAGCTGAGACTAAGAAGGACCAGCAGAGCCAGCTCAGCTCTGAGCCATTCACACATCTTCACCCTCAGTTTCCTCACTTGAGGAGTGGGATGGGGAGAACAGAGAGTAGCTGTGTTTGAATCCCTGTAGGAAATGGTGAAGCATAGCTCTGGGTCTCCTGGGGGAGACCAGGCTTGGCTGCGGGAGAGCTGGCTGTTGCTGGACTACATGCTGGCCACTGCTGTGACCACGACACTGCTGGGGCAGCTTCTTCCACAGTGATGCCTACTGATGCTTCAGTGCCTCTGCACACCGCCCATTCCACTTCCTCCTTCCCCACAGGGCAGGTGGGGAAGCAGTTTGGCCCAGCCCAAGGAGACCCCACCTTGAGCCTTATTTCCTAATGGGTCCACCTCTCATCTGCATCTTTCACACCTCCCAGCTTCTGCCCAACCTTCAGCAGTGACAAGTCCCCAAGAGACTCGCCTGAGCAGCTTGGGCTGCTTTTCATTTCCACCTGTCAGGATGCCTGTGGTCATGCTCTCAGCTCCACCTGGCATGAGAAGGGATCCTGGCCTCTGGCATATTCATCAAGTATGAGTTCTGGGGATGAGTCACTGTAATGATGTGAGCAGGGAGCCTTCCTCCCTGGGCCACCTGCAGAGAGCTTTCCCACCAACTTTGTACCTTGATTGCCTTACAAAGTTATTTGTTTACAAACAGCGACCATATAAAAGCCTCCTGCCCCAAAGCTTGTGGGCACATGGGCACATACAGACTCACATACAGACACACACATATATGTACAGACATGTACTCTCACACACACAGGCACCAGCATACACACGTTTTTCTAGGTACAGCTCCCAGGAACAGCTAGGTGGGAAAGTCCCATCACTGAGGGAGCCTAACCATGTCCCTGAACAAAAATTGGGCACTCATCTATTCCTTTTCTCTTGTGTCCCTACTCATTGAAACCAAACTCTGGAAAGGACCCAATGTACCAGTATTTATACCTCTAATGAAGCACAGAGAGAGGAAGAGAGCTGCTTAAACTCACACAACAATGAACTGCAGACACAGCTGTTCTCTCCCTCTCTCCTTCCCAGAGCAATTTATACTTTACCCTCAGGCTGTCCTCTGGGGAGAAGGTGCCATGGTCTTAGGTGTCTGTGCCCCAGGACAGACCCTAGGACCCTAAATCCAATAGAAAATGCATATCTTTGCTCCACTTTCAGCCAGGCTGGAGCAAGGTACCTTTTCTTAGGATCTTGGGAGGGAATGGATGCCCCTCTCTGCATGATCTTGTTGAGGCATTTAGCTGCCATGCACCTGTCCCCCTTTAATACTGGGCATTTTAAAGCCATCTCAAGAGGCATCTTCTACATGTTTTGTACGCATTAAAATAATTTCAAAGATATCTGAGAAAAGCCGATATTTGCCATTCTTCCTATATCCTGGAATATATCTTGCATCCTGAGTTTATAATAATAAATAATATTCTACCTTGGAAACTTGTGTGTGTGTTGAGTGGAAGAGGTTTGGAAGCAGTAATGTGGGTAAGAGAAGCTGGTCCACTGGGTGGGTTCCAGCCTGGATTTGGCACGGGCTTCCTGAAAGCTGGGCCCCCTCCTCACAGGTTCAGTCCTAAGCAGGGCTGCAGGCAGAACCAGGAATACTGACCTCAGCTACAGACACTCAGGAGACTGCCCTTCTCTGGCCATGTCCAATCTTTTCTTGGTTGTGCCATGCTCCTGGGTCCTGGTCCAGTCTTGGAGTAGGGGCTGATCTATGCTCCAAAGAGAGTCTGGAGGACCCCCCAACTCCAGCCCCTGAGCACTGCATTGTTACTCCTAATAATCTTCTTTGGGCACATCTATGTTAATCCTAAAGGTACTGATCTATTTTTAAAGAAAATATTGCTTTTTCACTGTTGAAGAAAATTTGGAAAAGATAAAGAAAAAAACTCACACATCATAATTCCAGAGAGAACTCTAGTGACATTTTAGAGTGCTCAGACATTGTCAGTGACAGTAGCTTTTTTCTCAATGGTCTATCTGCTGCCACGTCCTGGCTCCTGAGCCACCTGGATGCTGTAGCCTCCCCAGCCTTGCCCCTGTGCCCTCAGGGACTCCTGGGAAGGCCCTGTGTACTCAGAGAACCCCTGAGGCCGAGTCTTTCTCTCCAGCATCCCCTGGGGAGCAGAGCCACAGTGTGGCCCTGGCGGTGCCCCCAGGATCTGCCATGTGCTGCCCATGGCTGGGAAGACAGTCCTGGGCTGGTCCCCTCTTGGGAAAAGCCTCTCTTCTCTTAGGCCAGGCTGTTGACCCAAATGTGCTCTCCCCACCCCTATCTGACCCTCACACTCCTCACACCTGCCTGTCTCCAGTGCCTTCCTTCCCATTAGCTGTGTTCCCAAATGTAGATAAAGCTTCCTCTTCTCATTTTCAGTTTTAGTCCTCTACGAGCATTTAAAAGAGAAACTTTCCTTTTTCAATAAGGAAAATTTACGCTGAAATTATCAAAGGCAAAGCAGGAAACTTTGGAGGGCAGCAGCATAGTTGAAATTCAAAACTACGATTCTGTGTGACGATGGAGATGGATTCCGCCACAAGTCAATGACCAGGGAGAGAATTGGGGAGAGGGATTTCCTTTAGATTAGATAAGACTTGGGTCATAACGATCAAATATACTGATATAGTATAACTTTGTTGGATTCTGGCTCAAACAGAGCAATTGTAAAAAGACAATATTGAGTCATATATCTGATAAGGGGTTAATATCTGGAATGTATAAAAAAAAAAACTCTTAGAAATCAACAACAAAAGAAACAAGCAACCTAACTCAAAAATGGGCAAAAGACTTGGGCAGAAGTTTCTCCAAAGAAGATATACAAATGAGGGACAGGTGTGGTGGCTCACATTTGTAATCTCAGCACTTTGGGAGGCTGAGGCGGGTGGATTGCTTGAGCCCAGGAGTTGGAGACCAGCCTGGACTACATGGCAAAACCCTGTCTCTAAAAAAAAATACAAAAATTAGCCAGGCGTAGTGGCATGCACCTGTAGTCCCAGCCACTCGGGAGGCTGAGGTGGGAAGATCGCCTAGGAGACGAAGGTTGCCGCAAGCCAAGATTGCACCACTGCACTCTAGCTTGGGCAACAGAGCGAGACCCCATCTAAGAAAAAAAAGAAACAAACAAAAAGAAAAAAAATACAAATGGCCAATAAGCACATAAAAATATGCTCAATATCACTAATTAGGGAAAGCAAATCAGAACCACCATGAGACAGATACCACTTCATACCCATTAGGATGGCTACTATCAAAAAAAAAAAAAAAAAAAAAAAAAAATATATATATATATATATATATATATATATAACAAACATTGAAGATGTGGACAAATCGGAACCTTTGATCACTTTTGATGGGAATATAAAATGGCATAGCTGCTATAGTAAACAGTATGGCAATTCCTCAAAAAATTACAAACAGAATTACCATATGACCCAGC</sequence>
+    <transcript name="t1">
+      <comment>This transcript is identical to the RefSeq transcript NM_001172567.1 but with the polyA tail removed.</comment>
+      <coordinates coord_system="LRG_157" start="5001" end="9545" strand="1" />
+      <cdna>
+        <sequence>AGATTCCTACTTCTTACGCCCCCCACATCACCCGCCTCGAGACCTCAAGGGTAGAGGTGGGCACCCCCGCCTCCGCACTTTTGCTCGGGGCTCCAGATTGTAGGGCAGGGCGGCGCTTCTCGGAAAGCGAAAGCCGGCGGGGCGGGGCGGGTGCCGCAGGAGAAAGAGGAAGCGCTGGCAGACAATGCGACCCGACCGCGCTGAGGCTCCAGGACCGCCCGCCATGGCTGCAGGAGGTCCCGGCGCGGGGTCTGCGGCCCCGGTCTCCTCCACATCCTCCCTTCCCCTGGCTGCTCTCAACATGCGAGTGCGGCGCCGCCTGTCTCTGTTCTTGAACGTGCGGACACAGGTGGCGGCCGACTGGACCGCGCTGGCGGAGGAGATGGACTTTGAGTACTTGGAGATCCGGCAACTGGAGACACAAGCGGACCCCACTGGCAGGCTGCTGGACGCCTGGCAGGGACGCCCTGGCGCCTCTGTAGGCCGACTGCTCGAGCTGCTTACCAAGCTGGGCCGCGACGACGTGCTGCTGGAGCTGGGACCCAGCATTGAGGAGGATTGCCAAAAGTATATCTTGAAGCAGCAGCAGGAGGAGGCTGAGAAGCCTTTACAGGTGGCCGCTGTAGACAGCAGTGTCCCACGGACAGCAGAGCTGGCGGGCATCACCACACTTGATGACCCCCTGGGGCATATGCCTGAGCGTTTCGATGCCTTCATCTGCTATTGCCCCAGCGACATCCAGTTTGTGCAGGAGATGATCCGGCAACTGGAACAGACAAACTATCGACTGAAGTTGTGTGTGTCTGACCGCGATGTCCTGCCTGGCACCTGTGTCTGGTCTATTGCTAGTGAGCTCATCGAAAAGAGGTTGGCTAGAAGGCCACGGGGTGGGTGCCGCCGGATGGTGGTGGTTGTCTCTGATGATTACCTGCAGAGCAAGGAATGTGACTTCCAGACCAAATTTGCACTCAGCCTCTCTCCAGGTGCCCATCAGAAGCGACTGATCCCCATCAAGTACAAGGCAATGAAGAAAGAGTTCCCCAGCATCCTGAGGTTCATCACTGTCTGCGACTACACCAACCCCTGCACCAAATCTTGGTTCTGGACTCGCCTTGCCAAGGCCTTGTCCCTGCCCTGAAGACTGTTCTGAGGCCCTGGGTGTGTGTGTATCTGTCTGCCTGTCCATGTACTTCTGCCCTGCCTCCTCCTTTCGTTGTAGGAGGAATCTGTGCTCTACTTACCTCTCAATTCCTGGAGATGCCAACTTCACAGACACGTCTGCAGCAGCTGGACATCACATTTCATGTCCTGCATGGAACCAGTGGCTGTGAGTGGCATGTCCACTTGCTGGATTATCAGCCAGGACACTATAGAACAGGACCAGCTGAGACTAAGAAGGACCAGCAGAGCCAGCTCAGCTCTGAGCCATTCACACATCTTCACCCTCAGTTTCCTCACTTGAGGAGTGGGATGGGGAGAACAGAGAGTAGCTGTGTTTGAATCCCTGTAGGAAATGGTGAAGCATAGCTCTGGGTCTCCTGGGGGAGACCAGGCTTGGCTGCGGGAGAGCTGGCTGTTGCTGGACTACATGCTGGCCACTGCTGTGACCACGACACTGCTGGGGCAGCTTCTTCCACAGTGATGCCTACTGATGCTTCAGTGCCTCTGCACACCGCCCATTCCACTTCCTCCTTCCCCACAGGGCAGGTGGGGAAGCAGTTTGGCCCAGCCCAAGGAGACCCCACCTTGAGCCTTATTTCCTAATGGGTCCACCTCTCATCTGCATCTTTCACACCTCCCAGCTTCTGCCCAACCTTCAGCAGTGACAAGTCCCCAAGAGACTCGCCTGAGCAGCTTGGGCTGCTTTTCATTTCCACCTGTCAGGATGCCTGTGGTCATGCTCTCAGCTCCACCTGGCATGAGAAGGGATCCTGGCCTCTGGCATATTCATCAAGTATGAGTTCTGGGGATGAGTCACTGTAATGATGTGAGCAGGGAGCCTTCCTCCCTGGGCCACCTGCAGAGAGCTTTCCCACCAACTTTGTACCTTGATTGCCTTACAAAGTTATTTGTTTACAAACAGCGACCATATAAAAGCCTCCTGCCCCAAAGCTTGTGGGCACATGGGCACATACAGACTCACATACAGACACACACATATATGTACAGACATGTACTCTCACACACACAGGCACCAGCATACACACGTTTTTCTAGGTACAGCTCCCAGGAACAGCTAGGTGGGAAAGTCCCATCACTGAGGGAGCCTAACCATGTCCCTGAACAAAAATTGGGCACTCATCTATTCCTTTTCTCTTGTGTCCCTACTCATTGAAACCAAACTCTGGAAAGGACCCAATGTACCAGTATTTATACCTCTAATGAAGCACAGAGAGAGGAAGAGAGCTGCTTAAACTCACACAACAATGAACTGCAGACACAGCTGTTCTCTCCCTCTCTCCTTCCCAGAGCAATTTATACTTTACCCTCAGGCTGTCCTCTGGGGAGAAGGTGCCATGGTCTTAGGTGTCTGTGCCCCAGGACAGACCCTAGGACCCTAAATCCAATAGAAAATGCATATCTTTGCTCCACTTTCAGCCAGGCTGGAGCAAGGTACCTTTTCTTAGGATCTTGGGAGGGAATGGATGCCCCTCTCTGCATGATCTTGTTGAGGCATTTAGCTGCCATGCACCTGTCCCCCTTTAATACTGGGCATTTTAAAGCCATCTCAAGAGGCATCTTCTACATGTTTTGTACGCATTAAAATAATTTCAAAGATATCTGAGAAAAGCCGATATTTGCCATTCTTCCTATATCCTGGAATATATCTTGCATCCTGAGTTTATAATAATAAATAATATTCTACCTTGGAAA</sequence>
+      </cdna>
+      <coding_region>
+        <coordinates coord_system="LRG_157" start="5185" end="7809" strand="1" />
+        <translation name="p1">
+          <sequence>MRPDRAEAPGPPAMAAGGPGAGSAAPVSSTSSLPLAALNMRVRRRLSLFLNVRTQVAADWTALAEEMDFEYLEIRQLETQADPTGRLLDAWQGRPGASVGRLLELLTKLGRDDVLLELGPSIEEDCQKYILKQQQEEAEKPLQVAAVDSSVPRTAELAGITTLDDPLGHMPERFDAFICYCPSDIQFVQEMIRQLEQTNYRLKLCVSDRDVLPGTCVWSIASELIEKRLARRPRGGCRRMVVVVSDDYLQSKECDFQTKFALSLSPGAHQKRLIPIKYKAMKKEFPSILRFITVCDYTNPCTKSWFWTRLAKALSLP</sequence>
+        </translation>
+      </coding_region>
+      <exon label="1">
+        <coordinates coord_system="LRG_157" start="5001" end="5551" strand="1" />
+        <coordinates coord_system="LRG_157t1" start="1" end="551" />
+        <coordinates coord_system="LRG_157p1" start="1" end="123" />
+      </exon>
+      <intron phase="1" />
+      <exon label="2">
+        <coordinates coord_system="LRG_157" start="6387" end="6521" strand="1" />
+        <coordinates coord_system="LRG_157t1" start="552" end="686" />
+        <coordinates coord_system="LRG_157p1" start="123" end="168" />
+      </exon>
+      <intron phase="1" />
+      <exon label="3">
+        <coordinates coord_system="LRG_157" start="6911" end="7115" strand="1" />
+        <coordinates coord_system="LRG_157t1" start="687" end="891" />
+        <coordinates coord_system="LRG_157p1" start="168" end="236" />
+      </exon>
+      <intron phase="2" />
+      <exon label="4">
+        <coordinates coord_system="LRG_157" start="7280" end="7371" strand="1" />
+        <coordinates coord_system="LRG_157t1" start="892" end="983" />
+        <coordinates coord_system="LRG_157p1" start="236" end="267" />
+      </exon>
+      <intron phase="1" />
+      <exon label="5">
+        <coordinates coord_system="LRG_157" start="7655" end="9545" strand="1" />
+        <coordinates coord_system="LRG_157t1" start="984" end="2874" />
+        <coordinates coord_system="LRG_157p1" start="267" end="317" />
+      </exon>
+    </transcript>
+  </fixed_annotation>
+  <updatable_annotation>
+    <annotation_set type="requester">
+      <source>
+        <name>RAPID: Resource of Asian Primary Immunodeficiency Diseases</name>
+        <url>http://web16.kazusa.or.jp/rapid/browseByPIDGenes</url>
+        <contact>
+          <name>Sujatha Mohan</name>
+          <address>The Institute of Physical and Chemical Research (RIKEN), Japan</address>
+          <email>sujatha@rcai.riken.jp</email>
+        </contact>
+      </source>
+      <modification_date>2015-06-22</modification_date>
+    </annotation_set>
+    <annotation_set type="lrg">
+      <source>
+        <name>LRG</name>
+        <url>http://www.lrg-sequence.org/</url>
+        <contact>
+          <name>Locus Reference Genomic</name>
+          <url>http://www.lrg-sequence.org/contact</url>
+          <email>feedback@lrg-sequence.org</email>
+        </contact>
+      </source>
+      <modification_date>2015-06-22</modification_date>
+      <mapping coord_system="GRCh37.p13" other_name="3" other_id="NC_000003.11" other_id_syn="CM000665.1" other_start="38174969" other_end="38186513" type="other_assembly">
+        <mapping_span lrg_start="1" lrg_end="11545" other_start="38174969" other_end="38186513" strand="1" />
+      </mapping>
+      <mapping coord_system="GRCh38.p2" other_name="3" other_id="NC_000003.12" other_id_syn="CM000665.2" other_start="38133478" other_end="38145022" type="main_assembly">
+        <mapping_span lrg_start="1" lrg_end="11545" other_start="38133478" other_end="38145022" strand="1" />
+      </mapping>
+      <lrg_locus source="HGNC">MYD88</lrg_locus>
+    </annotation_set>
+    <annotation_set type="ncbi">
+      <source>
+        <name>NCBI RefSeqGene</name>
+        <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
+        <contact>
+          <name>RefSeqGene Group</name>
+          <address>NCBI/NLM/NIH</address>
+          <email>rsgene@ncbi.nlm.nih.gov</email>
+        </contact>
+      </source>
+      <comment>Annotation from NG_016964.1</comment>
+      <modification_date>2015-06-19</modification_date>
+      <mapping coord_system="NM_001172566.1" other_name="NM_001172566.1" other_id="NM_001172566.1" other_start="1" other_end="2534" type="transcript">
+        <mapping_span lrg_start="5001" lrg_end="5551" other_start="1" other_end="551" strand="1" />
+        <mapping_span lrg_start="7280" lrg_end="7371" other_start="552" other_end="643" strand="1" />
+        <mapping_span lrg_start="7655" lrg_end="9545" other_start="644" other_end="2534" strand="1" />
+      </mapping>
+      <mapping coord_system="NM_001172567.1" other_name="NM_001172567.1" other_id="NM_001172567.1" other_start="1" other_end="2874" type="transcript">
+        <mapping_span lrg_start="5001" lrg_end="5551" other_start="1" other_end="551" strand="1" />
+        <mapping_span lrg_start="6387" lrg_end="6521" other_start="552" other_end="686" strand="1" />
+        <mapping_span lrg_start="6911" lrg_end="7115" other_start="687" other_end="891" strand="1" />
+        <mapping_span lrg_start="7280" lrg_end="7371" other_start="892" other_end="983" strand="1" />
+        <mapping_span lrg_start="7655" lrg_end="9545" other_start="984" other_end="2874" strand="1" />
+      </mapping>
+      <mapping coord_system="NM_001172568.1" other_name="NM_001172568.1" other_id="NM_001172568.1" other_start="1" other_end="2715" type="transcript">
+        <mapping_span lrg_start="5001" lrg_end="5551" other_start="1" other_end="551" strand="1" />
+        <mapping_span lrg_start="6911" lrg_end="7091" other_start="552" other_end="732" strand="1" />
+        <mapping_span lrg_start="7280" lrg_end="7371" other_start="733" other_end="824" strand="1" />
+        <mapping_span lrg_start="7655" lrg_end="9545" other_start="825" other_end="2715" strand="1" />
+      </mapping>
+      <mapping coord_system="NM_001172569.1" other_name="NM_001172569.1" other_id="NM_001172569.1" other_start="1" other_end="2669" type="transcript">
+        <mapping_span lrg_start="5001" lrg_end="5551" other_start="1" other_end="551" strand="1" />
+        <mapping_span lrg_start="6387" lrg_end="6521" other_start="552" other_end="686" strand="1" />
+        <mapping_span lrg_start="7280" lrg_end="7371" other_start="687" other_end="778" strand="1" />
+        <mapping_span lrg_start="7655" lrg_end="9545" other_start="779" other_end="2669" strand="1" />
+      </mapping>
+      <mapping coord_system="NM_002468.4" other_name="NM_002468.4" other_id="NM_002468.4" other_start="1" other_end="2850" type="transcript">
+        <mapping_span lrg_start="5001" lrg_end="5551" other_start="1" other_end="551" strand="1" />
+        <mapping_span lrg_start="6387" lrg_end="6521" other_start="552" other_end="686" strand="1" />
+        <mapping_span lrg_start="6911" lrg_end="7091" other_start="687" other_end="867" strand="1" />
+        <mapping_span lrg_start="7280" lrg_end="7371" other_start="868" other_end="959" strand="1" />
+        <mapping_span lrg_start="7655" lrg_end="9545" other_start="960" other_end="2850" strand="1" />
+      </mapping>
+      <features>
+        <gene source="NCBI-Gene" accession="30">
+          <symbol source="HGNC" name="ACAA1">
+            <synonym>ACAA</synonym>
+            <synonym>PTHIO</synonym>
+            <synonym>THIO</synonym>
+          </symbol>
+          <coordinates coord_system="LRG_157" start="1" end="3765" strand="-1" />
+          <partial>3-prime</partial>
+          <long_name>acetyl-CoA acyltransferase 1</long_name>
+          <db_xref source="GeneID" accession="30" />
+          <db_xref source="HGNC" accession="HGNC:82" />
+          <db_xref source="MIM" accession="604054" />
+          <db_xref source="CCDS" accession="CCDS46794.1" />
+          <db_xref source="CCDS" accession="CCDS2673.1" />
+          <transcript source="RefSeq" accession="NM_001607.3">
+            <coordinates coord_system="LRG_157" start="475" end="3765" strand="-1" />
+            <partial>3-prime</partial>
+            <long_name>acetyl-CoA acyltransferase 1, transcript variant 1</long_name>
+            <db_xref source="GeneID" accession="30" />
+            <db_xref source="GI" accession="194353977" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_157" start="3388" end="3765" strand="-1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_157" start="3115" end="3208" strand="-1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_157" start="475" end="532" strand="-1" />
+              <partial>3-prime</partial>
+            </exon>
+            <protein_product source="RefSeq" accession="NP_001598.1" codon_start="1">
+              <coordinates coord_system="LRG_157" start="475" end="3558" strand="-1" />
+              <partial>3-prime</partial>
+              <long_name>3-ketoacyl-CoA thiolase, peroxisomal isoform a</long_name>
+              <long_name>peroxisomal 3-oxoacyl-Coenzyme A thiolase</long_name>
+              <long_name>acetyl-Coenzyme A acyltransferase 1</long_name>
+              <long_name>3-ketoacyl-CoA thiolase, peroxisomal</long_name>
+              <long_name>beta-ketothiolase</long_name>
+              <long_name>peroxisomal 3-oxoacyl-CoA thiolase</long_name>
+              <db_xref source="CCDS" accession="CCDS2673.1" />
+              <db_xref source="GeneID" accession="30" />
+              <db_xref source="GI" accession="4501853" />
+            </protein_product>
+          </transcript>
+          <transcript source="RefSeq" accession="NM_001130410.1">
+            <coordinates coord_system="LRG_157" start="475" end="3765" strand="-1" />
+            <partial>3-prime</partial>
+            <long_name>acetyl-CoA acyltransferase 1, transcript variant 2</long_name>
+            <db_xref source="GeneID" accession="30" />
+            <db_xref source="GI" accession="194353978" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_157" start="3388" end="3765" strand="-1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_157" start="3115" end="3208" strand="-1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_157" start="475" end="532" strand="-1" />
+              <partial>3-prime</partial>
+            </exon>
+            <protein_product source="RefSeq" accession="NP_001123882.1" codon_start="1">
+              <coordinates coord_system="LRG_157" start="475" end="3558" strand="-1" />
+              <partial>3-prime</partial>
+              <long_name>3-ketoacyl-CoA thiolase, peroxisomal isoform b</long_name>
+              <long_name>peroxisomal 3-oxoacyl-Coenzyme A thiolase</long_name>
+              <long_name>acetyl-Coenzyme A acyltransferase 1</long_name>
+              <long_name>3-ketoacyl-CoA thiolase, peroxisomal</long_name>
+              <long_name>beta-ketothiolase</long_name>
+              <long_name>peroxisomal 3-oxoacyl-CoA thiolase</long_name>
+              <db_xref source="CCDS" accession="CCDS46794.1" />
+              <db_xref source="GeneID" accession="30" />
+              <db_xref source="GI" accession="194353979" />
+            </protein_product>
+          </transcript>
+          <transcript source="RefSeq" accession="NR_024024.1">
+            <coordinates coord_system="LRG_157" start="475" end="3765" strand="-1" />
+            <partial>3-prime</partial>
+            <long_name>acetyl-CoA acyltransferase 1, transcript variant 3</long_name>
+            <db_xref source="GeneID" accession="30" />
+            <db_xref source="GI" accession="194353980" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_157" start="3388" end="3765" strand="-1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_157" start="3115" end="3208" strand="-1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_157" start="475" end="532" strand="-1" />
+              <partial>3-prime</partial>
+            </exon>
+            <protein_product source="RefSeq" accession="NP_001123882.1" codon_start="1">
+              <coordinates coord_system="LRG_157" start="475" end="3558" strand="-1" />
+              <partial>3-prime</partial>
+              <long_name>3-ketoacyl-CoA thiolase, peroxisomal isoform b</long_name>
+              <long_name>peroxisomal 3-oxoacyl-Coenzyme A thiolase</long_name>
+              <long_name>acetyl-Coenzyme A acyltransferase 1</long_name>
+              <long_name>3-ketoacyl-CoA thiolase, peroxisomal</long_name>
+              <long_name>beta-ketothiolase</long_name>
+              <long_name>peroxisomal 3-oxoacyl-CoA thiolase</long_name>
+              <db_xref source="CCDS" accession="CCDS46794.1" />
+              <db_xref source="GeneID" accession="30" />
+              <db_xref source="GI" accession="194353979" />
+            </protein_product>
+          </transcript>
+        </gene>
+        <gene source="NCBI-Gene" accession="4615">
+          <symbol source="HGNC" name="MYD88">
+            <synonym>MYD88D</synonym>
+          </symbol>
+          <coordinates coord_system="LRG_157" start="5001" end="9545" strand="1" />
+          <long_name>myeloid differentiation primary response 88</long_name>
+          <db_xref source="GeneID" accession="4615" />
+          <db_xref source="HGNC" accession="HGNC:7562" />
+          <db_xref source="MIM" accession="602170" />
+          <db_xref source="CCDS" accession="CCDS2674.2" />
+          <db_xref source="CCDS" accession="CCDS54565.1" />
+          <db_xref source="CCDS" accession="CCDS54566.1" />
+          <db_xref source="CCDS" accession="CCDS54567.1" />
+          <db_xref source="CCDS" accession="CCDS54568.1" />
+          <db_xref source="GI" accession="293597498" />
+          <transcript source="RefSeq" accession="NM_001172567.1" fixed_id="t1">
+            <coordinates coord_system="LRG_157" start="5001" end="9545" strand="1" />
+            <long_name>myeloid differentiation primary response 88, transcript variant 1</long_name>
+            <db_xref source="GeneID" accession="4615" />
+            <db_xref source="GI" accession="289546502" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_157" start="5001" end="5551" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_157" start="6387" end="6521" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_157" start="6911" end="7115" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_157" start="7280" end="7371" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_157" start="7655" end="9545" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_001166038.1" fixed_id="p1">
+              <coordinates coord_system="LRG_157" start="5185" end="7809" strand="1" />
+              <long_name>myeloid differentiation primary response protein MyD88 isoform 1</long_name>
+              <long_name>myeloid differentiation primary response protein MyD88</long_name>
+              <long_name>myeloid differentiation primary response gene (88)</long_name>
+              <db_xref source="CCDS" accession="CCDS54565.1" />
+              <db_xref source="GeneID" accession="4615" />
+              <db_xref source="GI" accession="289546503" />
+            </protein_product>
+          </transcript>
+          <transcript source="RefSeq" accession="NM_002468.4">
+            <coordinates coord_system="LRG_157" start="5001" end="9545" strand="1" />
+            <long_name>myeloid differentiation primary response 88, transcript variant 2</long_name>
+            <db_xref source="GeneID" accession="4615" />
+            <db_xref source="GI" accession="197276653" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_157" start="5001" end="5551" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_157" start="6387" end="6521" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_157" start="6911" end="7091" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_157" start="7280" end="7371" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_157" start="7655" end="9545" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_002459.2">
+              <coordinates coord_system="LRG_157" start="5185" end="7809" strand="1" />
+              <long_name>myeloid differentiation primary response protein MyD88 isoform 2</long_name>
+              <db_xref source="CCDS" accession="CCDS2674.2" />
+              <db_xref source="GeneID" accession="4615" />
+              <db_xref source="GI" accession="197276654" />
+            </protein_product>
+          </transcript>
+          <transcript source="RefSeq" accession="NM_001172569.1">
+            <coordinates coord_system="LRG_157" start="5001" end="9545" strand="1" />
+            <long_name>myeloid differentiation primary response 88, transcript variant 4</long_name>
+            <db_xref source="GeneID" accession="4615" />
+            <db_xref source="GI" accession="289546652" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_157" start="5001" end="5551" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_157" start="6387" end="6521" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_157" start="7280" end="7371" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_157" start="7655" end="9545" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_001166040.1">
+              <coordinates coord_system="LRG_157" start="5185" end="7675" strand="1" />
+              <long_name>myeloid differentiation primary response protein MyD88 isoform 4</long_name>
+              <db_xref source="CCDS" accession="CCDS54566.1" />
+              <db_xref source="GeneID" accession="4615" />
+              <db_xref source="GI" accession="289546653" />
+            </protein_product>
+          </transcript>
+          <transcript source="RefSeq" accession="NM_001172568.1">
+            <coordinates coord_system="LRG_157" start="5001" end="9545" strand="1" />
+            <long_name>myeloid differentiation primary response 88, transcript variant 3</long_name>
+            <db_xref source="GeneID" accession="4615" />
+            <db_xref source="GI" accession="289546580" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_157" start="5001" end="5551" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_157" start="6911" end="7091" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_157" start="7280" end="7371" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_157" start="7655" end="9545" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_001166039.1">
+              <coordinates coord_system="LRG_157" start="5185" end="7809" strand="1" />
+              <long_name>myeloid differentiation primary response protein MyD88 isoform 3</long_name>
+              <db_xref source="CCDS" accession="CCDS54567.1" />
+              <db_xref source="GeneID" accession="4615" />
+              <db_xref source="GI" accession="289546581" />
+            </protein_product>
+          </transcript>
+          <transcript source="RefSeq" accession="NM_001172566.1">
+            <coordinates coord_system="LRG_157" start="5001" end="9545" strand="1" />
+            <long_name>myeloid differentiation primary response 88, transcript variant 5</long_name>
+            <db_xref source="GeneID" accession="4615" />
+            <db_xref source="GI" accession="289546499" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_157" start="5001" end="5551" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_157" start="7280" end="7371" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_157" start="7655" end="9545" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_001166037.1">
+              <coordinates coord_system="LRG_157" start="5185" end="7675" strand="1" />
+              <long_name>myeloid differentiation primary response protein MyD88 isoform 5</long_name>
+              <db_xref source="CCDS" accession="CCDS54568.1" />
+              <db_xref source="GeneID" accession="4615" />
+              <db_xref source="GI" accession="289546500" />
+            </protein_product>
+          </transcript>
+        </gene>
+      </features>
+    </annotation_set>
+    <annotation_set type="ensembl">
+      <source>
+        <name>Ensembl</name>
+        <url>http://www.ensembl.org/</url>
+        <contact>
+          <name>Ensembl</name>
+          <address>European Bioinformatics Institute</address>
+          <email>helpdesk@ensembl.org</email>
+        </contact>
+      </source>
+      <comment>Annotation is based on Ensembl release 80 (GRCh38  primary assembly)</comment>
+      <modification_date>2015-06-22</modification_date>
+      <mapping coord_system="ENST00000396334.6" other_name="ENST00000396334.6" other_id="ENST00000396334.6" other_start="1" other_end="2850" type="transcript">
+        <mapping_span lrg_start="5001" lrg_end="5551" other_start="1" other_end="551" strand="1" />
+        <mapping_span lrg_start="6387" lrg_end="6521" other_start="552" other_end="686" strand="1" />
+        <mapping_span lrg_start="6911" lrg_end="7091" other_start="687" other_end="867" strand="1" />
+        <mapping_span lrg_start="7280" lrg_end="7371" other_start="868" other_end="959" strand="1" />
+        <mapping_span lrg_start="7655" lrg_end="9545" other_start="960" other_end="2850" strand="1" />
+      </mapping>
+      <mapping coord_system="ENST00000416282.2" other_name="ENST00000416282.2" other_id="ENST00000416282.2" other_start="1" other_end="2730" type="transcript">
+        <mapping_span lrg_start="5174" lrg_end="5551" other_start="1" other_end="378" strand="1" />
+        <mapping_span lrg_start="6911" lrg_end="7371" other_start="379" other_end="839" strand="1" />
+        <mapping_span lrg_start="7655" lrg_end="9545" other_start="840" other_end="2730" strand="1" />
+      </mapping>
+      <mapping coord_system="ENST00000417037.5" other_name="ENST00000417037.5" other_id="ENST00000417037.5" other_start="1" other_end="2871" type="transcript">
+        <mapping_span lrg_start="5001" lrg_end="5551" other_start="1" other_end="551" strand="1" />
+        <mapping_span lrg_start="6387" lrg_end="6521" other_start="552" other_end="686" strand="1" />
+        <mapping_span lrg_start="6911" lrg_end="7115" other_start="687" other_end="891" strand="1" />
+        <mapping_span lrg_start="7280" lrg_end="7371" other_start="892" other_end="983" strand="1" />
+        <mapping_span lrg_start="7655" lrg_end="9542" other_start="984" other_end="2871" strand="1" />
+      </mapping>
+      <mapping coord_system="ENST00000421516.1" other_name="ENST00000421516.1" other_id="ENST00000421516.1" other_start="1" other_end="2687" type="transcript">
+        <mapping_span lrg_start="5188" lrg_end="5551" other_start="1" other_end="364" strand="1" />
+        <mapping_span lrg_start="6387" lrg_end="6521" other_start="365" other_end="499" strand="1" />
+        <mapping_span lrg_start="6911" lrg_end="7115" other_start="500" other_end="704" strand="1" />
+        <mapping_span lrg_start="7280" lrg_end="7371" other_start="705" other_end="796" strand="1" />
+        <mapping_span lrg_start="7655" lrg_end="9545" other_start="797" other_end="2687" strand="1" />
+      </mapping>
+      <mapping coord_system="ENST00000424893.4" other_name="ENST00000424893.4" other_id="ENST00000424893.4" other_start="1" other_end="1279" type="transcript">
+        <mapping_span lrg_start="5075" lrg_end="5551" other_start="1" other_end="477" strand="1" />
+        <mapping_span lrg_start="6911" lrg_end="7091" other_start="478" other_end="658" strand="1" />
+        <mapping_span lrg_start="7280" lrg_end="7371" other_start="659" other_end="750" strand="1" />
+        <mapping_span lrg_start="7655" lrg_end="8183" other_start="751" other_end="1279" strand="1" />
+      </mapping>
+      <mapping coord_system="ENST00000443433.5" other_name="ENST00000443433.5" other_id="ENST00000443433.5" other_start="1" other_end="914" type="transcript">
+        <mapping_span lrg_start="5184" lrg_end="5551" other_start="1" other_end="368" strand="1" />
+        <mapping_span lrg_start="6387" lrg_end="6521" other_start="369" other_end="503" strand="1" />
+        <mapping_span lrg_start="7280" lrg_end="7371" other_start="504" other_end="595" strand="1" />
+        <mapping_span lrg_start="7655" lrg_end="7973" other_start="596" other_end="914" strand="1" />
+      </mapping>
+      <mapping coord_system="ENST00000460295.1" other_name="ENST00000460295.1" other_id="ENST00000460295.1" other_start="1" other_end="1088" type="transcript">
+        <mapping_span lrg_start="5180" lrg_end="5551" other_start="1" other_end="372" strand="1" />
+        <mapping_span lrg_start="6387" lrg_end="7102" other_start="373" other_end="1088" strand="1" />
+      </mapping>
+      <mapping coord_system="ENST00000463956.1" other_name="ENST00000463956.1" other_id="ENST00000463956.1" other_start="1" other_end="583" type="transcript">
+        <mapping_span lrg_start="6263" lrg_end="6303" other_start="1" other_end="41" strand="1" />
+        <mapping_span lrg_start="6387" lrg_end="6521" other_start="42" other_end="176" strand="1" />
+        <mapping_span lrg_start="6911" lrg_end="7091" other_start="177" other_end="357" strand="1" />
+        <mapping_span lrg_start="7280" lrg_end="7371" other_start="358" other_end="449" strand="1" />
+        <mapping_span lrg_start="7655" lrg_end="7788" other_start="450" other_end="583" strand="1" />
+      </mapping>
+      <mapping coord_system="ENST00000481122.4" other_name="ENST00000481122.4" other_id="ENST00000481122.4" other_start="1" other_end="712" type="transcript">
+        <mapping_span lrg_start="5675" lrg_end="5795" other_start="1" other_end="121" strand="1" />
+        <mapping_span lrg_start="6387" lrg_end="6521" other_start="122" other_end="256" strand="1" />
+        <mapping_span lrg_start="6911" lrg_end="7091" other_start="257" other_end="437" strand="1" />
+        <mapping_span lrg_start="7280" lrg_end="7371" other_start="438" other_end="529" strand="1" />
+        <mapping_span lrg_start="7655" lrg_end="7837" other_start="530" other_end="712" strand="1" />
+      </mapping>
+      <mapping coord_system="ENST00000484513.1" other_name="ENST00000484513.1" other_id="ENST00000484513.1" other_start="1" other_end="3314" type="transcript">
+        <mapping_span lrg_start="5946" lrg_end="7371" other_start="1" other_end="1426" strand="1" />
+        <mapping_span lrg_start="7655" lrg_end="9542" other_start="1427" other_end="3314" strand="1" />
+      </mapping>
+      <mapping coord_system="ENST00000495303.4" other_name="ENST00000495303.4" other_id="ENST00000495303.4" other_start="1" other_end="976" type="transcript">
+        <mapping_span lrg_start="5180" lrg_end="5551" other_start="1" other_end="372" strand="1" />
+        <mapping_span lrg_start="7280" lrg_end="7371" other_start="373" other_end="464" strand="1" />
+        <mapping_span lrg_start="7655" lrg_end="8166" other_start="465" other_end="976" strand="1" />
+      </mapping>
+      <features>
+        <gene source="Ensembl" accession="ENSG00000060971.16">
+          <symbol source="HGNC" name="ACAA1" />
+          <coordinates coord_system="LRG_157" start="1" end="3765" strand="-1" mapped_from="GRCh38" />
+          <partial>3-prime</partial>
+          <long_name>acetyl-CoA acyltransferase 1 (protein_coding)</long_name>
+          <db_xref source="GeneID" accession="30">
+            <synonym>ACAA</synonym>
+            <synonym>PTHIO</synonym>
+            <synonym>THIO</synonym>
+          </db_xref>
+          <db_xref source="MIM" accession="604054" />
+          <db_xref source="HGNC" accession="82" />
+          <db_xref source="Ensembl" accession="ENSG00000060971" />
+          <transcript source="Ensembl" accession="ENST00000333167.11">
+            <coordinates coord_system="LRG_157" start="1" end="3731" strand="-1" mapped_from="GRCh38" />
+            <partial>3-prime</partial>
+            <long_name>ACAA1-001 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS2673.1" />
+            <db_xref source="RefSeq" accession="NM_001607.3" />
+            <exon source="Ensembl" accession="ENSE00001927555">
+              <coordinates coord_system="LRG_157" start="3388" end="3731" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003678471">
+              <coordinates coord_system="LRG_157" start="3115" end="3208" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003569978">
+              <coordinates coord_system="LRG_157" start="475" end="532" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000333664.8">
+              <coordinates coord_system="LRG_157" start="1" end="3558" strand="-1" mapped_from="GRCh38" />
+              <partial>3-prime</partial>
+              <long_name>3-ketoacyl-CoA thiolase, peroxisomal isoform a</long_name>
+              <db_xref source="RefSeq" accession="NP_001598.1" />
+              <db_xref source="UniProtKB" accession="P09110">
+                <synonym>G5E935</synonym>
+                <synonym>Q96CA6</synonym>
+              </db_xref>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000301810.10">
+            <coordinates coord_system="LRG_157" start="1" end="3765" strand="-1" mapped_from="GRCh38" />
+            <partial>3-prime</partial>
+            <long_name>ACAA1-002 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS46794.1" />
+            <db_xref source="RefSeq" accession="NM_001130410.1" />
+            <exon source="Ensembl" accession="ENSE00001758494">
+              <coordinates coord_system="LRG_157" start="3388" end="3765" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003678471">
+              <coordinates coord_system="LRG_157" start="3115" end="3208" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003569978">
+              <coordinates coord_system="LRG_157" start="475" end="532" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000301810.7">
+              <coordinates coord_system="LRG_157" start="1" end="3558" strand="-1" mapped_from="GRCh38" />
+              <partial>3-prime</partial>
+              <long_name>3-ketoacyl-CoA thiolase, peroxisomal isoform b</long_name>
+              <db_xref source="RefSeq" accession="NP_001123882.1" />
+              <db_xref source="UniProtKB" accession="P09110">
+                <synonym>G5E935</synonym>
+                <synonym>Q96CA6</synonym>
+              </db_xref>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000411549.4">
+            <coordinates coord_system="LRG_157" start="1" end="3765" strand="-1" mapped_from="GRCh38" />
+            <partial>3-prime</partial>
+            <long_name>ACAA1-003 (nonsense_mediated_decay)</long_name>
+            <exon source="Ensembl" accession="ENSE00001758494">
+              <coordinates coord_system="LRG_157" start="3388" end="3765" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003678471">
+              <coordinates coord_system="LRG_157" start="3115" end="3208" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003569978">
+              <coordinates coord_system="LRG_157" start="475" end="532" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000414021.1">
+              <coordinates coord_system="LRG_157" start="1" end="3558" strand="-1" mapped_from="GRCh38" />
+              <partial>3-prime</partial>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000480865.4">
+            <coordinates coord_system="LRG_157" start="1" end="105" strand="-1" mapped_from="GRCh38" />
+            <partial>3-prime</partial>
+            <long_name>ACAA1-005 (processed_transcript)</long_name>
+            <exon source="Ensembl" accession="ENSE00001893441">
+              <coordinates coord_system="LRG_157" start="14" end="105" strand="-1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000450296.4">
+            <coordinates coord_system="LRG_157" start="1" end="3648" strand="-1" mapped_from="GRCh38" />
+            <partial>3-prime</partial>
+            <long_name>ACAA1-007 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00001411127">
+              <coordinates coord_system="LRG_157" start="3388" end="3648" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003678471">
+              <coordinates coord_system="LRG_157" start="3115" end="3208" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003569978">
+              <coordinates coord_system="LRG_157" start="475" end="532" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000395183.1">
+              <coordinates coord_system="LRG_157" start="1" end="3558" strand="-1" mapped_from="GRCh38" />
+              <partial>3-prime</partial>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000421218.1">
+            <coordinates coord_system="LRG_157" start="1" end="3147" strand="-1" mapped_from="GRCh38" />
+            <partial>3-prime</partial>
+            <long_name>ACAA1-014 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00001693441">
+              <coordinates coord_system="LRG_157" start="3115" end="3147" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003569978">
+              <coordinates coord_system="LRG_157" start="475" end="532" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000398172.1" codon_start="2">
+              <coordinates coord_system="LRG_157" start="1" end="3147" strand="-1" mapped_from="GRCh38" />
+              <partial>3-prime</partial>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000440176.4">
+            <coordinates coord_system="LRG_157" start="1" end="3619" strand="-1" mapped_from="GRCh38" />
+            <partial>3-prime</partial>
+            <long_name>ACAA1-004 (nonsense_mediated_decay)</long_name>
+            <exon source="Ensembl" accession="ENSE00001677216">
+              <coordinates coord_system="LRG_157" start="3388" end="3619" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003678471">
+              <coordinates coord_system="LRG_157" start="3115" end="3208" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003528476">
+              <coordinates coord_system="LRG_157" start="1032" end="1075" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003549757">
+              <coordinates coord_system="LRG_157" start="475" end="532" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000389226.1">
+              <coordinates coord_system="LRG_157" start="476" end="3558" strand="-1" mapped_from="GRCh38" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000423611.4">
+            <coordinates coord_system="LRG_157" start="1" end="3660" strand="-1" mapped_from="GRCh38" />
+            <partial>3-prime</partial>
+            <long_name>ACAA1-009 (nonsense_mediated_decay)</long_name>
+            <exon source="Ensembl" accession="ENSE00001780517">
+              <coordinates coord_system="LRG_157" start="3388" end="3660" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003678471">
+              <coordinates coord_system="LRG_157" start="3115" end="3208" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000396485.1">
+              <coordinates coord_system="LRG_157" start="1" end="3558" strand="-1" mapped_from="GRCh38" />
+              <partial>3-prime</partial>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000447223.4">
+            <coordinates coord_system="LRG_157" start="1" end="3595" strand="-1" mapped_from="GRCh38" />
+            <partial>3-prime</partial>
+            <long_name>ACAA1-013 (nonsense_mediated_decay)</long_name>
+            <exon source="Ensembl" accession="ENSE00001686961">
+              <coordinates coord_system="LRG_157" start="3388" end="3595" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003678471">
+              <coordinates coord_system="LRG_157" start="3115" end="3208" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003528476">
+              <coordinates coord_system="LRG_157" start="1032" end="1075" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003549757">
+              <coordinates coord_system="LRG_157" start="475" end="532" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000405785.1">
+              <coordinates coord_system="LRG_157" start="476" end="3558" strand="-1" mapped_from="GRCh38" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000418880.1">
+            <coordinates coord_system="LRG_157" start="1" end="3615" strand="-1" mapped_from="GRCh38" />
+            <partial>3-prime</partial>
+            <long_name>ACAA1-017 (nonsense_mediated_decay)</long_name>
+            <exon source="Ensembl" accession="ENSE00001755284">
+              <coordinates coord_system="LRG_157" start="3388" end="3615" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003678471">
+              <coordinates coord_system="LRG_157" start="3115" end="3208" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000403124.1">
+              <coordinates coord_system="LRG_157" start="1" end="3558" strand="-1" mapped_from="GRCh38" />
+              <partial>3-prime</partial>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000465181.1">
+            <coordinates coord_system="LRG_157" start="1" end="990" strand="-1" mapped_from="GRCh38" />
+            <partial>3-prime</partial>
+            <long_name>ACAA1-015 (retained_intron)</long_name>
+            <exon source="Ensembl" accession="ENSE00001887649">
+              <coordinates coord_system="LRG_157" start="475" end="990" strand="-1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000627515.1">
+            <coordinates coord_system="LRG_157" start="1" end="3765" strand="-1" mapped_from="GRCh38" />
+            <partial>3-prime</partial>
+            <long_name>ACAA1-202 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00001758494">
+              <coordinates coord_system="LRG_157" start="3388" end="3765" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003678471">
+              <coordinates coord_system="LRG_157" start="3115" end="3208" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003528476">
+              <coordinates coord_system="LRG_157" start="1032" end="1075" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003549757">
+              <coordinates coord_system="LRG_157" start="475" end="532" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000486920.1">
+              <coordinates coord_system="LRG_157" start="476" end="3558" strand="-1" mapped_from="GRCh38" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000625927.1">
+            <coordinates coord_system="LRG_157" start="1" end="3765" strand="-1" mapped_from="GRCh38" />
+            <partial>3-prime</partial>
+            <long_name>ACAA1-201 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00001758494">
+              <coordinates coord_system="LRG_157" start="3388" end="3765" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003678471">
+              <coordinates coord_system="LRG_157" start="3115" end="3208" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000486456.1">
+              <coordinates coord_system="LRG_157" start="1" end="3558" strand="-1" mapped_from="GRCh38" />
+              <partial>3-prime</partial>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000484284.4">
+            <coordinates coord_system="LRG_157" start="303" end="3643" strand="-1" mapped_from="GRCh38" />
+            <long_name>ACAA1-011 (retained_intron)</long_name>
+            <exon source="Ensembl" accession="ENSE00001918741">
+              <coordinates coord_system="LRG_157" start="3388" end="3643" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003657722">
+              <coordinates coord_system="LRG_157" start="3115" end="3208" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001827274">
+              <coordinates coord_system="LRG_157" start="303" end="532" strand="-1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000460424.4">
+            <coordinates coord_system="LRG_157" start="396" end="3650" strand="-1" mapped_from="GRCh38" />
+            <long_name>ACAA1-010 (retained_intron)</long_name>
+            <exon source="Ensembl" accession="ENSE00001835063">
+              <coordinates coord_system="LRG_157" start="3388" end="3650" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003657722">
+              <coordinates coord_system="LRG_157" start="3115" end="3208" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003543439">
+              <coordinates coord_system="LRG_157" start="1032" end="1075" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001915261">
+              <coordinates coord_system="LRG_157" start="396" end="532" strand="-1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000489559.1">
+            <coordinates coord_system="LRG_157" start="919" end="3604" strand="-1" mapped_from="GRCh38" />
+            <long_name>ACAA1-012 (retained_intron)</long_name>
+            <exon source="Ensembl" accession="ENSE00001826922">
+              <coordinates coord_system="LRG_157" start="3388" end="3604" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003657722">
+              <coordinates coord_system="LRG_157" start="3115" end="3208" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001894744">
+              <coordinates coord_system="LRG_157" start="1707" end="1817" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001893220">
+              <coordinates coord_system="LRG_157" start="919" end="1075" strand="-1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+        </gene>
+        <gene source="Ensembl" accession="ENSG00000172936.11">
+          <symbol source="HGNC" name="MYD88" />
+          <coordinates coord_system="LRG_157" start="5001" end="9545" strand="1" mapped_from="GRCh38" />
+          <long_name>myeloid differentiation primary response 88 (protein_coding)</long_name>
+          <db_xref source="GeneID" accession="4615">
+            <synonym>MYD88D</synonym>
+          </db_xref>
+          <db_xref source="MIM" accession="602170" />
+          <db_xref source="HGNC" accession="7562" />
+          <db_xref source="Ensembl" accession="ENSG00000172936" />
+          <transcript source="Ensembl" accession="ENST00000396334.6">
+            <coordinates coord_system="LRG_157" start="5001" end="9545" strand="1" mapped_from="GRCh38" />
+            <long_name>MYD88-001 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS2674.2" />
+            <db_xref source="RefSeq" accession="NM_002468.4" />
+            <exon source="Ensembl" accession="ENSE00001790386">
+              <coordinates coord_system="LRG_157" start="5001" end="5551" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003582265">
+              <coordinates coord_system="LRG_157" start="6387" end="6521" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003478577">
+              <coordinates coord_system="LRG_157" start="6911" end="7091" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003552693">
+              <coordinates coord_system="LRG_157" start="7280" end="7371" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003520220">
+              <coordinates coord_system="LRG_157" start="7655" end="9545" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000379625.3">
+              <coordinates coord_system="LRG_157" start="5185" end="7809" strand="1" mapped_from="GRCh38" />
+              <long_name>myeloid differentiation primary response protein MyD88 isoform 2</long_name>
+              <db_xref source="RefSeq" accession="NP_002459.2" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000417037.5">
+            <coordinates coord_system="LRG_157" start="5001" end="9542" strand="1" mapped_from="GRCh38" />
+            <long_name>MYD88-201 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS54565.1" />
+            <db_xref source="RefSeq" accession="NM_001172567.1" />
+            <exon source="Ensembl" accession="ENSE00001790386">
+              <coordinates coord_system="LRG_157" start="5001" end="5551" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003582265">
+              <coordinates coord_system="LRG_157" start="6387" end="6521" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001744479">
+              <coordinates coord_system="LRG_157" start="6911" end="7115" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003552693">
+              <coordinates coord_system="LRG_157" start="7280" end="7371" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003619131">
+              <coordinates coord_system="LRG_157" start="7655" end="9542" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000401399.2">
+              <coordinates coord_system="LRG_157" start="5185" end="7809" strand="1" mapped_from="GRCh38" />
+              <long_name>myeloid differentiation primary response protein MyD88 isoform 1</long_name>
+              <db_xref source="RefSeq" accession="NP_001166038.1" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000424893.4">
+            <coordinates coord_system="LRG_157" start="5075" end="8183" strand="1" mapped_from="GRCh38" />
+            <long_name>MYD88-011 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS54567.1" />
+            <db_xref source="RefSeq" accession="NM_001172568.1" />
+            <exon source="Ensembl" accession="ENSE00001724052">
+              <coordinates coord_system="LRG_157" start="5075" end="5551" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003478577">
+              <coordinates coord_system="LRG_157" start="6911" end="7091" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003552693">
+              <coordinates coord_system="LRG_157" start="7280" end="7371" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001795813">
+              <coordinates coord_system="LRG_157" start="7655" end="8183" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000389979.1">
+              <coordinates coord_system="LRG_157" start="5185" end="7809" strand="1" mapped_from="GRCh38" />
+              <long_name>myeloid differentiation primary response protein MyD88 isoform 3</long_name>
+              <db_xref source="RefSeq" accession="NP_001166039.1" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000416282.2">
+            <coordinates coord_system="LRG_157" start="5174" end="9545" strand="1" mapped_from="GRCh38" />
+            <long_name>MYD88-002 (retained_intron)</long_name>
+            <exon source="Ensembl" accession="ENSE00001873526">
+              <coordinates coord_system="LRG_157" start="5174" end="5551" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001893141">
+              <coordinates coord_system="LRG_157" start="6911" end="7371" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003671656">
+              <coordinates coord_system="LRG_157" start="7655" end="9545" strand="1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000460295.1">
+            <coordinates coord_system="LRG_157" start="5180" end="7102" strand="1" mapped_from="GRCh38" />
+            <long_name>MYD88-003 (retained_intron)</long_name>
+            <exon source="Ensembl" accession="ENSE00003655700">
+              <coordinates coord_system="LRG_157" start="5180" end="5551" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001844091">
+              <coordinates coord_system="LRG_157" start="6387" end="7102" strand="1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000495303.4">
+            <coordinates coord_system="LRG_157" start="5180" end="8166" strand="1" mapped_from="GRCh38" />
+            <long_name>MYD88-008 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS54568.1" />
+            <db_xref source="RefSeq" accession="NM_001172566.1" />
+            <exon source="Ensembl" accession="ENSE00003525329">
+              <coordinates coord_system="LRG_157" start="5180" end="5551" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003579513">
+              <coordinates coord_system="LRG_157" start="7280" end="7371" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001837525">
+              <coordinates coord_system="LRG_157" start="7655" end="8166" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000417848.1">
+              <coordinates coord_system="LRG_157" start="5185" end="7675" strand="1" mapped_from="GRCh38" />
+              <long_name>myeloid differentiation primary response protein MyD88 isoform 5</long_name>
+              <db_xref source="RefSeq" accession="NP_001166037.1" />
+              <db_xref source="UniProtKB" accession="Q99836">
+                <synonym>B4DKH8</synonym>
+                <synonym>B4DKU4</synonym>
+                <synonym>B4DQ60</synonym>
+                <synonym>B4DQ72</synonym>
+                <synonym>J3KPU4</synonym>
+                <synonym>J3KQ87</synonym>
+                <synonym>J3KQJ6</synonym>
+                <synonym>P78397</synonym>
+                <synonym>Q53XS7</synonym>
+              </db_xref>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000443433.5">
+            <coordinates coord_system="LRG_157" start="5184" end="7973" strand="1" mapped_from="GRCh38" />
+            <long_name>MYD88-009 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS54566.1" />
+            <db_xref source="RefSeq" accession="NM_001172569.1" />
+            <exon source="Ensembl" accession="ENSE00001841576">
+              <coordinates coord_system="LRG_157" start="5184" end="5551" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003582265">
+              <coordinates coord_system="LRG_157" start="6387" end="6521" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003579513">
+              <coordinates coord_system="LRG_157" start="7280" end="7371" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001957184">
+              <coordinates coord_system="LRG_157" start="7655" end="7973" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000390565.2">
+              <coordinates coord_system="LRG_157" start="5185" end="7675" strand="1" mapped_from="GRCh38" />
+              <long_name>myeloid differentiation primary response protein MyD88 isoform 4</long_name>
+              <db_xref source="RefSeq" accession="NP_001166040.1" />
+              <db_xref source="UniProtKB" accession="Q99836">
+                <synonym>B4DKH8</synonym>
+                <synonym>B4DKU4</synonym>
+                <synonym>B4DQ60</synonym>
+                <synonym>B4DQ72</synonym>
+                <synonym>J3KPU4</synonym>
+                <synonym>J3KQ87</synonym>
+                <synonym>J3KQJ6</synonym>
+                <synonym>P78397</synonym>
+                <synonym>Q53XS7</synonym>
+              </db_xref>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000421516.1">
+            <coordinates coord_system="LRG_157" start="5188" end="9545" strand="1" mapped_from="GRCh38" />
+            <long_name>MYD88-006 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00001751513">
+              <coordinates coord_system="LRG_157" start="5188" end="5551" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003582265">
+              <coordinates coord_system="LRG_157" start="6387" end="6521" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001744479">
+              <coordinates coord_system="LRG_157" start="6911" end="7115" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003552693">
+              <coordinates coord_system="LRG_157" start="7280" end="7371" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003520220">
+              <coordinates coord_system="LRG_157" start="7655" end="9545" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000391753.1">
+              <coordinates coord_system="LRG_157" start="5188" end="7809" strand="1" mapped_from="GRCh38" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000481122.4">
+            <coordinates coord_system="LRG_157" start="5675" end="7837" strand="1" mapped_from="GRCh38" />
+            <long_name>MYD88-013 (processed_transcript)</long_name>
+            <exon source="Ensembl" accession="ENSE00001893138">
+              <coordinates coord_system="LRG_157" start="5675" end="5795" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003686764">
+              <coordinates coord_system="LRG_157" start="6387" end="6521" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003647006">
+              <coordinates coord_system="LRG_157" start="6911" end="7091" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003671919">
+              <coordinates coord_system="LRG_157" start="7280" end="7371" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001944982">
+              <coordinates coord_system="LRG_157" start="7655" end="7837" strand="1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000484513.1">
+            <coordinates coord_system="LRG_157" start="5946" end="9542" strand="1" mapped_from="GRCh38" />
+            <long_name>MYD88-007 (retained_intron)</long_name>
+            <exon source="Ensembl" accession="ENSE00001918691">
+              <coordinates coord_system="LRG_157" start="5946" end="7371" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003474498">
+              <coordinates coord_system="LRG_157" start="7655" end="9542" strand="1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000463956.1">
+            <coordinates coord_system="LRG_157" start="6263" end="7788" strand="1" mapped_from="GRCh38" />
+            <long_name>MYD88-012 (processed_transcript)</long_name>
+            <exon source="Ensembl" accession="ENSE00001848173">
+              <coordinates coord_system="LRG_157" start="6263" end="6303" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003686764">
+              <coordinates coord_system="LRG_157" start="6387" end="6521" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003647006">
+              <coordinates coord_system="LRG_157" start="6911" end="7091" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003671919">
+              <coordinates coord_system="LRG_157" start="7280" end="7371" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001839207">
+              <coordinates coord_system="LRG_157" start="7655" end="7788" strand="1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+        </gene>
+      </features>
+    </annotation_set>
+    <annotation_set type="lsdb">
+      <source>
+        <name>List of locus specific databases for MYD88</name>
+        <url>http://grenada.lumc.nl/LSDB_list/lsdbs/MYD88</url>
+      </source>
+      <modification_date>2015-06-22</modification_date>
+    </annotation_set>
+  </updatable_annotation>
+</lrg>

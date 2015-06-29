@@ -1,0 +1,582 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="application/xml" href="lrg2html.xsl"?>
+
+<lrg schema_version="1.9">
+  <fixed_annotation>
+    <id>LRG_99</id>
+    <hgnc_id>9832</hgnc_id>
+    <sequence_source>NG_007573.1</sequence_source>
+    <organism taxon="9606">Homo sapiens</organism>
+    <source>
+      <name>RAG2base: Mutation registry for autosomal recessive RAG2 deficiency</name>
+      <url>http://structure.bmc.lu.se/idbase/RAG2base/</url>
+      <contact>
+        <name>Anna Villa</name>
+        <address>University of Tampere, Tampere, Finland</address>
+      </contact>
+      <contact>
+        <name>Jouni Valiaho</name>
+        <address>University of Tampere, Finland</address>
+        <email>Jouni.Valiaho@uta.fi</email>
+      </contact>
+      <contact>
+        <name>Mauno Vihinen</name>
+        <address>University of Tampere, Finland</address>
+        <email>Mauno.Vihinen@med.lu.se</email>
+      </contact>
+    </source>
+    <mol_type>dna</mol_type>
+    <creation_date>2012-11-01</creation_date>
+    <sequence>GTTCATTCACCCAAGCTACTTTAATGAGGTTTCTTGAGGCTATCATTCATTAAGCCCTTCTGTTCACCAGCAGATTGTATAATACCCATTTTATTTCCCCAAGTATACTCTTCCTCCTAGCTGTTTAAGTCAATCCAGAAATGTCTGCATTGACTCACTGAGGCAGGTCACCTAAGTATTAGATTGTTTTCAATTACACAGTTATTAATTCTTTTAAACAAAGAAAAATGCAAACCAATTAAGCATTTGAACTCTCCCCACTCACTCCCTATCATTTTTTAAAAACAGATTAACTGTGTACATGGAATCTGTAGGATATACTCATAAGACAAATCTCAGGAAATCCATTGTTTTTGAAATCAAAAAGAATGCCTTTTCACTACCATTTTTGCTTGTTTTTTTTTTAATCATTTAGAGTTGTGTGGAATTACAAGTAAACACCCTATCTTCACCCCCTAACAAAACTCCTATAAGCACGCTAACTGACCTCTAGACATTTATCAAGAAAAATTTGCCATACCCATATTTCAGCCATGTCCAAAACTGATCTCCTAGCCTCAGAAATGCTATCAACTATATCAATGAGTTATGGGTAGTAACGGCGAGTAATTCAGTGAACACTTTTTTCAAGACTCCTGATAAAACTGTGAATCCATAAAGCAGTAAGGTTTCTGAGTCAACTTTACAGCTCTATAATCACACAATATTTCAATCATAAAAGATTTATTAGCTCAAACCTAATCCCACCCTCATATAAGATACAATGTCCCACTAAAGGTTACTTTATACTGCATACTATGACACAAAGGCATCCACTCTTAATTAAAGTTGTCCCCTTCTCTCCAACTTCCTGAGCCTGTTAGCCACCTGCACAATGCACAGGACTTTAAACAATACCAAGAAGCCTACTCTAAAGCAAAACCCACACAGCTGGTTAGGAGCAGGTGTAGACCAACTGAACTAAATCACCTAGGAGTTCATTTCTAAGTGTTTCAAAATACCAGATCTTGCAAATAAAATCAACCTCTATTTCACTTGGCATTCTCTTAAAAGAAGTAAGATTTTAGATTTGTTTCCCAGCTATTTTGAATTATAAATTCCTAAGACTGTGGAATAATAAATGGGCTATAAGAGGTAATACAATGCTTCCCCAGTTTCCAATTTCACTCAATACTTTATTTGCAATTTTGCCTCAATGTACAAAACATAACACACACATGCACATATATATATAATTTCTTTTTGCCAATATGGTTTCTATACTCAAAGATAGAAATTAAGAATCAGGCCAGGTGCACAGTTCGTGCCTGTAACCCCAGCACTTGGGAAGGACAACATGGGGGATCACTTTAGCCCAGTAGTTCAGGACCACCTGGCCAGTATAGTGAGACCTCATCTCTACAAAAAATTAAATCATTAGCTGAGCATGATGGTGTCCACCTGTGGTCCCAGCTACTTGAGAGACTGAGGTGGGAGGATCACTTGGGCCCAGAAGGTGGTGGCTGAGTTGAGCCAAGATTATGCCACTGCACTCCAGCCTGGGCAACAGAGCAAGACCCTGTCTCCAAAAAAATCAATAAATAAATAAAATAAAAAATAAAAAGAATCACAAACTCCTAACTCCTTTCCTTCTCTAAAAATAAAGTATTTCAGTAAATTTTTTCTAGCAAGAACATTTTTCTAGCAAAACTCCTCTGAAATGTTTTCTCTATTTTGTTTTCAAGAAAAGAATCCACCTTAAATCAGAGATCATGAAATTTTTTAGGACGATACCAGTCATTCTGGTCAGGTGGCCATATCTAACTAATTGCTTTAAATAAAAAATGTCAAGTCACTTGTCATGTTCTTCTCTTGACAATACATCATACTAACTGTAAATTGCTTCCTTCTATACATTTCCTCTTCCTTCCTCTTTTCTTTGTCAGTTTCAGTTGTGGCTCCTATTGTGGAATTCATTCAACGAGCCAAACATCTACCTTTCCAACACAATTTATCTTATTTCCTCAAAAATCTGCCACTTAGTAAAACACTAATCATTGTCTATGCTTATCCTAATGCTATGAAAAGTTGCCACTGACCTTATTGCAAACACTTGTTAACTCACTGAGAGACAATGAAGTTTAAGCTGTTTCTCCATTTATAAAATGGGGATGGAAACGCTTGAGAGATGCACTACATTTCTTGAAATGCACTGTCATGAGTTCACAGAACAGTCTTTCTCCTCTGCCTCCCTCCAACCCATCATATCCACAGACCACTGCAGCTGTGTTACCCTTGTCAATTTATGTAAACTTTTCTGATCCTGAGTAGTTTGAGTGTAAAAATAAAGGGATGGGGCTTGAGGTTGGCTTCCATCTTCTTTTTCCAATTATGTTTCCTTTTTTGTCCAATTACTAGGCCAGGATATCCCATTACTAAGTTTTTATTTTTCCCATAAGATAAAGGTTGTTTACTCTGTTTTACTCTGCCTCAAGGCTTAAAAATGGGCTGAGCAACTTATAACTGTGATTTCTTAATGAACTTCGAAGAACTTTTAAGAAAAGCTGAATGTGGGAAGAATGTAAGGCATGTTCATCTGCAACCAAAAGTTGCTTCATTCTACTATCATATATGTTCTTTAAGGCAGTAGTTCCCAACCTTTTTCGCACCAGAGACTAGTTTCGTGGAGGACAATTTTTCCATGGACCAGAGTGAGGGGGACAGTTTCAGGATGAAACGATTCCACCTCAGATCATCAGGCATTCGATTCTCATAAGGAACTCACAACCTAGCTCCCTCACATGCACAGCTTACAACAGGGTTCACACTCCAATGAGAATCTAATGCCACATAGCAGATCTGACAGGAGGCAGAGCTCAGGCAGTAAGGCTTGCCGGCCTGCGGCTCACCTCCTGCTGTGAAGCCCTGTTCCTAACAGACTGCTGACCGTACCTGTCCGTGGCTCAGGGATTGGCAACCCCTGCTTTAAGGGCAAGACCTGTGTCTGATTTTTTTTCTAATTCTCCACATGGCTTTGTACATAGTAGATGCTCAATAAATATAGTTTACTATTTTATATTTAGTTTCAATGCTGAGGACTTTTGGAGATCAGGAACCTTGTATGAGATCACTGTAAGTCTAATGCTCTCCTAATGGTATAGCAAGGACTTGGAGTCTTAAAACCCATTTTCAAATGTGCTACTAATTTCTAGTCTTGTCAAGAGACAACTAACCCATTCAGCAACTAATTGTTATGCTAAAAATTGCCTGTTTTTTGATGTTAGTAAAATCCAAAGGCTAAAACACATCTAAATCTATCCATGGTTTCTATTTTTGCATTTCTTATTTTGTATTTACAGTGAAGACATCCAATATATCAATTTTATGACAGTTGTCCTTATGGTTGCTGTAATTTCAAGTATCTTAATCATTATACAACACTTTATATAACACATAAATAGGTTAGGGAAATAACCCAATATCCTTTTGCAGATTAAAAAAATCATCACAGAAGGAACTAGAAGAGATGACGATGCTTTTTTAAGGATGGATCGACATTTCAAATGATGAGAATCAACCAATCAACTGAGCTACATACATCTGTTTAAAAAAAAATCAACCCTGAAAATATACACTAAAATTTTGCAAAAAATTAGTCACTTATGCAAATATATTTAGGTAATATATGTACATCTTCATCATTAGGTAAGATTTACTATGTACATTCTATAGACATTTTAATCCATTAATCCTTACAATAAGGTAGTTATTATTGCCATTTTAGAGATAAGAAAACTGACACTCAAAAAGGTCACAGAACTGAAACTCAAACCCAGATTTGCCTAGCTCTGATCATTACATTTTATCATCTAAGCCATATGGAAACTGATCAAATGACCAACAATAGTGGAAGGTTAGGTAAATTAGGTTGCATTTAGAAATTATGCTACTATTAGAAATTATAGGCTGGGCGAGGTGGCTCACTCCTGTAATCCCAGCACTTTGGGAGGCCAAGGCAGGTGGGTCACCCAAGGTCAGGAGTTTGAGACCAGCCTGGCCAACATGGCAAAACCCCATCTCCACTAAAAATACAAAAATTAGCTGGGTGTGGTGGCGTGTGCCTGTAATCCCAGCTATTCGGGAGGCTGAGGTAGGAGAATCGCTTGAACCTGGGTAGCAGAGGTTGCAGTGAGCCAAGATCGTACCACTGCACTCCAGCCTGGGAGACAGAGCGGGACTCCATCTCAAAAAAAAGAAAATAAAAGAAATTATAAAGGTAGTTTTTGCTATCAAGATCACTATGGAATATTAAACTCTTCCTTGGCTGAACACTTTGCATACATTATCTCATTTAATCTTTTCCCGACAACTTTTTGAAGTAAATATTTCTATTATCCTCATTTCAGAGACAGAGAAACAGAGGCTTAAGGATTAAGATGACTCTACCTGAAAAACAGAGGCTTAAGGATTAAGATGACTCTACTACCTGAAAAATAGCAGAGCTGGCAAAGAAAACCAGGTGAGCTTGACCCCAAAAGCCCATTTTCTTAATCATTACACTGTATTATTACTCAGTAGCTGCCTGATATAAAGTTGGTAGAGGGCCTCGAATAATTACAACTCCTTCCTTCTGAGCCTTGCATTAAAGAAAATGAGACCACAAAAGAGTACCTCAAAGTTAAAATGAATAGCACTGGTATTAGTGGTCTCTGCTTCAGGACAAATACTTTCTCATTTGATTCAAAATAGTGTTTATTTAAACCATAGAAACTATATGTATTTCTTCTGTGTTTTTCTAAAATGTTCTTAATTTTTAAAAATCAAGTTTTGCCCAGATTTCTTTTTATCTGTACAAATAGTGAATTGTGTTGCCATTGTTGCTAGTAGTGAAAGAGTTAAATCCTGAGGGTACACCCTGTTGGGTATCTCCCTCAACCATCTAAAGAAAGAAAAAAAAAGGTCACAGTCAGTTACTCCCATTAGATCAGTGTTCATAAGAACATCTGTAGGCACACATACACACTCTCTTTACAGTCAGCCTTCTGCTTGCCACAGTCATAGTGGGCAGTCAGTGAATCTTCCCCAAGTGCTGACAATTAATACCTGGTTTAGCGGCAAAGATTCAGAGAGGCGTGAGCAGCCCCTCTGGCCTTCAGGTAGGTCTGATACCTTCATTTCTACCAAAGCTAAAAAATGGGAGCCTATGTTAGTAAACTTTAAGGGAATGAAGATGCCACATTTTGGCAGTGTGTTAGTCACAAGTGGATTTGGTGTCTAGATAGGGAAGGGATGAGTAGAATTTGGAAAATGTGGGGCTTTCTGTTCTCTGGCTGCTTCAGGGATTTAATTATTAGGCCTTTAGAGCACTATTATTAATCTTCGTACATAAATCGTTCTCTGGCCTAAGACAGGAAGGAAGACCTAATCCTGGTTTTACTGCCAGCAGAAATAAAATAATATATGCCTCAAACCTGATTAACAGTGCAAGATACTGTTATTCACACATTAAATGCCTGAAGTTACTTACATGAGGTTACTTGCTACTCTGGAGCAATCAAGAAAACATGGCCAGCACGGATCAGCAAGATTTAATGTTTCACAGTACAGTATCTTTCTTTGGAAAAGAAAAAGTCAGTTCAGATATTAGGAACTATAAACCCAGACCTCATACTATGAGTCCTTTCATTATACTCAACTATGCCCTAGCATCAGAGAGAATAAATGAAAATCTCCCTGCTGAAGAATGTTAGCATGGGGTTGGGAAAATTGTATATATTTATTGGTCCTATATTTCTGTCCTTTACAAAGAATCTTTAATGTGTTGACCTTGAAGCCTCCCTCAGCTGAAGAACAGGATCTTATTCTTTTAAATCTGCCTGTTTTTATGTAGCCTATTAAAAGGAAAAGACTTCAGTAGGTTATTTTAGATATAGTATAATCATTTAAAAACTCTTTTTAAAAACCAAGGTGTGACTAATACAGTCATATTGAAACTATGGAAGAGATACAATGGTCTACTCCAGTGAAAAATATATTCAAGTTGATAAAGCAAAATTTCAAAAACCAAATGTGGCAAAATCATGTGAAAACACTTTCAATGTTCCTGTTTATTCTTTAAATGCATACATCATCTGGTTAAAGTGAGTAATCTAAAAATTAATTACTCACACTTGAACCATGTTACAAGAGGAGGTAATTCATCTTAGCAATAAGAAACTTTACCACTGTTTTTAGGGCCTTGAAATTATGAAATGAGCCAAAAGCAGAGCATCAAAGGGAAAACAGGTCAAAAGCCCTGTTTCAAAAATCTTTAGGGGCCTAGACTAAGCTACAAAAATGGACAATCCTCCTTATGTCTTGCCCAAGAAAATGTTTCTGTGTAATCTACAATAATCATGTTTTCACTTACGAGAAGCCACAATTCCTACAGCAACCTTAAAATGAAACCAAGAGGCGACAATAAAAACATTGCTTTAAAACAACTGTTCTTGAAAAATCCCTTTGGATCTGGAATCCATTACCACTGTATGGCTTGCCTTGTATCTCAATAACAGTCATCACAGGTGTTTGAAACAAGCAGGCCTTGGCTTTGGTGTTCCCCCCACCCAAAATGGGACAACTCTCTGATCATAATCACTCAGGCTGAGTGTAATCACCTACAGTTTTCTGAAGTGAGGGTCAATAATGTCTCCTTTTAGTTTCTATGAATAGCATTTTTCATAGTTGCTCAGATGCCTTCCCTCATGTAGGCTTGGGTAGGCCATGATATAAATAAAACACTGCCTAGATTATTTTATAAGCAGGGCAGTTTGCTGAATATACAACTGAGGGAGACAGGCTTGTTTTCATAACTTTGATAATAATCCTTCTGAGACACCATTTCCTCACCTGCTTTAATAACCCACCAGATAATTGTTGAAAGATCACCCCCTTACGAGTCTCCCAAGTAGACTGAAAATAATAACTACAAGAGATTATTTAGCAGTAAATTACAGCTGATCTACAGAAGTTCTTTAAAGCAAAAAAAAAAAAAAACAAAAAAAAAACACTACCATCTCATTAGAGTGACCAGAGATTCTAAATAGTCCAAGGAATCTTTGCAGGAGGAATAAAGATAAATTAGATAAATTATAGTATCAATTAACATTTATTGAGTGTTTATGTGCCAGGCACTGTTCTATGTGATTTACACGTGCTATCCCATTTATTTCTCAAAACAGCCCAGTGAATATATACCAAGATTATCCCCAGTTAGACAAAGGGTGACAAGAAGAATAAAATATTAACTATCTTCTGTTAATAAATTAACTACTACCAGCACCCTCATCATATATGTTTATCCAATTCTTTTAGTTCAAATGTTTATCTGTCTATACCCACTGACCTGATTCCCATATCCTAAAGCCCCTTCTCATCCTCTCCAACCTTATCAACTGCCATTACTGGCAGGTGCGTATGCACTAGACCTTATTTTTGGTAAATTTTAAAATAATCATAACTATCGTCTACTATATGCAAATCCCTGTTCTAAGTACTTTACGTATATTCAACTATTAATCATAACTGACATCAATATATGAGGTTGGTAAAATTATTATCTCAGTTTTCAGATGAGGAAACTGAGGCACACAGAGGTTACATAACTTGCCCAAAGTCATGTAGTTAGTGGCAGAGCCAGGATTTGAATCCAGCCAGTAAGCATTCAGAGTCCACACTCAGCCATTGTTTATACTGCTTTTGAAGCATATTAAGAATTAACTCTTAAAAGTCAAGAAATCTGTGCTATGTTTTGTTTCCTTTAACATTTGGTGCACAGGACATCACACTGCAAACACGGAGTGTATTCCACAACTCTCTAAGGTAAACAATAATAAAATAGAAATTTATCAAGCTTCCTTCATCTAGTAAATATTCTTTTTGTTGTAACACAAGTATGAAATTCTGAATAATTCAAACACTTCTATGCTTAGTCCCTGCTTACTTACTACAGAATTATTAAAGAATTACCCAAAAGTTCTTGGACTGGAAAGATGTGAAAAAGCCACTAACTCTATTTTCCTAGAATGAAGATGAAAAGAAGATGTGTTTAGGAACCTTCTCTGCTTCCCTAAAAGAACCCTAAAAACAGGAGTAAAAACAGTGAAGAAAACAAAGGACCTTCAAAGTGCACTCGTTAAAACCTAATAACTGTATTTCTATTACTAAATGTAGAAGTGGTAAACATCTTTAACAGGCAATGTCTCCCCTGCACTCTAGGGATTCAAAGATCCATCTTTCGGTTCTGTAAGACAGTCACGGCTTTTGTAACCTCGGTGCCCCCTTCAACCTCCCGCCCCAAGCACCTCCAGGGTCGTCAGGGGTGTAGTTTTGAGTCGCGCTCCTAAGCATCCAGACAGGCAGGACACCGTAACGACATCTCTGCCGGGAGTCCCTTCAGACTGCGGTCTCCAGGTAACCGCACTCCAACAGAAGCAGTTGTGCTTCCTATCGGGTCACCTGTTCAAAAGTCCCCAGGAGAGGCTCCAGCAATACCAGGGTAGCGGTTTGCCCGACACCGCTCCGGGCGCTGCAGCCTTCCGGCAACCCGGACGTTGGGTCGGTGTCAGCCACTCTCACCTCCCATTCCCTAGTTTTCCTCCTTTGCTCCCGTCTAGTCACTTCGCACCTTCGGCTAGTCTTTATTCACAGACACATTCCAGGAGTCCCCTCTCCCAGAGCAACAAAGACAGATTTCCAAAGCTACACATCCCAGAGAGAACGGATTCTTGGGAAATGTGGTTCTTTCAGCTGACGCATGGTGACTCTTTACGGAAAAGGACTACAATTCCCAGAAATCCTAGGGAGCATATAGTCCGTGGCTAAAACATGTCCCAGCTCCTTGGATGGAATGGCAGTAAAGGTTCTGTGGCTCTTTACTGACCTAACTCCTTGGATTTTCCTCATTCAGTCCCACTGCAAGCGTGTGGGAGGACTTAAAAAAATGCTATTCACATGTGAAGGAATCTAAATACGATGATTATATGAAGCGATCTCTAAGTCATTTTATTTTATAATTCTTTCAGACAAAAATCTACGTACCATCAGAAACTATGTCTCTGCAGATGGTAACAGTCAGTAATAACATAGCCTTAATTCAGCCAGGCTTCTCACTGATGAATTTTGATGGACAAGTTTTCTTCTTTGGACAAAAAGGCTGGCCCAAAAGATCCTGCCCCACTGGAGTTTTCCATCTGGATGTAAAGCATAACCATGTCAAACTGAAGCCTACAATTTTCTCTAAGGATTCCTGCTACCTCCCTCCTCTTCGCTACCCAGCCACTTGCACATTCAAAGGCAGCTTGGAGTCTGAAAAGCATCAATACATCATCCATGGAGGGAAAACACCAAACAATGAGGTTTCAGATAAGATTTATGTCATGTCTATTGTTTGCAAGAACAACAAAAAGGTTACTTTTCGCTGCACAGAGAAAGACTTGGTAGGAGATGTTCCTGAAGCCAGATATGGTCATTCCATTAATGTGGTGTACAGCCGAGGGAAAAGTATGGGTGTTCTCTTTGGAGGACGCTCATACATGCCTTCTACCCACAGAACCACAGAAAAATGGAATAGTGTAGCTGACTGCCTGCCCTGTGTTTTCCTGGTGGATTTTGAATTTGGGTGTGCTACATCATACATTCTTCCAGAACTTCAGGATGGGCTATCTTTTCATGTCTCTATTGCCAAAAATGACACCATCTATATTTTAGGAGGACATTCACTTGCCAATAATATCCGGCCTGCCAACCTGTACAGAATAAGGGTTGATCTTCCCCTGGGTAGCCCAGCTGTGAATTGCACAGTCTTGCCAGGAGGAATCTCTGTCTCCAGTGCAATCCTGACTCAAACTAACAATGATGAATTTGTTATTGTTGGTGGCTATCAGCTTGAAAATCAAAAAAGAATGATCTGCAACATCATCTCTTTAGAGGACAACAAGATAGAAATTCGTGAGATGGAGACCCCAGATTGGACCCCAGACATTAAGCACAGCAAGATATGGTTTGGAAGCAACATGGGAAATGGAACTGTTTTTCTTGGCATACCAGGAGACAATAAACAAGTTGTTTCAGAAGGATTCTATTTCTATATGTTGAAATGTGCTGAAGATGATACTAATGAAGAGCAGACAACATTCACAAACAGTCAAACATCAACAGAAGATCCAGGGGATTCCACTCCCTTTGAAGACTCTGAAGAATTTTGTTTCAGTGCAGAAGCAAATAGTTTTGATGGTGATGATGAATTTGACACCTATAATGAAGATGATGAAGAAGATGAGTCTGAGACAGGCTACTGGATTACATGCTGCCCTACTTGTGATGTGGATATCAACACTTGGGTACCATTCTATTCAACTGAGCTCAACAAACCCGCCATGATCTACTGCTCTCATGGGGATGGGCACTGGGTCCATGCTCAGTGCATGGATCTGGCAGAACGCACACTCATCCATCTGTCAGCAGGAAGCAACAAGTATTACTGCAATGAGCATGTGGAGATAGCAAGAGCTCTACACACTCCCCAAAGAGTCCTACCCTTAAAAAAGCCTCCAATGAAATCCCTCCGTAAAAAAGGTTCTGGAAAAATCTTGACTCCTGCCAAGAAATCCTTTCTTAGAAGGTTGTTTGATTAGTTTTGCAAAAGCCTTTCAGATTCAGGTGTATGGAATTTTTGAATCTATTTTTAAAATCATAACATTGATTTTAAAAATACATTTTTGTTTATTTAAAATGCCTATGTTTTCTTTTAGTTACATGAATTAAGGGCCAGAAAAAAGTGTTTATAATGCAATGATAAATAAAGTCATTCTAGACCCTATACATTTTGAAAATATTTTACCCAAATACTCAATTTACTAATTTATTCTTCACTGAGGATTTCTGATCTGATTTTTTATTCAACAAACCTTAAACACCCAGAAGCAGTAATAATCATCGAGGTATGTTTATATTTATTATATAAGTCTTGGTAACAAATAACCTATAAAGTGTTTATGACAAATTTAGCCAATAAAGAAATTAACACCCAAAAGAATTAAATTGATTATTTTGTGCAACATAACAATTCGGCAGTTGGCCAAAACTTAAAAGCAAGATCTACTACATCCCACATTAGTGTTCTTTATATACCTTCAAGCAACCCTTTGGATTATGCCCATGAACAAGTTAGTTTCTCATAGCTTTACAGATGTAGATATAAATATAAATATATGTATACATATAGATAGATAATGTTCTCCACTGACACAAAAGAAGAAATAAATAATCTACATCAAGTTTGACATGTTTTCCTGAATTACTTGTATGCATTTTCTTTAAGGATTTCCCCTCCCCATTATATGATGCATGAATGATGTGCCAAAGTCAGTCATTTGAACTAATTATTTGTGAGAATTTTCATGGAAAACTGGAGCCCATTGCTACTTAGTACTCTGGAAAAAGGAAGTGAGTAAGAATACAATAAGAAAGGACCACCAAATAAATCTCATGGAGAAGAATAATATTATTTCCCAAAATAATGTAAGTTTAAAGAATTTCATGACATTTACAGGCAGAAGATTTAAATGGAGGAAAAGAAATGTATTTGTGTGAGTGTGTGTGTGTGTGTGTGTGTGTGTGTAGTTAACATGTGGAGATTGCTGCCAGTGAATATTATAAAATCAGTGATCTTGCCAAGGTCTAATTAGACACTCGCTAGGATGAAACTAGTTAAAATGACTGTTAATTTTAAGGGTTCAAGACATCAGTTGATAACTAGATGACCTTAGAAACAAATGTCTTTCCTCCTGAAATATTTTCCGGAAAAAAAAATTTTCTGGAAAAACCTTATCTTAAGAGCTTCAGCCACAGTTACAGTGAAGACTCTTACTCCTCACTGAAAGTCTACAGTGTGTAAGGTACAACTAACAAATTTACGGGAAACATGAATTATGCAAGAGATGAAACGCTGGAGTACAAGTTCTTCTGCTGAAAGTTCCATGTCCCCAGATACTGAAATTAACTTTGATAAACTGAATCATATTCACTCTGTTTCAATAATGTTGCTCGCTGAATATTCCTGTTGAACAATTGTTGCACATTGATTTGATCTTTTGTTGTTTCCATCACCTATATAAAAATAATAAAATATAAAAATCTTCTATTTATATTGATTTACTCTAATTATTAAGATATGTTACCTAAATAACGGCAAAATTAAACTAATTTTTTCAGGATCACTCCACTTTGATTTTTTTTTCTATTTGTTAGTAGAAAATGGCACAAGTTGGAGCGAAAATATCCTTTACAGAGTCCAAAAGTGAAATTTCCCCAAGGAGTAGGTATATTCTCTCTTCTTGATTTGTCTGCAGTGATTTGGTGGCTAAAGAATTATTACCACATATTTATTTTGTAGCCAATGAGATCCAGATATGGTAATCTAAGTGATTCAGTTGTGAACTCACTGAATTTCATAGTCAAACTCAGATCTCACCAGTATAGCTGCTTTTGGGGGAGGGTGTGTGTGTGCGTGTGTGTGTGTGTGTGTGTTTCAAGAGCATGCAGATTGGTTATACAGATTATATATTTGAGTACAATTAAGTCTTTTTTATGTCATCTCAGCAATCAGTTTATTCGATGTGACTTTAAGATAACGGTCACTGCTTTTCAAATAAGCTGATGCAAACATTCAAATGAGCCGTGTTAGAAGAGCAGACACCTATTTCAACAATATTGCCTTTGCCTAAAATGTTTCAGGGACTCACATTTCAATCAATCACCTTCAGAATCCATGATTCATTCCCTTGAAGATGTTCAACAGCTGTACCTCTTTCTTCATTAAAGATGGATTTAATTTCTGGAAACAGACAAGTGTCATTTGAAATCTAGCAGAGTGAGATTTTCAGTATTACACTACCACTTTAGGTCAAAAACAAAGTGTGAATACAAGCTAACAAAATGGATTTTCTGATATGGCTTATGAATGGGTTTTAAAGGAAAGTCTCAAAATTGTTTGCACAAGACTACAGGAGTAGTATCAAGAAATAAGTATATGACTTCCCAGGGTAATCATTTTAGGGGACTATACACATCTCTAAGTACAGGTGAGTTCAATGTGTTAGGGGAAAGGGAAAGTGTAAAGAAAAAGAAATTGTTATTCCAAAGGCTCTGGGGAGAGATGAAGCTTGCTACTTTTGAAGAACTGAAAGGTCAGCCTGGTTAAAACACAGTAAACAAGTAGGGGTGGAATGGCATGAGCCCAGAGAGGCAGGCAGGGGCCAGGGATCCAATTTTTCAT</sequence>
+    <transcript name="t1">
+      <comment>This transcript is identical to the RefSeq transcript NM_000536.2 but with the polyA tail removed.</comment>
+      <coordinates coord_system="LRG_99" start="4975" end="11294" strand="1" />
+      <cdna>
+        <sequence>AAGAACATCTGTAGGCACACATACACACTCTCTTTACAGTCAGCCTTCTGCTTGCCACAGTCATAGTGGGCAGTCAGTGAATCTTCCCCAAGTGCTGACAATTAATACCTGGTTTAGCGGCAAAGATTCAGAGAGGCGTGAGCAGCCCCTCTGGCCTTCAGACAAAAATCTACGTACCATCAGAAACTATGTCTCTGCAGATGGTAACAGTCAGTAATAACATAGCCTTAATTCAGCCAGGCTTCTCACTGATGAATTTTGATGGACAAGTTTTCTTCTTTGGACAAAAAGGCTGGCCCAAAAGATCCTGCCCCACTGGAGTTTTCCATCTGGATGTAAAGCATAACCATGTCAAACTGAAGCCTACAATTTTCTCTAAGGATTCCTGCTACCTCCCTCCTCTTCGCTACCCAGCCACTTGCACATTCAAAGGCAGCTTGGAGTCTGAAAAGCATCAATACATCATCCATGGAGGGAAAACACCAAACAATGAGGTTTCAGATAAGATTTATGTCATGTCTATTGTTTGCAAGAACAACAAAAAGGTTACTTTTCGCTGCACAGAGAAAGACTTGGTAGGAGATGTTCCTGAAGCCAGATATGGTCATTCCATTAATGTGGTGTACAGCCGAGGGAAAAGTATGGGTGTTCTCTTTGGAGGACGCTCATACATGCCTTCTACCCACAGAACCACAGAAAAATGGAATAGTGTAGCTGACTGCCTGCCCTGTGTTTTCCTGGTGGATTTTGAATTTGGGTGTGCTACATCATACATTCTTCCAGAACTTCAGGATGGGCTATCTTTTCATGTCTCTATTGCCAAAAATGACACCATCTATATTTTAGGAGGACATTCACTTGCCAATAATATCCGGCCTGCCAACCTGTACAGAATAAGGGTTGATCTTCCCCTGGGTAGCCCAGCTGTGAATTGCACAGTCTTGCCAGGAGGAATCTCTGTCTCCAGTGCAATCCTGACTCAAACTAACAATGATGAATTTGTTATTGTTGGTGGCTATCAGCTTGAAAATCAAAAAAGAATGATCTGCAACATCATCTCTTTAGAGGACAACAAGATAGAAATTCGTGAGATGGAGACCCCAGATTGGACCCCAGACATTAAGCACAGCAAGATATGGTTTGGAAGCAACATGGGAAATGGAACTGTTTTTCTTGGCATACCAGGAGACAATAAACAAGTTGTTTCAGAAGGATTCTATTTCTATATGTTGAAATGTGCTGAAGATGATACTAATGAAGAGCAGACAACATTCACAAACAGTCAAACATCAACAGAAGATCCAGGGGATTCCACTCCCTTTGAAGACTCTGAAGAATTTTGTTTCAGTGCAGAAGCAAATAGTTTTGATGGTGATGATGAATTTGACACCTATAATGAAGATGATGAAGAAGATGAGTCTGAGACAGGCTACTGGATTACATGCTGCCCTACTTGTGATGTGGATATCAACACTTGGGTACCATTCTATTCAACTGAGCTCAACAAACCCGCCATGATCTACTGCTCTCATGGGGATGGGCACTGGGTCCATGCTCAGTGCATGGATCTGGCAGAACGCACACTCATCCATCTGTCAGCAGGAAGCAACAAGTATTACTGCAATGAGCATGTGGAGATAGCAAGAGCTCTACACACTCCCCAAAGAGTCCTACCCTTAAAAAAGCCTCCAATGAAATCCCTCCGTAAAAAAGGTTCTGGAAAAATCTTGACTCCTGCCAAGAAATCCTTTCTTAGAAGGTTGTTTGATTAGTTTTGCAAAAGCCTTTCAGATTCAGGTGTATGGAATTTTTGAATCTATTTTTAAAATCATAACATTGATTTTAAAAATACATTTTTGTTTATTTAAAATGCCTATGTTTTCTTTTAGTTACATGAATTAAGGGCCAGAAAAAAGTGTTTATAATGCAATGATAAATAAAGTCATTCTAGACCCTATACATTTTGAAAATATTTTACCCAAATACTCAATTTACTAATTTATTCTTCACTGAGGATTTCTGATCTGATTTTTTATTCAACAAACCTTAAACACCCAGAAGCAGTAATAATCATCGAGGTATGTTTATATTTATTATATAAGTCTTGGTAACAAATAACCTATAAAGTGTTTATGACAAATTTAGCCAATAAAGAAATTAACACCCAAAAGAATTAAATTGATTATTTTGTGCAACATAACAATTCGGCAGTTGGCCAAAACTTAAAAGCAAGATCTACTACATCCCACATTAGTGTTCTTTATATACCTTCAAGCAACCCTTTGGATTATGCCCATGAACAAGTTAGTTTCTCATAGCTTTACAGATGTAGATATAAATATAAATATATGTATACATATAGATAGATAATGTTCTCCACTGACACAAAAGAAGAAATAAATAATCTACATCAA</sequence>
+      </cdna>
+      <coding_region>
+        <coordinates coord_system="LRG_99" start="9069" end="10652" strand="1" />
+        <translation name="p1">
+          <sequence>MSLQMVTVSNNIALIQPGFSLMNFDGQVFFFGQKGWPKRSCPTGVFHLDVKHNHVKLKPTIFSKDSCYLPPLRYPATCTFKGSLESEKHQYIIHGGKTPNNEVSDKIYVMSIVCKNNKKVTFRCTEKDLVGDVPEARYGHSINVVYSRGKSMGVLFGGRSYMPSTHRTTEKWNSVADCLPCVFLVDFEFGCATSYILPELQDGLSFHVSIAKNDTIYILGGHSLANNIRPANLYRIRVDLPLGSPAVNCTVLPGGISVSSAILTQTNNDEFVIVGGYQLENQKRMICNIISLEDNKIEIREMETPDWTPDIKHSKIWFGSNMGNGTVFLGIPGDNKQVVSEGFYFYMLKCAEDDTNEEQTTFTNSQTSTEDPGDSTPFEDSEEFCFSAEANSFDGDDEFDTYNEDDEEDESETGYWITCCPTCDVDINTWVPFYSTELNKPAMIYCSHGDGHWVHAQCMDLAERTLIHLSAGSNKYYCNEHVEIARALHTPQRVLPLKKPPMKSLRKKGSGKILTPAKKSFLRRLFD</sequence>
+        </translation>
+      </coding_region>
+      <exon label="1">
+        <coordinates coord_system="LRG_99" start="4975" end="5135" strand="1" />
+        <coordinates coord_system="LRG_99t1" start="1" end="161" />
+      </exon>
+      <exon label="2">
+        <coordinates coord_system="LRG_99" start="9042" end="11294" strand="1" />
+        <coordinates coord_system="LRG_99t1" start="162" end="2414" />
+        <coordinates coord_system="LRG_99p1" start="1" end="527" />
+      </exon>
+    </transcript>
+  </fixed_annotation>
+  <updatable_annotation>
+    <annotation_set type="requester">
+      <source>
+        <name>RAG2base: Mutation registry for autosomal recessive RAG2 deficiency</name>
+        <url>http://structure.bmc.lu.se/idbase/RAG2base/</url>
+        <contact>
+          <name>Anna Villa</name>
+          <address>University of Tampere, Tampere, Finland</address>
+        </contact>
+        <contact>
+          <name>Jouni Valiaho</name>
+          <address>University of Tampere, Finland</address>
+          <email>Jouni.Valiaho@uta.fi</email>
+        </contact>
+        <contact>
+          <name>Mauno Vihinen</name>
+          <address>University of Tampere, Finland</address>
+          <email>Mauno.Vihinen@med.lu.se</email>
+        </contact>
+      </source>
+      <modification_date>2015-06-22</modification_date>
+    </annotation_set>
+    <annotation_set type="lrg">
+      <source>
+        <name>LRG</name>
+        <url>http://www.lrg-sequence.org/</url>
+        <contact>
+          <name>Locus Reference Genomic</name>
+          <url>http://www.lrg-sequence.org/contact</url>
+          <email>feedback@lrg-sequence.org</email>
+        </contact>
+      </source>
+      <modification_date>2015-06-22</modification_date>
+      <mapping coord_system="GRCh37.p13" other_name="11" other_id="NC_000011.9" other_id_syn="CM000673.1" other_start="36611493" other_end="36624786" type="other_assembly">
+        <mapping_span lrg_start="1" lrg_end="13294" other_start="36611493" other_end="36624786" strand="-1" />
+      </mapping>
+      <mapping coord_system="GRCh38.p2" other_name="11" other_id="NC_000011.10" other_id_syn="CM000673.2" other_start="36589943" other_end="36603236" type="main_assembly">
+        <mapping_span lrg_start="1" lrg_end="13294" other_start="36589943" other_end="36603236" strand="-1" />
+      </mapping>
+      <lrg_locus source="HGNC">RAG2</lrg_locus>
+    </annotation_set>
+    <annotation_set type="ncbi">
+      <source>
+        <name>NCBI RefSeqGene</name>
+        <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
+        <contact>
+          <name>RefSeqGene Group</name>
+          <address>NCBI/NLM/NIH</address>
+          <email>rsgene@ncbi.nlm.nih.gov</email>
+        </contact>
+      </source>
+      <comment>Annotation from NG_007573.1</comment>
+      <modification_date>2015-06-19</modification_date>
+      <mapping coord_system="NM_000536.2" other_name="NM_000536.2" other_id="NM_000536.2" other_start="1" other_end="2414" type="transcript">
+        <mapping_span lrg_start="4975" lrg_end="5135" other_start="1" other_end="161" strand="1" />
+        <mapping_span lrg_start="9042" lrg_end="11294" other_start="162" other_end="2414" strand="1" />
+      </mapping>
+      <mapping coord_system="NM_000536.3" other_name="NM_000536.3" other_id="NM_000536.3" other_start="1" other_end="2431" type="transcript">
+        <mapping_span lrg_start="4958" lrg_end="5135" other_start="1" other_end="178" strand="1" />
+        <mapping_span lrg_start="9042" lrg_end="11294" other_start="179" other_end="2431" strand="1" />
+      </mapping>
+      <mapping coord_system="NM_001243785.1" other_name="NM_001243785.1" other_id="NM_001243785.1" other_start="1" other_end="2626" type="transcript">
+        <mapping_span lrg_start="4958" lrg_end="5135" other_start="1" other_end="178" strand="1" />
+        <mapping_span lrg_start="8236" lrg_end="8430" other_start="179" other_end="373" strand="1" />
+        <mapping_span lrg_start="9042" lrg_end="11294" other_start="374" other_end="2626" strand="1" />
+      </mapping>
+      <mapping coord_system="NM_001243786.1" other_name="NM_001243786.1" other_id="NM_001243786.1" other_start="1" other_end="2820" type="transcript">
+        <mapping_span lrg_start="4958" lrg_end="5135" other_start="1" other_end="178" strand="1" />
+        <mapping_span lrg_start="8042" lrg_end="8430" other_start="179" other_end="567" strand="1" />
+        <mapping_span lrg_start="9042" lrg_end="11294" other_start="568" other_end="2820" strand="1" />
+      </mapping>
+      <features>
+        <gene source="NCBI-Gene" accession="119710">
+          <symbol source="HGNC" name="C11orf74">
+            <synonym>HEPIS</synonym>
+          </symbol>
+          <coordinates coord_system="LRG_99" start="1" end="8744" strand="-1" />
+          <partial>3-prime</partial>
+          <long_name>chromosome 11 open reading frame 74</long_name>
+          <db_xref source="GeneID" accession="119710" />
+          <db_xref source="HGNC" accession="HGNC:25142" />
+          <db_xref source="CCDS" accession="CCDS7904.1" />
+          <db_xref source="CCDS" accession="CCDS60762.1" />
+          <transcript source="RefSeq" accession="NR_077243.1">
+            <coordinates coord_system="LRG_99" start="8476" end="8744" strand="-1" />
+            <partial>3-prime</partial>
+            <long_name>chromosome 11 open reading frame 74, transcript variant 8</long_name>
+            <db_xref source="GeneID" accession="119710" />
+            <db_xref source="GI" accession="457866847" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_99" start="8476" end="8744" strand="-1" />
+              <partial>3-prime</partial>
+            </exon>
+          </transcript>
+        </gene>
+        <gene source="NCBI-Gene" accession="5897">
+          <symbol source="HGNC" name="RAG2">
+            <synonym>RAG-2</synonym>
+          </symbol>
+          <coordinates coord_system="LRG_99" start="4958" end="11294" strand="1" />
+          <long_name>recombination activating gene 2</long_name>
+          <db_xref source="GeneID" accession="5897" />
+          <db_xref source="HGNC" accession="HGNC:9832" />
+          <db_xref source="MIM" accession="179616" />
+          <db_xref source="CCDS" accession="CCDS7903.1" />
+          <db_xref source="GI" accession="187423896" />
+          <transcript source="RefSeq" accession="NM_001243786.1">
+            <coordinates coord_system="LRG_99" start="4958" end="11294" strand="1" />
+            <long_name>recombination activating gene 2, transcript variant 4</long_name>
+            <db_xref source="GeneID" accession="5897" />
+            <db_xref source="GI" accession="344925929" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_99" start="4958" end="5135" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_99" start="8042" end="8430" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_99" start="9042" end="11294" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_001230715.1">
+              <coordinates coord_system="LRG_99" start="9069" end="10652" strand="1" />
+              <long_name>V(D)J recombination-activating protein 2</long_name>
+              <db_xref source="CCDS" accession="CCDS7903.1" />
+              <db_xref source="GeneID" accession="5897" />
+              <db_xref source="GI" accession="344925930" />
+            </protein_product>
+          </transcript>
+          <transcript source="RefSeq" accession="NM_001243785.1">
+            <coordinates coord_system="LRG_99" start="4958" end="11294" strand="1" />
+            <long_name>recombination activating gene 2, transcript variant 3</long_name>
+            <db_xref source="GeneID" accession="5897" />
+            <db_xref source="GI" accession="344925857" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_99" start="4958" end="5135" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_99" start="8236" end="8430" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_99" start="9042" end="11294" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_001230714.1">
+              <coordinates coord_system="LRG_99" start="9069" end="10652" strand="1" />
+              <long_name>V(D)J recombination-activating protein 2</long_name>
+              <db_xref source="CCDS" accession="CCDS7903.1" />
+              <db_xref source="GeneID" accession="5897" />
+              <db_xref source="GI" accession="344925858" />
+            </protein_product>
+          </transcript>
+          <transcript source="RefSeq" accession="NM_000536.2" fixed_id="t1">
+            <coordinates coord_system="LRG_99" start="4975" end="11294" strand="1" />
+            <long_name>recombination activating gene 2, transcript variant 1</long_name>
+            <db_xref source="GeneID" accession="5897" />
+            <db_xref source="GI" accession="151301079" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_99" start="4975" end="5135" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_99" start="9042" end="11294" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_000527.2" fixed_id="p1">
+              <coordinates coord_system="LRG_99" start="9069" end="10652" strand="1" />
+              <long_name>V(D)J recombination-activating protein 2</long_name>
+              <db_xref source="CCDS" accession="CCDS7903.1" />
+              <db_xref source="GeneID" accession="5897" />
+              <db_xref source="GI" accession="151301080" />
+            </protein_product>
+          </transcript>
+        </gene>
+      </features>
+    </annotation_set>
+    <annotation_set type="ensembl">
+      <source>
+        <name>Ensembl</name>
+        <url>http://www.ensembl.org/</url>
+        <contact>
+          <name>Ensembl</name>
+          <address>European Bioinformatics Institute</address>
+          <email>helpdesk@ensembl.org</email>
+        </contact>
+      </source>
+      <comment>Annotation is based on Ensembl release 80 (GRCh38  primary assembly)</comment>
+      <modification_date>2015-06-22</modification_date>
+      <mapping coord_system="ENST00000311485.6" other_name="ENST00000311485.6" other_id="ENST00000311485.6" other_start="1" other_end="2388" type="transcript">
+        <mapping_span lrg_start="5001" lrg_end="5135" other_start="1" other_end="135" strand="1" />
+        <mapping_span lrg_start="9042" lrg_end="11294" other_start="136" other_end="2388" strand="1" />
+      </mapping>
+      <mapping coord_system="ENST00000524423.1" other_name="ENST00000524423.1" other_id="ENST00000524423.1" other_start="1" other_end="131" type="transcript">
+        <mapping_span lrg_start="5005" lrg_end="5135" other_start="1" other_end="131" strand="1" />
+      </mapping>
+      <mapping coord_system="ENST00000527033.4" other_name="ENST00000527033.4" other_id="ENST00000527033.4" other_start="1" other_end="569" type="transcript">
+        <mapping_span lrg_start="5001" lrg_end="5135" other_start="1" other_end="135" strand="1" />
+        <mapping_span lrg_start="8236" lrg_end="8430" other_start="136" other_end="330" strand="1" />
+        <mapping_span lrg_start="9042" lrg_end="9280" other_start="331" other_end="569" strand="1" />
+      </mapping>
+      <mapping coord_system="ENST00000528428.1" other_name="ENST00000528428.1" other_id="ENST00000528428.1" other_start="1" other_end="633" type="transcript">
+        <mapping_span lrg_start="4958" lrg_end="5135" other_start="1" other_end="178" strand="1" />
+        <mapping_span lrg_start="8042" lrg_end="8496" other_start="179" other_end="633" strand="1" />
+      </mapping>
+      <mapping coord_system="ENST00000529083.1" other_name="ENST00000529083.1" other_id="ENST00000529083.1" other_start="1" other_end="572" type="transcript">
+        <mapping_span lrg_start="8482" lrg_end="8574" other_start="1" other_end="93" strand="1" />
+        <mapping_span lrg_start="9042" lrg_end="9520" other_start="94" other_end="572" strand="1" />
+      </mapping>
+      <mapping coord_system="ENST00000530276.1" other_name="ENST00000530276.1" other_id="ENST00000530276.1" other_start="1" other_end="537" type="transcript">
+        <mapping_span lrg_start="5004" lrg_end="5135" other_start="1" other_end="132" strand="1" />
+        <mapping_span lrg_start="7970" lrg_end="8374" other_start="133" other_end="537" strand="1" />
+      </mapping>
+      <mapping coord_system="ENST00000532616.1" other_name="ENST00000532616.1" other_id="ENST00000532616.1" other_start="1" other_end="554" type="transcript">
+        <mapping_span lrg_start="5001" lrg_end="5135" other_start="1" other_end="135" strand="1" />
+        <mapping_span lrg_start="8042" lrg_end="8430" other_start="136" other_end="524" strand="1" />
+        <mapping_span lrg_start="9042" lrg_end="9071" other_start="525" other_end="554" strand="1" />
+      </mapping>
+      <mapping coord_system="ENST00000534379.4" other_name="ENST00000534379.4" other_id="ENST00000534379.4" other_start="1" other_end="539" type="transcript">
+        <mapping_span lrg_start="5004" lrg_end="5135" other_start="1" other_end="132" strand="1" />
+        <mapping_span lrg_start="8236" lrg_end="8642" other_start="133" other_end="539" strand="1" />
+      </mapping>
+      <mapping coord_system="ENST00000618712.3" other_name="ENST00000618712.3" other_id="ENST00000618712.3" other_start="1" other_end="2818" type="transcript">
+        <mapping_span lrg_start="4958" lrg_end="5135" other_start="1" other_end="178" strand="1" />
+        <mapping_span lrg_start="8042" lrg_end="8430" other_start="179" other_end="567" strand="1" />
+        <mapping_span lrg_start="9042" lrg_end="11292" other_start="568" other_end="2818" strand="1" />
+      </mapping>
+      <features>
+        <gene source="Ensembl" accession="ENSG00000166352.14">
+          <symbol source="HGNC" name="C11orf74" />
+          <coordinates coord_system="LRG_99" start="1" end="8744" strand="-1" mapped_from="GRCh38" />
+          <partial>3-prime</partial>
+          <long_name>chromosome 11 open reading frame 74 (protein_coding)</long_name>
+          <db_xref source="GeneID" accession="119710">
+            <synonym>HEPIS</synonym>
+          </db_xref>
+          <db_xref source="HGNC" accession="25142">
+            <synonym>FLJ38678</synonym>
+            <synonym>HEPIS</synonym>
+          </db_xref>
+          <db_xref source="Ensembl" accession="ENSG00000166352" />
+          <transcript source="Ensembl" accession="ENST00000334307.8">
+            <coordinates coord_system="LRG_99" start="1" end="8736" strand="-1" mapped_from="GRCh38" />
+            <partial>3-prime</partial>
+            <long_name>C11orf74-001 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS7904.1" />
+            <db_xref source="RefSeq" accession="NM_138787.3" />
+            <exon source="Ensembl" accession="ENSE00002173836">
+              <coordinates coord_system="LRG_99" start="8645" end="8736" strand="-1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000531554.4">
+            <coordinates coord_system="LRG_99" start="1" end="8724" strand="-1" mapped_from="GRCh38" />
+            <partial>3-prime</partial>
+            <long_name>C11orf74-006 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00002143737">
+              <coordinates coord_system="LRG_99" start="8596" end="8724" strand="-1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000347206.7">
+            <coordinates coord_system="LRG_99" start="1" end="8724" strand="-1" mapped_from="GRCh38" />
+            <partial>3-prime</partial>
+            <long_name>C11orf74-002 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS60762.1" />
+            <db_xref source="RefSeq" accession="NM_001276726.1" />
+            <db_xref source="RefSeq" accession="NM_001276727.1" />
+            <exon source="Ensembl" accession="ENSE00002195233">
+              <coordinates coord_system="LRG_99" start="8645" end="8724" strand="-1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000534635.4">
+            <coordinates coord_system="LRG_99" start="1" end="8721" strand="-1" mapped_from="GRCh38" />
+            <partial>3-prime</partial>
+            <long_name>C11orf74-003 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS60762.1" />
+            <db_xref source="RefSeq" accession="NM_001276725.1" />
+            <exon source="Ensembl" accession="ENSE00002171231">
+              <coordinates coord_system="LRG_99" start="8476" end="8721" strand="-1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000524539.1">
+            <coordinates coord_system="LRG_99" start="1" end="8706" strand="-1" mapped_from="GRCh38" />
+            <partial>3-prime</partial>
+            <long_name>C11orf74-009 (retained_intron)</long_name>
+            <exon source="Ensembl" accession="ENSE00002176220">
+              <coordinates coord_system="LRG_99" start="8596" end="8706" strand="-1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000530697.4">
+            <coordinates coord_system="LRG_99" start="1" end="8680" strand="-1" mapped_from="GRCh38" />
+            <partial>3-prime</partial>
+            <long_name>C11orf74-007 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00002172039">
+              <coordinates coord_system="LRG_99" start="8322" end="8680" strand="-1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000527108.4">
+            <coordinates coord_system="LRG_99" start="1" end="8666" strand="-1" mapped_from="GRCh38" />
+            <partial>3-prime</partial>
+            <long_name>C11orf74-008 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00002150144">
+              <coordinates coord_system="LRG_99" start="8596" end="8666" strand="-1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000528092.4">
+            <coordinates coord_system="LRG_99" start="1" end="8616" strand="-1" mapped_from="GRCh38" />
+            <partial>3-prime</partial>
+            <long_name>C11orf74-005 (nonsense_mediated_decay)</long_name>
+            <exon source="Ensembl" accession="ENSE00002169640">
+              <coordinates coord_system="LRG_99" start="8476" end="8616" strand="-1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000532470.2">
+            <coordinates coord_system="LRG_99" start="1" end="8387" strand="-1" mapped_from="GRCh38" />
+            <partial>3-prime</partial>
+            <long_name>C11orf74-004 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS7904.1" />
+            <exon source="Ensembl" accession="ENSE00002198121">
+              <coordinates coord_system="LRG_99" start="8322" end="8387" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002176267">
+              <coordinates coord_system="LRG_99" start="5507" end="5593" strand="-1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000617650.3">
+            <coordinates coord_system="LRG_99" start="1" end="8465" strand="-1" mapped_from="GRCh38" />
+            <partial>3-prime</partial>
+            <long_name>C11orf74-202 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS7904.1" />
+            <db_xref source="RefSeq" accession="NM_001276724.1" />
+            <exon source="Ensembl" accession="ENSE00003717959">
+              <coordinates coord_system="LRG_99" start="8322" end="8465" strand="-1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000446510.5">
+            <coordinates coord_system="LRG_99" start="1" end="8744" strand="-1" mapped_from="GRCh38" />
+            <partial>3-prime</partial>
+            <long_name>C11orf74-201 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS7904.1" />
+            <db_xref source="RefSeq" accession="NM_001276722.1" />
+            <db_xref source="RefSeq" accession="NM_001276723.1" />
+            <exon source="Ensembl" accession="ENSE00001363403">
+              <coordinates coord_system="LRG_99" start="8476" end="8744" strand="-1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+        </gene>
+        <gene source="Ensembl" accession="ENSG00000175097.6">
+          <symbol source="HGNC" name="RAG2" />
+          <coordinates coord_system="LRG_99" start="4958" end="13294" strand="1" mapped_from="GRCh38" />
+          <partial>3-prime</partial>
+          <long_name>recombination activating gene 2 (protein_coding)</long_name>
+          <db_xref source="GeneID" accession="5897">
+            <synonym>RAG-2</synonym>
+          </db_xref>
+          <db_xref source="HGNC" accession="9832" />
+          <db_xref source="Ensembl" accession="ENSG00000175097" />
+          <transcript source="Ensembl" accession="ENST00000528428.1">
+            <coordinates coord_system="LRG_99" start="4958" end="8496" strand="1" mapped_from="GRCh38" />
+            <long_name>RAG2-002 (processed_transcript)</long_name>
+            <exon source="Ensembl" accession="ENSE00001185199">
+              <coordinates coord_system="LRG_99" start="4958" end="5135" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002180807">
+              <coordinates coord_system="LRG_99" start="8042" end="8496" strand="1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000618712.3">
+            <coordinates coord_system="LRG_99" start="4958" end="11292" strand="1" mapped_from="GRCh38" />
+            <long_name>RAG2-201 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS7903.1" />
+            <db_xref source="RefSeq" accession="NM_001243785.1" />
+            <db_xref source="RefSeq" accession="NM_001243786.1" />
+            <exon source="Ensembl" accession="ENSE00001185199">
+              <coordinates coord_system="LRG_99" start="4958" end="5135" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002144692">
+              <coordinates coord_system="LRG_99" start="8042" end="8430" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003712067">
+              <coordinates coord_system="LRG_99" start="9042" end="11292" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000478672.1">
+              <coordinates coord_system="LRG_99" start="9069" end="10652" strand="1" mapped_from="GRCh38" />
+              <long_name>V(D)J recombination-activating protein 2, V(D)J recombination-activating protein 2</long_name>
+              <db_xref source="RefSeq" accession="NP_001230714.1" />
+              <db_xref source="RefSeq" accession="NP_001230715.1" />
+              <db_xref source="UniProtKB" accession="P55895">
+                <synonym>A8K9E9</synonym>
+                <synonym>Q8TBL4</synonym>
+              </db_xref>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000311485.6">
+            <coordinates coord_system="LRG_99" start="5001" end="11294" strand="1" mapped_from="GRCh38" />
+            <long_name>RAG2-001 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS7903.1" />
+            <db_xref source="RefSeq" accession="NM_000536.3" />
+            <exon source="Ensembl" accession="ENSE00002192732">
+              <coordinates coord_system="LRG_99" start="5001" end="5135" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001185205">
+              <coordinates coord_system="LRG_99" start="9042" end="11294" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000308620.3">
+              <coordinates coord_system="LRG_99" start="9069" end="10652" strand="1" mapped_from="GRCh38" />
+              <long_name>V(D)J recombination-activating protein 2</long_name>
+              <db_xref source="RefSeq" accession="NP_000527.2" />
+              <db_xref source="UniProtKB" accession="P55895">
+                <synonym>A8K9E9</synonym>
+                <synonym>Q8TBL4</synonym>
+              </db_xref>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000527033.4">
+            <coordinates coord_system="LRG_99" start="5001" end="9280" strand="1" mapped_from="GRCh38" />
+            <long_name>RAG2-003 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00002192732">
+              <coordinates coord_system="LRG_99" start="5001" end="5135" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002159084">
+              <coordinates coord_system="LRG_99" start="8236" end="8430" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002151900">
+              <coordinates coord_system="LRG_99" start="9042" end="9280" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000436895.1">
+              <coordinates coord_system="LRG_99" start="9069" end="9280" strand="1" mapped_from="GRCh38" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000532616.1">
+            <coordinates coord_system="LRG_99" start="5001" end="9071" strand="1" mapped_from="GRCh38" />
+            <long_name>RAG2-004 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00002192732">
+              <coordinates coord_system="LRG_99" start="5001" end="5135" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002144692">
+              <coordinates coord_system="LRG_99" start="8042" end="8430" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002166522">
+              <coordinates coord_system="LRG_99" start="9042" end="9071" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000432174.1">
+              <coordinates coord_system="LRG_99" start="9069" end="9071" strand="1" mapped_from="GRCh38" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000534379.4">
+            <coordinates coord_system="LRG_99" start="5004" end="8642" strand="1" mapped_from="GRCh38" />
+            <long_name>RAG2-006 (processed_transcript)</long_name>
+            <exon source="Ensembl" accession="ENSE00002201264">
+              <coordinates coord_system="LRG_99" start="5004" end="5135" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002199955">
+              <coordinates coord_system="LRG_99" start="8236" end="8642" strand="1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000530276.1">
+            <coordinates coord_system="LRG_99" start="5004" end="8374" strand="1" mapped_from="GRCh38" />
+            <long_name>RAG2-005 (processed_transcript)</long_name>
+            <exon source="Ensembl" accession="ENSE00002201264">
+              <coordinates coord_system="LRG_99" start="5004" end="5135" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002181492">
+              <coordinates coord_system="LRG_99" start="7970" end="8374" strand="1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000524423.1">
+            <coordinates coord_system="LRG_99" start="5005" end="13294" strand="1" mapped_from="GRCh38" />
+            <partial>3-prime</partial>
+            <long_name>RAG2-007 (processed_transcript)</long_name>
+            <exon source="Ensembl" accession="ENSE00002159661">
+              <coordinates coord_system="LRG_99" start="5005" end="5135" strand="1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000529083.1">
+            <coordinates coord_system="LRG_99" start="8482" end="9520" strand="1" mapped_from="GRCh38" />
+            <long_name>RAG2-008 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00002180690">
+              <coordinates coord_system="LRG_99" start="8482" end="8574" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002184006">
+              <coordinates coord_system="LRG_99" start="9042" end="9520" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000436327.1">
+              <coordinates coord_system="LRG_99" start="9069" end="9520" strand="1" mapped_from="GRCh38" />
+            </protein_product>
+          </transcript>
+        </gene>
+        <gene source="Ensembl" accession="ENSG00000166349.8">
+          <symbol source="HGNC" name="RAG1" />
+          <coordinates coord_system="LRG_99" start="10081" end="13294" strand="-1" mapped_from="GRCh38" />
+          <partial>5-prime</partial>
+          <long_name>recombination activating gene 1 (protein_coding)</long_name>
+          <db_xref source="GeneID" accession="5896">
+            <synonym>RAG-1</synonym>
+            <synonym>RNF74</synonym>
+          </db_xref>
+          <db_xref source="MIM" accession="179615" />
+          <db_xref source="HGNC" accession="9831">
+            <synonym>MGC43321</synonym>
+            <synonym>RNF74</synonym>
+          </db_xref>
+          <db_xref source="Ensembl" accession="ENSG00000166349" />
+          <transcript source="Ensembl" accession="ENST00000534663.1">
+            <coordinates coord_system="LRG_99" start="10081" end="13294" strand="-1" mapped_from="GRCh38" />
+            <partial>5-prime</partial>
+            <long_name>RAG1-001 (nonsense_mediated_decay)</long_name>
+            <exon source="Ensembl" accession="ENSE00002150399">
+              <coordinates coord_system="LRG_99" start="12762" end="12853" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002146102">
+              <coordinates coord_system="LRG_99" start="10081" end="10270" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000434610.1">
+              <coordinates coord_system="LRG_99" start="12847" end="13294" strand="-1" mapped_from="GRCh38" />
+              <partial>5-prime</partial>
+              <db_xref source="UniProtKB" accession="P15918">
+                <synonym>E9PPC4</synonym>
+                <synonym>Q8IY72</synonym>
+                <synonym>Q8NER2</synonym>
+              </db_xref>
+            </protein_product>
+          </transcript>
+        </gene>
+      </features>
+    </annotation_set>
+    <annotation_set type="lsdb">
+      <source>
+        <name>List of locus specific databases for RAG2</name>
+        <url>http://grenada.lumc.nl/LSDB_list/lsdbs/RAG2</url>
+      </source>
+      <modification_date>2015-06-22</modification_date>
+    </annotation_set>
+  </updatable_annotation>
+</lrg>

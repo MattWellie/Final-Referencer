@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="application/xml" href="lrg2html.xsl"?>
+
+<lrg schema_version="1.9">
+  <fixed_annotation>
+    <id>LRG_43</id>
+    <hgnc_id>1699</hgnc_id>
+    <sequence_source>NG_007368.1</sequence_source>
+    <organism taxon="9606">Homo sapiens</organism>
+    <source>
+      <name>CD79Bbase: Mutation registry for Igβ deficiency</name>
+      <url>http://structure.bmc.lu.se/idbase/CD79Bbase/</url>
+      <contact>
+        <name>Jouni Valiaho</name>
+        <address>University of Tampere, Finland</address>
+        <email>Jouni.Valiaho@uta.fi</email>
+      </contact>
+      <contact>
+        <name>Mauno Vihinen</name>
+        <address>University of Tampere, Finland</address>
+        <email>Mauno.Vihinen@med.lu.se</email>
+      </contact>
+    </source>
+    <mol_type>dna</mol_type>
+    <creation_date>2010-07-15</creation_date>
+    <sequence>TTTTTTTGGTTACCTGGATAATTTCTTTAGTGGTGATTTCTGAGATTTTAGTGCACCTGACACCTGAGCAGTGTACACTATACCCAATATGTAGTCTTTTGTCCCTCACCCCTCCCTCAACGTTCCCCCACTGAGTTCCCAAAGTCCATTATATCATTCTTGTGCCTTTGCATCCTCATAGCTTAGCTCCCACTTACAAGTGAGAACATATGCTATCTGGTTTTCCATTCCTGAGTTACTTTACTTAGAATAATGGCCTACAGCTCCAACCAGGTTGCTGCAAAAAGATGCTATTTCGCTTCCTTTTTTTTTTTTTTTTTTTTGAGACGGAGTCGCACTCTGTCGCCCAGGCTGGAGTACAGTGGCGCGATCTCGGCTCACTGCAAGCTCCGTCTCTCGGGTTCACACCATTCTCCTGCCTCAGCCTCCCAAGTAGCTGGGACTACAGGCGCCTGCCACCACGCTCGGCTAATTTTTTGTATTTTTAGTAGAGACAGGGTTTCACCTGGTTAGCCAGGATGGTCTCAATCTCCTGACCTCGTGATCCGCCCACCTCAGCTTCCCAAAGTACTGGGATTACAGGTGTGAGCCACAATGCCCAGCCTATTTCACTCCTTTTTATGGCTAAGTAGTATTCCATAAAGAGGTGTATATATACCACATTTTCTTTATCCACTCATAGGTTAGTAGGCACTCAGGTTGGTTCCATATCTTTGCAATTGTGAATTGTGCTGCTATAAGCATGCGTGTGCATGTGTCTTTTAGAAAATCAAAATTATATCAAGTATCTTCTCCAACCACAGTGGAATAAAACTAGAAATCCACTCCAAAAGGAACCCTCAAAATTATACAAATATATGGAAATTAATCTGTTCTTGAGTGATTTGGGGGTTAACAATAAAATCAAGATGGAAATTTAAAAATTCTTTGAAATGAATGATAATGACACAACTTCTCAAAACCTCTGTGATACAGCAAAAGTGGTAGTAAGAGGAAAGTTCATAGCATTAAATGCCTACATCAAAAACTCTGGAAGACCACAAATGCCTCAAGGTACCAGAGAAACAAAAACAAATTAAACTCAAACCCAGCAGAAGAGAAGAAATGAGAAAAATCAGAGCAGAACCAAATGAAATTGAAACAAACAACACAAAAGATCAATTAAAACAAAAAGTTGGGCCGGGCACAGTGGCTCATGCCTGTAATCCCAGCACTTTGAGAAGCCGAGGCGGGCAGATCACGAGGACAGGAGTTTGAGACCAGCCTGGCCAAAATGGTGAAACCTCATCTCTACTAAAAATACAAAAATTAGCTGGGTGCAGTGTTGCACGCCTATAGTCCCAGCTACTTGGGAGGCTGAGGCAGGAGAATCACTTGAACCCAGGAGGCGGAGGTTGCAGTGAGCTGAGATCATGCCACTGCACTCCAGCCTGGGCAACAGAGCAAGACTCCATCTCAAAAAAAAAAAAAAGCTGGTTCTTTGAAAAGATAAAATTGATAGACCATTAGCAAGATTAACCAAGAAAAGAGAGAAGATCCAAATAAGCTCTATTAGAAATGACACTGGAGACATTCTTTTCACTTTAAGTTCCTCCAGACCTCGCCTGGAGCCCTCTCTGGCATCAGGGACAGGAAGATTTGCAGAGCGCAGGGTGCTCAAGCCCACACATCCTTTGAGCCTTGAATGGTGGAAGAAAAAAGGCCTCATATTGGGTGAGAAACAGAGACAACTTGGGACAACAGTCACAGCTACCCACCTCCCCAGGCATCCGTGCCACTCCTCGCACTCCTCGCCCTCCTCAGGGCGTGCCGTCCACCACATTCACCAAGTACCTCAGATGCAGGATGGCCTTCAATGTGCACAGCTGCCCTTCGACCAACGCACTGTTGGGGCCGGGCGCAGTGGCTCACGCCTGTAATCCCAGCACTTTGGGAGGCTGAGGCGGGTGGATCGCTTGAGCTCAGGAGTTTGAGACCAGCCTGGGCAACATAGTAAAACCTGTCTCTACAAGAAATACACAGATTAGCCAGGTGTAGTAGCATGACCTGTAGTCCCAGCTACTCGGGAGGCTGAGGTGGGTGAATCACTTGAGTCCAGGTGGCAGAGGTTGCCGTGAATGGAGATTGCACCACTGCACTCCAGCCTGGACAACAGAGCAAGATCTTGTCTCAGAAAAACCCCAGAAAACAACAACAAAAAAACGCGCTATTGGGCTTATTTCTATTTTACGAAAATGAGGAACCTTGGTCACTGAGAGGTTAAGAATGGGTGTTGCCTCATGGGTGCTGTTGGCATGTGGGGCAGGGAACTCTGCTTTGCCAGCCAATGCCCCTCCCGCCCCAGGCACCCACCGGTCATTGAGACCAGCGCGATTGCCCTGATGCATGTGCAGACGCTCCCTCCGTTGGGGCAGAGCCACCCTTAGTAGAGAACCACTGGTAACCTGGGGAGGTTTCCTGGCTGCTACACTGCTGGGTCAGGACTCAAACCCACGTCCTTCTTAGCAGGTCTTTTCCCAGTCACAGCAGCCCAGCAGATCCAGGACACCTGGGCTGGAGAAGGAGGCAGGGGTCTGAGCTCTTCTTTCCCTGAGGTTCTTCCCCCTCCCGGCATCCTAGGGTGGCTGGGGGTCGCTGCCTTCTTGCTTCCCCACCCCCTGAGCCCCTTGTCCCTTCGCCCGACCCTGGCCCCCATTCCTTATTTTGATGTTGCCTTCCTGGAAAGGGAGGTGTCGTCAGAAGTCAGAATGTGAAGCCCCGGGCAGCCGAGGGCAGAGGCAGGGGTAGGCTTGTGAGGCCTCCTGTTCTGGGAAGAAAAGGGCATCATGAGCCCAAAATGGGGCTCAGGGCTGTTGTCACCAGTGAGGGAACAGCACGGCTCAAAATGTGACAAATAACCCTGCAGGCGGTGGGGCCCCCGCTGCCTCCGCCCCTCCTGAAAACAGATCCCTGCCCGGCATGAATGGGAATGAAGCCCAAAGGCCACATCTGCATCCTTGTCCACGGGATGTGTGTGTCTTCCCTCCCTGGAGTGGGAGCTGCTTCTCACTTGTTTTTTTAAATTTTTTATTTCAATATTTTCTGGGGTACAGGTAGTTTTTTTGGTTACCTGGATAAGTTCTTTAGTGGTGATTTCTGAGATTTTAGCGCACCTGTCACCTGAGGATGGGTGCCAACTGCCCCCCACCAACCTCCGTGCCCCCTACAGTCCGCTGAGCCCTAGGACCAGCTCCAGAGTAGGCCCCACACCACAGGGTCCAGGCAACACACCTGTGTGAGCATGCACATACACACACACACACACCCCCCACAAACACGTGTGCCCCAAGCCTTTCCCAGTTATACCCCCCAACTTTGGGGAGACACTAGCCCCAAAGTTAATGAAGGACTCTGTCGTTAGGGGCTCAGGAAGAGTATTTCCTAAACCATGAGACTCCCAGATTTTGCCCCACTCCCCCCGGGTCAGTCTCTCTCCAGCCACCCTCACCAGCATGCGGGCCCATGGGCCTCAAGCTGACCTCAGGTGATGTTTATATTTCTGAGCTGTTTATTCCATGAACTGAACATCTGACAGCTTTTCAGAGAAATGTTTTTTCATTTGGAACATCTGGAAACAAGAAAGAACATCTGGGGCTGCCCGGAACGGGCTGTTCCTCGGATGAAACCTTAACCCTCCTGCCCCTGACTTCCGTGGCTCAGGTCCTGGCCTGCACCCCTTGAGAGTGGCCCCCACCTTATCAGGTCCGAGGCCTAGGCCAAGATCTAAAGAGGGACCACCCAGACCCTCTGCCTTCCAACCATGGCATGGGAGGTGGTTCTGCTTCTCCCTAAATCCAGACAGACCTGCCCCAGCACAGACTGGAAAACGGAGGGTTGTGAGGAGAGTGAGAGGTGGACAGAGGGCACCGACGATTTAGCATCTCTTCCTCTCCTGGGGGTCGAGGATGAGAGACAAAAAAGAAGCTGCCAGGAAACATAAAATTCAGAGGGCTCAGCTGCAGGGCTGAGGTCTGCAAGCATGCTGTGTACACTTGTGCATGTTGTGCCCTGCACAAGGGCATCTCTGAAGGGGCTGCATTGGACCCAGGGGCAGGGGCGCAAAGGTGAGTTTATATCAGTTCCTGAGCACTGTGGCTCCATCCAGCACTCTGAGGACAGGCAGGATACAGCTGGAGGACCTGAGGGCTCCCCCACACCAGCTCCTGTTCCCTGCCCAAGACCCCCTGGACCTGCAGACAACAATTCAACGCACTCAGAGTCCCACAGTTAAGAACTCCCTGAAGAAGCCCCCAGTGGCTGCGTGGTGGATTTTCGCAAAGCTGTCTCCACCTACATCCACCCTGTTTGGCAGCCCCTACATACTCTTTCACAGCATGAGGAAGGGAGGCCTCTCACCAAGACCTGGACTGAATCTTCTCCCAGTGGCTGCCACACTTGACCTGCTCTTGCTCCAGAACCTCTGTGGCTCCCATCCTCCACAGGGTCAACTTCCAACATGGCTGCCTGCACTCCAGCCAAGAGGCTCTGCTCTGGGCCCCTCCAGATGCCTGACCTGGGTCTGTGGCTGCCCTGTCCTTCTTCAGTGCTCCTCTTCCCGCTGGGTGAGGAATAGTTCAGGACAGAGGAGCTAAGTTCAGGTTCATTCATAGGACAGGTGCCTATTTCGCTCACGGCCCAGGAATAGAGACTTGCCGGGCTCGGCCCTTCGGGGAGTTGGCAGACGGCAGAGGGGAGGCTGGCTGGCCCAGGGGATGACCACCGGTGGGGTAAGCACAGACAGAGGGGAGCACAGGCTTCCCCCAGAAGACTGAGAGGCCCCCCAGAGGCATCCACAGAGGACCCCAGCTGTGCTGCCCAAGCTGGGCGACCGCCAAACCTTAGCGGCCCAGCTGACAAAAGCCTGCCCTCCCCCAGGGTCCCCGGAGAGCTGGTGCCTCCCCTGGGTCCCAATTTGCATGGCAGGAAGGGGCCTGGTGAGGAAGAGGCGGGGAGGGGACAGGCTGCAGCCGGTGCAGTTACACGTTTTCCTCCAAGGAGCCTCGGACGTTGTCACGGGTTTGGGGTCGGGGACAGAGCGGTGACCATGGCCAGGCTGGCGTTGTCTCCTGTGCCCAGCCACTGGATGGTGGCGTTGCTGCTGCTGCTCTCAGGTACAGAACCCACGACGAGGCCTGTGGGGTTTGCTCTCATCTCCAGCTGTCTGGGCCCTGCGGCTCTGCCTCCTGCTTGCTCCACCCTCCTCCTCTGTCTCTCACTCTTTACCGCCTGTCTCCCTCTCATGGCCCTGGGGCCTGGGTCTGTGGGTGTCAGCTGCACGTGGTGATGGGCTCAGGAGCCTGTGGCCCCAGTTCCTCTCCTGCCTGGAGAGCATCAGGCTGAGCTGGGCATGAGGAGCAAACCAGAGTTAGCAACCAGGACCGTGGAAGAACTAGGCTCAGGAGGAAGAGAGGCTGAGGGCGGTGCCTGGGGGTCGGGAGGGGAGAGGCTGTCCCAACCGGACCCTGGAAGATGCAAGATCCAAATGTGGTCCCCTCCTCTGGGAGGTGAAAGATCCTCCGGGCTGTGACTTTCTTCCTGTCTCTCTTTAAAAAAAAAAAAAAAAAGAGAGACAGGGTGTCCCTATGTTGCCCAGGCTGGTCTCAAACTCCTGGACCCAAGCGATCCTCCTGTCTTGGCCTCTCAAAATACTGAGATTTCCCTGTCCCTCCTGTCTCATTCAGATGCCTGCTCAAAGCCACCATGAGGGTCAAAGGCAGAAAGGGGGCTGGGGGCAGGGCTTCCGGTACCCCCACCCCATATCTGTCTCCCAAGTACTGGGGGCAGGGAGGACCGAGGGGTCTTGAAGCTGCTGTCATGGAAGGAGGAAGTAGCTCCGGGAACATAGAGGGCATGCAGGGGTGGGGCAGCCCAGGCCAGAGGAGGCCCTGACTGGCCCCGCCCACTTCCTCCCACCCAGCAGCTGAGCCAGTACCAGCAGCCAGATCGGAGGACCGGTACCGGAATCCCAAAGGTCAGTAGCCTCGCCTGCCGCTTCTGAGGGCAAGTTGTGTGCGACTATGTCCTGTGTCCGACTATGGTCCCTGTCCTGGGGGCGGTCCGCCTTCCCACCCTTGCCTGATCTCCCCATCCAGGATTCCCATCCCCAGGCCTCCTTAGGATCTCCTCTGAGCCCCACCCCCAGCCCACTGTCATCCTCATCAGACACATGCCCTCCAGCCTTGGCCACTGAAGGGCTGGGCTAAACTCTGGGTCATAGCAAGGGAGCCTGGGGGTTCCTCTAGGACTCAGGCCCGGGCCTGTCTAGCTGGGAATCTGGCTGAGTCTCGGGTGAGCCCTCCAGTGCAGGGTCACTATGTGAGGGGCTCAGGGATTCCCGGGCAGTGCTCACTAAGAACAAGGCAGTCGAAGCTGGAAAGAGGGTTCTGGAACAAGAAGTGGACCCAGTCCCTGCAGGAGGGAAGAGGGGGATGATAGAGGGAAGTCATGCAGGGAGGGGGTCGACTGAGGAAGGTCTCAGTTGACAGACTAGGAATTTGGCCTTTATCCCTGGAGGAACGGGGGAGACTGAGGATTTCAAGCCTGTGCAGGGCAGCCCAGTGAAAGGAGGGGCCAGGCCTGTGGGCCTCCAGGTCCTGGGGGTGTGGCCTGGGTCAGGCTGTTGTAATGGGCATAGGAAGGAATGGCAAGGTCCCAGGGCTCTTCCAAAGGAAAATCGAAGGGGAGGTGGGGCAGTCGGGAAGAGGTGGAGTCTGAGAGCTTGGCCGTGGCTTCTCATGTGGCTCAGCCTCTCACGTGGCTCTGCTTCCCAACTCCAACCTCAGCCTCCTGCCTGTCCCACACCCTGAGAAGCAAGGACTAAGCCCAGGGAGTCTGTGCCAGCCAGGGCAGGGGCCTGCTGCTGGGGCTGGCACTCAGGAAGATGCCAAGCGGAATGCTGAGCCTGGCCTTGGCACCCACAGGTAGTGCTTGTTCGCGGATCTGGCAGAGCCCACGTTTCATAGCCAGGAAACGGGGCTTCACGGTGAAAATGCACTGCTACATGAACAGCGCCTCCGGCAATGTGAGCTGGCTCTGGAAGCAGGAGATGGACGAGAATCCCCAGCAGCTGAAGCTGGAAAAGGGCCGCATGGAAGAGTCCCAGAACGAATCTCTCGCCACCCTCACCATCCAAGGCATCCGGTTTGAGGACAATGGCATCTACTTCTGTCAGCAGAAGTGCAACAACACCTCGGAGGTCTACCAGGGCTGCGGCACAGAGCTGCGAGTCATGGGTGTGTGCCAGGTGGCTGGGACGCTCCTGTAGCTGTCCGCCCCACCCTAGCCCGGCCTGCCTCTTGTGGTGATGGTCATGGCCCTAGAGCACTCAGGAGAGCCACTGGGACCTGAGGGAGCTGCCCTTGTAGGCCTAAAAGGTGGACTGTGGCCCAGGCTCACAACCCCACCCCTGTCCCCGCAGGATTCAGCACCTTGGCACAGCTGAAGCAGAGGAACACGCTGAAGGATGGTATCATCATGATCCAGACGCTGCTGATCATCCTCTTCATCATCGTGCCTATCTTCCTGCTGCTGGACAAGGTGATCAGGGGACGGGGGAAGCCTTGGGGGACCGCAGAGGAGGCCACCGCATAGGCCAGGCATATGCAGGGTCTCCATCTCCCCAGCTCTCGTTGTGGCCTTCTTGGTCCAGCCTGTCCCCACTGGCTCACCAATTCAATCATTCCTTCCTTCCTTCCTTCATTCAGCTGTTCTTGCAGAATGCACCTCACTCCTGACCCCTCACCCCTCTCCCTGGCCCTCCCCAGCCTGGCCCAGCAGGGGATGGGGCTGGGGGACACTAACACTCTGATCTCCATCCCTCTCCGCCCCCAGGATGACAGCAAGGCTGGCATGGAGGAAGATCACACCTACGAGGTAAGGAGAGGGGCAGGCCCAGCAGCTCTGAGTCCTCGGGGTCAGTGGCCACTATCTGCTGGTGTGGTTGGGGTGTGGTCCCGGCCTGAGTTCCACTTAATGTCTCCAGGGCCTGGACATTGACCAGACAGCCACCTATGAGGACATAGTGACGCTGCGGACAGGGGAAGTGAAGTGGTCTGTAGGTGAGCACCCAGGCCAGGAGTGAGAGCCAGGTCGCCCCATGACCTGGGTGCAGGCTCCCTGGCCTCAGTGACTGCTTCGGAGCTGCCTGGCTCATGGCCCAACCCCTTTCCTGGACCCCCCAGCTGGCCTCTGAAGCTGGCCCACCAGAGCTGCCATTTGTCTCCAGCCCCTGGTCCCCAGCTCTTGCCAAAGGGCCTGGAGTAGAAGGACAACAGGGCAGCAACTTGGAGGGAGTTCTCTGGGGATGGACGGGACCCAGCCTTCTGGGGGTGCTATGAGGTGATCCGTCCCCACACATGGGATGGGGGAGGCAGAGACTGGTCCAGAGCCCGCAAATGGACTCGGAGCCGAGGGCCTCCCAGCAGAGCTTGGGAAGGGCCATGGACCCAACTGGGCCCCAGAAGAGCCACAGGAACATCATTCCTCTCCCGCAACCACTCCCACCCCAGGGAGGCCCTGGCCTCCAGTGCCTTCCCCCGTGGAATAAACGGTGTGTCCTGAGAAACCACACACAGGCTCGTGGCATCTTATGGGTTTGGGGTGGATAGGAACATCTATGTGGGCACTTCTGTTGTTTGAATGTGGCATCTGTGAGCCCTCGAGGGTGTGGGAAAGGTAACAGCCACCCCTCCTCTCCGAAGACCCAGTTGGAGCCTGTGGTCGCATCCCCGTTTCTTCTCCCTGGAACGGGGCTGCATGCCAGGCCCTAGCTGGACCCAGAGCAGCTGGCCAGTGACTGGGCCTGTCCTTCCCCTCAGCAGGGACACCCTCATCTTGCACTTCATTCAGCCGAAAAGCGGCAATTGAGTCCCACTCTGCCTCCACCTACAGGAAGCCCTCCCAAAGCACCTGGGTCCTCGCCCAAGCCCTGCTCAGACCAGCCTATGCAGCGGCGACTTAGCTACTGCCTTGTGCTACTCACACTGGCCTTGGTTCTCCAGGCAAACTGGAAGCTCCCTGAGGGTAGGGGTTTCCCTGCCTCTACAACACTCCCACCCCCACCTCCCAGGAAGCCTAGGAAAGCTTGATGCAAAGCCATCAAGAGTGAGATCCTGAAGAGTGGAGCTTTGTATGGTGAAGCTTTGGGGTTCTTAGCCAGGGGACCCCTTCAGACTTTCCCAGCCTCATATCGGAGGTCCCCTATGGCCCCAGGGTCCTCAAACAATGGTCCCTAGGGCCCTCCAGCTCACCAGCTGTGGGAGGTACTGGGAACAGCTGCCAGCTGGGAGACCAAGTGCAATCAACCTGCACGTGCAAAGCCTCCCTCCCAAGCCAGGCTGTGCTCCACTTCCTGTTGACCCTGGAGGGAATCCTTCGAGGCCCCTCTGCTATTCCTGCTCTGAATTCCAGCAAGGGAGCACCTATGCTGTGGGAGCTGCCAGTTTAACTGGGGAATCAAGACCAGCACAGGGGAACTAGTGAGAACAGTGCCAATTTTCACCAGATTCCCTCTGGAATTCCAGGTGGGGCAGGTGGGTAAGGCCCCCACGCCTGCAGTTTCAGGTAAATCTCTCCACCACCCTGGGCCAGGCTGGGCCAAGCCAGGCGGCCCCTGTGTTTTCCCCAGTCTCTGGGCTGCTGGAGGGAACCAGGTTGTTTTGGCATCAGCCTCTACTGAGCCGGAGCCCTTCCTTTCCTGCTGCTTTGCATAGTGGCACTAATTCCGTCCTCCTACCTCCACCAGGGACCTAGGCAGCCGGGTAGATGGTGGGAGGAGGCTTCACTTCTCCCCCAAGCAGGGTCTCCACCTGCTTGAGGCTGCCCTGGGTTGGGGGAGGCCTTGGCTTTACCTAAAGACTTTTTAACACCTCTGAACAACTCAGTTTCCCTGAGACTTTGAAGTTCTTGTTTTATTTATCTATTTATTTACTTATTTATTTATTTGCAGACAGAGTCTCACTCTGTTGCCCAGGCTGGAGTGCAGTGGCACCATCTCCGCTCACTGCAACCTCCGTCTCCTGAGTTCAAGCAATTCTCCTGCCTCAGCCTCCAAAGTATCTGGGATTACAGGCGTACACCACCATGCTTGGCTAATTTTTGTATTTTTAGTAGAGATGGGGTTTCACCACGTTGGCCAGGCTGGTCTCAAACTCCTGACCTCAAGTGATCCATCCGCCTTGGCCTCCCAAAGTGCTGGGATTACAGGCATGAGCCACCGCGCCCAGCCCGAAGTTCTTGTTAACAGAGAATCATTTGAGCATAGACCTTGGCCCCTCCACCAGACACCCCCAAAGGGCTTGACTTCATGGGTTATAATGTAGGAGCCCTCCCCGGTCTGTTTTTCTGTTTTAAGGGCTTACACTCTGGGGGACATCATGTCTGTCTCCCCAGAACTGCCATAGGCAATGGTAATATAGCTGGGTACTGATGGTGGGGACAAGAAACATCTCAGGTTGCTTCATCTGCGAAATGGGAATCCTAAACCCCATCCGAGGGAAAGAATTTGGACTGGACATTGTTTTGTAAAAAATTATCACAATAAAATTGAGGGCCAGGCGCATTGGCTCATG</sequence>
+    <transcript name="t1">
+      <comment>This transcript is identical to the RefSeq transcript NM_001039933.1 but with the polyA tail removed.</comment>
+      <coordinates coord_system="LRG_43" start="5001" end="8607" strand="1" />
+      <cdna>
+        <sequence>CTGCAGCCGGTGCAGTTACACGTTTTCCTCCAAGGAGCCTCGGACGTTGTCACGGGTTTGGGGTCGGGGACAGAGCGGTGACCATGGCCAGGCTGGCGTTGTCTCCTGTGCCCAGCCACTGGATGGTGGCGTTGCTGCTGCTGCTCTCAGCAGCTGAGCCAGTACCAGCAGCCAGATCGGAGGACCGGTACCGGAATCCCAAAGGTAGTGCTTGTTCGCGGATCTGGCAGAGCCCACGTTTCATAGCCAGGAAACGGGGCTTCACGGTGAAAATGCACTGCTACATGAACAGCGCCTCCGGCAATGTGAGCTGGCTCTGGAAGCAGGAGATGGACGAGAATCCCCAGCAGCTGAAGCTGGAAAAGGGCCGCATGGAAGAGTCCCAGAACGAATCTCTCGCCACCCTCACCATCCAAGGCATCCGGTTTGAGGACAATGGCATCTACTTCTGTCAGCAGAAGTGCAACAACACCTCGGAGGTCTACCAGGGCTGCGGCACAGAGCTGCGAGTCATGGGATTCAGCACCTTGGCACAGCTGAAGCAGAGGAACACGCTGAAGGATGGTATCATCATGATCCAGACGCTGCTGATCATCCTCTTCATCATCGTGCCTATCTTCCTGCTGCTGGACAAGGATGACAGCAAGGCTGGCATGGAGGAAGATCACACCTACGAGGGCCTGGACATTGACCAGACAGCCACCTATGAGGACATAGTGACGCTGCGGACAGGGGAAGTGAAGTGGTCTGTAGGTGAGCACCCAGGCCAGGAGTGAGAGCCAGGTCGCCCCATGACCTGGGTGCAGGCTCCCTGGCCTCAGTGACTGCTTCGGAGCTGCCTGGCTCATGGCCCAACCCCTTTCCTGGACCCCCCAGCTGGCCTCTGAAGCTGGCCCACCAGAGCTGCCATTTGTCTCCAGCCCCTGGTCCCCAGCTCTTGCCAAAGGGCCTGGAGTAGAAGGACAACAGGGCAGCAACTTGGAGGGAGTTCTCTGGGGATGGACGGGACCCAGCCTTCTGGGGGTGCTATGAGGTGATCCGTCCCCACACATGGGATGGGGGAGGCAGAGACTGGTCCAGAGCCCGCAAATGGACTCGGAGCCGAGGGCCTCCCAGCAGAGCTTGGGAAGGGCCATGGACCCAACTGGGCCCCAGAAGAGCCACAGGAACATCATTCCTCTCCCGCAACCACTCCCACCCCAGGGAGGCCCTGGCCTCCAGTGCCTTCCCCCGTGGAATAAACGGTGTGTCCTGAGAAACCACA</sequence>
+      </cdna>
+      <coding_region>
+        <coordinates coord_system="LRG_43" start="5084" end="8119" strand="1" />
+        <translation name="p1">
+          <sequence>MARLALSPVPSHWMVALLLLLSAAEPVPAARSEDRYRNPKGSACSRIWQSPRFIARKRGFTVKMHCYMNSASGNVSWLWKQEMDENPQQLKLEKGRMEESQNESLATLTIQGIRFEDNGIYFCQQKCNNTSEVYQGCGTELRVMGFSTLAQLKQRNTLKDGIIMIQTLLIILFIIVPIFLLLDKDDSKAGMEEDHTYEGLDIDQTATYEDIVTLRTGEVKWSVGEHPGQE</sequence>
+        </translation>
+      </coding_region>
+      <exon label="1">
+        <coordinates coord_system="LRG_43" start="5001" end="5150" strand="1" />
+        <coordinates coord_system="LRG_43t1" start="1" end="150" />
+        <coordinates coord_system="LRG_43p1" start="1" end="23" />
+      </exon>
+      <intron phase="1" />
+      <exon label="2">
+        <coordinates coord_system="LRG_43" start="5957" end="6010" strand="1" />
+        <coordinates coord_system="LRG_43t1" start="151" end="204" />
+        <coordinates coord_system="LRG_43p1" start="23" end="41" />
+      </exon>
+      <intron phase="1" />
+      <exon label="3">
+        <coordinates coord_system="LRG_43" start="6960" end="7271" strand="1" />
+        <coordinates coord_system="LRG_43t1" start="205" end="516" />
+        <coordinates coord_system="LRG_43p1" start="41" end="145" />
+      </exon>
+      <intron phase="1" />
+      <exon label="4">
+        <coordinates coord_system="LRG_43" start="7457" end="7575" strand="1" />
+        <coordinates coord_system="LRG_43t1" start="517" end="635" />
+        <coordinates coord_system="LRG_43p1" start="145" end="184" />
+      </exon>
+      <intron phase="0" />
+      <exon label="5">
+        <coordinates coord_system="LRG_43" start="7870" end="7911" strand="1" />
+        <coordinates coord_system="LRG_43t1" start="636" end="677" />
+        <coordinates coord_system="LRG_43p1" start="185" end="198" />
+      </exon>
+      <intron phase="0" />
+      <exon label="6">
+        <coordinates coord_system="LRG_43" start="8021" end="8607" strand="1" />
+        <coordinates coord_system="LRG_43t1" start="678" end="1264" />
+        <coordinates coord_system="LRG_43p1" start="199" end="230" />
+      </exon>
+    </transcript>
+  </fixed_annotation>
+  <updatable_annotation>
+    <annotation_set type="requester">
+      <source>
+        <name>CD79Bbase: Mutation registry for Igβ deficiency</name>
+        <url>http://structure.bmc.lu.se/idbase/CD79Bbase/</url>
+        <contact>
+          <name>Jouni Valiaho</name>
+          <address>University of Tampere, Finland</address>
+          <email>Jouni.Valiaho@uta.fi</email>
+        </contact>
+        <contact>
+          <name>Mauno Vihinen</name>
+          <address>University of Tampere, Finland</address>
+          <email>Mauno.Vihinen@med.lu.se</email>
+        </contact>
+      </source>
+      <modification_date>2015-06-22</modification_date>
+    </annotation_set>
+    <annotation_set type="lrg">
+      <source>
+        <name>LRG</name>
+        <url>http://www.lrg-sequence.org/</url>
+        <contact>
+          <name>Locus Reference Genomic</name>
+          <url>http://www.lrg-sequence.org/contact</url>
+          <email>feedback@lrg-sequence.org</email>
+        </contact>
+      </source>
+      <modification_date>2015-06-22</modification_date>
+      <mapping coord_system="GRCh37.p13" other_name="17" other_id="NC_000017.10" other_id_syn="CM000679.1" other_start="62004098" other_end="62014704" type="other_assembly">
+        <mapping_span lrg_start="1" lrg_end="10607" other_start="62004098" other_end="62014704" strand="-1" />
+      </mapping>
+      <mapping coord_system="GRCh38.p2" other_name="17" other_id="NC_000017.11" other_id_syn="CM000679.2" other_start="63926738" other_end="63937344" type="main_assembly">
+        <mapping_span lrg_start="1" lrg_end="10607" other_start="63926738" other_end="63937344" strand="-1" />
+      </mapping>
+      <lrg_locus source="HGNC">CD79B</lrg_locus>
+    </annotation_set>
+    <annotation_set type="ncbi">
+      <source>
+        <name>NCBI RefSeqGene</name>
+        <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
+        <contact>
+          <name>RefSeqGene Group</name>
+          <address>NCBI/NLM/NIH</address>
+          <email>rsgene@ncbi.nlm.nih.gov</email>
+        </contact>
+      </source>
+      <comment>Annotation from NG_007368.1</comment>
+      <modification_date>2015-06-19</modification_date>
+      <mapping coord_system="NM_000626.2" other_name="NM_000626.2" other_id="NM_000626.2" other_start="1" other_end="1261" type="transcript">
+        <mapping_span lrg_start="5001" lrg_end="5150" other_start="1" other_end="150" strand="1" />
+        <mapping_span lrg_start="5960" lrg_end="6010" other_start="151" other_end="201" strand="1" />
+        <mapping_span lrg_start="6960" lrg_end="7271" other_start="202" other_end="513" strand="1" />
+        <mapping_span lrg_start="7457" lrg_end="7575" other_start="514" other_end="632" strand="1" />
+        <mapping_span lrg_start="7870" lrg_end="7911" other_start="633" other_end="674" strand="1" />
+        <mapping_span lrg_start="8021" lrg_end="8607" other_start="675" other_end="1261" strand="1" />
+      </mapping>
+      <mapping coord_system="NM_001039933.1" other_name="NM_001039933.1" other_id="NM_001039933.1" other_start="1" other_end="1264" type="transcript">
+        <mapping_span lrg_start="5001" lrg_end="5150" other_start="1" other_end="150" strand="1" />
+        <mapping_span lrg_start="5957" lrg_end="6010" other_start="151" other_end="204" strand="1" />
+        <mapping_span lrg_start="6960" lrg_end="7271" other_start="205" other_end="516" strand="1" />
+        <mapping_span lrg_start="7457" lrg_end="7575" other_start="517" other_end="635" strand="1" />
+        <mapping_span lrg_start="7870" lrg_end="7911" other_start="636" other_end="677" strand="1" />
+        <mapping_span lrg_start="8021" lrg_end="8607" other_start="678" other_end="1264" strand="1" />
+      </mapping>
+      <mapping coord_system="NM_021602.2" other_name="NM_021602.2" other_id="NM_021602.2" other_start="1" other_end="949" type="transcript">
+        <mapping_span lrg_start="5001" lrg_end="5150" other_start="1" other_end="150" strand="1" />
+        <mapping_span lrg_start="5960" lrg_end="6010" other_start="151" other_end="201" strand="1" />
+        <mapping_span lrg_start="7457" lrg_end="7575" other_start="202" other_end="320" strand="1" />
+        <mapping_span lrg_start="7870" lrg_end="7911" other_start="321" other_end="362" strand="1" />
+        <mapping_span lrg_start="8021" lrg_end="8607" other_start="363" other_end="949" strand="1" />
+      </mapping>
+      <features>
+        <gene source="NCBI-Gene" accession="974">
+          <symbol source="HGNC" name="CD79B">
+            <synonym>AGM6</synonym>
+            <synonym>B29</synonym>
+            <synonym>IGB</synonym>
+          </symbol>
+          <coordinates coord_system="LRG_43" start="5001" end="8607" strand="1" />
+          <long_name>CD79b molecule, immunoglobulin-associated beta</long_name>
+          <db_xref source="GeneID" accession="974" />
+          <db_xref source="HGNC" accession="HGNC:1699" />
+          <db_xref source="MIM" accession="147245" />
+          <db_xref source="CCDS" accession="CCDS11656.1" />
+          <db_xref source="CCDS" accession="CCDS42372.1" />
+          <db_xref source="CCDS" accession="CCDS11655.1" />
+          <db_xref source="GI" accession="166295215" />
+          <transcript source="RefSeq" accession="NM_001039933.1" fixed_id="t1">
+            <coordinates coord_system="LRG_43" start="5001" end="8607" strand="1" />
+            <long_name>CD79b molecule, immunoglobulin-associated beta, transcript variant 3</long_name>
+            <db_xref source="GeneID" accession="974" />
+            <db_xref source="GI" accession="90193591" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_43" start="5001" end="5150" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_43" start="5957" end="6010" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_43" start="6960" end="7271" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_43" start="7457" end="7575" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_43" start="7870" end="7911" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_43" start="8021" end="8607" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_001035022.1" fixed_id="p1">
+              <coordinates coord_system="LRG_43" start="5084" end="8119" strand="1" />
+              <long_name>B-cell antigen receptor complex-associated protein beta chain isoform 3 precursor</long_name>
+              <long_name>B-cell-specific glycoprotein B29</long_name>
+              <long_name>CD79b antigen (immunoglobulin-associated beta)</long_name>
+              <long_name>Ig-beta</long_name>
+              <long_name>B-cell antigen receptor complex-associated protein beta chain</long_name>
+              <long_name>immunoglobulin-associated B29 protein</long_name>
+              <db_xref source="CCDS" accession="CCDS42372.1" />
+              <db_xref source="GeneID" accession="974" />
+              <db_xref source="GI" accession="90193592" />
+            </protein_product>
+          </transcript>
+          <transcript source="RefSeq" accession="NM_000626.2">
+            <coordinates coord_system="LRG_43" start="5001" end="8607" strand="1" />
+            <long_name>CD79b molecule, immunoglobulin-associated beta, transcript variant 1</long_name>
+            <db_xref source="GeneID" accession="974" />
+            <db_xref source="GI" accession="90193589" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_43" start="5001" end="5150" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_43" start="5960" end="6010" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_43" start="6960" end="7271" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_43" start="7457" end="7575" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_43" start="7870" end="7911" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_43" start="8021" end="8607" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_000617.1">
+              <coordinates coord_system="LRG_43" start="5084" end="8119" strand="1" />
+              <long_name>B-cell antigen receptor complex-associated protein beta chain isoform 1 precursor</long_name>
+              <db_xref source="CCDS" accession="CCDS11655.1" />
+              <db_xref source="GeneID" accession="974" />
+              <db_xref source="GI" accession="11038674" />
+            </protein_product>
+          </transcript>
+          <transcript source="RefSeq" accession="NM_021602.2">
+            <coordinates coord_system="LRG_43" start="5001" end="8607" strand="1" />
+            <long_name>CD79b molecule, immunoglobulin-associated beta, transcript variant 2</long_name>
+            <db_xref source="GeneID" accession="974" />
+            <db_xref source="GI" accession="90193590" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_43" start="5001" end="5150" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_43" start="5960" end="6010" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_43" start="7457" end="7575" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_43" start="7870" end="7911" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_43" start="8021" end="8607" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_067613.1">
+              <coordinates coord_system="LRG_43" start="5084" end="8119" strand="1" />
+              <long_name>B-cell antigen receptor complex-associated protein beta chain isoform 2 precursor</long_name>
+              <db_xref source="CCDS" accession="CCDS11656.1" />
+              <db_xref source="GeneID" accession="974" />
+              <db_xref source="GI" accession="11038676" />
+            </protein_product>
+          </transcript>
+        </gene>
+      </features>
+    </annotation_set>
+    <annotation_set type="ensembl">
+      <source>
+        <name>Ensembl</name>
+        <url>http://www.ensembl.org/</url>
+        <contact>
+          <name>Ensembl</name>
+          <address>European Bioinformatics Institute</address>
+          <email>helpdesk@ensembl.org</email>
+        </contact>
+      </source>
+      <comment>Annotation is based on Ensembl release 80 (GRCh38  primary assembly)</comment>
+      <modification_date>2015-06-22</modification_date>
+      <mapping coord_system="ENST00000006750.6" other_name="ENST00000006750.6" other_id="ENST00000006750.6" other_start="1" other_end="1269" type="transcript">
+        <mapping_span lrg_start="4991" lrg_end="5150" other_start="1" other_end="160" strand="1" />
+        <mapping_span lrg_start="5960" lrg_end="6010" other_start="161" other_end="211" strand="1" />
+        <mapping_span lrg_start="6960" lrg_end="7271" other_start="212" other_end="523" strand="1" />
+        <mapping_span lrg_start="7457" lrg_end="7575" other_start="524" other_end="642" strand="1" />
+        <mapping_span lrg_start="7870" lrg_end="7911" other_start="643" other_end="684" strand="1" />
+        <mapping_span lrg_start="8021" lrg_end="8605" other_start="685" other_end="1269" strand="1" />
+      </mapping>
+      <mapping coord_system="ENST00000349817.2" other_name="ENST00000349817.2" other_id="ENST00000349817.2" other_start="1" other_end="378" type="transcript">
+        <mapping_span lrg_start="5084" lrg_end="5150" other_start="1" other_end="67" strand="1" />
+        <mapping_span lrg_start="5960" lrg_end="6010" other_start="68" other_end="118" strand="1" />
+        <mapping_span lrg_start="7457" lrg_end="7575" other_start="119" other_end="237" strand="1" />
+        <mapping_span lrg_start="7870" lrg_end="7911" other_start="238" other_end="279" strand="1" />
+        <mapping_span lrg_start="8021" lrg_end="8119" other_start="280" other_end="378" strand="1" />
+      </mapping>
+      <mapping coord_system="ENST00000392795.6" other_name="ENST00000392795.6" other_id="ENST00000392795.6" other_start="1" other_end="1254" type="transcript">
+        <mapping_span lrg_start="5009" lrg_end="5150" other_start="1" other_end="142" strand="1" />
+        <mapping_span lrg_start="5957" lrg_end="6010" other_start="143" other_end="196" strand="1" />
+        <mapping_span lrg_start="6960" lrg_end="7271" other_start="197" other_end="508" strand="1" />
+        <mapping_span lrg_start="7457" lrg_end="7575" other_start="509" other_end="627" strand="1" />
+        <mapping_span lrg_start="7870" lrg_end="7911" other_start="628" other_end="669" strand="1" />
+        <mapping_span lrg_start="8021" lrg_end="8605" other_start="670" other_end="1254" strand="1" />
+      </mapping>
+      <mapping coord_system="ENST00000558969.1" other_name="ENST00000558969.1" other_id="ENST00000558969.1" other_start="1" other_end="563" type="transcript">
+        <mapping_span lrg_start="5014" lrg_end="5150" other_start="1" other_end="137" strand="1" />
+        <mapping_span lrg_start="5960" lrg_end="6385" other_start="138" other_end="563" strand="1" />
+      </mapping>
+      <mapping coord_system="ENST00000559358.1" other_name="ENST00000559358.1" other_id="ENST00000559358.1" other_start="1" other_end="1159" type="transcript">
+        <mapping_span lrg_start="6831" lrg_end="7271" other_start="1" other_end="441" strand="1" />
+        <mapping_span lrg_start="7457" lrg_end="7575" other_start="442" other_end="560" strand="1" />
+        <mapping_span lrg_start="7870" lrg_end="7911" other_start="561" other_end="602" strand="1" />
+        <mapping_span lrg_start="8021" lrg_end="8577" other_start="603" other_end="1159" strand="1" />
+      </mapping>
+      <mapping coord_system="ENST00000583260.1" other_name="ENST00000583260.1" other_id="ENST00000583260.1" other_start="1" other_end="433" type="transcript">
+        <mapping_span lrg_start="5022" lrg_end="5454" other_start="1" other_end="433" strand="1" />
+      </mapping>
+      <features>
+        <gene source="Ensembl" accession="ENSG00000007312.11">
+          <symbol source="HGNC" name="CD79B" />
+          <coordinates coord_system="LRG_43" start="4991" end="8605" strand="1" mapped_from="GRCh38" />
+          <long_name>CD79b molecule, immunoglobulin-associated beta (protein_coding)</long_name>
+          <db_xref source="GeneID" accession="974">
+            <synonym>AGM6</synonym>
+            <synonym>B29</synonym>
+            <synonym>IGB</synonym>
+          </db_xref>
+          <db_xref source="MIM" accession="147245" />
+          <db_xref source="HGNC" accession="1699">
+            <synonym>B29</synonym>
+            <synonym>IGB</synonym>
+          </db_xref>
+          <db_xref source="Ensembl" accession="ENSG00000007312" />
+          <transcript source="Ensembl" accession="ENST00000006750.6">
+            <coordinates coord_system="LRG_43" start="4991" end="8605" strand="1" mapped_from="GRCh38" />
+            <long_name>CD79B-001 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS11655.1" />
+            <db_xref source="RefSeq" accession="NM_000626.2" />
+            <exon source="Ensembl" accession="ENSE00001331113">
+              <coordinates coord_system="LRG_43" start="4991" end="5150" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00000857853">
+              <coordinates coord_system="LRG_43" start="5960" end="6010" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00000857852">
+              <coordinates coord_system="LRG_43" start="6960" end="7271" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003501045">
+              <coordinates coord_system="LRG_43" start="7457" end="7575" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003602262">
+              <coordinates coord_system="LRG_43" start="7870" end="7911" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00000857849">
+              <coordinates coord_system="LRG_43" start="8021" end="8605" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000006750.3">
+              <coordinates coord_system="LRG_43" start="5084" end="8119" strand="1" mapped_from="GRCh38" />
+              <long_name>B-cell antigen receptor complex-associated protein beta chain isoform 1 precursor</long_name>
+              <db_xref source="RefSeq" accession="NP_000617.1" />
+              <db_xref source="UniProtKB" accession="P40259">
+                <synonym>Q53FS2</synonym>
+                <synonym>Q9BU06</synonym>
+              </db_xref>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000392795.6">
+            <coordinates coord_system="LRG_43" start="5009" end="8605" strand="1" mapped_from="GRCh38" />
+            <long_name>CD79B-002 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS42372.1" />
+            <db_xref source="RefSeq" accession="NM_001039933.1" />
+            <exon source="Ensembl" accession="ENSE00002247849">
+              <coordinates coord_system="LRG_43" start="5009" end="5150" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001513143">
+              <coordinates coord_system="LRG_43" start="5957" end="6010" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00000857852">
+              <coordinates coord_system="LRG_43" start="6960" end="7271" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003501045">
+              <coordinates coord_system="LRG_43" start="7457" end="7575" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003602262">
+              <coordinates coord_system="LRG_43" start="7870" end="7911" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00000857849">
+              <coordinates coord_system="LRG_43" start="8021" end="8605" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000376544.3">
+              <coordinates coord_system="LRG_43" start="5084" end="8119" strand="1" mapped_from="GRCh38" />
+              <long_name>B-cell antigen receptor complex-associated protein beta chain isoform 3 precursor</long_name>
+              <db_xref source="RefSeq" accession="NP_001035022.1" />
+              <db_xref source="UniProtKB" accession="P40259">
+                <synonym>Q53FS2</synonym>
+                <synonym>Q9BU06</synonym>
+              </db_xref>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000558969.1">
+            <coordinates coord_system="LRG_43" start="5014" end="6385" strand="1" mapped_from="GRCh38" />
+            <long_name>CD79B-005 (retained_intron)</long_name>
+            <exon source="Ensembl" accession="ENSE00002540990">
+              <coordinates coord_system="LRG_43" start="5014" end="5150" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002537633">
+              <coordinates coord_system="LRG_43" start="5960" end="6385" strand="1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000583260.1">
+            <coordinates coord_system="LRG_43" start="5022" end="5454" strand="1" mapped_from="GRCh38" />
+            <long_name>CD79B-006 (retained_intron)</long_name>
+            <exon source="Ensembl" accession="ENSE00002692561">
+              <coordinates coord_system="LRG_43" start="5022" end="5454" strand="1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000349817.2">
+            <coordinates coord_system="LRG_43" start="5084" end="8119" strand="1" mapped_from="GRCh38" />
+            <long_name>CD79B-004 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS11656.1" />
+            <db_xref source="RefSeq" accession="NM_021602.2" />
+            <exon source="Ensembl" accession="ENSE00002569602">
+              <coordinates coord_system="LRG_43" start="5084" end="5150" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00000857853">
+              <coordinates coord_system="LRG_43" start="5960" end="6010" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003501045">
+              <coordinates coord_system="LRG_43" start="7457" end="7575" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003602262">
+              <coordinates coord_system="LRG_43" start="7870" end="7911" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002541995">
+              <coordinates coord_system="LRG_43" start="8021" end="8119" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000245862.2">
+              <coordinates coord_system="LRG_43" start="5084" end="8119" strand="1" mapped_from="GRCh38" />
+              <long_name>B-cell antigen receptor complex-associated protein beta chain isoform 2 precursor</long_name>
+              <db_xref source="RefSeq" accession="NP_067613.1" />
+              <db_xref source="UniProtKB" accession="P40259">
+                <synonym>Q53FS2</synonym>
+                <synonym>Q9BU06</synonym>
+              </db_xref>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000559358.1">
+            <coordinates coord_system="LRG_43" start="6831" end="8577" strand="1" mapped_from="GRCh38" />
+            <long_name>CD79B-003 (retained_intron)</long_name>
+            <exon source="Ensembl" accession="ENSE00002574299">
+              <coordinates coord_system="LRG_43" start="6831" end="7271" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003610812">
+              <coordinates coord_system="LRG_43" start="7457" end="7575" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003621239">
+              <coordinates coord_system="LRG_43" start="7870" end="7911" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002321104">
+              <coordinates coord_system="LRG_43" start="8021" end="8577" strand="1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+        </gene>
+      </features>
+    </annotation_set>
+    <annotation_set type="lsdb">
+      <source>
+        <name>List of locus specific databases for CD79B</name>
+        <url>http://grenada.lumc.nl/LSDB_list/lsdbs/CD79B</url>
+      </source>
+      <modification_date>2015-06-22</modification_date>
+    </annotation_set>
+  </updatable_annotation>
+</lrg>

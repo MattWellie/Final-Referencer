@@ -1,0 +1,881 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="application/xml" href="lrg2html.xsl"?>
+
+<lrg schema_version="1.9">
+  <fixed_annotation>
+    <id>LRG_828</id>
+    <hgnc_id>1455</hgnc_id>
+    <sequence_source>NG_029662.1</sequence_source>
+    <organism taxon="9606">Homo sapiens</organism>
+    <mol_type>dna</mol_type>
+    <creation_date>2015-05-13</creation_date>
+    <sequence>CCATGCCCAGCTCAGCCGCCAACTCGGCGCTGTCCAGGCCGCCATCAGACGCCTCCAGCCGCCGGAGCAGCAGTTCCGCCACCTGACCATCCGCCATGACTCCTTCCAGTGTGCTCAGCGTGTCCGGGCCCGGGTGGGCGGGGGGAGCTGAGCCACCGGAACCGGAACCGGAGTGTGTACCGCCATCTTGAATGTGTCTAACTGTAGAACAGGGCTCAATGTGTCGTCATCTTGAGTGTGGCGACGGAGCCGCAAAAGGTGCATGGGACTCAGTTCCCACCTCCACCCTGGCTCCATCAATGGCGTCTGGTTGACCAGAGGGGTAAAATTGATTATCTCAAGGTCAGAAGCACCGCCCTGTTTTGAGTTTTATCTAGCCTCACTTCGAGCGGGCTGTGTGACCTTGGACTTCCCCGTCTCTGGGTTACAGAACCCTCTGCCCTTCTGGTATTCTCTCTTGCCCTAGGAGAGGCGGTGGGTGGTGGGCTCCAGAGATGGTCATTTTGGCGATGTCAGCTACTTTTAAAATTTCAAAGGAAGGCTGGGTAGGTACCGTCCCTTTTTATAGAGGGAAAAGGAATTCACCTAGTAAGTCAAGGTGGCACCTAACCTGTGTGGACTACCTCGTATGTGGTAGTACTTAGCCCAGAACTGAGTACTTCACGTGTAGTATTTCATTTATCCCCAAAACTTTATGATGTAGATACTGATATAACCGCATTACACATGTGAGAAAACTGAGGCTCAGAGGGTGGTATGACTTGCCCAAGGTTCTACAGAGAGTTGGTGGAAATGAAGTCATAAATTATAAACCTTCCAGATCCTCCCACCCCTGTGCGCTGAGAGTAACGTCAGTGCAAATACTGCATGGCCTAGATTAGCACTGTCCTATAGAAACACAGTGCAAAACATCTTTCTTTTTTGAGACAGGGTCTTGCTCTGTCACCCATGCTGGAGTGCAGTGGTGCAATTATGGCTTACTGCAGCCTTGACTTCCCAGGCTCTAAGGATCCTCCAACCTTAGGCTCCTGAGTAGCTGGAACTGCAGGTGCGCGCCACCACACCCAGCTTTTTTTTTTTTTTTAAGTATGGGTTTTGGCCATGTTGCCCAGGCTGGTCTCAAACTCCTAGGCTCAGGTTATCCTCCTGCATCGGTCTCCCAAAATGCTGGCATTAGAGGCATGACCCACCTCGCCCAGCCAGCCAGACCCTGACTCTTACAAAAAAAAAGATGACTAATAAAATATTTTGCACTCGGCCGGGCACAGTGGCTCACCTCTGTAATCCCAGCACTTTGGGAGGCCGAGGCGGGTGGATCACCTGAGGTCGGGAGTTTGAGACCAGCCTGACCAACATGGAGAAACCCCGTCTCTACTAAAAATACAAAATTAGCAGGGCGTGGTGGCGCATGCCTGTAATCTCAGCTACTTGGGAGGCTGAGGCAGGAGAGTCGCTTGAACCTGGGAGGCAGAGGTTGTGGTGAGCCGAGATCGTGTCATTGCACTCCAGCCTGGGTGACAAGGCGAAACTCCGTCTCAAAAAAAAAAAAATTGCACTTTTTTTCATACTAAATCTTCAAAATCTGATGCGTATTTTACACTTACAACACATCTCAGTTCGGACCAACCACATTTCAAATGGTCAGTAATCACATGTGGGCAGTGGTGACTTACGTCAGCACAGGTAGATTAGAATCCTAGATCTGCTGGCCAGGCTCAGTAATCCCAGCACTTTGGGAGGCTGAGGCGGGTGAATCACCTGAGGTCAGGAGTTCAAGACCAGCTTGGCCAAGATGGCGAAACCCCATCTCCTCTAAAAACACAAAAATTAGCTGGGTGCAGTGGGGGTGCCTGTAATCCCAGCTACACGGGAAGCTGAGGCAGGAGAATCACTTGAGCCTGGTAGGTGGAGCTTGCAGTGAGCAGAGATCGCACCACTGCACTCCAGCCTCGGTGACAGAGCAAGGCTCTGTCTCAAAAAAAAAAAAAAAAAAAAAAAAGAATCCTAGATCTGTTATTTATGTCATTCAACCAGAAGGTGTAGTCTTTCTGTGCCTCAGTTTCTTGCTCACATGGAGGTGATTGGAGCCCAGGTTACTGTGAGAATTAAATGCCCACACATATTCACACTGCTTACTAAATTGAGTGTGGCCCATGTTCGAACACTCTTATAAGCAGAACACATTTATTCCTTTTACATCACAATTATTATTTGAGTCTGTAAAATGGGATTACTCATATCCCCAAATCCTGACCCTATATGAGGTTCTGTATTAAGGATACATTTCTCAAAGTCCCTTCTCTCCTCCCATTTTATGTTGATTATTTATTTATTTATTTAGGGAGTGGGTCTCACTCTATTGCCCAGGCTGGAGTGCAGTGGCATGATCTTGGCTGACTGCAGCCTCCACCTCCTGGGCTCAAGCAATCCTCTCACCTCAGCCTCCCGAGTAGTTGGGACTACAGGTGTGTACCAGCAGGCCAGGCTAATTTGTGTTATGTATATTATATATTATATGCTATATATAATATACATACTATTCATATATTTATGCATTATATGTCATATATAATATATTACATATGTGTACATATATATATTTTGTAAGAATGAGGTTCCACCATGTTGCCCAGGCTGGTTTTGAACTGCCGGGCTCAAACAATCTGCCTGCCTCAGGTTCCCAAGGTGCTAGGATTATAAGTGTGAACTACCATGTCCGGCTTATTTTTATTTATTTTTGAGACAGGGTCTTGCTCTGTAACCCAGGCTAGAGTGTGCAGTGGCAACAACACAGCTCACGGCAGCGTCAACCTCCTGGTCTCAAGTGATCCTCCTGCCTCAGCCTTCTGAGTAGCTGGGAACACAGGCAGGCGCCACCACGCCTGGCAATTAAAAAAAATGTTTTTGTAAAAATGGCCTCCTGCTATGTTGCCCAGGCTGGTCTTGAACTCCTGGCCTTAAGCATTCCTCCCATCTTGGCCTGCCAAAGTGTTGGGATTACAGGCGTGAGCCACTGTGCCCCGTGTGTTTTTAGTTAATTTCCACAAGAGTCCTTCCTTCCTCTCTTCTATCATGCAGCAAGTACTTTTTAAGCCTGTTCTGTGCCAGGTGCTGCAGGTGACACTGGAGGATGCGAAGTGAACAAAACAGGCAGTGTCTAACCTCAAGTAGGAAGCGCCAAGCCCACAGGTGCCTGACACAGGAACAGGAGGAAGGGTCAGCAAGAGGCCTGGGATGGTCCCCGGGATCCTCATGGGGGGGACCAGACTAGGCAATACTGAATACTACCTAGAGGAAGTGGTAGAACCCCAACTTCCCAGTTCATTCTCCCCCGTCTTTTTTTCGAGATGGAGTCTTGCTCTGTCACCTGGGCTGGTGGGCTGGAGTGGAGTGGCGTGATCTTGGCTCACTGCAATCTCTGGCTCCCAGGTTCAAGCGATTCTCCCACCTCAGCCTCCCGAGTACTGGGATTAGAGGCACCCGCCACCACGCCTGGCTAATTTTTATTTATTTATTTATTTTTATTTTTAGTGGAGATGGGTTTTCACCTTGTTGGCCAGGCTGGTCTCGAACTGACCTAAAATGATCTGCCCGCCTCGGCCTCCCCAAGTGCTGGGTTTACAGGCGTGAGCCACTGCGCCCGGCCACCATTTCTTTTTTTTTTTTTTAACCAGAGACCCTTGCCAAGTCATTCCCCCCACTCCACTTTATTTTCCTTTTCATTTTTTCCTTCCTCTCTTTTCTGAGTCACAACCATTAGCCAGGAAGCACCCCCTCCCCACCCTCTTTCCTGGATCCCCCTCATTCCCTCCTTCCATAGTCCACTCCCGCGCTCCCAGGTCCAGGGCTTATTTGCCCAGAGTTTGGAAAACCCCCAGCTCTCCTTCCTCCTTTCTACAGCGTGGGGGCAGGGTACTGGTGCCAGTCACGTGCCTCTGGCTTCTGAAGAAGACTCTAGACTGGGGTCGGGGGGTGGGTCCTGCCCATCTCCCTAGCATCTTATCGTCCCTACCATCTGTGTCTTTTTTCCCTCCCCAAACGGAACCCCCTGCCCTCTCGCCTGCCTATAGCCGTTTAATTGCAAAAGCCAGGCCGTTTGTGGGAGACCACAGACAGCGACCCCCTTCATTTACCGGTTGAGAGGAGGGTAAAGGGGCGGCTGCAATCTGGGTAATAACCCTATCCCCACTCCAGAAGTCACAGTCACATCGTTAAGCCTTCCTCCCCTCTTGTCCCAGGACAGCTTTAAAAACGTTAAAAGCATTTCTGCTGGGTAGCATCTGGCCAGGGTCGCCCCCTCTGTCTGCTCAGGAACGTCTGTCACTTCAGAGAGCTTAAGTGACTTGCCCCGGTCACACAGCAGCAGTCCGATAGGCTGCCAGGGCTCTAGGGGCAGAAGGAGGAGAGGGCTGGCATTCTTCCCACCGGCCCGCGTGACTGTAGCACCGGGGTGCAGCGAAGCCCCAAGGGCCCCAATCCGTGAGCTCTCTCCCATCCCAGGCAGGGGTGGGGGAGCAGCAGTGGGGTGCTGGTTCTCAAATGCAAGATAAGAGCTGGCTAAGAAAGCCTTGCCCAGCCCCTCCACCTAGAGGGAATGGGAGGGAGAGAAGCTGAGGGCAGGGTCCCGGTCCCGCGTGGAGACAGCTGCGCTCCCGCGGTTTCTTTAAACGCCCAGATGGGCAACGACGCGCGCGGACGAGGGCGGGGTTGGGTTCAGGTCTGGTCACATGACCTGGCCTGAGGTGCTCGCGGCCCCCACCCCACCAGTGGGCGTCCCCCCCACGCGTGGTCGACCATCATTGGTCGGTGGTGAGGCCAATAGAAATCGGCCATCTGGGAACCCAGCGTTCCGAGGCGCAGCCTAACATAGTGAACCGACGAAGGTCCAATGGAAAAAGACGGCCATGGGCATAGACCAATGACAAAGTGGCAGGGGCGGGCCCAAGGGCTGGGTCAGGTTGGTTTGAGAGGCGGGTGGGTATAAAAGTGCAAGGCGGGCGGCGGCGTCCGTCCGTACTGCAGAGCCGCTGCCGGAGGGTCGTTTTAAAGGGCCCGCGCGTTGCCGCCCCCTCGGCCCGCCATGCTGCTATCCGTGCCGCTGCTGCTCGGCCTCCTCGGCCTGGCCGTCGCCGAGCCTGCCGTCTACTTCAAGGAGCAGTTTCTGGACGGAGGTAACGCCTGGTCCCGCCTCGAGGCCGCCCCGACGACGCGGCCGGCCCCCGATCCTGGATCTGCGTTGTCGCCCGTAATTACCGTTTAGAGGTCCAACACGGTGGCCTCCCGGGACTAGAGCCGCGGGCGATTTCTCTTCTGCGTCCCTGGGGAGCGCGGAGGGCGTAGCGGCCTCCCGCGGCGGGAGTTAGGGTTAGCCCGAGGATCTCTGAAGGCACCCGACGTGTCAAACTAGAGGTTGGAATGGGGAGTGTCGGGGATCTCCTTTCCTGTCCCCAGCAGCTTGTGGCTCTCGGCAGATGTTTGGTGTGGGGGGGGATTAGCACAGCCGCTCTGACCTACCCCTCTAATCCCCCACTTAGACGGGTGGACTTCCCGCTGGATCGAATCCAAACACAAGTCAGATTTTGGCAAATTCGTTCTCAGTTCCGGCAAGTTCTACGGTGACGAGGAGAAAGATAAAGGTAAGAGCCTAGGAGTGGGTGCTCAGATCCGGGAGGACTTCCTGGCAGAAGTCCTTGTCTGTACACACACAGCCGGGACAGTCCCCTTGGAGGAGGACAGGTGGAGGAAGTGGGGGAGTCTTCTCTATTCTCTAAGTCGAGGGTCCTCGCGAGTCAAGGCCCAACGGTGACCTCACTACCGTCCCGTCTCAGGTTTGCAGACAAGCCAGGATGCACGCTTTTATGCTCTGTCGGCCAGTTTCGAGCCTTTCAGCAACAAAGGCCAGACGCTGGTGGTGCAGTTCACGGTGAAACATGAGCAGAACATCGACTGTGGGGGCGGCTATGTGAAGCTGTTTCCTAATAGTTTGGACCAGACAGACATGCACGGAGACTCAGAATACAACATCATGTTTGGTGAGGGCCTGCTTCCTGGTGCTGATCTCTGTCCCATTAGTTAGAGGGAGACCCAGACCCCATTGACTTTCTTAATAATGATTTTTTTTGGAAGGGGAGCTAAAAGAATAAGTCCCAGCAACAATTTATTGCATTATGATCGCAGATCTAGGCTGTTAATTTAATTTGCGTGTTTGTATATAGTTATTTCCCAATCTTACTAATGAGGATTTTGAGTTCTAGAGCACTGATTTTTTTTTTTTCTCCTTTAAACTTAAGGCTCCACCCACAGCCCATTCAGGACAGAATCAGGGTCTGAGTTTCTCTTCTCAGCCTTGACAGACCCGAGTTGAAGAACCAGGTCTTCCTTTTATAAAGAGGGGTGAGAGCCTCGAGATGATGGGTAGTCTCTGACTCTTAACTGGATCTGCTTCACACCTAGGTCCCGACATCTGTGGCCCTGGCACCAAGAAGGTTCATGTCATCTTCAACTACAAGGGCAAGAACGTGCTGATCAACAAGGACATCCGTTGCAAGGTGTGCCTGGGGGTGGTGGCAAATGGCTGTCATGGGGAGATTCAGAGGTCAGCCTCATTGGGGGGTGGCCCCCGCTCACCTTCTTCCTTCTTCAGGATGATGAGTTTACACACCTGTACACACTGATTGTGCGGCCAGACAACACCTATGAGGTGAAGATTGACAACAGCCAGGTGGAGTCCGGCTCCTTGGAAGACGATTGGGACTTCCTGCCACCCAAGAAGATAAAGGATCCTGATGCTTCAAAACCGGAAGACTGGGATGAGCGGGCCAAGATCGATGATCCCACAGACTCCAAGCCTGAGGTTGGTGTTTGGGCAGGGGCTCTGCTCTCCACATTGGAGGGTGTGGAAGACATCTGGGCCAACTCTGATCTCTTCATCTACCCCCCAGGACTGGGACAAGCCCGAGCATATCCCTGACCCTGATGCTAAGAAGCCCGAGGACTGGGATGAAGAGATGGACGGAGAGTGGGAACCCCCAGTGATTCAGAACCCTGAGTACAAGGTGAGTTTGGGGCTCTGAGCAGGGCTGGGGCTCACAGTGGGGAGTGCACCAACCTTACTCACCCTTCGGTTTCCTTCTCCCTTCTGCAGGGTGAGTGGAAGCCCCGGCAGATCGACAACCCAGATTACAAGGGCACTTGGATCCACCCAGAAATTGACAACCCCGAGTATTCTCCCGATCCCAGTATCTATGCCTATGATAACTTTGGCGTGCTGGGCCTGGACCTCTGGCAGGTGAGACTTGGAGGAAAAAGGAGGATCCCTGGGGTACCTCAAGTGCATAAGATCACCCAAGAGGAAAGGGACAGGGTAGGCACCCCAGGTGAGTCTGACTCAAAAATGGTACTTCTTGTAAACAGTACTTCCTGGTCTGTCCCTGTGAAGTCCTCACAGCAACCCCTTTAAGGTTATACTTGCTGTGCACCAAGTACTTCCCCAAGTACTTTTATGCAAATCAACTTCTTTACCCCCAAAGACCTAGAAGGTGGTCAGGTAACCCAGTTAGTTAGCTGGGGCTGGGCACAGTGGCTCACCCTTACAATCACGGTACTTTGGGAGGCTGAGACAGAGGATTGCTTGAGGCCAGGAGTTACACAACTCAACCTAGCTTGGCAACACAGCGAGGAGACCCTATCTCTACAAAAAAAATTTTTTTTTTTGAGACAGAGTTTCACTCTTGTTGCTGAGGCTGGAGTGCAATGGCACGATCTCAGCTCACTGCGCCCTCCGTCTCCTGGTTTCAAGCGATTCTCCTGCCTCAGCCTCCGGAGTAGCTGGGATTACAGGCATGTGCTACTATGGATGCCAGGCTAATTTTTTTTTTTTTTTTTTTTTTTGAGACCGTGCCTTGCTCTGTCGCCCAGGCTGGAGTGCAGTGGTGTGATCTCTGCTCACTGCAAGCTCCGCACGACCCCCCAGGTTCACTCCATTCTTCTGCCTCAGGGTCCCGAGTAACTGGGACTACAGGCACCCCCCACCATGCCTGGCTAATTTTTTTGTATTTTTTTTTTTAGTACAGACATGGTTTCACCGTGTTAGCCAGGATGGTCTCCATCTCCTGACCTCATGAACCACCCACCTTGGCCTCCCAAAGTGCTGGGATTACAGGCGTGAGCCACCTCACCCAGCCTTTTTGTAGAGACAGGGCTTCATGTTGCCCAGGTTGGTCTCGAACTCCTGGCCTCAGGTCATCTGCCCGCCTCGGCCTCCCAAAGTGCTGGGATTACAAGGGTTAGCCACCATGCCTAGCCTCTACAAAAACTTTAAAAATTGGCGAGATGTCATGCATACCTGTAGTCCCAACTACCAAGGAAGAAGGATGATCACTTGAGCCTGGGGCATCGAGGCTGCAGTGAGCCATGATTATGTCACTGCACTCCAGCCTCGGTGACAGAGTGAGACCCTCTCAAAAAAAGTTGGGACTTGGCCGGACACAGTGGCTCACACCTGTAATCCCAGCACTTTGGGAGGCCAAGGCGGGTGGATCACAAGGTCAGGAGATGGAGACCATCCTGGCTAACATGGTGAATGAAACCCCATCTCTAGTAAAAATACAAAAAATTTGCCAGGTGTGGTGGTGGGCGCCTGTAGTCCCAGCTACTCGGGAGGCTGAGGCAAAAGGATGACGTGAACCCGGGAGGCGGAGCTTGCAGTGAGCTGAGATCATGCCATTGCACTCCAGCCTGGGTGATAGCGAGACTCTGTCCCAAAAAAAAAAAAAAATGCTGGGACTGAATTTTTGTCTGTTTTGGTCACTGAAATACCTTCTGTGCCCAAGACAGTTCTGGCATGTAGTAGGTACCTGAAAAATACCTGAATAAGAGAGTGAGAAACAAGAAACAGGTGCAGAGAACTGAAGTCAGTGGCCCAAGGTCATGGGGGTAGGAAACCACAAAGCTGGGGTTTGAACCTGGGCAGTACAGCACCTGAGTCTCTCCATCTTTTTTTTTTTTTTTTTTTAAGACAGAGTCTTGCTCTGTCACCCAGGTTGGAGTGCAGTGGCTTGATCTCGGCTCACTGCAGCCTCTGCCTTCCAGGTTCAAGTGATTCTCATGCCTCATCCTCTCGAGCAGCTGGAATTACAGGCATGCGCCACGACGCTGGGCTTTTTTTTTTTTGAGATGGAATTTCACTCTTGTTGCCCAGGCTGGAGTGCAATGATGCAATCTCGGCGGCTCACCACAACCTCTGCATCCCAGATTCAAGCGATTCTCCTGCCTCGGCCTCCTGAGTAGCTGGGATTACAGGGATGCGCCATCACAGACCCCGGGCTAATTTTTTTTAGTAGAGACAGAGTTTCACTATGTTGCCCAGGTTGGTCTCGAACTCCTGGCCTCAAGTGATCCGTTCGCCATGACCTCCCAAAGTGCTGGGATTACAGGCATGAGCCCGTCCCGTCCCTGGCTGTCTCTCCATCTTTCCATCTTTTTTTTTTTTTTTTTTTTTTTTGGAGATGGAGTCTCACTCTGTCACCCAGGCTGGAGTGCAGTGGCACGATCTTGGCTCACTGCAAGCTCCGCCTCCTGGGTTCACATCATTCTCCTGTCTCAGCCTCCCAAATAGCTGGGACTACAGGCACTTGCCACCACGCCTGGCTGATTTTTTGTATTTTTAGTAGAGACGGGGTTTCACCGTGTTAGCCAGGGTGGTCTCGATCTCCTGACCTCGTGATCCGCCCACCTTGGCCTCTGGGCGAGGATTACAGGCGTGATCCACCTCACCTGGCCTCTCCATCTTTTTAACTGCAGTGTCAGCGGTGTTCCTTGTCTTCTCTGCAGATGCAGGCAGCAGAATATAGTGGTTATAGGAACACAGGTGGAAACCCTGTCCAAAGCAAGGGCTATCGGGTATCACCTCTGACCATCCTTCCCATTCATCCTCCAGGTCAAGTCTGGCACCATCTTTGACAACTTCCTCATCACCAACGATGAGGCATACGCTGAGGAGTTTGGCAACGAGACGTGGGGCGTAACAAAGGTGAGGCCTGGTCCTGGTCCTGATGTCGGGGGCGGGCAGGGCTGGCAGGGGGCAAGGCCCTGAGGTGTGTGCTCTGCCTGCAGGCAGCAGAGAAACAAATGAAGGACAAACAGGACGAGGAGCAGAGGCTTAAGGAGGAGGAAGAAGACAAGAAACGCAAAGAGGAGGAGGAGGCAGAGGACAAGGAGGATGATGAGGACAAAGATGAGGATGAGGAGGATGAGGAGGACAAGGAGGAAGATGAGGAGGAAGATGTCCCCGGCCAGGCCAAGGACGAGCTGTAGAGAGGCCTGCCTCCAGGGCTGGACTGAGGCCTGAGCGCTCCTGCCGCAGAGCTGGCCGCGCCAAATAATGTCTCTGTGAGACTCGAGAACTTTCATTTTTTTCCAGGCTGGTTCGGATTTGGGGTGGATTTTGGTTTTGTTCCCCTCCTCCACTCTCCCCCACCCCCTCCCCGCCCTTTTTTTTTTTTTTTTTTAAACTGGTATTTTATCTTTGATTCTCCTTCAGCCCTCACCCCTGGTTCTCATCTTTCTTGATCAACATCTTTTCTTGCCTCTGTCCCCTTCTCTCATCTCTTAGCTCCCCTCCAACCTGGGGGGCAGTGGTGTGGAGAAGCCACAGGCCTGAGATTTCATCTGCTCTCCTTCCTGGAGCCCAGAGGAGGGCAGCAGAAGGGGGTGGTGTCTCCAACCCCCCAGCACTGAGGAAGAACGGGGCTCTTCTCATTTCACCCCTCCCTTTCTCCCCTGCCCCCAGGACTGGGCCACTTCTGGGTGGGGCAGTGGGTCCCAGATTGGCTCACACTGAGAATGTAAGAACTACAAACAAAATTTCTATTAAATTAAATTTTGTGTCTCCCTCCTGTGTCTCCTTCTGGGGAAAGACAGACTTAAGGAAACCCAGCAGTGGTCTTTTTGGGGGGGGGGGGGGTTTCCAGTATATCTCCTTTTTCAGCTATTGCTAGAGAGGTTGCTGAGTGTTCCACAAGATTCCAGGGACCCTTATTTACCCCATAACCCTCAAAACCAACGGGGGAATGGCTGTTGCTGCTGTAAATACTCCACATACTAACTTACTGAATCCTTGAACCTAACTGGTAAGTTTTGGTTCTGCTTATTTATTTATTTTTAAGATAGACTCTCGCTCTGTTGTCCAGGCTGGCGTACAGTGGCTCAATCTGGTTCACCCTGCCCCTTAAACTGGCCTTTTTCATGCTTCTATTCCTTTGGGGTCCTGTGGCTCAGCCCAACCCCTCTGGGATGCCTCCAGGACTGGTAGATCCAAGGGAGAATTCTGTATTTAATGTAGTGAGGCTTTGAAAGTTAACATCTTTAAATACTTCTGGGGTCAGATTAGGTATAGTACAACAAAGTACTCCTGCCCGGAGACCCAAGAATGAAAATTGTAGGTTCATTCCAAAACTCCAGATCCCTAAAGAATGAATGAGGCTACAAAATGGCACCTTGCCCCCGCTTCCAACTTAAGGTTTTTTTTCTGTGCTTGGTGGCCTTTCAGGTATTTCTAGTTTTGAGTAACTTTCACTTTGACTGCTCTACAAGGGTTCCTGCCAGGATACCCAGACCAGAATAAAACTCATTTGGGGGCCGGGTACGGTGGTTCACGCCTGTAATCCCAGCACTTTGGGAGGCCGAGGCGGGTGGATCACCTGAGGTCAGGAGTTTTGAGACCAGCCTGGCCAACACGGTGAAACCCAATACAAAAAATTATCCGGGCGTGGTGGGGGGTGCCTGTAATCCCAGTTACTCGGGAGGCTGAGGCAGGAGAATTGCATGAACCCGGAAGGCGGAAGCTGCAGTGAGCCGAGATCGCGCCACTGCACTCCAGCCTGGGTGACAGAGACTGTTTGAAAGAAAAAATTCTCATTTGGAAGAGGCAAAATGAGGTTTTTACAGAAGAAATACAAATGTCTGTAACCAGTACAGGTACATAAAAACTTTGTTAAAAATTCATTTGAGCGTGAGAGTGGGGACACCAGAGTCACTTTGCAGCCCCGTGACGTCACCGATAACGGGCATGGCGTCACTCAGGAGACCACGTGTGCGGGCCGAGCAAGAAGCCCCGCCCACAGCGCGGAGTTTAGTCTGCGCGTGCCTCGCTCGAGAACGCGCTCGTGCGCATGCCCACAAAGGCCAAGGAGGGAGTGCGCAGGTCACGTGCGCCGGTGGTCAGCGCGCGCATTGCCTGCCCCGGAAGTGGTCGGCGCGCGGCGCGGCGCGCCTGGGCGCTAAGATGGCGGCGGCGTGAGTTGCATGTTGTGTGAGGATCCCGGGGCCGCCGCGTCGCTCGGGCCCCGCCATGGCCGTCACCATCACGCTCAAAACGCTGCAGCAGCAGACCTTCAAGATCCGCATGGAGCCTGACGAGACGGTGCGGGCCGGGCCGGAGCCCGGGGGCGGGAGCGACGGGTTTCGGGGGTGGGGTGGGGGCGGGGAGGCTAGAATCCCAACGGGAGGGGCAGGGAGGACGGCGCGGGTCGGCCCTGCCCAGACCCCCGACCTGCCCGACTTTCCTGGACCCCCCGATGGTCTTTGGCCCAGCCCCCAGCCGATCGGGCGGCGCTCCTGCGCCGGTCTCCGGGCGAGGCCCCACCCCCGGGGCGCTGGCCAGGCCCCGGCTCCAATGTCAGCGCTCTCGCGGGGCGCGGGAGTCACAAGCTCGGATTCCTGGGCAGGCCAAGCTCTCCAAGACTGGGCTCCACGTTCCCAGCTTTGCAGGCGTCTCCTTGGGACACTGGTGGTCGAATCTAGGAGTAATGACCAGGAGATACTGAGTAGTGACGACAACAACGATGTTAATGATAATAAACGGGTCTCAGTCTTTATAATTTTGGTGGTCCG</sequence>
+    <transcript name="t1">
+      <comment>This transcript is identical to the RefSeq transcript NM_004343.3 but with the polyA tail removed.</comment>
+      <coordinates coord_system="LRG_828" start="5001" end="10891" strand="1" />
+      <cdna>
+        <sequence>GCGGCGTCCGTCCGTACTGCAGAGCCGCTGCCGGAGGGTCGTTTTAAAGGGCCCGCGCGTTGCCGCCCCCTCGGCCCGCCATGCTGCTATCCGTGCCGCTGCTGCTCGGCCTCCTCGGCCTGGCCGTCGCCGAGCCTGCCGTCTACTTCAAGGAGCAGTTTCTGGACGGAGACGGGTGGACTTCCCGCTGGATCGAATCCAAACACAAGTCAGATTTTGGCAAATTCGTTCTCAGTTCCGGCAAGTTCTACGGTGACGAGGAGAAAGATAAAGGTTTGCAGACAAGCCAGGATGCACGCTTTTATGCTCTGTCGGCCAGTTTCGAGCCTTTCAGCAACAAAGGCCAGACGCTGGTGGTGCAGTTCACGGTGAAACATGAGCAGAACATCGACTGTGGGGGCGGCTATGTGAAGCTGTTTCCTAATAGTTTGGACCAGACAGACATGCACGGAGACTCAGAATACAACATCATGTTTGGTCCCGACATCTGTGGCCCTGGCACCAAGAAGGTTCATGTCATCTTCAACTACAAGGGCAAGAACGTGCTGATCAACAAGGACATCCGTTGCAAGGATGATGAGTTTACACACCTGTACACACTGATTGTGCGGCCAGACAACACCTATGAGGTGAAGATTGACAACAGCCAGGTGGAGTCCGGCTCCTTGGAAGACGATTGGGACTTCCTGCCACCCAAGAAGATAAAGGATCCTGATGCTTCAAAACCGGAAGACTGGGATGAGCGGGCCAAGATCGATGATCCCACAGACTCCAAGCCTGAGGACTGGGACAAGCCCGAGCATATCCCTGACCCTGATGCTAAGAAGCCCGAGGACTGGGATGAAGAGATGGACGGAGAGTGGGAACCCCCAGTGATTCAGAACCCTGAGTACAAGGGTGAGTGGAAGCCCCGGCAGATCGACAACCCAGATTACAAGGGCACTTGGATCCACCCAGAAATTGACAACCCCGAGTATTCTCCCGATCCCAGTATCTATGCCTATGATAACTTTGGCGTGCTGGGCCTGGACCTCTGGCAGGTCAAGTCTGGCACCATCTTTGACAACTTCCTCATCACCAACGATGAGGCATACGCTGAGGAGTTTGGCAACGAGACGTGGGGCGTAACAAAGGCAGCAGAGAAACAAATGAAGGACAAACAGGACGAGGAGCAGAGGCTTAAGGAGGAGGAAGAAGACAAGAAACGCAAAGAGGAGGAGGAGGCAGAGGACAAGGAGGATGATGAGGACAAAGATGAGGATGAGGAGGATGAGGAGGACAAGGAGGAAGATGAGGAGGAAGATGTCCCCGGCCAGGCCAAGGACGAGCTGTAGAGAGGCCTGCCTCCAGGGCTGGACTGAGGCCTGAGCGCTCCTGCCGCAGAGCTGGCCGCGCCAAATAATGTCTCTGTGAGACTCGAGAACTTTCATTTTTTTCCAGGCTGGTTCGGATTTGGGGTGGATTTTGGTTTTGTTCCCCTCCTCCACTCTCCCCCACCCCCTCCCCGCCCTTTTTTTTTTTTTTTTTTAAACTGGTATTTTATCTTTGATTCTCCTTCAGCCCTCACCCCTGGTTCTCATCTTTCTTGATCAACATCTTTTCTTGCCTCTGTCCCCTTCTCTCATCTCTTAGCTCCCCTCCAACCTGGGGGGCAGTGGTGTGGAGAAGCCACAGGCCTGAGATTTCATCTGCTCTCCTTCCTGGAGCCCAGAGGAGGGCAGCAGAAGGGGGTGGTGTCTCCAACCCCCCAGCACTGAGGAAGAACGGGGCTCTTCTCATTTCACCCCTCCCTTTCTCCCCTGCCCCCAGGACTGGGCCACTTCTGGGTGGGGCAGTGGGTCCCAGATTGGCTCACACTGAGAATGTAAGAACTACAAACAAAATTTCTATTAAATTAAATTTTGTGTCTCC</sequence>
+      </cdna>
+      <coding_region>
+        <coordinates coord_system="LRG_828" start="5081" end="10314" strand="1" />
+        <translation name="p1">
+          <sequence>MLLSVPLLLGLLGLAVAEPAVYFKEQFLDGDGWTSRWIESKHKSDFGKFVLSSGKFYGDEEKDKGLQTSQDARFYALSASFEPFSNKGQTLVVQFTVKHEQNIDCGGGYVKLFPNSLDQTDMHGDSEYNIMFGPDICGPGTKKVHVIFNYKGKNVLINKDIRCKDDEFTHLYTLIVRPDNTYEVKIDNSQVESGSLEDDWDFLPPKKIKDPDASKPEDWDERAKIDDPTDSKPEDWDKPEHIPDPDAKKPEDWDEEMDGEWEPPVIQNPEYKGEWKPRQIDNPDYKGTWIHPEIDNPEYSPDPSIYAYDNFGVLGLDLWQVKSGTIFDNFLITNDEAYAEEFGNETWGVTKAAEKQMKDKQDEEQRLKEEEEDKKRKEEEEAEDKEDDEDKDEDEEDEEDKEEDEEEDVPGQAKDEL</sequence>
+        </translation>
+      </coding_region>
+      <exon label="1">
+        <coordinates coord_system="LRG_828" start="5001" end="5171" strand="1" />
+        <coordinates coord_system="LRG_828t1" start="1" end="171" />
+        <coordinates coord_system="LRG_828p1" start="1" end="31" />
+      </exon>
+      <intron phase="1" />
+      <exon label="2">
+        <coordinates coord_system="LRG_828" start="5535" end="5636" strand="1" />
+        <coordinates coord_system="LRG_828t1" start="172" end="273" />
+        <coordinates coord_system="LRG_828p1" start="31" end="65" />
+      </exon>
+      <intron phase="1" />
+      <exon label="3">
+        <coordinates coord_system="LRG_828" start="5829" end="6032" strand="1" />
+        <coordinates coord_system="LRG_828t1" start="274" end="477" />
+        <coordinates coord_system="LRG_828p1" start="65" end="133" />
+      </exon>
+      <intron phase="1" />
+      <exon label="4">
+        <coordinates coord_system="LRG_828" start="6454" end="6548" strand="1" />
+        <coordinates coord_system="LRG_828t1" start="478" end="572" />
+        <coordinates coord_system="LRG_828p1" start="133" end="164" />
+      </exon>
+      <intron phase="0" />
+      <exon label="5">
+        <coordinates coord_system="LRG_828" start="6644" end="6853" strand="1" />
+        <coordinates coord_system="LRG_828t1" start="573" end="782" />
+        <coordinates coord_system="LRG_828p1" start="165" end="234" />
+      </exon>
+      <intron phase="0" />
+      <exon label="6">
+        <coordinates coord_system="LRG_828" start="6942" end="7055" strand="1" />
+        <coordinates coord_system="LRG_828t1" start="783" end="896" />
+        <coordinates coord_system="LRG_828p1" start="235" end="272" />
+      </exon>
+      <intron phase="0" />
+      <exon label="7">
+        <coordinates coord_system="LRG_828" start="7145" end="7288" strand="1" />
+        <coordinates coord_system="LRG_828t1" start="897" end="1040" />
+        <coordinates coord_system="LRG_828p1" start="273" end="320" />
+      </exon>
+      <intron phase="0" />
+      <exon label="8">
+        <coordinates coord_system="LRG_828" start="9938" end="10030" strand="1" />
+        <coordinates coord_system="LRG_828t1" start="1041" end="1133" />
+        <coordinates coord_system="LRG_828p1" start="321" end="351" />
+      </exon>
+      <intron phase="0" />
+      <exon label="9">
+        <coordinates coord_system="LRG_828" start="10114" end="10891" strand="1" />
+        <coordinates coord_system="LRG_828t1" start="1134" end="1911" />
+        <coordinates coord_system="LRG_828p1" start="352" end="417" />
+      </exon>
+    </transcript>
+  </fixed_annotation>
+  <updatable_annotation>
+    <annotation_set type="requester">
+      <source>
+        <name></name>
+        <contact>
+          <name>Rod Docking</name>
+          <url>www.bcgsc.ca</url>
+          <address>Centre for Clinical Genomics, Vancouver, Canada</address>
+          <email>rdocking@bcgsc.ca</email>
+        </contact>
+        <contact>
+          <name>Simon Chan</name>
+          <url>http://www.ccdg.ca</url>
+          <address>Centre for Clinical Genomics, Vancouver, Canada</address>
+          <email>sichan@bcgsc.ca</email>
+        </contact>
+      </source>
+      <modification_date>2015-06-22</modification_date>
+    </annotation_set>
+    <annotation_set type="lrg">
+      <source>
+        <name>LRG</name>
+        <url>http://www.lrg-sequence.org/</url>
+        <contact>
+          <name>Locus Reference Genomic</name>
+          <url>http://www.lrg-sequence.org/contact</url>
+          <email>feedback@lrg-sequence.org</email>
+        </contact>
+      </source>
+      <modification_date>2015-06-22</modification_date>
+      <mapping coord_system="GRCh37.p13" other_name="19" other_id="NC_000019.9" other_id_syn="CM000681.1" other_start="13044414" other_end="13057304" type="other_assembly">
+        <mapping_span lrg_start="1" lrg_end="12891" other_start="13044414" other_end="13057304" strand="1" />
+      </mapping>
+      <mapping coord_system="GRCh38.p2" other_name="19" other_id="NC_000019.10" other_id_syn="CM000681.2" other_start="12933600" other_end="12946490" type="main_assembly">
+        <mapping_span lrg_start="1" lrg_end="12891" other_start="12933600" other_end="12946490" strand="1" />
+      </mapping>
+      <lrg_locus source="HGNC">CALR</lrg_locus>
+    </annotation_set>
+    <annotation_set type="ncbi">
+      <source>
+        <name>NCBI RefSeqGene</name>
+        <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
+        <contact>
+          <name>RefSeqGene Group</name>
+          <address>NCBI/NLM/NIH</address>
+          <email>rsgene@ncbi.nlm.nih.gov</email>
+        </contact>
+      </source>
+      <comment>Annotation from NG_029662.1</comment>
+      <modification_date>2015-06-19</modification_date>
+      <mapping coord_system="NM_004343.3" other_name="NM_004343.3" other_id="NM_004343.3" other_start="1" other_end="1911" type="transcript">
+        <mapping_span lrg_start="5001" lrg_end="5171" other_start="1" other_end="171" strand="1" />
+        <mapping_span lrg_start="5535" lrg_end="5636" other_start="172" other_end="273" strand="1" />
+        <mapping_span lrg_start="5829" lrg_end="6032" other_start="274" other_end="477" strand="1" />
+        <mapping_span lrg_start="6454" lrg_end="6548" other_start="478" other_end="572" strand="1" />
+        <mapping_span lrg_start="6644" lrg_end="6853" other_start="573" other_end="782" strand="1" />
+        <mapping_span lrg_start="6942" lrg_end="7055" other_start="783" other_end="896" strand="1" />
+        <mapping_span lrg_start="7145" lrg_end="7288" other_start="897" other_end="1040" strand="1" />
+        <mapping_span lrg_start="9938" lrg_end="10030" other_start="1041" other_end="1133" strand="1" />
+        <mapping_span lrg_start="10114" lrg_end="10891" other_start="1134" other_end="1911" strand="1" />
+      </mapping>
+      <features>
+        <gene source="NCBI-Gene" accession="2193">
+          <symbol source="HGNC" name="FARSA">
+            <synonym>CML33</synonym>
+            <synonym>FARSL</synonym>
+            <synonym>FARSLA</synonym>
+            <synonym>FRSA</synonym>
+            <synonym>PheHA</synonym>
+          </symbol>
+          <coordinates coord_system="LRG_828" start="1" end="145" strand="-1" />
+          <partial>3-prime</partial>
+          <long_name>phenylalanyl-tRNA synthetase, alpha subunit</long_name>
+          <db_xref source="GeneID" accession="2193" />
+          <db_xref source="HGNC" accession="HGNC:3592" />
+          <db_xref source="MIM" accession="602918" />
+          <db_xref source="CCDS" accession="CCDS12287.1" />
+          <transcript source="RefSeq" accession="NM_004461.2">
+            <coordinates coord_system="LRG_828" start="1" end="145" strand="-1" />
+            <partial>3-prime</partial>
+            <long_name>phenylalanyl-tRNA synthetase, alpha subunit</long_name>
+            <db_xref source="GeneID" accession="2193" />
+            <db_xref source="GI" accession="126517492" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_828" start="1" end="145" strand="-1" />
+              <partial>3-prime</partial>
+            </exon>
+            <protein_product source="RefSeq" accession="NP_004452.1" codon_start="1">
+              <coordinates coord_system="LRG_828" start="1" end="97" strand="-1" />
+              <partial>3-prime</partial>
+              <long_name>phenylalanine--tRNA ligase alpha subunit</long_name>
+              <long_name>phenylalanine-tRNA synthetase alpha-subunit</long_name>
+              <long_name>phenylalanine-tRNA synthetase-like, alpha subunit</long_name>
+              <long_name>phenylalanyl-tRNA synthetase-like, alpha subunit</long_name>
+              <long_name>phenylalanine tRNA ligase 1, alpha, cytoplasmic</long_name>
+              <long_name>phenylalanyl-tRNA synthetase alpha chain</long_name>
+              <long_name>pheRS</long_name>
+              <long_name>phenylalanine--tRNA ligase alpha chain</long_name>
+              <db_xref source="CCDS" accession="CCDS12287.1" />
+              <db_xref source="GeneID" accession="2193" />
+              <db_xref source="GI" accession="4758340" />
+            </protein_product>
+          </transcript>
+        </gene>
+        <gene source="NCBI-Gene" accession="811">
+          <symbol source="HGNC" name="CALR">
+            <synonym>cC1qR</synonym>
+            <synonym>CRT</synonym>
+            <synonym>HEL-S-99n</synonym>
+            <synonym>RO</synonym>
+            <synonym>SSA</synonym>
+          </symbol>
+          <coordinates coord_system="LRG_828" start="5001" end="10891" strand="1" />
+          <long_name>calreticulin</long_name>
+          <db_xref source="GeneID" accession="811" />
+          <db_xref source="HGNC" accession="HGNC:1455" />
+          <db_xref source="MIM" accession="109091" />
+          <db_xref source="CCDS" accession="CCDS12288.1" />
+          <db_xref source="GI" accession="343098520" />
+          <transcript source="RefSeq" accession="NM_004343.3" fixed_id="t1">
+            <coordinates coord_system="LRG_828" start="5001" end="10891" strand="1" />
+            <long_name>calreticulin</long_name>
+            <db_xref source="GeneID" accession="811" />
+            <db_xref source="GI" accession="209862753" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_828" start="5001" end="5171" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_828" start="5535" end="5636" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_828" start="5829" end="6032" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_828" start="6454" end="6548" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_828" start="6644" end="6853" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_828" start="6942" end="7055" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_828" start="7145" end="7288" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_828" start="9938" end="10030" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_828" start="10114" end="10891" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_004334.1" fixed_id="p1">
+              <coordinates coord_system="LRG_828" start="5081" end="10314" strand="1" />
+              <long_name>calreticulin precursor</long_name>
+              <long_name>Sicca syndrome antigen A (autoantigen Ro; calreticulin)</long_name>
+              <long_name>CRP55</long_name>
+              <long_name>ERp60</long_name>
+              <long_name>HACBP</long_name>
+              <long_name>grp60</long_name>
+              <long_name>calregulin</long_name>
+              <long_name>endoplasmic reticulum resident protein 60</long_name>
+              <long_name>epididymis secretory sperm binding protein Li 99n</long_name>
+              <db_xref source="CCDS" accession="CCDS12288.1" />
+              <db_xref source="GeneID" accession="811" />
+              <db_xref source="GI" accession="4757900" />
+            </protein_product>
+          </transcript>
+        </gene>
+        <gene source="NCBI-Gene" accession="5886">
+          <symbol source="HGNC" name="RAD23A">
+            <synonym>HHR23A</synonym>
+            <synonym>HR23A</synonym>
+          </symbol>
+          <coordinates coord_system="LRG_828" start="12215" end="12891" strand="1" />
+          <partial>3-prime</partial>
+          <long_name>RAD23 homolog A (S. cerevisiae)</long_name>
+          <db_xref source="GeneID" accession="5886" />
+          <db_xref source="HGNC" accession="HGNC:9812" />
+          <db_xref source="MIM" accession="600061" />
+          <db_xref source="CCDS" accession="CCDS59358.1" />
+          <db_xref source="CCDS" accession="CCDS59357.1" />
+          <db_xref source="CCDS" accession="CCDS12289.1" />
+          <transcript source="RefSeq" accession="NM_005053.3">
+            <coordinates coord_system="LRG_828" start="12215" end="12421" strand="1" />
+            <partial>3-prime</partial>
+            <long_name>RAD23 homolog A (S. cerevisiae), transcript variant 1</long_name>
+            <db_xref source="GeneID" accession="5886" />
+            <db_xref source="GI" accession="392937549" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_828" start="12215" end="12421" strand="1" />
+              <partial>3-prime</partial>
+            </exon>
+            <protein_product source="RefSeq" accession="NP_005044.1" codon_start="1">
+              <coordinates coord_system="LRG_828" start="12350" end="12421" strand="1" />
+              <partial>3-prime</partial>
+              <long_name>UV excision repair protein RAD23 homolog A isoform 1</long_name>
+              <long_name>RAD23, yeast homolog, A</long_name>
+              <long_name>UV excision repair protein RAD23 homolog A</long_name>
+              <db_xref source="CCDS" accession="CCDS12289.1" />
+              <db_xref source="GeneID" accession="5886" />
+              <db_xref source="GI" accession="4826964" />
+            </protein_product>
+          </transcript>
+          <transcript source="RefSeq" accession="NM_001270362.1">
+            <coordinates coord_system="LRG_828" start="12215" end="12421" strand="1" />
+            <partial>3-prime</partial>
+            <long_name>RAD23 homolog A (S. cerevisiae), transcript variant 2</long_name>
+            <db_xref source="GeneID" accession="5886" />
+            <db_xref source="GI" accession="392996948" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_828" start="12215" end="12421" strand="1" />
+              <partial>3-prime</partial>
+            </exon>
+            <protein_product source="RefSeq" accession="NP_001257291.1" codon_start="1">
+              <coordinates coord_system="LRG_828" start="12350" end="12421" strand="1" />
+              <partial>3-prime</partial>
+              <long_name>UV excision repair protein RAD23 homolog A isoform 2</long_name>
+              <long_name>RAD23, yeast homolog, A</long_name>
+              <long_name>UV excision repair protein RAD23 homolog A</long_name>
+              <db_xref source="CCDS" accession="CCDS59358.1" />
+              <db_xref source="GeneID" accession="5886" />
+              <db_xref source="GI" accession="392996949" />
+            </protein_product>
+          </transcript>
+          <transcript source="RefSeq" accession="NM_001270363.1">
+            <coordinates coord_system="LRG_828" start="12215" end="12421" strand="1" />
+            <partial>3-prime</partial>
+            <long_name>RAD23 homolog A (S. cerevisiae), transcript variant 3</long_name>
+            <db_xref source="GeneID" accession="5886" />
+            <db_xref source="GI" accession="392996950" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_828" start="12215" end="12421" strand="1" />
+              <partial>3-prime</partial>
+            </exon>
+            <protein_product source="RefSeq" accession="NP_001257292.1" codon_start="1">
+              <coordinates coord_system="LRG_828" start="12350" end="12421" strand="1" />
+              <partial>3-prime</partial>
+              <long_name>UV excision repair protein RAD23 homolog A isoform 3</long_name>
+              <long_name>RAD23, yeast homolog, A</long_name>
+              <long_name>UV excision repair protein RAD23 homolog A</long_name>
+              <db_xref source="CCDS" accession="CCDS59357.1" />
+              <db_xref source="GeneID" accession="5886" />
+              <db_xref source="GI" accession="392996951" />
+            </protein_product>
+          </transcript>
+          <transcript source="RefSeq" accession="NR_072976.1">
+            <coordinates coord_system="LRG_828" start="12215" end="12421" strand="1" />
+            <partial>3-prime</partial>
+            <long_name>RAD23 homolog A (S. cerevisiae), transcript variant 4</long_name>
+            <db_xref source="GeneID" accession="5886" />
+            <db_xref source="GI" accession="392996952" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_828" start="12215" end="12421" strand="1" />
+              <partial>3-prime</partial>
+            </exon>
+            <protein_product source="RefSeq" accession="NP_001257291.1" codon_start="1">
+              <coordinates coord_system="LRG_828" start="12350" end="12421" strand="1" />
+              <partial>3-prime</partial>
+              <long_name>UV excision repair protein RAD23 homolog A isoform 2</long_name>
+              <long_name>RAD23, yeast homolog, A</long_name>
+              <long_name>UV excision repair protein RAD23 homolog A</long_name>
+              <db_xref source="CCDS" accession="CCDS59358.1" />
+              <db_xref source="GeneID" accession="5886" />
+              <db_xref source="GI" accession="392996949" />
+            </protein_product>
+          </transcript>
+        </gene>
+      </features>
+    </annotation_set>
+    <annotation_set type="ensembl">
+      <source>
+        <name>Ensembl</name>
+        <url>http://www.ensembl.org/</url>
+        <contact>
+          <name>Ensembl</name>
+          <address>European Bioinformatics Institute</address>
+          <email>helpdesk@ensembl.org</email>
+        </contact>
+      </source>
+      <comment>Annotation is based on Ensembl release 80 (GRCh38  primary assembly)</comment>
+      <modification_date>2015-06-22</modification_date>
+      <mapping coord_system="ENST00000316448.8" other_name="ENST00000316448.8" other_id="ENST00000316448.8" other_start="1" other_end="1903" type="transcript">
+        <mapping_span lrg_start="5008" lrg_end="5171" other_start="1" other_end="164" strand="1" />
+        <mapping_span lrg_start="5535" lrg_end="5636" other_start="165" other_end="266" strand="1" />
+        <mapping_span lrg_start="5829" lrg_end="6032" other_start="267" other_end="470" strand="1" />
+        <mapping_span lrg_start="6454" lrg_end="6548" other_start="471" other_end="565" strand="1" />
+        <mapping_span lrg_start="6644" lrg_end="6853" other_start="566" other_end="775" strand="1" />
+        <mapping_span lrg_start="6942" lrg_end="7055" other_start="776" other_end="889" strand="1" />
+        <mapping_span lrg_start="7145" lrg_end="7288" other_start="890" other_end="1033" strand="1" />
+        <mapping_span lrg_start="9938" lrg_end="10030" other_start="1034" other_end="1126" strand="1" />
+        <mapping_span lrg_start="10114" lrg_end="10890" other_start="1127" other_end="1903" strand="1" />
+      </mapping>
+      <mapping coord_system="ENST00000586760.1" other_name="ENST00000586760.1" other_id="ENST00000586760.1" other_start="1" other_end="913" type="transcript">
+        <mapping_span lrg_start="6798" lrg_end="6853" other_start="1" other_end="56" strand="1" />
+        <mapping_span lrg_start="6942" lrg_end="7055" other_start="57" other_end="170" strand="1" />
+        <mapping_span lrg_start="7145" lrg_end="7288" other_start="171" other_end="314" strand="1" />
+        <mapping_span lrg_start="9938" lrg_end="10030" other_start="315" other_end="407" strand="1" />
+        <mapping_span lrg_start="10114" lrg_end="10157" other_start="408" other_end="451" strand="1" />
+        <mapping_span lrg_start="10343" lrg_end="10804" other_start="452" other_end="913" strand="1" />
+      </mapping>
+      <mapping coord_system="ENST00000586803.1" other_name="ENST00000586803.1" other_id="ENST00000586803.1" other_start="1" other_end="667" type="transcript">
+        <mapping_span lrg_start="9614" lrg_end="10030" other_start="1" other_end="417" strand="1" />
+        <mapping_span lrg_start="10114" lrg_end="10363" other_start="418" other_end="667" strand="1" />
+      </mapping>
+      <mapping coord_system="ENST00000586967.1" other_name="ENST00000586967.1" other_id="ENST00000586967.1" other_start="1" other_end="394" type="transcript">
+        <mapping_span lrg_start="10274" lrg_end="10389" other_start="1" other_end="116" strand="1" />
+        <mapping_span lrg_start="10613" lrg_end="10890" other_start="117" other_end="394" strand="1" />
+      </mapping>
+      <mapping coord_system="ENST00000587486.5" other_name="ENST00000587486.5" other_id="ENST00000587486.5" other_start="1" other_end="957" type="transcript">
+        <mapping_span lrg_start="4979" lrg_end="5636" other_start="1" other_end="658" strand="1" />
+        <mapping_span lrg_start="5829" lrg_end="6032" other_start="659" other_end="862" strand="1" />
+        <mapping_span lrg_start="6454" lrg_end="6548" other_start="863" other_end="957" strand="1" />
+      </mapping>
+      <mapping coord_system="ENST00000588454.4" other_name="ENST00000588454.4" other_id="ENST00000588454.4" other_start="1" other_end="776" type="transcript">
+        <mapping_span lrg_start="5046" lrg_end="5171" other_start="1" other_end="126" strand="1" />
+        <mapping_span lrg_start="5535" lrg_end="5636" other_start="127" other_end="228" strand="1" />
+        <mapping_span lrg_start="6454" lrg_end="6548" other_start="229" other_end="323" strand="1" />
+        <mapping_span lrg_start="6644" lrg_end="6853" other_start="324" other_end="533" strand="1" />
+        <mapping_span lrg_start="6942" lrg_end="7055" other_start="534" other_end="647" strand="1" />
+        <mapping_span lrg_start="7145" lrg_end="7273" other_start="648" other_end="776" strand="1" />
+      </mapping>
+      <mapping coord_system="ENST00000590325.1" other_name="ENST00000590325.1" other_id="ENST00000590325.1" other_start="1" other_end="781" type="transcript">
+        <mapping_span lrg_start="5015" lrg_end="5171" other_start="1" other_end="157" strand="1" />
+        <mapping_span lrg_start="5535" lrg_end="5636" other_start="158" other_end="259" strand="1" />
+        <mapping_span lrg_start="5829" lrg_end="6032" other_start="260" other_end="463" strand="1" />
+        <mapping_span lrg_start="6454" lrg_end="6771" other_start="464" other_end="781" strand="1" />
+      </mapping>
+      <features>
+        <gene source="Ensembl" accession="ENSG00000179115.9">
+          <symbol source="HGNC" name="FARSA" />
+          <coordinates coord_system="LRG_828" start="1" end="438" strand="-1" mapped_from="GRCh38" />
+          <partial>3-prime</partial>
+          <long_name>phenylalanyl-tRNA synthetase, alpha subunit (protein_coding)</long_name>
+          <db_xref source="GeneID" accession="2193">
+            <synonym>CML33</synonym>
+            <synonym>FARSL</synonym>
+            <synonym>FARSLA</synonym>
+            <synonym>FRSA</synonym>
+            <synonym>PheHA</synonym>
+          </db_xref>
+          <db_xref source="MIM" accession="602918" />
+          <db_xref source="HGNC" accession="3592">
+            <synonym>CML33</synonym>
+            <synonym>FARSL</synonym>
+            <synonym>FARSLA</synonym>
+          </db_xref>
+          <db_xref source="Ensembl" accession="ENSG00000179115" />
+          <transcript source="Ensembl" accession="ENST00000588025.4">
+            <coordinates coord_system="LRG_828" start="1" end="438" strand="-1" mapped_from="GRCh38" />
+            <partial>3-prime</partial>
+            <long_name>FARSA-006 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00002899838">
+              <coordinates coord_system="LRG_828" start="163" end="438" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002751370">
+              <coordinates coord_system="LRG_828" start="1" end="82" strand="-1" mapped_from="GRCh38" />
+              <partial>3-prime</partial>
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000468051.1">
+              <coordinates coord_system="LRG_828" start="1" end="297" strand="-1" mapped_from="GRCh38" />
+              <partial>3-prime</partial>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000423140.5">
+            <coordinates coord_system="LRG_828" start="1" end="115" strand="-1" mapped_from="GRCh38" />
+            <partial>3-prime</partial>
+            <long_name>FARSA-002 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00001632425">
+              <coordinates coord_system="LRG_828" start="1" end="115" strand="-1" mapped_from="GRCh38" />
+              <partial>3-prime</partial>
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000396548.2">
+              <coordinates coord_system="LRG_828" start="1" end="97" strand="-1" mapped_from="GRCh38" />
+              <partial>3-prime</partial>
+              <db_xref source="UniProtKB" accession="Q9Y285">
+                <synonym>B4E363</synonym>
+                <synonym>Q9NSD8</synonym>
+                <synonym>Q9Y4W8</synonym>
+              </db_xref>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000314606.7">
+            <coordinates coord_system="LRG_828" start="1" end="116" strand="-1" mapped_from="GRCh38" />
+            <partial>3-prime</partial>
+            <long_name>FARSA-001 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS12287.1" />
+            <db_xref source="RefSeq" accession="NM_004461.2" />
+            <exon source="Ensembl" accession="ENSE00001252934">
+              <coordinates coord_system="LRG_828" start="1" end="116" strand="-1" mapped_from="GRCh38" />
+              <partial>3-prime</partial>
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000320309.3">
+              <coordinates coord_system="LRG_828" start="1" end="97" strand="-1" mapped_from="GRCh38" />
+              <partial>3-prime</partial>
+              <long_name>phenylalanine--tRNA ligase alpha subunit</long_name>
+              <db_xref source="RefSeq" accession="NP_004452.1" />
+              <db_xref source="UniProtKB" accession="Q9Y285">
+                <synonym>B4E363</synonym>
+                <synonym>Q9NSD8</synonym>
+                <synonym>Q9Y4W8</synonym>
+              </db_xref>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000586146.4">
+            <coordinates coord_system="LRG_828" start="1" end="97" strand="-1" mapped_from="GRCh38" />
+            <partial>3-prime</partial>
+            <long_name>FARSA-004 (nonsense_mediated_decay)</long_name>
+            <exon source="Ensembl" accession="ENSE00003507783">
+              <coordinates coord_system="LRG_828" start="1" end="97" strand="-1" mapped_from="GRCh38" />
+              <partial>3-prime</partial>
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000468068.1">
+              <coordinates coord_system="LRG_828" start="1" end="97" strand="-1" mapped_from="GRCh38" />
+              <partial>3-prime</partial>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000588965.4">
+            <coordinates coord_system="LRG_828" start="1" end="97" strand="-1" mapped_from="GRCh38" />
+            <partial>3-prime</partial>
+            <long_name>FARSA-003 (retained_intron)</long_name>
+            <exon source="Ensembl" accession="ENSE00003687669">
+              <coordinates coord_system="LRG_828" start="1" end="97" strand="-1" mapped_from="GRCh38" />
+              <partial>3-prime</partial>
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000593021.1">
+            <coordinates coord_system="LRG_828" start="1" end="81" strand="-1" mapped_from="GRCh38" />
+            <partial>3-prime</partial>
+            <long_name>FARSA-005 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00002885780">
+              <coordinates coord_system="LRG_828" start="1" end="81" strand="-1" mapped_from="GRCh38" />
+              <partial>3-prime</partial>
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000467384.1" codon_start="2">
+              <coordinates coord_system="LRG_828" start="1" end="81" strand="-1" mapped_from="GRCh38" />
+              <partial>3-prime</partial>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000592662.4">
+            <coordinates coord_system="LRG_828" start="1" end="99" strand="-1" mapped_from="GRCh38" />
+            <partial>3-prime</partial>
+            <long_name>FARSA-008 (retained_intron)</long_name>
+            <exon source="Ensembl" accession="ENSE00002785038">
+              <coordinates coord_system="LRG_828" start="1" end="99" strand="-1" mapped_from="GRCh38" />
+              <partial>3-prime</partial>
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000586280.1">
+            <coordinates coord_system="LRG_828" start="1" end="43" strand="-1" mapped_from="GRCh38" />
+            <partial>3-prime</partial>
+            <long_name>FARSA-009 (retained_intron)</long_name>
+            <exon source="Ensembl" accession="ENSE00002790608">
+              <coordinates coord_system="LRG_828" start="1" end="43" strand="-1" mapped_from="GRCh38" />
+              <partial>3-prime</partial>
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000587981.1">
+            <coordinates coord_system="LRG_828" start="1" end="112" strand="-1" mapped_from="GRCh38" />
+            <partial>3-prime</partial>
+            <long_name>FARSA-007 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00002785501">
+              <coordinates coord_system="LRG_828" start="1" end="112" strand="-1" mapped_from="GRCh38" />
+              <partial>3-prime</partial>
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000465402.1">
+              <coordinates coord_system="LRG_828" start="1" end="97" strand="-1" mapped_from="GRCh38" />
+              <partial>3-prime</partial>
+            </protein_product>
+          </transcript>
+        </gene>
+        <gene source="Ensembl" accession="ENSG00000179218.12">
+          <symbol source="HGNC" name="CALR" />
+          <coordinates coord_system="LRG_828" start="4979" end="10890" strand="1" mapped_from="GRCh38" />
+          <long_name>calreticulin (protein_coding)</long_name>
+          <db_xref source="GeneID" accession="811">
+            <synonym>cC1qR</synonym>
+            <synonym>CRT</synonym>
+            <synonym>HEL-S-99n</synonym>
+            <synonym>RO</synonym>
+            <synonym>SSA</synonym>
+          </db_xref>
+          <db_xref source="MIM" accession="109091" />
+          <db_xref source="HGNC" accession="1455">
+            <synonym>cC1qR</synonym>
+            <synonym>CRT</synonym>
+            <synonym>FLJ26680</synonym>
+            <synonym>RO</synonym>
+            <synonym>SSA</synonym>
+          </db_xref>
+          <db_xref source="Ensembl" accession="ENSG00000179218" />
+          <transcript source="Ensembl" accession="ENST00000587486.5">
+            <coordinates coord_system="LRG_828" start="4979" end="6548" strand="1" mapped_from="GRCh38" />
+            <long_name>CALR-003 (retained_intron)</long_name>
+            <exon source="Ensembl" accession="ENSE00002938131">
+              <coordinates coord_system="LRG_828" start="4979" end="5636" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003493645">
+              <coordinates coord_system="LRG_828" start="5829" end="6032" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003646382">
+              <coordinates coord_system="LRG_828" start="6454" end="6548" strand="1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000316448.8">
+            <coordinates coord_system="LRG_828" start="5008" end="10890" strand="1" mapped_from="GRCh38" />
+            <long_name>CALR-001 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS12288.1" />
+            <db_xref source="RefSeq" accession="NM_004343.3" />
+            <exon source="Ensembl" accession="ENSE00001255609">
+              <coordinates coord_system="LRG_828" start="5008" end="5171" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003684797">
+              <coordinates coord_system="LRG_828" start="5535" end="5636" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003643363">
+              <coordinates coord_system="LRG_828" start="5829" end="6032" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003557148">
+              <coordinates coord_system="LRG_828" start="6454" end="6548" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001255567">
+              <coordinates coord_system="LRG_828" start="6644" end="6853" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001255558">
+              <coordinates coord_system="LRG_828" start="6942" end="7055" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001255547">
+              <coordinates coord_system="LRG_828" start="7145" end="7288" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001255537">
+              <coordinates coord_system="LRG_828" start="9938" end="10030" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001255601">
+              <coordinates coord_system="LRG_828" start="10114" end="10890" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000320866.4">
+              <coordinates coord_system="LRG_828" start="5081" end="10314" strand="1" mapped_from="GRCh38" />
+              <long_name>calreticulin precursor</long_name>
+              <db_xref source="RefSeq" accession="NP_004334.1" />
+              <db_xref source="UniProtKB" accession="P27797">
+                <synonym>Q6IAT4</synonym>
+                <synonym>Q9UDG2</synonym>
+              </db_xref>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000590325.1">
+            <coordinates coord_system="LRG_828" start="5015" end="6771" strand="1" mapped_from="GRCh38" />
+            <long_name>CALR-004 (retained_intron)</long_name>
+            <exon source="Ensembl" accession="ENSE00002961772">
+              <coordinates coord_system="LRG_828" start="5015" end="5171" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003636875">
+              <coordinates coord_system="LRG_828" start="5535" end="5636" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003493645">
+              <coordinates coord_system="LRG_828" start="5829" end="6032" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002907284">
+              <coordinates coord_system="LRG_828" start="6454" end="6771" strand="1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000588454.4">
+            <coordinates coord_system="LRG_828" start="5046" end="7273" strand="1" mapped_from="GRCh38" />
+            <long_name>CALR-008 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00002773935">
+              <coordinates coord_system="LRG_828" start="5046" end="5171" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003684797">
+              <coordinates coord_system="LRG_828" start="5535" end="5636" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003557148">
+              <coordinates coord_system="LRG_828" start="6454" end="6548" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001255567">
+              <coordinates coord_system="LRG_828" start="6644" end="6853" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001255558">
+              <coordinates coord_system="LRG_828" start="6942" end="7055" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002816373">
+              <coordinates coord_system="LRG_828" start="7145" end="7273" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000465105.1">
+              <coordinates coord_system="LRG_828" start="5081" end="7273" strand="1" mapped_from="GRCh38" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000586760.1">
+            <coordinates coord_system="LRG_828" start="6798" end="10804" strand="1" mapped_from="GRCh38" />
+            <long_name>CALR-006 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00002838356">
+              <coordinates coord_system="LRG_828" start="6798" end="6853" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001255558">
+              <coordinates coord_system="LRG_828" start="6942" end="7055" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001255547">
+              <coordinates coord_system="LRG_828" start="7145" end="7288" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001255537">
+              <coordinates coord_system="LRG_828" start="9938" end="10030" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002810607">
+              <coordinates coord_system="LRG_828" start="10114" end="10157" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002827731">
+              <coordinates coord_system="LRG_828" start="10343" end="10804" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000465918.1" codon_start="2">
+              <coordinates coord_system="LRG_828" start="6798" end="10382" strand="1" mapped_from="GRCh38" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000586803.1">
+            <coordinates coord_system="LRG_828" start="9614" end="10363" strand="1" mapped_from="GRCh38" />
+            <long_name>CALR-005 (retained_intron)</long_name>
+            <exon source="Ensembl" accession="ENSE00002819963">
+              <coordinates coord_system="LRG_828" start="9614" end="10030" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002965994">
+              <coordinates coord_system="LRG_828" start="10114" end="10363" strand="1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000586967.1">
+            <coordinates coord_system="LRG_828" start="10274" end="10890" strand="1" mapped_from="GRCh38" />
+            <long_name>CALR-007 (nonsense_mediated_decay)</long_name>
+            <exon source="Ensembl" accession="ENSE00002780976">
+              <coordinates coord_system="LRG_828" start="10274" end="10389" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002929698">
+              <coordinates coord_system="LRG_828" start="10613" end="10890" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000466037.1" codon_start="2">
+              <coordinates coord_system="LRG_828" start="10274" end="10314" strand="1" mapped_from="GRCh38" />
+            </protein_product>
+          </transcript>
+        </gene>
+        <gene source="Ensembl" accession="ENSG00000274417.1">
+          <symbol source="HGNC" name="MIR6515" />
+          <coordinates coord_system="LRG_828" start="6885" end="6941" strand="1" mapped_from="GRCh38" />
+          <long_name>microRNA 6515 (miRNA)</long_name>
+          <db_xref source="GeneID" accession="102466659">
+            <synonym>hsa-mir-6515</synonym>
+          </db_xref>
+          <db_xref source="miRBase" accession="MI0022227" />
+          <db_xref source="HGNC" accession="50227">
+            <synonym>hsa-mir-6515</synonym>
+          </db_xref>
+          <db_xref source="Ensembl" accession="ENSG00000274417" />
+          <transcript source="Ensembl" accession="ENST00000619843.1">
+            <coordinates coord_system="LRG_828" start="6885" end="6941" strand="1" mapped_from="GRCh38" />
+            <long_name>MIR6515-201 (miRNA)</long_name>
+            <db_xref source="RefSeq" accession="NR_106770.1" />
+            <exon source="Ensembl" accession="ENSE00003729231">
+              <coordinates coord_system="LRG_828" start="6885" end="6941" strand="1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+        </gene>
+        <gene source="Ensembl" accession="ENSG00000267458.1">
+          <symbol source="Clone_based_vega_gene" name="CTC-425F1.4" />
+          <coordinates coord_system="LRG_828" start="10519" end="10888" strand="-1" mapped_from="GRCh38" />
+          <long_name>CTC-425F1.4 (antisense)</long_name>
+          <db_xref source="Ensembl" accession="ENSG00000267458" />
+          <transcript source="Ensembl" accession="ENST00000589120.1">
+            <coordinates coord_system="LRG_828" start="10519" end="10888" strand="-1" mapped_from="GRCh38" />
+            <long_name>CTC-425F1.4-001 (antisense)</long_name>
+            <exon source="Ensembl" accession="ENSE00002896888">
+              <coordinates coord_system="LRG_828" start="10725" end="10888" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002910300">
+              <coordinates coord_system="LRG_828" start="10519" end="10624" strand="-1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+        </gene>
+        <gene source="Ensembl" accession="ENSG00000179262.8">
+          <symbol source="HGNC" name="RAD23A" />
+          <coordinates coord_system="LRG_828" start="12256" end="12891" strand="1" mapped_from="GRCh38" />
+          <partial>3-prime</partial>
+          <long_name>RAD23 homolog A (S. cerevisiae) (protein_coding)</long_name>
+          <db_xref source="GeneID" accession="5886">
+            <synonym>HHR23A</synonym>
+            <synonym>HR23A</synonym>
+          </db_xref>
+          <db_xref source="MIM" accession="600061" />
+          <db_xref source="HGNC" accession="9812">
+            <synonym>HHR23A</synonym>
+            <synonym>MGC111083</synonym>
+          </db_xref>
+          <db_xref source="Ensembl" accession="ENSG00000179262" />
+          <transcript source="Ensembl" accession="ENST00000591499.4">
+            <coordinates coord_system="LRG_828" start="12256" end="12891" strand="1" mapped_from="GRCh38" />
+            <partial>3-prime</partial>
+            <long_name>RAD23A-003 (nonsense_mediated_decay)</long_name>
+            <exon source="Ensembl" accession="ENSE00003647212">
+              <coordinates coord_system="LRG_828" start="12256" end="12421" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000466243.1">
+              <coordinates coord_system="LRG_828" start="12350" end="12891" strand="1" mapped_from="GRCh38" />
+              <partial>3-prime</partial>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000588329.4">
+            <coordinates coord_system="LRG_828" start="12267" end="12891" strand="1" mapped_from="GRCh38" />
+            <partial>3-prime</partial>
+            <long_name>RAD23A-006 (retained_intron)</long_name>
+            <exon source="Ensembl" accession="ENSE00002873909">
+              <coordinates coord_system="LRG_828" start="12267" end="12421" strand="1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000316856.6">
+            <coordinates coord_system="LRG_828" start="12277" end="12891" strand="1" mapped_from="GRCh38" />
+            <partial>3-prime</partial>
+            <long_name>RAD23A-001 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS59358.1" />
+            <db_xref source="RefSeq" accession="NM_001270362.1" />
+            <exon source="Ensembl" accession="ENSE00002735310">
+              <coordinates coord_system="LRG_828" start="12277" end="12421" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000321365.3">
+              <coordinates coord_system="LRG_828" start="12350" end="12891" strand="1" mapped_from="GRCh38" />
+              <partial>3-prime</partial>
+              <long_name>UV excision repair protein RAD23 homolog A isoform 2</long_name>
+              <db_xref source="RefSeq" accession="NP_001257291.1" />
+              <db_xref source="UniProtKB" accession="P54725">
+                <synonym>K7ESE3</synonym>
+                <synonym>Q59EU8</synonym>
+                <synonym>Q5M7Z1</synonym>
+              </db_xref>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000586534.4">
+            <coordinates coord_system="LRG_828" start="12289" end="12891" strand="1" mapped_from="GRCh38" />
+            <partial>3-prime</partial>
+            <long_name>RAD23A-002 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS12289.1" />
+            <db_xref source="RefSeq" accession="NM_005053.3" />
+            <exon source="Ensembl" accession="ENSE00002776223">
+              <coordinates coord_system="LRG_828" start="12289" end="12421" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000467024.1">
+              <coordinates coord_system="LRG_828" start="12350" end="12891" strand="1" mapped_from="GRCh38" />
+              <partial>3-prime</partial>
+              <long_name>UV excision repair protein RAD23 homolog A isoform 1</long_name>
+              <db_xref source="RefSeq" accession="NP_005044.1" />
+              <db_xref source="UniProtKB" accession="P54725">
+                <synonym>K7ESE3</synonym>
+                <synonym>Q59EU8</synonym>
+                <synonym>Q5M7Z1</synonym>
+              </db_xref>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000592268.4">
+            <coordinates coord_system="LRG_828" start="12293" end="12891" strand="1" mapped_from="GRCh38" />
+            <partial>3-prime</partial>
+            <long_name>RAD23A-005 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS59357.1" />
+            <db_xref source="RefSeq" accession="NM_001270363.1" />
+            <exon source="Ensembl" accession="ENSE00002817864">
+              <coordinates coord_system="LRG_828" start="12293" end="12421" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000468674.1">
+              <coordinates coord_system="LRG_828" start="12350" end="12891" strand="1" mapped_from="GRCh38" />
+              <partial>3-prime</partial>
+              <long_name>UV excision repair protein RAD23 homolog A isoform 3</long_name>
+              <db_xref source="RefSeq" accession="NP_001257292.1" />
+              <db_xref source="UniProtKB" accession="P54725">
+                <synonym>K7ESE3</synonym>
+                <synonym>Q59EU8</synonym>
+                <synonym>Q5M7Z1</synonym>
+              </db_xref>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000593114.4">
+            <coordinates coord_system="LRG_828" start="12295" end="12891" strand="1" mapped_from="GRCh38" />
+            <partial>3-prime</partial>
+            <long_name>RAD23A-004 (nonsense_mediated_decay)</long_name>
+            <exon source="Ensembl" accession="ENSE00002855232">
+              <coordinates coord_system="LRG_828" start="12295" end="12421" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000466968.1">
+              <coordinates coord_system="LRG_828" start="12350" end="12891" strand="1" mapped_from="GRCh38" />
+              <partial>3-prime</partial>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000588826.2">
+            <coordinates coord_system="LRG_828" start="12406" end="12891" strand="1" mapped_from="GRCh38" />
+            <partial>3-prime</partial>
+            <long_name>RAD23A-007 (processed_transcript)</long_name>
+            <exon source="Ensembl" accession="ENSE00002824127">
+              <coordinates coord_system="LRG_828" start="12406" end="12421" strand="1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+        </gene>
+      </features>
+    </annotation_set>
+    <annotation_set type="lsdb">
+      <source>
+        <name>List of locus specific databases for CALR</name>
+        <url>http://grenada.lumc.nl/LSDB_list/lsdbs/CALR</url>
+      </source>
+      <modification_date>2015-06-22</modification_date>
+    </annotation_set>
+  </updatable_annotation>
+</lrg>

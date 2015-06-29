@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="application/xml" href="lrg2html.xsl"?>
+
+<lrg schema_version="1.9">
+  <fixed_annotation>
+    <id>LRG_631</id>
+    <hgnc_id>17761</hgnc_id>
+    <sequence_source>NG_011561.1</sequence_source>
+    <organism taxon="9606">Homo sapiens</organism>
+    <source>
+      <name>LOVD 3.0 shared installation - TREM2</name>
+      <url>http://databases.lovd.nl/shared/genes/TREM2</url>
+      <contact>
+        <name>Juha Muilu</name>
+        <url>http://www.fimm.fi/en/</url>
+        <address>The Institute for Molecular Medicine Finland (FIMM) and University of Helsinki, Finland</address>
+        <email>juha.muilu@helsinki.fi</email>
+      </contact>
+    </source>
+    <mol_type>dna</mol_type>
+    <creation_date>2014-05-16</creation_date>
+    <sequence>TGCCCACACTTTTCCCTCATATGCAGGCTGGATATCCTTCCTGACCCGTCAGAATCTGGAGCAGTTCTGATTGAATCAAGAAGCAGGAGAGGTTCCCTATGCTTCCATCTCAGCCCTATGATGCCTGCGATGTCTGCACCAGGCTTAGCACCTGGGTTCATCTCATTTCCTGAGTTCTCATCCAGCCCTTCCCTTGGTCTAACATCCTGCATCACTTCAGTTGGGCCCATTGGCTGCTGCTAGACTGGCCTGCTGCCTGCCTGAGACCTAGTCCAGTGCCATCACACACTCGCATGTACACACACACTCCCCAGGAGGTGTCCTGGCTTGGAGAGGGGAGTCATTGGCCCTGAATAGGAACCGAGATCTTCAACTTGGAAAATATGAAGTGTTAAAATGGAAGAACTGCCTGAGCTGAAAGTGTCAGAGGATGATGCAACAAATACAAAGAGAGAGATGGGAAGAAGGGTCAAGTCTGAGCCAGATCAGAGGCGGGATAAAGATTGGGACTTGAAGGCAGGGGTTTGGATGTAGGAAGGTAGGATAAAGTAAAAGCAGAACAGAATCAAAGAAGGAACTGGGAAAGAGAAGTCTTAAGTGGCTGCTTATTAGTGAATGGCATTTGTGGGCTCTTATGTTTGTAGTTTGGTGGCCCCAGCCAAGGGTGGAATGGACACCACCAATCACCCCTTTAAGCCCAGTTCTCAGGCAAGGCTTTGCAGGGGCTGTCCCAGGTTGGGCTGACAATAAGCCTAATCAAATTGGAGTTATTCCAGCTTTGAGAGGCCTGTTCCTATGTCGGCTGTTCCAGTCACATGCCTCCCCAGCCTAGCACAGGGGCTGGCACTGGCCATGGTCCTGACCAACACCTAGTGCTTTCCTGGCTGCTCAAGCTGGCTGGGTGCAGATGGGAAGATAATGGAGGATCTGATCTGAAAGGTGGTGAGGATGCTCATACTTGACCGTCTTGATTTACTCCTAGGGAGAAAGGAGAAGAGAGAGTGAAAGTGTGTGTTTGAGGAGAGTGATGATTTGGAACAGCTACTCTAGCCTCCAGGAGTTCTGAAGAGGATGACCAGGCAGCTGTGAGGTCTCAGTTAAAGTTAGACATCAGGAGCATGTCATGTGTGCAGTCATGCTTCTGGTTCTGAGGCTTTCCCCAGCAATGGTCACCATCATATCTAGGAACACAAAGGCTCCATGGTTCTGTAACACCATGCCTGGCACATGAATGAATGCATACATCGGTGAGTGAGGAAGTTCAGACGTAATGACAGAAGGACATAAACTCTGTGCCCAGATGTGAGGTGGAAGGTATCTTTGAATTCAGATTTAGCAAAGGGAAAAGAAGAATCCTGTGCTTGGGAGTGCGGGTGGTGCAGAACTGTTCCTGTGCTCAAATATAGGATCGAGGGATCAGGAAAATTAACACAAGTTTAAAGAAGAGCCTTTGATGTACATGTGCTGTGAGTAATTGGTAAGGATTTCTTGGTGCCTTCGCTTTTCCATGAGGTTTAAAGACCTTTTCCTCATGTGGGAAGGAGTGGGGACATGGGGTCAATATGCAGCTTAAATGGACCAGAAGATAAGATAAAAACTTATGGAGCTTATGAGTTATGCTTCTGCCTAGGAAACAGAAAGCTAGAATCATGTAAAATAGCACCCCAAATCATAAAATATTTAGGTAGAAATTTAACAATATATGTGCACGATTTGTATGCTGAAAACTGAAAACACTGATGAGAGAAATCATAGAAGAAACAAATAAATGGACAGCTGAACTGTGTCCATGGCTTGGAACACTCAACAGTGTTGTCTATTTCCCTCTAAAACTAAACCATAGAGTCAATGCAATCCCAACTGAAAGCCCAACAGATTTTTGGGGGTGAGAAGAAGAGGATTAGAAATCCACAAGCTGATTTTAAATTTTACATGGCAAAGCAAAGTAACTAGAAGAGTCAAAACCATTTTGAAGAACCACTGTTTGATTTTAAGACAGTGTAAAGCTACAGTAAGTTATCAAGACAGTGTGATATTGGAGAAAGAATAGACATATAGATCAACGGAACAGAACAGTCAGAACTAGACCTACATGTCAATTGATTTTCAACAAATACACTAAGGTAATTCAATGAAGAAAAGAAAGTCTTCTCAACAAATTATGCTAGTACAATTGGACATTCATATGTTGAAAAAATTGCAAAGTGCATCTTATACCACATGCAAAAATTAATGAAAAATGAATCATAGACCACAATGTAGAACCTAAAACTATAAAACTTCCAATGGAAAACATAGGAGAAAATATTTGTGACTCTGAGATGGGCAAACTTTTTAACAGAGCACAGAAAAGCACAAATTGTAAAAAGAAAAATCAAGGAATTGGACTTCATCAGAAATAACATCTATCCATTTAGGCTGGGTGCAGTGACTCATGCCTGTAATCCCAGCACTTTGGGAGTCTGAGCCAGGCAGATCACCTGAGGTCACGAGTTCGAGACCAGCCTGGCCAACGTGGTGAAACCCCGTCTCTACTAAAAATACAAAAAAATTAGCCAGGCGTGGTGGCAGGTGCCTGTAATCCCAGCTACTCAGGAGGCTGAGGCAGGAGAATCGCTTGAACCTGGGAGGCGGAGGTTGCAGTGAGCTGAGATCTCACCATTGCACTCCAGCCTGTGTGACAAGAGCAAAACTCTGTCTCAAAAAAAAAAAAAAAAAAAAAAAAAAAAGATGCTGCTAATGCTGCTAAGGAAATGAGAAAAAAAGTTACAGACTAGAAGAAAATATTTGCAAATCACATATCTGATAAAGGACTGCTATCCAGAATAAAAAGAATTTTCACAGCTCAATAATAATGATAATAATAAACAATTAAAAATGGACAGGACAAAAGTTTTGAACTAATACTTTGCTGAAGAAGGTACAGATGGCAATAAACAACAAAAAGATGTCCAATATCGTTACTCACTAGAAAAATACAAGTTAAAATTGAAGGAGATATCACCTTAAACCTATTAGAAAGGCTTTTTAAAACCTGACAATATTAACTGTTGACAAGGATGTAAAAATGGTACAGCCTCTTTGGAAAAGACTTTGGCAGCTTTTATAGACTTAAACATACACTTACATGTGACCCAGCAGTCCCATTCTTAGGATTTTATCCAAGGGTAATAGAAACATATGTCCACACAAAACATATGTACATGAATGTTTATAGTGGCTTCATTTATAATTGTCCCAAACTGGAAACAACCCAAATATCCATCAGCGGGTGAATGAATACGCTACTTGTGGTTCAACCATAGAATGAAAGATGGTTTAGCAATAAAAAGGAATACATTCTTGAGAAGTGAAACTTCACGCATGCTGAATTTATTCTGATGAGTGAATAAAGACTGACCCAAGAGGCTACATACTATTTAATTCCATGTCTATGACATTTTAGGAAGGGCAGGAAGCTACAGAAACAGATGTCAGCTTAGTAGTTGCCAGGCCCTGGATTGGAGAGAAAGAGACTGGCTAAAATGGGCACAAAGGCTCTCGCTTAAGCTAAATGAAACTTTCTATATTATGGTATTGTGTTACACAGACATGGTGATTGTGGTGGTTGTTATAGAGATGCATGAGTTTGTCAACATTTACACAACTAGACATTTAAAAGGGGTAAATTTTTGTATATGTAAATTATGGGCCAATAAACCTGACTTCTAGAAAAAGACCCTAGAAGAGTACCTACAGAGTGATCTTCAGGCAGCCTCAGACTTCAGCCCCCAGGCCCTTGGGGCAAGGCCGGGCAGTTGGCCCTTTGAGTGGAGGCCTGTCTTCTCCTCACTATGAATTCCCCATCTCCAAGCACATTCCCTGTCCGTAAGTTAGATGCACAGTAAATATGAGTAAATAAATGAATAAAAGAACAAATAAGTGAGTGTTTGCAGGAAACTAAAGTAGACCCTGATAATCTACAGGCTCCTGCAGGCTTCTCCAGCCTCTTCTGCCACTCCCAGCACAACTCCATTTCCCACTCCTAGAATTGACTCAAGCCTCCTCCATCCAATCCCCGACTCACTGGGCCATTTCACACTTTTGTGCCTTTGCACACGTGGGTCCCTGTGCTTGGATCACCATGGGAACCTGTACGTGTAGAAAAACACACCCCTACCCCCAGAACTCTGAGAAATATCCTGTCCTGTCCTGTAGGATAGGATGATCAGGAGTTCAAGCATGTGTGTGCACAAAATAAACACCAGTGTGAGCATGTGTGCACAGGAGACACCCAACAGTTCCAAGAAGGCTAAACTTGGGCAGAAAATTCCAGGTGGGAGAGAAAATTTTCTGTCTTATGGACAGCCCATTTCCCTTTTCCCTTCTAACTAGGATAATGGTAATAGTTAGTATTTGTTGAATGCTGTGTGTCAGGCCCTACTGGAAAGCACTTTACCTGTAGGAACCCATATGGTGCTCCTGATAACCCTTTGCACTATCATTATTCCCACTGTATAGATCAGGGAACAGACACAGGTAGGTTTTGGATGTGTGGTTACACACCCAGAAAGTCAGGAAGTCTGGCTCCAGAGCTGTGTACTTAACTGCTGCCACACTACAGGAATGACAGCCCTGGGGGGATGAACTAAGAGGTGCTGGATGAGGGTCCTGGCCTCTAAAGGCACAGCTGTTCTCCAACTCTTGCAAGGCTGAAACCAGAAGATGGCGGGCATTGCAGCTGGTGGAGGGTCTGAATACAGCTGTGAGGATAGTGATCCCTGGGCTAGGCTCTGCAAGGAAACTGAGCAGTGCAGGGCCTTACCAGCCCCAACCATCTGGGGGCCACCCTGGCTGGCACCAGCAGGAGGGTGGGCTGGCTTCTCAGAGGTCTGGGAGACTCAGCCTCCTTCTGCCAGGGCTGCAGTGGCCGACTCCTCCTCCCCTCTGTCCCCACCCTGCACCGCCTCCAGACCCCAGTCCTGACTATTGCTTAATCCCCAGGAGCCCAGTTCCTGTGGGCAGCGCCTGACATGCCTGATCCTCTCTTTTCTGCAGTTCAAGGGAAAGACGAGATCTTGCACAAGGCACTCTGCTTCTGCCCTTGGCTGGGGAAGGGTGGCATGGAGCCTCTCCGGCTGCTCATCTTACTCTTTGTCACAGGTAGGATCCCCTCCGTGCCCTGTGATGCCTTCTCTCCCTCACTTTGAGCATGTGGTTGGGGCGCGGGTGGTGGGCCCTGGGGTGAATTATGAAGGCGGTGGCAGTCCTCGCATGCCTGAGTGCCCTGTTCTGCACTCCTCTCCTCCCCACCCTGCCCATATTCTTCACACCCTCCTTCCCTCCCCAGTATCAAAACCTACCCTCAGACTCTTTCTGCATGTGGACATGTAAGGGGCTGGTGGACTCTGGTTGCATTGGAAGGGAAGGAGTGCTAACAGTGGCATCCCAGGCACTAGCTGGCAGTTGGGGGAAGCTTTGGGGGGCACTGGCACTGGTAATAGCCTCTGAAATTATAAGCCACTAATTATGAGCCCCTACAGTTATAAAGGAGGAAAGAACCTGAGGATGTTCATCTGCATCTTTGGGGCACTCTCTCCCCTGCTCTGAAGGTCCCCTTGTCCTCAGCTCTTGATGGGAGGTGAGGAGCGTAGAGATTTCCGTTGCTGAGTTGAGGGGAATTGACACACCAAATTTTTGTACACAATTGCTTCTTCCCGCTGAGGAAAGCGCACCTTTTGCTCCCCCAGAGCACTGGACAAACCTGGGCAAGAGGAGAGACGGTGCCAAATGGAGTCTTGTTCCTGCAGCTTCTTAGATGGTGGTCAGGGGGAAGGCGGGGTTCTGAGGCATGGATGGGAGGTGGTCAGATGGGAGAGGGCCACGGCCCATCTGGTCTCTCTAGTTCCAAAAGGCAAGCCACCAACTTCCCAATCCTATCTTTCAAGCCTCTGTCACAGTAATGGTTGAAGATGGCAGGCAAGGGAGGACCAAGAGAGAAGTCAAAGCAGGGGGCTCTGGGGGCTGCCCCAGCAACAGGCTGGTGCTCTAAGCCCATCTCCCCCGCCCTAAGGAGGGTTCCCAAAATAGCAGCCTCATGTCTCCCCCAAAATATCTCCGAGACGGGTCCTTCCTGAAAGGGGAACAAAGCCACAGAAATAGGGAAGCTGGAAGTTAAAGGTCAGGAAAGTCGGTACCAATGTGGGCGGCTGCAGAGCAAGCAAGAGTGGCGGGGCAGGGAGAGCCAGCCCCAGGCCGAGAGGAGAGGTCCCAGTCCCAAATGATGGCAAAGAGATGTGCAGAACAGAACTGGAGGGGGTTTTAAGACCAAGTGCCTCCAGAATAGACCCAGAGAAGGTCAGTTACTTCTCCAAGGAGGCCCAGCAAGAGCAACAGTGAGAAAACCAAACCCAGGTCCCAGGTTTCCTGGTTCCCAATTTCCCACAAACACATGCTGTGCCATCCGCTCCCAACTTGTATAAGAACCTAAGCTCCTTCAGGGCAGGATTTTTGTCTGTTTAGGTCACTGCACAGAGCAAGTGTTCAAAGCGTATTTGGTAAACAAAGGAGTGAATGAATGTCTCCTCCCCAGAGCTGTCCGGAGCCCACAACACCACAGTGTTCCAGGGCGTGGCGGGCCAGTCCCTGCAGGTGTCTTGCCCCTATGACTCCATGAAGCACTGGGGGAGGCGCAAGGCCTGGTGCCGCCAGCTGGGAGAGAAGGGCCCATGCCAGCGTGTGGTCAGCACGCACAACTTGTGGCTGCTGTCCTTCCTGAGGAGGTGGAATGGGAGCACAGCCATCACAGACGATACCCTGGGTGGCACTCTCACCATTACGCTGCGGAATCTACAACCCCATGATGCGGGTCTCTACCAGTGCCAGAGCCTCCATGGCAGTGAGGCTGACACCCTCAGGAAGGTCCTGGTGGAGGTGCTGGCAGGTGAGTGGGCAGTGGCTGCCTCTCTGGCCTGCCCCTGTTCCAGGCCTCATGTTTTGGGCGTCTGTGTGCAGAACCACCCACTGGGCTCTCAGGGATCCTGGGAAAACCCATCGTATGGTCTCATCTCCCTACTCAGGGCTACCAAGGATAGTTGTGCAGGTTGCTCACTATACAAGGGGGCCAAAATCCAGCCCGGACTCCTTTTGCCAGACTGTGTTCCCTGGTGCAGAGCTGCATCACCTGCAAGAAGGGCACCTTTCTCTACTTTGCATTAAGGCACTCTGTGAACTAGCCTGGCCTTGGCCCTCCTTGCCCAAACAGCTTTATCCATCTCCATCCAGTTAGCATGTGAACATGATAGGAGGTCCTTAAGGAGGAGGAGATTAATTTATTCCCTCACCAACCAACCAATGGCCCTATCAACGTAAGTGAAGCACCAACCTGGTGCAGAAAATCACCCCTAGAAAGGAACACTGCTTGTGCTGGGCAATGTGCTTCACTTCTCTGGGCCTCCATTCTCTCATCTGTAAATGGAGAGGGTGGTGTCTGTCCTGCTGACCCCATAGGGTTCCTGTGAGTTTTTATTTGGCGGGGGGCGTTGGGGGCAGGGTGTGACATGTGCTCCAAGCCTCCTGCTACTGAACTGTCTTGGGATCGTCATTCCAGGTGTGAGTAGGTGGGCCAGGGTGTCTCCTTTCCACCCCCGAGCTCTGCGCAGGGACCACCCTCCAGGAAGGCCTTCTGCTTGAGTCTGCAGAACACAACTGTGTCCCCAAAGGAGAACAAATCTGGGGCTACAAAGGCCTTTTCTGACTCTCCTCCTTTCCAACCCCTTCTCCCAGTATGGCTCTTTACCATGGAAATGAGGTCAGGAGTAGTATTTGCCTGACTTGGGGAGGCCAGGGGAGACTGCCAGTCATAGACACAAACCCCACCTCCACCACTTTCCTAAGGATGGCCGGTGGCAGTGAACTCCCTTAGCCACCTCCCAAGAGGGAGACAGAAAAATAAAAGTAGCCCATAGCTTGTGTAGACAGCTTGACAGTTTAGATAGGATTTTCAAGTACATCCACGATTGTATTTGCTCTTCTTAGCCCCTGTGCGGAAGGAGGGGGGCATTGCAGTTACTGAGCTCCGATGAGGTGCTGGATACGGCACAGAGGTGCCCTCACGGAATCCTGGCAACCCTGCTATTAAGGAAGTGTTCCTAACGGCCCACTTTATAAGTGGGGAAACTGAGGCTTATGGAGTGTAATGACCTGATCCACATAGGACCAGTGCCCAGGGGACCTCACCCCACCCATAAAGGTTCTCCCGCCAAGGTTCTCCCCCTGCCTCGAGGAGGAAGGGGCTGGAGGCTCATGGCTCTGCCTCCCATAGACCCCCTGGATCACCGGGATGCTGGAGATCTCTGGTTCCCCGGGGAGTCTGAGAGCTTCGAGGATGCCCATGTGGAGCACAGCATCTCCAGGTACAGCGATGGGTCTTTCCTAAAACCCGTGGGCAGACTTCCACCCTGCAGAGCCCCACGGGGGTGGGGGCTGGGCATCCTGAACTACAAATTACAAGGCAACTAGAGCCTGAAGGGCCCTGGATATCTCTTATGTAAACACCCCTCCACCAGCTGCTACATGTTAGTTAGTTAGCGTGACTGTGTCAGTTGTTCATTTATTGGAAGACTTCCATAATGCTTTGTAAAGAGCAGTTGCTCTACGACTCCTGAATATCAGCTCCCGCCCCTCCCCTGGCAGCCCCCAGACATCCCCATAATTCAGCAACAATGAATGTTTTAGTACTTTAGTACAAAGCTAAGACCCCCAGATCTCTGCTTCATTGGTAGGACCAGAATCAGTTCTGACTGGTCCATGCCTGTGTACTGGTGTTTAAACGTTGTTCATATAACCACATGTGTGTACACACACACACCCATGGCATAGCACTGTATACAGAAGAAAACTGCTCAGTGAGGGAAGGTGGTGTGTTTAAGTGCACTCAGCAGGTTAGTGGCAGAGCATGCCTAGAACTCAAGTCTCTTGACTATGGGCTCCCAAAGCTCCAAAAAGGCCCATCCCAGGGATGGTGCTGGGTGGGATTTGCTGAGGTCCTAGAAGCTCCTGGTTTCTCCCCATTCCCTGAGAGAAGATTCTAATCTGTAGGCCATCTCAAGGCTCCCATCTGCCTTCTTGTCTCTCCAAGGAGCCTCTTGGAAGGAGAAATCCCCTTCCCACCCACTTCCATCCTTCTCCTCCTGGCCTGCATCTTTCTCATCAAGATTCTAGCAGCCAGCGCCCTCTGGGCTGCAGCCTGGCATGGACAGAAGCCAGGGACACATCCACCCAGTGAACTGGACTGTGGCCATGACCCAGGGTATCAGCTCCAAACTCTGCCAGGTGGGCTTGGAGAGCACAGCCATCAAGGGTGGACTGGGCAGGGATGGGAGGCGGTGCCGAGAGGGGCCACATGAGTCCTTGGACTATTGCAGGGCTGAGAGACACGTGAAGGAAGATGATGGGAGGAAAAGCCCAGGAGAAGTCCCACCAGGGACCAGCCCAGCCTGCATACTTGCCACTTGGCCACCAGGACTCCTTGTTCTGCTCTGGCAAGAGACTACTCTGCCTGAACACTGCTTCTCCTGGACCCTGGAAGCAGGGACTGGTTGAGGGAGTGGGGAGGTGGTAAGAACACCTGACAACTTCTGAATATTGGACATTTTAAACACTTACAAATAAATCCAAGACTGTCATATTTAGCTGGATAGTTTTGGGCATCATGAAAGTCTCATTTTCTTCCACAGGGGTAAGAAAATGAATTTGGATGAGAAAAAGACAAGAGATTTTGCTCCTTGAGGCCCAGGACCATAGGATACCACATCCCTCCATTCTCACAGGCTCAATCAGCCAGTCAGTTTTTTTCTTCTCTCTCTTCCCTTCCCTAGATCTGATCGCCAAGTTCTGCCTCCTCCTCTGGGGTTTCTCTAGCACCCAGTCTTCCTCTGCTCTCCTCCCCAGCATTCACCCTCTCCATCAGCTTCCCCTGGATTATGGAACCTCCCTGCCCCAAGGCCCCCTCCAGCTGACTCAGTTCTTCCCCACCAAGGTCAACTCCTGGCAGACTCATCCATTCATCTCCTTAGAACTCTGTTTTCATCATATCATTTCCCCTTCGGAGAAATGACAAGGGCTTGATAATGTACAGCATTATCAAACTGGGAACTGATGGTTCAAGCCCCTCATCATATAGAAGGGAAACTGAGGCTCAACAAGGGAAAGGAACTTACCCAAAATCCCCACCCAAAATCCCCAGTAGAGCCTGGAAATCCAAATTTCACTTGGCATTCAAGGTGCTCTTTCCTCTGACTCACTCCTACTTATTTGTTCAACAAGTATTAGTTTGAGCAACCAGTCTGTGGCGAGTACTATTCTGAACACTGGAAATACAACAGTGGACAAAAGAGGCAAGAGTTGTGCCCACACAGAGCTCACTTTAGTGGAAGGAGAGGAGACAGACAATGCACACAGTAAGTAAGTCAATCTGATTCCCTGTTAGAGGCACAACGTGCTGAGGAAAAAATTAAAATCAAGCAGGGTTAGGAGTATGGGTGTGCAGGAGGGACAGGGGATGATACCATCTTAAATGCAGAAGCCAGAAGGTGCCATTTGAGGAACACTTGAAGAAGGCCAGGAAGTGAGCCATGAGGACATCACGGGGAGGAGTATTCAGGGCCGAGCGAACAGCCAAGGCAGCACATGCAACCTCAACTCTCTCTTCAACACACACACCACCCTGGCCAAGACTCATGGGGAAACTGGGAGGAGACTCCCCTGAGGGTGAGCTGCAGGGGAAAGAAGAAGTGAGTCGGCCATATTCCTGGGCTCTCTGGACTGGGCCCCAGAGAAGTGGATGCCCAGGATCCCCTGTGGCCATAGCTCACATGGCTGCCTTGCCACCTAACCTGCGCTTGGGCACCTAAGGTTTAAATCACTAGGATGGAGCCCCTGGCATGGCCCTCATGTTCCAGCCTCACTTCAACATGTCACTCCCCTGGTCCCAGCTGTGCCCCAACCCTGCCTTGTCCACTCCCAATGTAAGCTGCTCCACTGGCTCCCTGTCCTGGAGCCTTGGGATTCTGGTCCAACCTGTGTTCCCATGGCCTCCCTGGCTCAGGGGCACATTAAACTTCCTCATTGTGTCCTGGGGCATTGCCCCCTTCCTATAGATCTAGGGCACAGGTAGCACCAAGAATGAGCCGAGCCCAAACTGCGCCTTCTCCACCTACCTCCTGCCCCAGTTGTGGGCACCAGTGCCGATGAAATGGCCTGGGAGGCTCCCCGCGGCCTGCCTCGTGCTCCAGGGCAGTGGCTGCCATCAGCCCCAGCCCAGAATCAGGCTTTCCTCCTCATGGGAGCTTGGCCTTTTCTCTTTCCTTCTCTGCCATGTCAGAGACATTCCTCTCTGGACTGGAATCACCACAGGCTCTCCTGCCTCAGACTCTCTGCGAGCACTCTGGACTGAAGGGAAGTGAGGCCATTTGGCCTCAAATTTCAACTCTGCCTCCTATTAAGACACCTTAGGCAAGCTCCTCAATCCCTCTAAAACCCAGTGCCCTCGCTTGTAGAAACAAATAAACAAAACAACCACTTCCCCTACTTTGCAAGGTTTTTGTGAGGTTGAAAGAAATAACATTCGTGGCCAGACATGGTGGCTCACGCCTGTAATCCCAGCACCTTGGGAGGCTGAGTGGGGTGGATTACTTGA</sequence>
+    <transcript name="t1">
+      <comment>This transcript is identical to the RefSeq transcript NM_018965.3 but with the polyA tail removed.</comment>
+      <coordinates coord_system="LRG_631" start="4999" end="9679" strand="1" />
+      <cdna>
+        <sequence>GGGCAGCGCCTGACATGCCTGATCCTCTCTTTTCTGCAGTTCAAGGGAAAGACGAGATCTTGCACAAGGCACTCTGCTTCTGCCCTTGGCTGGGGAAGGGTGGCATGGAGCCTCTCCGGCTGCTCATCTTACTCTTTGTCACAGAGCTGTCCGGAGCCCACAACACCACAGTGTTCCAGGGCGTGGCGGGCCAGTCCCTGCAGGTGTCTTGCCCCTATGACTCCATGAAGCACTGGGGGAGGCGCAAGGCCTGGTGCCGCCAGCTGGGAGAGAAGGGCCCATGCCAGCGTGTGGTCAGCACGCACAACTTGTGGCTGCTGTCCTTCCTGAGGAGGTGGAATGGGAGCACAGCCATCACAGACGATACCCTGGGTGGCACTCTCACCATTACGCTGCGGAATCTACAACCCCATGATGCGGGTCTCTACCAGTGCCAGAGCCTCCATGGCAGTGAGGCTGACACCCTCAGGAAGGTCCTGGTGGAGGTGCTGGCAGACCCCCTGGATCACCGGGATGCTGGAGATCTCTGGTTCCCCGGGGAGTCTGAGAGCTTCGAGGATGCCCATGTGGAGCACAGCATCTCCAGGAGCCTCTTGGAAGGAGAAATCCCCTTCCCACCCACTTCCATCCTTCTCCTCCTGGCCTGCATCTTTCTCATCAAGATTCTAGCAGCCAGCGCCCTCTGGGCTGCAGCCTGGCATGGACAGAAGCCAGGGACACATCCACCCAGTGAACTGGACTGTGGCCATGACCCAGGGTATCAGCTCCAAACTCTGCCAGGGCTGAGAGACACGTGAAGGAAGATGATGGGAGGAAAAGCCCAGGAGAAGTCCCACCAGGGACCAGCCCAGCCTGCATACTTGCCACTTGGCCACCAGGACTCCTTGTTCTGCTCTGGCAAGAGACTACTCTGCCTGAACACTGCTTCTCCTGGACCCTGGAAGCAGGGACTGGTTGAGGGAGTGGGGAGGTGGTAAGAACACCTGACAACTTCTGAATATTGGACATTTTAAACACTTACAAATAAATCCAAGACTGTCATATTTAGCTGGATA</sequence>
+      </cdna>
+      <coding_region>
+        <coordinates coord_system="LRG_631" start="5103" end="9421" strand="1" />
+        <translation name="p1">
+          <sequence>MEPLRLLILLFVTELSGAHNTTVFQGVAGQSLQVSCPYDSMKHWGRRKAWCRQLGEKGPCQRVVSTHNLWLLSFLRRWNGSTAITDDTLGGTLTITLRNLQPHDAGLYQCQSLHGSEADTLRKVLVEVLADPLDHRDAGDLWFPGESESFEDAHVEHSISRSLLEGEIPFPPTSILLLLACIFLIKILAASALWAAAWHGQKPGTHPPSELDCGHDPGYQLQTLPGLRDT</sequence>
+        </translation>
+      </coding_region>
+      <exon label="1">
+        <coordinates coord_system="LRG_631" start="4999" end="5142" strand="1" />
+        <coordinates coord_system="LRG_631t1" start="1" end="144" />
+        <coordinates coord_system="LRG_631p1" start="1" end="14" />
+      </exon>
+      <intron phase="1" />
+      <exon label="2">
+        <coordinates coord_system="LRG_631" start="6572" end="6922" strand="1" />
+        <coordinates coord_system="LRG_631t1" start="145" end="495" />
+        <coordinates coord_system="LRG_631p1" start="14" end="131" />
+      </exon>
+      <intron phase="1" />
+      <exon label="3">
+        <coordinates coord_system="LRG_631" start="8303" end="8393" strand="1" />
+        <coordinates coord_system="LRG_631t1" start="496" end="586" />
+        <coordinates coord_system="LRG_631p1" start="131" end="161" />
+      </exon>
+      <intron phase="2" />
+      <exon label="4">
+        <coordinates coord_system="LRG_631" start="9119" end="9312" strand="1" />
+        <coordinates coord_system="LRG_631t1" start="587" end="780" />
+        <coordinates coord_system="LRG_631p1" start="161" end="226" />
+      </exon>
+      <intron phase="1" />
+      <exon label="5">
+        <coordinates coord_system="LRG_631" start="9405" end="9679" strand="1" />
+        <coordinates coord_system="LRG_631t1" start="781" end="1055" />
+        <coordinates coord_system="LRG_631p1" start="226" end="230" />
+      </exon>
+    </transcript>
+  </fixed_annotation>
+  <updatable_annotation>
+    <annotation_set type="requester">
+      <source>
+        <name>LOVD 3.0 shared installation - TREM2</name>
+        <url>http://databases.lovd.nl/shared/genes/TREM2</url>
+        <contact>
+          <name>Juha Muilu</name>
+          <url>http://www.fimm.fi/en/</url>
+          <address>The Institute for Molecular Medicine Finland (FIMM) and University of Helsinki, Finland</address>
+          <email>juha.muilu@helsinki.fi</email>
+        </contact>
+      </source>
+      <modification_date>2015-06-22</modification_date>
+    </annotation_set>
+    <annotation_set type="lrg">
+      <source>
+        <name>LRG</name>
+        <url>http://www.lrg-sequence.org/</url>
+        <contact>
+          <name>Locus Reference Genomic</name>
+          <url>http://www.lrg-sequence.org/contact</url>
+          <email>feedback@lrg-sequence.org</email>
+        </contact>
+      </source>
+      <modification_date>2015-06-22</modification_date>
+      <mapping coord_system="GRCh37.p13" other_name="6" other_id="NC_000006.11" other_id_syn="CM000668.1" other_start="41124246" other_end="41135922" type="other_assembly">
+        <mapping_span lrg_start="1" lrg_end="11677" other_start="41124246" other_end="41135922" strand="-1" />
+      </mapping>
+      <mapping coord_system="GRCh38.p2" other_name="6" other_id="NC_000006.12" other_id_syn="CM000668.2" other_start="41156508" other_end="41168184" type="main_assembly">
+        <mapping_span lrg_start="1" lrg_end="11677" other_start="41156508" other_end="41168184" strand="-1" />
+      </mapping>
+      <lrg_locus source="HGNC">TREM2</lrg_locus>
+    </annotation_set>
+    <annotation_set type="ncbi">
+      <source>
+        <name>NCBI RefSeqGene</name>
+        <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
+        <contact>
+          <name>RefSeqGene Group</name>
+          <address>NCBI/NLM/NIH</address>
+          <email>rsgene@ncbi.nlm.nih.gov</email>
+        </contact>
+      </source>
+      <comment>Annotation from NG_011561.1</comment>
+      <modification_date>2015-06-19</modification_date>
+      <mapping coord_system="NM_001271821.1" other_name="NM_001271821.1" other_id="NM_001271821.1" other_start="1" other_end="861" type="transcript">
+        <mapping_span lrg_start="4999" lrg_end="5142" other_start="1" other_end="144" strand="1" />
+        <mapping_span lrg_start="6572" lrg_end="6922" other_start="145" other_end="495" strand="1" />
+        <mapping_span lrg_start="8303" lrg_end="8393" other_start="496" other_end="586" strand="1" />
+        <mapping_span lrg_start="9405" lrg_end="9679" other_start="587" other_end="861" strand="1" />
+      </mapping>
+      <mapping coord_system="NM_018965.3" other_name="NM_018965.3" other_id="NM_018965.3" other_start="1" other_end="1055" type="transcript">
+        <mapping_span lrg_start="4999" lrg_end="5142" other_start="1" other_end="144" strand="1" />
+        <mapping_span lrg_start="6572" lrg_end="6922" other_start="145" other_end="495" strand="1" />
+        <mapping_span lrg_start="8303" lrg_end="8393" other_start="496" other_end="586" strand="1" />
+        <mapping_span lrg_start="9119" lrg_end="9312" other_start="587" other_end="780" strand="1" />
+        <mapping_span lrg_start="9405" lrg_end="9679" other_start="781" other_end="1055" strand="1" />
+      </mapping>
+      <features>
+        <gene source="NCBI-Gene" accession="54209">
+          <symbol source="HGNC" name="TREM2">
+            <synonym>TREM-2</synonym>
+            <synonym>Trem2a</synonym>
+            <synonym>Trem2b</synonym>
+            <synonym>Trem2c</synonym>
+          </symbol>
+          <coordinates coord_system="LRG_631" start="4999" end="9679" strand="1" />
+          <long_name>triggering receptor expressed on myeloid cells 2</long_name>
+          <db_xref source="GeneID" accession="54209" />
+          <db_xref source="HGNC" accession="HGNC:17761" />
+          <db_xref source="MIM" accession="605086" />
+          <db_xref source="CCDS" accession="CCDS64422.1" />
+          <db_xref source="CCDS" accession="CCDS4852.1" />
+          <db_xref source="GI" accession="224922759" />
+          <transcript source="RefSeq" accession="NM_018965.3" fixed_id="t1">
+            <coordinates coord_system="LRG_631" start="4999" end="9679" strand="1" />
+            <long_name>triggering receptor expressed on myeloid cells 2, transcript variant 1</long_name>
+            <db_xref source="GeneID" accession="54209" />
+            <db_xref source="GI" accession="425876797" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_631" start="4999" end="5142" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_631" start="6572" end="6922" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_631" start="8303" end="8393" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_631" start="9119" end="9312" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_631" start="9405" end="9679" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_061838.1" fixed_id="p1">
+              <coordinates coord_system="LRG_631" start="5103" end="9421" strand="1" />
+              <long_name>triggering receptor expressed on myeloid cells 2 precursor isoform 1 precursor</long_name>
+              <long_name>triggering receptor expressed on myeloid cells 2a</long_name>
+              <long_name>triggering receptor expressed on monocytes 2</long_name>
+              <db_xref source="CCDS" accession="CCDS4852.1" />
+              <db_xref source="GeneID" accession="54209" />
+              <db_xref source="GI" accession="9507203" />
+            </protein_product>
+          </transcript>
+          <transcript source="RefSeq" accession="NM_001271821.1">
+            <coordinates coord_system="LRG_631" start="4999" end="9679" strand="1" />
+            <long_name>triggering receptor expressed on myeloid cells 2, transcript variant 2</long_name>
+            <db_xref source="GeneID" accession="54209" />
+            <db_xref source="GI" accession="425876763" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_631" start="4999" end="5142" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_631" start="6572" end="6922" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_631" start="8303" end="8393" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_631" start="9405" end="9679" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_001258750.1">
+              <coordinates coord_system="LRG_631" start="5103" end="9582" strand="1" />
+              <long_name>triggering receptor expressed on myeloid cells 2 precursor isoform 2 precursor</long_name>
+              <db_xref source="CCDS" accession="CCDS64422.1" />
+              <db_xref source="GeneID" accession="54209" />
+              <db_xref source="GI" accession="425876764" />
+            </protein_product>
+          </transcript>
+        </gene>
+      </features>
+    </annotation_set>
+    <annotation_set type="ensembl">
+      <source>
+        <name>Ensembl</name>
+        <url>http://www.ensembl.org/</url>
+        <contact>
+          <name>Ensembl</name>
+          <address>European Bioinformatics Institute</address>
+          <email>helpdesk@ensembl.org</email>
+        </contact>
+      </source>
+      <comment>Annotation is based on Ensembl release 80 (GRCh38  primary assembly)</comment>
+      <modification_date>2015-06-22</modification_date>
+      <mapping coord_system="ENST00000338469.3" other_name="ENST00000338469.3" other_id="ENST00000338469.3" other_start="1" other_end="860" type="transcript">
+        <mapping_span lrg_start="4999" lrg_end="5142" other_start="1" other_end="144" strand="1" />
+        <mapping_span lrg_start="6572" lrg_end="6922" other_start="145" other_end="495" strand="1" />
+        <mapping_span lrg_start="8303" lrg_end="8393" other_start="496" other_end="586" strand="1" />
+        <mapping_span lrg_start="9405" lrg_end="9678" other_start="587" other_end="860" strand="1" />
+      </mapping>
+      <mapping coord_system="ENST00000373113.6" other_name="ENST00000373113.6" other_id="ENST00000373113.6" other_start="1" other_end="1044" type="transcript">
+        <mapping_span lrg_start="5009" lrg_end="5142" other_start="1" other_end="134" strand="1" />
+        <mapping_span lrg_start="6572" lrg_end="6922" other_start="135" other_end="485" strand="1" />
+        <mapping_span lrg_start="8303" lrg_end="8393" other_start="486" other_end="576" strand="1" />
+        <mapping_span lrg_start="9119" lrg_end="9312" other_start="577" other_end="770" strand="1" />
+        <mapping_span lrg_start="9405" lrg_end="9678" other_start="771" other_end="1044" strand="1" />
+      </mapping>
+      <mapping coord_system="ENST00000373122.7" other_name="ENST00000373122.7" other_id="ENST00000373122.7" other_start="1" other_end="1012" type="transcript">
+        <mapping_span lrg_start="5082" lrg_end="5142" other_start="1" other_end="61" strand="1" />
+        <mapping_span lrg_start="6572" lrg_end="6922" other_start="62" other_end="412" strand="1" />
+        <mapping_span lrg_start="8303" lrg_end="8393" other_start="413" other_end="503" strand="1" />
+        <mapping_span lrg_start="9079" lrg_end="9312" other_start="504" other_end="737" strand="1" />
+        <mapping_span lrg_start="9405" lrg_end="9679" other_start="738" other_end="1012" strand="1" />
+      </mapping>
+      <features>
+        <gene source="Ensembl" accession="ENSG00000095970.15">
+          <symbol source="HGNC" name="TREM2" />
+          <coordinates coord_system="LRG_631" start="4999" end="9679" strand="1" mapped_from="GRCh38" />
+          <long_name>triggering receptor expressed on myeloid cells 2 (protein_coding)</long_name>
+          <db_xref source="GeneID" accession="54209">
+            <synonym>TREM-2</synonym>
+            <synonym>Trem2a</synonym>
+            <synonym>Trem2b</synonym>
+            <synonym>Trem2c</synonym>
+          </db_xref>
+          <db_xref source="MIM" accession="605086" />
+          <db_xref source="HGNC" accession="17761">
+            <synonym>TREM-2</synonym>
+            <synonym>Trem2a</synonym>
+            <synonym>Trem2b</synonym>
+            <synonym>Trem2c</synonym>
+          </db_xref>
+          <db_xref source="Ensembl" accession="ENSG00000095970" />
+          <transcript source="Ensembl" accession="ENST00000338469.3">
+            <coordinates coord_system="LRG_631" start="4999" end="9678" strand="1" mapped_from="GRCh38" />
+            <long_name>TREM2-002 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS64422.1" />
+            <db_xref source="RefSeq" accession="NM_001271821.1" />
+            <exon source="Ensembl" accession="ENSE00001413916">
+              <coordinates coord_system="LRG_631" start="4999" end="5142" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00000619020">
+              <coordinates coord_system="LRG_631" start="6572" end="6922" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00000750553">
+              <coordinates coord_system="LRG_631" start="8303" end="8393" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003693910">
+              <coordinates coord_system="LRG_631" start="9405" end="9678" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000342651.4">
+              <coordinates coord_system="LRG_631" start="5103" end="9582" strand="1" mapped_from="GRCh38" />
+              <long_name>triggering receptor expressed on myeloid cells 2 precursor isoform 2 precursor</long_name>
+              <db_xref source="RefSeq" accession="NP_001258750.1" />
+              <db_xref source="UniProtKB" accession="Q9NZC2">
+                <synonym>Q8N5H8</synonym>
+                <synonym>Q8WYN6</synonym>
+              </db_xref>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000373113.6">
+            <coordinates coord_system="LRG_631" start="5009" end="9678" strand="1" mapped_from="GRCh38" />
+            <long_name>TREM2-001 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS4852.1" />
+            <db_xref source="RefSeq" accession="NM_018965.3" />
+            <exon source="Ensembl" accession="ENSE00001922142">
+              <coordinates coord_system="LRG_631" start="5009" end="5142" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00000619020">
+              <coordinates coord_system="LRG_631" start="6572" end="6922" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00000750553">
+              <coordinates coord_system="LRG_631" start="8303" end="8393" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00000849874">
+              <coordinates coord_system="LRG_631" start="9119" end="9312" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003592646">
+              <coordinates coord_system="LRG_631" start="9405" end="9678" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000362205.3">
+              <coordinates coord_system="LRG_631" start="5103" end="9421" strand="1" mapped_from="GRCh38" />
+              <long_name>triggering receptor expressed on myeloid cells 2 precursor isoform 1 precursor</long_name>
+              <db_xref source="RefSeq" accession="NP_061838.1" />
+              <db_xref source="UniProtKB" accession="Q9NZC2">
+                <synonym>Q8N5H8</synonym>
+                <synonym>Q8WYN6</synonym>
+              </db_xref>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000373122.7">
+            <coordinates coord_system="LRG_631" start="5082" end="9679" strand="1" mapped_from="GRCh38" />
+            <long_name>TREM2-003 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00002318238">
+              <coordinates coord_system="LRG_631" start="5082" end="5142" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00000619020">
+              <coordinates coord_system="LRG_631" start="6572" end="6922" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00000750553">
+              <coordinates coord_system="LRG_631" start="8303" end="8393" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002755140">
+              <coordinates coord_system="LRG_631" start="9079" end="9312" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002797804">
+              <coordinates coord_system="LRG_631" start="9405" end="9679" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000362214.4">
+              <coordinates coord_system="LRG_631" start="5103" end="9265" strand="1" mapped_from="GRCh38" />
+              <db_xref source="UniProtKB" accession="Q9NZC2">
+                <synonym>Q8N5H8</synonym>
+                <synonym>Q8WYN6</synonym>
+              </db_xref>
+            </protein_product>
+          </transcript>
+        </gene>
+      </features>
+    </annotation_set>
+    <annotation_set type="lsdb">
+      <source>
+        <name>List of locus specific databases for TREM2</name>
+        <url>http://grenada.lumc.nl/LSDB_list/lsdbs/TREM2</url>
+      </source>
+      <modification_date>2015-06-22</modification_date>
+    </annotation_set>
+  </updatable_annotation>
+</lrg>

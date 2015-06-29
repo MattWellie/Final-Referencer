@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="application/xml" href="lrg2html.xsl"?>
+
+<lrg schema_version="1.9">
+  <fixed_annotation>
+    <id>LRG_347</id>
+    <hgnc_id>11727</hgnc_id>
+    <sequence_source>NG_016363.1</sequence_source>
+    <organism taxon="9606">Homo sapiens</organism>
+    <source>
+      <name>RAPID: Resource of Asian Primary Immunodeficiency Diseases</name>
+      <url>http://web16.kazusa.or.jp/rapid/browseByPIDGenes</url>
+      <contact>
+        <name>Sujatha Mohan</name>
+        <address>The Institute of Physical and Chemical Research (RIKEN), Japan</address>
+        <email>sujatha@rcai.riken.jp</email>
+      </contact>
+    </source>
+    <mol_type>dna</mol_type>
+    <creation_date>2013-12-18</creation_date>
+    <sequence>TAAAACTCATTTAAATTCCAGCATTTTTCTCCTTATTTTAGAAGTTTAACATTTCAGAAGCAGACACTGCCTCCCTTCCTGCAACAACTTTCTCCTCTTAAGTCTCATTTTTCCCCAGTTTCAAGGGCGAATTCTAGAACTCCCCGGAACCGCCACCAGTTAACCAGAATTCCGTGGCTTTGGAAAATAAAACTGCTGTTATAGCTCTTCTGGGTATTTGAGAAATGCACTTGTGAAGGGTTAGAGTTGAATCTTTTGATGCGAAAGTCGGGTTTTCCTGATACTGGGATTCCGGGATTCCAGGTGTTGGGGTGGCCCAATTCCTGCGAGAAGCAATAGCGGGCGGTAACATGAGGAGCACGGTGCGTCCAGCGAGTCCTTCCGCCTGGGGCCCTGCCGACCCCCTGCCTGCGCCCCCAGGACTCTGGCCTCACCCGGCCGTGCCGGGGCCTCTGTGACGCGGCGTTCCAGGCACTCGGCCCCGGCCGAGCCCGTAGCTAGAGCGGCTCAGAGACAGGAGGCGGCGGCAGCAGCGGCGGCATGAACCACTGCCAGCTACCGGTGGTGATCGACAACGGCTCGGGAATGATCAAGGCGGGCGTGGCTGGGTGCCGGGAGCCCCAGTTTATCTACCCGAACATTATCGGCCGCGCCAAGGGCCAGAGCCGCGCGGCCCAGGGCGGGCTAGAACTCTGCGTGGGCGACCAAGCTCAGGACTGGAGGAGCTCGCTGTTCATCAGGTACCTCCTTCTCCCAGCAGGCTGCTGGGGCTGGGGAGGGTGGGTGGGGTGGGGGTGGGGTAGGGTGGGGCTGGGGAGGTTGGGGGGTGGGGCTGGGGTGGCTGGGGGTGGGGGGACTGGGGGTGTTGTCGGGGGGCAGGAAAGGACCCCAAAGGAGGTGCGCAATGGGGACAGAAAGAATAAGAAAGCCGGGAGCTGGAAAGCCCCATCCAGCTGGAATTACTACAAACGCACGGGCCACAAATCTCCAAGGGTACCACACATCTAAAAACTGAACATTTTGCTCTCTGTGGCTATACAAATGTATTAAAACGTATAAAGTTATCGAACGAATTCATTTAAGAATATTAACTCATGGTCCCTTTTGTCACTTGGGTTATTCTCTTCAATTGACATTTAAACTATACTATAATGTGGACATTTCCCAATTTTTTAAAAGTCACAAGGTTCCAAAGGACAGAGAAAATGGAAAGCAACAAAAATCGCAGAGGTAGGCCGGGCGCGGTGGCTCACGCCTGTAATCCTAGCACTTTGGGAGGCCGAGCAGGGCGGATCACGAGGTCAGGAGTTCGAGACCATCGTGGCTAACACGGTGAAACCCCGTCTCTACTAAAAATACAAAAAAATTAGCCGGGCGTGGTGGCGCGCGCCTGTAGTCCCAGCTACTCAGGAGACTGAGGCAGGAGAATGGCGTGAACCCGGGAGGCGGAGCTTGCAGTGAGCTGAGATCGCGCCACTGCACTCCAGCCTGGGTGACAGAGCGAGACTCTGTCTCCAAAAAAAAAAAAAAAAATTGCAGAGGTAAGTAGCTGTGCTATTTTTGGCTGACACTTACCTGCTGTGAGAGGCTGTGGCAGTTATTGCCCATAAAGGGATATTGGTAATAAACGCGGGGAATTAACTGAGGGTCGAAGACAATAGAAACTAGAAAAATAAAAAGCTGTCATTGATCTTATTGCTTTCCTTACAGTTACCCAGTGGAGCGTGGTCTCATTACTTCATGGGAGGACATGGAGATCATGTGGAAGCATATCTATGACTATAACCTAAAGCTGAAGCCGTGTGATGGCCCAGTCTTGATTACTGAGCCAGCGCTGAACCCACTGGCCAACCGGCAACAGATCACGGAAATGTTTTTTGAGCATCTGGGTGTTCCTGCCTTCTATATGTCCATCCAGGCTGTGCTGGCTCTCTTTGCTGCTGGCTTCACTACTGGCCTTGTGCTGAATTCAGGTGCTGGGGTTACCCAGAGTGTGCCCATCTTTGAGGGTTACTGTCTGCCTCATGGTGTGCAGCAACTGGATCTGGCAGGCCTTGACCTCACCAACTACCTCATGGTGCTAATGAAGAACCATGGTATCATGTTGCTCAGTGCTTCAGACAGAAAGATTGTTGAAGACATCAAGGAGAGCTTTTGTTATGTGGCAATGAACTACGAAGAGGAAATGGCCAAGAAACCCGATTGTCTAGAGAAAGTTTACCAACTACCTGATGGGAAGGTCATCCAGCTCCATGACCAGCTCTTTTCTTGTCCAGAGGCCCTCTTCTCTCCGTGTCATATGAACCTTGAGGCCCCTGGCATTGATAAGATATGCTTCAGCAGCATAATGAAATGTGATACAGGCCTGAGGAATTCCTTCTTTTCCAATATTATCCTTGCCGGGGGATCAACCTCTTTCCCTGGTTTAGACAAGCGGTTAGTTAAGGATATAGCAAAGGTGGCTCCTGCCAACACCGCTGTGCAAGTTATAGCTCCTCCAGAAAGGAAAATATCAGTGTGGATGGGAGGTTCTATTCTTGCATCCTTGTCTGCCTTCCAGGACATGTGGATCACTGCTGCAGAATTTAAAGAAGTTGGACCCAACATAGTACACCAAAGATGCTTCTGAAATACAGATAAAATGGTTGGAAGAAAATGTTTTGAGTATATGTGACAGAAAACTTTGGATATTATATGTTTCTGGGAGAAGAGAAAATACTTCACCTATTGGGATGCCAATATTTCTGTTGTATTTCTATAATGGGTTTGGGGGATAATAATGGTGAAGCTCAAGAACAGATGTCTATTGAGTAGAACCAAGTTAAAATAATGTTTCCCATAGTGTTTCTTCTATAACTTGACGTTGGTGAGCTTATATTTCCCTTGGAAGAGAGCATTTGTGGTACAATATGCTATGTGCCAAATGAGTGATAAGATTTAAGCTTATTGAAGTTTAGGGAAAGAAGGTTGCTGTGGTGAGGAACGAGACTCCATAGCAGAGGTATGCCATCATGGAAGGGGTGGCATTGGGATGGAGCGCAGATATCCAGGCAAGCATACTAAAATGAACAAGTTGCTAAAGATGAGAATGAACAAAGCATATTCAGGGCATGTTTAATAGACTGATTTTGTTTTTAAAATTTTTGTTTATGTATGTATTTATTCATTTATTTAGTTTTAGAGGCAGAGTCTTGCCCTGTGTCCCAGGCTGGAGTGCAGTAGTGCAATCATAGCTCACTGCAGCCTCCAACTCCTGGGCTCTGCCCTCAGCCTCCCAAGTAACTGAATCCACAGGTATGCACCACCACGCCTAAGTTTAGACTGATTTTGTTCAAGTCAAGAGCTCATATAGAGCAGAACAAGCGCTATGACTAGCAAGGTTAAGTGAAGGCCAGGGACTGAAAGGCTTAAAGTGCTAAATATCCAATATGCAAAGGAGAGAAATTAAAGATTTAAAAGCAGGAGCCATAAGGAAACTATGTTATGATGAATGTGATAGTTTGGAGAATAAATTGAATGAGGAAGGCCCTGGAGATTTGGTGATCAGTTAGAAAGTTACTAGTCCACATATAAAGTGCCAAGTCTTGTACTCAAGATTATAAGCAATAGGAATTTAAAAAAAGAAATTATGAAAACTGACAAGATTTAGTGCCTACTTAGATATGAAGGGGAAAGAAGGGTTTGAGATAATGTGGGATGCTAAGAGAATGGTGGTAGTGTTGACATATAACTCAAAGCATTTAGCATCTACTCTATGTAAGGTACTGTGCTAAGTGCAATAGTGCTAAAAACAGGAGTCAGATTCTGTCCGTAAAAAACTTTACAACCTGGCAGATGCTATGAAAGAAAAAGGGGATGGGAGAGAGAGAAGGAGGGAGAGAGATGGAGAGGGAGATATTTTACTTTTCTTTCAGATCGAGGACCGACAGCGACAACTCCACGGAGTTTATCTAACTGAATACGAGTAAAACTTTTAAGATCATCCTGTCATTTATATGTAAAACTGCACTATACTGGCCATTATAAAAATTCGCGGCCGGGTGCGGTGGCTCATACCTGTAATCCCAGCACTTTGGGAGGCCGAAGCGGGTGGATCACTTGAGCCCTGGCGTTCGAGACCAGCCTGGGCAACATGGTGAAACCCCCGTCTCTACTAAAAACACAAAAACTAGCTGGGCGTGGTGGCAGGCGCCTGTAATCCCAGCTACTCAGGAGGCTGAGACACGAGAATCGCTTGAACCCGGGAGGCAGAGGTTGCAGTGAGCCGAGATCACGCCACTAGACTCCATCCAGCCTGGGCGAAAGAGCAAGACTCCGTCTCAAAAAAAAAAATCGTTACAATTTATGGTGGATTACTCCCCTCTTTTTACCTCATCAAGACACAGCACTACTTTAAAGCAAAGTCAATGATTGAAACGCCTTTCTTTCCTAATAAAAGGGAGATTCAGTCCTTAAGATTAATAATGTAGTAGTTACACTTGATTAAAGCCATCCTCTGCTCAAGGAGAGGCTGGAGAAGGCATTCTAAGGAGAAGGGGGCAGGGTAGGAACTCGGACGCATCCCACTGAGCCGAGACAAGATTCTGCTGTAGTCAGTGCTGCCTGGGAATCTATTTTCACAAAGTTCTCCAAAAAATGTGATGATCAAAACTAGGAATTAGTGTTCTGTGTCTTAGGCCCTAAAATCTTCCTGTGAATTCCATTTTTAAGGTAGTCGAGGTGAACCGCGTCTGGTCTGCAGAGGATAGAAAAAAGGCCCTCTGATACCTCAAGTTAGTTTCACCTTTAAAGAAGGTCGGAAGTAAAGACGCAAAGCCTTTCCCGGACGTGCGGAAGGGCAACGTCCTTCCTCATGGCCGGAAATGGAACTTTAATTTCCCGTTCCCCCCAACCAGCCCGCCCGAGAGAGTGACTCTCACGAGAGCCGCGAGAGTCAGCTTGGCCAATCCGTGCGGTCGGCGGCCGCTCCCTTTATAAGCCGACTCGCCCGGCAGCGCACCGGGTTGCGGAGGGTGGGCCTGGGAGGGGTGGTGGCCATTTTTTGTCTAACCCTAACTGAGAAGGGCGTAGGCGCCGTGCTTTTGCTCCCCGCGCGCTGTTTTTCTCGCTGACTTTCAGCGGGCGGAAAAGCCTCGGCCTGCCGCCTTCCACCGTTCATTCTAGAGCAAACAAAAAATGTCAGCTGCTGGCCCGTTCGCCCCTCCCGGGGACCTGCGGCGGGTCGCCTGCCCAGCCCCCGAACCCCGCCTGGAGGCCGCGGTCGGCCCGGGGCTTCTCCGGAGGCACCCACTGCCACCGCGAAGAGTTGGGCTCTGTCAGCCGCGGGTCTCTCGGGGGCGAGGGCGAGGTTCAGGCCTTTCAGGCCGCAGGAAGAGGAACGGAGCGAGTCCCCGCGCGCGGCGCGATTCCCTGAGCTGTGGGACGTGCACCCAGGACTCGGCTCACACATGCAGTTCGCTTTCCTGTTGGTGGGGGGAACGCCGATCGTGCGCATCCGTCACCCCTCGCCGGCAATGGGGGCTTGTGAACCCCCAAACCTGACTGACTGGGCCAGTGTGCTGCAAATTGGCAGGAGACGTGAAGGCACCTCCAAAGTCGGCCAAAATGAATGGGCAGTGAGCCGGGGTTGCCTGGAGCCGTTCCTGCGTGGGTTCTCCCGTCTTCCGCTTTTTGTTGCCTTTTATGGTTGTATTACAACTTAGTTCCTGCTCTGCAGATTTTGTTGAGGTTTTTGCTTCTCCCAAGGTAGATCTCGACCAGTCCCCTCAACGGGGTGTGGGAGAACAGTCATTTTTTTTTGAGAGATCATTTAACATTTAATGAATATTTAATTAGAAGATCTAAATGAACATTGGAAATTGTGTTCCTTTAATGGTCATCGGTTTATGCCAGAGGTTAGAAGTTTCTTTTTTGAAAAATTAGACCTTGGCGATGACCTTGAGCAGTAGGATATAACCCCCACAAGCTTAGCGTTCCAATAACGGAACACTAGGCATAATGAAAGACGGAAAAGAAATTTATTCCACACCCCCCACCCCCAACCCTCCCAGCCGGCAGTCTCCCACAAGAATTGGCTCTGATTTCCTTTAAGAAAATAAGCTAATGGCCCACTAGGTTGAAAGAAACAAACAGGCCATTCTGCCCACTTATCACGACAAGGTAATTCCGTCCCAAATCCATACCTTCAATTCCTTAGGATCATCTGGGGGTAGTTGCCAAGAGAGAGAGCAGCCAGGGGTGTGTATATAAAGGCCCACCTTTAGGGTGATAGCCTGAATCCTGATGATTGAAAGTCAGAAGTCAAGACCATGTCAGTAAATTTATGAACATGTATATTTGTAGCTTTTTAACCTATTACCTAAGTAGGTCCCCTGGAATTGTCTAGCAGATACATTTCTTAGCACTATTAGAATTAAGAAATGTAAAAAAACCTCTAGAGTCCACTGTTGCTGGTAATGTTCTCTAAATAAGGAAAAATATTTTTCCTATCAGCATGGTTTTGTGGAAAAGTAAGGAATGATTTTGCCAAGAACTTGTCTAGAGTCTTGAGGAAGTAGCTCAGCTTCAGTAAGCCTCAGTTTACTCAAGGTGATCTAAGATCGCTTTTTCTTCTCTTTCTTTTGAGACGGAGTCCCACTCTGTCACCCAGAGCTGGAGTGCAGTGTCCCCATCTTGGCTCACTGCAACCTCTGCCTCCTCGGTTTCTAGCGATTTTCTCTCAGCCTCCCAAGTAGCTGGGTTTACAGGCACACACCACCATACCCGGCTGATTTTTTTGTATTTTCAGTAAAGTTGGGCAGGCTGGCCTCGAACTCCTGACCTCAGGTGATCCGCCCGCTTCTGCCTCCCAAAGTGCTGGGATTACAGGCGTGAGCCACCGTGCGGGGACTAAGATCCCTTTTGCAAGGGCGGGGACTCCTTGAACTACAGACAAGTGCATGTCTTTTGTTCTTACTCCATCTAGTGGTACTTTTGCTTCTCCACATTTACAACATTTGTGGTGGTGCAGGGCCGTGAAGCAAGAATGGCCACAGACTGGGAATGTTTTTCTTTCATTTTTAAAAAGAAAACAGTGATTTAATACATTCAATTTAAAAATAAGTCCATAGTTGTTTTCTAGCTCATATTTGAAGTCGTCCCTCTGACATGTCTATTACAAACAGTCCAAAGGACAATTCTTAGTATTATAAACATTAAATATATTGTTTCTTTTTGGTAAAATGATTAAGTTATATAATTCTAGAGTAAAGACGGCCAGTCATCCTGGATGACCATACAGGTCATCCAGTGAGATAATTTATGTGAAAACTTTCTGTACATAATAATTATTGCAAAAGTGACTTCTTACTGCCACCGATTTGAGTGACTCTAGCAGATGAAGAAACTGCTGCGGAGAGGGGTTTTAGTTACTTGCCTAAGTTATTTACTTGCCTAAGTTAATTTTTTTGCAG</sequence>
+    <transcript name="t1">
+      <coordinates coord_system="LRG_347" start="5001" end="5451" strand="1" />
+      <cdna>
+        <sequence>GGGTTGCGGAGGGTGGGCCTGGGAGGGGTGGTGGCCATTTTTTGTCTAACCCTAACTGAGAAGGGCGTAGGCGCCGTGCTTTTGCTCCCCGCGCGCTGTTTTTCTCGCTGACTTTCAGCGGGCGGAAAAGCCTCGGCCTGCCGCCTTCCACCGTTCATTCTAGAGCAAACAAAAAATGTCAGCTGCTGGCCCGTTCGCCCCTCCCGGGGACCTGCGGCGGGTCGCCTGCCCAGCCCCCGAACCCCGCCTGGAGGCCGCGGTCGGCCCGGGGCTTCTCCGGAGGCACCCACTGCCACCGCGAAGAGTTGGGCTCTGTCAGCCGCGGGTCTCTCGGGGGCGAGGGCGAGGTTCAGGCCTTTCAGGCCGCAGGAAGAGGAACGGAGCGAGTCCCCGCGCGCGGCGCGATTCCCTGAGCTGTGGGACGTGCACCCAGGACTCGGCTCACACATGC</sequence>
+      </cdna>
+      <exon label="1">
+        <coordinates coord_system="LRG_347" start="5001" end="5451" strand="1" />
+        <coordinates coord_system="LRG_347t1" start="1" end="451" />
+      </exon>
+    </transcript>
+  </fixed_annotation>
+  <updatable_annotation>
+    <annotation_set type="requester">
+      <source>
+        <name>RAPID: Resource of Asian Primary Immunodeficiency Diseases</name>
+        <url>http://web16.kazusa.or.jp/rapid/browseByPIDGenes</url>
+        <contact>
+          <name>Sujatha Mohan</name>
+          <address>The Institute of Physical and Chemical Research (RIKEN), Japan</address>
+          <email>sujatha@rcai.riken.jp</email>
+        </contact>
+      </source>
+      <modification_date>2015-06-22</modification_date>
+    </annotation_set>
+    <annotation_set type="lrg">
+      <source>
+        <name>LRG</name>
+        <url>http://www.lrg-sequence.org/</url>
+        <contact>
+          <name>Locus Reference Genomic</name>
+          <url>http://www.lrg-sequence.org/contact</url>
+          <email>feedback@lrg-sequence.org</email>
+        </contact>
+      </source>
+      <modification_date>2015-06-22</modification_date>
+      <mapping coord_system="GRCh37.p13" other_name="3" other_id="NC_000003.11" other_id_syn="CM000665.1" other_start="169480398" other_end="169487848" type="other_assembly">
+        <mapping_span lrg_start="1" lrg_end="7451" other_start="169480398" other_end="169487848" strand="-1" />
+      </mapping>
+      <mapping coord_system="GRCh38.p2" other_name="3" other_id="NC_000003.12" other_id_syn="CM000665.2" other_start="169762610" other_end="169770060" type="main_assembly">
+        <mapping_span lrg_start="1" lrg_end="7451" other_start="169762610" other_end="169770060" strand="-1" />
+      </mapping>
+      <lrg_locus source="HGNC">TERC</lrg_locus>
+    </annotation_set>
+    <annotation_set type="ncbi">
+      <source>
+        <name>NCBI RefSeqGene</name>
+        <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
+        <contact>
+          <name>RefSeqGene Group</name>
+          <address>NCBI/NLM/NIH</address>
+          <email>rsgene@ncbi.nlm.nih.gov</email>
+        </contact>
+      </source>
+      <comment>Annotation from NG_016363.1</comment>
+      <modification_date>2015-06-19</modification_date>
+      <mapping coord_system="NR_001566.1" other_name="NR_001566.1" other_id="NR_001566.1" other_start="1" other_end="451" type="transcript">
+        <mapping_span lrg_start="5001" lrg_end="5451" other_start="1" other_end="451" strand="1" />
+      </mapping>
+      <features>
+        <gene source="NCBI-Gene" accession="84517">
+          <symbol source="HGNC" name="ACTRT3">
+            <synonym>ARP-T3</synonym>
+            <synonym>ARPM1</synonym>
+          </symbol>
+          <coordinates coord_system="LRG_347" start="166" end="3140" strand="1" />
+          <long_name>actin-related protein T3</long_name>
+          <db_xref source="GeneID" accession="84517" />
+          <db_xref source="HGNC" accession="HGNC:24022" />
+          <db_xref source="MIM" accession="608534" />
+          <db_xref source="CCDS" accession="CCDS3206.1" />
+          <transcript source="RefSeq" accession="NM_032487.4">
+            <coordinates coord_system="LRG_347" start="166" end="3140" strand="1" />
+            <long_name>actin-related protein T3</long_name>
+            <db_xref source="GeneID" accession="84517" />
+            <db_xref source="GI" accession="221139713" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_347" start="166" end="740" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_347" start="1711" end="3140" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_115876.3">
+              <coordinates coord_system="LRG_347" start="541" end="2629" strand="1" />
+              <long_name>actin-related protein T3</long_name>
+              <long_name>actin-related protein M1</long_name>
+              <long_name>actin related protein M1</long_name>
+              <db_xref source="CCDS" accession="CCDS3206.1" />
+              <db_xref source="GeneID" accession="84517" />
+              <db_xref source="GI" accession="221139714" />
+            </protein_product>
+          </transcript>
+        </gene>
+        <gene source="NCBI-Gene" accession="7012">
+          <symbol source="HGNC" name="TERC">
+            <synonym>DKCA1</synonym>
+            <synonym>hTR</synonym>
+            <synonym>PFBMFT2</synonym>
+            <synonym>SCARNA19</synonym>
+            <synonym>TR</synonym>
+            <synonym>TRC3</synonym>
+          </symbol>
+          <coordinates coord_system="LRG_347" start="5001" end="5451" strand="1" />
+          <long_name>telomerase RNA component</long_name>
+          <db_xref source="GeneID" accession="7012" />
+          <db_xref source="HGNC" accession="HGNC:11727" />
+          <db_xref source="MIM" accession="602322" />
+          <db_xref source="GI" accession="283945497" />
+          <transcript source="RefSeq" accession="NR_001566.1" fixed_id="t1">
+            <coordinates coord_system="LRG_347" start="5001" end="5451" strand="1" />
+            <long_name>telomerase RNA component</long_name>
+            <db_xref source="GeneID" accession="7012" />
+            <db_xref source="GI" accession="38176147" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_347" start="5001" end="5451" strand="1" />
+            </exon>
+          </transcript>
+        </gene>
+      </features>
+    </annotation_set>
+    <annotation_set type="ensembl">
+      <source>
+        <name>Ensembl</name>
+        <url>http://www.ensembl.org/</url>
+        <contact>
+          <name>Ensembl</name>
+          <address>European Bioinformatics Institute</address>
+          <email>helpdesk@ensembl.org</email>
+        </contact>
+      </source>
+      <comment>Annotation is based on Ensembl release 80 (GRCh38  primary assembly)</comment>
+      <modification_date>2015-06-22</modification_date>
+      <mapping coord_system="ENST00000602385.1" other_name="ENST00000602385.1" other_id="ENST00000602385.1" other_start="1" other_end="541" type="transcript">
+        <mapping_span lrg_start="5001" lrg_end="5541" other_start="1" other_end="541" strand="1" />
+      </mapping>
+      <features>
+        <gene source="Ensembl" accession="ENSG00000269889.1">
+          <symbol source="Clone_based_vega_gene" name="RP11-816J6.3" />
+          <coordinates coord_system="LRG_347" start="1" end="412" strand="-1" mapped_from="GRCh38" />
+          <partial>3-prime</partial>
+          <long_name>RP11-816J6.3 (antisense)</long_name>
+          <db_xref source="Ensembl" accession="ENSG00000269889" />
+          <transcript source="Ensembl" accession="ENST00000602879.1">
+            <coordinates coord_system="LRG_347" start="1" end="412" strand="-1" mapped_from="GRCh38" />
+            <partial>3-prime</partial>
+            <long_name>RP11-816J6.3-001 (antisense)</long_name>
+            <exon source="Ensembl" accession="ENSE00003248748">
+              <coordinates coord_system="LRG_347" start="1" end="412" strand="-1" mapped_from="GRCh38" />
+              <partial>3-prime</partial>
+            </exon>
+          </transcript>
+        </gene>
+        <gene source="Ensembl" accession="ENSG00000184378.2">
+          <symbol source="HGNC" name="ACTRT3" />
+          <coordinates coord_system="LRG_347" start="166" end="3140" strand="1" mapped_from="GRCh38" />
+          <long_name>actin-related protein T3 (protein_coding)</long_name>
+          <db_xref source="GeneID" accession="84517">
+            <synonym>ARP-T3</synonym>
+            <synonym>ARPM1</synonym>
+          </db_xref>
+          <db_xref source="MIM" accession="608534" />
+          <db_xref source="HGNC" accession="24022">
+            <synonym>ARPM1</synonym>
+          </db_xref>
+          <db_xref source="Ensembl" accession="ENSG00000184378" />
+          <transcript source="Ensembl" accession="ENST00000330368.2">
+            <coordinates coord_system="LRG_347" start="166" end="3140" strand="1" mapped_from="GRCh38" />
+            <long_name>ACTRT3-001 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS3206.1" />
+            <db_xref source="RefSeq" accession="NM_032487.4" />
+            <exon source="Ensembl" accession="ENSE00001292725">
+              <coordinates coord_system="LRG_347" start="166" end="740" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001326845">
+              <coordinates coord_system="LRG_347" start="1711" end="3140" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000333037.1">
+              <coordinates coord_system="LRG_347" start="541" end="2629" strand="1" mapped_from="GRCh38" />
+              <long_name>actin-related protein T3</long_name>
+              <db_xref source="RefSeq" accession="NP_115876.3" />
+              <db_xref source="UniProtKB" accession="Q9BYD9">
+                <synonym>Q96IS0</synonym>
+                <synonym>Q96NJ0</synonym>
+              </db_xref>
+            </protein_product>
+          </transcript>
+        </gene>
+        <gene source="Ensembl" accession="ENSG00000270141.3">
+          <symbol source="HGNC" name="TERC" />
+          <coordinates coord_system="LRG_347" start="5001" end="5541" strand="1" mapped_from="GRCh38" />
+          <long_name>telomerase RNA component (lincRNA)</long_name>
+          <db_xref source="HGNC" accession="11727">
+            <synonym>hTR</synonym>
+            <synonym>SCARNA19</synonym>
+            <synonym>TR</synonym>
+            <synonym>TRC3</synonym>
+          </db_xref>
+          <db_xref source="Ensembl" accession="ENSG00000270141" />
+          <transcript source="Ensembl" accession="ENST00000602385.1">
+            <coordinates coord_system="LRG_347" start="5001" end="5541" strand="1" mapped_from="GRCh38" />
+            <long_name>TERC-001 (lincRNA)</long_name>
+            <exon source="Ensembl" accession="ENSE00003392259">
+              <coordinates coord_system="LRG_347" start="5001" end="5541" strand="1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+        </gene>
+        <gene source="Ensembl" accession="ENSG00000277925.1">
+          <symbol source="RFAM" name="Telomerase-vert" />
+          <coordinates coord_system="LRG_347" start="5014" end="5451" strand="1" mapped_from="GRCh38" />
+          <long_name>Vertebrate telomerase RNA [Source:RFAM;Acc:RF00024] (misc_RNA)</long_name>
+          <db_xref source="RFAM" accession="RF00024" />
+          <db_xref source="Ensembl" accession="ENSG00000277925" />
+          <transcript source="Ensembl" accession="ENST00000363312.1">
+            <coordinates coord_system="LRG_347" start="5014" end="5451" strand="1" mapped_from="GRCh38" />
+            <long_name>Telomerase-vert.1-201 (misc_RNA)</long_name>
+            <exon source="Ensembl" accession="ENSE00001438075">
+              <coordinates coord_system="LRG_347" start="5014" end="5451" strand="1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+        </gene>
+      </features>
+    </annotation_set>
+    <annotation_set type="lsdb">
+      <source>
+        <name>List of locus specific databases for TERC</name>
+        <url>http://grenada.lumc.nl/LSDB_list/lsdbs/TERC</url>
+      </source>
+      <modification_date>2015-06-22</modification_date>
+    </annotation_set>
+  </updatable_annotation>
+</lrg>

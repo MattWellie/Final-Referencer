@@ -1,0 +1,1805 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="application/xml" href="lrg2html.xsl"?>
+
+<lrg schema_version="1.9">
+  <fixed_annotation>
+    <id>LRG_640</id>
+    <hgnc_id>10783</hgnc_id>
+    <sequence_source>NG_032905.1</sequence_source>
+    <organism taxon="9606">Homo sapiens</organism>
+    <source>
+      <name></name>
+      <contact>
+        <name>Rod Docking</name>
+        <url>www.bcgsc.ca</url>
+        <address>Centre for Clinical Genomics, Vancouver, Canada</address>
+        <email>rdocking@bcgsc.ca</email>
+      </contact>
+      <contact>
+        <name>Simon Chan</name>
+        <url>http://www.ccdg.ca</url>
+        <address>Centre for Clinical Genomics, Vancouver, Canada</address>
+        <email>sichan@bcgsc.ca</email>
+      </contact>
+    </source>
+    <source>
+      <name>The ThromboGenomics Project</name>
+      <url>www.thrombogenomics.org.uk</url>
+      <contact>
+        <name>Ilenia Simeoni</name>
+        <address>University of Cambridge Department of Haematology &amp; NHS Blood and Transplant
+</address>
+        <email>is250@cam.ac.uk</email>
+      </contact>
+    </source>
+    <mol_type>dna</mol_type>
+    <creation_date>2014-10-22</creation_date>
+    <sequence>ATTGGAATCACGTCACATTTAGCTAGAACTTAAGTCACGTAACATGGAAGATCCAAATTGTCAACCAAAGACCTAAAAAATGGTATGACAGAAAAAAAAGAAAGAAAAGGAAAGACTGAACCTCAAAAGGATAATTACCTAGACTGCAGAAGTGCCCAGAAAATCCCACTGTTTCTCCCAATGCTGTGCTCATCCGAATTGATTGTCAGGCAGTTTCCTTGTGCTGTCCAAAGCACTAAAATTCAACCCAAAAGTTTATCAAGGGAAAGAAATTCACTTAGAGTCACATACTAAACACATAAATAATACCCTTAGATAGGCCCCAGAAAAGAAAGCAGAGAAGTTAAAAATCAAAATGCTTACCAGCAGCAGCAATTCCAATGAAAACAGAGGCTGTGTAGAAGGACCACGGGAAAGGCTGGATGAAAACGGCAATGTACATGCTAAAATATAACAGGTCAAGGTATTACAGTCAAACGATACCTGAAATAGAATGCCAATTATGCCTTCTAGGAATCAGTTCTGACATTCTCTTCTTTTAAAACTCAACCTGTAAAGGATCGCTCCAGTTTTGAAAAAAGGGACACAATCAACTTTCTCATTTCTTAATTAATTAATTTTTTTGAGACAGGGTCTCACTCCATTGCCTAGGCTGGAGTGCAGTGGTACCATCACAGCTCACTGCAACCTCCACCTCCTGGGCTCAAGCCATCCTCCCACCTCAGCCTCCTAAGTAGCTGGGACTACAGGCATGTGCCACCAAGCCCGGCTAATTTTTTTTTATTTTTGGTAGAGACAAGGGTTTCACCATGTTGCCCAGGCTGGTCTCGAACTCCTGGACCCAAGTGATCCTTGGCTCAAGCAATACCTCGGCCTCCCAAAGTGTTGGGATTTACAGGTGTGAGCCACTGTGCCTGGCCCATAATTTATTATTTCAGATTTGCAAAATCAGACATTTTACAGGTTTGCAGTGTTCTTTGCCAAAAGCTTAGCACATCATGGAACTATAGTTCTAGAGTTCAGAGAAAGATTTAGTTATTTCATTTGAATCCCCACATATTTTCAGTCAATTGACAGAAAATAAGATTATTTCATAGAATGTTCTTTTCAACCCTCATAGAGACTTTTGGATACTATTTTTATTAACAATAAAACAAAAGCAGATATAGATACATCCTATCACATTAGAATATGATATCCCTGAGCAACAAGTACTGAGCCAAAATTCGTAAAATACCACCTATATTCTATTCAGTCCAAGTCTATAAATTATTGTGAAGTTTACTATCTACTTGAAAGATCCTGACAAGTGTTCTGATTAAATAAGTGCAAGATTACACTACTTACCTGTAAAATAAACCACTGGCAAACATAGAGAGTTGAGGTCCTACAATGGCAACCACTGACGGTGTAATCAAATTTGAAGCAGAGAACACTCCATAGATAATAGCCATGCTGCACACATAATACACAAACGGAAAAAAAAAAAAAAAAGAACAAAGCCCTTATATGCTGTGTCACTGTTTAAAATCCATTTGTTTATAGATTTTACAATAAACACTCATATTATTTAGTCAGAATTTATGATAGTTATATCATTCAATTCAATACCATATAAAAGTTTTCATTTGTACAAAATATTGAAGCCCACCAACTGTGCCTTGGGATCAGTCTGCCTACAATACATTTTTTACATACTGGTAAGTCATAGTAACAGGAACTGTGCCAAGTACCTTATACAGATTTTCTCTTCTAATCCTAACAGCACTAGGAGAAAGATATTGTTATTATCCTCATGTGAAAGAAAAGAAAAAGGAAATACAGTGGGATTAAGTAATTTGCCAAAAGTCCAGCTGGGTGGCTGGTGAATGTCGAGCCAGGACTGCATGACTCCAGAGGCCCCAGTCCACCAATCTGCCCTACAAACTTAGCCTACAACTCTGGCAGCGTCATGACATTTCTCTGCTATAAATAACAAGCGCAGAGCTACAACTTGCTTAAGCCAGAATTTATTTAACTCAACCTAATGGTCTCACTTGAACATTATTACTCAGTTACTATTGACCCAGCCCTAGTACATATGTCTTGTACGAAGTGTGGTTAAAACCATTTCAAAGGCCCTGAATTCATTTACTAGATACTATTCATAAATCCAAAGTAAATTATTCTTTGGCTTTTATGAATCTCTCAAATATCAAATGTGTTTTTGCATTTGTTCTTTTTTTTTTTTTTTTTTTTGAGACGGAGCCTCGCTCTGTCGCCCAGGCTGGAGTCCAGTGGCACAATCTCTGCTCACTGCAAGCTCCCCTTCCCGGGTTCACGCCATTCTCTTGCCTCAGCCTCCCGAGTAGCTGGGATTACAGGCGCCCACCACCATGCCTGGCTAATTTTTTTTTTTTTTGTATTTTTAGTACAGACGGGGTTTCACCGTGTTAGCCACGATGGTCTAGATCTCCTGACCTCGTGATCCGCCCACCTCCGCCTCCCAAAGCGCTGGGATTACAGGCGTGAGCCCCCGCACCCGGCCGCATTTGTTCTTTAGAATACACATGAAGACAAAAAAGTAGAAAAAGCTGTGCTACTAATCACTTACAAAAATGAACAGTAACATCCCTTCATTCTCAAATATTACATACAAGGCTTAGGATAGGGAAAAAGAACCAAGTATGAGTTATGGGTTTGTGGGGGGCGGGGGAGTGCCACGATCCAATCTCTAACTCTAGAGAAATTAAGAAACTGTTTCTACAGCTCAATGTAGCCATTCCATGGCACATATTTCAAAACATGTTGTACACAATAAATAACAGGCAATTTTCATTTGTCAATTAACAAATCTAATTTTAAAAAAGAAAAACCTGTTTGTGTATATATACCTGTACATATTACATTCTCAGGTCCAATCACAAGGTTCTAGTGACTTGTGAAGGTCTTTTCATTTTACCCATCTGTAAAATTGGGACTAATCACCTTAACAAAAATCTAAAAGCTCCTGACATACGTATATTAATCGTCATGAATTACAAAAACAGAAGGACCAAATGTTTCAAGAATCACAACATCTTCTATAGGACTGGGAATTCTAATCATGACAATACTAGAGTGCTTATTCAATGCCATGCACTGTGCCAAGTGCTTTACATGCATTGTCTGAACTAGGAAATTAGGCTCACGGAAACACTTACCTAAGATAACAATGCAATAAATACCTTGTAGAGTCAGGATTTCAAACCTAGTGCCTAATTCCACAGGAAACCTAAACTCATCAGCTTTATTCTATTATGTTCTCTCAGTCTAGGCACTGAGAAGAGAAAATGCCATCACCACTTATTCAATCACAATATTCTATTGCTGGTGATTCTGATGAGATTTAAGCAACTACTGTCAAATATAAAGCAAAATCAATCATACGGTACAATACCTGGTATATCCACTGCCGTGAAAATCTGTCCTATTTAAGCTCCTGATGACAGTTTGCTGTGTGGAAGATAAAACTAATCAACGAAAATGTTTTGCAGTCTCCCTCCCACCCTTGGGAAGTGTGACTCCAAGTACTCAGCAAGAGAATAAAGTAAAAGTTCATAATGTACTTAATACTGAAGTCCATTATGAGAAAAGAAAAAGGACAACAGAACTGCAGAAGGCAAACCAATGACAGGGAGGGGGGAGGAAAAGCAGCTGTAACCATCCAAGTACTAAGGAAGCGCTTAATACAGACGAGAAACAAAATAACCAGGTTAACATCCAAACCCCTAATCAAATCAGATTAAACGATAATGCTTAACGCCCCCATGAGAAATGTCTGACACAAGAAATCAAACCTAATCATAAAAAATGAGGAAGTCTGGGTGGGAAAAATGAAAGATGCAATTAAAGCGCGCTATTAGATATAATGAACGTTTATTTTCATTTCTGGACTGCATTATGATGGGCACTTCAAAGGAGGGAGGACAGATTCCAACTCACCGCCACATTTCCACAAGTTTGAAAGGCAGTGAACATAAACATAAAGGCAACTCCTAAAATAATGATGTTGAAAAGCTTTTTAGATTCCGGGGACATTTTGGCTCAGCTCTGCCGGAGGCAGCAGCCCAGGGCAGTCAGCTCTCCTCGGGGCGAAGCCACTGACAATCCTGGAGAAAGAAATGAGATGGTGAGTGGAGAAGGCAGATGCAGGAGCCAGGCAGCCAAGCTGTCAACTTCCAGTTCCTGGATCGGAACCCCAGGTTTAGGGCGAAGTTCTCCCCACCGGCAGTTAGGATACTCCTAAGAAGCGATCCGAGTACGGAAGAGCACAACCCCCGGAGAAGCGCCAAGAATTTATCCGCTCCAGGTTGAGGGGCCCACGAAGGGGATTAAAGGGCCAAGTGCCAGCCGCAGCAGCCGGCGCGGCCCCGCCCTCCCAGCCTGACTCACTGCGGCCAGGCGACCGGGTCACCTGACCGCAGCCGCGGCGCCGGCCGCTCGGCCCGCTGGGAAACGTAGTCCCGGGTGGCCTGGCACGCGCAAGCGCTCCGCGGGGAGTCCCCACCGCCAGGACGCAGAGCCGACGGAGCTCTCGGGCTCTGGCGAAAGGGGGTTGGGAAGCGGACTCCGGCGAAGAGCAGTCAGGAACGGCTGGACGGGGCCGAGAGACGACGCAGCGGAGTCTGAGGGGGCCGGGGTCACAGGGAGAGGCAAATGAGGGCAGAAGCACTCTTCAGACGGAGACGGGGCTGACGGCTGAGCAAAAAAGGGGCGTGAACTTGGAGTATTGGCATGAAAAAAAGGTGGGGGCCCAGATGGGGAGCACCTCCTCTTCCTCCTGCCCAATCGCGATCGTCCGGCCTCCCAGGCGGAAAAAGCGTTTCGCGGGCTTTCCAACTGCCCGCTAATTCCGCTCCCCCTCCCTCCAGCCGTGACTCCGCGCTTTTTGGCCCGCCCGCCGGGCTGTGCGCAGGCGCTTCGGGTAGGGGCGGGGCGCGCGGCAGGGTCGTTACGAAGCGGGGCGCGGTGGGCCAATCAGAAGGTTTCATTTCCGGGTGGCGCGGGCGCCATTTTGTGAGGAGCGATATAAACGGGCGCAGAGGCCGGCTGCCCGCCCAGTTGTTACTCAGGTGCGCTAGCCTGCGGAGCCCGTCCGTGCTGTTCTGCGGCAAGGCCTTTCCCAGTGTCCCCACGCGGAAGGCAACTGCCTGAGAGGCGCGGCGTCGCACCGCCCAGAGCTGAGGAAGCCGGCGCCAGTTCGCGGGGCTCCGGGCCGCCACTCAGAGCTATGAGCTACGGCCGCCCCCCTCCCGATGTGGAGGGTATGACCTCCCTCAAGGTGGACAACCTGACCTACCGCACCTCGCCCGACACGCTGAGGCGCGTCTTCGAGAAGTACGGGCGCGTCGGCGACGTGTACATCCCGCGGGACCGCTACACCAAGGAGTCCCGCGGCTTCGCCTTCGTTCGCTTTCACGACAAGCGCGACGCTGAGGACGCTATGGATGCCATGGACGGGGCCGTGCTGGACGGCCGCGAGCTGCGGGTGCAAATGGCGCGCTACGGCCGCCCCCCGGACTCACACCACAGCCGCCGGGGACCGCCACCCCGCAGGTACGGGGGCGGTGGCTACGGACGCCGGAGCCGCAGGTAAACGGGGCTGAGGGGACCGCGGGAGGCGGGGCGGGGCGCGCGGGAGGCCCGGGCGACCTCACAAAGGTCCGCGGCGAAGCACGTGGTGCGGGCCCGGACGGGGCGGGGGTGCACGCCGCGTCTCGCGACCCTCCGGCCACCCCGCGAGCTTCCGCCGTCTGCGACCCGGGAGTGGCCGGGGTGTGGGCGGCGCGGGGCGGAGGACCCCGCCTCGCGACTGGGGAAATGGCGTCTGGCGGCGAGATAATGGCGGCCTGGGCGGGAGCGCGCGGGCGGGGCCGGCCCCGCTGCCTGGAATTAACCCCGCTGTGCTTGCTCGTCCCGCCCGCAGCCCTAGGCGGCGTCGCCGCAGCCGATCCCGGAGTCGGAGCCGTTCCAGGTCTCGCAGCCGATCTCGCTACAGCCGCTCGAAGTCTCGGTCCCGCACTCGTTCTCGATCTCGGTCGACCTCCAAGTCCAGATCCGCACGAAGGTCCAAGTCCAAGTCCTCGTCGGTCTCCAGATCTCGTTCGCGGTCCAGGTCCCGGTCTCGGTCCAGGAGTCCTCCCCCAGTGTCCAAGAGGGAATCCAAATCCAGGTCGCGATCGAAGAGTCCCCCCAAGTCTCCTGAAGAGGAAGGAGCGGTGTCCTCTTAAGAAAATGGTAATGTCTGGGAATCCGAGACACATAACCCTAATTCATAAATGGGATTTGGGGTAGGTCTTTTTGAGTCGTGTTAATGTAAGAATGACTCCTATCATTAGGAGTGCTGCTCGGAGGTTACTCACCTTTGGGAGTAATACTGAAGAGAGGGGTCTGCAGAAAGGATGTGTATGAAGCTTAGATAATAATGGCTGTTTCGTAAACTGTTTGAGACCTATTAATGAAAATGACTATTTCTTGCTGTTTTTATCCAACGTCTGCATTTTCCCCCTTTAAAGCTGCGGTCTCCTGTTTGATAAAAGAATATTGGCCAGTATTGCAGATTTTAACTGATTTGGCTGATCCTCCAGGGACCAGTTTCTGTGGGCGTGTATTGGAGCAGGTTTGTCTTTAAATGTTAAAGATGCACTATCCTCTTAGAGAAACAATCAGTTCAACTATTGTTGTACTGACTGGGACTTCATATTCTAATGGATGTGGCAAAAGAATTGCAATAAGAAGCAGTGAACATTTGGAACCCCAAAAGAAAGTTACAGGTATTGCACTGGGTGGGGAAAGGATAGTGTGTCTTTAACTCTTAAATTGTTTGGTCCTATTTTTTAAAAAGGAAAGGGCCCTAAGTAGCTCAGATATTAAAGTAGTATTCTCAATTACCAAATGTTTCATTTGAAACAATTTATCTTAATGAAATATAGACCAATTCTCTGATCTCGAGTTGTTTTTGTTTGGATACAGCCCTTTTTTTTTTCTTTTTTTTTCTTCCCCTTACCTTTCTTCACCTTGGTTATTTGGCCAGGAATACGTAAATTCAAACTTGTACATGCTGATGGTAGCCTTTGTGAAATTTTCCTAATTGGGCCTTTTAAAAACATGGCTGGGTGGAACATTTCTGTACCCTACTGGTTTGACCAGAGCCTTAGTAAGTACGTGCCTGAAACTGAAACCATGTGCACTTTAATGGAAGGTAAGCTGAACTTCTTTCTTTTCAAACCTAGATGTATCGGCAAGCAGTGTAAACGGAGGACTTGGGGAAAAAGGACCACATAGTCCATCGAAGAAGAGTCCTTGGAACAAGCAACTGGCTATTGAAAAGGTTATTTTGTAACATTTGTCTAACTTTTTACTTGTTTAAGCTTTGCCTCAGTTGGCAAACTTCATTTTATGTGCCATTTTGTTGCTGTTATTCAAATTTCTTGTAATTTAGTGAGGTGAACGACTTCAGATTTCATTATTGGATTTGGATATTTGAGGTAAAATTTCATTTTGTTATATAGTGCTGACTTTTTTTGTTTGAAATTAAACAGATTGGTAACCTAATTTGTGGCCTCCTGACTTTTAAGGAAAACGTGTGCAGCCATTACACACAGCCTAAAGCTGTCAAGAGATTGACTCGGCATTGCCTTCATTCCTTAAAATTAAAAACCTACAAAAGTTGGTGTAAATTTGTATATGTTATTTACCTTCAGATCTAAATGGTAATCTGAACCCAAATTTGTATAAAGACTTTTCAGGTGAAAAGACTTGATTTTTTGAAAGGATTGTTTATCAAACACAATTCTAATCTCTTCTCTTATGTATTTTTGTGCACTAGGCGCAGTTGTGTAGCAGTTGAGTAATGCTGGTTAGCTGTTAAGGTGGCGTGTTGCAGTGCAGAGTGCTTGGCTGTTTCCTGTTTTCTCCCGATTGCTCCTGTGTAAAGATGCCTTGTCGTGCAGAAACAAATGGCTGTCCAGTTTATTAAAATGCCTGACAACTGCACTTCCAGTCACCCGGGCCTTGCATATAAATAACGGAGCATACAGTGAGCACATCTAGCTGATGATAAATACACCTTTTTTTCCCTCTTCCCCCTAAAAATGGTAAATCTGATCATATCTACATGTATGAACTTAACATGGAAAATGTTAAGGAAGCAAATGGTTGTAACTTTGTAAGTACTTATAACATGGTGTATCTTTTTGCTTATGAATATTCTGTATTATAACCATTGTTTCTGTAGTTTAATTAAAACATTTTCTTGGTGTTAGCTTTTCTCAGAATATGTCTCGGTCTTTTTTTCCCCCATTTATTTGAAGGACCTATTCAATTTTGTGATTGTGGCTGACTGCATAGTATGGAAGTGGAATGTTTAGTGCCTATCATTTCCTAAGTTAAAGTGGAAATGCCAGTTGAACACCTAAAAGCAATGCTTTAAGTGGCACTTTTCTTGAGGTTGTGATACCCCCTTCTCAACCTAATTTATATCCTATTTAATGACTAAGGAACAATCCAAGTACTTGTAATACGTATTTTAATTTTTGTTTCATATGAGTTTAAGTGTTGTCTAGGTGACATCAAAATCTAAGGCAAACAGACTTGACCATCTTCAGACCCACTGCATTCTCAAGCTGAAGTGGTCTGCTCATAGTTTGTGTGCCAGGTTGCTCATCAGTATTGATACTGTCCCAGAACAGGTTGTAGGTATAATTCAGAGACTGTCCTTTGCAAAGGAAATGACCAGCATTTCAACTGTATGTCTTCCTGGAAGGGTAGATTCTGCTATATCTTCTTTGTCTGCATCAAAAGACTCAAGAGGAATGTGGACACATTTCATATCCCATTTGTAGAGTAAAGCTTCAAGTGACCAGTCAGCACTTAAAAAAAAAAAGTTGTTCTTTTAAAGTCATGCCTTTTCTGTTTTGCTTCAGATGTATTCTATTCTTAAATTATGTATCGCATGGGTAGGGTAGAGTAAGGCTTAAGTTACATATAAAAAGTAAGGGTCATCCATACTTGCCTCCTAACTTGATAAGTAGACCACAATTGGACCTTGGGATTCTTGTGCATCAAAAAATATATTGTAGCCAAAATGTCTTCAAAATCTGAGGAGAAAGGATTTATGAATAGATTTTCATATAGCATCACTGGCCAAATGTACTATTGAGCCAAAAAAGCTTACCTTCTGGTTCAAAGAACACATCAGATGCAAGGATAATATCTTGTGGTGGTAGAGCCAGAAGATCCCAAGATATATGACCCCATGTTAGTCCTACCACCTGCAGATGTGGCAGGTTATTCATTTGGCAGCTTTGCCGACAGACTTCCAGACAGTGAGGCAGTTCTGAGCTGTCTGACAGTATTACTTCTGCACCACATTTGGCAGCCAAAATTCCTGGAAGGCTCACTCCAGCTCCAATCTAATAAGTTATGAAAGATGGCATTTCACAATTATACTTGGAACTGCAAATAATTGGGAATCTTAGTACTTTTTCATTATATTCTTGCATTTTTAAATAAGCATAGAGTCAGTCTTTCTGGGTTTGTATAAAATGTACCGTAACTGAACATTACTATAAACATGACAAAAGTACATTCCTTATGAATCTACTCTGCTAAAAGGTAAAAGCTTAACCTTCAATTTCAATATTAAAGGGCCATGTATCGTAACTGGCAGTTAATTGCTATGCACACAGAAGTAGTTTTGGGGCACTTGATTCCTCTGCCATGATTTTCAGTTTTGTTTTATTTTTTTGAGACGGAGTCTTGCTCTGTTCTCCAGGCTGGAGTGCAGTGGTGCAATATCGGCTCACTGCAACCTCTGCTTCCCGGGTTCCAGTGATTCTCCTGCCTCAGCCTCCTGAGTAACTGGCCACCAAGCCCAGCTAATTTTTTTTTTTTGAGAGCGTTTGGCTCTTGTTGCTCAGGCTGGAGTACAATGGTGCAATCTTGGCTCACTGCAACCCCCGCCTCCCGGGTTCAAGCAATTCTGCCTCAGCCTCCCAAGTAGCTGGGATTACAGGCGTGCACCACCAAGCCCAGCTAATTTTGTATTTCTTTAGTAGAGACAGGGTTTCTCCCTGTTGGTCAGGCTGGTCTTGAACTCCCGACAGGTGATCCACCTGTCTCGGCCTCCCAAAGTGCTAGGATTACAGGCATGAGCCACCGTGCCCAGCCACTCGGCTAGTATTTTGTATTTTTTAGTAGGGACTGGGTTTCACCATGTTGGCCAGGCTGGTCTTGAACTCCTGACCTCAAGTGATCCACCAGCCTCAGTCTCCCA</sequence>
+    <transcript name="t1">
+      <comment>This transcript is identical to the RefSeq transcript NM_003016.4 but with the polyA tail removed.</comment>
+      <coordinates coord_system="LRG_640" start="5001" end="8297" strand="1" />
+      <cdna>
+        <sequence>AGAAGGTTTCATTTCCGGGTGGCGCGGGCGCCATTTTGTGAGGAGCGATATAAACGGGCGCAGAGGCCGGCTGCCCGCCCAGTTGTTACTCAGGTGCGCTAGCCTGCGGAGCCCGTCCGTGCTGTTCTGCGGCAAGGCCTTTCCCAGTGTCCCCACGCGGAAGGCAACTGCCTGAGAGGCGCGGCGTCGCACCGCCCAGAGCTGAGGAAGCCGGCGCCAGTTCGCGGGGCTCCGGGCCGCCACTCAGAGCTATGAGCTACGGCCGCCCCCCTCCCGATGTGGAGGGTATGACCTCCCTCAAGGTGGACAACCTGACCTACCGCACCTCGCCCGACACGCTGAGGCGCGTCTTCGAGAAGTACGGGCGCGTCGGCGACGTGTACATCCCGCGGGACCGCTACACCAAGGAGTCCCGCGGCTTCGCCTTCGTTCGCTTTCACGACAAGCGCGACGCTGAGGACGCTATGGATGCCATGGACGGGGCCGTGCTGGACGGCCGCGAGCTGCGGGTGCAAATGGCGCGCTACGGCCGCCCCCCGGACTCACACCACAGCCGCCGGGGACCGCCACCCCGCAGGTACGGGGGCGGTGGCTACGGACGCCGGAGCCGCAGCCCTAGGCGGCGTCGCCGCAGCCGATCCCGGAGTCGGAGCCGTTCCAGGTCTCGCAGCCGATCTCGCTACAGCCGCTCGAAGTCTCGGTCCCGCACTCGTTCTCGATCTCGGTCGACCTCCAAGTCCAGATCCGCACGAAGGTCCAAGTCCAAGTCCTCGTCGGTCTCCAGATCTCGTTCGCGGTCCAGGTCCCGGTCTCGGTCCAGGAGTCCTCCCCCAGTGTCCAAGAGGGAATCCAAATCCAGGTCGCGATCGAAGAGTCCCCCCAAGTCTCCTGAAGAGGAAGGAGCGGTGTCCTCTTAAGAAAATGGTAATGTCTGGGAATCCGAGACACATAACCCTAATTCATAAATGGGATTTGGGGTAGGTCTTTTTGAGTCGTGTTAATGTAAGAATGACTCCTATCATTAGGAGTGCTGCTCGGAGGTTACTCACCTTTGGGAGTAATACTGAAGAGAGGGGTCTGCAGAAAGGATGTGTATGAAGCTTAGATAATAATGGCTGTTTCGTAAACTGTTTGAGACCTATTAATGAAAATGACTATTTCTTGCTGTTTTTATCCAACGTCTGCATTTTCCCCCTTTAAAGCTGCGGTCTCCTGTTTGATAAAAGAATATTGGCCAGTATTGCAGATTTTAACTGATTTGGCTGATCCTCCAGGGACCAGTTTCTGTGGGCGTGTATTGGAGCAGGTTTGTCTTTAAATGTTAAAGATGCACTATCCTCTTAGAGAAACAATCAGTTCAACTATTGTTGTACTGACTGGGACTTCATATTCTAATGGATGTGGCAAAAGAATTGCAATAAGAAGCAGTGAACATTTGGAACCCCAAAAGAAAGTTACAGGTATTGCACTGGGTGGGGAAAGGATAGTGTGTCTTTAACTCTTAAATTGTTTGGTCCTATTTTTTAAAAAGGAAAGGGCCCTAAGTAGCTCAGATATTAAAGTAGTATTCTCAATTACCAAATGTTTCATTTGAAACAATTTATCTTAATGAAATATAGACCAATTCTCTGATCTCGAGTTGTTTTTGTTTGGATACAGCCCTTTTTTTTTTCTTTTTTTTTCTTCCCCTTACCTTTCTTCACCTTGGTTATTTGGCCAGGAATACGTAAATTCAAACTTGTACATGCTGATGGTAGCCTTTGTGAAATTTTCCTAATTGGGCCTTTTAAAAACATGGCTGGGTGGAACATTTCTGTACCCTACTGGTTTGACCAGAGCCTTAGTAAGTACGTGCCTGAAACTGAAACCATGTGCACTTTAATGGAAGGTAAGCTGAACTTCTTTCTTTTCAAACCTAGATGTATCGGCAAGCAGTGTAAACGGAGGACTTGGGGAAAAAGGACCACATAGTCCATCGAAGAAGAGTCCTTGGAACAAGCAACTGGCTATTGAAAAGGTTATTTTGTAACATTTGTCTAACTTTTTACTTGTTTAAGCTTTGCCTCAGTTGGCAAACTTCATTTTATGTGCCATTTTGTTGCTGTTATTCAAATTTCTTGTAATTTAGTGAGGTGAACGACTTCAGATTTCATTATTGGATTTGGATATTTGAGGTAAAATTTCATTTTGTTATATAGTGCTGACTTTTTTTGTTTGAAATTAAACAGATTGGTAACCTAATTTGTGGCCTCCTGACTTTTAAGGAAAACGTGTGCAGCCATTACACACAGCCTAAAGCTGTCAAGAGATTGACTCGGCATTGCCTTCATTCCTTAAAATTAAAAACCTACAAAAGTTGGTGTAAATTTGTATATGTTATTTACCTTCAGATCTAAATGGTAATCTGAACCCAAATTTGTATAAAGACTTTTCAGGTGAAAAGACTTGATTTTTTGAAAGGATTGTTTATCAAACACAATTCTAATCTCTTCTCTTATGTATTTTTGTGCACTAGGCGCAGTTGTGTAGCAGTTGAGTAATGCTGGTTAGCTGTTAAGGTGGCGTGTTGCAGTGCAGAGTGCTTGGCTGTTTCCTGTTTTCTCCCGATTGCTCCTGTGTAAAGATGCCTTGTCGTGCAGAAACAAATGGCTGTCCAGTTTATTAAAATGCCTGACAACTGCACTTCCAGTCACCCGGGCCTTGCATATAAATAACGGAGCATACAGTGAGCACATCTAGCTGATGATAAATACACCTTTTTTTCCCTCTTCCCCCTAAAAATGGTAAATCTGATCATATCTACATGTATGAACTTAACATGGAAAATGTTAAGGAAGCAAATGGTTGTAACTTTGTAAGTACTTATAACATGGTGTATCTTTTTGCTTATGAATATTCTGTATTATAACCATTGTTTCTGTAGTTTAATTAAAACATTTTCTTGGTGTTAGCTTTTCTCAGAA</sequence>
+      </cdna>
+      <coding_region>
+        <coordinates coord_system="LRG_640" start="5252" end="6251" strand="1" />
+        <translation name="p1">
+          <sequence>MSYGRPPPDVEGMTSLKVDNLTYRTSPDTLRRVFEKYGRVGDVYIPRDRYTKESRGFAFVRFHDKRDAEDAMDAMDGAVLDGRELRVQMARYGRPPDSHHSRRGPPPRRYGGGGYGRRSRSPRRRRRSRSRSRSRSRSRSRSRYSRSKSRSRTRSRSRSTSKSRSARRSKSKSSSVSRSRSRSRSRSRSRSPPPVSKRESKSRSRSKSPPKSPEEEGAVSS</sequence>
+        </translation>
+      </coding_region>
+      <exon label="1">
+        <coordinates coord_system="LRG_640" start="5001" end="5613" strand="1" />
+        <coordinates coord_system="LRG_640t1" start="1" end="613" />
+        <coordinates coord_system="LRG_640p1" start="1" end="121" />
+      </exon>
+      <intron phase="2" />
+      <exon label="2">
+        <coordinates coord_system="LRG_640" start="5948" end="8297" strand="1" />
+        <coordinates coord_system="LRG_640t1" start="614" end="2963" />
+        <coordinates coord_system="LRG_640p1" start="121" end="221" />
+      </exon>
+    </transcript>
+  </fixed_annotation>
+  <updatable_annotation>
+    <annotation_set type="requester">
+      <source>
+        <name></name>
+        <contact>
+          <name>Rod Docking</name>
+          <url>www.bcgsc.ca</url>
+          <address>Centre for Clinical Genomics, Vancouver, Canada</address>
+          <email>rdocking@bcgsc.ca</email>
+        </contact>
+        <contact>
+          <name>Simon Chan</name>
+          <url>http://www.ccdg.ca</url>
+          <address>Centre for Clinical Genomics, Vancouver, Canada</address>
+          <email>sichan@bcgsc.ca</email>
+        </contact>
+      </source>
+      <source>
+        <name>The ThromboGenomics Project</name>
+        <url>www.thrombogenomics.org.uk</url>
+        <contact>
+          <name>Ilenia Simeoni</name>
+          <address>University of Cambridge Department of Haematology &amp; NHS Blood and Transplant
+</address>
+          <email>is250@cam.ac.uk</email>
+        </contact>
+      </source>
+      <modification_date>2015-06-22</modification_date>
+    </annotation_set>
+    <annotation_set type="lrg">
+      <source>
+        <name>LRG</name>
+        <url>http://www.lrg-sequence.org/</url>
+        <contact>
+          <name>Locus Reference Genomic</name>
+          <url>http://www.lrg-sequence.org/contact</url>
+          <email>feedback@lrg-sequence.org</email>
+        </contact>
+      </source>
+      <modification_date>2015-06-22</modification_date>
+      <mapping coord_system="GRCh37.p13" other_name="17" other_id="NC_000017.10" other_id_syn="CM000679.1" other_start="74728197" other_end="74738493" type="other_assembly">
+        <mapping_span lrg_start="1" lrg_end="10297" other_start="74728197" other_end="74738493" strand="-1">
+          <diff type="mismatch" lrg_start="5987" lrg_end="5987" other_start="74732507" other_end="74732507" lrg_sequence="C" other_sequence="T" />
+          <diff type="mismatch" lrg_start="7651" lrg_end="7651" other_start="74730843" other_end="74730843" lrg_sequence="G" other_sequence="A" />
+        </mapping_span>
+      </mapping>
+      <mapping coord_system="GRCh38.p2" other_name="17" other_id="NC_000017.11" other_id_syn="CM000679.2" other_start="76732115" other_end="76742411" type="main_assembly">
+        <mapping_span lrg_start="1" lrg_end="10297" other_start="76732115" other_end="76742411" strand="-1">
+          <diff type="mismatch" lrg_start="5987" lrg_end="5987" other_start="76736425" other_end="76736425" lrg_sequence="C" other_sequence="T" />
+          <diff type="mismatch" lrg_start="7651" lrg_end="7651" other_start="76734761" other_end="76734761" lrg_sequence="G" other_sequence="A" />
+        </mapping_span>
+      </mapping>
+      <lrg_locus source="HGNC">SRSF2</lrg_locus>
+    </annotation_set>
+    <annotation_set type="ncbi">
+      <source>
+        <name>NCBI RefSeqGene</name>
+        <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
+        <contact>
+          <name>RefSeqGene Group</name>
+          <address>NCBI/NLM/NIH</address>
+          <email>rsgene@ncbi.nlm.nih.gov</email>
+        </contact>
+      </source>
+      <comment>Annotation from NG_032905.1</comment>
+      <modification_date>2015-06-19</modification_date>
+      <mapping coord_system="NM_001195427.1" other_name="NM_001195427.1" other_id="NM_001195427.1" other_start="1" other_end="1968" type="transcript">
+        <mapping_span lrg_start="5001" lrg_end="5613" other_start="1" other_end="613" strand="1" />
+        <mapping_span lrg_start="5948" lrg_end="6258" other_start="614" other_end="924" strand="1" />
+        <mapping_span lrg_start="7254" lrg_end="8297" other_start="925" other_end="1968" strand="1" />
+      </mapping>
+      <mapping coord_system="NM_003016.4" other_name="NM_003016.4" other_id="NM_003016.4" other_start="1" other_end="2963" type="transcript">
+        <mapping_span lrg_start="5001" lrg_end="5613" other_start="1" other_end="613" strand="1" />
+        <mapping_span lrg_start="5948" lrg_end="8297" other_start="614" other_end="2963" strand="1" />
+      </mapping>
+      <mapping coord_system="NR_036608.1" other_name="NR_036608.1" other_id="NR_036608.1" other_start="1" other_end="2072" type="transcript">
+        <mapping_span lrg_start="5001" lrg_end="5613" other_start="1" other_end="613" strand="1" />
+        <mapping_span lrg_start="5948" lrg_end="6258" other_start="614" other_end="924" strand="1" />
+        <mapping_span lrg_start="6537" lrg_end="6640" other_start="925" other_end="1028" strand="1" />
+        <mapping_span lrg_start="7254" lrg_end="8297" other_start="1029" other_end="2072" strand="1" />
+      </mapping>
+      <features>
+        <gene source="NCBI-Gene" accession="79157">
+          <symbol source="HGNC" name="MFSD11">
+            <synonym>ET</synonym>
+          </symbol>
+          <coordinates coord_system="LRG_640" start="1" end="5847" strand="-1" />
+          <partial>3-prime</partial>
+          <long_name>major facilitator superfamily domain containing 11</long_name>
+          <db_xref source="GeneID" accession="79157" />
+          <db_xref source="HGNC" accession="HGNC:25458" />
+          <db_xref source="CCDS" accession="CCDS56045.1" />
+          <db_xref source="CCDS" accession="CCDS11750.1" />
+          <transcript source="RefSeq" accession="NM_001242534.1">
+            <coordinates coord_system="LRG_640" start="139" end="5847" strand="-1" />
+            <partial>3-prime</partial>
+            <long_name>major facilitator superfamily domain containing 11, transcript variant 3</long_name>
+            <db_xref source="GeneID" accession="79157" />
+            <db_xref source="GI" accession="335892871" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_640" start="5321" end="5847" strand="-1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_640" start="3964" end="4130" strand="-1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_640" start="3419" end="3474" strand="-1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_640" start="1348" end="1455" strand="-1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_640" start="364" end="443" strand="-1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_640" start="139" end="235" strand="-1" />
+              <partial>3-prime</partial>
+            </exon>
+            <protein_product source="RefSeq" accession="NP_001229463.1" codon_start="1">
+              <coordinates coord_system="LRG_640" start="139" end="4059" strand="-1" />
+              <partial>3-prime</partial>
+              <long_name>UNC93-like protein MFSD11 isoform 1</long_name>
+              <long_name>UNC93-like protein MFSD11</long_name>
+              <long_name>protein ET</long_name>
+              <long_name>major facilitator superfamily domain-containing protein 11</long_name>
+              <db_xref source="CCDS" accession="CCDS11750.1" />
+              <db_xref source="GeneID" accession="79157" />
+              <db_xref source="GI" accession="335892872" />
+            </protein_product>
+          </transcript>
+          <transcript source="RefSeq" accession="NM_024311.3">
+            <coordinates coord_system="LRG_640" start="139" end="4911" strand="-1" />
+            <partial>3-prime</partial>
+            <long_name>major facilitator superfamily domain containing 11, transcript variant 5</long_name>
+            <db_xref source="GeneID" accession="79157" />
+            <db_xref source="GI" accession="335892876" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_640" start="4529" end="4911" strand="-1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_640" start="3964" end="4130" strand="-1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_640" start="3419" end="3474" strand="-1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_640" start="1348" end="1455" strand="-1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_640" start="364" end="443" strand="-1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_640" start="139" end="235" strand="-1" />
+              <partial>3-prime</partial>
+            </exon>
+            <protein_product source="RefSeq" accession="NP_077287.1" codon_start="1">
+              <coordinates coord_system="LRG_640" start="139" end="4059" strand="-1" />
+              <partial>3-prime</partial>
+              <long_name>UNC93-like protein MFSD11 isoform 1</long_name>
+              <long_name>UNC93-like protein MFSD11</long_name>
+              <long_name>protein ET</long_name>
+              <long_name>major facilitator superfamily domain-containing protein 11</long_name>
+              <db_xref source="CCDS" accession="CCDS11750.1" />
+              <db_xref source="GeneID" accession="79157" />
+              <db_xref source="GI" accession="13236549" />
+            </protein_product>
+          </transcript>
+          <transcript source="RefSeq" accession="NM_001242535.1">
+            <coordinates coord_system="LRG_640" start="139" end="4911" strand="-1" />
+            <partial>3-prime</partial>
+            <long_name>major facilitator superfamily domain containing 11, transcript variant 4</long_name>
+            <db_xref source="GeneID" accession="79157" />
+            <db_xref source="GI" accession="335892874" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_640" start="4436" end="4911" strand="-1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_640" start="3964" end="4130" strand="-1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_640" start="3419" end="3474" strand="-1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_640" start="1348" end="1455" strand="-1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_640" start="364" end="443" strand="-1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_640" start="139" end="235" strand="-1" />
+              <partial>3-prime</partial>
+            </exon>
+            <protein_product source="RefSeq" accession="NP_001229464.1" codon_start="1">
+              <coordinates coord_system="LRG_640" start="139" end="4059" strand="-1" />
+              <partial>3-prime</partial>
+              <long_name>UNC93-like protein MFSD11 isoform 1</long_name>
+              <long_name>UNC93-like protein MFSD11</long_name>
+              <long_name>protein ET</long_name>
+              <long_name>major facilitator superfamily domain-containing protein 11</long_name>
+              <db_xref source="CCDS" accession="CCDS11750.1" />
+              <db_xref source="GeneID" accession="79157" />
+              <db_xref source="GI" accession="335892875" />
+            </protein_product>
+          </transcript>
+          <transcript source="RefSeq" accession="NM_001242533.1">
+            <coordinates coord_system="LRG_640" start="139" end="4911" strand="-1" />
+            <partial>3-prime</partial>
+            <long_name>major facilitator superfamily domain containing 11, transcript variant 2</long_name>
+            <db_xref source="GeneID" accession="79157" />
+            <db_xref source="GI" accession="335892869" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_640" start="4247" end="4911" strand="-1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_640" start="3964" end="4130" strand="-1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_640" start="3419" end="3474" strand="-1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_640" start="1348" end="1455" strand="-1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_640" start="364" end="443" strand="-1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_640" start="139" end="235" strand="-1" />
+              <partial>3-prime</partial>
+            </exon>
+            <protein_product source="RefSeq" accession="NP_001229462.1" codon_start="1">
+              <coordinates coord_system="LRG_640" start="139" end="4059" strand="-1" />
+              <partial>3-prime</partial>
+              <long_name>UNC93-like protein MFSD11 isoform 1</long_name>
+              <long_name>UNC93-like protein MFSD11</long_name>
+              <long_name>protein ET</long_name>
+              <long_name>major facilitator superfamily domain-containing protein 11</long_name>
+              <db_xref source="CCDS" accession="CCDS11750.1" />
+              <db_xref source="GeneID" accession="79157" />
+              <db_xref source="GI" accession="335892870" />
+            </protein_product>
+          </transcript>
+          <transcript source="RefSeq" accession="NM_001242532.1">
+            <coordinates coord_system="LRG_640" start="139" end="4911" strand="-1" />
+            <partial>3-prime</partial>
+            <long_name>major facilitator superfamily domain containing 11, transcript variant 1</long_name>
+            <db_xref source="GeneID" accession="79157" />
+            <db_xref source="GI" accession="335892867" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_640" start="3964" end="4911" strand="-1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_640" start="3419" end="3474" strand="-1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_640" start="1348" end="1455" strand="-1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_640" start="364" end="443" strand="-1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_640" start="139" end="235" strand="-1" />
+              <partial>3-prime</partial>
+            </exon>
+            <protein_product source="RefSeq" accession="NP_001229461.1" codon_start="1">
+              <coordinates coord_system="LRG_640" start="139" end="4059" strand="-1" />
+              <partial>3-prime</partial>
+              <long_name>UNC93-like protein MFSD11 isoform 1</long_name>
+              <long_name>UNC93-like protein MFSD11</long_name>
+              <long_name>protein ET</long_name>
+              <long_name>major facilitator superfamily domain-containing protein 11</long_name>
+              <db_xref source="CCDS" accession="CCDS11750.1" />
+              <db_xref source="GeneID" accession="79157" />
+              <db_xref source="GI" accession="335892868" />
+            </protein_product>
+          </transcript>
+          <transcript source="RefSeq" accession="NM_001242537.1">
+            <coordinates coord_system="LRG_640" start="364" end="4911" strand="-1" />
+            <partial>3-prime</partial>
+            <long_name>major facilitator superfamily domain containing 11, transcript variant 7</long_name>
+            <db_xref source="GeneID" accession="79157" />
+            <db_xref source="GI" accession="335892879" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_640" start="4436" end="4911" strand="-1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_640" start="3964" end="4130" strand="-1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_640" start="3419" end="3474" strand="-1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_640" start="1348" end="1455" strand="-1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_640" start="364" end="443" strand="-1" />
+              <partial>3-prime</partial>
+            </exon>
+            <protein_product source="RefSeq" accession="NP_001229466.1" codon_start="1">
+              <coordinates coord_system="LRG_640" start="364" end="4059" strand="-1" />
+              <partial>3-prime</partial>
+              <long_name>UNC93-like protein MFSD11 isoform 2</long_name>
+              <long_name>UNC93-like protein MFSD11</long_name>
+              <long_name>protein ET</long_name>
+              <long_name>major facilitator superfamily domain-containing protein 11</long_name>
+              <db_xref source="CCDS" accession="CCDS56045.1" />
+              <db_xref source="GeneID" accession="79157" />
+              <db_xref source="GI" accession="335892880" />
+            </protein_product>
+          </transcript>
+          <transcript source="RefSeq" accession="NM_001242536.1">
+            <coordinates coord_system="LRG_640" start="364" end="4911" strand="-1" />
+            <partial>3-prime</partial>
+            <long_name>major facilitator superfamily domain containing 11, transcript variant 6</long_name>
+            <db_xref source="GeneID" accession="79157" />
+            <db_xref source="GI" accession="335892877" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_640" start="4247" end="4911" strand="-1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_640" start="3964" end="4130" strand="-1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_640" start="3419" end="3474" strand="-1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_640" start="1348" end="1455" strand="-1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_640" start="364" end="443" strand="-1" />
+              <partial>3-prime</partial>
+            </exon>
+            <protein_product source="RefSeq" accession="NP_001229465.1" codon_start="1">
+              <coordinates coord_system="LRG_640" start="364" end="4059" strand="-1" />
+              <partial>3-prime</partial>
+              <long_name>UNC93-like protein MFSD11 isoform 2</long_name>
+              <long_name>UNC93-like protein MFSD11</long_name>
+              <long_name>protein ET</long_name>
+              <long_name>major facilitator superfamily domain-containing protein 11</long_name>
+              <db_xref source="CCDS" accession="CCDS56045.1" />
+              <db_xref source="GeneID" accession="79157" />
+              <db_xref source="GI" accession="335892878" />
+            </protein_product>
+          </transcript>
+        </gene>
+        <gene source="NCBI-Gene" accession="6427">
+          <symbol source="HGNC" name="SRSF2">
+            <synonym>PR264</synonym>
+            <synonym>SC-35</synonym>
+            <synonym>SC35</synonym>
+            <synonym>SFRS2</synonym>
+            <synonym>SFRS2A</synonym>
+            <synonym>SRp30b</synonym>
+          </symbol>
+          <coordinates coord_system="LRG_640" start="5001" end="8297" strand="1" />
+          <long_name>serine/arginine-rich splicing factor 2</long_name>
+          <db_xref source="GeneID" accession="6427" />
+          <db_xref source="HGNC" accession="HGNC:10783" />
+          <db_xref source="MIM" accession="600813" />
+          <db_xref source="CCDS" accession="CCDS11749.1" />
+          <db_xref source="GI" accession="401782608" />
+          <transcript source="RefSeq" accession="NM_003016.4" fixed_id="t1">
+            <coordinates coord_system="LRG_640" start="5001" end="8297" strand="1" />
+            <long_name>serine/arginine-rich splicing factor 2, transcript variant 1</long_name>
+            <db_xref source="GeneID" accession="6427" />
+            <db_xref source="GI" accession="306482644" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_640" start="5001" end="5613" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_640" start="5948" end="8297" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_003007.2" fixed_id="p1">
+              <coordinates coord_system="LRG_640" start="5252" end="6251" strand="1" />
+              <long_name>serine/arginine-rich splicing factor 2</long_name>
+              <long_name>SR splicing factor 2</long_name>
+              <long_name>splicing factor, arginine/serine-rich 2</long_name>
+              <long_name>splicing factor SC35</long_name>
+              <long_name>splicing component, 35 kDa</long_name>
+              <db_xref source="CCDS" accession="CCDS11749.1" />
+              <db_xref source="GeneID" accession="6427" />
+              <db_xref source="GI" accession="47271443" />
+            </protein_product>
+          </transcript>
+          <transcript source="RefSeq" accession="NM_001195427.1">
+            <coordinates coord_system="LRG_640" start="5001" end="8297" strand="1" />
+            <long_name>serine/arginine-rich splicing factor 2, transcript variant 2</long_name>
+            <db_xref source="GeneID" accession="6427" />
+            <db_xref source="GI" accession="306482645" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_640" start="5001" end="5613" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_640" start="5948" end="6258" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_640" start="7254" end="8297" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_001182356.1">
+              <coordinates coord_system="LRG_640" start="5252" end="6251" strand="1" />
+              <long_name>serine/arginine-rich splicing factor 2</long_name>
+              <db_xref source="CCDS" accession="CCDS11749.1" />
+              <db_xref source="GeneID" accession="6427" />
+              <db_xref source="GI" accession="306482646" />
+            </protein_product>
+          </transcript>
+        </gene>
+        <gene source="NCBI-Gene" accession="693221">
+          <symbol source="HGNC" name="MIR636">
+            <synonym>hsa-mir-636</synonym>
+            <synonym>MIRN636</synonym>
+          </symbol>
+          <coordinates coord_system="LRG_640" start="5864" end="5962" strand="1" />
+          <long_name>microRNA 636</long_name>
+          <db_xref source="GeneID" accession="693221" />
+          <db_xref source="HGNC" accession="HGNC:32892" />
+          <db_xref source="miRBase" accession="MI0003651" />
+          <transcript source="RefSeq" accession="NR_030366.1">
+            <coordinates coord_system="LRG_640" start="5864" end="5962" strand="1" />
+            <long_name>microRNA 636</long_name>
+            <db_xref source="GeneID" accession="693221" />
+            <db_xref source="GI" accession="262206168" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_640" start="5864" end="5962" strand="1" />
+            </exon>
+          </transcript>
+        </gene>
+        <gene source="NCBI-Gene" accession="124512">
+          <symbol source="HGNC" name="METTL23">
+            <synonym>C17orf95</synonym>
+            <synonym>MRT44</synonym>
+          </symbol>
+          <coordinates coord_system="LRG_640" start="8531" end="10297" strand="-1" />
+          <partial>5-prime</partial>
+          <long_name>methyltransferase like 23</long_name>
+          <db_xref source="GeneID" accession="124512" />
+          <db_xref source="HGNC" accession="HGNC:26988" />
+          <db_xref source="MIM" accession="615262" />
+          <db_xref source="CCDS" accession="CCDS59298.1" />
+          <db_xref source="CCDS" accession="CCDS45787.1" />
+          <transcript source="RefSeq" accession="NM_001080510.4">
+            <coordinates coord_system="LRG_640" start="8531" end="9434" strand="-1" />
+            <partial>5-prime</partial>
+            <long_name>methyltransferase like 23, transcript variant 1</long_name>
+            <db_xref source="GeneID" accession="124512" />
+            <db_xref source="GI" accession="706715595" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_640" start="9197" end="9434" strand="-1" />
+              <partial>5-prime</partial>
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_640" start="9035" end="9119" strand="-1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_640" start="8531" end="8891" strand="-1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_001073979.3" codon_start="1">
+              <coordinates coord_system="LRG_640" start="8726" end="9434" strand="-1" />
+              <partial>5-prime</partial>
+              <long_name>methyltransferase-like protein 23 isoform 1</long_name>
+              <long_name>methyltransferase-like protein 23</long_name>
+              <db_xref source="CCDS" accession="CCDS45787.1" />
+              <db_xref source="GeneID" accession="124512" />
+              <db_xref source="GI" accession="332801031" />
+            </protein_product>
+          </transcript>
+          <transcript source="RefSeq" accession="NM_001206983.2">
+            <coordinates coord_system="LRG_640" start="8531" end="9434" strand="-1" />
+            <partial>5-prime</partial>
+            <long_name>methyltransferase like 23, transcript variant 2</long_name>
+            <db_xref source="GeneID" accession="124512" />
+            <db_xref source="GI" accession="706715642" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_640" start="9197" end="9434" strand="-1" />
+              <partial>5-prime</partial>
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_640" start="9035" end="9119" strand="-1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_640" start="8531" end="8891" strand="-1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_001193912.1" codon_start="1">
+              <coordinates coord_system="LRG_640" start="8726" end="9434" strand="-1" />
+              <partial>5-prime</partial>
+              <long_name>methyltransferase-like protein 23 isoform 1</long_name>
+              <long_name>methyltransferase-like protein 23</long_name>
+              <db_xref source="CCDS" accession="CCDS45787.1" />
+              <db_xref source="GeneID" accession="124512" />
+              <db_xref source="GI" accession="332801033" />
+            </protein_product>
+          </transcript>
+          <transcript source="RefSeq" accession="NM_001206984.2">
+            <coordinates coord_system="LRG_640" start="8531" end="9434" strand="-1" />
+            <partial>5-prime</partial>
+            <long_name>methyltransferase like 23, transcript variant 3</long_name>
+            <db_xref source="GeneID" accession="124512" />
+            <db_xref source="GI" accession="706715686" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_640" start="9197" end="9434" strand="-1" />
+              <partial>5-prime</partial>
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_640" start="9035" end="9119" strand="-1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_640" start="8531" end="8891" strand="-1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_001193913.1" codon_start="1">
+              <coordinates coord_system="LRG_640" start="8726" end="9434" strand="-1" />
+              <partial>5-prime</partial>
+              <long_name>methyltransferase-like protein 23 isoform 1</long_name>
+              <long_name>methyltransferase-like protein 23</long_name>
+              <db_xref source="CCDS" accession="CCDS45787.1" />
+              <db_xref source="GeneID" accession="124512" />
+              <db_xref source="GI" accession="332801035" />
+            </protein_product>
+          </transcript>
+          <transcript source="RefSeq" accession="NM_001206985.2">
+            <coordinates coord_system="LRG_640" start="8531" end="9434" strand="-1" />
+            <partial>5-prime</partial>
+            <long_name>methyltransferase like 23, transcript variant 4</long_name>
+            <db_xref source="GeneID" accession="124512" />
+            <db_xref source="GI" accession="706715783" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_640" start="9197" end="9434" strand="-1" />
+              <partial>5-prime</partial>
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_640" start="9035" end="9119" strand="-1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_640" start="8531" end="8891" strand="-1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_001193914.1">
+              <coordinates coord_system="LRG_640" start="8726" end="9317" strand="-1" />
+              <long_name>methyltransferase-like protein 23 isoform 2</long_name>
+              <long_name>methyltransferase-like protein 23</long_name>
+              <db_xref source="CCDS" accession="CCDS59298.1" />
+              <db_xref source="GeneID" accession="124512" />
+              <db_xref source="GI" accession="332801037" />
+            </protein_product>
+          </transcript>
+          <transcript source="RefSeq" accession="NM_001206986.2">
+            <coordinates coord_system="LRG_640" start="8531" end="9434" strand="-1" />
+            <partial>5-prime</partial>
+            <long_name>methyltransferase like 23, transcript variant 5</long_name>
+            <db_xref source="GeneID" accession="124512" />
+            <db_xref source="GI" accession="706715784" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_640" start="9197" end="9434" strand="-1" />
+              <partial>5-prime</partial>
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_640" start="9035" end="9119" strand="-1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_640" start="8531" end="8891" strand="-1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_001193915.1">
+              <coordinates coord_system="LRG_640" start="8726" end="9317" strand="-1" />
+              <long_name>methyltransferase-like protein 23 isoform 2</long_name>
+              <long_name>methyltransferase-like protein 23</long_name>
+              <db_xref source="CCDS" accession="CCDS59298.1" />
+              <db_xref source="GeneID" accession="124512" />
+              <db_xref source="GI" accession="332801039" />
+            </protein_product>
+          </transcript>
+          <transcript source="RefSeq" accession="NM_001206987.2">
+            <coordinates coord_system="LRG_640" start="8531" end="9434" strand="-1" />
+            <partial>5-prime</partial>
+            <long_name>methyltransferase like 23, transcript variant 6</long_name>
+            <db_xref source="GeneID" accession="124512" />
+            <db_xref source="GI" accession="706715839" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_640" start="9197" end="9434" strand="-1" />
+              <partial>5-prime</partial>
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_640" start="9035" end="9119" strand="-1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_640" start="8531" end="8891" strand="-1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_001193916.1">
+              <coordinates coord_system="LRG_640" start="8726" end="9317" strand="-1" />
+              <long_name>methyltransferase-like protein 23 isoform 2</long_name>
+              <long_name>methyltransferase-like protein 23</long_name>
+              <db_xref source="CCDS" accession="CCDS59298.1" />
+              <db_xref source="GeneID" accession="124512" />
+              <db_xref source="GI" accession="332801041" />
+            </protein_product>
+          </transcript>
+          <transcript source="RefSeq" accession="NM_001302703.1">
+            <coordinates coord_system="LRG_640" start="8531" end="9434" strand="-1" />
+            <partial>5-prime</partial>
+            <long_name>methyltransferase like 23, transcript variant 8</long_name>
+            <db_xref source="GeneID" accession="124512" />
+            <db_xref source="GI" accession="706715903" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_640" start="9197" end="9434" strand="-1" />
+              <partial>5-prime</partial>
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_640" start="9035" end="9119" strand="-1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_640" start="8531" end="8891" strand="-1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_001289632.1" codon_start="1">
+              <coordinates coord_system="LRG_640" start="8726" end="9434" strand="-1" />
+              <partial>5-prime</partial>
+              <long_name>methyltransferase-like protein 23 isoform 1</long_name>
+              <long_name>methyltransferase-like protein 23</long_name>
+              <db_xref source="CCDS" accession="CCDS45787.1" />
+              <db_xref source="GeneID" accession="124512" />
+              <db_xref source="GI" accession="706715904" />
+            </protein_product>
+          </transcript>
+          <transcript source="RefSeq" accession="NM_001302704.1">
+            <coordinates coord_system="LRG_640" start="8531" end="9434" strand="-1" />
+            <partial>5-prime</partial>
+            <long_name>methyltransferase like 23, transcript variant 9</long_name>
+            <db_xref source="GeneID" accession="124512" />
+            <db_xref source="GI" accession="706715944" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_640" start="9197" end="9434" strand="-1" />
+              <partial>5-prime</partial>
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_640" start="9035" end="9119" strand="-1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_640" start="8531" end="8891" strand="-1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_001289633.1">
+              <coordinates coord_system="LRG_640" start="8726" end="9317" strand="-1" />
+              <long_name>methyltransferase-like protein 23 isoform 2</long_name>
+              <long_name>methyltransferase-like protein 23</long_name>
+              <db_xref source="CCDS" accession="CCDS59298.1" />
+              <db_xref source="GeneID" accession="124512" />
+              <db_xref source="GI" accession="706715945" />
+            </protein_product>
+          </transcript>
+          <transcript source="RefSeq" accession="NM_001302705.1">
+            <coordinates coord_system="LRG_640" start="8531" end="9434" strand="-1" />
+            <partial>5-prime</partial>
+            <long_name>methyltransferase like 23, transcript variant 10</long_name>
+            <db_xref source="GeneID" accession="124512" />
+            <db_xref source="GI" accession="706716015" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_640" start="9197" end="9434" strand="-1" />
+              <partial>5-prime</partial>
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_640" start="9035" end="9119" strand="-1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_640" start="8531" end="8891" strand="-1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_001289634.1" codon_start="1">
+              <coordinates coord_system="LRG_640" start="8726" end="9434" strand="-1" />
+              <partial>5-prime</partial>
+              <long_name>methyltransferase-like protein 23 isoform 3</long_name>
+              <long_name>methyltransferase-like protein 23</long_name>
+              <db_xref source="GeneID" accession="124512" />
+              <db_xref source="GI" accession="706716016" />
+            </protein_product>
+          </transcript>
+          <transcript source="RefSeq" accession="NR_038193.2">
+            <coordinates coord_system="LRG_640" start="8531" end="9119" strand="-1" />
+            <partial>5-prime</partial>
+            <long_name>methyltransferase like 23, transcript variant 7</long_name>
+            <db_xref source="GeneID" accession="124512" />
+            <db_xref source="GI" accession="706716224" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_640" start="9035" end="9119" strand="-1" />
+              <partial>5-prime</partial>
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_640" start="8531" end="8891" strand="-1" />
+            </exon>
+          </transcript>
+        </gene>
+      </features>
+    </annotation_set>
+    <annotation_set type="ensembl">
+      <source>
+        <name>Ensembl</name>
+        <url>http://www.ensembl.org/</url>
+        <contact>
+          <name>Ensembl</name>
+          <address>European Bioinformatics Institute</address>
+          <email>helpdesk@ensembl.org</email>
+        </contact>
+      </source>
+      <comment>Annotation is based on Ensembl release 80 (GRCh38  primary assembly)</comment>
+      <modification_date>2015-06-22</modification_date>
+      <mapping coord_system="ENST00000358156.6" other_name="ENST00000358156.6" other_id="ENST00000358156.6" other_start="1" other_end="572" type="transcript">
+        <mapping_span lrg_start="5081" lrg_end="5613" other_start="1" other_end="533" strand="1" />
+        <mapping_span lrg_start="5969" lrg_end="6007" other_start="534" other_end="572" strand="1">
+          <diff type="mismatch" lrg_start="5987" lrg_end="5987" other_start="552" other_end="552" lrg_sequence="C" other_sequence="T" />
+        </mapping_span>
+      </mapping>
+      <mapping coord_system="ENST00000359995.8" other_name="ENST00000359995.8" other_id="ENST00000359995.8" other_start="1" other_end="1927" type="transcript">
+        <mapping_span lrg_start="5038" lrg_end="5613" other_start="1" other_end="576" strand="1" />
+        <mapping_span lrg_start="5948" lrg_end="6258" other_start="577" other_end="887" strand="1">
+          <diff type="mismatch" lrg_start="5987" lrg_end="5987" other_start="616" other_end="616" lrg_sequence="C" other_sequence="T" />
+        </mapping_span>
+        <mapping_span lrg_start="7254" lrg_end="8293" other_start="888" other_end="1927" strand="1">
+          <diff type="mismatch" lrg_start="7651" lrg_end="7651" other_start="1285" other_end="1285" lrg_sequence="G" other_sequence="A" />
+        </mapping_span>
+      </mapping>
+      <mapping coord_system="ENST00000392485.2" other_name="ENST00000392485.2" other_id="ENST00000392485.2" other_start="1" other_end="2885" type="transcript">
+        <mapping_span lrg_start="5079" lrg_end="5613" other_start="1" other_end="535" strand="1" />
+        <mapping_span lrg_start="5948" lrg_end="8297" other_start="536" other_end="2885" strand="1">
+          <diff type="mismatch" lrg_start="5987" lrg_end="5987" other_start="575" other_end="575" lrg_sequence="C" other_sequence="T" />
+          <diff type="mismatch" lrg_start="7651" lrg_end="7651" other_start="2239" other_end="2239" lrg_sequence="G" other_sequence="A" />
+        </mapping_span>
+      </mapping>
+      <mapping coord_system="ENST00000452355.6" other_name="ENST00000452355.6" other_id="ENST00000452355.6" other_start="1" other_end="1357" type="transcript">
+        <mapping_span lrg_start="5081" lrg_end="5613" other_start="1" other_end="533" strand="1" />
+        <mapping_span lrg_start="5948" lrg_end="6258" other_start="534" other_end="844" strand="1">
+          <diff type="mismatch" lrg_start="5987" lrg_end="5987" other_start="573" other_end="573" lrg_sequence="C" other_sequence="T" />
+        </mapping_span>
+        <mapping_span lrg_start="6537" lrg_end="6640" other_start="845" other_end="948" strand="1" />
+        <mapping_span lrg_start="7254" lrg_end="7351" other_start="949" other_end="1046" strand="1" />
+        <mapping_span lrg_start="7850" lrg_end="8160" other_start="1047" other_end="1357" strand="1" />
+      </mapping>
+      <mapping coord_system="ENST00000508921.6" other_name="ENST00000508921.6" other_id="ENST00000508921.6" other_start="1" other_end="1390" type="transcript">
+        <mapping_span lrg_start="5081" lrg_end="5577" other_start="1" other_end="497" strand="1" />
+        <mapping_span lrg_start="5948" lrg_end="6258" other_start="498" other_end="808" strand="1">
+          <diff type="mismatch" lrg_start="5987" lrg_end="5987" other_start="537" other_end="537" lrg_sequence="C" other_sequence="T" />
+        </mapping_span>
+        <mapping_span lrg_start="7254" lrg_end="7835" other_start="809" other_end="1390" strand="1">
+          <diff type="mismatch" lrg_start="7651" lrg_end="7651" other_start="1206" other_end="1206" lrg_sequence="G" other_sequence="A" />
+        </mapping_span>
+      </mapping>
+      <mapping coord_system="ENST00000582449.4" other_name="ENST00000582449.4" other_id="ENST00000582449.4" other_start="1" other_end="1518" type="transcript">
+        <mapping_span lrg_start="5857" lrg_end="6258" other_start="1" other_end="402" strand="1">
+          <diff type="mismatch" lrg_start="5987" lrg_end="5987" other_start="131" other_end="131" lrg_sequence="C" other_sequence="T" />
+        </mapping_span>
+        <mapping_span lrg_start="6537" lrg_end="6640" other_start="403" other_end="506" strand="1" />
+        <mapping_span lrg_start="7254" lrg_end="8265" other_start="507" other_end="1518" strand="1">
+          <diff type="mismatch" lrg_start="7651" lrg_end="7651" other_start="904" other_end="904" lrg_sequence="G" other_sequence="A" />
+        </mapping_span>
+      </mapping>
+      <mapping coord_system="ENST00000583836.1" other_name="ENST00000583836.1" other_id="ENST00000583836.1" other_start="1" other_end="561" type="transcript">
+        <mapping_span lrg_start="5081" lrg_end="5577" other_start="1" other_end="497" strand="1" />
+        <mapping_span lrg_start="5969" lrg_end="6032" other_start="498" other_end="561" strand="1">
+          <diff type="mismatch" lrg_start="5987" lrg_end="5987" other_start="516" other_end="516" lrg_sequence="C" other_sequence="T" />
+        </mapping_span>
+      </mapping>
+      <mapping coord_system="ENST00000585202.4" other_name="ENST00000585202.4" other_id="ENST00000585202.4" other_start="1" other_end="1359" type="transcript">
+        <mapping_span lrg_start="5104" lrg_end="5613" other_start="1" other_end="510" strand="1" />
+        <mapping_span lrg_start="5948" lrg_end="6258" other_start="511" other_end="821" strand="1">
+          <diff type="mismatch" lrg_start="5987" lrg_end="5987" other_start="550" other_end="550" lrg_sequence="C" other_sequence="T" />
+        </mapping_span>
+        <mapping_span lrg_start="7254" lrg_end="7351" other_start="822" other_end="919" strand="1" />
+        <mapping_span lrg_start="7850" lrg_end="8289" other_start="920" other_end="1359" strand="1" />
+      </mapping>
+      <mapping coord_system="ENST00000586778.1" other_name="ENST00000586778.1" other_id="ENST00000586778.1" other_start="1" other_end="1001" type="transcript">
+        <mapping_span lrg_start="6751" lrg_end="7351" other_start="1" other_end="601" strand="1" />
+        <mapping_span lrg_start="7850" lrg_end="8249" other_start="602" other_end="1001" strand="1" />
+      </mapping>
+      <mapping coord_system="ENST00000589919.1" other_name="ENST00000589919.1" other_id="ENST00000589919.1" other_start="1" other_end="595" type="transcript">
+        <mapping_span lrg_start="6404" lrg_end="6640" other_start="1" other_end="237" strand="1" />
+        <mapping_span lrg_start="7254" lrg_end="7351" other_start="238" other_end="335" strand="1" />
+        <mapping_span lrg_start="7850" lrg_end="8109" other_start="336" other_end="595" strand="1" />
+      </mapping>
+      <mapping coord_system="ENST00000592676.1" other_name="ENST00000592676.1" other_id="ENST00000592676.1" other_start="1" other_end="559" type="transcript">
+        <mapping_span lrg_start="6258" lrg_end="6794" other_start="1" other_end="537" strand="1" />
+        <mapping_span lrg_start="7254" lrg_end="7275" other_start="538" other_end="559" strand="1" />
+      </mapping>
+      <features>
+        <gene source="Ensembl" accession="ENSG00000092931.10">
+          <symbol source="HGNC" name="MFSD11" />
+          <coordinates coord_system="LRG_640" start="1" end="6547" strand="-1" mapped_from="GRCh38" />
+          <partial>3-prime</partial>
+          <long_name>major facilitator superfamily domain containing 11 (protein_coding)</long_name>
+          <db_xref source="GeneID" accession="79157">
+            <synonym>ET</synonym>
+          </db_xref>
+          <db_xref source="HGNC" accession="25458">
+            <synonym>FLJ20226</synonym>
+            <synonym>FLJ22196</synonym>
+          </db_xref>
+          <db_xref source="Ensembl" accession="ENSG00000092931" />
+          <transcript source="Ensembl" accession="ENST00000586622.4">
+            <coordinates coord_system="LRG_640" start="1" end="6547" strand="-1" mapped_from="GRCh38" />
+            <partial>3-prime</partial>
+            <long_name>MFSD11-001 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS11750.1" />
+            <exon source="Ensembl" accession="ENSE00002887718">
+              <coordinates coord_system="LRG_640" start="6384" end="6547" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002938819">
+              <coordinates coord_system="LRG_640" start="5321" end="6222" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001332541">
+              <coordinates coord_system="LRG_640" start="3964" end="4130" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00000335470">
+              <coordinates coord_system="LRG_640" start="3419" end="3474" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001193513">
+              <coordinates coord_system="LRG_640" start="1348" end="1455" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003516004">
+              <coordinates coord_system="LRG_640" start="364" end="443" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003655464">
+              <coordinates coord_system="LRG_640" start="139" end="235" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000466613.1">
+              <coordinates coord_system="LRG_640" start="1" end="4059" strand="-1" mapped_from="GRCh38" />
+              <partial>3-prime</partial>
+              <db_xref source="UniProtKB" accession="O43934">
+                <synonym>O43442</synonym>
+                <synonym>Q9NXI5</synonym>
+              </db_xref>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000588460.4">
+            <coordinates coord_system="LRG_640" start="1" end="6101" strand="-1" mapped_from="GRCh38" />
+            <partial>3-prime</partial>
+            <long_name>MFSD11-002 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS11750.1" />
+            <exon source="Ensembl" accession="ENSE00002798994">
+              <coordinates coord_system="LRG_640" start="3964" end="6101" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00000335470">
+              <coordinates coord_system="LRG_640" start="3419" end="3474" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001193513">
+              <coordinates coord_system="LRG_640" start="1348" end="1455" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003516004">
+              <coordinates coord_system="LRG_640" start="364" end="443" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003655464">
+              <coordinates coord_system="LRG_640" start="139" end="235" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000464932.1">
+              <coordinates coord_system="LRG_640" start="1" end="4059" strand="-1" mapped_from="GRCh38" />
+              <partial>3-prime</partial>
+              <db_xref source="UniProtKB" accession="O43934">
+                <synonym>O43442</synonym>
+                <synonym>Q9NXI5</synonym>
+              </db_xref>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000593181.4">
+            <coordinates coord_system="LRG_640" start="1" end="4717" strand="-1" mapped_from="GRCh38" />
+            <partial>3-prime</partial>
+            <long_name>MFSD11-003 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS56045.1" />
+            <exon source="Ensembl" accession="ENSE00002966900">
+              <coordinates coord_system="LRG_640" start="4436" end="4717" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001332541">
+              <coordinates coord_system="LRG_640" start="3964" end="4130" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00000335470">
+              <coordinates coord_system="LRG_640" start="3419" end="3474" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001193513">
+              <coordinates coord_system="LRG_640" start="1348" end="1455" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003516004">
+              <coordinates coord_system="LRG_640" start="364" end="443" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000466782.1">
+              <coordinates coord_system="LRG_640" start="1" end="4059" strand="-1" mapped_from="GRCh38" />
+              <partial>3-prime</partial>
+              <db_xref source="UniProtKB" accession="O43934">
+                <synonym>O43442</synonym>
+                <synonym>Q9NXI5</synonym>
+              </db_xref>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000336509.7">
+            <coordinates coord_system="LRG_640" start="1" end="4711" strand="-1" mapped_from="GRCh38" />
+            <partial>3-prime</partial>
+            <long_name>MFSD11-005 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS11750.1" />
+            <db_xref source="RefSeq" accession="NM_001242532.1" />
+            <db_xref source="RefSeq" accession="NM_001242533.1" />
+            <db_xref source="RefSeq" accession="NM_001242535.1" />
+            <db_xref source="RefSeq" accession="NM_024311.3" />
+            <exon source="Ensembl" accession="ENSE00001426800">
+              <coordinates coord_system="LRG_640" start="4529" end="4711" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001332541">
+              <coordinates coord_system="LRG_640" start="3964" end="4130" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00000335470">
+              <coordinates coord_system="LRG_640" start="3419" end="3474" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001193513">
+              <coordinates coord_system="LRG_640" start="1348" end="1455" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003516004">
+              <coordinates coord_system="LRG_640" start="364" end="443" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003655464">
+              <coordinates coord_system="LRG_640" start="139" end="235" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000337240.3">
+              <coordinates coord_system="LRG_640" start="1" end="4059" strand="-1" mapped_from="GRCh38" />
+              <partial>3-prime</partial>
+              <long_name>UNC93-like protein MFSD11 isoform 1, UNC93-like protein MFSD11 isoform 1, UNC93-like protein MFSD11 isoform 1, UNC93-like protein MFSD11 isoform 1</long_name>
+              <db_xref source="RefSeq" accession="NP_077287.1" />
+              <db_xref source="RefSeq" accession="NP_001229464.1" />
+              <db_xref source="RefSeq" accession="NP_001229462.1" />
+              <db_xref source="RefSeq" accession="NP_001229461.1" />
+              <db_xref source="UniProtKB" accession="O43934">
+                <synonym>O43442</synonym>
+                <synonym>Q9NXI5</synonym>
+              </db_xref>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000590514.4">
+            <coordinates coord_system="LRG_640" start="1" end="4341" strand="-1" mapped_from="GRCh38" />
+            <partial>3-prime</partial>
+            <long_name>MFSD11-006 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS11750.1" />
+            <exon source="Ensembl" accession="ENSE00002750187">
+              <coordinates coord_system="LRG_640" start="4247" end="4341" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001332541">
+              <coordinates coord_system="LRG_640" start="3964" end="4130" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00000335470">
+              <coordinates coord_system="LRG_640" start="3419" end="3474" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001193513">
+              <coordinates coord_system="LRG_640" start="1348" end="1455" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003516004">
+              <coordinates coord_system="LRG_640" start="364" end="443" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003655464">
+              <coordinates coord_system="LRG_640" start="139" end="235" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000468309.1">
+              <coordinates coord_system="LRG_640" start="1" end="4059" strand="-1" mapped_from="GRCh38" />
+              <partial>3-prime</partial>
+              <db_xref source="UniProtKB" accession="O43934">
+                <synonym>O43442</synonym>
+                <synonym>Q9NXI5</synonym>
+              </db_xref>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000588031.4">
+            <coordinates coord_system="LRG_640" start="1" end="4316" strand="-1" mapped_from="GRCh38" />
+            <partial>3-prime</partial>
+            <long_name>MFSD11-007 (nonsense_mediated_decay)</long_name>
+            <exon source="Ensembl" accession="ENSE00002814566">
+              <coordinates coord_system="LRG_640" start="4247" end="4316" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001332541">
+              <coordinates coord_system="LRG_640" start="3964" end="4130" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00000335470">
+              <coordinates coord_system="LRG_640" start="3419" end="3474" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001193513">
+              <coordinates coord_system="LRG_640" start="1348" end="1455" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002835656">
+              <coordinates coord_system="LRG_640" start="364" end="418" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003463916">
+              <coordinates coord_system="LRG_640" start="139" end="235" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000466412.1">
+              <coordinates coord_system="LRG_640" start="206" end="4059" strand="-1" mapped_from="GRCh38" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000588670.4">
+            <coordinates coord_system="LRG_640" start="1" end="4128" strand="-1" mapped_from="GRCh38" />
+            <partial>3-prime</partial>
+            <long_name>MFSD11-012 (nonsense_mediated_decay)</long_name>
+            <exon source="Ensembl" accession="ENSE00002878176">
+              <coordinates coord_system="LRG_640" start="3964" end="4128" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00000335470">
+              <coordinates coord_system="LRG_640" start="3419" end="3474" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001193513">
+              <coordinates coord_system="LRG_640" start="1348" end="1455" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002853686">
+              <coordinates coord_system="LRG_640" start="364" end="393" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003630593">
+              <coordinates coord_system="LRG_640" start="139" end="235" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000468223.1">
+              <coordinates coord_system="LRG_640" start="190" end="4059" strand="-1" mapped_from="GRCh38" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000588768.4">
+            <coordinates coord_system="LRG_640" start="1" end="4002" strand="-1" mapped_from="GRCh38" />
+            <partial>3-prime</partial>
+            <long_name>MFSD11-013 (nonsense_mediated_decay)</long_name>
+            <exon source="Ensembl" accession="ENSE00002827257">
+              <coordinates coord_system="LRG_640" start="3964" end="4002" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00000335470">
+              <coordinates coord_system="LRG_640" start="3419" end="3474" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001193513">
+              <coordinates coord_system="LRG_640" start="1348" end="1455" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003516004">
+              <coordinates coord_system="LRG_640" start="364" end="443" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003655464">
+              <coordinates coord_system="LRG_640" start="139" end="235" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000468616.1">
+              <coordinates coord_system="LRG_640" start="1" end="4002" strand="-1" mapped_from="GRCh38" />
+              <partial>3-prime</partial>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000585584.4">
+            <coordinates coord_system="LRG_640" start="1" end="221" strand="-1" mapped_from="GRCh38" />
+            <partial>3-prime</partial>
+            <long_name>MFSD11-014 (nonsense_mediated_decay)</long_name>
+            <exon source="Ensembl" accession="ENSE00002757823">
+              <coordinates coord_system="LRG_640" start="139" end="221" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000466584.1">
+              <coordinates coord_system="LRG_640" start="1" end="221" strand="-1" mapped_from="GRCh38" />
+              <partial>3-prime</partial>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000621483.3">
+            <coordinates coord_system="LRG_640" start="1" end="5847" strand="-1" mapped_from="GRCh38" />
+            <partial>3-prime</partial>
+            <long_name>MFSD11-202 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS11750.1" />
+            <db_xref source="RefSeq" accession="NM_001242534.1" />
+            <exon source="Ensembl" accession="ENSE00003750284">
+              <coordinates coord_system="LRG_640" start="5321" end="5847" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001332541">
+              <coordinates coord_system="LRG_640" start="3964" end="4130" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00000335470">
+              <coordinates coord_system="LRG_640" start="3419" end="3474" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001193513">
+              <coordinates coord_system="LRG_640" start="1348" end="1455" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003516004">
+              <coordinates coord_system="LRG_640" start="364" end="443" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003655464">
+              <coordinates coord_system="LRG_640" start="139" end="235" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000485005.1">
+              <coordinates coord_system="LRG_640" start="1" end="4059" strand="-1" mapped_from="GRCh38" />
+              <partial>3-prime</partial>
+              <long_name>UNC93-like protein MFSD11 isoform 1</long_name>
+              <db_xref source="RefSeq" accession="NP_001229463.1" />
+              <db_xref source="UniProtKB" accession="O43934">
+                <synonym>O43442</synonym>
+                <synonym>Q9NXI5</synonym>
+              </db_xref>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000355954.6">
+            <coordinates coord_system="LRG_640" start="1" end="4911" strand="-1" mapped_from="GRCh38" />
+            <partial>3-prime</partial>
+            <long_name>MFSD11-201 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS56045.1" />
+            <db_xref source="RefSeq" accession="NM_001242536.1" />
+            <db_xref source="RefSeq" accession="NM_001242537.1" />
+            <exon source="Ensembl" accession="ENSE00003742102">
+              <coordinates coord_system="LRG_640" start="4247" end="4911" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001332541">
+              <coordinates coord_system="LRG_640" start="3964" end="4130" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00000335470">
+              <coordinates coord_system="LRG_640" start="3419" end="3474" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001193513">
+              <coordinates coord_system="LRG_640" start="1348" end="1455" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003516004">
+              <coordinates coord_system="LRG_640" start="364" end="443" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000348225.3">
+              <coordinates coord_system="LRG_640" start="1" end="4059" strand="-1" mapped_from="GRCh38" />
+              <partial>3-prime</partial>
+              <long_name>UNC93-like protein MFSD11 isoform 2, UNC93-like protein MFSD11 isoform 2</long_name>
+              <db_xref source="RefSeq" accession="NP_001229466.1" />
+              <db_xref source="RefSeq" accession="NP_001229465.1" />
+              <db_xref source="UniProtKB" accession="O43934">
+                <synonym>O43442</synonym>
+                <synonym>Q9NXI5</synonym>
+              </db_xref>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000587661.4">
+            <coordinates coord_system="LRG_640" start="364" end="4733" strand="-1" mapped_from="GRCh38" />
+            <long_name>MFSD11-010 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00002756771">
+              <coordinates coord_system="LRG_640" start="4247" end="4733" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001332541">
+              <coordinates coord_system="LRG_640" start="3964" end="4130" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00000335470">
+              <coordinates coord_system="LRG_640" start="3419" end="3474" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001193513">
+              <coordinates coord_system="LRG_640" start="1348" end="1455" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003472767">
+              <coordinates coord_system="LRG_640" start="364" end="443" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000468758.1">
+              <coordinates coord_system="LRG_640" start="364" end="4059" strand="-1" mapped_from="GRCh38" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000586689.4">
+            <coordinates coord_system="LRG_640" start="1422" end="4733" strand="-1" mapped_from="GRCh38" />
+            <long_name>MFSD11-009 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00002749706">
+              <coordinates coord_system="LRG_640" start="4414" end="4733" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001332541">
+              <coordinates coord_system="LRG_640" start="3964" end="4130" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00000335470">
+              <coordinates coord_system="LRG_640" start="3419" end="3474" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002785099">
+              <coordinates coord_system="LRG_640" start="1422" end="1455" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000466223.1">
+              <coordinates coord_system="LRG_640" start="1422" end="4059" strand="-1" mapped_from="GRCh38" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000590393.1">
+            <coordinates coord_system="LRG_640" start="3885" end="5025" strand="-1" mapped_from="GRCh38" />
+            <long_name>MFSD11-011 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00002897543">
+              <coordinates coord_system="LRG_640" start="3885" end="5025" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000467879.1">
+              <coordinates coord_system="LRG_640" start="3934" end="4059" strand="-1" mapped_from="GRCh38" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000591864.1">
+            <coordinates coord_system="LRG_640" start="3924" end="5559" strand="-1" mapped_from="GRCh38" />
+            <long_name>MFSD11-004 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00002865724">
+              <coordinates coord_system="LRG_640" start="5321" end="5559" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002934269">
+              <coordinates coord_system="LRG_640" start="3924" end="4130" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000467375.1">
+              <coordinates coord_system="LRG_640" start="3934" end="4059" strand="-1" mapped_from="GRCh38" />
+            </protein_product>
+          </transcript>
+        </gene>
+        <gene source="Ensembl" accession="ENSG00000267168.1">
+          <symbol source="Clone_based_vega_gene" name="RP11-318A15.7" />
+          <coordinates coord_system="LRG_640" start="3890" end="9434" strand="-1" mapped_from="GRCh38" />
+          <long_name>Uncharacterized protein  [Source:UniProtKB/TrEMBL;Acc:K7EN84] (protein_coding)</long_name>
+          <db_xref source="Ensembl" accession="ENSG00000267168" />
+          <transcript source="Ensembl" accession="ENST00000587459.1">
+            <coordinates coord_system="LRG_640" start="3890" end="9434" strand="-1" mapped_from="GRCh38" />
+            <long_name>RP11-318A15.7-001 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00003592273">
+              <coordinates coord_system="LRG_640" start="9197" end="9434" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002751771">
+              <coordinates coord_system="LRG_640" start="3890" end="4130" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000466829.1">
+              <coordinates coord_system="LRG_640" start="4066" end="9434" strand="-1" mapped_from="GRCh38" />
+            </protein_product>
+          </transcript>
+        </gene>
+        <gene source="Ensembl" accession="ENSG00000161547.13">
+          <symbol source="HGNC" name="SRSF2" />
+          <coordinates coord_system="LRG_640" start="5038" end="8297" strand="1" mapped_from="GRCh38" />
+          <long_name>serine/arginine-rich splicing factor 2 (protein_coding)</long_name>
+          <db_xref source="GeneID" accession="6427">
+            <synonym>PR264</synonym>
+            <synonym>SC-35</synonym>
+            <synonym>SC35</synonym>
+            <synonym>SFRS2</synonym>
+            <synonym>SFRS2A</synonym>
+            <synonym>SRp30b</synonym>
+          </db_xref>
+          <db_xref source="HGNC" accession="10783">
+            <synonym>PR264</synonym>
+            <synonym>SC-35</synonym>
+            <synonym>SC35</synonym>
+            <synonym>SFRS2</synonym>
+            <synonym>SFRS2A</synonym>
+          </db_xref>
+          <db_xref source="Ensembl" accession="ENSG00000161547" />
+          <transcript source="Ensembl" accession="ENST00000359995.8">
+            <coordinates coord_system="LRG_640" start="5038" end="8293" strand="1" mapped_from="GRCh38" />
+            <long_name>SRSF2-001 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS11749.1" />
+            <db_xref source="RefSeq" accession="NM_001195427.1" />
+            <exon source="Ensembl" accession="ENSE00002724171">
+              <coordinates coord_system="LRG_640" start="5038" end="5613" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001411759">
+              <coordinates coord_system="LRG_640" start="5948" end="6258" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002685506">
+              <coordinates coord_system="LRG_640" start="7254" end="8293" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000353089.5">
+              <coordinates coord_system="LRG_640" start="5252" end="6251" strand="1" mapped_from="GRCh38" />
+              <long_name>serine/arginine-rich splicing factor 2</long_name>
+              <db_xref source="RefSeq" accession="NP_001182356.1" />
+              <db_xref source="UniProtKB" accession="Q01130">
+                <synonym>B3KWD5</synonym>
+                <synonym>B4DN89</synonym>
+                <synonym>H0YG49</synonym>
+              </db_xref>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000392485.2">
+            <coordinates coord_system="LRG_640" start="5079" end="8297" strand="1" mapped_from="GRCh38" />
+            <long_name>SRSF2-003 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS11749.1" />
+            <db_xref source="RefSeq" accession="NM_003016.4" />
+            <exon source="Ensembl" accession="ENSE00002719164">
+              <coordinates coord_system="LRG_640" start="5079" end="5613" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002733952">
+              <coordinates coord_system="LRG_640" start="5948" end="8297" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000376276.2">
+              <coordinates coord_system="LRG_640" start="5252" end="6251" strand="1" mapped_from="GRCh38" />
+              <long_name>serine/arginine-rich splicing factor 2</long_name>
+              <db_xref source="RefSeq" accession="NP_003007.2" />
+              <db_xref source="UniProtKB" accession="Q01130">
+                <synonym>B3KWD5</synonym>
+                <synonym>B4DN89</synonym>
+                <synonym>H0YG49</synonym>
+              </db_xref>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000452355.6">
+            <coordinates coord_system="LRG_640" start="5081" end="8160" strand="1" mapped_from="GRCh38" />
+            <long_name>SRSF2-005 (nonsense_mediated_decay)</long_name>
+            <db_xref source="CCDS" accession="CCDS11749.1" />
+            <exon source="Ensembl" accession="ENSE00002704043">
+              <coordinates coord_system="LRG_640" start="5081" end="5613" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001411759">
+              <coordinates coord_system="LRG_640" start="5948" end="6258" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002249607">
+              <coordinates coord_system="LRG_640" start="6537" end="6640" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002319499">
+              <coordinates coord_system="LRG_640" start="7254" end="7351" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002733446">
+              <coordinates coord_system="LRG_640" start="7850" end="8160" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000391278.3">
+              <coordinates coord_system="LRG_640" start="5252" end="6251" strand="1" mapped_from="GRCh38" />
+              <db_xref source="UniProtKB" accession="Q01130">
+                <synonym>B3KWD5</synonym>
+                <synonym>B4DN89</synonym>
+                <synonym>H0YG49</synonym>
+              </db_xref>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000508921.6">
+            <coordinates coord_system="LRG_640" start="5081" end="7835" strand="1" mapped_from="GRCh38" />
+            <long_name>SRSF2-002 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00002694672">
+              <coordinates coord_system="LRG_640" start="5081" end="5577" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001411759">
+              <coordinates coord_system="LRG_640" start="5948" end="6258" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002721362">
+              <coordinates coord_system="LRG_640" start="7254" end="7835" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000441780.2">
+              <coordinates coord_system="LRG_640" start="5252" end="6251" strand="1" mapped_from="GRCh38" />
+              <db_xref source="UniProtKB" accession="Q01130">
+                <synonym>B3KWD5</synonym>
+                <synonym>B4DN89</synonym>
+                <synonym>H0YG49</synonym>
+              </db_xref>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000583836.1">
+            <coordinates coord_system="LRG_640" start="5081" end="6032" strand="1" mapped_from="GRCh38" />
+            <long_name>SRSF2-008 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00002694672">
+              <coordinates coord_system="LRG_640" start="5081" end="5577" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002691667">
+              <coordinates coord_system="LRG_640" start="5969" end="6032" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000463317.1">
+              <coordinates coord_system="LRG_640" start="5252" end="6032" strand="1" mapped_from="GRCh38" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000358156.6">
+            <coordinates coord_system="LRG_640" start="5081" end="6007" strand="1" mapped_from="GRCh38" />
+            <long_name>SRSF2-007 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00002704043">
+              <coordinates coord_system="LRG_640" start="5081" end="5613" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002734112">
+              <coordinates coord_system="LRG_640" start="5969" end="6007" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000350877.6">
+              <coordinates coord_system="LRG_640" start="5252" end="6007" strand="1" mapped_from="GRCh38" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000585202.4">
+            <coordinates coord_system="LRG_640" start="5104" end="8289" strand="1" mapped_from="GRCh38" />
+            <long_name>SRSF2-004 (nonsense_mediated_decay)</long_name>
+            <db_xref source="CCDS" accession="CCDS11749.1" />
+            <exon source="Ensembl" accession="ENSE00002684311">
+              <coordinates coord_system="LRG_640" start="5104" end="5613" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001411759">
+              <coordinates coord_system="LRG_640" start="5948" end="6258" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002319499">
+              <coordinates coord_system="LRG_640" start="7254" end="7351" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002248216">
+              <coordinates coord_system="LRG_640" start="7850" end="8289" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000462425.1">
+              <coordinates coord_system="LRG_640" start="5252" end="6251" strand="1" mapped_from="GRCh38" />
+              <db_xref source="UniProtKB" accession="Q01130">
+                <synonym>B3KWD5</synonym>
+                <synonym>B4DN89</synonym>
+                <synonym>H0YG49</synonym>
+              </db_xref>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000582449.4">
+            <coordinates coord_system="LRG_640" start="5857" end="8265" strand="1" mapped_from="GRCh38" />
+            <long_name>SRSF2-006 (retained_intron)</long_name>
+            <exon source="Ensembl" accession="ENSE00001696968">
+              <coordinates coord_system="LRG_640" start="5857" end="6258" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002249607">
+              <coordinates coord_system="LRG_640" start="6537" end="6640" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002711890">
+              <coordinates coord_system="LRG_640" start="7254" end="8265" strand="1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000592676.1">
+            <coordinates coord_system="LRG_640" start="6258" end="7275" strand="1" mapped_from="GRCh38" />
+            <long_name>SRSF2-015 (retained_intron)</long_name>
+            <exon source="Ensembl" accession="ENSE00002965804">
+              <coordinates coord_system="LRG_640" start="6258" end="6794" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002820599">
+              <coordinates coord_system="LRG_640" start="7254" end="7275" strand="1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000589919.1">
+            <coordinates coord_system="LRG_640" start="6404" end="8109" strand="1" mapped_from="GRCh38" />
+            <long_name>SRSF2-017 (retained_intron)</long_name>
+            <exon source="Ensembl" accession="ENSE00002874058">
+              <coordinates coord_system="LRG_640" start="6404" end="6640" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002319499">
+              <coordinates coord_system="LRG_640" start="7254" end="7351" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002878778">
+              <coordinates coord_system="LRG_640" start="7850" end="8109" strand="1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000586778.1">
+            <coordinates coord_system="LRG_640" start="6751" end="8249" strand="1" mapped_from="GRCh38" />
+            <long_name>SRSF2-016 (retained_intron)</long_name>
+            <exon source="Ensembl" accession="ENSE00002903606">
+              <coordinates coord_system="LRG_640" start="6751" end="7351" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002837974">
+              <coordinates coord_system="LRG_640" start="7850" end="8249" strand="1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+        </gene>
+        <gene source="Ensembl" accession="ENSG00000207556.1">
+          <symbol source="HGNC" name="MIR636" />
+          <coordinates coord_system="LRG_640" start="5864" end="5962" strand="1" mapped_from="GRCh38" />
+          <long_name>microRNA 636 (miRNA)</long_name>
+          <db_xref source="GeneID" accession="693221">
+            <synonym>hsa-mir-636</synonym>
+            <synonym>MIRN636</synonym>
+          </db_xref>
+          <db_xref source="miRBase" accession="MI0003651" />
+          <db_xref source="HGNC" accession="32892">
+            <synonym>hsa-mir-636</synonym>
+            <synonym>MIRN636</synonym>
+          </db_xref>
+          <db_xref source="Ensembl" accession="ENSG00000207556" />
+          <transcript source="Ensembl" accession="ENST00000384825.1">
+            <coordinates coord_system="LRG_640" start="5864" end="5962" strand="1" mapped_from="GRCh38" />
+            <long_name>MIR636-201 (miRNA)</long_name>
+            <db_xref source="RefSeq" accession="NR_030366.1" />
+            <exon source="Ensembl" accession="ENSE00001499832">
+              <coordinates coord_system="LRG_640" start="5864" end="5962" strand="1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+        </gene>
+        <gene source="Ensembl" accession="ENSG00000181038.12">
+          <symbol source="HGNC" name="METTL23" />
+          <coordinates coord_system="LRG_640" start="8476" end="10297" strand="-1" mapped_from="GRCh38" />
+          <partial>5-prime</partial>
+          <long_name>methyltransferase like 23 (protein_coding)</long_name>
+          <db_xref source="GeneID" accession="124512">
+            <synonym>C17orf95</synonym>
+            <synonym>MRT44</synonym>
+          </db_xref>
+          <db_xref source="MIM" accession="615262" />
+          <db_xref source="HGNC" accession="26988">
+            <synonym>C17orf95</synonym>
+            <synonym>LOC124512</synonym>
+          </db_xref>
+          <db_xref source="Ensembl" accession="ENSG00000181038" />
+          <transcript source="Ensembl" accession="ENST00000588783.4">
+            <coordinates coord_system="LRG_640" start="8476" end="10297" strand="-1" mapped_from="GRCh38" />
+            <partial>5-prime</partial>
+            <long_name>METTL23-006 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00003630908">
+              <coordinates coord_system="LRG_640" start="9197" end="9434" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002966719">
+              <coordinates coord_system="LRG_640" start="9031" end="9119" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003521181">
+              <coordinates coord_system="LRG_640" start="8476" end="8891" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000466938.1">
+              <coordinates coord_system="LRG_640" start="8886" end="10297" strand="-1" mapped_from="GRCh38" />
+              <partial>5-prime</partial>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000341249.9">
+            <coordinates coord_system="LRG_640" start="8476" end="10297" strand="-1" mapped_from="GRCh38" />
+            <partial>5-prime</partial>
+            <long_name>METTL23-001 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS45787.1" />
+            <exon source="Ensembl" accession="ENSE00003630908">
+              <coordinates coord_system="LRG_640" start="9197" end="9434" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003610819">
+              <coordinates coord_system="LRG_640" start="9035" end="9119" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003624765">
+              <coordinates coord_system="LRG_640" start="8476" end="8891" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000341543.5">
+              <coordinates coord_system="LRG_640" start="8726" end="10297" strand="-1" mapped_from="GRCh38" />
+              <partial>5-prime</partial>
+              <db_xref source="UniProtKB" accession="Q86XA0">
+                <synonym>H9ZYJ0</synonym>
+                <synonym>K7EK32</synonym>
+              </db_xref>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000588302.4">
+            <coordinates coord_system="LRG_640" start="8532" end="10297" strand="-1" mapped_from="GRCh38" />
+            <partial>5-prime</partial>
+            <long_name>METTL23-005 (protein_coding)</long_name>
+            <db_xref source="RefSeq" accession="NM_001302704.1" />
+            <exon source="Ensembl" accession="ENSE00003464988">
+              <coordinates coord_system="LRG_640" start="9197" end="9434" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002966719">
+              <coordinates coord_system="LRG_640" start="9031" end="9119" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002923576">
+              <coordinates coord_system="LRG_640" start="8532" end="8891" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000468704.1">
+              <coordinates coord_system="LRG_640" start="8886" end="9317" strand="-1" mapped_from="GRCh38" />
+              <long_name>methyltransferase-like protein 23 isoform 2</long_name>
+              <db_xref source="RefSeq" accession="NP_001289633.1" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000615984.3">
+            <coordinates coord_system="LRG_640" start="8533" end="10297" strand="-1" mapped_from="GRCh38" />
+            <partial>5-prime</partial>
+            <long_name>METTL23-201 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS45787.1" />
+            <db_xref source="RefSeq" accession="NM_001080510.3" />
+            <db_xref source="RefSeq" accession="NM_001206983.1" />
+            <db_xref source="RefSeq" accession="NM_001206984.1" />
+            <exon source="Ensembl" accession="ENSE00003630908">
+              <coordinates coord_system="LRG_640" start="9197" end="9434" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003610819">
+              <coordinates coord_system="LRG_640" start="9035" end="9119" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003727651">
+              <coordinates coord_system="LRG_640" start="8533" end="8891" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000482599.1">
+              <coordinates coord_system="LRG_640" start="8726" end="10297" strand="-1" mapped_from="GRCh38" />
+              <partial>5-prime</partial>
+              <long_name>methyltransferase-like protein 23 isoform 1, methyltransferase-like protein 23 isoform 1, methyltransferase-like protein 23 isoform 1</long_name>
+              <db_xref source="RefSeq" accession="NP_001193913.1" />
+              <db_xref source="RefSeq" accession="NP_001193912.1" />
+              <db_xref source="RefSeq" accession="NP_001073979.3" />
+              <db_xref source="UniProtKB" accession="Q86XA0">
+                <synonym>H9ZYJ0</synonym>
+                <synonym>K7EK32</synonym>
+              </db_xref>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000590964.4">
+            <coordinates coord_system="LRG_640" start="8534" end="10297" strand="-1" mapped_from="GRCh38" />
+            <partial>5-prime</partial>
+            <long_name>METTL23-002 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS59298.1" />
+            <db_xref source="RefSeq" accession="NM_001206985.1" />
+            <db_xref source="RefSeq" accession="NM_001206986.1" />
+            <db_xref source="RefSeq" accession="NM_001206987.1" />
+            <exon source="Ensembl" accession="ENSE00003464988">
+              <coordinates coord_system="LRG_640" start="9197" end="9434" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003610819">
+              <coordinates coord_system="LRG_640" start="9035" end="9119" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002965476">
+              <coordinates coord_system="LRG_640" start="8534" end="8891" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000465890.1">
+              <coordinates coord_system="LRG_640" start="8726" end="9317" strand="-1" mapped_from="GRCh38" />
+              <long_name>methyltransferase-like protein 23 isoform 2, methyltransferase-like protein 23 isoform 2, methyltransferase-like protein 23 isoform 2</long_name>
+              <db_xref source="RefSeq" accession="NP_001193916.1" />
+              <db_xref source="RefSeq" accession="NP_001193915.1" />
+              <db_xref source="RefSeq" accession="NP_001193914.1" />
+              <db_xref source="UniProtKB" accession="Q86XA0">
+                <synonym>H9ZYJ0</synonym>
+                <synonym>K7EK32</synonym>
+              </db_xref>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000586738.4">
+            <coordinates coord_system="LRG_640" start="8546" end="10297" strand="-1" mapped_from="GRCh38" />
+            <partial>5-prime</partial>
+            <long_name>METTL23-004 (protein_coding)</long_name>
+            <db_xref source="RefSeq" accession="NM_001302703.1" />
+            <exon source="Ensembl" accession="ENSE00003630908">
+              <coordinates coord_system="LRG_640" start="9197" end="9434" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002966719">
+              <coordinates coord_system="LRG_640" start="9031" end="9119" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002782179">
+              <coordinates coord_system="LRG_640" start="8546" end="8891" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000468386.1">
+              <coordinates coord_system="LRG_640" start="8886" end="10297" strand="-1" mapped_from="GRCh38" />
+              <partial>5-prime</partial>
+              <long_name>methyltransferase-like protein 23 isoform 1</long_name>
+              <db_xref source="RefSeq" accession="NP_001289632.1" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000588822.1">
+            <coordinates coord_system="LRG_640" start="8654" end="10297" strand="-1" mapped_from="GRCh38" />
+            <partial>5-prime</partial>
+            <long_name>METTL23-008 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS59298.1" />
+            <exon source="Ensembl" accession="ENSE00003464988">
+              <coordinates coord_system="LRG_640" start="9197" end="9434" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003610819">
+              <coordinates coord_system="LRG_640" start="9035" end="9119" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002936936">
+              <coordinates coord_system="LRG_640" start="8654" end="8891" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000465430.1">
+              <coordinates coord_system="LRG_640" start="8726" end="9317" strand="-1" mapped_from="GRCh38" />
+              <db_xref source="UniProtKB" accession="Q86XA0">
+                <synonym>H9ZYJ0</synonym>
+                <synonym>K7EK32</synonym>
+              </db_xref>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000586752.4">
+            <coordinates coord_system="LRG_640" start="8674" end="10297" strand="-1" mapped_from="GRCh38" />
+            <partial>5-prime</partial>
+            <long_name>METTL23-009 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS59298.1" />
+            <exon source="Ensembl" accession="ENSE00003464988">
+              <coordinates coord_system="LRG_640" start="9197" end="9434" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003610819">
+              <coordinates coord_system="LRG_640" start="9035" end="9119" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002861285">
+              <coordinates coord_system="LRG_640" start="8674" end="8891" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000466203.1">
+              <coordinates coord_system="LRG_640" start="8726" end="9317" strand="-1" mapped_from="GRCh38" />
+              <db_xref source="UniProtKB" accession="Q86XA0">
+                <synonym>H9ZYJ0</synonym>
+                <synonym>K7EK32</synonym>
+              </db_xref>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000586200.1">
+            <coordinates coord_system="LRG_640" start="8726" end="10297" strand="-1" mapped_from="GRCh38" />
+            <partial>5-prime</partial>
+            <long_name>METTL23-003 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00003499168">
+              <coordinates coord_system="LRG_640" start="9035" end="9119" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002788995">
+              <coordinates coord_system="LRG_640" start="8726" end="8891" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000465959.1">
+              <coordinates coord_system="LRG_640" start="8726" end="9084" strand="-1" mapped_from="GRCh38" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000588563.4">
+            <coordinates coord_system="LRG_640" start="8769" end="10297" strand="-1" mapped_from="GRCh38" />
+            <partial>5-prime</partial>
+            <long_name>METTL23-013 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00003630908">
+              <coordinates coord_system="LRG_640" start="9197" end="9434" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003610819">
+              <coordinates coord_system="LRG_640" start="9035" end="9119" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002814821">
+              <coordinates coord_system="LRG_640" start="8769" end="8891" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000467503.1">
+              <coordinates coord_system="LRG_640" start="8769" end="10297" strand="-1" mapped_from="GRCh38" />
+              <partial>5-prime</partial>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000589581.1">
+            <coordinates coord_system="LRG_640" start="8810" end="10297" strand="-1" mapped_from="GRCh38" />
+            <partial>5-prime</partial>
+            <long_name>METTL23-015 (retained_intron)</long_name>
+            <exon source="Ensembl" accession="ENSE00002955138">
+              <coordinates coord_system="LRG_640" start="9035" end="9434" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002750906">
+              <coordinates coord_system="LRG_640" start="8810" end="8891" strand="-1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000591571.4">
+            <coordinates coord_system="LRG_640" start="8814" end="10297" strand="-1" mapped_from="GRCh38" />
+            <partial>5-prime</partial>
+            <long_name>METTL23-012 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00003464988">
+              <coordinates coord_system="LRG_640" start="9197" end="9434" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002831927">
+              <coordinates coord_system="LRG_640" start="8814" end="9119" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000466614.1">
+              <coordinates coord_system="LRG_640" start="9001" end="9317" strand="-1" mapped_from="GRCh38" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000592849.4">
+            <coordinates coord_system="LRG_640" start="8848" end="10297" strand="-1" mapped_from="GRCh38" />
+            <partial>5-prime</partial>
+            <long_name>METTL23-010 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00003630908">
+              <coordinates coord_system="LRG_640" start="9197" end="9434" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003610819">
+              <coordinates coord_system="LRG_640" start="9035" end="9119" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002924917">
+              <coordinates coord_system="LRG_640" start="8848" end="8891" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000467527.1">
+              <coordinates coord_system="LRG_640" start="8848" end="10297" strand="-1" mapped_from="GRCh38" />
+              <partial>5-prime</partial>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000589977.4">
+            <coordinates coord_system="LRG_640" start="8896" end="10297" strand="-1" mapped_from="GRCh38" />
+            <partial>5-prime</partial>
+            <long_name>METTL23-011 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00003630908">
+              <coordinates coord_system="LRG_640" start="9197" end="9434" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002933031">
+              <coordinates coord_system="LRG_640" start="8896" end="9119" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000464965.1">
+              <coordinates coord_system="LRG_640" start="9001" end="10297" strand="-1" mapped_from="GRCh38" />
+              <partial>5-prime</partial>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000588964.1">
+            <coordinates coord_system="LRG_640" start="9071" end="9756" strand="-1" mapped_from="GRCh38" />
+            <long_name>METTL23-014 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00002786090">
+              <coordinates coord_system="LRG_640" start="9197" end="9756" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00002787840">
+              <coordinates coord_system="LRG_640" start="9071" end="9119" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000467101.1">
+              <coordinates coord_system="LRG_640" start="9071" end="9317" strand="-1" mapped_from="GRCh38" />
+            </protein_product>
+          </transcript>
+        </gene>
+      </features>
+    </annotation_set>
+    <annotation_set type="lsdb">
+      <source>
+        <name>List of locus specific databases for SRSF2</name>
+        <url>http://grenada.lumc.nl/LSDB_list/lsdbs/SRSF2</url>
+      </source>
+      <modification_date>2015-06-22</modification_date>
+    </annotation_set>
+  </updatable_annotation>
+</lrg>

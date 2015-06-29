@@ -1,0 +1,683 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="application/xml" href="lrg2html.xsl"?>
+
+<lrg schema_version="1.9">
+  <fixed_annotation>
+    <id>LRG_163</id>
+    <hgnc_id>10031</hgnc_id>
+    <sequence_source>NG_017041.1</sequence_source>
+    <organism taxon="9606">Homo sapiens</organism>
+    <source>
+      <name>RAPID: Resource of Asian Primary Immunodeficiency Diseases</name>
+      <url>http://web16.kazusa.or.jp/rapid/browseByPIDGenes</url>
+      <contact>
+        <name>Sujatha Mohan</name>
+        <address>The Institute of Physical and Chemical Research (RIKEN), Japan</address>
+        <email>sujatha@rcai.riken.jp</email>
+      </contact>
+    </source>
+    <mol_type>dna</mol_type>
+    <creation_date>2013-08-22</creation_date>
+    <sequence>CAGAAGAATGACCAGCACCTTCGGCGTGTCCAGGCTCTGCTCAGTGGACGCCAGGCAAAGGGGCTGACCTCAGGTAGCTTGCCTACTTCCCCTTCAATCCTCAACTGCCCCATCTTTTATTTTTATCTAACTCCAAATGCCGACCAGCTGCTCTTTTCTTACTCACCCTTCTTCCTGTACTGACCCAGCACATAACCCCTATTTTCTCAGCCTCCCTTTCCTCTTATTCCCATGTATCTTGAAGCTGCACCAGAATAACAGCGCTCCCATCCCCCAGGGCGCTGGTTCCTACGCCAGGGCTGGCTGTTAGTGGTGCCTCCCCATGGGGAGCCTCGGCCCCGCATGTTCTTCCTCTTCACTGATGTGCTCCTCATGGCCAAGCCTCGGCCTCCACTGCACCTGCTGCGGAGTGGCACCTTTGCCTGCAAGGCCCTCTACCCCATGGCCCAGTGTCATCTCAGCAGGGTCTTTGGCCACTCAGGAGGCCCTTGTGGTGGGTTGCTCAGTGTAAGTAATAGGTGGGAACCCTAGACCCAAAATATGTCTCAGATGCTTATGGGCTGGTTTATCTCCCTGGTCTGGGTCCCTTTTCATAGGAACAGAGCCATCTACATTGAGAGAGGATAGCTGGGGCTCGGGCTTCATACCTAGTCATTGTCTCATCCCTGAATTAGCTCCATGGAAACAGCAAGGGCTTCAGCTTTAGCCTGGACCTTTCTGAGCCATGCGCTAAGAGGTGGTCTCTCTCTAGCTGTCCTTCCCTCATGAGAAGCTACTGCTTATGTCCACAGACCAGGAGGAGCTGTCACGCTGGTACCACAGTCTGACTTGGGCTATCAGGTAAGTTGTGTCTTCCCCCAGGAAGGGTGCTGTGATGAGGCCCACAAGCAGGAAATATGCAGTTCCTGTCTCATGCCCTACATTGGTCTGGCACACCCCAGCCACCAACCCCCAGATGATTTTGTCTGAATAAAGCACTCATACCAGTGCCTGAACTGACTGTCTTCTCTCCACAGCAGCCAGAAAAACTAGAGGAATCTTATAGATTCCAGAACTCAGGATACCTCAGGGATAGGTCACAGCCAAGAGTACAAAGGAATCTTCAGTACTGAACAAAACAGAACCCTTCATGATTTGACAAAGGTCACTTTCTGTTTGCCTGGACCAAGCTACTCCAGATCATCTGACCAACTCTTAAAAATCACGGCCAGGCACAGTGGCTCATGCCTGTAATCCCAGCACTTTGGGAAGCAGAGGTGGCAGGATCATTCCAGCCCAGGAGTTCAAGACCAGCCTGGGCAACACAGTGAGTGAGACCCTGTCTCTATTTAAGAAAAAATAATTAAGAAATTTTATTAAAAAAGAAGAATCAGGAAACCAAGTCCAACCCAACTAAACCTCAAATGAACCAGCCCCTAACACAGATGAGGGGATTTGGGACTGATAAGCTCTGTGCTGTGTCCATGGCCCGTCATTTATCAAGGCTGCAGCTTTGTAAATGTGGCTATTTTTATGTTGTGTATAGTTTCTATCATTTATTTTTCCACTGGATTTGAGTAAAGTTTTTTTTCTTTTTTTTGGGAAAGACCCTTCTGTCTCAGTTTTGCTATGAGAAAAGGGATTTTTGGGCCCTGAACGCGGGCATGCTGGTGGCCTCAGGAATACGAGGAAAAGAGCTGGAGCTCCCTCTATCTTCTCTGCTGTCACACTGGAAGGCAGCCTCTTTTTGTCCTAATAAGGACAGCTCTTCAAGAAGGCCCAGTTGTCCTTAGGCACCTAGTATGGGTGTGTACAACCAACTAGGATCGAAAAAACACACAGGAGCACTCCATCATGAAAACAGACTTTGTTTTAGTCGACCTTCAGCTGTCGTCCCTCCTTCCCAGCCAAGGCTGTGACTGGGGCCCTTTGCCACAGCCTGGCTGCACCTTCTCCGTAGTCCCCGCCCCACCTCCCAGGAAGTAGCTAGGTTCCATGTCTCTGTGCTCCAGTTTGTGGGCTCCTCCCAGGCCTGACTGTCACCAATCTCCTCCTCGTCCTCCTTTAAACAGAAGTCCTCAGGAAGAGGTCTGCTGGCCTCTGTGTGGGGAGAGATCAGGAATGTTCCAGTTTCAGAGACTTTGTCTCCACCTCCAGCAGACTCGCCTCCCGAGCCTTCACCTGGTTCTGAAGCCTCCATATCCTTGTCCGGCTTGCTATCTTGCAGCAGCTCGTGGATGGTCCATAGCTTCATGTTCAGAAGCTCCTGCTGGGCTCCAGCCAGAGTAGTCACACTGAAGAAATGTCCACTCAGTGGCTCCCAACCTATGTCCCCATTCCTCCCTCCTGCCACAAATTCCCCAAAAATTCACAGAATCATTGCTCTCCTCACCGCTCAAAAAGGGGGTCCAGCTGGGCCATCAGGTTGTTCAGGTGCTGCTCTGTCTGGGCCAGCTGTTGTGTCAACTGGGCCAGCTGTTGCTCTGGGGATAAGGGAAAAAAGGGGGCAGAAGTGGTTATGTATCTTCTGCTGTCCCCTAAACTCCCCCGACCCAGCACAGACTTCTGCTAAACCCACCTGACTGCAGTGGCTGCTGCTTGCTTGCCTCCTCGTGGAGAACCGCAGTTTCATCTTTCCCCTGTTGTGGAAGAAGGAAAGGGCAGTACTGAAGCAACAAGGTTCTGCTCCATCACCTCAGTCTCCAGAGCCAGCCAAGAGAGAGTGCAATTTGAGATGGAGACAGTGATTGGGTTTTTACCTCAGAGAATCACAATCCTAGTCTATCTAGCTCCTCACCCAGCATATGAAGCGACGTCCTATGTCCCACACATGGTCAGTTTGCTGAAACACCTCCAGGAATGAGCAACTCCCTCCGGTTTGAAAAAAGCTCTGGTGGCTGAGTGCTGTGGCTCACACCTGTAATCCCAGCACTTCGGGAAGCCAAGGTGGGTGGATCACCTGAGGTCAGGAGTTTGAGACCAGCCTGGCCAACACGGTGAAACCCTGTCTCTATTAAAAATACAAAAATTAGCCGGGCGTGGTGGCAGGTGCCTGTAATCCCAGTTACTTGAGAGGCTGAGGCAGGAGAATCGCTTGAACCTGGGAGCCAGAGGTTGCAGTGAGCCGAGATTGCGCCGCTGCACTCCAGCCTGGGTGACAGAGCGAGACTCCATCTCGAAAAAAACAAAAACTTTGGTTGTTAGACAGTTCATGCACAAAGCCAAAATTTGTCCTTTATGTATCTTCTTTCCATAGTGCTTACTGGAGCCTTCCAAAATAATGTCTCCTCAAGGTGACAGCCCCTCAGGAATTTGAAGGCAATGGTCACACCCTCACCCACTTTCCTGAGTTTTTTCTGGTTTATTAACGTCAGTCTTTACAGTCAGTGCTCATTGACGGTGGTTTTCTCTGGTTGTTTCCTGAACACGTAGTGCTCTTAAAGCAATGCCCTGAGGAGAATACAATTCTCCAGGGGCATTCTGATTGGCAGGTGAAGCACAGTGCCATGTTCCCAGCACTGATTTGGGAAGTGGCTTGTCACATCCCACAGTGAACTCAGTCAACTGGAATGCCTAACTCTCTTTCATAAGACCTCCTGCTACATTATGTTTCTCCCAGACTGTACTCAGGTCCAAGAACAGAATTTACTAGTCTATCCTTCTCAAAGTTCATCATTAAATTCAGTCATTCATCCTAGCCTGTCACATCTACCTGGGGTCATTATTAGCTATCTCTTCTAGTTTCATATATCTAAACTGGTTCCATCGGTTCTATTTTATAATGCAAGTACGTAATAGGGTCACGGCTAAAGACACAGCCCTGGAAGGTACTGTTTTTCAAAATGTACTGTCAACTTACATTTCAGGGCCTCCTCCCAAGGAGAACATGAGACCACTTCATATCTGGAACTCTAGAAACACTGGCTGCAGCAATCAACCTCCTGTGCCAAGGCTGGCCCCACTCTTGTAGCATGGACACTGCTAGCTGGGTTCAAATCCCAGCTCCAGCAGTTGCCAGCGCTGGGTGACCTCGAGCAAGTGACTACTCCTCACTGGATTGTAGGAGAACTAAATGTGATAGTCATTATTTACAGTTCACCACACGCTCTTCACATCCGTTACCTCCCTGGATCCTCAAAATAACCTCATAATATTGGAAGGCCAACGGACTACTGTCTTTATTTTACAGACAGGGAAGCTGTGTCTTGTTCTTGGTACCCTGGCACCCCCATGGGAGATTCGGGCTCAGGGGATCCCCACGCCCGGCGGTCCCGCACCTGCAGGGGCACCCCTACCCCCGGCCGCCCCGTACCTGCAAACACTTGTACAGCACAAAAGCCGCGACGGCCGCGGTGTACAGCGCCCCCAGAGGCAGCGACCCGGCCCGGGTCCGCTCGCGTTGATCCTTGAGCGGTGGTCGCCGCCGGGGTTCCGTGGCTCCAGAGCCGGGGTGGGCTGCGTTCCCTGCGGAGGGAGGATACAGGCGAGTCAGCCGAGCTGGGGCCTGGGACCCGTGCGCAGTCCCAGCCCTCCTCCAGCAGCCCTAGCTGGTACCTGGGTGTGCCCGGAGGTCGGGATTGGCGCGGTCTCCTAGGACCCCGGACAGCGCAGACACAAGCAGCAGCCCCACCACACCCAAGAGCGAAACTGCGCCCGCCATTGCCGGCCCACGGGTGGAGGGATCGGGCGGGCGGTGCCGAAGCGGTCCGGCATTGGCCGGCCGCCCCAACGCGCACGCGCACGCGAGCAGGCCGGCCGGCTCCGGGGAGGCCACGCCCACTCCCCGTAGGGCGGGGCCAGACCATATTTGCATAAGATAGTGTCATTCTAGCTTTCCTGTATTTGTTCATTTCGTGTCTATTAGCTATTCTGCTAGCCACAATGCCTCTGAAAGCCTATAGTCTTAGAAAGTTATGCCCGAAAACGGTTTTTTTAATCTCACGCCACCAACTTTCTCACCCTAATCATAAAACACAATTTCTTTAGGGCTATAAAATACTACTCTGTGAAGCTGAGGACGTGGTTCGTGCTGAAGGCCTGTATCCTAGGCTACACACTGAGGACTCTGTTCCTCCCCTTTCCGCCTAGGGGAAAGTCCCCGGACCTCGGGCAGAGAGTGCCACGTGCATACGCACGTAGACATTCCCCGCTTCCCACTCCAAAGTCCGCCAAGAAGCGTATCCCGCTGAGCGGCGTGGCGCGGGGGCGTCATCCGTCAGCTCCCTCTAGTTACGCAGGCAGTGCGTGTCCGCGCACCAACCACACGGGGCTCATTCTCAGCGCGGCTGTTTTTTGTTCCCGAGACCACGGCTCACTGCAGCCTCGACCTCCCCGGGCTCACGCGATGCCTCACCTCAGGCTCCCAAGTAGTTGGGACCGCAGGCGCACGCCATCATGCCTGGCTAATTTTTGTATTTTTTGTAGAGACGGATTTTCACCTGTTGCCCAGGCTGGTCTCGAACGCCTGGTGTCAAGCGATCAGTCCACCTCGCCCTCCCAAAGTGCTGGGATTACAGGCGTGACACCGCGCCCGGTCAACGCGGCTGCTTTTCATGCGCGGGCAGCTTTACGCTGTTCTTGGCCTTGCTATGAAGTCCTTGTGCTCATTACTCCAAATATGGAGCATTCCTGAAACAGCCTCCTCTTCTACCTCCCTCTCCCTTTGGCAAACGCCATAGTAGCCACCATTCACTGTGTAGCTGGTACACAACATATGGACTCTGCTTGGGCTAGAATCCTGCCTCCTGTACTCAAGAGCGGTGACCTTGTGAAACTTAGTTCTCTCTCCGTGCCTTCCTTTCCACTCTGAGGAATGAAGATAAGCACTTACTTCAAGAGCTATGATGATTAAATGGGATCACTCAAGTTAGAACCGTGCCTACTTATTAGTGATTTTTTTTTTTTTGGAACGGCGGGTCGCTCTCTTGCCCAGGCTGGTCTTAAACTCCTGGGATCCTCCCGCTTCAGCCTCCCGGGTAGTTGACATTACAGGCACGTGCCACCCCGACGGACTCTAGTGATTTTTTAACTTGAGCAGCTACTACTGTAAGCCAGACAGTTGAAATTACACTGACTCTCCCTGACATGCCGCTGCATTCCCTTTCTGCATACTGGGTTCTACACGACCTTCAGTTCTCAGCTCAAGTGTGTTCCCATCATTCGGAACCCTTAATTCAACTTCTAATTTATTCTTTAGTGCCGCTATTTCACTTTCTTCAATACCACTAGACAAGCAGTCCCCAACCTTTTTGGCATCAGGGACCGGTTTCGTGGAAGACAATTTTTCCATGGACGAAGCGGGGTGGAGGGATGGTTTCCGGATGAAACTGTTCCACTTCAGATCGTCAAGCATTAGATTCTCACGAGGAGCGTGCAACCTAGATCCCTCCCATGCACAGTTCACAATATGGTTCGCGCTCCTATGAGAATCTAATGCCGTGCTCATCTGACAGGAGGCGGAGCTCAGGCGGTAATGATTGCTGGCCCCACTGCCCACATCCTGCTATGTGGCCCGGAGCCTAACAGGCCACAGGCTGGTGCTGGCCTGTGGCCGGGTGTTGGAGACCCTTGAGCTAGGCTGGTCCTAAATTCCACAAGGGCAGGAGCCACCTCTCTTTTTTCTTTACCATTTTACTCCCAGAGCCTAGCACAGCACGTGGCGCCTGGCGATAGCAGGCACTCAATGAATCGTTGTTGAATGAAATTAATGAATGGTTAAAATGACCCAAAAGGGTAATATAGTTAAGCTCTTTCAAAGAATGAGGCAACTGCAATTCAGCAAGGTTAAGTATGCTACTAATCAGGTAAGAGGCAGGGTGGTGATTTCACCAGTTTTTTGCCTGTCTCTATACCTTCTGTCGAACAGCCTTTCCCCATCCTTGTCTTCCATGACTTCACCAGGCAGGCAGGTATTCCTTCTGTTCCACAGAGCCTTCCATGGTCTCTTAATTGGGATACACTGGGTCATCTGTCTAGTTAGATCAAGAGCTCCCTGACATGAAACCATTTCCATTCATCACATTTTTATCTCCAGAGCCTGGCATACAAACAGGCAATCAGTACATCATGTGTGTTAAATAAATGAATGAAGCCAAGATCGGTGGCTTATGCCTCTAATCCCAGCACTTTGGGAGGCCGAGGCAGGAGGATCACCTGAGGTCAAGAGTTTGAGACCAGCCTGGCCAACATGGCTAAATCTCGTCTCTATTAAAAATAGAAAAATTAGCCGGGTGTGGTGGCGGGCGCCTGCAGTCCCAGCTATTTGGGAGGCTGAGACAGGAGAATCACGG</sequence>
+    <transcript name="t1">
+      <comment>This transcript is identical to the RefSeq transcript NR_003051.3 but with the polyA tail removed.</comment>
+      <coordinates coord_system="LRG_163" start="5001" end="5268" strand="1" />
+      <cdna>
+        <sequence>GGTTCGTGCTGAAGGCCTGTATCCTAGGCTACACACTGAGGACTCTGTTCCTCCCCTTTCCGCCTAGGGGAAAGTCCCCGGACCTCGGGCAGAGAGTGCCACGTGCATACGCACGTAGACATTCCCCGCTTCCCACTCCAAAGTCCGCCAAGAAGCGTATCCCGCTGAGCGGCGTGGCGCGGGGGCGTCATCCGTCAGCTCCCTCTAGTTACGCAGGCAGTGCGTGTCCGCGCACCAACCACACGGGGCTCATTCTCAGCGCGGCTGT</sequence>
+      </cdna>
+      <exon label="1">
+        <coordinates coord_system="LRG_163" start="5001" end="5268" strand="1" />
+        <coordinates coord_system="LRG_163t1" start="1" end="268" />
+      </exon>
+    </transcript>
+  </fixed_annotation>
+  <updatable_annotation>
+    <annotation_set type="requester">
+      <source>
+        <name>RAPID: Resource of Asian Primary Immunodeficiency Diseases</name>
+        <url>http://web16.kazusa.or.jp/rapid/browseByPIDGenes</url>
+        <contact>
+          <name>Sujatha Mohan</name>
+          <address>The Institute of Physical and Chemical Research (RIKEN), Japan</address>
+          <email>sujatha@rcai.riken.jp</email>
+        </contact>
+      </source>
+      <modification_date>2015-06-22</modification_date>
+    </annotation_set>
+    <annotation_set type="lrg">
+      <source>
+        <name>LRG</name>
+        <url>http://www.lrg-sequence.org/</url>
+        <contact>
+          <name>Locus Reference Genomic</name>
+          <url>http://www.lrg-sequence.org/contact</url>
+          <email>feedback@lrg-sequence.org</email>
+        </contact>
+      </source>
+      <modification_date>2015-06-22</modification_date>
+      <mapping coord_system="GRCh37.p13" other_name="9" other_id="NC_000009.11" other_id_syn="CM000671.1" other_start="35655748" other_end="35663015" type="other_assembly">
+        <mapping_span lrg_start="1" lrg_end="7268" other_start="35655748" other_end="35663015" strand="-1" />
+      </mapping>
+      <mapping coord_system="GRCh38.p2" other_name="9" other_id="NC_000009.12" other_id_syn="CM000671.2" other_start="35655751" other_end="35663018" type="main_assembly">
+        <mapping_span lrg_start="1" lrg_end="7268" other_start="35655751" other_end="35663018" strand="-1" />
+      </mapping>
+      <lrg_locus source="HGNC">RMRP</lrg_locus>
+    </annotation_set>
+    <annotation_set type="ncbi">
+      <source>
+        <name>NCBI RefSeqGene</name>
+        <url>http://www.ncbi.nlm.nih.gov/projects/RefSeq/RSG/</url>
+        <contact>
+          <name>RefSeqGene Group</name>
+          <address>NCBI/NLM/NIH</address>
+          <email>rsgene@ncbi.nlm.nih.gov</email>
+        </contact>
+      </source>
+      <comment>Annotation from NG_017041.1</comment>
+      <modification_date>2015-06-19</modification_date>
+      <mapping coord_system="NR_003051.3" other_name="NR_003051.3" other_id="NR_003051.3" other_start="1" other_end="268" type="transcript">
+        <mapping_span lrg_start="5001" lrg_end="5268" other_start="1" other_end="268" strand="1" />
+      </mapping>
+      <features>
+        <gene source="NCBI-Gene" accession="84904">
+          <symbol source="HGNC" name="ARHGEF39">
+            <synonym>C9orf100</synonym>
+          </symbol>
+          <coordinates coord_system="LRG_163" start="1" end="3675" strand="1" />
+          <partial>5-prime</partial>
+          <long_name>Rho guanine nucleotide exchange factor (GEF) 39</long_name>
+          <db_xref source="GeneID" accession="84904" />
+          <db_xref source="HGNC" accession="HGNC:25909" />
+          <db_xref source="CCDS" accession="CCDS6584.2" />
+          <transcript source="RefSeq" accession="NM_032818.2">
+            <coordinates coord_system="LRG_163" start="1" end="3675" strand="1" />
+            <partial>5-prime</partial>
+            <long_name>Rho guanine nucleotide exchange factor (GEF) 39</long_name>
+            <db_xref source="GeneID" accession="84904" />
+            <db_xref source="GI" accession="90652856" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_163" start="1" end="73" strand="1" />
+              <partial>5-prime</partial>
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_163" start="278" end="507" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_163" start="752" end="840" strand="1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_163" start="1017" end="3675" strand="1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_116207.2" codon_start="1">
+              <coordinates coord_system="LRG_163" start="1" end="1032" strand="1" />
+              <partial>5-prime</partial>
+              <long_name>rho guanine nucleotide exchange factor 39</long_name>
+              <long_name>vav-like protein C9orf100</long_name>
+              <db_xref source="CCDS" accession="CCDS6584.2" />
+              <db_xref source="GeneID" accession="84904" />
+              <db_xref source="GI" accession="90652857" />
+            </protein_product>
+          </transcript>
+        </gene>
+        <gene source="NCBI-Gene" accession="203260">
+          <symbol source="HGNC" name="CCDC107">
+            <synonym>PSEC0222</synonym>
+          </symbol>
+          <coordinates coord_system="LRG_163" start="1516" end="4729" strand="-1" />
+          <long_name>coiled-coil domain containing 107</long_name>
+          <db_xref source="GeneID" accession="203260" />
+          <db_xref source="HGNC" accession="HGNC:28465" />
+          <db_xref source="CCDS" accession="CCDS56574.1" />
+          <db_xref source="CCDS" accession="CCDS56575.1" />
+          <db_xref source="CCDS" accession="CCDS6583.1" />
+          <db_xref source="CCDS" accession="CCDS56573.1" />
+          <transcript source="RefSeq" accession="NM_001195217.1">
+            <coordinates coord_system="LRG_163" start="1516" end="4729" strand="-1" />
+            <long_name>coiled-coil domain containing 107, transcript variant D</long_name>
+            <db_xref source="GeneID" accession="203260" />
+            <db_xref source="GI" accession="304571969" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_163" start="4534" end="4729" strand="-1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_163" start="4292" end="4443" strand="-1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_163" start="2558" end="2618" strand="-1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_163" start="2372" end="2462" strand="-1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_163" start="1516" end="2245" strand="-1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_001182146.1">
+              <coordinates coord_system="LRG_163" start="2236" end="4639" strand="-1" />
+              <long_name>coiled-coil domain-containing protein 107 isoform D precursor</long_name>
+              <long_name>coiled-coil domain-containing protein 107</long_name>
+              <db_xref source="CCDS" accession="CCDS56575.1" />
+              <db_xref source="GeneID" accession="203260" />
+              <db_xref source="GI" accession="304571970" />
+            </protein_product>
+          </transcript>
+          <transcript source="RefSeq" accession="NM_001195201.1">
+            <coordinates coord_system="LRG_163" start="1516" end="4729" strand="-1" />
+            <long_name>coiled-coil domain containing 107, transcript variant C</long_name>
+            <db_xref source="GeneID" accession="203260" />
+            <db_xref source="GI" accession="304571940" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_163" start="4534" end="4729" strand="-1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_163" start="4292" end="4443" strand="-1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_163" start="2558" end="2618" strand="-1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_163" start="2372" end="2462" strand="-1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_163" start="2161" end="2253" strand="-1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_163" start="1516" end="2079" strand="-1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_001182130.1">
+              <coordinates coord_system="LRG_163" start="2196" end="4639" strand="-1" />
+              <long_name>coiled-coil domain-containing protein 107 isoform C precursor</long_name>
+              <long_name>coiled-coil domain-containing protein 107</long_name>
+              <db_xref source="CCDS" accession="CCDS56574.1" />
+              <db_xref source="GeneID" accession="203260" />
+              <db_xref source="GI" accession="304571941" />
+            </protein_product>
+          </transcript>
+          <transcript source="RefSeq" accession="NM_001195200.1">
+            <coordinates coord_system="LRG_163" start="1516" end="4729" strand="-1" />
+            <long_name>coiled-coil domain containing 107, transcript variant B</long_name>
+            <db_xref source="GeneID" accession="203260" />
+            <db_xref source="GI" accession="304571938" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_163" start="4534" end="4729" strand="-1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_163" start="4292" end="4443" strand="-1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_163" start="2558" end="2618" strand="-1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_163" start="2372" end="2462" strand="-1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_163" start="2161" end="2273" strand="-1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_163" start="1516" end="2079" strand="-1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_001182129.1">
+              <coordinates coord_system="LRG_163" start="1832" end="4639" strand="-1" />
+              <long_name>coiled-coil domain-containing protein 107 isoform B precursor</long_name>
+              <long_name>coiled-coil domain-containing protein 107</long_name>
+              <db_xref source="CCDS" accession="CCDS56573.1" />
+              <db_xref source="GeneID" accession="203260" />
+              <db_xref source="GI" accession="304571939" />
+            </protein_product>
+          </transcript>
+          <transcript source="RefSeq" accession="NM_174923.2">
+            <coordinates coord_system="LRG_163" start="1516" end="4729" strand="-1" />
+            <long_name>coiled-coil domain containing 107, transcript variant A</long_name>
+            <db_xref source="GeneID" accession="203260" />
+            <db_xref source="GI" accession="304571936" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_163" start="4534" end="4729" strand="-1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_163" start="4292" end="4443" strand="-1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_163" start="2558" end="2618" strand="-1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_163" start="2372" end="2462" strand="-1" />
+            </exon>
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_163" start="1516" end="2273" strand="-1" />
+            </exon>
+            <protein_product source="RefSeq" accession="NP_777583.2">
+              <coordinates coord_system="LRG_163" start="1832" end="4639" strand="-1" />
+              <long_name>coiled-coil domain-containing protein 107 isoform A precursor</long_name>
+              <long_name>coiled-coil domain-containing protein 107</long_name>
+              <db_xref source="CCDS" accession="CCDS6583.1" />
+              <db_xref source="GeneID" accession="203260" />
+              <db_xref source="GI" accession="304571937" />
+            </protein_product>
+          </transcript>
+        </gene>
+        <gene source="NCBI-Gene" accession="6023">
+          <symbol source="HGNC" name="RMRP">
+            <synonym>CHH</synonym>
+            <synonym>NME1</synonym>
+            <synonym>RMRPR</synonym>
+            <synonym>RRP2</synonym>
+          </symbol>
+          <coordinates coord_system="LRG_163" start="5001" end="5268" strand="1" />
+          <long_name>RNA component of mitochondrial RNA processing endoribonuclease</long_name>
+          <db_xref source="GeneID" accession="6023" />
+          <db_xref source="HGNC" accession="HGNC:10031" />
+          <db_xref source="MIM" accession="157660" />
+          <db_xref source="GI" accession="294459980" />
+          <transcript source="RefSeq" accession="NR_003051.3" fixed_id="t1">
+            <coordinates coord_system="LRG_163" start="5001" end="5268" strand="1" />
+            <long_name>RNA component of mitochondrial RNA processing endoribonuclease</long_name>
+            <db_xref source="GeneID" accession="6023" />
+            <db_xref source="GI" accession="292658850" />
+            <exon source="RefSeq" accession="">
+              <coordinates coord_system="LRG_163" start="5001" end="5268" strand="1" />
+            </exon>
+          </transcript>
+        </gene>
+      </features>
+    </annotation_set>
+    <annotation_set type="ensembl">
+      <source>
+        <name>Ensembl</name>
+        <url>http://www.ensembl.org/</url>
+        <contact>
+          <name>Ensembl</name>
+          <address>European Bioinformatics Institute</address>
+          <email>helpdesk@ensembl.org</email>
+        </contact>
+      </source>
+      <comment>Annotation is based on Ensembl release 80 (GRCh38  primary assembly)</comment>
+      <modification_date>2015-06-22</modification_date>
+      <mapping coord_system="ENST00000363046.1" other_name="ENST00000363046.1" other_id="ENST00000363046.1" other_start="1" other_end="264" type="transcript">
+        <mapping_span lrg_start="5002" lrg_end="5265" other_start="1" other_end="264" strand="1" />
+      </mapping>
+      <features>
+        <gene source="Ensembl" accession="ENSG00000137135.16">
+          <symbol source="HGNC" name="ARHGEF39" />
+          <coordinates coord_system="LRG_163" start="1" end="4144" strand="1" mapped_from="GRCh38" />
+          <partial>5-prime</partial>
+          <long_name>Rho guanine nucleotide exchange factor (GEF) 39 (protein_coding)</long_name>
+          <db_xref source="GeneID" accession="84904">
+            <synonym>C9orf100</synonym>
+          </db_xref>
+          <db_xref source="HGNC" accession="25909">
+            <synonym>C9orf100</synonym>
+            <synonym>FLJ14642</synonym>
+          </db_xref>
+          <db_xref source="Ensembl" accession="ENSG00000137135" />
+          <transcript source="Ensembl" accession="ENST00000490638.4">
+            <coordinates coord_system="LRG_163" start="1" end="4144" strand="1" mapped_from="GRCh38" />
+            <partial>5-prime</partial>
+            <long_name>ARHGEF39-004 (nonsense_mediated_decay)</long_name>
+            <exon source="Ensembl" accession="ENSE00001252962">
+              <coordinates coord_system="LRG_163" start="1" end="73" strand="1" mapped_from="GRCh38" />
+              <partial>5-prime</partial>
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003502920">
+              <coordinates coord_system="LRG_163" start="278" end="507" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003576503">
+              <coordinates coord_system="LRG_163" start="752" end="840" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001858277">
+              <coordinates coord_system="LRG_163" start="1017" end="1306" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001857423">
+              <coordinates coord_system="LRG_163" start="2052" end="2925" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001920962">
+              <coordinates coord_system="LRG_163" start="3846" end="4144" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000436756.1">
+              <coordinates coord_system="LRG_163" start="1" end="1032" strand="1" mapped_from="GRCh38" />
+              <partial>5-prime</partial>
+              <db_xref source="UniProtKB" accession="Q8N4T4">
+                <synonym>Q49AG0</synonym>
+                <synonym>Q6TPQ2</synonym>
+                <synonym>Q96ST6</synonym>
+              </db_xref>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000475323.4">
+            <coordinates coord_system="LRG_163" start="1" end="4142" strand="1" mapped_from="GRCh38" />
+            <partial>5-prime</partial>
+            <long_name>ARHGEF39-003 (nonsense_mediated_decay)</long_name>
+            <exon source="Ensembl" accession="ENSE00003514835">
+              <coordinates coord_system="LRG_163" start="752" end="840" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001859074">
+              <coordinates coord_system="LRG_163" start="1017" end="2925" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001859505">
+              <coordinates coord_system="LRG_163" start="3846" end="4142" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000436519.1">
+              <coordinates coord_system="LRG_163" start="1" end="768" strand="1" mapped_from="GRCh38" />
+              <partial>5-prime</partial>
+              <db_xref source="UniProtKB" accession="Q8N4T4">
+                <synonym>Q49AG0</synonym>
+                <synonym>Q6TPQ2</synonym>
+                <synonym>Q96ST6</synonym>
+              </db_xref>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000378387.3">
+            <coordinates coord_system="LRG_163" start="1" end="3675" strand="1" mapped_from="GRCh38" />
+            <partial>5-prime</partial>
+            <long_name>ARHGEF39-001 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS6584.2" />
+            <db_xref source="RefSeq" accession="NM_032818.2" />
+            <exon source="Ensembl" accession="ENSE00001252962">
+              <coordinates coord_system="LRG_163" start="1" end="73" strand="1" mapped_from="GRCh38" />
+              <partial>5-prime</partial>
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003502920">
+              <coordinates coord_system="LRG_163" start="278" end="507" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003576503">
+              <coordinates coord_system="LRG_163" start="752" end="840" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003625725">
+              <coordinates coord_system="LRG_163" start="1017" end="3675" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000367638.3">
+              <coordinates coord_system="LRG_163" start="1" end="1032" strand="1" mapped_from="GRCh38" />
+              <partial>5-prime</partial>
+              <long_name>rho guanine nucleotide exchange factor 39</long_name>
+              <db_xref source="RefSeq" accession="NP_116207.2" />
+              <db_xref source="UniProtKB" accession="Q8N4T4">
+                <synonym>Q49AG0</synonym>
+                <synonym>Q6TPQ2</synonym>
+                <synonym>Q96ST6</synonym>
+              </db_xref>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000490970.4">
+            <coordinates coord_system="LRG_163" start="1" end="1500" strand="1" mapped_from="GRCh38" />
+            <partial>5-prime</partial>
+            <long_name>ARHGEF39-002 (processed_transcript)</long_name>
+            <exon source="Ensembl" accession="ENSE00003553487">
+              <coordinates coord_system="LRG_163" start="278" end="507" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00003554403">
+              <coordinates coord_system="LRG_163" start="752" end="840" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001828406">
+              <coordinates coord_system="LRG_163" start="1017" end="1500" strand="1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000468876.1">
+            <coordinates coord_system="LRG_163" start="1" end="52" strand="1" mapped_from="GRCh38" />
+            <partial>5-prime</partial>
+            <long_name>ARHGEF39-006 (processed_transcript)</long_name>
+            <exon source="Ensembl" accession="ENSE00001814522">
+              <coordinates coord_system="LRG_163" start="1" end="52" strand="1" mapped_from="GRCh38" />
+              <partial>5-prime</partial>
+            </exon>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000488918.2">
+            <coordinates coord_system="LRG_163" start="375" end="1181" strand="1" mapped_from="GRCh38" />
+            <long_name>ARHGEF39-005 (processed_transcript)</long_name>
+            <exon source="Ensembl" accession="ENSE00001892883">
+              <coordinates coord_system="LRG_163" start="375" end="507" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001919921">
+              <coordinates coord_system="LRG_163" start="792" end="840" strand="1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001928754">
+              <coordinates coord_system="LRG_163" start="1017" end="1181" strand="1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+        </gene>
+        <gene source="Ensembl" accession="ENSG00000159884.10">
+          <symbol source="HGNC" name="CCDC107" />
+          <coordinates coord_system="LRG_163" start="1508" end="4729" strand="-1" mapped_from="GRCh38" />
+          <long_name>coiled-coil domain containing 107 (protein_coding)</long_name>
+          <db_xref source="GeneID" accession="203260">
+            <synonym>PSEC0222</synonym>
+          </db_xref>
+          <db_xref source="HGNC" accession="28465">
+            <synonym>MGC31967</synonym>
+          </db_xref>
+          <db_xref source="Ensembl" accession="ENSG00000159884" />
+          <transcript source="Ensembl" accession="ENST00000426546.5">
+            <coordinates coord_system="LRG_163" start="1508" end="4705" strand="-1" mapped_from="GRCh38" />
+            <long_name>CCDC107-001 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS6583.1" />
+            <db_xref source="RefSeq" accession="NM_174923.2" />
+            <exon source="Ensembl" accession="ENSE00001477389">
+              <coordinates coord_system="LRG_163" start="4534" end="4705" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001150340">
+              <coordinates coord_system="LRG_163" start="4292" end="4443" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001048254">
+              <coordinates coord_system="LRG_163" start="2558" end="2618" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001048241">
+              <coordinates coord_system="LRG_163" start="2372" end="2462" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001724372">
+              <coordinates coord_system="LRG_163" start="1508" end="2273" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000414964.2">
+              <coordinates coord_system="LRG_163" start="1832" end="4639" strand="-1" mapped_from="GRCh38" />
+              <long_name>coiled-coil domain-containing protein 107 isoform A precursor</long_name>
+              <db_xref source="RefSeq" accession="NP_777583.2" />
+              <db_xref source="UniProtKB" accession="Q8WV48">
+                <synonym>A6XND6</synonym>
+                <synonym>Q5T4R5</synonym>
+                <synonym>Q5T4R8</synonym>
+                <synonym>Q5T4R9</synonym>
+                <synonym>Q86VB6</synonym>
+                <synonym>Q8N2E4</synonym>
+              </db_xref>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000378409.6">
+            <coordinates coord_system="LRG_163" start="1520" end="4729" strand="-1" mapped_from="GRCh38" />
+            <long_name>CCDC107-201 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS56573.1" />
+            <db_xref source="RefSeq" accession="NM_001195200.1" />
+            <exon source="Ensembl" accession="ENSE00002260250">
+              <coordinates coord_system="LRG_163" start="4534" end="4729" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001150340">
+              <coordinates coord_system="LRG_163" start="4292" end="4443" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001048254">
+              <coordinates coord_system="LRG_163" start="2558" end="2618" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001048241">
+              <coordinates coord_system="LRG_163" start="2372" end="2462" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001637205">
+              <coordinates coord_system="LRG_163" start="2161" end="2273" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001477399">
+              <coordinates coord_system="LRG_163" start="1520" end="2079" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000367665.3">
+              <coordinates coord_system="LRG_163" start="1832" end="4639" strand="-1" mapped_from="GRCh38" />
+              <long_name>coiled-coil domain-containing protein 107 isoform B precursor</long_name>
+              <db_xref source="RefSeq" accession="NP_001182129.1" />
+              <db_xref source="UniProtKB" accession="Q8WV48">
+                <synonym>A6XND6</synonym>
+                <synonym>Q5T4R5</synonym>
+                <synonym>Q5T4R8</synonym>
+                <synonym>Q5T4R9</synonym>
+                <synonym>Q86VB6</synonym>
+                <synonym>Q8N2E4</synonym>
+              </db_xref>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000421582.2">
+            <coordinates coord_system="LRG_163" start="1616" end="4702" strand="-1" mapped_from="GRCh38" />
+            <long_name>CCDC107-005 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00001477375">
+              <coordinates coord_system="LRG_163" start="4534" end="4702" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001150340">
+              <coordinates coord_system="LRG_163" start="4292" end="4443" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001788489">
+              <coordinates coord_system="LRG_163" start="1616" end="2618" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000413003.2">
+              <coordinates coord_system="LRG_163" start="2517" end="4639" strand="-1" mapped_from="GRCh38" />
+              <db_xref source="UniProtKB" accession="Q8WV48">
+                <synonym>A6XND6</synonym>
+                <synonym>Q5T4R5</synonym>
+                <synonym>Q5T4R8</synonym>
+                <synonym>Q5T4R9</synonym>
+                <synonym>Q86VB6</synonym>
+                <synonym>Q8N2E4</synonym>
+              </db_xref>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000378406.4">
+            <coordinates coord_system="LRG_163" start="1832" end="4705" strand="-1" mapped_from="GRCh38" />
+            <long_name>CCDC107-004 (protein_coding)</long_name>
+            <exon source="Ensembl" accession="ENSE00001477389">
+              <coordinates coord_system="LRG_163" start="4534" end="4705" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001150340">
+              <coordinates coord_system="LRG_163" start="4292" end="4443" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001048254">
+              <coordinates coord_system="LRG_163" start="2558" end="2618" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001477381">
+              <coordinates coord_system="LRG_163" start="1832" end="2462" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000367661.1">
+              <coordinates coord_system="LRG_163" start="2368" end="4639" strand="-1" mapped_from="GRCh38" />
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000378407.6">
+            <coordinates coord_system="LRG_163" start="1833" end="4715" strand="-1" mapped_from="GRCh38" />
+            <long_name>CCDC107-002 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS56575.1" />
+            <db_xref source="RefSeq" accession="NM_001195217.1" />
+            <exon source="Ensembl" accession="ENSE00001901586">
+              <coordinates coord_system="LRG_163" start="4534" end="4715" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001150340">
+              <coordinates coord_system="LRG_163" start="4292" end="4443" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001048254">
+              <coordinates coord_system="LRG_163" start="2558" end="2618" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001048241">
+              <coordinates coord_system="LRG_163" start="2372" end="2462" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001477386">
+              <coordinates coord_system="LRG_163" start="1833" end="2245" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000367662.3">
+              <coordinates coord_system="LRG_163" start="2236" end="4639" strand="-1" mapped_from="GRCh38" />
+              <long_name>coiled-coil domain-containing protein 107 isoform D precursor</long_name>
+              <db_xref source="RefSeq" accession="NP_001182146.1" />
+              <db_xref source="UniProtKB" accession="Q8WV48">
+                <synonym>A6XND6</synonym>
+                <synonym>Q5T4R5</synonym>
+                <synonym>Q5T4R8</synonym>
+                <synonym>Q5T4R9</synonym>
+                <synonym>Q86VB6</synonym>
+                <synonym>Q8N2E4</synonym>
+              </db_xref>
+            </protein_product>
+          </transcript>
+          <transcript source="Ensembl" accession="ENST00000327351.5">
+            <coordinates coord_system="LRG_163" start="1842" end="4702" strand="-1" mapped_from="GRCh38" />
+            <long_name>CCDC107-003 (protein_coding)</long_name>
+            <db_xref source="CCDS" accession="CCDS56574.1" />
+            <db_xref source="RefSeq" accession="NM_001195201.1" />
+            <exon source="Ensembl" accession="ENSE00001477375">
+              <coordinates coord_system="LRG_163" start="4534" end="4702" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001150340">
+              <coordinates coord_system="LRG_163" start="4292" end="4443" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001048254">
+              <coordinates coord_system="LRG_163" start="2558" end="2618" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001048241">
+              <coordinates coord_system="LRG_163" start="2372" end="2462" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001477358">
+              <coordinates coord_system="LRG_163" start="2161" end="2253" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <exon source="Ensembl" accession="ENSE00001305421">
+              <coordinates coord_system="LRG_163" start="1842" end="2079" strand="-1" mapped_from="GRCh38" />
+            </exon>
+            <protein_product source="Ensembl" accession="ENSP00000330327.2">
+              <coordinates coord_system="LRG_163" start="2196" end="4639" strand="-1" mapped_from="GRCh38" />
+              <long_name>coiled-coil domain-containing protein 107 isoform C precursor</long_name>
+              <db_xref source="RefSeq" accession="NP_001182130.1" />
+              <db_xref source="UniProtKB" accession="Q8WV48">
+                <synonym>A6XND6</synonym>
+                <synonym>Q5T4R5</synonym>
+                <synonym>Q5T4R8</synonym>
+                <synonym>Q5T4R9</synonym>
+                <synonym>Q86VB6</synonym>
+                <synonym>Q8N2E4</synonym>
+              </db_xref>
+            </protein_product>
+          </transcript>
+        </gene>
+        <gene source="Ensembl" accession="ENSG00000269900.3">
+          <symbol source="EntrezGene" name="RMRP" />
+          <coordinates coord_system="LRG_163" start="5001" end="5268" strand="1" mapped_from="GRCh38" />
+          <long_name>RNA component of mitochondrial RNA processing endoribonuclease [Source:EntrezGene;Acc:6023] (lincRNA)</long_name>
+          <db_xref source="GeneID" accession="6023">
+            <synonym>CHH</synonym>
+            <synonym>NME1</synonym>
+            <synonym>RMRPR</synonym>
+            <synonym>RRP2</synonym>
+          </db_xref>
+          <db_xref source="MIM" accession="157660" />
+          <db_xref source="Ensembl" accession="ENSG00000269900" />
+          <transcript source="Ensembl" accession="ENST00000602361.1">
+            <coordinates coord_system="LRG_163" start="5001" end="5268" strand="1" mapped_from="GRCh38" />
+            <long_name>RMRP-001 (lincRNA)</long_name>
+            <db_xref source="RefSeq" accession="NR_003051.3" />
+            <exon source="Ensembl" accession="ENSE00003432004">
+              <coordinates coord_system="LRG_163" start="5001" end="5268" strand="1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+        </gene>
+        <gene source="Ensembl" accession="ENSG00000277027.1">
+          <symbol source="HGNC" name="RMRP" />
+          <coordinates coord_system="LRG_163" start="5002" end="5265" strand="1" mapped_from="GRCh38" />
+          <long_name>RNA component of mitochondrial RNA processing endoribonuclease (ribozyme)</long_name>
+          <db_xref source="RFAM" accession="RF00030" />
+          <db_xref source="HGNC" accession="10031">
+            <synonym>CHH</synonym>
+            <synonym>NME1</synonym>
+            <synonym>RMRPR</synonym>
+            <synonym>RRP2</synonym>
+          </db_xref>
+          <db_xref source="Ensembl" accession="ENSG00000277027" />
+          <transcript source="Ensembl" accession="ENST00000363046.1">
+            <coordinates coord_system="LRG_163" start="5002" end="5265" strand="1" mapped_from="GRCh38" />
+            <long_name>RMRP-201 (ribozyme)</long_name>
+            <exon source="Ensembl" accession="ENSE00001437809">
+              <coordinates coord_system="LRG_163" start="5002" end="5265" strand="1" mapped_from="GRCh38" />
+            </exon>
+          </transcript>
+        </gene>
+      </features>
+    </annotation_set>
+    <annotation_set type="lsdb">
+      <source>
+        <name>List of locus specific databases for RMRP</name>
+        <url>http://grenada.lumc.nl/LSDB_list/lsdbs/RMRP</url>
+      </source>
+      <modification_date>2015-06-22</modification_date>
+    </annotation_set>
+  </updatable_annotation>
+</lrg>
