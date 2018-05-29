@@ -1,7 +1,3 @@
-##License 
-At some point I'll work out what kind of license this should have...
-It's open source anyway...
-
 ##Requirements and testing
 
 pdflatex/texlive/miktex (For LaTex production, not required for text document (see write\_as\_latex in Xml_GUI)
