@@ -1,20 +1,19 @@
 import re
-__author__ = 'mwelland'
-__version__ = 1.3
-__version_date__ = '11/02/2015'
 
 
-''' This is the Reader class which uses the completed dictionary
-    from the Parser classes as input and create a list object
-    containing each of the lines to be used as output in the
-    appropriate order to be printed.
+''' 
+This is the Reader class which uses the completed dictionary
+from the Parser classes as input and create a list object
+containing each of the lines to be used as output in the
+appropriate order to be printed.
 
-    Partitioning the output process will allow the program to be
-    able to output to a simple .txt format or to a LaTex document
-    with appropriate headers and formatting
-    This will also allow the output to be formally tested or a
-    variety of assertions to be performed before attempting to
-    generate output'''
+Partitioning the output process will allow the program to be
+able to output to a simple .txt format or to a LaTex document
+with appropriate headers and formatting
+This will also allow the output to be formally tested or a
+variety of assertions to be performed before attempting to
+generate output
+'''
 
 
 class Reader:
@@ -26,15 +25,17 @@ class Reader:
     output and the actual creation of the output file
     """
 
-    def __init__(self):
-        self.username = ''
-        self.list_of_versions = []
+    def __init__(self, dictionary, transcript, write_as_latex, list_of_versions,
+                 print_clashes, file_type, filename, username):
+        self.username = username
+        self.list_of_versions = list_of_versions
+        self.transcriptdict = dictionary
+        self.filename = filename
+        self.write_as_LaTex = write_as_latex
+        self.transcript = transcript
+        self.print_clashes = print_clashes
+        self.file_type = file_type
         self.nm = ''
-        self.transcriptdict = {}
-        self.write_as_LaTex = True
-        self.file_type = ''
-        self.filename = ''
-        self.transcript = ''
         self.output_list = []
         self.amino_printing = False
         self.amino_spacing = False
@@ -42,7 +43,6 @@ class Reader:
         self.exon_printed = False
         self.dont_print = False
         self.check_AA = True
-        self.print_clashes = True
         self.line_break_print = False
         self.pattern = re.compile(r'\\p.*?l{')
         self.found_first_slash = False
@@ -53,14 +53,6 @@ class Reader:
         codons = [a+b+c for a in bases for b in bases for c in bases]
         amino_acids = 'FFLLSSSSYY**CC*WLLLLPPPPHHQQRRRRIIIMTTTTNNKKSSRRVVVVAAAADDEEGGGG'
         self.codon_table = dict(zip(codons, amino_acids))
-
-    @property
-    def get_version(self):
-        """
-        Quick function to grab version details for final printing
-        :return:
-        """
-        return 'Version: {0}, Version Date: {1}'.format(str(__version__), __version_date__)
 
     def decide_number_string_character(self, char, wait_value, cds_count, amino_acid_counter, post_protein_printer,
                                        intron_offset, intron_in_padding, protein_length, intron_out):
@@ -107,10 +99,9 @@ class Reader:
                 elif wait_value == 0:
                     post_protein_printer += 1
                     output = ' '
-                    # print 'space'
         else:
-            # Lower case
             if not self.exon_printed:
+
                 # Intron before exon
                 self.dont_print = True
                 if intron_offset != 0:
@@ -158,7 +149,6 @@ class Reader:
             if self.amino_printing:
                 self.amino_spacing = True
                 if codon_count == 3:
-                    # print 'AA = ' + protein[amino_acid_counter:amino_acid_counter+1][0]
                     output = protein[amino_acid_counter:amino_acid_counter + 1][0]
                     amino_acid_counter += 1
                     codon_numbered = False
@@ -187,36 +177,58 @@ class Reader:
             rep_nm = self.transcriptdict['transcripts'][self.transcript]['NM_number'].replace('_', '\_')  # Required for LaTex
             np = self.transcriptdict['transcripts'][self.transcript]['NP_number'].replace('_', '\_')  # Required for LaTex
         except KeyError:
-            print 'Additional details not present'
+            print('Additional details not present')
         
-        self.line_printer('\\documentclass{article}')
-        self.line_printer('\\usepackage{color, soul}')
-        self.line_printer('\\usepackage{alltt}')
-        self.line_printer('\\usepackage{pdfcomment}')
+        self.output_list.extend(
+            [
+                '\\documentclass{article}',
+                '\\usepackage{color, soul}',
+                '\\usepackage{alltt}',
+                '\\usepackage{pdfcomment}'
+            ]
+        )
         self.print_pdfinfo()
-        self.line_printer('\\begin{document}')
-        self.line_printer('\\begin{center}')
-        self.line_printer('\\begin{large}')
-        self.line_printer('Gene: %s - Sequence: %s\\\\' % (self.transcriptdict['genename'],
-                                                          refseqid))   
-        self.line_printer('Transcript: %s - Protein: %s' % (rep_nm, np))
-        self.line_printer(' ')
+        self.output_list.extend(
+            [
+                '\\begin{document}',
+                '\\begin{center}',
+                '\\begin{large}'
+            ]
+        )
+
+        self.output_list.extend(
+            [
+                'Gene: {} - Sequence: {}\\\\'.format(
+                    self.transcriptdict['genename'],
+                    refseqid
+                ),
+                'Transcript: {} - Protein: {}\n'.format(rep_nm, np)
+            ]
+        )
         if self.file_type == 'lrg':
-            self.line_printer('LRG: %s - Date : \\today' % self.filename)
+            self.output_list.append('LRG: {} - Date : \\today'.format(self.filename))
         else:
-            self.line_printer('Date : \\today')
+            self.output_list.append('Date : \\today')
         self.print_pdfinfo()  
-        self.line_printer('\\end{large}')
-        self.line_printer('\\end{center}')
-        self.line_printer('$1^{st}$ line: Base numbering. Full stops for intronic +/- 5, 10, 15...\\\\')
-        self.line_printer('$2^{nd}$ line: Base sequence. lower case Introns, upper case Exons\\\\')
-        self.line_printer('$3^{rd}$ line: Amino acid sequence. Printed on FIRST base of codon\\\\')
-        self.line_printer('$4^{th}$ line: Amino acid numbering. Numbered on $1^{st}$ and increments of 10\\\\')
-        self.line_printer('\\begin{alltt}')
-        
+        self.output_list.extend(
+            [
+                '\\end{large}',
+                '\\end{center}',
+                '$1^{st}$ line: Base numbering. Full stops for intronic +/- 5, 10, 15...\\\\',
+                '$2^{nd}$ line: Base sequence. lower case Introns, upper case Exons\\\\',
+                '$3^{rd}$ line: Amino acid sequence. Printed on FIRST base of codon\\\\',
+                '$4^{th}$ line: Amino acid numbering. Numbered on $1^{st}$ and increments of 10\\\\',
+                '\\begin{alltt}'
+            ]
+        )
+
     def print_pdfinfo(self):
-        self.line_printer('\\hypersetup{pdfauthor={%s},' % self.username)
-        self.line_printer('pdftitle={Reference sequence for gene: %s}}' % self.nm)
+        self.output_list.extend(
+            [
+                '\\hypersetup{pdfauthor={},'.format(self.username),
+                'pdftitle={Reference sequence for gene: %s}}' % self.nm
+            ]
+        )
 
     def print_latex(self):
 
@@ -248,8 +260,8 @@ class Reader:
         # The initial line(s) of the LaTex file, required to execute
         if self.write_as_LaTex:
             self.print_latex_header(refseqid)
+
         lines_on_page = 10
-        extra_lines = 0
         wait_value = 0
         codon_count = 3  # Print AA at start of codon
         amino_acid_counter = 0  # Begin at AA index 0 (first)
@@ -258,7 +270,7 @@ class Reader:
         post_protein_printer = 0  # The number for 3' intron '+###' counting
         exon_list = latex_dict['list_of_exons']
         for position in range(len(exon_list)):
-            exon_number = latex_dict['list_of_exons'][position]
+            exon_number = int(latex_dict['list_of_exons'][position])
             intron_offset = self.transcriptdict['pad_offset']
             intron_in_padding = self.transcriptdict['pad']
             intron_out = 0  # Or 0?
@@ -272,9 +284,14 @@ class Reader:
             exon_dict = latex_dict['exons'][exon_number]
             ex_start = exon_dict['genomic_start']
             ex_end = exon_dict['genomic_end']
-            if self.file_type == 'gbk': ex_start += 1
-            self.line_printer('Exon %s | Start: %s | End: %s | Length: %s' %
-                              (exon_number, str(ex_start), str(ex_end), str(ex_end - ex_start)))
+            if self.file_type == 'gbk':
+                ex_start += 1
+            self.output_list.append('Exon {} | Start: {} | End: {} | Length: {}'.format(
+                exon_number,
+                ex_start,
+                ex_end,
+                ex_end - ex_start
+            ))
 
             if self.print_clashes:
                 """ This section allows for a note to be written where the 'intronic' flanking sequence
@@ -288,64 +305,62 @@ class Reader:
                 clash_before = False
                 if exon_number < len(latex_dict['list_of_exons'])-1:
                     try:
-                        # next_exon = exon_number+1
-                        if ex_end > latex_dict['exons'][latex_dict['list_of_exons'][position+1]]['genomic_start']-(self.transcriptdict['pad']*2):
+                        if ex_end > latex_dict['exons'][latex_dict['list_of_exons'][position+1]]['genomic_start'] - \
+                                (self.transcriptdict['pad']*2):
                             clash_after = True
                     except KeyError:
-                        print 'potential undetected clash after exon ' + str(exon_number)
+                        print('potential undetected clash after exon {}'.format(exon_number))
                 if exon_number > 1:
-                    # prev_exon = exon_number-1
-                    # print exon_number
-                    # print latex_dict['list_of_exons'][exon_index-2]
-                    if exon_number > latex_dict['list_of_exons'][position-1]:
-                        if ex_start < latex_dict['exons'][latex_dict['list_of_exons'][position-1]]['genomic_end']+(self.transcriptdict['pad']*2):
+                    if exon_number > int(latex_dict['list_of_exons'][position-1]):
+                        if ex_start < latex_dict['exons'][latex_dict['list_of_exons'][position-1]]['genomic_end'] + \
+                                (self.transcriptdict['pad']*2):
                             clash_before = True
                 if clash_after is True and clash_before is True:
-                    self.line_printer('BE AWARE: Flanking intron is shared with both adjacent exons')
+                    self.output_list.append('BE AWARE: Flanking intron is shared with both adjacent exons')
                 elif clash_after is True:
-                    self.line_printer('BE AWARE: Flanking intron is shared with the following exon')
+                    self.output_list.append('BE AWARE: Flanking intron is shared with the following exon')
                 elif clash_before is True:
-                    self.line_printer('BE AWARE: Flanking intron is shared with the previous exon')
+                    self.output_list.append('BE AWARE: Flanking intron is shared with the previous exon')
 
             sequence = exon_dict['sequence']
             characters_on_line = 0
-            self.line_printer('')
+            self.output_list.append('')
             pdfannotation_timer = 0
             for base_position in range(len(sequence)):
 
                 # Stop each line at a specific length
                 if characters_on_line % 60 == 0 and characters_on_line != 0\
                         and pdfannotation_timer == 0:
-                    amino_was_printed = bool(" ".join(amino_string).strip())
-                    amino_was_numbered = bool(" ".join(amino_number_string).strip())
+                    amino_was_printed = amino_string
+                    amino_was_numbered = amino_number_string
 
-                    # print lines_on_page
                     if lines_on_page >= 41:
                         extra_lines = 2   # Base and numbering strings as default
-                        if amino_was_numbered: extra_lines += 1
-                        if amino_was_printed: extra_lines += 1
-                        # print 'total lines: ' + str((lines_on_page) + extra_lines)
-                        if ((lines_on_page) + extra_lines) >= 45:
+                        if amino_was_numbered:
+                            extra_lines += 1
+                        if amino_was_printed:
+                            extra_lines += 1
+
+                        if lines_on_page + extra_lines >= 45:
                             if self.write_as_LaTex:
                                 self.print_exon_end()
                             else:
-                                self.line_printer(' ')
-                                self.line_printer(' ')
+                                self.output_list.append('\n\n')
                             lines_on_page = 0
                     wait_value = 0
                     amino_wait = 0
-                    self.line_printer(number_string)
+                    self.output_list.append(''.join(number_string))
                     if self.line_break_print:
                         dna_string.append('}')
-                    self.line_printer(dna_string)
+                    self.output_list.append(''.join(dna_string))
                     lines_on_page += 2
                     if amino_was_printed:
-                        self.line_printer(amino_string)
+                        self.output_list.append(''.join(amino_string))
                         lines_on_page += 1
                     if amino_was_numbered:
-                        self.line_printer(amino_number_string)
+                        self.output_list.append(''.join(amino_number_string))
                         lines_on_page += 1
-                    self.line_printer('')
+                    self.output_list.append('')
                     characters_on_line = 0
                     lines_on_page += 1
                     amino_string = []
@@ -369,7 +384,8 @@ class Reader:
                     dna_string.append(char)
                     self.line_break_print = False
                     pass
-                #Deal with the insertions of PDF annotations and highlighting
+
+                # Deal with the insertions of PDF annotations and highlighting
                 elif char == '\\':
                     dna_string.append(char)
                     subseq = sequence[base_position:]
@@ -377,30 +393,32 @@ class Reader:
                     try:
                         pdfannotation_timer = len(match.group())-1
                     except AttributeError:
-                        print subseq
+                        print(subseq)
 
                 else:
                     dna_string.append(char)
 
-                    if char.isupper(): self.exon_printed = True
+                    if char.isupper():
+                        self.exon_printed = True
                     if cds_count == 0:
                         self.amino_printing = True
                         cds_count = 1
-                    if amino_acid_counter >= len(protein): self.amino_printing = False
+                    if amino_acid_counter >= len(protein):
+                        self.amino_printing = False
                     # Calls specific methods for character decision
                     # Simplifies local logic
                     (next_amino_string, codon_count, amino_acid_counter,
                      codon_numbered) = self.decide_amino_string_character(char, codon_count, amino_acid_counter,
                                                                           codon_numbered, protein)
                     amino_string.append(next_amino_string)
-                    if next_amino_string == '*': self.check_AA = False
-                    pos3 = ''
-                    pos2 = ''
+                    if next_amino_string == '*':
+                        self.check_AA = False
                     if next_amino_string != ' ' and self.check_AA:
                         pos1 = char
                         check_position = base_position + 1
                         check_sequence = sequence
-                        #This should only fail on the final exon; where it is not called
+
+                        # This should only fail on the final exon; where it is not called
                         try:
                             check_next_exon = latex_dict['list_of_exons'][position+1]
                         except IndexError:
@@ -410,14 +428,11 @@ class Reader:
                             check_position += 1
                         else:
                             check_sequence = latex_dict['exons'][check_next_exon]['sequence']
-                            # print check_sequence
-                            # this = raw_input()
                             check_position = 0
                             pos2 = check_sequence[check_position]
                             while pos2.islower():
                                 check_position += 1
                                 pos2 = check_sequence[check_position]
-                                # print 'pos2 ' + pos2
                             check_position += 1
                         if check_sequence[check_position].isupper():
                             pos3 = check_sequence[check_position]
@@ -439,14 +454,24 @@ class Reader:
                             index = pos1+pos2+pos3
                             try:
                                 if self.codon_table[index] != next_amino_string:
-                                    print 'There is an error with the amino acid - codon pairing in exon %s: %s - %s, AA# %s' % (str(check_next_exon), index, next_amino_string, str(amino_acid_counter))
-                                    print 'Base 3 position = %s' % str(check_position)
-                                    print 'Next few: %s' % check_sequence[check_position+1:check_position+5]
-                                    this = raw_input()
+                                    print(
+                                        "There is an error with the amino acid - codon pairing in exon {}\n"
+                                        "{} - {}, Amino Acid number {}\n"
+                                        "Base 3 position = {}\n"
+                                        "Next few bases: {}\n".format(
+                                            check_next_exon,
+                                            index,
+                                            next_amino_string,
+                                            amino_acid_counter,
+                                            check_position,
+                                            check_sequence[check_position + 1:check_position + 5])
+                                    )
                             except KeyError:
-                                print "The key '%s' does not have a codon entry: %s"\
-                                            % (index, self.transcriptdict['genename'])
-                                print dna_string
+                                raise KeyError("The key '{}' does not have a codon entry: {}. DNA seq: {}".format(
+                                    index,
+                                    self.transcriptdict['genename'],
+                                    dna_string
+                                ))
 
                     (next_amino_number, amino_wait, codon_numbered,
                      amino_acid_counter) = self.decide_amino_number_string_character(amino_wait, codon_numbered,
@@ -469,37 +494,47 @@ class Reader:
                     if self.write_as_LaTex:
                         self.print_exon_end()
                     else:
-                        self.line_printer('  ')
-                        self.line_printer('  ')
+                        self.output_list.append('\n\n')
                 wait_value = 0
                 amino_wait = 0
-                if bool(" ".join(number_string).strip()): self.line_printer(number_string)
-                self.line_printer(dna_string)
-                if bool(" ".join(amino_string).strip()): self.line_printer(amino_string)
-                if bool(" ".join(amino_number_string).strip()): self.line_printer(amino_number_string)
-            if self.write_as_LaTex: self.print_exon_end()
+                if number_string:
+                    self.output_list.append(''.join(number_string))
+                self.output_list.append(''.join(dna_string))
+                if amino_string:
+                    self.output_list.append(''.join(amino_string))
+                if amino_number_string:
+                    self.output_list.append(''.join(amino_number_string))
+            if self.write_as_LaTex:
+                self.print_exon_end()
             lines_on_page = 2
                 
         for version in self.list_of_versions:
             assert isinstance(version, str)
-            self.line_printer(version)
+            self.output_list.append(version)
 
         if self.write_as_LaTex:
             self.print_latex_footer()
-			
-    def print_exon_end(self):
 
-        self.line_printer('\\end{alltt}')
-        self.line_printer('\\newpage')
-        self.line_printer('\\begin{alltt}')
-		
+    def print_exon_end(self):
+        self.output_list.extend(
+            [
+                '\\end{alltt}',
+                '\\newpage',
+                '\\begin{alltt}'
+                ]
+        )
+
     def print_latex_footer(self):
         """
         A brief function to set the final lines of the document if the output
         is to be in a LaTex parse-able format
         """
-        self.line_printer('\\end{alltt}')
-        self.line_printer('\\end{document}')
+        self.output_list.extend(
+            [
+                '\\end{alltt}',
+                '\\end{document}'
+                ]
+        )
 
     def line_printer(self, string):
         """
@@ -527,16 +562,6 @@ class Reader:
                 output = ' '
         return output, amino_wait, codon_numbered, amino_acid_counter
 
-    def run(self, dictionary, transcript, write_as_latex, list_of_versions, print_clashes, file_type, filename, username):
-        print 'Transcript: ' + str(transcript)
-        print 'Exon numbers: ' + str(dictionary['transcripts'][transcript]['list_of_exons'])
-        self.username = username
-        self.list_of_versions = list_of_versions
-        self.transcriptdict = dictionary
-        self.filename = filename
-        self.write_as_LaTex = write_as_latex
-        self.transcript = transcript
-        self.print_clashes = print_clashes
-        self.file_type = file_type        
+    def run(self):
         self.print_latex()
         return self.output_list, self.nm

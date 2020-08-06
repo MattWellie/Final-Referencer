@@ -1,2 +1,0 @@
-python checkscript.py
-pause

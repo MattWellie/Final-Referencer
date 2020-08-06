@@ -1,8 +1,9 @@
 from xml.etree.ElementTree import parse
+import logging
 
 __author__ = 'mwelland'
-__version__ = 1.3
-__version_date__ = '11/02/2015'
+__version__ = 2.0
+__version_date__ = '06/08/2020'
 
 
 class LrgParser:
@@ -52,13 +53,15 @@ class LrgParser:
                 'fixed_annotation/sequence_source').text
 
             if self.transcriptdict['root'].attrib['schema_version'] != '1.9':
-                print 'This LRG file is not the correct version for this script'
-                print 'This is designed for v.1.8'
-                print 'This file is v.' + self.transcriptdict['root'].attrib['schema_version']
+                logging.info(
+                    'This LRG file is not the correct version for this script\n'
+                    'This is designed for v.1.8 This file is v.{}'.format(
+                        self.transcriptdict['root'].attrib['schema_version']
+                    )
+                )
             self.is_matt_awesome = True
         except IOError as fileNotPresent:
-            print "The specified file cannot be located: " + fileNotPresent.filename
-            exit()
+            raise Exception("The specified file cannot be located: {}".format(fileNotPresent.filename))
 
         # This assertion is an artifact from LRG parsing, will need to be updated
         assert self.transcriptdict['pad'] <= 2000, "Padding too large, please use a value below 2000 bases"
@@ -82,10 +85,7 @@ class LrgParser:
                 result = item.text
             return result
         except:
-            print "No sequence was identified"
-            print self.transcriptdict['filename']
-            exit()
-
+            raise Exception("No sequence was identified in {}".format(self.transcriptdict['filename']))
 
     def get_nm(self):
         annotation_sets = self.transcriptdict['updatable'].findall('annotation_set')
@@ -98,13 +98,14 @@ class LrgParser:
                     for transcript_block in transcripts:
                         try:
                             t_number = transcript_block.attrib['fixed_id'][1:]
-                            # print transcript_block.attrib['accession']
-                            self.transcriptdict['transcripts'][int(t_number)]['NM_number'] = transcript_block.attrib['accession']
+                            self.transcriptdict['transcripts'][t_number]['NM_number'] = \
+                                transcript_block.attrib['accession']
                             protein_block = transcript_block.find('protein_product')
                             if t_number == protein_block.attrib['fixed_id'][1:]:
-                                self.transcriptdict['transcripts'][int(t_number)]['NP_number'] = protein_block.attrib['accession']
+                                self.transcriptdict['transcripts'][t_number]['NP_number'] = \
+                                    protein_block.attrib['accession']
                         except KeyError:
-                            print 'found redundant transcript'
+                            logging.info('found redundant transcript')
 
     def get_exon_coords(self):
         """ Traverses the LRG ETree to find all the useful values
@@ -114,11 +115,12 @@ class LrgParser:
         """
 
         for items in self.transcriptdict['fixannot'].findall('transcript'):
-            t_number = int(items.attrib['name'][1:])
-            # print 'first t number = ' + str(t_number)
-            self.transcriptdict['transcripts'][t_number] = {}  # First should be indicated with '1'; 'p1' can write on
-            self.transcriptdict['transcripts'][t_number]["exons"] = {}
-            self.transcriptdict['transcripts'][t_number]['list_of_exons'] = []
+            t_number = items.attrib['name'][1:]
+            self.transcriptdict['transcripts'][t_number] = {
+                "exons": {},
+                "list_of_exons": []
+            }
+
             # Gene sequence main coordinates are required to take introns
             # Transcript coordinates wanted for output  
             genomic_start = 0
@@ -126,7 +128,6 @@ class LrgParser:
             for exon in items.iter('exon'):
                 exon_number = exon.attrib['label']
                 if exon_number[-1] in ('a', 'b', 'c', 'd'):
-                    # print exon_number
                     exon_number = exon_number[:-1]
                 exon_number = int(exon_number)
                 self.transcriptdict['transcripts'][t_number]['list_of_exons'].append(exon_number)
@@ -150,7 +151,6 @@ class LrgParser:
                 genomic_end = self.transcriptdict['transcripts'][transcript]['exons'][exon_number]['genomic_end']
                 seq = genseq[genomic_start - 1:genomic_end]
                 pad = self.transcriptdict['pad']
-                exon_number = int(exon_number)
                 if pad != 0:
                     if self.trim_flanking:
                         if exon_number < len(exon_list)-1:
@@ -158,12 +158,9 @@ class LrgParser:
                             next_start = self.transcriptdict['transcripts'][transcript]['exons'][next_exon]['genomic_start']
                             if genomic_end > (next_start-self.transcriptdict['pad']*2):
                                 half_way_point = int(round((next_start - (genomic_end+1))/2))
-                                # print 'halfway = ' + str(half_way_point)
                                 if half_way_point % 2 == 1:
                                     half_way_point -= 1
                                 pad3 = genseq[genomic_end:genomic_end+half_way_point]
-                                # print 'Transcript: %s , exon %s clashes with exon %s' % (transcript, exon_number, next_exon)
-                                
                             else:
                                 assert genomic_end + pad <= len(genseq), "Exon index out of bounds"
                                 pad3 = genseq[genomic_end:genomic_end + pad]
@@ -176,7 +173,6 @@ class LrgParser:
                             previous_end = self.transcriptdict['transcripts'][transcript]['exons'][previous_exon]['genomic_end']
                             if genomic_start < (previous_end+self.transcriptdict['pad']*2):
                                 half_way_point = int(round((genomic_start - (previous_end+1))/2))
-                                #Maybe don't subtract from both halves; split uneven length for full seq
                                 if half_way_point % 2 == 1:
                                     half_way_point -= 1  
                                 pad5 = genseq[previous_end+half_way_point: genomic_start-1]
@@ -199,7 +195,7 @@ class LrgParser:
     def get_protein_exons(self):
         """ Collects full protein sequence for the appropriate transcript """
         for item in self.transcriptdict['fixannot'].findall('transcript'):
-            p_number = int(item.attrib['name'][1:])
+            p_number = item.attrib['name'][1:]
             coding_region = item.find('coding_region')
             coordinates = coding_region.find('coordinates')
             self.transcriptdict['transcripts'][p_number]['cds_offset'] = int(coordinates.attrib['start'])

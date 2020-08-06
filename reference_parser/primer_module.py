@@ -1,34 +1,22 @@
 import re
 import os
 import csv
-import Bio
 
-__author__ = 'Matt'
-__version__ = 0.1
-__version_date__ = '11/04/2015'
+from utilities import create_reverse_complement
 
 
-class primer:
-    #This is the class for performing primer annotation
+class Primer:
 
-    def __init__(self):
-        self.dict = {}
+    def __init__(self, dictionary, basepath):
+        self.dict = dictionary
+        self.basepath = basepath
         self.primer_dict = {}
-        self.basepath = {}
         self.primer_files = []
         self.carry_on = False
         self.csv_reader = ''
 
-    @property
-    def get_version(self):
-        """
-        Quick function to grab version details for final printing
-        :return:
-        """
-        return 'Version: {0}, Version Date: {1}'.format(str(__version__), __version_date__)
-
     def is_primer_present(self):
-        #Quick boolean check to see if there is a file saved with the filename
+        # Quick boolean check to see if there is a file saved with the filename
         genename = self.dict['genename']
         for file in self.primer_files:
             filename = file.split('.')[0]
@@ -37,8 +25,7 @@ class primer:
                 return filename
 
     def digest_input(self, filename):
-        print filename
-        #Extract contents of the CSV
+        # Extract contents of the CSV
         with open(os.path.join('primers', filename+'.csv')) as csvfile:
             reader = csv.DictReader(csvfile)
             exon = 1
@@ -54,7 +41,7 @@ class primer:
                         exon = row['Exon']
                     direction = row['Direction']
                     if direction == 'R':
-                        seq = self.create_reverse_complement(seq)
+                        seq = create_reverse_complement(seq)
                     if row['Fragment Size'] == '':
                         if direction == 'R' and frag_size != '':
                             frag = frag_size
@@ -79,42 +66,20 @@ class primer:
             exonlist = self.dict['transcripts'][transcript]['exons'].keys()
             for exon in exonlist:
                 try:
-                    match = re.search(r'(?i)%s' % \
-                        seq, str(self.dict['transcripts'][transcript]['exons'][exon]['sequence']))
+                    match = re.search(r'(?i){}'.format(seq),
+                                      self.dict['transcripts'][transcript]['exons'][exon]['sequence']
+                                      )
                     if match:
-                        #print self.dict['transcripts'][transcript]['exons'][exon]['sequence']
                         self.dict['transcripts'][transcript]['exons'][exon]['sequence'] = \
-                                    re.sub(r'(?i)%s' % seq, r'\\pdfcomment[date]{%s}\\hl{%s}' % (construct, match.group()),\
+                                    re.sub(r'(?i){}'.format(seq), r'\\pdfcomment[date]{%s}\\hl{%s}' % (construct, match.group()),\
                                     str(self.dict['transcripts'][transcript]['exons'][exon]['sequence']))
-                        #print self.dict['transcripts'][transcript]['exons'][exon]['sequence']
-                        #this = raw_input()
-                except MemoryError:
-                    print exon
-                    print seq
-                    
-                    
-    def create_reverse_complement(self, string):
-        new_list = []
-        for x in string:
-            if x == 'A':
-                new_list.append('T')
-            if x == 'C':
-                new_list.append('G')
-            if x == 'G':
-                new_list.append('C')
-            if x == 'T':
-                new_list.append('A')
-        new_string = ''.join(new_list)
-        return new_string[::-1]
 
-    def run(self, dictionary, basepath):
-        #This is the main method
-        self.dict = dictionary
-        self.basepath = basepath
+                except MemoryError:
+                    print(exon, seq)
+
+    def run(self):
         self.primer_files = os.listdir(os.path.join(self.basepath, 'primers'))
         filename = self.is_primer_present()
-        if self.carry_on == True:
-            #other methods
+        if self.carry_on:
             self.digest_input(filename)
         return self.dict
-

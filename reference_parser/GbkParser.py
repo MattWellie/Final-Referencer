@@ -1,9 +1,8 @@
-import Bio
 from Bio import SeqIO
 
 __author__ = 'mwelland'
-__version__ = 1.3
-__version_date__ = '11/02/2015'
+__version__ = 2.0
+__version_date__ = '06/08/2020'
 
 
 class GbkParser:
@@ -50,10 +49,7 @@ class GbkParser:
             self.transcriptdict['refseqname'] = self.transcriptdict['input'].keys()[0]
             self.is_matt_awesome = True
         except IOError as fileNotPresent:
-            print "The specified file cannot be located: " + fileNotPresent.filename
-            exit()
-            
-            
+            raise Exception("The specified file cannot be located: {}".format(fileNotPresent.filename))
 
         assert self.transcriptdict['pad'] <= 2000, "Padding too large, please use a value below 2000 bases"
 
@@ -97,35 +93,40 @@ class GbkParser:
         '''
         for alternative in self.transcriptdict['Alt transcripts']:
             selected_cds = self.cds[alternative-1]
-            self.transcriptdict['transcripts'][alternative]['protein_seq'] =  selected_cds.qualifiers['translation'][0] + '* '
-            self.transcriptdict['transcripts'][alternative]['NP_number'] = selected_cds.qualifiers['protein_id'][0]
-            self.transcriptdict['transcripts'][alternative]['cds_offset'] = selected_cds.location.start
+            self.transcriptdict['transcripts'][alternative].update(
+                {
+                    'protein_seq': '{}*'.format(selected_cds.qualifiers['translation'][0]),
+                    'NP_number': selected_cds.qualifiers['protein_id'][0],
+                    'cds_offset': selected_cds.location.start
+                }
+            )
           
     def get_mrna_exons(self):
         """ This uses the list of exon start and stop positions to populate 
             the exon positions in the dictionary""" 
 
-        for alternative in self.transcriptdict['Alt transcripts']:
-            self.transcriptdict['transcripts'][alternative] = {}
-            self.transcriptdict['transcripts'][alternative]['list_of_exons'] = []
-            self.transcriptdict['transcripts'][alternative]['exons'] = {}
-            selected_mrna = self.mrna[alternative-1]
+        for alt in self.transcriptdict['Alt transcripts']:
+            self.transcriptdict['transcripts'][alt] = {
+                'list_of_exons': [],
+                'exons': {}
+            }
+            selected_mrna = self.mrna[alt-1]
             try:
-                self.transcriptdict['transcripts'][alternative]['NM_number'] = selected_mrna.qualifiers['transcript_id'][0]
+                self.transcriptdict['transcripts'][alt]['NM_number'] = selected_mrna.qualifiers['transcript_id'][0]
             except KeyError:
-                self.transcriptdict['transcripts'][alternative]['NM_number'] = self.transcriptdict['genename']
+                self.transcriptdict['transcripts'][alt]['NM_number'] = self.transcriptdict['genename']
                 self.transcriptdict['refseqname'] = self.transcriptdict['genename']
                 self.transcriptdict['genename'] = self.cds[0].qualifiers['gene'][0]
             exon = 1
             subfeatures = selected_mrna._get_sub_features()
             
             for coords in subfeatures:
-                self.transcriptdict['transcripts'][alternative]['exons'][exon] = {}
-                self.transcriptdict['transcripts'][alternative]['list_of_exons'].append(exon)
-                self.transcriptdict['transcripts'][alternative]['exons'][exon]['genomic_start'] = coords.location.start
-                self.transcriptdict['transcripts'][alternative]['exons'][exon]['genomic_end'] = coords.location.end
+                self.transcriptdict['transcripts'][alt]['list_of_exons'].append(exon)
+                self.transcriptdict['transcripts'][alt]['exons'][exon] = {
+                    'genomic_start': coords.location.start,
+                    'genomic_end': coords.location.end
+                }
                 exon += 1
-            # print self.transcriptdict['transcripts'][alternative]
 
     def get_exon_contents(self):
         """
@@ -193,8 +194,9 @@ class GbkParser:
             if feature.type == 'exon':
                 self.exons.append(feature)
 
-        """ This section works on the assumption that each exon in the file will use the appropriate gene name
-            and that the only relevant CDS and mRNA sections will also contain the same accession
+        """ 
+        This section works on the assumption that each exon in the file will use the appropriate gene name
+        and that the only relevant CDS and mRNA sections will also contain the same accession
         """
         try:
             self.transcriptdict['genename'] = self.exons[0].qualifiers['gene'][0]
@@ -214,7 +216,6 @@ class GbkParser:
             note = self.mrna[0].qualifiers['note'][0]
             self.transcriptdict['genename'] = note.split('=')[1]
         assert len(self.cds) == len(self.mrna), "There are a different number of CDS and mRNA"
-        return features
 
     def run(self):
         """
@@ -223,12 +224,10 @@ class GbkParser:
         hold all of the sequence and exon details of the gene file being parsed
         """
         '''
-        :return transcriptdict: This function fills and returns the dictionary, contents
-                explained in Class docstring above
+        :return transcriptdict: This function fills and returns the dictionary, contents explained in docstring above
         '''
-        print 'BioPython version: ' + str(Bio.__version__)
         # initial sequence grabbing and populating dictionaries
-        features = self.fill_and_find_features()
+        self.fill_and_find_features()
         self.transcriptdict['Alt transcripts'] = range(1, len(self.cds)+1)
         self.get_mrna_exons()
         self.get_protein()
