@@ -26,7 +26,7 @@ class Reader:
     """
 
     def __init__(self, dictionary, transcript, write_as_latex, list_of_versions,
-                 print_clashes, file_type, filename, username):
+                 print_clashes, file_type, filename, username, app_settings):
         self.username = username
         self.list_of_versions = list_of_versions
         self.transcriptdict = dictionary
@@ -35,6 +35,9 @@ class Reader:
         self.transcript = transcript
         self.print_clashes = print_clashes
         self.file_type = file_type
+        self.check_lines = int(app_settings['READER']['check_lines'])
+        self.max_lines = int(app_settings['READER']['max_lines'])
+        self.max_page_width = int(app_settings['READER']['max_width'])
         self.nm = ''
         self.output_list = []
         self.amino_printing = False
@@ -172,46 +175,30 @@ class Reader:
         allow an article class document to be produced which uses a verbatim output
         operation
         """
-        try:
-            self.nm = self.transcriptdict['transcripts'][self.transcript]['NM_number']
-            rep_nm = self.transcriptdict['transcripts'][self.transcript]['NM_number'].replace('_', '\_')  # Required for LaTex
-            np = self.transcriptdict['transcripts'][self.transcript]['NP_number'].replace('_', '\_')  # Required for LaTex
-        except KeyError:
-            print('Additional details not present')
-        
+        self.nm = self.transcriptdict['transcripts'][self.transcript]['NM_number']
+        rep_nm = self.nm.replace('_', '\_')  # Required for LaTex
+        np = self.transcriptdict['transcripts'][self.transcript]['NP_number'].replace('_', '\_')  # Required for LaTex
+
         self.output_list.extend(
             [
                 '\\documentclass{article}',
                 '\\usepackage{color, soul}',
                 '\\usepackage{alltt}',
-                '\\usepackage{pdfcomment}'
-            ]
-        )
-        self.print_pdfinfo()
-        self.output_list.extend(
-            [
+                '\\usepackage{pdfcomment}',
+                '\\hypersetup{{pdfauthor={0}, pdftitle=Reference sequence for gene: {1}}}'.format(
+                    self.username,
+                    rep_nm
+                ),
                 '\\begin{document}',
                 '\\begin{center}',
-                '\\begin{large}'
-            ]
-        )
-
-        self.output_list.extend(
-            [
+                '\\begin{large}',
                 'Gene: {} - Sequence: {}\\\\'.format(
                     self.transcriptdict['genename'],
                     refseqid
                 ),
-                'Transcript: {} - Protein: {}\n'.format(rep_nm, np)
-            ]
-        )
-        if self.file_type == 'lrg':
-            self.output_list.append('LRG: {} - Date : \\today'.format(self.filename))
-        else:
-            self.output_list.append('Date : \\today')
-        self.print_pdfinfo()  
-        self.output_list.extend(
-            [
+                'Transcript: {nm} - Protein: {prot}\n'.format(
+                    nm=rep_nm, prot=np),
+                '{} - Date : \\today'.format(self.filename.replace('_', '\_')),
                 '\\end{large}',
                 '\\end{center}',
                 '$1^{st}$ line: Base numbering. Full stops for intronic +/- 5, 10, 15...\\\\',
@@ -219,14 +206,6 @@ class Reader:
                 '$3^{rd}$ line: Amino acid sequence. Printed on FIRST base of codon\\\\',
                 '$4^{th}$ line: Amino acid numbering. Numbered on $1^{st}$ and increments of 10\\\\',
                 '\\begin{alltt}'
-            ]
-        )
-
-    def print_pdfinfo(self):
-        self.output_list.extend(
-            [
-                '\\hypersetup{pdfauthor={},'.format(self.username),
-                'pdftitle={Reference sequence for gene: %s}}' % self.nm
             ]
         )
 
@@ -242,17 +221,18 @@ class Reader:
         """
 
         latex_dict = self.transcriptdict['transcripts'][self.transcript]
-        ''' Creates a LaTex file which can be converted to a final document
-            Lengths of numbers calculated using len(#)'''
+
+        # Creates a LaTex file which can be converted to a final document
+
         protein = latex_dict['protein_seq']
         refseqid = self.transcriptdict['refseqname'].replace('_', '\_')  # Required for LaTex
-        assert isinstance(latex_dict, dict)
-        # A variable to keep a count of the
-        # transcript length across all exons
+
+        # A variable to keep a count of the transcript length across all exons
         cds_count = 1 - latex_dict['cds_offset']
 
         # Account for the number 0 being skipped
         cds_count -= 1
+
         # The CDS begins at one, the preceeding base is -1. There is no 0
         # The writer must skip 0, so the extra length compensates to keep
         # values in the correct places
@@ -329,19 +309,18 @@ class Reader:
             for base_position in range(len(sequence)):
 
                 # Stop each line at a specific length
-                if characters_on_line % 60 == 0 and characters_on_line != 0\
-                        and pdfannotation_timer == 0:
+                if characters_on_line == self.max_page_width and pdfannotation_timer == 0:
                     amino_was_printed = amino_string
                     amino_was_numbered = amino_number_string
 
-                    if lines_on_page >= 41:
+                    if lines_on_page >= self.check_lines:
                         extra_lines = 2   # Base and numbering strings as default
                         if amino_was_numbered:
                             extra_lines += 1
                         if amino_was_printed:
                             extra_lines += 1
 
-                        if lines_on_page + extra_lines >= 45:
+                        if lines_on_page + extra_lines >= self.max_lines:
                             if self.write_as_LaTex:
                                 self.print_exon_end()
                             else:
@@ -405,6 +384,7 @@ class Reader:
                         cds_count = 1
                     if amino_acid_counter >= len(protein):
                         self.amino_printing = False
+
                     # Calls specific methods for character decision
                     # Simplifies local logic
                     (next_amino_string, codon_count, amino_acid_counter,
@@ -423,6 +403,7 @@ class Reader:
                             check_next_exon = latex_dict['list_of_exons'][position+1]
                         except IndexError:
                             pass
+
                         if check_sequence[check_position].isupper():
                             pos2 = check_sequence[check_position]
                             check_position += 1
@@ -533,7 +514,7 @@ class Reader:
             [
                 '\\end{alltt}',
                 '\\end{document}'
-                ]
+            ]
         )
 
     def line_printer(self, string):

@@ -33,12 +33,13 @@ class LrgParser:
                                                                           sequence (with pad)
     """
 
-    def __init__(self, file_name, padding, trim_flanking):
-        self.fileName = file_name
+    def __init__(self, file_name, app_settings, trim_flanking):
+        padding = int(app_settings['FILE_PARSER']['padding'])
+        self.file_name = file_name
         self.trim_flanking = trim_flanking
         # Read in the specified input file into a variable
         try:
-            self.tree = parse(self.fileName)
+            self.tree = parse(self.file_name)
             self.transcriptdict = {'transcripts': {},
                                    'root': self.tree.getroot(),
                                    'pad': int(padding),
@@ -67,7 +68,7 @@ class LrgParser:
         assert self.transcriptdict['pad'] <= 2000, "Padding too large, please use a value below 2000 bases"
         assert self.transcriptdict['pad'] >= 0, "Padding must be 0 or a positive value"
         if self.transcriptdict['pad'] < 0:
-            exit()
+            raise Exception('Provided padding value is below 0 - that\'s unpossible')
 
     @property
     def get_version(self):
@@ -92,7 +93,7 @@ class LrgParser:
         for annotation_set in annotation_sets:
             if annotation_set.attrib['type'] == 'ncbi':
                 features = annotation_set.find('features')
-                genes = features.findall('gene') # Multiple 'genes' includedin LRG
+                genes = features.findall('gene')  # Multiple 'genes' included in LRG
                 for gene in genes:
                     transcripts = gene.findall('transcript')
                     for transcript_block in transcripts:
@@ -123,8 +124,7 @@ class LrgParser:
 
             # Gene sequence main coordinates are required to take introns
             # Transcript coordinates wanted for output  
-            genomic_start = 0
-            genomic_end = 0
+            genomic_start, genomic_end = 0, 0
             for exon in items.iter('exon'):
                 exon_number = exon.attrib['label']
                 if exon_number[-1] in ('a', 'b', 'c', 'd'):
@@ -137,8 +137,8 @@ class LrgParser:
                         genomic_start = int(coordinates.attrib['start'])
                         genomic_end = int(coordinates.attrib['end'])
                 assert genomic_start >= 0, "Exon index out of bounds"
-                self.transcriptdict['transcripts'][t_number]["exons"][exon_number]['genomic_start'] = genomic_start
-                self.transcriptdict['transcripts'][t_number]["exons"][exon_number]['genomic_end'] = genomic_end
+                self.transcriptdict['transcripts'][t_number]["exons"][exon_number] = {'genomic_start': genomic_start,
+                                                                                      'genomic_end': genomic_end}
 
     def grab_exon_contents(self, genseq):
 
@@ -147,15 +147,14 @@ class LrgParser:
             exon_list = self.transcriptdict['transcripts'][transcript]['list_of_exons']
             for position in range(len(exon_list)):
                 exon_number = exon_list[position]
-                genomic_start = self.transcriptdict['transcripts'][transcript]['exons'][exon_number]['genomic_start']
-                genomic_end = self.transcriptdict['transcripts'][transcript]['exons'][exon_number]['genomic_end']
+                genomic_start, genomic_end = self.get_genomic_start_end(transcript, exon_number)
                 seq = genseq[genomic_start - 1:genomic_end]
                 pad = self.transcriptdict['pad']
                 if pad != 0:
                     if self.trim_flanking:
                         if exon_number < len(exon_list)-1:
                             next_exon = exon_list[position+1]
-                            next_start = self.transcriptdict['transcripts'][transcript]['exons'][next_exon]['genomic_start']
+                            next_start, _end = self.get_genomic_start_end(transcript, next_exon)
                             if genomic_end > (next_start-self.transcriptdict['pad']*2):
                                 half_way_point = int(round((next_start - (genomic_end+1))/2))
                                 if half_way_point % 2 == 1:
@@ -170,7 +169,7 @@ class LrgParser:
 
                         if exon_number != exon_list[0]:
                             previous_exon = exon_list[position-1]
-                            previous_end = self.transcriptdict['transcripts'][transcript]['exons'][previous_exon]['genomic_end']
+                            _start, previous_end = self.get_genomic_start_end(transcript, previous_exon)
                             if genomic_start < (previous_end+self.transcriptdict['pad']*2):
                                 half_way_point = int(round((genomic_start - (previous_end+1))/2))
                                 if half_way_point % 2 == 1:
@@ -209,13 +208,26 @@ class LrgParser:
         offset_total = 0
         offset = self.transcriptdict['transcripts'][transcript]['cds_offset']
         for exon in self.transcriptdict['transcripts'][transcript]['list_of_exons']:
-            g_start = self.transcriptdict['transcripts'][transcript]['exons'][exon]['genomic_start']
-            g_stop = self.transcriptdict['transcripts'][transcript]['exons'][exon]['genomic_end']
+            g_start, g_stop = self.get_genomic_start_end(transcript, exon)
             if offset > g_stop:
                 offset_total = offset_total + (g_stop - g_start) + 1
             elif g_stop > offset > g_start:
                 self.transcriptdict['transcripts'][transcript]['cds_offset'] = offset_total + (offset - g_start)
                 break
+
+    def get_genomic_start_end(self, transcript, exon_number):
+        """
+        this should minimise overall lines in this module
+        Args:
+            transcript:
+            exon_number:
+
+        Returns:
+
+        """
+        start = self.transcriptdict['transcripts'][transcript]['exons'][exon_number]['genomic_start']
+        stop = self.transcriptdict['transcripts'][transcript]['exons'][exon_number]['genomic_end']
+        return start, stop
 
     def run(self):
         # Initial sequence grabbing and populating dictionaries

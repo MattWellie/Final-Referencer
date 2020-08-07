@@ -26,7 +26,7 @@ class GbkParser:
                                                                           sequence (with pad)
     """
 
-    def __init__(self, file_name, padding, trim_flanking):
+    def __init__(self, file_name, app_settings, trim_flanking):
 
         """
         This class is created by instantiating with a file name and a padding value.
@@ -37,11 +37,12 @@ class GbkParser:
         :param file_name: the location/identity of the target input file
         :param padding: the required amount of intronic padding
         '''
+        padding = int(app_settings['FILE_PARSER']['padding'])
         self.trim_flanking = trim_flanking
         self.exons = []
         self.cds = []
         self.mrna = []
-        self.fileName = file_name
+        self.file_name = file_name
         # Read in the specified input file into a variable
         try:
             self.transcriptdict = dict(transcripts={}, input=SeqIO.to_dict(SeqIO.parse(file_name, 'genbank')),
@@ -51,7 +52,8 @@ class GbkParser:
         except IOError as fileNotPresent:
             raise Exception("The specified file cannot be located: {}".format(fileNotPresent.filename))
 
-        assert self.transcriptdict['pad'] <= 2000, "Padding too large, please use a value below 2000 bases"
+        assert self.transcriptdict['pad'] <= int(app_settings['FILE_PARSER']['max_padding']), \
+            "Padding too large, please use a value below {} bases".format(int(app_settings['FILE_PARSER']['padding']))
 
     @property
     def get_version(self):
@@ -72,10 +74,9 @@ class GbkParser:
             offset_total = 0
             offset = self.transcriptdict['transcripts'][transcript]['cds_offset']
             exon_list = self.transcriptdict['transcripts'][transcript]['list_of_exons']
-            # exon_list.sort(key=float)
+
             for exon in exon_list:
-                g_start = self.transcriptdict['transcripts'][transcript]['exons'][exon]['genomic_start']
-                g_stop = self.transcriptdict['transcripts'][transcript]['exons'][exon]['genomic_end']
+                g_start, g_stop = self.get_genomic_start_end(transcript, exon)
                 if offset > g_stop:
                     offset_total = offset_total + (g_stop - g_start)
                 elif g_stop > offset >= g_start:
@@ -140,8 +141,7 @@ class GbkParser:
         for alternative in self.transcriptdict['Alt transcripts']:
             sequence = self.transcriptdict['full genomic sequence']
             for exon_number in self.transcriptdict['transcripts'][alternative]['exons'].keys():
-                start = self.transcriptdict['transcripts'][alternative]['exons'][exon_number]['genomic_start']
-                end = self.transcriptdict['transcripts'][alternative]['exons'][exon_number]['genomic_end']
+                start, end = self.get_genomic_start_end(alternative, exon_number)
                 seq = sequence[start:end]
                 pad = self.transcriptdict['pad']
                 exon_list = self.transcriptdict['transcripts'][alternative]['list_of_exons']
@@ -149,7 +149,7 @@ class GbkParser:
                     if self.trim_flanking:
                         if exon_number < len(exon_list)-1:
                             next_exon = exon_list[exon_number]
-                            next_start = self.transcriptdict['transcripts'][alternative]['exons'][next_exon]['genomic_start']
+                            next_start, _end = self.get_genomic_start_end(alternative, next_exon)
                             if end > next_start-(self.transcriptdict['pad']*2):
                                 half_way_point = int(round((next_start - (end+1))/2))
                                 if half_way_point % 2 == 1:
@@ -164,7 +164,7 @@ class GbkParser:
 
                         if exon_number != exon_list[0]:
                             previous_exon = exon_list[exon_number-2]
-                            previous_end = self.transcriptdict['transcripts'][alternative]['exons'][previous_exon]['genomic_end']
+                            _start, previous_end = self.get_genomic_start_end(alternative, previous_exon)
                             if start < previous_end+(self.transcriptdict['pad']*2):
                                 half_way_point = int(round((start - (previous_end+1))/2))
                                 if half_way_point % 2 == 1:
@@ -216,6 +216,20 @@ class GbkParser:
             note = self.mrna[0].qualifiers['note'][0]
             self.transcriptdict['genename'] = note.split('=')[1]
         assert len(self.cds) == len(self.mrna), "There are a different number of CDS and mRNA"
+
+    def get_genomic_start_end(self, transcript, exon_number):
+        """
+        this should minimise overall lines in this module
+        Args:
+            transcript:
+            exon_number:
+
+        Returns: start and end values
+
+        """
+        start = self.transcriptdict['transcripts'][transcript]['exons'][exon_number]['genomic_start']
+        stop = self.transcriptdict['transcripts'][transcript]['exons'][exon_number]['genomic_end']
+        return start, stop
 
     def run(self):
         """

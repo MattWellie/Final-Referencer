@@ -1,10 +1,12 @@
 # -*- coding: utf-8 -*-
 import argparse
+import configparser
 from reader import Reader
 from latex_writer import LatexWriter
 from subprocess import call
 from primer_module import Primer
 import os
+import logging
 
 __author__ = 'mwelland'
 __version__ = 2.0
@@ -62,6 +64,20 @@ def get_version():
     return 'Version: {0}, Version Date: {1}'.format(str(__version__), __version_date__)
 
 
+def check_for_required_folders():
+    """
+    input: files,
+    primers: files,
+    output: files,
+            tex_files: files,
+    requirements,
+    """
+    top_level_files = os.listdir('.')
+    assert all([folder_name in top_level_files for folder_name in
+               ['input', 'primers', 'output', 'requirements']])
+    assert 'tex_files' in os.listdir('output')
+
+
 def about():
     return """
     \nMatthew Welland, 8, January 2015
@@ -101,29 +117,24 @@ def about():
 
 
 def run_parser(input_file):
-
-    padding = 300
     file_type = check_file_type(input_file)
-    primer_list = os.listdir('primers')
-    primer_applied = False
     if file_type == 'gbk':
         from GbkParser import GbkParser
-        gbk_reader = GbkParser(input_file, padding, args.trim_flanking)
+        gbk_reader = GbkParser(input_file, app_settings, args.trim_flanking)
         dictionary = gbk_reader.run()
         parser_details = gbk_reader.get_version
     elif file_type == 'lrg':
         from LrgParser import LrgParser
-        lrg_reader = LrgParser(input_file, padding, args.trim_flanking)
+        lrg_reader = LrgParser(input_file, app_settings, args.trim_flanking)
         dictionary = lrg_reader.run()
         parser_details = lrg_reader.get_version
 
     else:
         raise Exception("Unrecognised file format: {}".format(file_type))
 
+    primer_list = os.listdir('primers')
     if '{}.csv'.format(dictionary['genename']) in primer_list:
-        primer_applied = True
         primer_label = Primer(dictionary, os.getcwd())
-        primer_details = 'Primer Labels: {}'.format(primer_label.get_version)
         dictionary = primer_label.run()
 
     parser_details = '{} Parser: {}'.format(
@@ -134,14 +145,11 @@ def run_parser(input_file):
     os.chdir("output")
     for transcript in dictionary['transcripts']:
         version_details = 'RerenceTypeSetter: {}'.format(get_version())
-        if primer_applied:
-            list_of_versions = [parser_details, version_details, primer_details]
-        else:
-            list_of_versions = [parser_details, version_details]
+        list_of_versions = [parser_details, version_details]
 
         lrg_num = "{}t{}".format(
             input_file.split('.')[0].split('/')[1],
-            str(transcript)
+            transcript
         )
 
         input_reader = Reader(
@@ -152,35 +160,28 @@ def run_parser(input_file):
             args.print_clashes,
             file_type,
             lrg_num,
-            args.author
+            args.author,
+            app_settings
         )
         input_list, nm = input_reader.run()
         if file_type == 'gbk':
-            filename = "{}_{}".format(
-                dictionary['genename'],
-                nm
-            )
+            filename = "{}_{}".format(dictionary['genename'], nm)
         else:
-            filename = "{}_{}".format(
-                dictionary['genename'],
-                lrg_num
-            )
-            # filename = dictionary['genename']+'_'+ input_file.split('.')[0].split('/')[1]+'t'+str(transcript)
+            filename = "{}_{}".format(dictionary['genename'], lrg_num)
 
         writer = LatexWriter(input_list, filename, args.write_as_latex)
         writer_output = writer.run()
         if args.write_as_latex:
-            call(["pdflatex", "-interaction=batchmode", writer_output[0]])
-            clean_up(os.getcwd(), writer_output[1])
-            move_files(writer_output[0])
+            try:
+                call(["pdflatex", "-interaction=batchmode", writer_output[0]])
+                clean_up(os.getcwd(), writer_output[1])
+                move_files(writer_output[0])
+            except:
+                logging.error('pdflatex call failed', exc_info=True)
 
 
-def kill_the_spare():
-    pass
-
-
-def move_files(latex):
-    os.rename(latex, os.path.join('tex files', latex))
+def move_files(latex_file):
+    os.rename(latex_file, os.path.join('tex_files', latex_file))
 
 
 def clean_up(path, pdf_file):
@@ -188,14 +189,15 @@ def clean_up(path, pdf_file):
     pwd_files = os.listdir(path)
     pdf_files = [doc for doc in pwd_files if doc.endswith('pdf')]
     for target in pdf_files:        
-        if target != 'tex files':
+        if target != 'tex_files':
             target_split = target.split('_')
             if target_split[0:3] == pdf_split[0:3] and target_split[-2:] != pdf_split[-2:]:
                 os.remove(os.path.join(path, target))
 
-    targets = [doc for doc in pwd_files if doc.split('.')[-1] not in keep_extensions]
+    targets = [doc for doc in pwd_files if doc.split('.')[-1] not in
+               app_settings['DEFAULT']['keep_extensions'].split(',')]
     for target in targets:
-        if target != 'tex files':
+        if target != 'tex_files':
             os.remove(os.path.join(path, target))
 
 
@@ -218,8 +220,14 @@ if __name__ == "__main__":
     arg_parser.add_argument('--trim', dest='trim_flanking', action='store_false', default=True)
     arg_parser.add_argument('--clashes', dest='print_clashes', action='store_false', default=True)
     arg_parser.add_argument('--text', dest='write_as_latex', action='store_false', default=True)
+    arg_parser.add_argument('--config', dest='settings', default='settings/default_settings.ini')
     arg_parser.add_argument('--author', default="mwelland")
     args = arg_parser.parse_args()
+
+    app_settings = configparser.ConfigParser()
+    app_settings.read(args.settings)
+
+    check_for_required_folders()
 
     keep_extensions = ['pdf', 'tex']
     run_parser(args.input_file)
